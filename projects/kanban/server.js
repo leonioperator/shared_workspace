@@ -94,6 +94,11 @@ app.post('/api/tasks/:taskId/move', (req, res) => {
   const targetCol = data.columns.find(c => c.id === targetColumnId);
   if (!targetCol) return res.status(404).json({ error: 'Target column not found' });
   
+  // Track when task enters done
+  if (targetColumnId === 'done') {
+    task.doneAt = new Date().toISOString();
+  }
+  
   const pos = position !== undefined ? position : targetCol.tasks.length;
   targetCol.tasks.splice(pos, 0, task);
   saveTasks(data);
@@ -114,6 +119,35 @@ app.delete('/api/tasks/:taskId', (req, res) => {
     }
   }
   res.status(404).json({ error: 'Task not found' });
+});
+
+// Archive done tasks older than 24h
+app.post('/api/tasks/archive', (req, res) => {
+  const data = loadTasks();
+  const doneCol = data.columns.find(c => c.id === 'done');
+  let archiveCol = data.columns.find(c => c.id === 'archive');
+  
+  if (!archiveCol) {
+    archiveCol = { id: 'archive', title: 'Archive', tasks: [] };
+    data.columns.push(archiveCol);
+  }
+  
+  const now = Date.now();
+  const DAY_MS = 24 * 60 * 60 * 1000;
+  const toArchive = [];
+  
+  doneCol.tasks = doneCol.tasks.filter(t => {
+    const doneTime = t.doneAt ? new Date(t.doneAt).getTime() : new Date(t.updatedAt).getTime();
+    if (now - doneTime > DAY_MS) {
+      toArchive.push(t);
+      return false;
+    }
+    return true;
+  });
+  
+  archiveCol.tasks.push(...toArchive);
+  saveTasks(data);
+  res.json({ archived: toArchive.length, total_archive: archiveCol.tasks.length });
 });
 
 app.listen(PORT, () => {

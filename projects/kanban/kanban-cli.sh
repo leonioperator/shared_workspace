@@ -5,9 +5,13 @@
 #   kanban add <column> <title> [desc] [priority] [assignee] — add task
 #   kanban move <task_id> <target_column> — move task to column
 #   kanban done <task_id>          — shortcut: move to done
+#   kanban review <task_id> [msg]  — move to review (blocked, needs human input)
 #   kanban find <search_term>      — find task by title substring
+#   kanban delete <task_id>        — delete task
+#   kanban archive                 — archive done tasks older than 24h
 #
-# Columns: backlog, todo, in-progress, review, done
+# Columns: backlog, todo, in-progress, review, done, archive
+# Review = agent elakadt, emberi beavatkozás kell (Telegram alert küldés)
 
 API="http://localhost:3848/api"
 
@@ -21,8 +25,10 @@ filt='$FILTER'
 for c in d['columns']:
     if filt and c['id'] != filt:
         continue
+    if c['id'] == 'archive' and not filt:
+        continue
     if c['tasks']:
-        print(f\"\\n[{c['title']}]\")
+        print(f\"\\n[{c['title']}] ({len(c['tasks'])})\")
         for t in c['tasks']:
             p = t.get('priority','?')
             a = t.get('assignee','')
@@ -44,6 +50,13 @@ for c in d['columns']:
     curl -s -X POST "$API/tasks/$TASK_ID/move" -H 'Content-Type: application/json' \
       -d '{"targetColumnId":"done"}' | python3 -c "import sys,json; d=json.load(sys.stdin); print('Moved to Done' if d.get('ok') else f'Error: {d}')"
     ;;
+  review)
+    TASK_ID="$2"; MSG="${3:-Agent elakadt, emberi beavatkozás szükséges}"
+    curl -s -X POST "$API/tasks/$TASK_ID/move" -H 'Content-Type: application/json' \
+      -d '{"targetColumnId":"review"}' | python3 -c "import sys,json; d=json.load(sys.stdin); print('Moved to Review' if d.get('ok') else f'Error: {d}')"
+    # Note: Telegram alert should be sent by the calling agent
+    echo "⚠️  REVIEW: $MSG (send Telegram alert!)"
+    ;;
   find)
     SEARCH="$2"
     curl -s "$API/tasks" | python3 -c "
@@ -60,8 +73,15 @@ for c in d['columns']:
     TASK_ID="$2"
     curl -s -X DELETE "$API/tasks/$TASK_ID" | python3 -c "import sys,json; d=json.load(sys.stdin); print('Deleted' if d.get('ok') else f'Error: {d}')"
     ;;
+  archive)
+    curl -s -X POST "$API/tasks/archive" | python3 -c "import sys,json; d=json.load(sys.stdin); print(f'Archived: {d[\"archived\"]} tasks (total in archive: {d[\"total_archive\"]})')"
+    ;;
   *)
-    echo "Usage: kanban {list|add|move|done|find|delete} [args]"
-    echo "Columns: backlog, todo, in-progress, review, done"
+    echo "Usage: kanban {list|add|move|done|review|find|delete|archive} [args]"
+    echo "Columns: backlog, todo, in-progress, review, done, archive"
+    echo ""
+    echo "Workflow:"
+    echo "  backlog → todo → in-progress → done (→ archive after 24h)"
+    echo "  in-progress → review (blocked, Telegram alert) → in-progress"
     ;;
 esac
