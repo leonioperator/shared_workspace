@@ -1,0 +1,23 @@
+A shared_workspace github repo-ra vonatkozó új szabály, ezt jegyezd fel megfelelő helyre és ezzel megyünk tovább:
+
+Leoni Operator oldali ciklus (30 percenként)
+A VPS-en futó Leoni Operator logika:
+- git fetch origin
+- git reset --hard origin/main
+
+Inbox fájlok beolvasása
+Feldolgozás
+
+Fájl áthelyezése:
+ -git mv inbox/task.md processed/task.md
+
+Outbound válasz létrehozása
+ -outbound/reply-task.md
+Commit
+ -git pull --rebase origin main
+ - git push origin main
+
+Ez azért fontos, mert:
+– Leoni Operator mindig friss main-ből dolgozik
+– rebase miatt nem keletkezik merge commit
+– nem ütközik Tomi commitjaival
