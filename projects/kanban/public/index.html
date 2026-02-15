@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leoni Kanban</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+    .header {
+      background: #1e293b;
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #334155;
+    }
+    .header h1 { font-size: 18px; font-weight: 600; color: #38bdf8; }
+    .header .links a {
+      color: #94a3b8;
+      text-decoration: none;
+      font-size: 13px;
+      margin-left: 16px;
+    }
+    .header .links a:hover { color: #38bdf8; }
+    .board {
+      display: flex;
+      gap: 16px;
+      padding: 24px;
+      overflow-x: auto;
+      min-height: calc(100vh - 52px);
+    }
+    .column {
+      background: #1e293b;
+      border-radius: 8px;
+      min-width: 260px;
+      max-width: 300px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .column-header {
+      padding: 12px 16px;
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #94a3b8;
+      border-bottom: 1px solid #334155;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .column-header .count {
+      background: #334155;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 11px;
+    }
+    .column-body {
+      padding: 8px;
+      flex: 1;
+      min-height: 100px;
+    }
+    .task-card {
+      background: #0f172a;
+      border: 1px solid #334155;
+      border-radius: 6px;
+      padding: 12px;
+      margin-bottom: 8px;
+      cursor: grab;
+      transition: border-color 0.15s, transform 0.1s;
+    }
+    .task-card:hover { border-color: #38bdf8; }
+    .task-card.dragging { opacity: 0.5; transform: rotate(2deg); }
+    .task-card .title { font-size: 14px; font-weight: 500; margin-bottom: 6px; }
+    .task-card .desc { font-size: 12px; color: #94a3b8; margin-bottom: 8px; }
+    .task-card .meta { display: flex; gap: 8px; align-items: center; }
+    .priority {
+      font-size: 10px;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .priority.high { background: #7f1d1d; color: #fca5a5; }
+    .priority.medium { background: #78350f; color: #fcd34d; }
+    .priority.low { background: #064e3b; color: #6ee7b7; }
+    .assignee {
+      font-size: 11px;
+      color: #64748b;
+    }
+    .add-btn {
+      margin: 8px;
+      padding: 8px;
+      background: none;
+      border: 1px dashed #334155;
+      border-radius: 6px;
+      color: #64748b;
+      cursor: pointer;
+      font-size: 13px;
+      transition: all 0.15s;
+    }
+    .add-btn:hover { border-color: #38bdf8; color: #38bdf8; }
+    .drop-zone { border: 2px dashed #38bdf8; background: rgba(56,189,248,0.05); border-radius: 6px; min-height: 60px; }
+    
+    /* Modal */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 100;
+      align-items: center;
+      justify-content: center;
+    }
+    .modal-overlay.active { display: flex; }
+    .modal {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 12px;
+      padding: 24px;
+      width: 400px;
+      max-width: 90vw;
+    }
+    .modal h2 { font-size: 16px; margin-bottom: 16px; color: #38bdf8; }
+    .modal label { display: block; font-size: 12px; color: #94a3b8; margin-bottom: 4px; margin-top: 12px; }
+    .modal input, .modal textarea, .modal select {
+      width: 100%;
+      background: #0f172a;
+      border: 1px solid #334155;
+      border-radius: 6px;
+      padding: 8px 12px;
+      color: #e2e8f0;
+      font-size: 14px;
+      font-family: inherit;
+    }
+    .modal textarea { height: 80px; resize: vertical; }
+    .modal .actions { display: flex; gap: 8px; margin-top: 20px; justify-content: flex-end; }
+    .modal .actions button {
+      padding: 8px 16px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .btn-primary { background: #38bdf8; color: #0f172a; }
+    .btn-primary:hover { background: #7dd3fc; }
+    .btn-secondary { background: #334155; color: #e2e8f0; }
+    .btn-danger { background: #7f1d1d; color: #fca5a5; }
+    .btn-danger:hover { background: #991b1b; }
+    .task-card .delete-btn {
+      float: right;
+      background: none;
+      border: none;
+      color: #475569;
+      cursor: pointer;
+      font-size: 14px;
+      padding: 0 4px;
+    }
+    .task-card .delete-btn:hover { color: #f87171; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>📋 Leoni Kanban</h1>
+    <div class="links">
+      <a href="http://localhost:3847" target="_blank">🛡️ ClawGuard</a>
+    </div>
+  </div>
+  <div class="board" id="board"></div>
+
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal">
+      <h2 id="modal-title">Új feladat</h2>
+      <label>Cím</label>
+      <input type="text" id="task-title" placeholder="Feladat neve...">
+      <label>Leírás</label>
+      <textarea id="task-desc" placeholder="Részletek..."></textarea>
+      <label>Prioritás</label>
+      <select id="task-priority">
+        <option value="low">Low</option>
+        <option value="medium" selected>Medium</option>
+        <option value="high">High</option>
+      </select>
+      <label>Assignee</label>
+      <input type="text" id="task-assignee" placeholder="Leoni / Tomi / ...">
+      <div class="actions">
+        <button class="btn-secondary" onclick="closeModal()">Mégse</button>
+        <button class="btn-danger" id="delete-btn" style="display:none" onclick="deleteTask()">Törlés</button>
+        <button class="btn-primary" id="save-btn" onclick="saveTask()">Mentés</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let boardData = null;
+    let currentColumnId = null;
+    let editingTaskId = null;
+    let draggedTaskId = null;
+
+    async function load() {
+      const res = await fetch('/api/tasks');
+      boardData = await res.json();
+      render();
+    }
+
+    function render() {
+      const board = document.getElementById('board');
+      board.innerHTML = '';
+      for (const col of boardData.columns) {
+        const colEl = document.createElement('div');
+        colEl.className = 'column';
+        colEl.innerHTML = `
+          <div class="column-header">
+            <span>${col.title}</span>
+            <span class="count">${col.tasks.length}</span>
+          </div>
+          <div class="column-body" data-column="${col.id}"
+            ondragover="onDragOver(event)" ondragleave="onDragLeave(event)" ondrop="onDrop(event, '${col.id}')">
+            ${col.tasks.map(t => taskCard(t)).join('')}
+          </div>
+          <button class="add-btn" onclick="openAdd('${col.id}')">+ Feladat</button>
+        `;
+        board.appendChild(colEl);
+      }
+    }
+
+    function taskCard(t) {
+      return `<div class="task-card" draggable="true" data-id="${t.id}"
+        ondragstart="onDragStart(event, '${t.id}')" ondragend="onDragEnd(event)"
+        ondblclick="openEdit('${t.id}')">
+        <button class="delete-btn" onclick="event.stopPropagation();editingTaskId='${t.id}';deleteTask()">×</button>
+        <div class="title">${esc(t.title)}</div>
+        ${t.description ? `<div class="desc">${esc(t.description)}</div>` : ''}
+        <div class="meta">
+          <span class="priority ${t.priority}">${t.priority}</span>
+          ${t.assignee ? `<span class="assignee">${esc(t.assignee)}</span>` : ''}
+        </div>
+      </div>`;
+    }
+
+    function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+    function openAdd(colId) {
+      currentColumnId = colId;
+      editingTaskId = null;
+      document.getElementById('modal-title').textContent = 'Új feladat';
+      document.getElementById('task-title').value = '';
+      document.getElementById('task-desc').value = '';
+      document.getElementById('task-priority').value = 'medium';
+      document.getElementById('task-assignee').value = '';
+      document.getElementById('delete-btn').style.display = 'none';
+      document.getElementById('modal-overlay').classList.add('active');
+      document.getElementById('task-title').focus();
+    }
+
+    function openEdit(taskId) {
+      let task;
+      for (const col of boardData.columns) {
+        task = col.tasks.find(t => t.id === taskId);
+        if (task) { currentColumnId = col.id; break; }
+      }
+      if (!task) return;
+      editingTaskId = taskId;
+      document.getElementById('modal-title').textContent = 'Feladat szerkesztése';
+      document.getElementById('task-title').value = task.title;
+      document.getElementById('task-desc').value = task.description;
+      document.getElementById('task-priority').value = task.priority;
+      document.getElementById('task-assignee').value = task.assignee;
+      document.getElementById('delete-btn').style.display = 'inline-block';
+      document.getElementById('modal-overlay').classList.add('active');
+    }
+
+    function closeModal() {
+      document.getElementById('modal-overlay').classList.remove('active');
+    }
+
+    async function saveTask() {
+      const title = document.getElementById('task-title').value.trim();
+      if (!title) return;
+      const body = {
+        title,
+        description: document.getElementById('task-desc').value.trim(),
+        priority: document.getElementById('task-priority').value,
+        assignee: document.getElementById('task-assignee').value.trim()
+      };
+
+      if (editingTaskId) {
+        await fetch(`/api/tasks/${editingTaskId}`, { method: 'PUT', headers: {'Content-Type':'application/json'}, body: JSON.stringify(body) });
+      } else {
+        await fetch('/api/tasks', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({ ...body, columnId: currentColumnId }) });
+      }
+      closeModal();
+      await load();
+    }
+
+    async function deleteTask() {
+      if (!editingTaskId) return;
+      await fetch(`/api/tasks/${editingTaskId}`, { method: 'DELETE' });
+      closeModal();
+      editingTaskId = null;
+      await load();
+    }
+
+    // Drag & Drop
+    function onDragStart(e, taskId) {
+      draggedTaskId = taskId;
+      e.target.classList.add('dragging');
+      e.dataTransfer.effectAllowed = 'move';
+    }
+    function onDragEnd(e) { e.target.classList.remove('dragging'); }
+    function onDragOver(e) { e.preventDefault(); e.currentTarget.classList.add('drop-zone'); }
+    function onDragLeave(e) { e.currentTarget.classList.remove('drop-zone'); }
+    async function onDrop(e, columnId) {
+      e.preventDefault();
+      e.currentTarget.classList.remove('drop-zone');
+      if (!draggedTaskId) return;
+      await fetch(`/api/tasks/${draggedTaskId}/move`, {
+        method: 'POST',
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify({ targetColumnId: columnId })
+      });
+      draggedTaskId = null;
+      await load();
+    }
+
+    // Keyboard
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+    load();
+  </script>
+</body>
+</html>
