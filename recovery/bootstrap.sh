@@ -139,17 +139,19 @@ fi
 ###############################################################################
 log "OpenClaw konfigurálás..."
 if [ ! -f /root/.openclaw/openclaw.json ]; then
-  warn "openclaw.json nem létezik — futtasd: openclaw configure"
-  warn "Vagy másold a recovery/openclaw.json.template fájlt és módosítsd."
-  echo ""
-  echo "Minimum config szükséges:"
-  echo "  - Telegram bot token"
-  echo "  - Anthropic API key"  
-  echo "  - OpenAI API key"
-  echo ""
-  read -p "Futtassam az 'openclaw configure'-t? [y/N]: " CONF
-  if [ "$CONF" = "y" ] || [ "$CONF" = "Y" ]; then
-    openclaw configure
+  if [ -f /root/shared_workspace/recovery/openclaw.json.template ]; then
+    cp /root/shared_workspace/recovery/openclaw.json.template /root/.openclaw/openclaw.json
+    warn "openclaw.json TEMPLATE-ből létrehozva!"
+    warn "Szerkeszd és töltsd ki a __FILL_IN__ mezőket:"
+    warn "  nano /root/.openclaw/openclaw.json"
+    warn "Szükséges: Telegram botToken, Anthropic/OpenAI API key, Twilio tokens"
+    read -p "Nyomj ENTER-t ha kész: "
+  else
+    warn "openclaw.json nem létezik — futtasd: openclaw configure"
+    read -p "Futtassam az 'openclaw configure'-t? [y/N]: " CONF
+    if [ "$CONF" = "y" ] || [ "$CONF" = "Y" ]; then
+      openclaw configure
+    fi
   fi
 else
   log "openclaw.json OK"
@@ -171,8 +173,15 @@ log "Himalaya OK"
 # Himalaya config
 mkdir -p /root/.config/himalaya
 if [ ! -f /root/.config/himalaya/config.toml ]; then
-  source /root/.env
-  cat > /root/.config/himalaya/config.toml << HIMALAYA
+  if [ -f /root/shared_workspace/recovery/himalaya-config.toml.template ]; then
+    source /root/.env
+    # Substitute env vars into template
+    envsubst < /root/shared_workspace/recovery/himalaya-config.toml.template > /root/.config/himalaya/config.toml 2>/dev/null || true
+  fi
+  # Fallback: generate from .env
+  if [ ! -f /root/.config/himalaya/config.toml ] || ! grep -q "imap" /root/.config/himalaya/config.toml; then
+    source /root/.env
+    cat > /root/.config/himalaya/config.toml << HIMALAYA
 [accounts.default]
 email = "${EMAIL_ADDRESS}"
 display-name = "Leoni Operator"
@@ -200,7 +209,8 @@ folder.aliases.trash = "INBOX.Trash"
 
 message.send.save-copy = true
 HIMALAYA
-  log "Himalaya config létrehozva"
+    log "Himalaya config létrehozva"
+  fi
 else
   log "Himalaya config OK"
 fi
@@ -226,6 +236,11 @@ if [ ! -d /root/kanban ]; then
     warn "Manuálisan kell visszaállítani."
   fi
   cd /root/kanban && npm install > /dev/null 2>&1
+  # Restore tasks
+  if [ -f /root/.openclaw/workspace/ops/kanban/tasks.json ]; then
+    cp /root/.openclaw/workspace/ops/kanban/tasks.json /root/kanban/tasks.json
+    log "Kanban tasks restored"
+  fi
 fi
 
 # Kanban systemd service
@@ -341,10 +356,13 @@ if [ -d /root/shared_workspace/processed ]; then
     log "Leoni voice reference OK"
 fi
 
-# Voice generate scripts (Leoni will recreate these if missing)
+# Voice generate scripts from workspace backup
 for voice in tomi evi leoni; do
-  if [ ! -f /usr/local/share/tts-voices/$voice/generate.py ]; then
-    warn "Voice generate script hiányzik: $voice — Leoni újra létrehozza recovery során."
+  if [ -f /root/.openclaw/workspace/ops/tts-voices/$voice/generate.py ]; then
+    cp /root/.openclaw/workspace/ops/tts-voices/$voice/generate.py /usr/local/share/tts-voices/$voice/generate.py
+    log "Voice script restored: $voice"
+  else
+    warn "Voice generate script hiányzik: $voice"
   fi
 done
 
