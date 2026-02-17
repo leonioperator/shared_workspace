@@ -428,7 +428,21 @@ if [ -d /root/.openclaw/workspace/ops/clawguard-patches ]; then
 fi
 
 ###############################################################################
-# 14. OpenClaw indítása
+# 14. IP-függő konfigok frissítése
+###############################################################################
+PUBLIC_IP=$(curl -s ifconfig.me 2>/dev/null || curl -s icanhazip.com 2>/dev/null || echo "UNKNOWN")
+log "Publikus IP: $PUBLIC_IP"
+
+if [ "$PUBLIC_IP" != "UNKNOWN" ] && [ -f /root/.openclaw/openclaw.json ]; then
+  # Frissítsd a Twilio publicUrl-t az új IP-re
+  sed -i "s|http://[0-9.]*:3001/voice|http://$PUBLIC_IP:3001/voice|g" /root/.openclaw/openclaw.json
+  log "Twilio publicUrl frissítve: http://$PUBLIC_IP:3001/voice"
+  warn "FONTOS: A Twilio dashboard-on is frissítsd a webhook URL-t!"
+  warn "  https://console.twilio.com → Phone Numbers → $PUBLIC_IP:3001/voice"
+fi
+
+###############################################################################
+# 15. OpenClaw indítása
 ###############################################################################
 log "OpenClaw indítása..."
 openclaw gateway start
