@@ -1,0 +1,26 @@
+[accounts.default]
+email = "leoni.operator@vinczetamas.hu"
+display-name = "Leoni Operator"
+default = true
+backend.type = "imap"
+backend.host = "thsixtyfour.tarhely.eu"
+backend.port = 993
+backend.encryption.type = "tls"
+backend.login = "leoni.operator@vinczetamas.hu"
+backend.auth.type = "password"
+backend.auth.cmd = "printf %s __FILL_IN__"
+
+message.send.backend.type = "smtp"
+message.send.backend.host = "thsixtyfour.tarhely.eu"
+message.send.backend.port = 587
+message.send.backend.encryption.type = "start-tls"
+message.send.backend.login = "leoni.operator@vinczetamas.hu"
+message.send.backend.auth.type = "password"
+message.send.backend.auth.cmd = "printf %s __FILL_IN__"
+
+folder.aliases.inbox = "INBOX"
+folder.aliases.sent = "INBOX.Sent"
+folder.aliases.drafts = "INBOX.Drafts"
+folder.aliases.trash = "INBOX.Trash"
+
+message.send.save-copy = true

@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.2.15",
+    "lastTouchedAt": "2026-02-17T12:14:38.387Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-02-14T23:47:42.692Z",
+    "lastRunVersion": "2026.2.13",
+    "lastRunCommand": "configure",
+    "lastRunMode": "local"
+  },
+  "browser": {
+    "enabled": true,
+    "executablePath": "/snap/bin/chromium",
+    "headless": true,
+    "noSandbox": true
+  },
+  "auth": {
+    "profiles": {
+      "anthropic:default": {
+        "provider": "anthropic",
+        "mode": "api_key"
+      },
+      "openai:default": {
+        "provider": "openai",
+        "mode": "api_key"
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "models": {
+        "anthropic/claude-opus-4-6": {
+          "params": {
+            "cacheRetention": "long"
+          }
+        },
+        "openai/gpt-4o": {},
+        "anthropic/claude-sonnet-4-5-20250514": {
+          "params": {
+            "cacheRetention": "long"
+          }
+        },
+        "anthropic/claude-sonnet-4-5": {
+          "alias": "sonnet",
+          "params": {
+            "cacheRetention": "long"
+          }
+        }
+      },
+      "workspace": "/root/.openclaw/workspace",
+      "contextPruning": {
+        "mode": "cache-ttl",
+        "ttl": "1h",
+        "keepLastAssistants": 3,
+        "softTrimRatio": 0.3,
+        "hardClearRatio": 0.5,
+        "minPrunableToolChars": 50000
+      },
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions",
+    "tts": {
+      "provider": "openai",
+      "openai": {
+        "model": "tts-1",
+        "voice": "alloy"
+      }
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto"
+  },
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "session-memory": {
+          "enabled": true
+        },
+        "command-logger": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "botToken": "__FILL_IN__",
+      "groupPolicy": "allowlist",
+      "streamMode": "partial"
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "__FILL_IN__"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "calendar.add",
+        "contacts.add",
+        "reminders.add"
+      ]
+    }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    },
+    "entries": {
+      "himalaya": {
+        "enabled": true
+      }
+    }
+  },
+  "plugins": {
+    "entries": {
+      "telegram": {
+        "enabled": true
+      },
+      "voice-call": {
+        "enabled": true,
+        "config": {
+          "provider": "twilio",
+          "fromNumber": "+15012145390",
+          "twilio": {
+            "accountSid": "__FILL_IN__",
+            "authToken": "__FILL_IN__"
+          },
+          "serve": {
+            "port": 3001,
+            "path": "/voice",
+            "bind": "0.0.0.0"
+          },
+          "publicUrl": "http://116.203.66.80:3001/voice",
+          "outbound": {
+            "defaultMode": "notify"
+          },
+          "streaming": {
+            "enabled": false
+          },
+          "tts": {
+            "provider": "elevenlabs",
+            "elevenlabs": {
+              "apiKey": "__FILL_IN__",
+              "voiceId": "QFGjjQPlsaTq1iPmzZSz",
+              "modelId": "eleven_multilingual_v2"
+            }
+          }
+        }
+      }
+    }
+  }
+}
