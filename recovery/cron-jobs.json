@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Email and GitHub Check (daytime)",
+    "schedule": {"kind":"cron","expr":"0 6-22/2 * * *","tz":"Europe/Budapest"},
+    "sessionTarget": "main",
+    "payload": {"kind":"systemEvent","text":"Check emails and GitHub repository for updates."}
+  },
+  {
+    "name": "Kanban feladat ellenőrzés (óránként)",
+    "schedule": {"kind":"cron","expr":"0 * * * *","tz":"Europe/Budapest"},
+    "sessionTarget": "main",
+    "payload": {"kind":"systemEvent","text":"Kanban ellenőrzés: nézd meg a todo és in-progress feladatokat (`kanban list`). Ha van in-progress feladat ami nem halad, jelezd Tominak. Ha van todo ami indítható, kezdd el."}
+  },
+  {
+    "name": "Workspace napi git push",
+    "schedule": {"kind":"cron","expr":"0 21 * * *","tz":"Europe/Budapest"},
+    "sessionTarget": "main",
+    "payload": {"kind":"systemEvent","text":"Napi workspace git push ideje. Commitold és pushold a workspace változásokat: cd ~/.openclaw/workspace && git add -A && git commit -m 'Daily auto-sync YYYY-MM-DD' && git push origin main. Ha nincs változás, skip."}
+  },
+  {
+    "name": "Napi hírlevél feldolgozás",
+    "schedule": {"kind":"cron","expr":"0 6 * * *","tz":"Europe/Budapest"},
+    "sessionTarget": "main",
+    "payload": {"kind":"systemEvent","text":"Napi hírlevél feldolgozás: olvasd el az előző nap beérkezett hírleveleket (himalaya envelope list), szintetizáld a KKV/AI releváns tartalmakat a Navibase kontextusában. Minden 2. nap készíts draft hírlevelet az elkezdodott.hu-ra (MailerLite draft). A hírlevél struktúra: trend összefoglaló + gyakorlati tanulság + Navibase CTA. Forrás hírlevelek: TLDR AI, Mindstream, Superhuman AI, The Neuron, Rundown AI, Ben's Bites, Staying Ahead."}
+  },
+  {
+    "name": "Reggeli brief",
+    "schedule": {"kind":"cron","expr":"30 6 * * *","tz":"Europe/Budapest"},
+    "sessionTarget": "main",
+    "payload": {"kind":"systemEvent","text":"Reggeli brief ideje. Hozd létre a mai napi journalt (memory/YYYY-MM-DD.md), nézd át a tegnapit, ellenőrizd az emaileket és a shared_workspace inbox-ot, majd küldj Tominek egy rövid reggeli briefet Telegramon: mi van mára, mi maradt tegnapról, van-e kockázat."}
+  },
+  {
+    "name": "Kanban archive check",
+    "schedule": {"kind":"cron","expr":"0 7 * * *","tz":"Europe/Budapest"},
+    "sessionTarget": "main",
+    "payload": {"kind":"systemEvent","text":"Napi Kanban archiválás: futtasd a `kanban archive` parancsot, ami a 24 óránál régebbi done taskokat áthelyezi az archive oszlopba."}
+  },
+  {
+    "name": "Heti összefoglaló (hétfő)",
+    "schedule": {"kind":"cron","expr":"0 8 * * 1","tz":"Europe/Budapest"},
+    "sessionTarget": "main",
+    "payload": {"kind":"systemEvent","text":"Hétfő reggeli heti review. Olvasd el a HEARTBEAT.md heti összefoglaló részét és kövesd pontosan: készíts RÉSZLETES heti összefoglalót (elvégzett feladatok, nyitott itemek, problémák+megoldások, tanulságok, költség/token összesítés, javaslat a következő hétre), KÜLDD EL EMAIL-BEN vt@vinczetamas.hu címre, Telegram-ra CSAK rövid értesítés: 'Heti összefoglaló elküldve emailben', és pushold shared_workspace/reports/weekly/YYYY-MM-DD.md fájlba. Frissítsd a MEMORY.md-t ha van hosszú távú tanulság. Ellenőrizd a recovery kit-et. GitHub repo karbantartás. Dependency audit. VERZIÓ CHECK: openclaw + clawguard, jelezd ha van újabb."}
+  }
+]
