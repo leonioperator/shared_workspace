@@ -1,6 +1,6 @@
 # dn-dev-02 Audit Review & Fejlesztési Terv
 
-**Készítette:** Leoni (dn-optigen-01)
+**Készítette:** Leoni (dn-leoni-01)
 **Dátum:** 2026-02-15
 **Forrás:** Claude Sonnet 4.5 rendszer audit (2026-02-13)
 **Célrendszer:** dn-dev-02 (46.224.176.95) — Navibase/OpenClaw stack
@@ -121,10 +121,10 @@ Ezek nem kritikusak, de döntést igényelnek: elfogadjuk őket az architektúr�
 1. **Kanban:** Külön service marad vagy skill-be integráljuk?
 2. **Dev stack:** Kell-e egyáltalán a dev gateway (/opt/openclaw), vagy elég a navibase-oc?
 3. **Telegram bot:** Melyik bottól menjenek az értesítések? (Leoni botja vagy külön Navibase bot?)
-4. **Fázis 2-3 prioritás:** Ki csinálja? Főnök agent (dn-dev-02) vagy Leoni (dn-optigen-01) távoli hozzáféréssel?
+4. **Fázis 2-3 prioritás:** Ki csinálja? Főnök agent (dn-dev-02) vagy Leoni (dn-leoni-01) távoli hozzáféréssel?
 
 ### Leoni szerepe:
-Én (Leoni, dn-optigen-01) tudok segíteni:
+Én (Leoni, dn-leoni-01) tudok segíteni:
 - Deploy/backup scriptek megírásában (átadás shared_workspace-en keresztül)
 - Dokumentáció review-ban
 - Monitoring/alerting tervezésben (ClawGuard tapasztalat)

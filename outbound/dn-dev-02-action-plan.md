@@ -2,7 +2,7 @@
 
 **Készült:** 2026-02-15
 **Alapja:** Claude Sonnet 4.5 rendszer audit (2026-02-13)
-**Készítette:** Leoni (dn-optigen-01 agent)
+**Készítette:** Leoni (dn-leoni-01 agent)
 
 ---
 
@@ -130,7 +130,7 @@ Az alaparchitektúra helyes és működik. A problémák többsége konfiguráci
 
 ---
 
-## 5. Hogyan tud Leoni (dn-optigen-01) segíteni?
+## 5. Hogyan tud Leoni (dn-leoni-01) segíteni?
 
 ### Amit Leoni MOST meg tud csinálni (SSH/távoli hozzáféréssel):
 
