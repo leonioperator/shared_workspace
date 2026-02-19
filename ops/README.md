@@ -17,11 +17,19 @@
 - SMTP: thsixtyfour.tarhely.eu:587 STARTTLS
 - Folder aliases: INBOX.Sent, INBOX.Drafts, INBOX.Trash
 
-### WordPress
+### WordPress (vinczetamas.hu)
 - URL: vinczetamas.hu
 - API user: leoni (admin)
 - Auth: Application Password + CGIPassAuth On (.htaccess)
 - Téma: GeneratePress + Custom CSS
+
+### Astro (elkezdodott.hu)
+- Build: ninjalab.hu VPS (`/srv/elkezdodott`)
+- Deploy: SSH + scp → shared hosting (`/home/hogyanvi/addond/elkezdodott.hu/`)
+- Build parancs: `npm run build` (dist/ generálás)
+- Deploy script: `/srv/elkezdodott/scripts/deploy.sh`
+- SSH kulcs: ninjalab.hu → shared hosting (jelszómentes)
+- RSS: /rss.xml (Astro-generált)
 
 ### TTS/STT
 - STT: faster-whisper (small modell, lokális, ingyenes)

@@ -1,6 +1,13 @@
 # Elkezdődött.hu – Hírlevél rendszer dokumentáció
 
-## Választott megoldás: Newsletter plugin (WordPress)
+## ⚠️ FRISSÍTVE: 2026-02-19 — WordPress → Astro migráció
+
+**Előző megoldás:** Newsletter plugin (WordPress) — **TÖRÖLVE**  
+**Új megoldás:** Külső hírlevél szolgáltató integráció (MailerLite / Brevo)
+
+---
+
+## Választott megoldás: MailerLite / Brevo (TBD)
 
 ### Indoklás
 - **Ingyenes**, korlátlan feliratkozó, WP-ből kezelhető
@@ -74,3 +81,58 @@ A Newsletter plugin ingyenes verziója **nem tartalmaz automatikus digest funkci
 - Új hírlevél: `/wp-admin/admin.php?page=newsletter_emails_new`
 - Beállítások: `/wp-admin/admin.php?page=newsletter_main_main`
 - Feliratkozási űrlap: `/wp-admin/admin.php?page=newsletter_subscription_forms`
+
+---
+
+## Új megoldás (2026-02-19 után)
+
+### Szolgáltató opciók
+1. **MailerLite** (javasolt)
+   - Ingyenes: 1000 feliratkozó, 12k email/hó
+   - Magyar UI, GDPR OK
+   - Embed form generálás
+   
+2. **Brevo** (Sendinblue)
+   - Ingyenes: korlátlan feliratkozó, 300 email/nap
+   - SMTP is használható
+   - API integráció
+
+3. **Saját megoldás**
+   - Cloudflare Workers + Supabase
+   - Teljes kontroll
+   - Több fejlesztési idő
+
+### Integráció (példa MailerLite)
+1. Tomi létrehozza a fiókot (mailerlite.com)
+2. Feliratkozási űrlap embed kód generálás
+3. Astro `/hirlevel/` oldalon embed HTML beillesztése
+4. GDPR checkbox + adatvédelmi tájékoztató link
+5. Double opt-in beállítás
+
+### Heti workflow
+1. Leoni (agent) hétfő reggel draft hírlevél készítés
+2. Draft → `shared_workspace/outbound/newsletter-YYYYMMDD.md`
+3. Tomi review + szerkesztés
+4. MailerLite/Brevo admin → campaign létrehozás + küldés
+
+### Részletek
+Lásd: `shared_workspace/outbound/20260219-elkezdodott-terv.md`
+
+---
+
+## Előző WordPress megoldás (ELAVULT, 2026-02-19 előtt)
+
+<details>
+<summary>Kattints a korábbi dokumentációért (archív)</summary>
+
+### Indoklás
+- **Ingyenes**, korlátlan feliratkozó, WP-ből kezelhető
+- Nincs külső szolgáltató dependency (MailerLite, Brevo stb.)
+- WP PHP mail-en vagy SMTP-n keresztül küld (hosting biztosítja)
+- GDPR-kompatibilis beépítetten
+- Shortcode-alapú űrlap, könnyen beágyazható bárhová
+- Admin: `https://elkezdodott.hu/wp-admin/admin.php?page=newsletter_main_index`
+
+[... korábbi dokumentáció ...]
+
+</details>
