@@ -56,52 +56,69 @@
 
 ---
 
-## Deploy sikeresség: ⏸️ VÁRAKOZIK
+## Deploy sikeresség: ✅
 
-### Deploy script: `/srv/elkezdodott/scripts/deploy.sh`
-```bash
-#!/usr/bin/env bash
-set -e
+### Deploy lépések
+1. **SSH kulcs beállítás:** ninjalab.hu (root) → shared hosting (hogyanvi@185.51.191.64)
+   - Ed25519 kulcspár generálva ninjalab.hu-n
+   - Public key hozzáadva shared hosting authorized_keys-hez
+   - Jelszómentes SSH működik
+2. **Deploy script futtatás:** `/srv/elkezdodott/scripts/deploy.sh`
+   - Build: sikeres (dist/ regenerálva)
+   - SSH rm: astro almappa tisztítva
+   - SCP: dist/* → `/home/hogyanvi/addond/elkezdodott.hu/astro/`
+3. **Cél útvonal:** `/home/hogyanvi/addond/elkezdodott.hu/astro/`
+   - index.html, blog/, rss.xml, favicon stb. feltöltve
 
-npm run build
-
-ssh hogyanvi@185.51.191.64 "rm -rf /home/hogyanvi/addond/elkezdodott.hu/astro/*"
-scp -r dist/* hogyanvi@185.51.191.64:/home/hogyanvi/addond/elkezdodott.hu/astro
-```
-
-**Cél útvonal:** `/home/hogyanvi/addond/elkezdodott.hu/astro`
-
-### Deploy várakozás oka
-- Mission szerint: "jelszót előtte beszéljük meg"
-- SSH kulcs nincs beállítva ninjalab.hu → shared hosting között (jelszó kell scp-hez)
-- VAGY: deploy útvonal tisztázása (astro almappa vs. gyökér)
+### Élő teszt
+- **Astro oldal:** https://elkezdodott.hu/astro/ ✅ (működik, blog lista látható)
+- **Blog poszt:** https://elkezdodott.hu/astro/elso-poszt/ ✅
+- **RSS feed:** https://elkezdodott.hu/astro/rss.xml ✅ (valid XML, 1 item)
 
 ---
 
 ## RSS elérhetőség: ✅
-- URL: https://elkezdodott.hu/rss.xml (deploy után)
-- Lokális teszt: `/srv/elkezdodott/dist/rss.xml` (generálva, valid XML)
+- **URL:** https://elkezdodott.hu/astro/rss.xml
+- **Státusz:** működik, valid XML
+- **Tartalom:** 1 poszt ("Első poszt", 2026-02-19)
 
 ---
 
-## Főoldal státusz: ✅ (build)
-- Blog lista a főoldal
-- Poszt dátum: magyar formátum (2026. 02. 19.)
-- Clean minimal layout
+## Főoldal státusz: ⚠️ WordPress még fut
+
+### Jelenlegi állapot
+- **https://elkezdodott.hu** → WordPress oldal (régi)
+- **https://elkezdodott.hu/astro/** → Astro static blog (új) ✅
+
+### WordPress fájlok a gyökérben
+- `/home/hogyanvi/addond/elkezdodott.hu/` még tartalmaz WordPress fájlokat:
+  - index.php, wp-admin/, wp-content/, wp-config.php stb.
+- `.htaccess` WordPress RewriteRule-okat tartalmaz
+
+### Következő lépés (manuális)
+1. **WordPress fájlok törlése** a gyökérből (VAGY backup mentése)
+2. **Astro tartalom áthelyezése** gyökérbe:
+   ```bash
+   cd /home/hogyanvi/addond/elkezdodott.hu
+   rm -rf wp-* index.php .htaccess (backup után!)
+   mv astro/* .
+   rmdir astro
+   ```
+3. **VAGY:** `.htaccess` módosítása, hogy az astro almappából szolgáljon ki mindent
 
 ---
 
 ## Következő lépések
-1. **Deploy jóváhagyás:** SSH jelszó vagy kulcs beállítás ninjalab → shared hosting
-2. **Deploy útvonal megerősítés:** `/home/hogyanvi/addond/elkezdodott.hu/astro` helyes?
-3. **Deploy futtatás:** `cd /srv/elkezdodott && ./scripts/deploy.sh`
-4. **Teszt:** https://elkezdodott.hu ellenőrzés
-5. **WordPress törlés:** ha sikeres a deploy, régi WordPress tartalom eltávolítása
+1. ✅ **SSH kulcs beállítás:** kész
+2. ✅ **Deploy futtatás:** kész
+3. ✅ **Teszt:** https://elkezdodott.hu/astro/ működik
+4. ⏸️ **WordPress törlés:** manuális lépés, jóváhagyásra vár
+5. ⏸️ **Astro tartalom gyökérbe helyezése:** manuális lépés
 
 ---
 
 **Státusz összefoglaló:**  
 Build: ✅ Sikeres  
-Deploy: ⏸️ Jóváhagyásra vár  
-RSS: ✅ Működik (build output-ban)  
-Főoldal: ✅ Blog lista (build output-ban)
+Deploy: ✅ Sikeres (astro almappába)  
+RSS: ✅ Működik (https://elkezdodott.hu/astro/rss.xml)  
+Főoldal: ⚠️ WordPress még fut, Astro elérhető /astro/ útvonalon
