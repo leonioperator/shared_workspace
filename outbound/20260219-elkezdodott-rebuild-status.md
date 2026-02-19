@@ -120,5 +120,27 @@
 **Státusz összefoglaló:**  
 Build: ✅ Sikeres  
 Deploy: ✅ Sikeres (astro almappába)  
+Design: ✅ WordPress design implementálva (Montserrat + Open Sans, gradient hero, blog cards, footer)  
 RSS: ✅ Működik (https://elkezdodott.hu/astro/rss.xml)  
 Főoldal: ⚠️ WordPress még fut, Astro elérhető /astro/ útvonalon
+
+---
+
+## Design implementáció (2026-02-19 19:03 UTC)
+
+### Megvalósított design elemek
+- **Színpaletta:** #333333 (dark), #5568FF (accent 1), #9A63FF (accent 2), gradient background
+- **Tipográfia:** Montserrat (headings), Open Sans (body), responsive clamp() font sizes
+- **Hero szekció:** 70vh gradient background, központosított szöveg, "Elkezdődött. Az AI vállalkozás élő naplója." címsor
+- **Blog cards:** fehér háttér, 12px border-radius, hover effekt (translateY -4px, accent színű shadow)
+- **CTA gomb:** #1a2a6c background, hover transform + shadow
+- **Footer:** #333 background, rgba(255,255,255,0.8) szöveg, linkek hover accent színnel
+- **Navigáció:** sticky header, Montserrat 600, hover accent szín
+
+### Fájlok frissítve
+- src/layouts/BaseLayout.astro: teljes WordPress design CSS
+- src/pages/index.astro: hero section + styled blog grid
+- src/pages/blog/[slug].astro: single post page styled
+
+### Élő teszt
+- https://elkezdodott.hu/astro/ — WordPress design pontosan reprodukálva ✅
