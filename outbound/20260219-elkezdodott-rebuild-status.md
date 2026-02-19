@@ -112,17 +112,19 @@
 1. ✅ **SSH kulcs beállítás:** kész
 2. ✅ **Deploy futtatás:** kész
 3. ✅ **Teszt:** https://elkezdodott.hu/astro/ működik
-4. ⏸️ **WordPress törlés:** manuális lépés, jóváhagyásra vár
-5. ⏸️ **Astro tartalom gyökérbe helyezése:** manuális lépés
+4. ✅ **WordPress törlés:** Tomi által manuálisan végrehajtva (2026-02-19 20:08 UTC)
+5. ✅ **Astro tartalom gyökérbe helyezése:** kész (2026-02-19 20:09 UTC)
 
 ---
 
 **Státusz összefoglaló:**  
 Build: ✅ Sikeres  
-Deploy: ✅ Sikeres (astro almappába)  
+Deploy: ✅ Sikeres  
 Design: ✅ WordPress design implementálva (Montserrat + Open Sans, gradient hero, blog cards, footer)  
-RSS: ✅ Működik (https://elkezdodott.hu/astro/rss.xml)  
-Főoldal: ⚠️ WordPress még fut, Astro elérhető /astro/ útvonalon
+WordPress törlés: ✅ Kész (Tomi által végrehajtva)  
+Gyökérbe helyezés: ✅ Kész (astro/* → gyökér, astro/ mappa törölve)  
+RSS: ✅ Működik (https://elkezdodott.hu/rss.xml)  
+Főoldal: ✅ **ÉLES** — https://elkezdodott.hu Astro static blog
 
 ---
 
@@ -144,3 +146,51 @@ Főoldal: ⚠️ WordPress még fut, Astro elérhető /astro/ útvonalon
 
 ### Élő teszt
 - https://elkezdodott.hu/astro/ — WordPress design pontosan reprodukálva ✅
+
+---
+
+## Gyökérbe helyezés és élesítés (2026-02-19 20:09 UTC)
+
+### WordPress törlés (Tomi által)
+- WordPress fájlok törölve a /home/hogyanvi/addond/elkezdodott.hu/ gyökérből
+- Megmaradt: astro/, cgi-bin/, .htaccess, .well-known/
+
+### Astro gyökérbe helyezés
+```bash
+cd /home/hogyanvi/addond/elkezdodott.hu
+mv astro/* .
+rmdir astro
+```
+
+### Végső struktúra
+```
+/home/hogyanvi/addond/elkezdodott.hu/
+├── blog/
+│   ├── index.html
+│   └── elso-poszt/index.html
+├── elso-poszt/index.html
+├── index.html (Astro főoldal)
+├── rss.xml
+├── favicon.ico
+├── favicon.svg
+├── cgi-bin/
+├── .htaccess
+└── .well-known/
+```
+
+### Élő teszt (2026-02-19 20:09 UTC)
+- **https://elkezdodott.hu/** — ✅ Astro főoldal (gradient hero, blog lista, WordPress design)
+- **https://elkezdodott.hu/blog/elso-poszt/** — ✅ Blog poszt oldal
+- **https://elkezdodott.hu/rss.xml** — ✅ RSS feed (valid XML)
+
+---
+
+## ✅ SIKERES REBUILD & DEPLOY
+
+**Elkezdodott.hu most már Astro static blog.**
+
+- Build: minimal, gyors, static HTML
+- Design: WordPress design 100% reprodukálva
+- RSS: működik
+- Deploy: ninjalab.hu VPS → shared hosting, jelszómentes SSH
+- WordPress → Astro migráció: **TELJES**
