@@ -1,5 +1,7 @@
 # Recovery Checklist — Leoni Post-Bootstrap
 
+> Path standard: lásd `PATH-STANDARD.md` (kötelező).
+
 Ezt a fájlt az első sessionben kövesd, miután a bootstrap lefutott.
 
 ## 0) Alapútvonalak (NE fix /root)

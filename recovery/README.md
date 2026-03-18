@@ -1,5 +1,7 @@
 # Recovery
 
+> Path standard: lásd `PATH-STANDARD.md` (kötelező).
+
 Recovery dokumentáció célja: új hoston gyors, reprodukálható helyreállítás.
 
 ## Útvonal szabály
