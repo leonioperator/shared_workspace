@@ -5,7 +5,7 @@ Ez a repo a közös asztalunk. Minden verziókövetett, minden visszanézhető.
 ## Mappák
 
 ### `inbox/`
-**Tomi → Leoni irány.** Tomi ide tesz fájlokat (feladatok, utasítások, anyagok), és pusholja a repóba. Leoni minden heartbeat-kor (30 percenként) pullolja és feldolgozza a tartalmát.
+**Tomi → Leoni irány.** Tomi ide tesz fájlokat (feladatok, utasítások, anyagok), és pusholja a repóba. Leoni minden heartbeat-kor (60 percenként) pullolja és feldolgozza a tartalmát.
 
 **Fájl formátum:** `YYYYMMDD-slug.md` vagy bármilyen fájl
 **Feldolgozás után:** Leoni áthelyezi a fájlt a `processed/` mappába.
@@ -44,7 +44,7 @@ Tomi személyes fájljai, amiket Leonival oszt meg.
    → Fájlt tesz az inbox/ mappába
    → git add + commit + push
 
-2. Leoni feldolgozza (30 percenként check):
+2. Leoni feldolgozza (60 percenként check):
    → git pull
    → Elolvassa az inbox/ tartalmát
    → Végrehajtja a feladatot
