@@ -24,3 +24,15 @@ SHARED_DIR="${SHARED_DIR:-$BASE_HOME/shared_workspace}"
 ## Forrás
 
 A teljes recovery anyagok a shared_workspace `recovery/` mappában vannak.
+
+
+## Aktuális infra állapot (2026-03)
+
+- **dn-platform-01**: AI/automation control plane (OpenClaw, n8n, kanban, tokenctl, TTS)
+- **dn-web-01**: public web node, IP: `46.224.110.90` (Nginx + Astro)
+- **dn-dev-01**: forex/trading infra (MT4, EA, trading bot), izolált rendszer
+
+Architektúra elv:
+- platform = compute/logika
+- web = prezentáció
+- forex = pénzügyi motor
