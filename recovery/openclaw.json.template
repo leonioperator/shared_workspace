@@ -59,7 +59,7 @@
           }
         }
       },
-      "workspace": "/root/.openclaw/workspace",
+      "workspace": "~/.openclaw/workspace",
       "contextPruning": {
         "mode": "cache-ttl",
         "ttl": "1h",
@@ -81,7 +81,7 @@
       {
         "id": "main",
         "identity": {
-          "avatar": "/root/.openclaw/workspace/leoni-avatar.svg"
+          "avatar": "~/.openclaw/workspace/leoni-avatar.svg"
         }
       }
     ]

@@ -2,22 +2,30 @@
 ###############################################################################
 # Leoni Operator — Full Bootstrap Script
 # 
-# Használat: Friss Ubuntu 24.04 LTS-en, root-ként:
+# Használat: Friss Ubuntu 24.04 LTS-en, sudo/root jogosultsággal:
 #   curl -sL https://raw.githubusercontent.com/leonioperator/shared_workspace/main/recovery/bootstrap.sh | bash
 #   VAGY:
-#   git clone git@github.com:leonioperator/shared_workspace.git /root/shared_workspace
-#   bash /root/shared_workspace/recovery/bootstrap.sh
+#   git clone git@github.com:leonioperator/shared_workspace.git ${SHARED_DIR}
+#   bash ${SHARED_DIR}/recovery/bootstrap.sh
 #
 # Ez a script mindent telepít ami kell ahhoz, hogy OpenClaw + Leoni elinduljon.
 # Utána Leoni átveszi és befejezi a recovery-t (cron jobok, tesztelés).
 #
 # FONTOS: A script FUTÁS ELŐTT kéri a szükséges secreteket (.env tartalom).
-# Ha a /root/.env már létezik, azt használja.
+# Ha a ${ENV_FILE} már létezik, azt használja.
 #
 # Utolsó frissítés: 2026-02-17
 ###############################################################################
 
 set -euo pipefail
+
+
+# Path abstraction (no hardcoded /root)
+BASE_HOME="${BASE_HOME:-${SUDO_USER:+$(eval echo ~${SUDO_USER})}}"
+BASE_HOME="${BASE_HOME:-$HOME}"
+WORKSPACE_DIR="${WORKSPACE_DIR:-$BASE_HOME/.openclaw/workspace}"
+SHARED_DIR="${SHARED_DIR:-$BASE_HOME/shared_workspace}"
+ENV_FILE="${ENV_FILE:-$BASE_HOME/.env}"
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -38,11 +46,11 @@ log "Pre-flight checks..."
 ###############################################################################
 # 1. Secrets (.env)
 ###############################################################################
-if [ ! -f /root/.env ]; then
-  warn "A /root/.env fájl nem létezik!"
+if [ ! -f ${ENV_FILE} ]; then
+  warn "A ${ENV_FILE} fájl nem létezik!"
   echo ""
   echo "Másold be a .env tartalmát a régi szerverről, vagy hozd létre manuálisan:"
-  echo "  nano /root/.env"
+  echo "  nano ${ENV_FILE}"
   echo ""
   echo "Szükséges kulcsok:"
   echo "  EMAIL_ADDRESS, EMAIL_PASSWORD"
@@ -58,7 +66,7 @@ if [ ! -f /root/.env ]; then
   echo "  TWILIO_ACCOUNT_SID, TWILIO_PHONE_NUMBER, TWILIO_AUT_TOKEN"
   echo ""
   read -p "Nyomj ENTER-t ha kész, vagy Ctrl+C a kilépéshez: "
-  [ -f /root/.env ] || err "/root/.env még mindig nem létezik!"
+  [ -f ${ENV_FILE} ] || err "${ENV_FILE} még mindig nem létezik!"
 fi
 
 log ".env OK"
@@ -91,12 +99,12 @@ log "Node.js $(node --version) OK"
 ###############################################################################
 # 4. SSH keys
 ###############################################################################
-if [ ! -f /root/.ssh/id_ed25519 ]; then
+if [ ! -f ${BASE_HOME}/.ssh/id_ed25519 ]; then
   log "SSH kulcs generálása..."
-  ssh-keygen -t ed25519 -f /root/.ssh/id_ed25519 -N "" -q
+  ssh-keygen -t ed25519 -f ${BASE_HOME}/.ssh/id_ed25519 -N "" -q
   echo ""
   warn "ÚJ SSH KULCS GENERÁLVA! Add hozzá a GitHub-hoz (leonioperator account):"
-  cat /root/.ssh/id_ed25519.pub
+  cat ${BASE_HOME}/.ssh/id_ed25519.pub
   echo ""
   read -p "Nyomj ENTER-t ha hozzáadtad a GitHub-hoz: "
 else
@@ -116,34 +124,34 @@ log "OpenClaw $(openclaw --version 2>&1) OK"
 # 6. Git repos klónozása
 ###############################################################################
 # Workspace
-if [ ! -d /root/.openclaw/workspace/.git ]; then
+if [ ! -d ${WORKSPACE_DIR}/.git ]; then
   log "Workspace repo klónozása..."
-  mkdir -p /root/.openclaw
-  git clone git@github.com:leonioperator/workspace.git /root/.openclaw/workspace
+  mkdir -p ${BASE_HOME}/.openclaw
+  git clone git@github.com:leonioperator/workspace.git ${WORKSPACE_DIR}
 else
   log "Workspace repo OK (pull)..."
-  cd /root/.openclaw/workspace && git pull --ff-only
+  cd ${WORKSPACE_DIR} && git pull --ff-only
 fi
 
 # Shared workspace
-if [ ! -d /root/shared_workspace/.git ]; then
+if [ ! -d ${SHARED_DIR}/.git ]; then
   log "Shared workspace repo klónozása..."
-  git clone git@github.com:leonioperator/shared_workspace.git /root/shared_workspace
+  git clone git@github.com:leonioperator/shared_workspace.git ${SHARED_DIR}
 else
   log "Shared workspace repo OK (pull)..."
-  cd /root/shared_workspace && git pull --ff-only
+  cd ${SHARED_DIR} && git pull --ff-only
 fi
 
 ###############################################################################
 # 7. OpenClaw konfiguráció
 ###############################################################################
 log "OpenClaw konfigurálás..."
-if [ ! -f /root/.openclaw/openclaw.json ]; then
-  if [ -f /root/shared_workspace/recovery/openclaw.json.template ]; then
-    cp /root/shared_workspace/recovery/openclaw.json.template /root/.openclaw/openclaw.json
+if [ ! -f ${BASE_HOME}/.openclaw/openclaw.json ]; then
+  if [ -f ${SHARED_DIR}/recovery/openclaw.json.template ]; then
+    cp ${SHARED_DIR}/recovery/openclaw.json.template ${BASE_HOME}/.openclaw/openclaw.json
     warn "openclaw.json TEMPLATE-ből létrehozva!"
     warn "Szerkeszd és töltsd ki a __FILL_IN__ mezőket:"
-    warn "  nano /root/.openclaw/openclaw.json"
+    warn "  nano ${BASE_HOME}/.openclaw/openclaw.json"
     warn "Szükséges: Telegram botToken, Anthropic/OpenAI API key, Twilio tokens"
     read -p "Nyomj ENTER-t ha kész: "
   else
@@ -171,17 +179,17 @@ fi
 log "Himalaya OK"
 
 # Himalaya config
-mkdir -p /root/.config/himalaya
-if [ ! -f /root/.config/himalaya/config.toml ]; then
-  if [ -f /root/shared_workspace/recovery/himalaya-config.toml.template ]; then
-    source /root/.env
+mkdir -p ${BASE_HOME}/.config/himalaya
+if [ ! -f ${BASE_HOME}/.config/himalaya/config.toml ]; then
+  if [ -f ${SHARED_DIR}/recovery/himalaya-config.toml.template ]; then
+    source ${ENV_FILE}
     # Substitute env vars into template
-    envsubst < /root/shared_workspace/recovery/himalaya-config.toml.template > /root/.config/himalaya/config.toml 2>/dev/null || true
+    envsubst < ${SHARED_DIR}/recovery/himalaya-config.toml.template > ${BASE_HOME}/.config/himalaya/config.toml 2>/dev/null || true
   fi
   # Fallback: generate from .env
-  if [ ! -f /root/.config/himalaya/config.toml ] || ! grep -q "imap" /root/.config/himalaya/config.toml; then
-    source /root/.env
-    cat > /root/.config/himalaya/config.toml << HIMALAYA
+  if [ ! -f ${BASE_HOME}/.config/himalaya/config.toml ] || ! grep -q "imap" ${BASE_HOME}/.config/himalaya/config.toml; then
+    source ${ENV_FILE}
+    cat > ${BASE_HOME}/.config/himalaya/config.toml << HIMALAYA
 [accounts.default]
 email = "${EMAIL_ADDRESS}"
 display-name = "Leoni Operator"
@@ -225,20 +233,20 @@ log "ClawGuard $(clawguard --version 2>&1) OK"
 ###############################################################################
 # 10. Kanban Board
 ###############################################################################
-if [ ! -d /root/kanban ]; then
+if [ ! -d ${BASE_HOME}/kanban ]; then
   log "Kanban board telepítése..."
-  mkdir -p /root/kanban
+  mkdir -p ${BASE_HOME}/kanban
   # A Kanban forráskód a workspace-ben van, másoljuk
-  if [ -d /root/.openclaw/workspace/ops/kanban ]; then
-    cp -r /root/.openclaw/workspace/ops/kanban/* /root/kanban/
+  if [ -d ${WORKSPACE_DIR}/ops/kanban ]; then
+    cp -r ${WORKSPACE_DIR}/ops/kanban/* ${BASE_HOME}/kanban/
   else
     warn "Kanban forráskód nem található workspace/ops/kanban/ -ban!"
     warn "Manuálisan kell visszaállítani."
   fi
-  cd /root/kanban && npm install > /dev/null 2>&1
+  cd ${BASE_HOME}/kanban && npm install > /dev/null 2>&1
   # Restore tasks
-  if [ -f /root/.openclaw/workspace/ops/kanban/tasks.json ]; then
-    cp /root/.openclaw/workspace/ops/kanban/tasks.json /root/kanban/tasks.json
+  if [ -f ${WORKSPACE_DIR}/ops/kanban/tasks.json ]; then
+    cp ${WORKSPACE_DIR}/ops/kanban/tasks.json ${BASE_HOME}/kanban/tasks.json
     log "Kanban tasks restored"
   fi
 fi
@@ -251,8 +259,8 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/node /root/kanban/server.js
-WorkingDirectory=/root/kanban
+ExecStart=/usr/bin/node ${BASE_HOME}/kanban/server.js
+WorkingDirectory=${BASE_HOME}/kanban
 Restart=on-failure
 RestartSec=5
 
@@ -299,12 +307,12 @@ log "Kanban OK"
 ###############################################################################
 # 11. TokenCTL Dashboard
 ###############################################################################
-if [ ! -d /root/tokenctl ]; then
+if [ ! -d ${BASE_HOME}/tokenctl ]; then
   log "TokenCTL dashboard..."
-  if [ -d /root/.openclaw/workspace/ops/tokenctl ]; then
-    mkdir -p /root/tokenctl
-    cp -r /root/.openclaw/workspace/ops/tokenctl/* /root/tokenctl/
-    cd /root/tokenctl && npm install > /dev/null 2>&1
+  if [ -d ${WORKSPACE_DIR}/ops/tokenctl ]; then
+    mkdir -p ${BASE_HOME}/tokenctl
+    cp -r ${WORKSPACE_DIR}/ops/tokenctl/* ${BASE_HOME}/tokenctl/
+    cd ${BASE_HOME}/tokenctl && npm install > /dev/null 2>&1
   else
     warn "TokenCTL forráskód nem található!"
   fi
@@ -317,8 +325,8 @@ After=network.target
 
 [Service]
 Type=simple
-WorkingDirectory=/root/tokenctl
-ExecStart=/usr/bin/node /root/tokenctl/server.js
+WorkingDirectory=${BASE_HOME}/tokenctl
+ExecStart=/usr/bin/node ${BASE_HOME}/tokenctl/server.js
 Restart=on-failure
 RestartSec=5
 Environment=NODE_ENV=production
@@ -334,7 +342,7 @@ log "TokenCTL OK"
 log "TTS setup..."
 
 # Sherpa-onnx (berta - default free TTS)
-if [ ! -d /root/.openclaw/tools/sherpa-onnx-tts ]; then
+if [ ! -d ${BASE_HOME}/.openclaw/tools/sherpa-onnx-tts ]; then
   warn "Sherpa-onnx nem található. OpenClaw fogja telepíteni az első TTS hívásnál."
 fi
 
@@ -347,19 +355,19 @@ fi
 
 # Voice reference files
 mkdir -p /usr/local/share/tts-voices/{tomi,evi,leoni}
-if [ -d /root/shared_workspace/processed ]; then
-  [ -f /root/shared_workspace/processed/Evi-hang.ogg ] && \
-    ffmpeg -i /root/shared_workspace/processed/Evi-hang.ogg -ar 22050 -ac 1 /usr/local/share/tts-voices/evi/reference.wav -y 2>/dev/null && \
+if [ -d ${SHARED_DIR}/processed ]; then
+  [ -f ${SHARED_DIR}/processed/Evi-hang.ogg ] && \
+    ffmpeg -i ${SHARED_DIR}/processed/Evi-hang.ogg -ar 22050 -ac 1 /usr/local/share/tts-voices/evi/reference.wav -y 2>/dev/null && \
     log "Evi voice reference OK"
-  [ -f /root/shared_workspace/processed/Leoni-hang.ogg ] && \
-    ffmpeg -i /root/shared_workspace/processed/Leoni-hang.ogg -ar 22050 -ac 1 /usr/local/share/tts-voices/leoni/reference.wav -y 2>/dev/null && \
+  [ -f ${SHARED_DIR}/processed/Leoni-hang.ogg ] && \
+    ffmpeg -i ${SHARED_DIR}/processed/Leoni-hang.ogg -ar 22050 -ac 1 /usr/local/share/tts-voices/leoni/reference.wav -y 2>/dev/null && \
     log "Leoni voice reference OK"
 fi
 
 # Voice generate scripts from workspace backup
 for voice in tomi evi leoni; do
-  if [ -f /root/.openclaw/workspace/ops/tts-voices/$voice/generate.py ]; then
-    cp /root/.openclaw/workspace/ops/tts-voices/$voice/generate.py /usr/local/share/tts-voices/$voice/generate.py
+  if [ -f ${WORKSPACE_DIR}/ops/tts-voices/$voice/generate.py ]; then
+    cp ${WORKSPACE_DIR}/ops/tts-voices/$voice/generate.py /usr/local/share/tts-voices/$voice/generate.py
     log "Voice script restored: $voice"
   else
     warn "Voice generate script hiányzik: $voice"
@@ -372,7 +380,7 @@ cat > /usr/local/bin/speak << 'SPEAKEOF'
 TEXT="$1"
 VOICE="${2:-berta}"
 OUTFILE="${3:-/tmp/tts-output.ogg}"
-source /root/.env 2>/dev/null
+source ${ENV_FILE} 2>/dev/null
 
 if [ "$VOICE" = "leoni-local" ]; then
   /opt/tts-venv/bin/python /usr/local/share/tts-voices/leoni/generate.py "$TEXT" /tmp/tts-tmp-leoni.wav "${4:-hu}" 2>/dev/null
@@ -420,8 +428,8 @@ nohup clawguard > /var/log/clawguard.log 2>&1 &
 log "ClawGuard elindítva"
 
 # ClawGuard patches
-if [ -d /root/.openclaw/workspace/ops/clawguard-patches ]; then
-  for patch in /root/.openclaw/workspace/ops/clawguard-patches/*.sh; do
+if [ -d ${WORKSPACE_DIR}/ops/clawguard-patches ]; then
+  for patch in ${WORKSPACE_DIR}/ops/clawguard-patches/*.sh; do
     bash "$patch" 2>/dev/null
   done
   log "ClawGuard patches alkalmazva"
@@ -433,9 +441,9 @@ fi
 PUBLIC_IP=$(curl -s ifconfig.me 2>/dev/null || curl -s icanhazip.com 2>/dev/null || echo "UNKNOWN")
 log "Publikus IP: $PUBLIC_IP"
 
-if [ "$PUBLIC_IP" != "UNKNOWN" ] && [ -f /root/.openclaw/openclaw.json ]; then
+if [ "$PUBLIC_IP" != "UNKNOWN" ] && [ -f ${BASE_HOME}/.openclaw/openclaw.json ]; then
   # Frissítsd a Twilio publicUrl-t az új IP-re
-  sed -i "s|http://[0-9.]*:3001/voice|http://$PUBLIC_IP:3001/voice|g" /root/.openclaw/openclaw.json
+  sed -i "s|http://[0-9.]*:3001/voice|http://$PUBLIC_IP:3001/voice|g" ${BASE_HOME}/.openclaw/openclaw.json
   log "Twilio publicUrl frissítve: http://$PUBLIC_IP:3001/voice"
   warn "FONTOS: A Twilio dashboard-on is frissítsd a webhook URL-t!"
   warn "  https://console.twilio.com → Phone Numbers → $PUBLIC_IP:3001/voice"
