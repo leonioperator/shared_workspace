@@ -2,9 +2,9 @@
 
 ## Scope
 - Forrás: `~/.openclaw/workspace/memory/*.md`
-- Kimenet 1: `shared_workspace/reports/weekly/YYYY-MM-DD.md`
-- Kimenet 2: `shared_workspace/writing/diary/YYYY/MM/DD.md`
-- Kimenet 3: `shared_workspace/writing/drafts/[site]-YYYY-MM-DD-slug.md`
+- Kimenet 1: `~/shared_workspace/reports/weekly/YYYY-MM-DD.md`
+- Kimenet 2: `~/shared_workspace/writing/diary/YYYY/MM/DD.md`
+- Kimenet 3: `~/shared_workspace/writing/drafts/[site]-YYYY-MM-DD-slug.md`
 
 ## Kötelező sorrend
 1. Napi memory review
