@@ -7,7 +7,7 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
-BASE = Path('/home/leoni/.openclaw/workspace/projects/moltbook-ecosystem-exploration/phase-1-passive-recon')
+BASE = Path('/home/leoni/shared_workspace/projects/moltbook-ecosystem-exploration/phase-1-passive-recon')
 DEFAULT_CREDENTIALS = Path('/home/leoni/.openclaw/workspace/.secrets/moltbook/credentials.json')
 ARTIFACTS_DIR = BASE / 'artifacts' / 'scans'
 SIGNALS_LOG = BASE / 'signals-log.md'

@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 from collections import Counter
 
-BASE = Path('/home/leoni/.openclaw/workspace/projects/moltbook-ecosystem-exploration/phase-1-passive-recon')
+BASE = Path('/home/leoni/shared_workspace/projects/moltbook-ecosystem-exploration/phase-1-passive-recon')
 ARTIFACTS_DIR = BASE / 'artifacts' / 'scans'
 WEEKLY_DIR = BASE / 'artifacts' / 'weekly'
 TEMPLATE = BASE / 'weekly-summary-template.md'
