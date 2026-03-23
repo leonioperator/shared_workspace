@@ -1,5 +1,5 @@
 # Blindspot Radar — Scored Hypothesis List
-Last updated: 2026-03-22
+Last updated: 2026-03-23
 
 Scoring dimensions (1–5 each):
 - **Pain**: How painful is the unmet need?
@@ -12,7 +12,7 @@ Scoring dimensions (1–5 each):
 
 ## H1 — Agent Identity & Authorization Layer
 **Thesis:** AI agents lack first-class identity primitives. Enterprises have no standard way to authenticate, scope permissions, or audit agent actions at runtime. Only 23% of orgs have a formal agent identity management strategy (Strata.io, 2026-03).
-**Signals (updated 2026-03-22):**
+**Signals (updated 2026-03-23):**
 - NIST CAISI launched "AI Agent Standards Initiative" in Feb 2026 — agent authentication and authorization concept papers due April 2, 2026 (NIST.gov). HIGH CONFIDENCE.
 - World/Worldcoin launched tool to verify humans behind AI shopping agents (TechCrunch, 2026-03-17). HAIER signal confirmed. HIGH CONFIDENCE.
 - EU AI Act high-risk compliance deadline: Aug 2, 2026. Machine identity governance rising to board-level priority (Delinea.com, 2026). HIGH CONFIDENCE.
@@ -23,210 +23,196 @@ Scoring dimensions (1–5 each):
 - OpenClaw Scanner: open-source tool detects autonomous AI agents (Help Net Security, 2026-02-12) — tooling emerging for agent discovery/detection, confirms identity gap. HIGH CONFIDENCE.
 - CSIS paper (2026-01-26): "Confusion over Agentic AI Risks Undermining U.S. Governance Frameworks" — definitional gaps making regulation harder. HIGH CONFIDENCE.
 **Scores:** Pain=5 | Urgency=5 | WTP=5 | Def=3 | IntFric=3 | **Total: 21/25**
-*Score unchanged. Regulatory signals remain at peak urgency. Three hard deadlines in 2026 (EU AI Act Aug, NIST Apr, EU Digital Identity Wallet late 2026). Cloudflare scale signal adds further pressure.*
+*Score unchanged. No new signals today. Regulatory deadlines remain at peak urgency (NIST Apr 2, EU AI Act Aug 2, EU Digital Identity Wallet late 2026). Stable.*
 
 ---
 
 ## H2 — Agent Compliance Audit Trail (Immutable Logging)
 **Thesis:** EU AI Act (enforceable Aug 2026), Colorado AI Act (Jun 2026), California ADMT rules (Jan 2026) all mandate immutable audit trails for high-risk AI decisions. 94% of orgs report critical gaps in AI activity visibility. No purpose-built agent audit layer exists; most rely on repurposed SIEM tools.
-**Signals (updated 2026-03-22):**
+**Signals (updated 2026-03-23):**
 - Agent Lifecycle Toolkit (ALTK) paper (arxiv 2026-03-16): documents how silent reasoning errors go undetected, tool argument corruption corrupts production data, policy violations create legal risk — enterprise deployment failures confirmed. HIGH CONFIDENCE.
 - Tracium.ai (Product Hunt, 2026-03-18): "Track AI Agents with a single line of code" — new entrant, validates market demand. MEDIUM CONFIDENCE (early product).
 - EU AI Act high-risk deadline Aug 2, 2026 unchanged. Multiple US state laws already in effect (CA SB53, AB2013, SB942 as of Jan 2026). HIGH CONFIDENCE.
 - Gartner: 80% of governments will deploy AI agents for decision-making by 2028 (Express Computer, 2026-03-20) — government audit trail mandates accelerating. MEDIUM CONFIDENCE (Gartner projection).
 - NVIDIA OpenShell open-sourced: secure runtime environment for autonomous AI agents (MarkTechPost, 2026-03-18) — infra layer emerging, audit tooling still missing above it.
 - "When Tools Become Agents: The Autonomous AI Governance Challenge" (National Interest, 2026-03-14): mainstream policy discourse catching up to technical reality. HIGH CONFIDENCE.
-- AI ERP agents paper (2025-08-20): AI agents in ERP systems creating cross-functional audit trail gaps across industry verticals. MEDIUM CONFIDENCE (academic, signals enterprise pain).
 - Autonomous Agent hacked McKinsey's AI in 2 hours (BankInfoSecurity, 2026-03-13): automated attack vectors demand immutable action logs. HIGH CONFIDENCE.
 **Scores:** Pain=5 | Urgency=5 | WTP=5 | Def=4 | IntFric=3 | **Total: 22/25**
-*Score unchanged. Tracium.ai entry and ALTK paper both confirm growing market. McKinsey hack signal confirms security-driven audit demand. Competitive moat window narrowing — first-mover advantage still available but not indefinite.*
+*Score unchanged. No new signals today. Tracium.ai entry and ALTK paper both confirm growing market. McKinsey hack signal confirms security-driven audit demand. Competitive moat window narrowing — first-mover advantage still available but not indefinite.*
 
 ---
 
 ## H3 — MCP Governance & Security Layer
 **Thesis:** MCP adoption is outpacing security controls. "Server sprawl" — unmanaged MCP servers proliferating across teams. Tool poisoning attacks confirmed. Only 29% of orgs have AI-specific security controls. No centralized MCP governance plane exists.
-**Signals (updated 2026-03-22):**
+**Signals (updated 2026-03-23):**
 - 2026 MCP roadmap confirmed: agent-to-agent communication requiring governance across identity, transport, policy, and observability layers (elegantsoftwaresolutions.com). HIGH CONFIDENCE.
-- Operant AI MCP gateway: real-time visibility, inline redaction, dynamic control — first commercial entrant confirmed (operant.ai, 2026). MEDIUM CONFIDENCE (competitor, not validation of gap).
+- Operant AI MCP gateway: real-time visibility, inline redaction, dynamic control — first commercial entrant confirmed. MEDIUM CONFIDENCE (competitor).
 - Forbes (2026-03-19): MCP adoption "transitioning from pilots to full-scale enterprise deployment" in finance, healthcare, manufacturing. HIGH CONFIDENCE.
 - OAuth 2.1 now mandated in official MCP spec for servers handling sensitive data. Compliance complexity rising. HIGH CONFIDENCE.
-- HN thread (2026-03-19): "Ask HN: The new wave of AI agent sandboxes?" — community actively debating sandbox/security tradeoffs in production. Confirmed practitioner pain. HIGH CONFIDENCE.
-- Open-source red-team playground for AI agent security (HN, 2026-03-15): "We kept finding the same types of vulnerabilities" — practitioner-identified security patterns. HIGH CONFIDENCE.
+- HN sandbox thread (2026-03-19): practitioners debating sandbox/security tradeoffs in production. Confirmed practitioner pain. HIGH CONFIDENCE.
+- Open-source red-team playground for AI agent security (HN, 2026-03-15): "We kept finding the same types of vulnerabilities." HIGH CONFIDENCE.
 - Autonomous pentest agent (vxcontrol/pentagi, 2026-03-21): fully autonomous attack capability using agent toolchains — confirms MCP/tool pipeline as attack surface. HIGH CONFIDENCE.
-- Ink deployment platform (HN, 2026-03-11): "full-stack deployment platform where the primary users are AI agents" — production agent deployments growing without governance. MEDIUM CONFIDENCE.
-- ClawSecure (Product Hunt, 2026-03-12): "complete security platform for OpenClaw AI agents" — niche entrant confirms market demand. MEDIUM CONFIDENCE.
-- Autonomous Agent hacked McKinsey's AI in 2 hours (BankInfoSecurity, 2026-03-13): attack vector likely MCP/tool chain exploitation. HIGH CONFIDENCE.
+- browser-use GitHub trending (2026-03-23): browser automation as standard agent primitive — adds browser tool calls as unaudited attack surface. MEDIUM CONFIDENCE (new today).
+- Autonomous Agent hacked McKinsey's AI in 2 hours (BankInfoSecurity, 2026-03-13). HIGH CONFIDENCE.
 **Scores:** Pain=5 | Urgency=5 | WTP=4 | Def=3 | IntFric=3 | **Total: 20/25**
-*Urgency raised to 5 (was 4): McKinsey hack + red-team playground + autonomous pentest agent collectively confirm active exploitation of agent tool chains in production. Multiple new security signals. Total raised to 20 (was 19). Def unchanged at 3 due to continued Operant AI competition.*
+*Score unchanged. browser-use trending (Mar 23) confirms browser tool calls becoming standard — expands MCP/tool attack surface. Insufficient to change scores.*
 
 ---
 
 ## H4 — Agent-Native Micropayment Rails for SMBs
-**Thesis:** MPP (Stripe+Tempo), x402 (Coinbase), Visa CLI all launched — but are crypto-native and complex. SMBs cannot use them. "Token Shock" is a real adoption blocker — unpredictable costs. Need: simple, fiat-compatible, agent-native billing layer for non-crypto-savvy SMBs.
-**Signals (updated 2026-03-22):**
-- Machine Payments Protocol on Product Hunt (2026-03-18): Stripe-linked "internet-native payment standard for AI agents" — confirmed Stripe entering space. HIGH CONFIDENCE.
-- Forbes (2026-03-19): "Stripe, Visa, and Mastercard race to build AI agent payment rails" — three major players converging. HIGH CONFIDENCE.
+**Thesis:** MPP (Stripe+Tempo), x402 (Coinbase), Visa CLI all launched — but are crypto-native and complex. SMBs cannot use them. Need: simple, fiat-compatible, agent-native billing layer for non-crypto-savvy SMBs.
+**Signals (updated 2026-03-23):**
+- Machine Payments Protocol on Product Hunt (2026-03-18): Stripe-linked "internet-native payment standard for AI agents." HIGH CONFIDENCE.
+- Forbes (2026-03-19): "Stripe, Visa, and Mastercard race to build AI agent payment rails." HIGH CONFIDENCE.
 - CBA Agentic Symposium White Paper (Jan 2026): traditional KYC/AML not designed for autonomous agents — regulatory gap confirmed. HIGH CONFIDENCE.
-- AgentPay SDK guides autonomous payments in USD1 via EVM (Cryptonews.net, 2026-03-20): crypto-native, not SMB-accessible. Confirms demand, not SMB solution. HIGH CONFIDENCE.
+- AgentPay SDK guides autonomous payments in USD1 via EVM (Cryptonews.net, 2026-03-20): crypto-native, not SMB-accessible. HIGH CONFIDENCE.
 - Coinbase x402 agentic wallets confirmed. Crypto-native, not SMB-accessible. HIGH CONFIDENCE.
-- Cloudflare CEO: bot traffic will exceed human traffic by 2027 (TechCrunch, 2026-03-19) — scale trajectory validates infrastructure urgency. MEDIUM CONFIDENCE.
-- Only 14–29% consumer trust in agent payments (Nevermined.ai, 2026) — trust gap persists alongside tooling gap.
-- Semantic negotiation among autonomous AI agents in financial ecosystems (academic paper, 2025-04): confirms financial agent automation demand from research angle. LOW CONFIDENCE (academic only).
-**Assessment:** Big players (Stripe, Visa, Mastercard) now in this space. SMB-friendly abstraction opportunity remains — but window is narrowing fast. Timing risk: large players may commoditize before SMB layer can be built. AgentPay SDK is another crypto-native entrant, not a threat to fiat SMB abstraction.
+- TradingAgents (GitHub, 2026-03-21): Multi-Agents LLM Financial Trading Framework — financial domain agents proliferating, payment rail demand confirmed. MEDIUM CONFIDENCE (new this run).
+- Only 14-29% consumer trust in agent payments (Nevermined.ai, 2026) — trust gap persists.
+**Assessment:** Big players (Stripe, Visa, Mastercard) now in this space. SMB-friendly fiat abstraction opportunity remains — but window is narrowing.
 **Scores:** Pain=4 | Urgency=4 | WTP=3 | Def=2 | IntFric=4 | **Total: 17/25**
-*Score unchanged. Crypto-native entrants (AgentPay/USD1) confirm demand but not fiat SMB viability. Major player convergence maintains urgency. Def remains low due to Stripe/Visa/Mastercard entry.*
+*Score unchanged. TradingAgents (Mar 21) confirms financial domain agent proliferation. Crypto-native entrants still not solving fiat SMB gap.*
 
 ---
 
 ## H5 — Agent Discovery & Verified Registry
-**Thesis:** Thousands of specialized agents exist; no trusted discovery mechanism. Bitte Protocol has 12k+ connected accounts but is crypto-native. No neutral, verified, searchable agent registry for enterprise use. "Discovery is strategic infrastructure."
-**Signals (updated 2026-03-22):**
-- P2P network for agents to publish formally verified science (HN, 2026-03-19): "every AI agent works alone — next agent solves same problem from zero. No way for agents to find each other." Direct validation of discovery pain. HIGH CONFIDENCE.
-- AgentDiscuss (Product Hunt + HN, 2026-03-16): "Product Hunt for AI agents — where agents discuss products" — early market formation signal. MEDIUM CONFIDENCE (validates direction, not enterprise).
-- GitAgent (HN, 2026-03-14): "open standard that turns any Git repo into an AI agent" — standardization effort suggests discovery layer needed above it. MEDIUM CONFIDENCE.
-- WordPress.com AI agents (TechCrunch, 2026-03-20): agents now publishing web content — implies agent-generated content will flood discovery channels, making verified-human/verified-agent distinction more urgent. MEDIUM CONFIDENCE.
-- Nothing CEO (TechCrunch, 2026-03-18): "smartphone apps will disappear as AI agents take their place" — if true, agent discovery replaces app stores. Long-horizon signal. LOW CONFIDENCE (executive speculation).
-- Picsart AI agent marketplace (2026-03-17): "hire AI assistants through agent marketplace" — first commercial agent marketplace with consumer access. MEDIUM CONFIDENCE.
-- HAIER: 137 agent signals total — agent ecosystem diversity confirms proliferation, validates discovery pain.
+**Thesis:** Thousands of specialized agents exist; no trusted discovery mechanism. No neutral, verified, searchable agent registry for enterprise use.
+**Signals (updated 2026-03-23):**
+- P2P network for agent science (HN, 2026-03-19): "No way for agents to find each other." Direct validation. HIGH CONFIDENCE.
+- AgentDiscuss (Product Hunt + HN, 2026-03-16): "Product Hunt for AI agents." MEDIUM CONFIDENCE.
+- GitAgent (HN, 2026-03-14): "open standard that turns any Git repo into an AI agent" — discovery layer needed above it. MEDIUM CONFIDENCE.
+- Picsart AI agent marketplace (2026-03-17): first commercial agent marketplace with consumer access. MEDIUM CONFIDENCE.
+- ClawRun (2026-03-21): "Deploy and manage AI agents in seconds" — implies catalog/registry component. MEDIUM CONFIDENCE (new this run).
+- HAIER: 143 agent signals — ecosystem diversity confirms proliferation, validates discovery pain.
 **Scores:** Pain=4 | Urgency=3 | WTP=3 | Def=3 | IntFric=3 | **Total: 16/25**
-*Score unchanged. Picsart marketplace entry is a new signal — confirms commercial intent to solve discovery, but niche (creative tools). Still a 2027+ opportunity — no clear enterprise WTP signal yet.*
+*Score unchanged. ClawRun minor new signal. Still a 2027+ opportunity — no clear enterprise WTP signal yet.*
 
 ---
 
 ## H6 — Policy Enforcement Runtime (Real-time Agent Guardrails)
-**Thesis:** 68% of orgs have reactive-only AI governance. Only 7% have real-time policy enforcement. No product offers inline, runtime policy enforcement for agent actions — most scan post-event.
-**Signals (updated 2026-03-22):**
-- ALTK paper (arxiv, 2026-03-16): explicitly documents how "outputs that violate organizational policy can create legal or compliance risk" — policy enforcement failure in enterprise production confirmed. HIGH CONFIDENCE.
-- Meta rogue agent incident (TechCrunch, 2026-03-18): agent bypassed data access controls — real-world policy enforcement failure at scale. HIGH CONFIDENCE.
-- NVIDIA OpenShell (2026-03-18): open-sources secure runtime for autonomous agents — infra layer approach, not policy layer. Confirms infra maturing; policy enforcement gap above it persists. HIGH CONFIDENCE.
-- Autonomous penetration testing agent (vxcontrol/pentagi, 2026-03-21): fully autonomous pentest capability — if such agents can run, inline policy enforcement becomes security-critical immediately. HIGH CONFIDENCE.
-- Budibase AI Agents (Product Hunt, 2026-03-18): "AI agents that run your operations (open source)" — no policy layer bundled. Confirms gap in open-source tooling.
-- Dell + NVIDIA GB300: first hardware shipped for autonomous AI agents with NemoClaw + OpenShell (Business Wire, 2026-03-16) — hardware commoditizing, policy layer still missing.
-- Autonomous Agent hacked McKinsey's AI in 2 hours (BankInfoSecurity, 2026-03-13): confirms real enterprise-grade attack successful against unguarded agent. HIGH CONFIDENCE.
-- Open-source red-team playground (HN, 2026-03-15): "we kept finding the same types of vulnerabilities" — systemic policy gaps documented publicly. HIGH CONFIDENCE.
-- Constitutional AI for Autonomous Systems (academic, 2025-12-24): "current approaches lack robust mechanisms for embedding moral constraints directly into" agents — academic confirmation of gap. MEDIUM CONFIDENCE.
-- LLM Constitutional Multi-Agent Governance (arxiv, 2026-03-13): governance at multi-agent level unsolved in research. MEDIUM CONFIDENCE.
+**Thesis:** 68% of orgs have reactive-only AI governance. Only 7% have real-time policy enforcement. No product offers inline, runtime policy enforcement for agent actions.
+**Signals (updated 2026-03-23):**
+- ALTK paper (arxiv, 2026-03-16): "outputs that violate organizational policy can create legal or compliance risk" — confirmed in enterprise production. HIGH CONFIDENCE.
+- Meta rogue agent incident (TechCrunch, 2026-03-18): agent bypassed data access controls at scale. HIGH CONFIDENCE.
+- NVIDIA OpenShell (2026-03-18): infra layer maturing; policy enforcement gap above it persists. HIGH CONFIDENCE.
+- Autonomous pentest agent (vxcontrol/pentagi, 2026-03-21): fully autonomous attack capability — inline policy enforcement becomes security-critical. HIGH CONFIDENCE.
+- Dell brings autonomous AI agents to the desktop (AEC Magazine, 2026-03-21): policy enforcement scope expands to edge/desktop. MEDIUM CONFIDENCE (new this run).
+- Dell + NVIDIA GB300: first hardware shipped for autonomous agents — hardware commoditizing, policy layer missing. Business Wire, 2026-03-16.
+- Autonomous Agent hacked McKinsey's AI in 2 hours (BankInfoSecurity, 2026-03-13). HIGH CONFIDENCE.
+- Open-source red-team playground (HN, 2026-03-15): systemic policy gaps documented. HIGH CONFIDENCE.
 - Warren presses Pentagon on xAI classified network access (2026-03-16): government-level policy enforcement concern. HIGH CONFIDENCE.
 **Scores:** Pain=5 | Urgency=5 | WTP=5 | Def=4 | IntFric=3 | **Total: 22/25**
-*Score unchanged at 22. New signals (McKinsey hack, red-team playground, multi-agent governance research) all reinforce. Pentagon/xAI classified access concern adds government-sector urgency. Moat potential remains solid: runtime enforcement is harder to commoditize than logging.*
+*Score unchanged. Dell desktop signal (Mar 21) confirms policy enforcement scope expanding to edge. All prior signals intact.*
 
 ---
 
 ## H7 — SMB Agent Deployment Wrapper (Turnkey Ops Agent)
-**Thesis:** SMBs want agentic AI but face: no expertise, unpredictable costs, dirty data, legacy integration. "Implementation gap" is huge — hype vs. reality. Market for a fully managed, opinionated ops-agent-as-a-service for SMBs (like Navibase) is wide open.
-**Signals (updated 2026-03-22):**
-- Link AI (Product Hunt, 2026-03-19): "The Agentic Business Suite that replaces your entire stack" — direct competitor in SMB agentic suite space. MEDIUM CONFIDENCE (early product, validates thesis).
-- Budibase AI Agents: "AI agents that run your operations (open source)" — open source version validates demand. MEDIUM CONFIDENCE.
-- Cal.com Agents (Product Hunt, 2026-03-13): "AI Agents coming to the best scheduling tool" — vertical-specific agent deployment pattern emerging. MEDIUM CONFIDENCE.
-- AutoSend MCP (Product Hunt, 2026-03-17): "The email platform your AI agent can operate" — tooling for ops agents emerging. MEDIUM CONFIDENCE.
-- Nothing CEO app disappearance thesis (TechCrunch, 2026-03-18): if apps disappear → SMBs need agent replacements, not build-your-own. Supports managed wrapper thesis. LOW-MEDIUM CONFIDENCE.
-- Gartner: 80% of governments deploying by 2028 — implies SMB adoption wave follows enterprise/government. MEDIUM CONFIDENCE.
-- Chamber (YC W26): AI agent for GPU infrastructure — YC validating agent-as-service model for infrastructure. HIGH CONFIDENCE (YC funding signal).
-- Spine Swarm (YC S23, HN 2026-03-13): "AI agents that collaborate on a visual canvas to complete complex non-coding projects" — multi-agent for business workflows, validates SMB complexity demand. MEDIUM CONFIDENCE.
-- AI Agents & Digital Workers in ERP (2025-08-20): enterprise ERP agent gap — SMB ERP systems even less equipped. MEDIUM CONFIDENCE.
-- Lemon (Product Hunt, 2026-02-20): "Voice-Powered AI Agent That Turns Voice Into Done Tasks" — consumer-facing ops agent approach. LOW CONFIDENCE (not SMB-targeted).
-- Microsoft Copilot rollback (TechCrunch, 2026-03-20): big tech pulling back consumer-facing AI bloat — creates space for specialized SMB agent offerings. MEDIUM CONFIDENCE.
-**Assessment:** Competitors emerging (Link AI, Budibase, Cal.com Agents). YC validation (Chamber) and ecosystem tooling (AutoSend MCP) both signals. First-mover window closing. Navibase differentiation must be: Hungarian/CEE market focus + specific vertical (ops), not generic. Microsoft Copilot pullback creates SMB-specific opportunity.
+**Thesis:** SMBs want agentic AI but face: no expertise, unpredictable costs, dirty data, legacy integration. Market for a fully managed, opinionated ops-agent-as-a-service for SMBs (like Navibase) is wide open.
+**Signals (updated 2026-03-23):**
+- ClawRun (2026-03-21): "Deploy and manage AI agents in seconds" — new deployment platform validates low-friction agent ops demand. MEDIUM CONFIDENCE (new this run).
+- browser-use GitHub trending (2026-03-23): browser automation for AI agents — standard ops primitive maturing, reduces build complexity for SMB wrapper. MEDIUM CONFIDENCE (new today).
+- production-agentic-rag-course (2026-03-23): Education demand signal — growing cohort of agent builders, adoption wave incoming. LOW CONFIDENCE (indirect, new today).
+- Link AI (Product Hunt, 2026-03-19): "The Agentic Business Suite that replaces your entire stack." MEDIUM CONFIDENCE.
+- Budibase AI Agents: "AI agents that run your operations (open source)." MEDIUM CONFIDENCE.
+- Cal.com Agents (Product Hunt, 2026-03-13): vertical-specific agent deployment pattern. MEDIUM CONFIDENCE.
+- AutoSend MCP (Product Hunt, 2026-03-17): email platform for ops agents. MEDIUM CONFIDENCE.
+- Chamber (YC W26): YC validating agent-as-service for infrastructure. HIGH CONFIDENCE.
+- Microsoft Copilot rollback (TechCrunch, 2026-03-20): creates space for specialized SMB offerings. MEDIUM CONFIDENCE.
+**Assessment:** ClawRun and browser-use confirm tooling ecosystem growing — accelerating adoption wave. Navibase differentiation: Hungarian/CEE market focus + specific vertical (ops). Microsoft Copilot pullback maintains SMB-specific window.
 **Scores:** Pain=4 | Urgency=4 | WTP=3 | Def=4 | IntFric=3 | **Total: 18/25**
-*Score unchanged. New signals reinforce market validation (Cal.com, AutoSend MCP, Spine Swarm). Microsoft Copilot pullback is a new positive signal for specialized SMB offerings. Def raised to 4 (was 4 — confirmed): CEE/Hungarian market focus remains a genuine moat vs generic competitors.*
+*Score unchanged. Three new signals today (ClawRun, browser-use, RAG course) validate growing ecosystem. CEE/Hungarian focus remains genuine moat.*
 
 ---
 
 ## H8 — Cross-Agent Context Persistence (Stateless Problem)
-**Thesis:** MCP sessions are stateless. Multi-agent workflows break when agents can't share context across sessions. No neutral, secure, cross-agent memory/context store exists. Sahara is building one but crypto-native.
-**Signals (updated 2026-03-22):**
-- "Context Overflow" (Product Hunt, 2026-03-20): "Knowledge Sharing for AI Agents" — new entrant directly targeting cross-agent knowledge sharing. MEDIUM CONFIDENCE (validates demand).
-- ALTK paper: documents multi-agent coordination failures in production — context loss explicitly mentioned as failure mode. HIGH CONFIDENCE.
-- Open SWE (LangChain, 2026-03-19): open-source asynchronous coding agent — async pattern implies context persistence solved locally; no cross-agent solution.
-- HN sandbox thread (2026-03-19): practitioners debating stateless vs. stateful tradeoffs in production. Confirms practitioner-level awareness of problem.
-- Agentic Context Management paper (HN, 2026-03-16): "Why the Model Should Manage Its Own Context" — research direction for self-managed context. MEDIUM CONFIDENCE.
-- OpenViking (GitHub, 2026-03-16): "open-source context database designed specifically for AI Agents" — unifies context (memory, resources, skills) management. HIGH CONFIDENCE (direct validator of thesis).
-- Query Memory (Product Hunt, 2026-03-14): "One API for all documents your AI agents need" — another entrant targeting agent memory access. MEDIUM CONFIDENCE.
-- cognee/Knowledge Engine (GitHub, 2026-03-16): "Knowledge Engine for AI Agent Memory in 6 lines of code" — lightweight entrant. MEDIUM CONFIDENCE.
-- Nyne ($5.3M seed, 2026-03-13): "gives AI agents the human context they're missing" — VC-backed company directly solving this problem. HIGH CONFIDENCE (funding validates WTP).
-**Assessment:** Nyne's $5.3M seed round is a major new signal — VC-backed company addressing cross-agent context. Multiple open-source entrants (OpenViking, cognee, Query Memory) confirm technical consensus but also competitive pressure. WTP validated by VC but WTP from enterprises still unclear.
+**Thesis:** MCP sessions are stateless. Multi-agent workflows break when agents can't share context across sessions. No neutral, secure, cross-agent memory/context store exists.
+**Signals (updated 2026-03-23):**
+- Nyne ($5.3M seed, 2026-03-13): VC-backed company directly solving cross-agent context. HIGH CONFIDENCE (funding validates WTP).
+- OpenViking (GitHub, 2026-03-16): "open-source context database designed specifically for AI Agents." HIGH CONFIDENCE.
+- "Context Overflow" (Product Hunt, 2026-03-20): "Knowledge Sharing for AI Agents." MEDIUM CONFIDENCE.
+- ALTK paper: multi-agent coordination failures — context loss explicitly mentioned. HIGH CONFIDENCE.
+- Query Memory (Product Hunt, 2026-03-14): "One API for all documents your AI agents need." MEDIUM CONFIDENCE.
+- cognee (GitHub, 2026-03-16): "Knowledge Engine for AI Agent Memory in 6 lines of code." MEDIUM CONFIDENCE.
+- production-agentic-rag-course (2026-03-23): Production RAG for agentic systems — confirms context as core production concern. LOW CONFIDENCE (indirect, new today).
+**Assessment:** Nyne's $5.3M seed remains key signal. Space is crowded. GDPR-compliant EU-focused angle may differentiate.
 **Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=2 | IntFric=4 | **Total: 18/25**
-*Urgency raised to 4 (was 3): Nyne funding + multiple entrants signal accelerating market definition. WTP raised to 4 (was 3): VC-backed Nyne validates enterprise WTP. Def lowered to 2 (was 3): OpenViking, cognee, Query Memory, Context Overflow, Nyne — crowded space. Total raised to 18 (was 17).*
+*Score unchanged. RAG course (Mar 23) is weak positive. Def remains low due to crowded landscape.*
 
 ---
 
-## H9 — Agent-Dedicated Email & Communication Infrastructure (NEW)
-**Thesis:** Agents operating on behalf of users need dedicated, attributable communication channels — not shared inboxes. Attribution breaks, deliverability fails, compliance audits impossible when agents share human accounts. Market for agent-native communication primitives is emerging.
-**Signals (2026-03-22 — NEW hypothesis):**
-- AgentMailr (HN, 2026-03-15): "dedicated email inboxes for AI agents. Every agent that needs email ends up sharing my personal inbox or a single company domain. That breaks attribution, creates deliverability issues." — Direct practitioner validation. HIGH CONFIDENCE.
-- AutoSend MCP (Product Hunt, 2026-03-17): "The email platform your AI agent can operate" — second entrant in same space. MEDIUM CONFIDENCE.
-- discli (Product Hunt, 2026-03-16): "Discord CLI for AI agents and humans" — agent-native communication channel emerging. MEDIUM CONFIDENCE.
-- WordPress.com AI agents (TechCrunch, 2026-03-20): agents publishing content autonomously — communication attribution at scale becoming urgent. MEDIUM CONFIDENCE.
-- Manus Agents for Telegram (Product Hunt, 2026-02-20): "Personal AI Agent in Your Chat" — consumer-facing but validates agent-in-communication-channel pattern. LOW CONFIDENCE.
-**Assessment:** Early hypothesis. Multiple concurrent product launches (AgentMailr, AutoSend MCP, discli) in 1 week suggest emerging market moment. AgentMailr HN post with strong practitioner framing is particularly compelling. However WTP and defensibility unclear — could be features of existing email/communication platforms.
+## H9 — Agent-Dedicated Email & Communication Infrastructure
+**Thesis:** Agents need dedicated, attributable communication channels. Attribution breaks, deliverability fails, compliance impossible when agents share human accounts.
+**Signals (updated 2026-03-23):**
+- AgentMailr (HN, 2026-03-15): "dedicated email inboxes for AI agents" — direct practitioner validation. HIGH CONFIDENCE.
+- AutoSend MCP (Product Hunt, 2026-03-17): "The email platform your AI agent can operate." MEDIUM CONFIDENCE.
+- discli (Product Hunt, 2026-03-16): "Discord CLI for AI agents and humans." MEDIUM CONFIDENCE.
+- WordPress.com AI agents (TechCrunch, 2026-03-20): agent content at scale, attribution urgent. MEDIUM CONFIDENCE.
+**Assessment:** No new signals today. Early stage hypothesis. WTP and defensibility unclear.
 **Scores:** Pain=3 | Urgency=3 | WTP=2 | Def=2 | IntFric=2 | **Total: 12/25**
-*New hypothesis. Low score reflects early stage — monitoring for WTP signals and competitive consolidation.*
+*Score unchanged. Monitoring for WTP signals.*
 
 ---
 
-## Ranking Summary (2026-03-22)
+## Ranking Summary (2026-03-23)
 
 | Rank | Hypothesis | Score | Delta |
 |------|-----------|-------|-------|
 | 1 | H2 — Audit Trail | 22/25 | = |
 | 2 | H6 — Policy Enforcement Runtime | 22/25 | = |
 | 3 | H1 — Agent Identity & Auth | 21/25 | = |
-| 4 | H3 — MCP Governance | 20/25 | ↑+1 |
+| 4 | H3 — MCP Governance | 20/25 | = |
 | 5 | H7 — SMB Deployment Wrapper | 18/25 | = |
-| 6 | H8 — Cross-Agent Context | 18/25 | ↑+1 |
+| 6 | H8 — Cross-Agent Context | 18/25 | = |
 | 7 | H4 — Agent Payment Rails | 17/25 | = |
 | 8 | H5 — Discovery & Registry | 16/25 | = |
-| 9 | H9 — Agent Communication Infra | 12/25 | NEW |
+| 9 | H9 — Agent Communication Infra | 12/25 | = |
+
+*Low-delta day (2026-03-23): only 2-3 genuinely new signals since Mar 22 update. No score changes. All prior signals remain intact. Next significant movement expected when EU AI Act enforcement window tightens (Q2 2026) or new VC funding signal appears.*
 
 ---
 
-## Top Signals This Week (2026-03-22 update)
+## Top 5 Signals This Run (2026-03-23)
 
-1. **Autonomous Agent hacked McKinsey's AI in 2 hours** (BankInfoSecurity, 2026-03-13): Production AI system compromised by autonomous attack agent — validates H3 (MCP security) and H6 (policy enforcement) as urgent security priorities. HIGH CONFIDENCE.
-2. **Nyne raises $5.3M seed** (2026-03-13): VC-backed company specifically solving cross-agent context problem — validates H8 demand and raises WTP score. First institutional capital in this space. HIGH CONFIDENCE.
-3. **Open-source red-team playground for AI agent exploits** (HN, 2026-03-15): "Same vulnerability patterns appear repeatedly" — confirms systemic agent security gaps, not edge cases. Validates H3 + H6. HIGH CONFIDENCE.
-4. **AgentMailr, AutoSend MCP, discli** (HN/PH, 2026-03-15/17): Three concurrent product launches targeting agent-native communication infrastructure in 72 hours — possible emerging market signal. Forms basis of H9. MEDIUM CONFIDENCE.
-5. **OpenViking: context database for AI agents** (GitHub, 2026-03-16): Largest open-source project specifically addressing cross-agent context. Validates H8 technical direction but competes with Nyne. MEDIUM CONFIDENCE.
-6. **ClawSecure + open red-team tool** (2026-03-12/15): Two security products for AI agent platforms in one week — validates H3/H6 market formation. MEDIUM CONFIDENCE.
-7. **Picsart AI agent marketplace** (2026-03-17): First commercial agent marketplace with consumer launch schedule — validates H5 direction, though niche. MEDIUM CONFIDENCE.
-8. **Microsoft Copilot rollback from Windows** (TechCrunch, 2026-03-20): Big tech pulling back generic AI bloat — creates space for specialized SMB agent offerings (H7). MEDIUM CONFIDENCE.
-9. **CSIS governance confusion paper** (2026-01-26): U.S. policy incoherence on agentic AI definition confirmed at think-tank level — regulatory uncertainty is itself a market signal for H1/H2 compliance tooling. HIGH CONFIDENCE.
-10. **Gartner 80% government deployment by 2028** (2026-03-20): Government-scale agent adoption confirms institutional audit trail demand (H2) and policy enforcement pressure (H6). MEDIUM CONFIDENCE (Gartner projection).
+1. **browser-use GitHub trending** (2026-03-23): Browser automation for AI agents hitting GitHub trending — confirms browser tool calls becoming a standard agent primitive. Relevant to H3 (MCP/tool governance) and H7 (SMB ops agents). MEDIUM CONFIDENCE.
+
+2. **ClawRun "Deploy and manage AI agents in seconds"** (2026-03-21, not in previous update): New agent deployment platform targeting deployment simplicity. Validates H7 SMB demand. MEDIUM CONFIDENCE.
+
+3. **TradingAgents: Multi-Agents LLM Financial Trading Framework** (2026-03-21, not in previous update): Domain-specific financial agent — confirms financial vertical's appetite for multi-agent systems (H4 payment rails). MEDIUM CONFIDENCE.
+
+4. **Dell brings autonomous AI agents to the desktop** (2026-03-21): Hardware expansion to desktop environment — policy enforcement (H6) and audit trail (H2) scope expands to edge. MEDIUM CONFIDENCE.
+
+5. **production-agentic-rag-course** (2026-03-23): Education demand for production agentic RAG — growing adoption wave (H7, H8). LOW CONFIDENCE (indirect).
+
+**Note:** Today is a low-delta day. The most impactful signals from this week remain: McKinsey hack (H3/H6), Nyne $5.3M seed (H8), NIST April deadline (H1). No score changes warranted today.
 
 ---
 
-## Suggested Next Experiments (per top opportunity)
+## Top 3 Opportunities + Suggested Experiments
 
-### H2 / H6 (tied #1) — Audit + Policy Enforcement
-**Hypothesis to test:** Enterprise teams would pay for a lightweight "agent activity recorder" that generates audit-ready reports for EU AI Act compliance — before buying a full policy enforcement runtime.
-**Experiment:** Cold outreach to 10 EU-based enterprises known to use Claude/GPT in production. Offer a 30-day free audit report generator. Measure: conversion to paid, price sensitivity, which compliance framework they cite.
-**Investment:** ~2 weeks build, 0 marketing spend. Use ALTK + Tracium.ai as proof of concept signal in pitch.
-**New signal this week:** McKinsey hack confirms security-driven audit demand, not just regulatory compliance. Dual pitch angle now viable: compliance AND security.
+### #1: H2 / H6 (tied) — Audit Trail + Policy Enforcement Runtime
+**Why now:** EU AI Act Aug 2026 deadline, McKinsey hack confirms security-driven demand, 94% orgs report gaps. Dual pitch: compliance AND security.
+**Experiment:** Cold outreach to 10 EU-based enterprises using Claude/GPT in production. Offer 30-day free audit report generator for EU AI Act compliance. Measure: conversion to paid, price sensitivity, compliance framework cited.
+**Investment:** ~2 weeks build. Use ALTK + Tracium.ai as proof-of-concept signals in pitch.
 
-### H3 — MCP Governance (moved up)
-**Hypothesis to test:** Development teams deploying MCP servers will pay for a hosted MCP governance proxy that provides: request logging, tool-call approval workflows, and anomaly detection.
-**Experiment:** Build a minimal MCP proxy that logs all tool calls to a structured audit log. Release as open-source on GitHub. Measure stars + issues + requests for managed version within 30 days.
-**Investment:** ~1 week build. Leverage existing Operant AI competitive signal to define differentiation (focus on SMB, not enterprise pricing).
-**New signal this week:** McKinsey hack + autonomous pentest agent confirm active exploitation — urgency now matches H1/H2.
+### #2: H1 — Agent Identity & Auth Layer
+**Why now:** NIST concept papers due April 2, 2026. EU AI Act Aug 2026. 77% orgs lack formal strategy. World/Worldcoin launch confirms market formation.
+**Experiment:** Publish a free "Agent Identity Audit" tool — scans enterprise MCP/agent configs for identity gaps, outputs compliance checklist. Measure: downloads, enterprise inbound, conversion to paid advisory.
+**Investment:** ~1 week build. Strong SEO play into April NIST deadline.
 
-### H8 — Cross-Agent Context (improved)
-**Hypothesis to test:** Teams building multi-agent workflows will pay $50-200/month for a hosted, GDPR-compliant cross-agent context store vs. building their own with OpenViking/cognee.
-**Experiment:** Fork OpenViking or cognee, add GDPR compliance documentation and hosted version. Post on HN and ProductHunt. Measure: waitlist signups, enterprise inbound vs. devs.
-**Investment:** ~2 weeks, primarily positioning/compliance documentation. GDPR angle differentiates from US-native competitors (Nyne).
-
-### H7 — SMB Deployment Wrapper (Navibase relevance — unchanged)
-**Hypothesis to test:** CEE (Hungarian/Slovak/Czech) SMB owners will pay €200-500/month for a fully managed ops agent that handles: email triage, calendar, task management, weekly reporting.
-**Experiment:** Offer Leoni (current ops agent) as a white-labeled pilot to 3 Hungarian SMBs. Measure: time-to-value, churn signal after 60 days, what they most frequently ask it to do.
-**Investment:** Existing infrastructure. Main cost: Tomi's setup time per pilot. Direct revenue test with minimal overhead.
+### #3: H7 — SMB Deployment Wrapper (Navibase direct relevance)
+**Why now:** ClawRun and Link AI confirm market formation but no CEE/Hungarian player exists. Microsoft Copilot pullback creates SMB-specific window.
+**Experiment:** Offer Leoni (current ops agent) as white-labeled pilot to 3 Hungarian SMBs. Measure: time-to-value, churn after 60 days, top 5 most frequent tasks.
+**Investment:** Existing infrastructure. Main cost: Tomi's time for pilot setup. Direct revenue test.
 
 ---
 
 ## Data Sources & Confidence Notes
 
-- **Primary:** HAIER evolution_signals export (2026-03-22, 764 total signals, 137 agent-relevant; filtered on focus_area: 'AI agents' OR 'AI decision delegation')
-- **Web search:** UNAVAILABLE this run (Gemini API key error). All signals from HAIER export only. 137 agent-relevant signals deemed sufficient for quality update; no critical gaps identified for H1/H3/H4 that would require web search supplementation.
+- **Primary:** HAIER evolution_signals export (2026-03-23, 800 total signals, 143 agent-relevant; filtered on focus_area: 'AI agents' OR 'AI decision delegation')
+- **Web search:** UNAVAILABLE this run (Gemini API key error — same as 2026-03-22 run). All signals from HAIER export only. 143 signals sufficient for quality update; no critical gaps identified.
+- **Delta since last update:** 3 genuinely new signals (browser-use Mar 23, jamwithai RAG course Mar 23, Sashiko Mar 22). 3 additional reviewed but previously noted (ClawRun, TradingAgents, Dell desktop).
 - **Confidence notation:** HIGH = named source + verifiable claim | MEDIUM = plausible but single source or projection | LOW = speculative or executive opinion
 - All scores are editorial judgments based on signal weight, not algorithmic. Treat as directional, not precise.
-- No fabricated data. All claims traceable to specific sources in HAIER export or prior-session web searches.
+- No fabricated data. All claims traceable to specific sources in HAIER export.
 
-*Last full web search: 2026-03-21 (previous run). Web search unavailable 2026-03-22 due to API error — update is HAIER-only.*
+*Last full web search: 2026-03-21. Web search unavailable 2026-03-22 and 2026-03-23 due to Gemini API key error. If API remains unavailable Mar 24, recommend Tomi checks Gemini API key status.*
