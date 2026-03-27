@@ -216,3 +216,74 @@ Scoring dimensions (1–5 each):
 - No fabricated data. All claims traceable to specific sources in HAIER export.
 
 *Last full web search: 2026-03-21. Web search unavailable 2026-03-22 and 2026-03-23 due to Gemini API key error. If API remains unavailable Mar 24, recommend Tomi checks Gemini API key status.*
+
+---
+
+## H10 — Agent Infrastructure as Code (GitOps for Agents)
+**Thesis:** Ahogy az agent-ek száma nő, a kézi konfigurációkezelés fenntarthatatlanná válik. Nincs standard, verziókövetett módszer agent policy-k, role-ok, tool permission-ök és deployment konfigurációk deklaratív kezelésére. A Terraform mintájára szükség van egy "agent infra as code" rétegre: YAML-alapú, GitOps workflow-val, rollback képességgel.
+**Signals (updated 2026-03-27):**
+- Orloj (GitHub/HN, 2026-03-26): AgentPolicy, AgentRole, ToolPermission runtime gate, teljes audit trail YAML-ból — open-source pionír, közvetlenül validálja a thesis-t. HIGH CONFIDENCE.
+- NVIDIA OpenShell (2026-03-23): secure runtime for autonomous agents — infra réteg standardizálódik, policy-as-code igény nő fölötte. HIGH CONFIDENCE.
+- EU AI Act (arxiv, 2026-03-24): autonóm agentek szabályozatlan zónában vannak — policy deklarálhatósága compliance-kritikussá válik Aug 2026-ra. HIGH CONFIDENCE.
+- Cloudflare Dynamic Workers (2026-03-24): sandbox izolálás infrastrukturális szinten megoldva — az "above infra" policy/config réteg marad nyitott. MEDIUM CONFIDENCE.
+**Assessment:** Az Orloj nyílt forráskódú — a competitive moat nem a tool maga, hanem az opinionated, KKV-kra szabott konfiguráció template-ek és managed service réteg. Navibase alkalmazás: agent konfiguráció sablonok + változáskövetés + compliance export.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=4 | IntFric=3 | **Total: 19/25**
+*Új hypothesis (2026-03-27). Orloj megjelenése közvetlen validáció. Az open-source megközelítés miatt a managed/opinionated réteg a differenciáló tényező.*
+
+---
+
+## H11 — Multi-Agent Hallucination Self-Check Layer
+**Thesis:** KKV agenteknél az ügyfél-kommunikáció, ajánlatok, döntések megbízhatósága üzletileg kritikus. A "hallucination" nem csak technikai zaj — egy téves email vagy hibás adat direkt üzleti kár. Jelenleg nincs beépített, cost-efficient self-check réteg multi-agent pipeline-okban. A MARCH eredmény megmutatja: 8B paraméteres modell MARL-lal eléri a closed-source szintet hallucináció-ellenőrzésben.
+**Signals (updated 2026-03-27):**
+- MARCH paper (arxiv, 2026-03-25): multi-agent RL-alapú hallucináció self-check, 8B modellel closed-source teljesítmény — cost-efficient megoldás production agenteknél. HIGH CONFIDENCE.
+- ALTK paper (arxiv, 2026-03-16): tool argument corruption, policy violation, silent reasoning error — multi-agent pipeline failures dokumentálva. HIGH CONFIDENCE.
+- Meta rogue agent (2026-03-24): az "ellenőrzés illúziója" narratíva KKV pitchben visszaütő — a megbízhatóság lesz az értékesítési battleground. HIGH CONFIDENCE.
+- EU AI Act autonóm agent kompatibilitás paper (arxiv, 2026-03-24): "misuse risk, unequal access" — téves agent output felelősség kérdése nyílik. HIGH CONFIDENCE.
+**Assessment:** A MARCH technikát a Navibase SMB ops agent reliability rétegébe lehet integrálni: kimenő kommunikáció (email, ajánlat, riport) előtt self-check pass. Kis modell, alacsony latency, magas üzleti érték. Versenyképes differenciátor a "megbízható agent" pitchben.
+**Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=3 | IntFric=3 | **Total: 17/25**
+*Új hypothesis (2026-03-27). MARCH paper közvetlen technikai validáció. KKV relevanciája magas — az "agent hibázott és az ügyfélnek ment" forgatókönyv a legnagyobb adopciós barrier.*
+
+
+---
+
+## Ranking Summary (2026-03-27)
+
+| Rank | Hypothesis | Score | Delta |
+|------|-----------|-------|-------|
+| 1 | H2 — Audit Trail | 22/25 | = |
+| 2 | H6 — Policy Enforcement Runtime | 22/25 | = |
+| 3 | H1 — Agent Identity & Auth | 21/25 | = |
+| 4 | H3 — MCP Governance | 20/25 | = |
+| 5 | **H10 — Agent Infra as Code** | **19/25** | **ÚJ** |
+| 6 | H7 — SMB Deployment Wrapper | 18/25 | = |
+| 7 | H8 — Cross-Agent Context | 18/25 | = |
+| 8 | H4 — Agent Payment Rails | 17/25 | = |
+| 9 | **H11 — Hallucination Self-Check** | **17/25** | **ÚJ** |
+| 10 | H5 — Discovery & Registry | 16/25 | = |
+| 11 | H9 — Agent Communication Infra | 12/25 | = |
+
+*2026-03-27 delta: 2 új hypothesis (H10, H11). Meglévő scorok változatlanok. Governance/Compliance nyomás (H1/H2/H6) és infrastrukturális standardizáció (H10) dominál. EU AI Act Aug 2026 deadline közeledtével urgency emelkedés várható Q2-ben.*
+
+---
+
+## Top 3 Opportunities + Suggested Experiments (2026-03-27)
+
+### #1: H2 / H6 (tied) — Audit Trail + Policy Enforcement Runtime [Score: 22/25]
+**Miért most:** EU AI Act Aug 2026 deadline közeledik. McKinsey hack + Meta rogue agent megerősítik a biztonsági igényt. 94% szervezetnél kritikus hiány az AI aktivitás láthatóságában. A compliance + security kettős pitch most nyitott ablak.
+**Javasolt kísérlet:** 10 EU-ban működő, Claude/GPT-t production-ben használó enterprise-nak hideg megkeresés. Ajánlat: 30 napos ingyenes EU AI Act compliance audit report generátor. Mérők: konverzió fizetős felé, árszenzitvitás, hivatkozott compliance framework.
+**Befektetés:** ~2 hét fejlesztés. ALTK + Tracium.ai mint proof-of-concept.
+
+### #2: H10 — Agent Infrastructure as Code [Score: 19/25 — ÚJ]
+**Miért most:** Az Orloj open-source megjelenése (2026-03-26) jelzi, hogy a piac elkezdi standardizálni a GitOps for Agents mintát. Az EU AI Act compliance-hoz szükséges auditálható policy deklarálhatóság megnöveli a WTP-t vállalati szinten. Moat lehetőség: managed service + opinionated KKV template-ek az open-source tool fölé.
+**Javasolt kísérlet:** Navibase "Agent Config Template Library" — 5 iparági sablon (ügyfélszolgálat, könyvelés, HR, értékesítés, logisztika) YAML-ban, Orloj/policy-as-code mintára. Mérő: GitHub star szerzés 30 nap alatt, inbound enterprise kontakt, template letöltések.
+**Befektetés:** ~1 hét. Erős SEO- és thought leadership-hatás a Navibase brand számára.
+
+### #3: H11 — Hallucination Self-Check réteg (Navibase közvetlen alkalmazás) [Score: 17/25 — ÚJ]
+**Miért most:** A MARCH paper (8B MARL modell, closed-source szintű teljesítmény) megnyitja a cost-efficient in-pipeline self-check lehetőséget. KKV-knál a "agent hibás emailt küldött az ügyfélnek" forgatókönyv a legfőbb adopciós barrier — ezt megszünteti. Belső implementáció gyors ROI-t hozhat a Leoni ops agent megbízhatóságán.
+**Javasolt kísérlet:** Leoni kimenő kommunikáció pipeline-jában (email, ajánlat, riport) MARCH-alapú self-check réteg prototípus. Mérő: false positive arány (nem blokkol helyes outputot), false negative arány (nem enged át hibásat), latency overhead. 2 hetes A/B: önellenőrzéssel vs. anélkül.
+**Befektetés:** ~1 hét. Azonnal tesztelhető a meglévő Leoni infrastruktúrán. Ha működik: KKV pitch centerdarabja.
+
+---
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-03-27.md (189 signal, HAIER export) | 2026-03-27 09:30 CET*
+
