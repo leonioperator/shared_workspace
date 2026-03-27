@@ -1,21 +1,29 @@
-Subject: Amikor a token budget már juttatás (és KPI)
-Preview text: A compute költség nem mellékes: stratégia, kontroll és kimenet.
+# vinczetamas.hu newsletter draft — 2026-03-26
 
-1) Trend összefoglaló
-- A „token budget” megjelenik a kompenzációs csomagban: compute mint erőforrás, nem csak szoftver-előfizetés. (Mindstream / TechCrunch) https://techcrunch.com/2026/03/21/are-ai-tokens-the-new-signing-bonus-or-just-a-cost-of-doing-business/
-- Az AI termékeknél jön a fókuszváltás: side quest projektek leállnak, compute megy a core modelre. (Rundown) https://www.therundown.ai/p/openai-sora-gets-the-axe
-- A „távoli asszisztens” workflow normalizálódik: feladat átadás, fájlhozzáférés, állapotkövetés. (Rundown guide) https://app.therundown.ai/guides/let-claude-use-your-computer-remotely-with-dispatch
-- A személyes asszisztens verseny újraindul: Siri külön app + chatbot UI, mélyebb hozzáférés a személyes adatokhoz. (Bloomberg) https://www.bloomberg.com/news/articles/2026-03-24/ios-27-features-apple-ai-reboot-with-siri-app-new-interface-ask-siri-button
-- A futtatási infrastruktúra „agent-barát” lesz: sandboxolt kódfuttatás gyorsul és egyszerűsödik. (Cloudflare) https://blog.cloudflare.com/dynamic-workers
+Subject: AI mint „második alkalmazott”: géphasználat, fájl-könyvtár, és egy gyors szervilitás-teszt
 
-2) Gyakorlati tanulság
-Ha AI-t használsz a csapatban, kezeld úgy, mint egy költségkeretes erőforrást: legyen cél, plafon, és egyértelmű elvárt kimenet. A token budget önmagában nem érték, csak akkor, ha mérhetően gyorsít egy folyamatot vagy kivált manuális munkát.
+Preview text: A desktop-ügynökök itt vannak. Mutatok egy 3 lépéses rutint, hogy használd őket úgy, hogy ne bólogassanak csak, és ne legyen adatkáosz.
 
-3 lépés
-1. Írd össze 7 napra: ki, mire, melyik eszközt használ (ChatGPT/Claude/Gemini/agentek) és mi a célkimenet.
-2. Állíts be „token budget” szabályt: havi plafon csapatonként, és 1-2 jóváhagyási szint a drága futásokra.
-3. Válassz 1 folyamatot (pl. hírlevelek, ügyfél e-mailek, riportolás), és csinálj belőle egy pilotot: bemenet, lépések, kimenet, mérés (idő/hibaarány).
+## 1) Trend összefoglaló (max 5 bullet)
 
-3) CTA
-Ha szeretnéd, megmutatom, hol folyik el a legtöbb idő és pénz a működésedben, és mi az a 2-3 automatizálás, ami reálisan megtérül.
-vinczetamas.hu/audit
+- Claude Code és Cowork már tud „computer use”-t: fájlokat megnyit, böngészőt kezel, eszközöket futtat, és engedélyt kér action előtt. https://www.engadget.com/ai/claude-code-and-cowork-can-now-use-your-computer-210000126.html
+- A fókusz egyre kevésbé a „melyik modell a jobb”, és egyre inkább a kontextuson van: keresés, jogosultság, guardrail, audit nyom. (Tool trendek: context capture, agent office UI.) https://techcrunch.com/2026/03/23/littlebird-raises-11m-to-capture-context-from-your-computer-so-you-can-query-your-data/
+- ChatGPT Library külön fájl-tárolót ad a feltöltött/kreált fájloknak. Fontos: a chat törlése nem jelenti automatikusan a fájl törlését. https://links.tldrnewsletter.com/jI4fQv
+- Meta belül már performance review-hoz kötik az AI használatot, és „CEO agent” irányba mennek (belső tudás + gyors válaszok). https://www.wsj.com/tech/ai/mark-zuckerberg-is-building-an-ai-agent-to-help-him-be-ceo-eddab2d5
+- Egy egyszerű módszer terjed a túlzottan „egyetértő” AI válaszok kiszűrésére: ugyanaz a kérdés több framinggel (perspective flip). https://www.theneurondaily.com/p/bernie-sanders-interviewed-claude-on-camera-here-s-what-happened
+
+## 2) Gyakorlati tanulság
+
+Ha desktop agentet használsz (ami tényleg kattint, keres, fájlt nyit), a fő rizikó nem az, hogy „nem okos elég”, hanem hogy rossz brief miatt rossz irányba megy, és közben nagyon meggyőzően kommunikál.
+
+Erre egy egyszerű, napi 2 perces rutin:
+
+1) **Perspective flip**: tedd fel ugyanazt a kérdést támogató, szkeptikus és neutrális megfogalmazásban. Ha a konklúzió a framingtől függ, állj meg, kérj forrásokat, vagy bontsd kisebb állításokra.
+2) **Fájlrutin**: ahol lehet, különítsd el a „beszélgetés” és a „dokumentum” életciklusát. Ha a rendszer Library-t/saját tárhelyet használ, legyen szabályod: mit mentünk el, mi törlendő, mi marad.
+3) **Engedélyezési kapuk**: írd le előre, mihez kérjen mindig engedélyt (küldés, törlés, fizetés, live rendszer módosítás). A jó agent nem az, ami mindent megcsinál, hanem ami jól kérdez, mielőtt bajt csinál.
+
+## 3) CTA: vinczetamas.hu/audit
+
+Ha szeretnéd, hogy átnézzük a cégednél hol van gyors nyereség AI automatizálásban (és hol kockázatos), kérj egy rövid auditot itt: vinczetamas.hu/audit
+
+1-2 kör kérdés után kapsz egy konkrét, priorizált listát, mit érdemes bevezetni, és mit nem.
