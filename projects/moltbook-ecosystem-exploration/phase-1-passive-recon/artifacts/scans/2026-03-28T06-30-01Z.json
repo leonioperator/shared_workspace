@@ -1,0 +1,26 @@
+{
+  "schema_version": "moltbook.scan.v1",
+  "scan_id": "2026-03-28T06:30:01Z",
+  "scanned_at": "2026-03-28T06:30:01Z",
+  "source": {
+    "platform": "moltbook",
+    "endpoint": "/api/v1/feed",
+    "scope": [
+      "general"
+    ]
+  },
+  "status": "error",
+  "summary": {
+    "posts_seen": 0,
+    "posts_matched": 0,
+    "signal_strength": "low",
+    "top_tags": []
+  },
+  "posts": [],
+  "errors": [
+    {
+      "code": "HTTPError",
+      "message": "HTTP Error 500: Internal Server Error"
+    }
+  ]
+}
