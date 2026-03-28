@@ -1,40 +1,32 @@
 # Candidates — 2026-03-28
-> Jelölt blogcikk témák: vinczetamas.hu (tanácsadói brand) és elkezdodott.hu (KKV gyakorlat)
+
+## vinczetamas.hu jelöltek (AI stratégia, digitális transzformáció, KKV vezető célközönség)
+
+### 1. Mit jelent az, hogy az AI agent "belép" a fizikai világba?
+**Score: 4/5**
+A robotika hét fejleményei (Figure 03, Amazon/Fauna, kínai robot-agent integráció) egy összefoglaló keretbe foglalhatók: az AI nemcsak szoftver már. KKV vezető számára releváns kérdés: mikor jön el ez az ő iparágukba?
+Forrás: https://www.reuters.com/world/us/robot-joins-melania-trump-white-house-event-tout-ai-teachers-2026-03-25/ | https://sg.news.yahoo.com/china-putting-openclaw-robots-073319123.html
+
+### 2. Hogyan olvass híreket AI-jal — és miért fontos ez döntéshozónak?
+**Score: 3/5**
+A Mindstream AI-médiaolvasási kerete (perspektívaelemzés, politikai szűrők, narratívahiányok keresése) egy praktikus készség-cikk alapja lehet. Vezető közönségnek hasznos: ne az algoritmus formálja a döntési kontextust.
+Forrás: Mindstream, 2026-03-28
+
+### 3. Perplexity mint "AI csapat" — mit tud valójában egy KKV-ban?
+**Score: 4/5**
+Vaibhav Sisinty videója (5 valós feladat, nulla kód) konkrét, demo-alapú anyag. Jó alap egy "kipróbáltam, ezt kaptam" típusú bejegyzéshez.
+Forrás: https://www.youtube.com/channel/UClXAalunTPaX1YV185DWUeg
 
 ---
 
-## vinczetamas.hu jelöltek
+## elkezdodott.hu jelöltek (KKV, hétköznapi AI bevezetés)
 
-### 1. A szűk AI agent vs. általános model — miért ver egy iparági agent mindent
-**Quality score: 5/5**
-Fin (Intercom) hetente 2M ügyfélproblémát old meg, $100M ARR, és még a legjobb frontier modelleket is veri. Ez az architektúra érv: nem a legerősebb modell nyer, hanem a legfókuszáltabb. KKV tanácsadói kontextusban is erős üzenet.
-Forrás: [TLDR AI – The Age of Vertical Models](https://tldrnewsletter.com)
+### 4. Az első robot a McDonald's-ban: mit jelent ez a kis vendéglátósoknak?
+**Score: 3/5**
+McDonald's Shanghai robot pilot egy konkrét, érthető kapaszkodó a "mikor jön ez hozzánk?" kérdés megvitatásához. Nem ijesztőnek, hanem érthetőnek kell tálalni.
+Forrás: https://interestingengineering.com/ai-robotics/mcdonalds-humanoid-robots-deliver-food
 
-### 2. Hogyan fogadtatta el az AI agentjét egy befektetési cég belülről
-**Quality score: 4/5**
-USV névvel és szerepkörrel látta el az agentjeit — ez javította az adoptációt. Szervezeti change management + AI bevezetés = ritka, értékes téma KKV CEOs közönségnek.
-Forrás: [TLDR AI – Meet the Agents at USV](https://tldrnewsletter.com)
-
-### 3. Az Apple döntése, ami megváltoztatja, hogyan használják az AI-t milliók
-**Quality score: 3/5**
-iOS 27 + nyílt Siri integráció. Jó "trendcikk" de nem a legerősebb üzleti tanulság, inkább technológiai kontextus-teremtő.
-Forrás: [The Rundown AI / Bloomberg](https://www.bloomberg.com/news/articles/2026-03-26/apple-plans-to-open-up-siri-to-rival-ai-assistants-beyond-chatgpt-in-ios-27)
-
----
-
-## elkezdodott.hu jelöltek
-
-### 4. Így automatizálhatja a kisvállalkozó a napi vásárlásait AI-jal
-**Quality score: 4/5**
-Perplexity Computer személyes vásárló funkcionalitása: konkrét, practikus, lépésenként megmutatható. KKV-knak azonnal alkalmazható, nem igényel tech tudást.
-Forrás: [The Rundown AI – Perplexity Computer guide](https://www.therundown.ai)
-
-### 5. Miért nem az AI írta ezt a cikket — és miért fontos ez neked
-**Quality score: 4/5**
-Wikipedia 40:2 szavazás AI-tiltásra. Emberi hitelesség, szerkesztői kurálás értéke. KKV blog/tartalommarketingre lefordítható üzenet: az AI eszköz, nem ghostwriter.
-Forrás: [The Rundown AI – Wikipedia bans AI](https://www.therundown.ai)
-
-### 6. Az AI asszisztensed hamarosan telefonon is velük lesz — mit jelent ez?
-**Quality score: 3/5**
-Gemini 3.1 Flash Live hangmodell + iOS 27 Siri nyitás kombinált sztorijából kibontható hétköznapi KKV use case (ügyfélhívás asszisztens, note-taking, stb.).
-Forrás: [TLDR AI](https://tldrnewsletter.com), [The Rundown AI](https://www.therundown.ai)
+### 5. Hogyan csináltam meg: AI workflow elemzés az üzletemben HubSpot eszközzel
+**Score: 3/5**
+A HubSpot AI Transformation System egy kipróbálható eszköz (screen recording alapú workflow elemzés). "Hogyan csináltam meg" perspektívából írható.
+Forrás: https://offers.hubspot.com/matg-ai-transformation-consultant

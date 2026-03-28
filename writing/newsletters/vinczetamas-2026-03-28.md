@@ -1,39 +1,38 @@
-# Hírlevél draft — vinczetamas.hu
-**Dátum:** 2026-03-28
-**Státusz:** draft (Tomi review szükséges)
+# Hírlevél draft — vinczetamas.hu — 2026-03-28
 
----
+**Subject:** Az AI kilépett a képernyőről
 
-**Subject:** Miért ver egy kis AI agent minden nagy modellt?
-
-**Preview text:** Nem a legerősebb AI nyer. Hanem a legjobban célzott. Egy mai példa, ami megmutatja, hogyan gondolkodj erről.
+**Preview text:** Fehér Ház, McDonald's, kínai utcák — a robotok már nem kísérlet.
 
 ---
 
 ## 1) Trend összefoglaló
 
-- Az Intercom Fin nevű AI agentje hetente 2 millió ügyfélproblémát old meg, és jobb eredményt ér el, mint a GPT-5.4 vagy az Anthropic Opus 4.5. Közel $100M az éves bevétele.
-- Egy befektetési cég (USV) névvel és szerepkörrel látta el az AI agentjeit, és ez javította a belső elfogadást. Az "agent névadás" szervezeti change management eszköz lett.
-- Az Apple iOS 27-ben megnyitja a Sirit: a ChatGPT-n kívül más AI is futhat rajta (pl. Gemini). A jobb AI-hozzáférés mindenkihez eljut, aki iPhone-t használ.
-- Gemini 3.1 Flash Live megjelent: valós idejű, alacsony késleltetésű hangmodell. Hangalapú ügyfélszolgálat és asszisztens fejlesztéséhez alapeszköz lett.
-- Wikipedia 40:2 szavazással tiltotta be az AI által írt cikkeket. Az emberi kurált tartalom hitelessége új piaci értékké válik.
+- Első humanoid robot sétált be a Fehér Házba (Figure 03) — az USA kormányzati prioritásként kezeli az AI-robotikát.
+- Amazon felvásárolta a Fauna Roboticst: $50k-os háztartási humanoid most az e-kereskedelmi óriás kezében van.
+- Kína AI-agenteket szerel fizikai robotokra: Ecovacs, Unitree, AgileX — már nem laborban, hanem otthonokban és utcákon futnak.
+- McDonald's Shanghai: humanoid robotok ügyfélszolgálati szerepben. Nem raktárban — a pultban.
+- Perplexity 5 valós üzleti feladatot old meg kód nélkül, egyedül — Vaibhav Sisinty szerint ez az "AI csapat" belépőszintje KKV-knak.
 
 ---
 
 ## 2) Gyakorlati tanulság
 
-Az elmúlt héten a legfontosabb üzenet ez: nem az a kérdés, hogy a legjobb AI-t használod-e, hanem hogy a legjobban fókuszáltat. A Fin példája nem véletlenszerű siker. Az Intercom egy szűk problémát vett, és köré épített mindent. Nincsenek "általános" agentjei, amelyek mindenre jók. Egy jól körülhatárolt feladat, mély integráció, és mért visszajelzés. Ez a recept.
+Az AI nem "hamarosan" érkezik a kis- és középvállalkozásokhoz. Már itt van — csak még nem mindenhol egyforma hangos. A kérdés nem az, hogy mikor kell foglalkozni vele, hanem az, hogy melyik folyamatodban mikor jelenik meg az első versenytárs, aki már használja.
 
-**3 lépés, amit holnap el lehet kezdeni:**
+**3 lépés, amit ma megtehetsz:**
 
-1. Azonosítsd a legismétlődőbb ügyfél- vagy operatív kérdést a cégedben (ahol ugyanazokat a válaszokat adod újra és újra).
-2. Írj rá egy dedikált promptot vagy egyszerű chatbotot, ne általánosat.
-3. Mérd 2 hétig, hány percet spórolt. Ez a baseline az első real AI ROI számításodhoz.
+1. Nézd meg, milyen ismétlődő feladatot végez a csapatod hetente legalább 3-szor. Ez az első AI-automatizálás jelöltje.
+2. Próbáld ki a Perplexity-t egy valódi üzleti kérdésen (pl. versenytárs elemzés, piackutatás) — kód nélkül, 10 perc alatt.
+3. Kérdezd meg magadtól: "Ha egy robot elvégezné ezt az ügyfélszolgálati lépést, mi lenne a következő feladatom?" Ez a stratégiai fókuszod iránya.
 
 ---
 
 ## 3) CTA
 
-Ha nem tudod, melyik folyamatodat érdemes először AI-ra bízni, segítek kitalálni. Egy rövid auditban megnézem, hol van a legnagyobb potenciál.
+Ha nem tudod, hol kezdd, segítek megtalálni azt az egy folyamatot, ahol az AI a legtöbbet hozza nálad.
+Foglalj ingyenes auditot: vinczetamas.hu/audit
 
-[vinczetamas.hu/audit](https://vinczetamas.hu/audit)
+---
+
+*Draft — publikálás Tomi jóváhagyásával.*
