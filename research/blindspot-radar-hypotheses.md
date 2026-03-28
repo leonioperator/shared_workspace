@@ -287,3 +287,61 @@ Scoring dimensions (1–5 each):
 
 *Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-03-27.md (189 signal, HAIER export) | 2026-03-27 09:30 CET*
 
+
+---
+
+## H12 — Agent Accountability & Legal Responsibility Framework
+**Thesis:** Autonóm AI agentek elterjedésével "felelősségi vákuum" keletkezik: sem a fejlesztő, sem a deployer, sem a felhasználó nem vonható felelősségre az agent döntéséért. 2026-ra ez a kérdés jogi, szervezeti és üzleti szinten megoldatlan. Az AI governance narratíva átfogalmazódik: nem az automatizáció megállítása, hanem a döntési felelősség újratervezése a cél. Erre nincs sem standard keretrendszer, sem termék.
+**Signals (updated 2026-03-28):**
+- iProov: "Accountability Vacuum" figyelmeztetés (2026-03-26): biometria-biztonsági cég nyilvánosan nevesíti a problémát — a felelősségi vákuum közvetlen kockázat minden operatív agent deploymentnél. HIGH CONFIDENCE.
+- arxiv: "Regulating AI Agents" (2026-03-24): korlátozott emberi felügyelet melletti önálló döntéshozatal elemzése — tudományos szinten is megjelent, szabályozói tér nyitva van. HIGH CONFIDENCE.
+- Leaders League: "The Illusion of Automation" — Decision Architecture (2026-03-25): "az AI governance nem az automatizáció megállítása, hanem a döntési felelősség újratervezése." HIGH CONFIDENCE.
+- EurekAlert!: "Embedding Social Values into AI Decisions" (2026-03-27): kutatási irány a konfigurálható értékalapú korlátok felé — jogi felelősség és szervezeti értékek metszéspontja. MEDIUM CONFIDENCE.
+- Sanders/AOC moratorium javaslat (TechCrunch, 2026-03-25): politikai szinten is megjelent — szabályozói nyomás emelkedik, compliance-driven kereslet várható. MEDIUM CONFIDENCE.
+**Assessment:** Ez a hypothesis az eddigi listán hiányzó *jogi és szervezeti réteg* — a H2 (audit log) és H6 (policy enforcement) technikai rétegei fölött. A KKV pitch szempontjából erős differenciátor: nem azt mondjuk, hogy "az agent elvégzi a munkát", hanem azt, hogy "tudod, ki felel az agent döntéséért". Versengő termék jelenleg nincs — a tér nyitott. Navibase alkalmazás: "Accountability Map" — szervezeti felelősségrendelési sablonok + agent-döntés owner mátrix + audit-ready dokumentáció.
+**Scores:** Pain=5 | Urgency=4 | WTP=4 | Def=4 | IntFric=3 | **Total: 20/25**
+*Új hypothesis (2026-03-28). iProov + arxiv + Leaders League egymást erősítő, különböző szektorbeli signalok. A jogi felelősség kérdése az EU AI Act Aug 2026 deadlinjével tovább élesedik.*
+
+---
+
+## Ranking Summary (2026-03-28)
+
+| Rank | Hypothesis | Score | Delta |
+|------|-----------|-------|-------|
+| 1 | H2 — Audit Trail | 22/25 | = |
+| 2 | H6 — Policy Enforcement Runtime | 22/25 | = |
+| 3 | H1 — Agent Identity & Auth | 21/25 | = |
+| 4 | H3 — MCP Governance | 20/25 | = |
+| 5 | **H12 — Agent Accountability Framework** | **20/25** | **ÚJ** |
+| 6 | H10 — Agent Infra as Code | 19/25 | = |
+| 7 | H7 — SMB Deployment Wrapper | 18/25 | = |
+| 8 | H8 — Cross-Agent Context | 18/25 | = |
+| 9 | H4 — Agent Payment Rails | 17/25 | = |
+| 10 | H11 — Hallucination Self-Check | 17/25 | = |
+| 11 | H5 — Discovery & Registry | 16/25 | = |
+| 12 | H9 — Agent Communication Infra | 12/25 | = |
+
+*2026-03-28 delta: 1 új hypothesis (H12 — Accountability Framework, 20/25). Meglévő scorok változatlanok. H12 azonnal a top 5-be kerül — az accountability vákuum téma 3 független, magas bizalmú signallal nyílt meg. EU AI Act Aug 2026 közeledtével Q2-ben urgency emelkedés várható H1/H2/H6/H12 blokkon.*
+
+---
+
+## Top 3 Opportunities + Suggested Experiments (2026-03-28)
+
+### #1: H2 / H6 (tied) — Audit Trail + Policy Enforcement Runtime [Score: 22/25]
+**Miért most:** EU AI Act Aug 2026 deadline 5 hónap. McKinsey hack + Meta rogue agent esetei megerősítik biztonsági igényt. 94% szervezetnél kritikus hiány az AI aktivitás láthatóságában. Compliance + security kettős pitch, most nyitott ablak.
+**Javasolt kísérlet:** 10 EU-ban működő, Claude/GPT-t production-ben használó enterprise hideg megkeresése. Ajánlat: 30 napos ingyenes EU AI Act compliance audit report generátor. Mérők: konverzió fizetős felé, árszenzitvitás, hivatkozott compliance framework.
+**Befektetés:** ~2 hét fejlesztés. ALTK + Tracium.ai proof-of-concept signalként a pitchben.
+
+### #2: H12 — Agent Accountability Framework [Score: 20/25 — ÚJ]
+**Miért most:** Az "accountability vacuum" ma 3 független szektorbeli sourcetól jelent meg (biztonsági ipar, tudományos szféra, üzleti média) — ez nem trend, ez jel. A tér üres: nincs termék, nincs standard, nincs referencia. Az EU AI Act Aug 2026 a jogi felelősség kérdését kötelező compliance szintjére emeli. Navibase differenciátor: nem csak az agent csinál valamit, hanem pontosan tudod, ki felel az eredményért.
+**Javasolt kísérlet:** "Agent Accountability Map" sablon — szabad letöltés, 3 szekció: (1) döntési owner mátrix agent típusonként, (2) eskalációs protokoll, (3) EU AI Act megfelelési checklist. Mérők: letöltések, inbound megkeresések, LinkedIn engagement 2 héten belül. Ha 200+ letöltés: fizetős workshop pilot.
+**Befektetés:** ~3 nap. Thought leadership befektetés, közvetlen lead generáló hatással.
+
+### #3: H7 — SMB Deployment Wrapper (Navibase közvetlen relevancia) [Score: 18/25]
+**Miért most:** A mainstream sajtóban (Jerusalem Post, 2026-03-27) megjelent az autonóm agent téma — a KKV-k hallanak róla, a pitch window nyitva van, de a konkurencia is ébredezik. CEE/magyar piacon még nincs versenyző. Microsoft Copilot pullback SMB-specifikus ablakot tart nyitva.
+**Javasolt kísérlet:** Leoni ops agent white-label pilot 3 magyar KKV-nak. Mérők: time-to-value (mennyi nap alatt látnak eredményt), top 5 legtöbbet használt feladat, 60 napos churn. Ha a 3 pilot közül 2 marad: méretezési döntés.
+**Befektetés:** Meglévő infrastruktúra. Fő cost: Tomi ideje a pilot setuphoz. Közvetlen bevétel-teszt.
+
+---
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-03-28.md (197 signal, HAIER export) | 2026-03-28 09:30 CET*
