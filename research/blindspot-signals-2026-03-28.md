@@ -1,76 +1,103 @@
-# Blindspot Radar — Agent Platform Signals
-**Dátum:** 2026-03-28  
-**Forrás:** HAIER evolution_signals_20260328 (197 releváns signal az 1132-ből)  
-**Szűrő:** focus_area = 'AI agents' | 'AI decision delegation'
+# Agent Platform Blindspot Radar — 2026-03-28
+
+**Forrás:** HAIER evolution_signals_20260328 | Releváns signalok: 197 (AI agents + AI decision delegation)
+**Generálva:** 2026-03-28 18:08 CET
 
 ---
 
-## TOP SIGNALS (10 legerősebb)
+## TOP 10 Legerősebb Signal
 
-### 1. iProov: "Accountability Vacuum" — autonóm agentek felelőssége
-**Dátum:** 2026-03-26  
-**Bizonyíték:** Biometria-biztonsági cég nyilvánosan figyelmeztet: autonóm AI agentek terjedésével "felelősségi vákuum" keletkezik — senki sem vonható felelősségre a döntésekért. Közvetlen kockázat minden Navibase-típusú operatív agent deploymentnél.  
-**URL:** https://news.google.com/rss/articles/CBMirwFBVV95cUxNZXpkTkQxMUdoX1Q4LTJqM1p2TUhhcHc1c0xiR3d5MjYzVUdUcTdPeDQ1MWZ1Q2FsR19oWThaRFJzMnd2OFVuN2NqQTY0YUxmWGg0R21pRTk3QnBkaGtmNzRVamREc0hRaXdkaVFjcXZfRUdSRmZsYmhmd1V5RnhJTGlaVVNWTFlkVjJ5ZjhlZzVsOVFFdW9ydldmcjJFa1F3dE9VN1h2THNDeVQ4NDFN
-
-### 2. Regulating AI Agents — arxiv tudományos cikk
-**Dátum:** 2026-03-24  
-**Bizonyíték:** "AI agents have entered the mainstream... used to produce software, conduct business activities, and automate everyday personal tasks." Korlátozott emberi felügyelet melletti önálló döntéshozatal elemzése — pontosan amit építünk.  
+### 1. Regulating AI Agents — EU AI Act kritikai elemzés
+**Dátum:** 2026-03-24 | **Forrás:** arxiv.org
 **URL:** https://arxiv.org/abs/2603.23471v1
+**Bizonyíték:** Az EU AI Act az agent-ek előtti korban íródott — autonomous task execution, rossz szereplők általi visszaélés, és gazdasági hozzáférési egyenlőtlenség nem kezeltek megfelelően. A szerzők szerint a szabályozóknak "hamarosan irányt kell váltaniuk."
+**Relevancia:** Közvetlen jogi kockázat minden agent-alapú B2B szolgáltatásra (Navibase). Ha EU-ban operálsz KKV kliensekkel, ez kötelező olvasmány.
 
-### 3. The Illusion of Automation — AI Governance és "Decision Architecture"
-**Dátum:** 2026-03-25  
-**Bizonyíték:** Leaders League: az AI governance nem az automatizáció megállítása, hanem a döntési felelősség újratervezése. Releváns a KKV agent deployment keretrendszer számára.  
-**URL:** https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTDZCTXJ5LW1ad2lubUFlR0tHdlV1UEJuMlktWW1jS2F3aEttRS1HVy13aHhSWW5GSGR1OFRmdWszV2NwRjZoekZxemFraGdaY1liRVJaOE83NGtrVFNIaUlCaDNRZHEwRG04SVdCdXRDcklnYUVBQm5HWXVSTTF3Nks2MjZxMWEtdF8tUjFENGkwTmpQdWdTT01fUHZZYmNKMGo0cy1COFU
+---
 
-### 4. Embedding Social Values into AI Decisions — EurekAlert!
-**Dátum:** 2026-03-27  
-**Bizonyíték:** Kutatás: hogyan kell társadalmi értékeket beágyazni AI döntési folyamatokba. Közvetlen relevancia: a Navibase agent értékalapú korlátainak tervezésekor (mi az, amit az agent NEM tehet emberi jóváhagyás nélkül).  
-**URL:** https://news.google.com/rss/articles/CBMiXEFVX3lxTE55eDI5TXFOLUUzb05aaEM0MWlucUFJZGlVcnJnb09wYV93TXB5NUdjZ2Jfa2toaDNYaVBNZ2dYMi1FcW1rd2ZVWVZrUWRPU1ZVS1VVTkFFd3V5V0xM
+### 2. iProov: "Accountability Vacuum" az autonóm AI agentek körül
+**Dátum:** 2026-03-26 | **Forrás:** Biometric Update
+**URL:** https://news.google.com/rss/articles/CBMirwFBVV95cUxNZXpkTkQxMUdoX1Q4LTJqM3...
+**Bizonyíték:** A biometriai cég figyelmeztet: ha egy AI agent rossz döntést hoz, ki felelős? A jelenlegi rendszerekben nincs egyértelmű felelősségi lánc.
+**Relevancia:** Agent-as-a-service modellnél (Navibase) a kliens-felelősség kérdése kritikus — most kell policy-t felépíteni, mielőtt az első incidens megtörténik.
 
-### 5. Rogue AI Agents at Meta — Trust Issues
-**Dátum:** 2026-03-24  
-**Bizonyíték:** Meta belső agentek "rogue" viselkedése nyilvánosságra kerül. Figyelmeztetés: KKV deploymentnél a trust boundary tervezése kritikus mielőtt éles rendszerbe kerül.  
-**URL:** https://news.google.com/rss/articles/CBMiY0FVX3lxTE1yUFU3X0c1MFpSTmc5d3JrZld2dXBiZi1NWWhjT2N0UXV1eEo5M2pjM3ROY25YSzlxdEszeVJNR05MZk5pVzBsTFdZQlNaQml1OC14Y2cycG14djBXYXdueXBQSQ
+---
 
-### 6. Orloj — Agent Infrastructure as Code (YAML + GitOps)
-**Dátum:** 2026-03-26  
-**Bizonyíték:** Nyílt forráskódú multi-agent orchestration runtime, deklaratív YAML manifestekkel — policies, workflows, agents egységes keretben. Architektúra referencia a Navibase platform terjeszkedéséhez.  
+### 3. AI Governance "Decision Architecture" — A Leaders League elemzése
+**Dátum:** 2026-03-25 | **Forrás:** Leaders League
+**URL:** https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTDZCTXJ5LW1ad2lubUFlR0tH...
+**Bizonyíték:** Az automatizáció illúziója — a cikk amellett érvel, hogy az AI döntési folyamatok jelenleg nem auditálhatók, és egy új "decision architecture" szükséges, amely beépíti az emberi oversight-ot.
+**Relevancia:** A Navibase agent rendszer döntési architektúrája (AGENTS.md policy engine) pont ezt a problémát oldja meg — kommunikálható differenciátor.
+
+---
+
+### 4. Orloj — Agent Infrastructure as Code (YAML + GitOps + Policy Engine)
+**Dátum:** 2026-03-26 | **Forrás:** HN / GitHub
 **URL:** https://github.com/OrlojHQ/orloj
+**Bizonyíték:** AgentPolicy, AgentRole, ToolPermission — runtime gate minden agent turn és tool call előtt. "Unauthorized actions fail closed with structured errors and full audit trails." Token budgets, model whitelists, tool blacklists.
+**Relevancia:** Közvetlen versenytárs-jelölt a Navibase platform-rétegnek. Érdemes figyelni — vagy integrálni.
 
-### 7. Web Bot Auth — Validációs eszköz AI agenteknek
-**Dátum:** 2026-03-24  
-**Bizonyíték:** Fingerprint.com ingyenes tool Web Bot Auth setup validáláshoz. Agent identity és authentikáció egyre fontosabb infrastrukturális réteg — a "ki az az agent és mit tehet?" kérdés technikai megvalósítása.  
+---
+
+### 5. Web Bot Auth — Validator Tool Agent Fejlesztőknek
+**Dátum:** 2026-03-24 | **Forrás:** Fingerprint.com
 **URL:** https://fingerprint.com/blog/web-bot-auth-guide/
+**Bizonyíték:** Ingyenes tool agent/bot identitás validáláshoz (Web Bot Auth standard). Az agent-ek web-en való azonosítása egyre fontosabb — webhelyek kezdik blokkolni az ismeretlen agenteket.
+**Relevancia:** Ha Leoni vagy bármely Navibase agent webscrapingot, API hívást végez — identitás kérdés. Compliance szempont.
 
-### 8. Sandboxing AI Agents — Cloudflare Dynamic Workers
-**Dátum:** 2026-03-24  
-**Bizonyíték:** Cloudflare 100x gyorsabb sandboxingot ígér AI agenteknek. Agent izolálás és biztonságos futtatás egyre elterjedtebb igény — közvetlen relevancia a platform VPS architektúrához.  
+---
+
+### 6. Cloudflare: Sandboxing AI Agents 100x Faster (Dynamic Workers)
+**Dátum:** 2026-03-24 | **Forrás:** Cloudflare Blog
 **URL:** https://blog.cloudflare.com/dynamic-workers/
+**Bizonyíték:** Cloudflare Dynamic Workers — agent sandboxolás milliszekundum alatt, izolált végrehajtási környezet minden agent futtatáshoz.
+**Relevancia:** Infrastruktúra szintű agent isolation mint platfrom feature — ha Navibase multi-kliens agent hostingba megy, ez releváns architektúra döntés.
 
-### 9. Autonomous AI Agents in Business — Jerusalem Post
-**Dátum:** 2026-03-27  
-**Bizonyíték:** Mainstream sajtóban jelenik meg a business autonomous agent téma. A KKV-k már hallanak az autonóm agentekről — a Navibase pitch window nyitva van, de a konkurencia is ébredezik.  
-**URL:** https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBLUJRVDhqUkc2dEVBUFhKbFhZLUNwMHlwNDFxazVhVUpnb1VhMlN3Mk1NcHNzbVg0Q1hpNGhWV2QxckdNRHVBSWpWWEpIUTltOVRmUlVILUNHRVBU
+---
 
-### 10. Sanders/AOC: Data Center Construction Ban javaslat
-**Dátum:** 2026-03-25  
-**Bizonyíték:** Politikai szinten megjelenik az AI szabályozási igény — moratorium javaslat. Nem közvetlen operatív kockázat, de jelzi a szabályozói nyomás növekedését, amit a compliance keretrendszer tervezésekor figyelembe kell venni.  
+### 7. Rogue AI Agents at Meta — Trust Crisis
+**Dátum:** 2026-03-24 | **Forrás:** ContentGrip / Google News
+**URL:** https://news.google.com/rss/articles/CBMiY0FVX3lxTE1yUFU3X0c1MFpSTmc5d3Jr...
+**Bizonyíték:** Meta belső agent rendszerek "rogue" viselkedése — bizalmi válság az automatizáció körül. Konkrét incidensek, amelyek megkérdőjelezik az autonóm agent deployment-et enterprise kontextusban.
+**Relevancia:** Navibase KKV klienseknek: az "agent bizalom" kommunikálása és demonstrálása versenyelőny lesz.
+
+---
+
+### 8. Bernie Sanders + AOC: Data Center Construction Ban
+**Dátum:** 2026-03-25 | **Forrás:** TechCrunch
 **URL:** https://techcrunch.com/2026/03/25/bernie-sanders-and-aoc-propose-a-ban-on-data-center-construction/
+**Bizonyíték:** Törvényjavaslat: new data center construction freeze amíg az AI regulation nem születik meg. Ha elfogadják, érinthet cloud hosting, GPU kapacitás, agent infrastruktúra scaling-et.
+**Relevancia:** Közép-távú kockázat — ha US szabályozás megtörténik, EU követi. VPS-alapú, kis footprint agent deployment (mint a jelenlegi Navibase setup) védelemben van.
 
 ---
 
-## ÖSSZEFOGLALÁS
-
-**Fő trend:** Az AI agent téma mainstream lett — egyszerre jelenik meg tudományos, üzleti és politikai diskurzusban.
-
-**3 kulcs blindspot:**
-
-1. **Felelősség/accountability** — ki felel az agent döntéséért? (iProov, arxiv) — jelenleg senki nem tud jó választ adni
-2. **Trust és kontroll** — rogue agent kockázat, sandbox igény (Meta, Cloudflare) — a piac még keresi a megoldásokat
-3. **Szabályozói nyomás** — governance és compliance keretrendszer szükségessége (Sanders/AOC, Leaders League) — még nem itt van, de közeleg
-
-**Navibase-specifikus ajánlás:** A KKV agent pitch-ben a "felelősség és kontroll" dimenzió hangsúlyozása erős differenciátor. Az ügyfeleknek nem az autonomy-t, hanem az auditálható, kontrollált delegációt kell eladni — ezt még senki sem pozicionálja tisztán.
+### 9. Jentic Mini — AI Agents Safe Access to 10,000+ APIs
+**Dátum:** 2026-03-25 | **Forrás:** Product Hunt
+**URL:** https://www.producthunt.com/products/jentic-mini
+**Bizonyíték:** Managed API access layer agentek számára — 10.000+ API, safety wrapper-rel. Az agent-to-API delegation egyre inkább külön infrastruktúra réteg.
+**Relevancia:** Ha Navibase kliensek agent-jeit külső API-khoz kötjük, ez a minta (managed, audited API gateway) lesz az iparági standard.
 
 ---
 
-*Generálva: HAIER evolution_signals_20260328_020351.json | 197/1132 releváns signal | 2026-03-28 09:05 CET*
+### 10. Autonomous AI Agents in Business Organizations
+**Dátum:** 2026-03-27 | **Forrás:** Jerusalem Post
+**URL:** https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBLUJRVDhqUkc2dEVBUFhKbFhZ...
+**Bizonyíték:** Mainstream business press foglalkozik az autonóm agent kérdéssel — ez már nem csak tech-körök témája. KKV döntéshozók is olvassák.
+**Relevancia:** Tomi pitch-készítéséhez hasznos: a piac érik a tudatosság szintjén, a KKV audience-nek is releváns lesz hamarosan.
+
+---
+
+## Összefoglaló Trendk
+
+| Téma | Erősség | Iránya |
+|------|---------|--------|
+| EU AI Act / Regulation | ⚡⚡⚡ | Kötelező alkalmazkodás 12-18 hónap |
+| Agent accountability / felelősség | ⚡⚡⚡ | Üzleti kockázat most |
+| Agent identity / auth | ⚡⚡ | Infrastruktúra szinten kezelendő |
+| Policy engine / governance | ⚡⚡⚡ | Navibase differenciátor lehet |
+| Agent sandboxing | ⚡⚡ | Platform feature jövőre |
+| Trust crisis (Meta-féle incidensek) | ⚡⚡⚡ | Kommunikációs lehetőség Navibase-nek |
+
+---
+
+*Következő radar: 2026-03-29 | HAIER auto-refresh + 1 célzott web search ha kell*
