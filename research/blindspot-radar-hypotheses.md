@@ -345,3 +345,60 @@ Scoring dimensions (1–5 each):
 ---
 
 *Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-03-28.md (197 signal, HAIER export) | 2026-03-28 09:30 CET*
+
+
+---
+
+## H13 - Agent Sandboxing & Isolation Layer for SMB/Enterprise
+**Thesis:** Az autonomous agent adoption gyorsul, de a legtöbb szervezet shared runtime-ban futtatja az agenteket erős izoláció nélkül. Ez növeli a cross-tenant és tool-abuse kockázatot. A piacnak szüksége van egy könnyen bevezethető, auditálható sandboxing rétegre, amely minden agent run-t izolált execution környezetben kezel.
+**Signals (updated 2026-03-29):**
+- Cloudflare Dynamic Workers (2026-03-24): agent sandboxing 100x faster, izolált futtatás milliszekundumos indulással. HIGH CONFIDENCE.
+- Meta rogue agent trust crisis (2026-03-24): enterprise bizalom sérül, ha agent viselkedés nem kontrollált izolációban fut. HIGH CONFIDENCE.
+- Orloj policy-first megközelítés (2026-03-26): runtime gate + audit trail terjed, technikai irány megerősítve. HIGH CONFIDENCE.
+- EU AI Act kritikák (arxiv, 2026-03-24): autonomous task execution governance hiányok, kontrollált runtime szükségessége emelkedik. MEDIUM CONFIDENCE.
+- Jentic Mini managed API layer (2026-03-25): agent execution köré biztonsági middleware-ek formálódnak, platformizáció jele. MEDIUM CONFIDENCE.
+**Assessment:** Ez a hypothesis a H6 (policy enforcement) technikai testvér-tere, de külön fókusz: izolációs runtime mint termék. KKV-nál a "biztonságos default" értékesítési előny, enterprise-nál compliance + incident containment.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-03-29). A Cloudflare signal közvetlen technológiai validációt ad, a Meta jellegű trust események pedig üzleti oldalról erősítenek.*
+
+---
+
+## Ranking Summary (2026-03-29)
+
+| Rank | Hypothesis | Score | Delta |
+|------|-----------|-------|-------|
+| 1 | H2 - Audit Trail | 22/25 | = |
+| 2 | H6 - Policy Enforcement Runtime | 22/25 | = |
+| 3 | H1 - Agent Identity & Auth | 21/25 | = |
+| 4 | H3 - MCP Governance | 20/25 | = |
+| 5 | H12 - Agent Accountability Framework | 20/25 | = |
+| 6 | H10 - Agent Infra as Code | 19/25 | = |
+| 7 | H7 - SMB Deployment Wrapper | 18/25 | = |
+| 8 | H8 - Cross-Agent Context | 18/25 | = |
+| 9 | **H13 - Agent Sandboxing & Isolation** | **18/25** | **ÚJ** |
+| 10 | H4 - Agent Payment Rails | 17/25 | = |
+| 11 | H11 - Hallucination Self-Check | 17/25 | = |
+| 12 | H5 - Discovery & Registry | 16/25 | = |
+| 13 | H9 - Agent Communication Infra | 12/25 | = |
+
+*2026-03-29 delta: 1 új hypothesis (H13). Governance és biztonsági blokkok (H2/H6/H12/H13) együtt tovább erősödnek.*
+
+---
+
+## Top 3 Opportunities + Suggested Experiments (2026-03-29)
+
+### #1: H2 / H6 - Audit Trail + Policy Enforcement Runtime [Score: 22/25]
+**Miért most:** Compliance határidők közelítenek, a security incidensek már valós üzleti kárt mutatnak. A láthatóság + inline kontroll együtt ad vásárolható értéket.
+**Javasolt kísérlet:** 10 EU cégnek 30 napos "Agent Governance Baseline" pilot (audit log + policy violations report). Mérők: pilot->paid konverzió, átlagos incidens-szám csökkenés, compliance readiness score.
+
+### #2: H12 - Agent Accountability Framework [Score: 20/25]
+**Miért most:** A felelősségi vákuum téma egyszerre jelent meg security, jogi és üzleti forrásokban. Üres kategória, gyors thought-leadership előny építhető.
+**Javasolt kísérlet:** "Accountability Map" workshop 5 design partnerrel (2 hét). Deliverable: döntési owner mátrix + eszkalációs runbook + felelősségi audit sablon. Mérők: workshop utáni fizetős implementációs igény.
+
+### #3: H13 - Agent Sandboxing & Isolation Layer [Score: 18/25 - ÚJ]
+**Miért most:** A technológia elérhető, de SMB/enterprise implementáció fragmentált. A "safe-by-default" izoláció erős differenciátor lehet a Navibase ajánlatban.
+**Javasolt kísérlet:** "Isolated Agent Run" MVP 1 pilot ügyfélnél: minden magas kockázatú task külön runtime-ban fut, kötelező audit exporttal. Mérők: incident rate, overhead latency, ügyfél-bizalmi visszajelzés (NPS security kérdéssel).
+
+---
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-03-28.md + delta synthesis | 2026-03-29 09:32 CET*
