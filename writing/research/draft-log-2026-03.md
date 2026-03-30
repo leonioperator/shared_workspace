@@ -7,3 +7,4 @@
 | 2026-03-23 | ai-bizalom-deficit | vinczetamas.hu | 4/5 | draft-kész |
 | 2026-03-23 | ai-felelem-kutatas | elkezdodott.hu | 4/5 | draft-kész |
 | 2026-03-30 | kkv-agentcsapat-nelkuled | elkezdodott.hu | 5/5 | draft-kész |
+| 2026-03-30 | ai-hozzaferes-luxus | vinczetamas.hu | 5/5 | draft-kész |
