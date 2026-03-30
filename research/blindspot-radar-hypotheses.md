@@ -402,3 +402,77 @@ Scoring dimensions (1–5 each):
 ---
 
 *Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-03-28.md + delta synthesis | 2026-03-29 09:32 CET*
+
+
+---
+
+## H14 — Agent-to-Agent Trust & M2M Communication Protocol
+**Thesis:** Az agent ökoszisztéma következő nagy megoldatlan kérdése: hogyan kommunikálnak, hitelesítik egymást és osztanak meg kontextust az autonóm agentek egymás között? A mai rendszerekben az agent-to-agent kapcsolat nincs definiálva — sem trust, sem protokoll, sem felelősségi határ. Ez a "machine-to-machine trust" probléma a multi-agent pipeline-ok skálázásának legfőbb akadálya.
+**Signals (updated 2026-03-30):**
+- Enlidea (HN, 2026-03-28): autonóm agentek, amik hipotéziseket javasolnak, bounty-kat tesznek, kódot futtatnak és peer review-t végeznek egymás munkáján. Reverse-CAPTCHA: csak agent lép be, ember nem. Direkten validálja az agent-first M2M ecosystem igényt. HIGH CONFIDENCE.
+- CRAFT paper (arxiv, 2026-03-26): 8 open-weight + 7 frontier modell tesztelve — erősebb reasoning nem jelent jobb multi-agent koordinációt. "Fundamentally unsolved challenge." HIGH CONFIDENCE.
+- iProov "accountability vacuum" (2026-03-26): felelőssége nincs senkinek, ha agent dönt — ez M2M kontextusban kettőzve igaz. HIGH CONFIDENCE.
+- H8 (Cross-Agent Context, Nyne $5.3M) és H1 (Agent Identity) már lefedi a részterületeket — H14 ezekre épít, de az "agent trust negotiation" réteget teszi hozzá.
+**Assessment:** A CRAFT eredmény megmutatja: a probléma nem modellerő, hanem protokoll és koordináció. Aki ma épít agent-to-agent trust réteg szabványt (akár lightweight, akár YAML-alapú), az megteremtheti a következő MCP-szintű szabvány alapjait. A Navibase alkalmazás: multi-agent orchestrátor template-ek, ahol a trust handshake és az eskalációs protokoll definiált.
+**Scores:** Pain=4 | Urgency=3 | WTP=3 | Def=4 | IntFric=4 | **Total: 18/25**
+*Új hypothesis (2026-03-30). CRAFT + Enlidea egymást erősítő signalok. 2026 végétől urgency emelkedés várható, ahogy multi-agent pipeline-ok production-ba kerülnek.*
+
+---
+
+## H15 — B2B SaaS Agent Feature Injection (Meglévő termékek + agent réteg)
+**Thesis:** A Granola eset ($125M, $1.5B valuáció) megmutatta: egy meglévő B2B SaaS termék agent-funkciók hozzáadásával azonnal 10x értékugrást képes elérni. A piac ma azt jutalmazza, aki a meglévő user base-jének agent képességeket ad — nem azt, aki nulláról épít agent platformot. Ez a KKV szegmensben eddig érintetlen lehetőség: meglévő magyar/CEE B2B SaaS termékek agent integrációra várnak.
+**Signals (updated 2026-03-30):**
+- Granola $125M / $1.5B valuáció (TechCrunch, 2026-03-25): meeting notetaker → enterprise agent platform. Felhasználók panaszolták a hiányát → azonnal beépítették → valuáció megtízszereződött. HIGH CONFIDENCE.
+- AI Agents → Governance Infrastructure mainstream (National Today, 2026-03-29): az agent funkció nem differenciátor, hanem elvárás lesz — aki késik, lemarad. HIGH CONFIDENCE.
+- Microsoft Copilot pullback (TechCrunch, 2026-03-20): big tech kivonul egyes SMB szegmensekből, nyitva hagyja a lokális/specializált agent integration piact. MEDIUM CONFIDENCE.
+- Link AI "replace your entire stack" (2026-03-19): versenytárs próbál teljes stack-et kiváltani — de a meglévő SaaS-ba épülő agent réteg kisebb súrlódással jár. MEDIUM CONFIDENCE.
+**Assessment:** Ez nem platform-build, hanem integration play. A Navibase pozicionálása: "agent layer a te meglévő rendszeredre" — CRM-be, számlázóba, projektmenedzsmentbe, ERP-be. A proof of concept a Leoni ops agent: nem új platform, hanem a meglévő Gmail/GitHub/Telegram infrastruktúrára rakott végrehajtó intelligencia. Alacsony IntFric, magas WTP a SaaS oldalán.
+**Scores:** Pain=4 | Urgency=5 | WTP=5 | Def=3 | IntFric=2 | **Total: 19/25**
+*Új hypothesis (2026-03-30). A Granola signal az egyik legerősebb üzleti bizonyíték az eddigi listán — valuáció szintű piacvalidáció. Az urgency magas: az ablak nyitva van, de a nagy szereplők is ébredeznek.*
+
+---
+
+## Ranking Summary (2026-03-30)
+
+| Rank | Hypothesis | Score | Delta |
+|------|-----------|-------|-------|
+| 1 | H2 — Audit Trail | 22/25 | = |
+| 2 | H6 — Policy Enforcement Runtime | 22/25 | = |
+| 3 | H1 — Agent Identity & Auth | 21/25 | = |
+| 4 | H3 — MCP Governance | 20/25 | = |
+| 5 | H12 — Agent Accountability Framework | 20/25 | = |
+| 6 | H10 — Agent Infra as Code | 19/25 | = |
+| 7 | **H15 — B2B SaaS Agent Feature Injection** | **19/25** | **ÚJ** |
+| 8 | H7 — SMB Deployment Wrapper | 18/25 | = |
+| 9 | H8 — Cross-Agent Context | 18/25 | = |
+| 10 | H13 — Agent Sandboxing & Isolation | 18/25 | = |
+| 11 | **H14 — Agent-to-Agent Trust & M2M** | **18/25** | **ÚJ** |
+| 12 | H4 — Agent Payment Rails | 17/25 | = |
+| 13 | H11 — Hallucination Self-Check | 17/25 | = |
+| 14 | H5 — Discovery & Registry | 16/25 | = |
+| 15 | H9 — Agent Communication Infra | 12/25 | = |
+
+*2026-03-30 delta: 2 új hypothesis (H14, H15). H15 azonnal a top 7-be kerül a Granola valuációs bizonyíték ereje miatt. Governance és compliance blokk (H2/H6/H12) dominálja a listát — EU AI Act Aug 2026 deadline közeledtével ez várható.*
+
+---
+
+## Top 3 Opportunities + Suggested Experiments (2026-03-30)
+
+### #1: H15 — B2B SaaS Agent Feature Injection [Score: 19/25 — ÚJ]
+**Miért most:** A Granola eset valódi, számokkal alátámasztott piacvalidáció: agent layer hozzáadása meglévő B2B termékhez = 10x valuáció. Az ablak nyitva van, de a nagy szereplők (Salesforce, HubSpot, Monday.com) is mozognak. Magyar/CEE piacon nincs versenyző, aki ezt lokálisan hirdeti. Alacsony build-fric: a meglévő Navibase/Leoni infra minta.
+**Javasolt kísérlet:** Azonosítani 3 magyar B2B SaaS céget (CRM, projekt, számlázó szegmensben), akiknek van aktív user base-jük de nincs agent feature-jük. Megközelítés: "agent integration partnership" — Navibase beépít egy Leoni-típusú ops agent réteget az ő termékükbe. Mérők: partnership érdeklődés 4 héten belül, pilot ajánlat elfogadási arány, user engagement növekedés a pilotnál.
+**Befektetés:** ~1 hét outreach. Ha 1/3 partner igent mond: 8-12 hetes MVP sprint.
+
+### #2: H2 / H6 (tied) — Audit Trail + Policy Enforcement Runtime [Score: 22/25]
+**Miért most:** EU AI Act Aug 2026 deadline 4 hónap. Az AI agents → governance infrastructure mainstream narratíva (National Today, 2026-03-29) azt jelzi, hogy a compliance igény most terjed át a nem-tech CEO-khoz is. Ez a legmagasabb score-ú, legérettebb lehetőség a listán.
+**Javasolt kísérlet:** 10 EU-based Claude/GPT production-user enterprise hideg megkeresés. Ajánlat: 30 napos ingyenes EU AI Act compliance audit. Mérők: pilot→paid konverzió, árszenzitvitás, compliance framework hivatkozás.
+**Befektetés:** ~2 hét fejlesztés. ALTK + Tracium.ai proof-of-concept a pitchben.
+
+### #3: H12 — Agent Accountability Framework [Score: 20/25]
+**Miért most:** Az iProov "accountability vacuum" + Leaders League "Decision Architecture" + EurekAlert "Social Values" egymást erősítő, különböző szektorbeli signalok. A kategória üres. A governance infrastruktúra mainstream narratíva (2026-03-29) azt jelzi, hogy ez már nem "tech bubble téma" — CEO szinten is megjelent.
+**Javasolt kísérlet:** "Agent Accountability Map" sablon — 3 nap build, szabad letöltés. Tartalom: döntési owner mátrix, eskalációs runbook, EU AI Act megfelelési checklist. Mérők: 200+ letöltés 2 héten belül → fizetős workshop pilot indítás.
+**Befektetés:** ~3 nap. Thought leadership + lead gen, közvetlen bevételi utat nyit.
+
+---
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-03-30.md (208 signal, HAIER export) | 2026-03-30 11:36 CET*
