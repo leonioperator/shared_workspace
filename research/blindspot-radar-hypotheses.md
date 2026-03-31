@@ -476,3 +476,107 @@ Scoring dimensions (1–5 each):
 ---
 
 *Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-03-30.md (208 signal, HAIER export) | 2026-03-30 11:36 CET*
+
+
+---
+
+## H16 — AI Alignment Measurement as a Service (Delegáció-ellenőrzés)
+**Thesis:** Az AI agentek döntései egyre kevésbé átláthatóak a megbízónak. A "Revealed Preference" kutatási irány (Luce Alignment Model) megmutatja: az agent döntései mérhetően eltérhetnek a gazda szándékától. Nincs olyan termék, amely a KKV-k számára mérhetővé teszi, hogy az agent "mennyire az ővé" — vagyis a delegáció foka és minősége kontrolálható legyen. Ez nem technikai monitoring, hanem üzleti kontroll eszköz: "milyen arányban tartja be az agent a céged értékeit és döntési elveit?"
+**Signals (updated 2026-03-31):**
+- arxiv "Revealed Preference Framework for AI Alignment" (2026-03-29): Luce Alignment Model bevezetése — agent döntései az emberi és saját preferenciák keveréke, eltérés mérhető. HIGH CONFIDENCE.
+- iProov "accountability vacuum" (2026-03-26): ki felel az agent döntéséért? — a mérhetőség hiánya jogi és szervezeti kockázat. HIGH CONFIDENCE.
+- CRAFT paper: "Fundamentally unsolved challenge" a multi-agent koordináció — az alignment mérése a megbízhatóság alapfeltétele. HIGH CONFIDENCE.
+- EU AI Act Aug 2026: "high-risk AI decisions" naplózása kötelező — az alignment mérhetőség természetes compliance komponens. MEDIUM CONFIDENCE.
+**Assessment:** A "mennyire bízhat meg az agent döntésében a CEO" kérdés ma megválaszolatlan. Az alignment measurement egy új kategória: nem naplózás (H2), nem policy enforcement (H6), hanem a megbízhatóság kvantitatív jelzése üzleti döntéshozóknak. Navibase alkalmazás: "Leoni Alignment Score" dashboard — hetente megmutatja, hány döntés volt emberi elvárással konzisztens, hány nem, és miért.
+**Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=4 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-03-31). A Revealed Preference Framework paper közvetlen tudományos alapot ad. A KKV piac számára az "agent megbízhatóság mérőszáma" az adopciós barrier elhárításának kulcsa.*
+
+---
+
+## H17 — Controlled Self-Configuration Boundary (Agent Scope Hardening)
+**Thesis:** Az autonóm agentek egyre több rendszerben kapnak jogot a saját konfigurációjuk módosítására (lásd: Phantom open-source agent, saját VM-en config rewrite). Ez az önmódosítás képesség kontinuumot alkot az "adaptív viselkedés" és a "kontroll elvesztése" között. Nincs standard, amely definiálná, hol a határvonal — sem termék, sem auditálható scope-definition framework. A Navibase/Leoni architektúrában ez már megoldott (explicit scope-olás), de a piac nem tud róla, és ez differenciáló kommunikációs lehetőség.
+**Signals (updated 2026-03-31):**
+- Phantom (GitHub ghostwright/phantom, 2026-03-30): nyílt forráskódú agent saját VM-en, config rewrite képességgel — az önmódosítás határvonal kérdése production-szintű valóság lett. HIGH CONFIDENCE.
+- Orloj (2026-03-26): runtime policy-first megközelítés, tool call gate — az önmódosítás kontrolálhatósága technikai szinten megoldható. HIGH CONFIDENCE.
+- Cloudflare Dynamic Workers (2026-03-24): sandbox izoláció 100x gyorsabb — az önmódosítás kontrollált keretek közt tartható. HIGH CONFIDENCE.
+- ALTK paper (2026-03-16): "silent reasoning errors go undetected" — önmódosítás nélküli agentben is van drift, önmódosítással hatványozódik. HIGH CONFIDENCE.
+**Assessment:** Ez nem technikai újítás — ez kommunikációs és pozicionálási lehetőség. A Navibase/Leoni már megoldotta: az önkonfiguráció explicit scope-olva van, SOUL.md + AGENTS.md definiálja a határt, policy engine enforce-olja. A "Controlled Self-Configuration" mint termék feature és pitch elem: "tudod, mit módosíthat az agent magán és mit nem." Enterprise és KKV szinten egyformán értékes.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=4 | IntFric=2 | **Total: 18/25**
+*Új hypothesis (2026-03-31). A Phantom megjelenése kinyitja a "ki szabályozza az agent önmódosítását" kérdést. A Navibase architectúra erre kész választ ad — a differenciáló kommunikáció még nincs megírva.*
+
+---
+
+## H18 — Organizationally-Aligned AI (Social Values Embedding for SMBs)
+**Thesis:** Az AI agentek ma "értéksemlegesek" — a szervezet értékrendjét, kommunikációs stílusát, döntési elveit csak prompton keresztül lehet megadni, ami törékeny és nem auditálható. A kutatási irány (EurekAlert, 2026-03-27) mutatja: az emberi értékek beágyazhatók az AI döntési folyamatokba. A KKV piacnak szüksége van egy eszközre, amellyel a saját szervezeti értékeiket (pl. "nem ajánlunk semmit ha bizonytalan a szükséglet", "mindig az ügyfél érdekét prioritizáljuk") verziókövetve, auditálhatóan adják meg az agentnek — nem prompton, hanem konfigurált policy-ként.
+**Signals (updated 2026-03-31):**
+- EurekAlert: "Embedding Social Values into AI Decisions" (2026-03-27): tudományos validáció — az értékbeágyazás lehetséges és szükséges. HIGH CONFIDENCE.
+- iProov "accountability vacuum": az agent döntése mögött ott kell lennie a szervezeti értékrendnek, hogy a felelősség visszakövethető legyen. HIGH CONFIDENCE.
+- Leaders League "Decision Architecture" (2026-03-25): "az AI governance a döntési felelősség újratervezése" — az értékek explicit kódolása ennek alapja. HIGH CONFIDENCE.
+- Leoni SOUL.md + USER.md struktúra: ez maga is egy "values embedding" implementáció — de nincs KKV-szintű termékké téve. MEDIUM CONFIDENCE (internal signal).
+**Assessment:** Ez a H12 (accountability) és H16 (alignment measurement) természetes kiegészítője: nem csak mérjük az eltérést, hanem megadjuk, mitől kellene eltérnie. A Navibase alkalmazás: "Organization Values Kit" — strukturált, verziókövetett, auditálható értékkonfiguráció KKV-knak, amely az ops agent "lelkévé" válik. Differenciátor: a Leoni SOUL.md maga is ennek prototípusa.
+**Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=4 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-03-31). A tudományos irány és a Leoni belső implementáció egyszerre validálja a thesis-t. Navibase számára ez termék és differenciáló narratíva egyszerre.*
+
+---
+
+## H19 — Operational Reliability Layer (Tooling Commoditization Response)
+**Thesis:** Az agent tooling ökoszisztéma gyorsan commoditizálódik: Composio (1000+ app integráció), MCP szabvány terjedése, ClawRun, browser-use — az integráció ma már nem versenyelőny. Aki az integráció rétegen versenyez, elveszíti a differenciálót. Az igazi versenyelőny az operatív megbízhatóság: mennyi agent run végez sikeresen vs. hibával, mennyi emberi beavatkozás kell, mennyi a "silent failure" (agent nem jelez de rosszat csinál). Ez mérhető, kommunikálható, és ma senki nem pozicionálja termékként.
+**Signals (updated 2026-03-31):**
+- Composio "Universal CLI — Connect AI agents to 1000+ apps" (ProductHunt, 2026-03-27): az integráció réteg commoditizálódik, ez már nem differenciáló. HIGH CONFIDENCE.
+- ALTK paper (2026-03-16): "silent reasoning errors, tool argument corruption, policy violations" — a megbízhatóság mérhetővé tétele sürgős. HIGH CONFIDENCE.
+- $65M seed enterprise agent startup (TechCrunch, 2026-03-30): az enterprise szegmensbe nagy tőke áramlik — a KKV szegmens az operatív megbízhatóságra fog versenyezni, nem az integrációra. MEDIUM CONFIDENCE.
+- CRAFT paper: erősebb modell nem jelent jobb multi-agent koordinációt — a megbízhatóság protokoll és monitoring kérdése, nem modell kérdés. HIGH CONFIDENCE.
+**Assessment:** A "reliability SLA" mint termék: az ops agent minden run-nak van státusza, minden hibának van eskalációs protokollja, minden sikernek van auditnyoma. Navibase alkalmazás: "Leoni Ops Reliability Score" — heti KPI dashboard KKV CEO-knak: hány feladat futott le teljesen, hány igényelt emberi beavatkozást, mennyi volt a latency. Ez nem monitoring, hanem üzleti értékjelzés.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-03-31). A tooling commoditizáció signal (Composio) kinyitja azt a kérdést: ha mindenki integrál mindenhová, mi marad a differenciáló? Válasz: az operatív megbízhatóság mérhetősége és kommunikálása.*
+
+---
+
+## Ranking Summary (2026-03-31)
+
+| Rank | Hypothesis | Score | Delta |
+|------|-----------|-------|-------|
+| 1 | H2 — Audit Trail | 22/25 | = |
+| 2 | H6 — Policy Enforcement Runtime | 22/25 | = |
+| 3 | H1 — Agent Identity & Auth | 21/25 | = |
+| 4 | H3 — MCP Governance | 20/25 | = |
+| 5 | H12 — Agent Accountability Framework | 20/25 | = |
+| 6 | H10 — Agent Infra as Code | 19/25 | = |
+| 7 | H15 — B2B SaaS Agent Feature Injection | 19/25 | = |
+| 8 | H7 — SMB Deployment Wrapper | 18/25 | = |
+| 9 | H8 — Cross-Agent Context | 18/25 | = |
+| 10 | H13 — Agent Sandboxing & Isolation | 18/25 | = |
+| 11 | H14 — Agent-to-Agent Trust & M2M | 18/25 | = |
+| 12 | **H16 — AI Alignment Measurement as a Service** | **18/25** | **ÚJ** |
+| 13 | **H17 — Controlled Self-Configuration Boundary** | **18/25** | **ÚJ** |
+| 14 | **H18 — Organizationally-Aligned AI** | **18/25** | **ÚJ** |
+| 15 | **H19 — Operational Reliability Layer** | **18/25** | **ÚJ** |
+| 16 | H4 — Agent Payment Rails | 17/25 | = |
+| 17 | H11 — Hallucination Self-Check | 17/25 | = |
+| 18 | H5 — Discovery & Registry | 16/25 | = |
+| 19 | H9 — Agent Communication Infra | 12/25 | = |
+
+*2026-03-31 delta: 4 új hypothesis (H16–H19). Mindegyik 18/25 — erős, de nem dönti el a rangsort a meglévő top 5 ellen. A tooling commoditizáció (H19) és az alignment mérhetőség (H16) a leginkább Navibase-releváns új belépők. Governance és compliance blokk (H1/H2/H6/H12) dominál.*
+
+---
+
+## Top 3 Opportunities + Suggested Experiments (2026-03-31)
+
+### #1: H2 / H6 (tied) — Audit Trail + Policy Enforcement Runtime [Score: 22/25]
+**Miért most:** EU AI Act Aug 2026 deadline 4 hónap. Az "agent governance infrastruktura" narratíva mainstream médiában jelent meg (National Today, 2026-03-29) — a CEO-szintű figyelem most nyílt meg. 94% szervezetnél kritikus AI láthatósági hiány. A compliance + security kettős pitch ma a legerősebb nyitó.
+**Javasolt kísérlet:** 10 EU-based Claude/GPT production-user enterprise hideg megkeresés. Ajánlat: 30 napos ingyenes EU AI Act compliance audit. Mérők: pilot→paid konverzió, árszenzitvitás, compliance framework hivatkozás.
+**Befektetés:** ~2 hét fejlesztés. ALTK + Tracium.ai proof-of-concept a pitchben.
+
+### #2: H19 — Operational Reliability Layer [Score: 18/25 — ÚJ]
+**Miért most:** A Composio-féle tooling commoditizáció (2026-03-27) jelzi: aki az integráció rétegen versenyez, elveszít. A differenciáló versenyelőny az operatív megbízhatóság — és ezt ma senki nem kommunikálja termékként. A $65M enterprise seed azt mutatja, hogy az enterprise piac felfelé megy, a KKV szegmensben az "operatív SLA" lesz az értékesítési battleground.
+**Javasolt kísérlet:** Leoni ops agent-nél 30 napos reliability tracking: minden run státusz, hiba, eszkaláció, latency. Összefoglalás heti KPI dashboardban Tominak. Ha az adatok jók: ez a KKV pitch centerdarabja. Mérők: run success rate, human-in-the-loop rate, average task completion time.
+**Befektetés:** ~3 nap build (Leoni belső monitoring). Azonnali belső adat + KKV pitch anyag.
+
+### #3: H16 — AI Alignment Measurement as a Service [Score: 18/25 — ÚJ]
+**Miért most:** A Revealed Preference Framework paper (arxiv, 2026-03-29) tudományos alapot ad a KKV pitchhez: "mérd le, hogy az agented valóban a te értékeidet képviseli-e." Az iProov accountability vacuum narratívával kombinálva ez az adopciós barrier legfőbb elhárítója. Navibase differenciáló: "Leoni Alignment Score" — heti dashboard, hány döntés volt emberi elvárással konzisztens.
+**Javasolt kísérlet:** Leoni 30 napos alignment logging pilot: minden döntésnél (email, kanban, cron, git push) rögzítés, hogy emberi utasítással konzisztens volt-e, vagy autonóm eltérés. Heti összesítő Tominak. Mérők: eltérési arány, false autonomy rate, CEO bizalmi szint változása (szubjektív visszajelzés).
+**Befektetés:** ~2 nap logging. Azonnali belső érték + pitch anyag a KKV pilotra.
+
+---
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-03-31.md (217 signal, HAIER export) | 2026-03-31 21:50 CET*
