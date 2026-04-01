@@ -580,3 +580,85 @@ Scoring dimensions (1–5 each):
 ---
 
 *Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-03-31.md (217 signal, HAIER export) | 2026-03-31 21:50 CET*
+
+
+---
+
+## H20 — Agent Orchestration Platform as Regulated Infrastructure
+**Thesis:** Az AI agentek governance infrastrukturává válnak — a szabályozói figyelem (EU AI Act, NIST) hamarosan nemcsak az egyes AI döntéseket, hanem az agent orchestration platformokat közvetlenül érinti. Ma egyetlen platform sem pozicionálja magát compliance-ready regulated infrastructure-ként. Az "agent nem eszköz, hanem infrastruktúra" narratíva mainstream médiában jelent meg. Aki elsőként pozicionálja a platformját erre a keretre, az standarddá válhat — különösen a KKV szegmensben, ahol a compliance követelmény hamarabb válik belépési feltétellé, mint megkülönböztető előnnyé.
+**Signals (updated 2026-04-01):**
+- "AI Agents Become Governance Infrastructure" (National Today, 2026-03-29): Az "agent nem eszköz, hanem infrastruktúra" narratíva mainstream médiában jelent meg — az EU AI Act és NIST szabályozás következő célpontja az agent orchestration platform réteg. HIGH CONFIDENCE.
+- NIST CAISI "AI Agent Standards Initiative" (2026-02, deadline April 2, 2026): Az agent authentication és authorization concept paper deadline elérte a határidőt — a szabályozás már platform szintre érkezett. HIGH CONFIDENCE.
+- EU AI Act Aug 2026 compliance deadline: 4 hónap — a platform szintű compliance-ready pozicionálásra nyitott ablak zárul. HIGH CONFIDENCE.
+- $65M seed enterprise agent startup (TechCrunch, 2026-03-30): A VC pénz enterprise szegmensbe áramlik, KKV-fókuszú compliance-ready platform differenciálhat. MEDIUM CONFIDENCE.
+- iProov "accountability vacuum" (2026-03-26): A platformszintű felelősség kérdése nyitott — az orchestration layer az első hely, ahol ez kezelhető. HIGH CONFIDENCE.
+**Assessment:** Ez nem egy termék feature — ez pozicionálási és go-to-market döntés. A Navibase/Leoni ma már implementálja az audit trail, policy engine, identity scope komponenseket. A kérdés: mikor kommunikálják ezt együtt, mint "compliance-ready platform infrastruktúra"? Az EU AI Act deadline közeledtével ez az üzenet hónapok múlva lesz a legértékesebb — nem évek múlva. Navibase alkalmazás: "Agent Platform Compliance Badge" — egységes EU AI Act readiness kommunikáció, amely H1 + H2 + H6 + H12 signalokat összefogja.
+**Scores:** Pain=4 | Urgency=5 | WTP=5 | Def=4 | IntFric=3 | **Total: 21/25**
+*Új hypothesis (2026-04-01). A governance infrastruktúra narratíva mainstream megjelenése közvetlen go-to-market trigger. Az urgency 5 mert az EU AI Act deadline 4 hónapon belül van — a compliance positioning window most nyitva van, de zárul.*
+
+---
+
+## H21 — Deterministic Agent Behavior as SMB/Enterprise Trust Signal
+**Thesis:** Az önmódosító és önfejlesztő agentek (Phantom, intelligence explosion narratíva) megjelenésével az enterprise és KKV piac kettéválik: "instabil/kísérletező" és "stabil/auditálható" platformok. Az üzleti adopció gátja nem az AI képesség hiánya, hanem a kiszámíthatatlanságtól való félelem. Aki a "determinisztikus, auditálható, stabil agent viselkedés" értékajánlatát a legegyértelműbben kommunikálja, az nyeri el a konzervatívabb — de fizető — enterprise és KKV ügyfelet. A Navibase/Leoni architektúra ezt már implementálja (SOUL.md + AGENTS.md + policy engine), a piac azonban nem tud róla.
+**Signals (updated 2026-04-01):**
+- "Agentic AI and the next intelligence explosion" (arxiv, 2026-03-30): A self-evolving agent narratíva erősödik — a counternarrative (stabil/auditálható behavior) lesz az enterprise differenciáló. HIGH CONFIDENCE.
+- Phantom open-source agent (GitHub ghostwright/phantom, 2026-03-30): Első nyilvános open-source önmódosító agent — megjelent a félelem, és megjelent az igény a kontrollált alternatívára. HIGH CONFIDENCE.
+- ALTK paper (arxiv, 2026-03-16): "silent reasoning errors, tool argument corruption" — a kiszámíthatatlanság termelési kockázat, auditable behavior az ellenlábasa. HIGH CONFIDENCE.
+- CRAFT paper (arxiv, 2026-03-26): Erősebb modell nem jelent jobb multi-agent koordinációt — a stabilitás protokoll és architektúra kérdése. HIGH CONFIDENCE.
+- "Autonomous AI agents in business organizations" (Jerusalem Post, 2026-03-27): KKV döntéshozók is olvassák az autonóm agent témát — a bizalom és a kiszámíthatóság kérdése mainstream. MEDIUM CONFIDENCE.
+**Assessment:** Ez elsősorban kommunikációs és pozicionálási lehetőség — a build work már megtörtént. Az IntFric szándékosan alacsony: a Navibase már implementálja a deterministic scope-ot (SOUL.md, AGENTS.md, policy engine, explicit scope boundaries). A piac most kezdi megérteni, miért számít ez. Az "intelligence explosion" narratívára adott válasz a Navibase pitch centereleme lehet: "míg mások az agent képességét mérik, mi az agent megbízhatóságát garantáljuk." Navibase alkalmazás: "Stable Agent Architecture" white paper + KKV pilot pitch deck.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=4 | IntFric=2 | **Total: 18/25**
+*Új hypothesis (2026-04-01). A Phantom + intelligence explosion signalok egyszerre nyitják meg a "counternarrative" lehetőséget. A Navibase architektúra az egyetlen eddig látott implementáció, amelynél a scope-hardening production-szinten dokumentált.*
+
+---
+
+## Ranking Summary (2026-04-01)
+
+| Rank | Hypothesis | Score | Delta |
+|------|-----------|-------|-------|
+| 1 | H2 — Audit Trail | 22/25 | = |
+| 2 | H6 — Policy Enforcement Runtime | 22/25 | = |
+| 3 | H1 — Agent Identity & Auth | 21/25 | = |
+| 4 | **H20 — Agent Platform as Regulated Infrastructure** | **21/25** | **ÚJ** |
+| 5 | H3 — MCP Governance | 20/25 | = |
+| 6 | H12 — Agent Accountability Framework | 20/25 | = |
+| 7 | H10 — Agent Infra as Code | 19/25 | = |
+| 8 | H15 — B2B SaaS Agent Feature Injection | 19/25 | = |
+| 9 | H7 — SMB Deployment Wrapper | 18/25 | = |
+| 10 | H8 — Cross-Agent Context | 18/25 | = |
+| 11 | H13 — Agent Sandboxing & Isolation | 18/25 | = |
+| 12 | H14 — Agent-to-Agent Trust & M2M | 18/25 | = |
+| 13 | H16 — AI Alignment Measurement as a Service | 18/25 | = |
+| 14 | H17 — Controlled Self-Configuration Boundary | 18/25 | = |
+| 15 | H18 — Organizationally-Aligned AI | 18/25 | = |
+| 16 | H19 — Operational Reliability Layer | 18/25 | = |
+| 17 | **H21 — Deterministic Agent Behavior as Trust Signal** | **18/25** | **ÚJ** |
+| 18 | H4 — Agent Payment Rails | 17/25 | = |
+| 19 | H11 — Hallucination Self-Check | 17/25 | = |
+| 20 | H5 — Discovery & Registry | 16/25 | = |
+| 21 | H9 — Agent Communication Infra | 12/25 | = |
+
+*2026-04-01 delta: 2 új hypothesis (H20, H21). H20 azonnal a top 4-be kerül 21/25-tel — az "agent platform mint regulated infrastructure" narratíva mainstream megjelenése közvetlen go-to-market trigger. H21 a 18/25 blokkba kerül, de IntFric=2 miatt Navibase-nél a legkisebb build investmenttel megvalósítható új lehetőség.*
+
+---
+
+## Top 3 Opportunities + Suggested Experiments (2026-04-01)
+
+### #1: H20 — Agent Platform as Regulated Infrastructure [Score: 21/25 — ÚJ]
+**Miért most:** Az "AI agents become governance infrastructure" narratíva (National Today, 2026-03-29) mainstream megjelenése és az EU AI Act Aug 2026 deadline együtt kinyit egy 4 hónapos compliance positioning ablakot. A Navibase ma már implementálja az ehhez szükséges komponenseket (H1+H2+H6+H12). A go-to-market lépés: ezeket egységes "Agent Platform Compliance" narratívába összefogni, mielőtt a $65M-es enterprise szereplők megelőzik a piacot.
+**Javasolt kísérlet:** "EU AI Act Agent Compliance Checklist" — 1 oldalas, szabad letöltésű sablon, amely a Navibase komponenseit (audit trail, policy engine, identity, accountability) EU AI Act cikkelyekhez rendeli. Mérők: letöltések, inbound megkeresések, LinkedIn impressions 2 héten belül. Ha 300+ letöltés: fizetős compliance assessment pilot indítás.
+**Befektetés:** ~2 nap. Erős thought leadership pozicionálás, közvetlen EU AI Act deadline-ra időzített lead gen.
+
+### #2: H2 / H6 (tied) — Audit Trail + Policy Enforcement Runtime [Score: 22/25]
+**Miért most:** Változatlanul a lista legmagasabb score-ú lehetőségei. EU AI Act Aug 2026 deadline 4 hónap. McKinsey hack + Meta rogue agent + iProov accountability vacuum egymást erősítő signalok. A compliance + security kettős pitch ma a legerősebb belépési szög — a H20-val kombinálva platform-szintű narratíva.
+**Javasolt kísérlet:** 10 EU-based Claude/GPT production-user enterprise hideg megkeresés. Ajánlat: 30 napos ingyenes EU AI Act compliance audit. Mérők: pilot-paid konverzió, árszenzitvitás, compliance framework hivatkozás.
+**Befektetés:** ~2 hét fejlesztés. ALTK + Tracium.ai proof-of-concept a pitchben.
+
+### #3: H21 — Deterministic Agent Behavior as SMB/Enterprise Trust Signal [Score: 18/25 — ÚJ]
+**Miért most:** A Phantom önmódosító agent (2026-03-30) megjelenése és az "intelligence explosion" narratíva KKV és mainstream sajtóban (Jerusalem Post) egyaránt megjelent. A félelem és a bizalomigény most formálódik. A Navibase build cost nulla — az architektúra létezik. A cost: a kommunikáció megírása. Ez a legmagasabb ROI lehetőség a listán belső erőforrás szempontjából.
+**Javasolt kísérlet:** "Stable Agent Architecture" egy oldalas white paper — Navibase/Leoni scope-hardening architektúra bemutatása, összehasonlítás a Phantom-típusú "wild" megközelítéssel. Mérők: elkezdodott.hu blog traffic, LinkedIn engagement, inbound kérdések a "hogyan kontrolláljuk az agent viselkedését" témában. Ha 5 inbound megkeresés: ez a pitch fő differenciálója.
+**Befektetés:** ~1 nap tartalom. Azonnali differenciáló kommunikáció. A Leoni belső implementáció maga a proof-of-concept.
+
+---
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-01.md (223 signal, HAIER export) | 2026-04-01 09:30 CET*
