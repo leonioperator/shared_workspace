@@ -662,3 +662,87 @@ Scoring dimensions (1–5 each):
 ---
 
 *Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-01.md (223 signal, HAIER export) | 2026-04-01 09:30 CET*
+
+
+---
+
+## H22 — Adversarial Robustness Layer (Production Agent Attack Surface)
+**Thesis:** DeepMind 6 dokumentált "csapda" (prompt injection, kontextus manipuláció, tool poisoning stb.) és az Anthropic kódbázis szivárgás egyszerre jelzik: a produkciós agentek ellen már aktív, szervezett támadások futnak. Az eddigi biztonsági fókusz passzív volt (naplózás, audit, izoláció) — nincs olyan réteg, amely aktívan detektálja és blokkolja az adversarial bemeneteket valós időben, KKV-ba is bevezethető formában. A "6 csapda" paper az első széles körben hivatkozott taxonómia, amely konkrét, mérhető attack pattern-eket nevesít. Erre lehet védelmi terméket építeni.
+**Signals (updated 2026-04-02):**
+- Google DeepMind: "6 csapda autonóm agenteknek" (the-decoder.com, 2026-04-01): prompt injection, kontextus manipuláció, tool poisoning, identity spoofing stb. — első publikus, hivatkozott taxonómia produkciós agent attack pattern-ekre. HIGH CONFIDENCE.
+- Anthropic Claude kódbázis szivárgás (WSJ, 2026-04-01): az agent-infrastruktúra IP-je aktív célpont — a támadási motiváció bizonyított. HIGH CONFIDENCE.
+- Mutation Testing for the Agentic Era (Trail of Bits, 2026-04-01): a hagyományos szoftvertesztelés nem alkalmas agent robustness mérésére — új mérési keretrendszer szükséges. HIGH CONFIDENCE.
+- Autonomous pentest agent (vxcontrol/pentagi): teljesen autonóm támadóeszközök elérhetők — a védelem reaktívból proaktívvá kell váljon. HIGH CONFIDENCE.
+- Open-source red-team playground (HN, 2026-03-15): "We kept finding the same types of vulnerabilities" — a 6 DeepMind attack type nem elméleti, production-ban dokumentált. HIGH CONFIDENCE.
+**Assessment:** A DeepMind taxonómia kinyitja a "robustness layer" termékpozíciót: nem generic biztonsági eszköz, hanem kimondottan az ismert agent-specifikus attack pattern-ekre tervezett valós idejű shield. A KKV pitch: "a legjobb agented is becsapható 6 ismert módszerrel — mi blokkoljuk mind a hatot." A Trail of Bits mutation testing paper az auditálási metrikát adja hozzá. Navibase alkalmazás: Leoni bemeneti validáció + kontextus-integritás ellenőrzés a 6 DeepMind pattern alapján.
+**Scores:** Pain=5 | Urgency=5 | WTP=5 | Def=4 | IntFric=3 | **Total: 22/25**
+*Új hypothesis (2026-04-02). DeepMind taxonómia + Anthropic szivárgás egymást erősítő, magas bizalmú signalok. A score 22/25 — azonnal a lista csúcsára kerül H2 és H6 mellé. Az adversarial attack téma a 2026 Q2 leggyorsabban növekvő agent security szegmense.*
+
+---
+
+## H23 — Agentic QA & Mutation Testing as a Service
+**Thesis:** A hagyományos szoftvertesztelési módszerek (unit test, integration test) nem alkalmasak autonóm agent viselkedés ellenőrzésére. Trail of Bits paper (2026-04-01) megmutatja: mutation testing szükséges — az agent döntési logikájának szándékos mutálásával mérhető, hogy mennyire robusztus és kiszámítható a viselkedés. Ez ma nincs termékkénnt elérhetően — sem önállóan, sem CI/CD pipeline-ba integrálva. Az "agentic QA" kategória még nem létezik, de az igény (audit, compliance, production reliability) már megvan.
+**Signals (updated 2026-04-02):**
+- Mutation Testing for the Agentic Era (Trail of Bits blog, 2026-04-01): hagyományos tesztelés elégtelen, mutation testing szükséges agent robustness méréshez — közvetlen kategória-definíciós paper egy high-credibility biztonsági cégtől. HIGH CONFIDENCE.
+- ALTK paper (arxiv, 2026-03-16): "silent reasoning errors go undetected" — a QA gap production-ban dokumentált. HIGH CONFIDENCE.
+- AWS DevOps/Security agentek deployment (Forbes, 2026-04-01): enterprise szinten megjelenik az agent-alapú DevOps — a CI/CD pipeline-ba integrált agentic QA természetes következő lépés. MEDIUM CONFIDENCE.
+- Claude Code (GitHub trending, 2026-04-02): a coding agent tooling mainstream — minden coding agent deploymentnél felvetődik a "hogyan tesztelünk" kérdés. MEDIUM CONFIDENCE.
+- ChatDev 2.0 (GitHub trending, 2026-04-01): multi-agent szoftverfejlesztés terjedése — az agentic QA igénye skálázódik. MEDIUM CONFIDENCE.
+**Assessment:** Ez a H2 (audit trail) és H17 (controlled self-configuration) metszéspontja, de specifikusan a szoftverfejlesztési és CI/CD pipeline-ra fókuszál. A Trail of Bits mint high-credibility forrás maga validálja a kategoriat — ami nem mainstream biztonsági fórumon jelent meg, az tudományos/ipari referencia szinten érkezik. Navibase alkalmazás: Leoni agent deployment pipeline-jában agentic mutation test checkpoint — minden konfiguráció változás előtt automatikus robustness check.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-04-02). Trail of Bits paper közvetlen kategória-definíció. Az "agentic QA" tér ma üres — az első szereplőnek thought leadership és tooling előnye van. 2026 Q3-ra várható a CI/CD integrációs igény felfutása.*
+
+---
+
+## Ranking Summary (2026-04-02)
+
+| Rank | Hypothesis | Score | Delta |
+|------|-----------|-------|-------|
+| 1 | H2 — Audit Trail | 22/25 | = |
+| 2 | H6 — Policy Enforcement Runtime | 22/25 | = |
+| 3 | **H22 — Adversarial Robustness Layer** | **22/25** | **ÚJ** |
+| 4 | H1 — Agent Identity & Auth | 21/25 | = |
+| 5 | H20 — Agent Platform as Regulated Infrastructure | 21/25 | = |
+| 6 | H3 — MCP Governance | 20/25 | = |
+| 7 | H12 — Agent Accountability Framework | 20/25 | = |
+| 8 | H10 — Agent Infra as Code | 19/25 | = |
+| 9 | H15 — B2B SaaS Agent Feature Injection | 19/25 | = |
+| 10 | H7 — SMB Deployment Wrapper | 18/25 | = |
+| 11 | H8 — Cross-Agent Context | 18/25 | = |
+| 12 | H13 — Agent Sandboxing & Isolation | 18/25 | = |
+| 13 | H14 — Agent-to-Agent Trust & M2M | 18/25 | = |
+| 14 | H16 — AI Alignment Measurement as a Service | 18/25 | = |
+| 15 | H17 — Controlled Self-Configuration Boundary | 18/25 | = |
+| 16 | H18 — Organizationally-Aligned AI | 18/25 | = |
+| 17 | H19 — Operational Reliability Layer | 18/25 | = |
+| 18 | H21 — Deterministic Agent Behavior as Trust Signal | 18/25 | = |
+| 19 | **H23 — Agentic QA & Mutation Testing as a Service** | **18/25** | **ÚJ** |
+| 20 | H4 — Agent Payment Rails | 17/25 | = |
+| 21 | H11 — Hallucination Self-Check | 17/25 | = |
+| 22 | H5 — Discovery & Registry | 16/25 | = |
+| 23 | H9 — Agent Communication Infra | 12/25 | = |
+
+*2026-04-02 delta: 2 új hypothesis (H22, H23). H22 azonnal a top 3-ba kerül 22/25-tel — a DeepMind 6 trap taxonómia + Anthropic szivárgás együttesen az adversarial robustness témát az audit/policy mellé emeli. H23 a 18/25 blokkba kerül mint üres kategória-definíció. Az EU AI Act Aug 2026 deadline közeledtével a teljes governance/security blokk (H1/H2/H6/H12/H20/H22) egyre szorosabb.*
+
+---
+
+## Top 3 Opportunities + Suggested Experiments (2026-04-02)
+
+### #1: H22 — Adversarial Robustness Layer [Score: 22/25 — ÚJ]
+**Miért most:** A DeepMind 6 csapda paper az első széles körben hivatkozott, konkrét attack taxonómia produkciós agentekre. Az Anthropic kódszivárgás igazolja: az agent infrastruktúra aktív célpont. Ez nem jövőbeli kockázat — ez ma már aktív fenyegetés. A piac még nem rendelkezik termékkel, amely kifejezetten ezt a 6 attack pattern-t blokkolja KKV-ba is bevezethető formában. Az ablak szűk: a következő 2-3 hónapban security-fókuszú startupok fognak erre belépni.
+**Javasolt kísérlet:** Leoni-ban a bemeneti pipeline elé egy "adversarial check" réteg prototípusa: a 6 DeepMind attack típust ellenőrző validációs logika (prompt injection detektor, kontextus-integritás check, tool call anomaly). Mérők: false positive arány (helyes bemenetet blokkol), true positive arány (valódi attack-ot megfog), latency overhead. 2 hetes prototípus. Ha működik: "Leoni Security Shield" KKV pitch elem.
+**Befektetés:** ~1 hét build. DeepMind paper maga a spec — szabad felhasználású, magas hitelességű forrás.
+
+### #2: H2 / H6 (tied) — Audit Trail + Policy Enforcement Runtime [Score: 22/25]
+**Miért most:** Változatlanul a lista legmagasabb score-ú lehetőségei. EU AI Act Aug 2026 deadline most már 4 hónap. Az új H22 signal (DeepMind + Anthropic) tovább erősíti a biztonsági narratívát — a compliance + security + adversarial robustness hármas pitch az erősebb belépési szög mint korábban. H20-val kombinálva platform-szintű narratíva.
+**Javasolt kísérlet:** 10 EU-based Claude/GPT production-user enterprise hideg megkeresés. Ajánlat: 30 napos ingyenes EU AI Act compliance audit + adversarial exposure scan (6 DeepMind pattern-re). Mérők: pilot-paid konverzió, compliance framework hivatkozás, security-driven vs. compliance-driven inbound arány.
+**Befektetés:** ~2 hét fejlesztés. A H22 prototípus + meglévő ALTK proof-of-concept együtt erős demo.
+
+### #3: H20 — Agent Platform as Regulated Infrastructure [Score: 21/25]
+**Miért most:** Az EU AI Act Aug 2026 deadline most 4 hónap — a compliance positioning window gyorsan zárul. A DeepMind/Anthropic adversarial signalok (H22) tovább erősítik a "platform-szintű compliance" narratívát: nem elég az audit log, a platform maga legyen hardened és deklaráltan compliance-ready. A Navibase ma implementálja az összes szükséges komponenst — a kommunikáció hiányzik.
+**Javasolt kísérlet:** "EU AI Act Agent Compliance Checklist" 1 oldalas sablon — Navibase komponensek (H1+H2+H6+H12+H22) EU AI Act cikkelyekhez rendelve + DeepMind 6 attack pattern-re vonatkozó védelmi intézkedések listája. Mérők: letöltések, inbound megkeresések, LinkedIn impressions 2 héten belül. Ha 300+ letöltés: fizetős compliance assessment pilot.
+**Befektetés:** ~2 nap. A H22 friss paper thought leadership momentum-mal tölti meg a checklist-et.
+
+---
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-02.md (232 signal, HAIER export) | 2026-04-02 09:30 CET*
