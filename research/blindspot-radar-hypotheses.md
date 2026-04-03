@@ -746,3 +746,95 @@ Scoring dimensions (1–5 each):
 ---
 
 *Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-02.md (232 signal, HAIER export) | 2026-04-02 09:30 CET*
+
+
+---
+
+## H24 — Shadow AI / Unmanaged Agent Governance Plane
+**Thesis:** Ahogy a nagy szervezetekben megjelennek az első, „munkát végző” autonóm agentek (DevOps, SecOps, support, procurement), megjelenik a következő probléma: a nem jóváhagyott, csapatok által „sunny side” módon bevezetett agentek (shadow AI) gyorsabban szaporodnak, mint ahogy a central governance reagálni tudna. Kell egy dedikált governance plane, ami felderíti, inventory-zza és folyamatosan kontrollálja a nem menedzselt agenteket (policy, audit, kill switch, ownership, escalation). Ez nem MCP governance (H3) és nem csak audit trail (H2), hanem kifejezetten a shadow AI „operatív” problémájára épített termékkategória.
+**Signals (updated 2026-04-03):**
+- KiloClaw: shadow AI + autonomous agent governance (AI News, 2026-04-02) - explicit kategória-nevesítés ("shadow AI") + termékpozíció. HIGH CONFIDENCE.
+- AWS: AI agentek DevOps és Security csapatok munkájára (Forbes, 2026-04-01) - a „working agents” enterprise-be kerülnek, ezzel a shadow deployment valószínűsége nő. HIGH CONFIDENCE (vendor signal).
+- EU AI Act Aug 2026 (korábbi) - ha az agent döntést hoz vagy adatot mozgat, a governance hiánya audit/compliance kockázat. HIGH CONFIDENCE (regulatory).
+**Assessment:** A "shadow AI" az a wedge, ami a governance piacot az IT/security buyerhez köti: inventory + risk scoring + containment. Moat lehetőség: agent-felderítés (network + API + identity graph), folyamatos policy enforcement, és audit-ready jelentések.
+**Scores:** Pain=5 | Urgency=5 | WTP=5 | Def=3 | IntFric=3 | **Total: 21/25**
+*Új hypothesis (2026-04-03). A KiloClaw explicit shadow AI pozicionálása erős validáció, az AWS vendor signal pedig azt jelzi: ez nem kutatás, hanem deploy.*
+
+---
+
+## H25 — Developer Multi-Agent Workspace Orchestration (Worktrees, Sessions, Review)
+**Thesis:** A terminal-native coding agentek (Claude Code, stb.) és a multi-agent dev flow-k gyorsan terjednek, de a fejlesztők operatív fájdalma nem a modell-képesség, hanem a "túl sok agent, túl sok worktree" kezelése: state, státusz, párhuzamos futások, review, és a hibák visszakövetése. A piacnak szüksége van egy "agent workspace orchestrator" rétegre: agent/session dashboard, worktree lifecycle, run log + diff review, policies (mit csinálhat egy agent), és költség/limit menedzsment.
+**Signals (updated 2026-04-03):**
+- Anthropic Claude Code (GitHub, 2026-04-02) - első-party, terminal-native agent eszköz -> tömeges elterjedés. HIGH CONFIDENCE.
+- Show HN: Baton - desktop app multi-agent worktree managementhez (2026-04-01) - közvetlen practitioner pain: "messy" agent/worktree kezelés. HIGH CONFIDENCE.
+- ChatDev 2.0 (GitHub, 2026-04-01) - multi-agent collaboration mainstream open-source mintázat. MEDIUM CONFIDENCE.
+**Assessment:** Ez devtool kategória, gyors adoption, de moatozás nehezebb. A value: "agent fleet control plane" a fejlesztő gépen, enterprise security hookkal (policy, audit).
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=2 | IntFric=2 | **Total: 16/25**
+*Új hypothesis (2026-04-03). Baton és Claude Code együtt jelzi: a multi-agent dev már operációs probléma, nem novelty.*
+
+---
+
+## H26 — Vertical Agent Copilots in Legacy Plugin Ecosystems (WordPress wedge)
+**Thesis:** A legacy, plugin-alapú ökoszisztémákban (WordPress) az "agentic" réteg egy gyors terjesztési wedge: a felhasználói bázis hatalmas, a workflow-k jól definiáltak, és a value azonnali. A kulcs: agent actions auditálása + permissioning + rollback, mert a CMS-ekben az agent hibája közvetlen üzleti kár. A platform blindspot itt a "secure action wrapper" a legacy app körül.
+**Signals (updated 2026-04-03):**
+- WP Copilot (Product Hunt, 2026-04-02) - agentic copilot kifejezetten WordPress-hez. HIGH CONFIDENCE.
+- (Korábbi) WordPress.com AI agents (TechCrunch, 2026-03-20) - mainstream platformok belépnek a WP agentic irányba. MEDIUM CONFIDENCE.
+**Assessment:** Nem általános agent platform, hanem distribution play. Navibase szempont: gyors KKV entry point, de a hard part a biztonságos, auditálható változtatáskezelés.
+**Scores:** Pain=3 | Urgency=3 | WTP=4 | Def=2 | IntFric=2 | **Total: 14/25**
+*Új hypothesis (2026-04-03). A WP Copilot egyértelmű validáció: a legnagyobb plugin ökoszisztémák agent-esednek.*
+
+---
+
+## Ranking Summary (2026-04-03)
+
+| Rank | Hypothesis | Score | Delta |
+|------|-----------|-------|-------|
+| 1 | H2 — Audit Trail | 22/25 | = |
+| 2 | H6 — Policy Enforcement Runtime | 22/25 | = |
+| 3 | H22 — Adversarial Robustness Layer | 22/25 | = |
+| 4 | H1 — Agent Identity & Auth | 21/25 | = |
+| 5 | H20 — Agent Platform as Regulated Infrastructure | 21/25 | = |
+| 6 | **H24 — Shadow AI Governance Plane** | **21/25** | **ÚJ** |
+| 7 | H3 — MCP Governance | 20/25 | = |
+| 8 | H12 — Agent Accountability Framework | 20/25 | = |
+| 9 | H10 — Agent Infra as Code | 19/25 | = |
+| 10 | H15 — B2B SaaS Agent Feature Injection | 19/25 | = |
+| 11 | H7 — SMB Deployment Wrapper | 18/25 | = |
+| 12 | H8 — Cross-Agent Context | 18/25 | = |
+| 13 | H13 — Agent Sandboxing & Isolation | 18/25 | = |
+| 14 | H14 — Agent-to-Agent Trust & M2M | 18/25 | = |
+| 15 | H16 — AI Alignment Measurement as a Service | 18/25 | = |
+| 16 | H17 — Controlled Self-Configuration Boundary | 18/25 | = |
+| 17 | H18 — Organizationally-Aligned AI | 18/25 | = |
+| 18 | H19 — Operational Reliability Layer | 18/25 | = |
+| 19 | H21 — Deterministic Agent Behavior as Trust Signal | 18/25 | = |
+| 20 | H23 — Agentic QA & Mutation Testing as a Service | 18/25 | = |
+| 21 | H4 — Agent Payment Rails | 17/25 | = |
+| 22 | H11 — Hallucination Self-Check | 17/25 | = |
+| 23 | H5 — Discovery & Registry | 16/25 | = |
+| 24 | **H25 — Developer Multi-Agent Workspace Orchestration** | **16/25** | **ÚJ** |
+| 25 | H9 — Agent Communication Infra | 12/25 | = |
+| 26 | **H26 — WordPress/Plugin Ecosystem Vertical Copilots** | **14/25** | **ÚJ** |
+
+---
+
+## Top 3 Opportunities + Suggested Experiments (2026-04-03)
+
+### #1: H22 (tied with H2/H6) + H24 combo - Security governance for the real enterprise problem
+**Miért most:** A DeepMind 6 trap + Anthropic leak (H22) mellett most megjelent a "shadow AI" explicit termékkategória (H24). A buyer itt tipikusan IT/security, és a fájdalom azonnali: felderítés + kockázat + containment.
+**Javasolt kísérlet:** "Shadow Agent Exposure Scan" 10 EU enterprise-nek: 2 hetes audit, deliverable: (1) agent inventory, (2) top 10 policy gap, (3) 6 DeepMind attack exposure score, (4) quick fixes. Mérők: audit->pilot konverzió, budget range, leggyakoribb control request.
+**Befektetés:** ~1 hét a scan automationra + 1 hét pilot futtatás. A kimenetből termék spec épül.
+
+### #2: H2 / H6 - Audit Trail + Policy Enforcement Runtime
+**Miért most:** EU AI Act Aug 2026. A compliance ablak zárul, és az agentek egyre több operatív folyamatba kerülnek (AWS vendor signal). Ez a legérettebb, legmagasabb WTP-vel rendelkező kategória.
+**Javasolt kísérlet:** 30 napos "Agent Governance Baseline" pilot 3 design partnernél: audit trail + policy violations report + basic remediation. Mérők: (1) hány policy violation/hét, (2) remediation time, (3) pilot->paid.
+**Befektetés:** ~2 hét build, az alap már létezik.
+
+### #3: H20 - Agent Platform as Regulated Infrastructure (packaging/positioning)
+**Miért most:** A compliance-ready platform narratíva most fog standarddá válni. A különbség nem implementáció, hanem hogy ki csomagolja és kommunikálja először.
+**Javasolt kísérlet:** 1 oldalas "Agent Platform Compliance" oldal + checklist (EU AI Act mapping) + 10 célzott LinkedIn outreach. Mérők: letöltések, inbound meeting, 2 hetes pipeline.
+**Befektetés:** 2 nap tartalom + 1 nap outreach.
+
+---
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-03.md (240 relevant, HAIER export) | 2026-04-03 09:30 CET*
