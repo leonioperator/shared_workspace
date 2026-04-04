@@ -838,3 +838,86 @@ Scoring dimensions (1–5 each):
 ---
 
 *Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-03.md (240 relevant, HAIER export) | 2026-04-03 09:30 CET*
+
+
+---
+
+## H27 — Agent Packaging & Portability Standard (Repo-as-Agent Spec)
+**Thesis:** Ahogy az agent-ek eszköztár- és runtime-ökoszisztémája szétágazik (OpenAI/Anthropic tooling, MCP, GitOps runtimes, IDE agentek), a legnagyobb friction a *portabilitás*: ugyanazt az agentet új framework-be vinni ma szinte újraírás. Kell egy framework-agnosztikus, fájl-alapú “agent manifest/spec” (policy, tool-permission, runbook, audit hook, teszt checkpoint), ami bármely runtime-ba importálható. Aki ezt standardizálja, az “agent packaging layer” kategóriát birtokolhatja.
+**Signals (updated 2026-04-04):**
+- GitAgent (HN, 2026-03-14): „open standard that turns any Git repo into an AI agent” — explicit igény a repo-as-agent definícióra és interoperabilitásra. HIGH CONFIDENCE.
+- Orloj (2026-03-26): YAML/GitOps policy-first agent infra — a spec-alapú agent lifecycle mintázat már megjelent. HIGH CONFIDENCE.
+- Claude Code + több terminal agent (2026-04 eleje): agent definíciók és workflow-k „szétszóródnak” IDE/CLI között — portability pain nő. MEDIUM CONFIDENCE.
+**Assessment:** Ez a H10 (Infra as Code) és H5 (Discovery) közé ékelődő, de külön kategória: nem csak policy deklarálás, hanem *agent csomagolás + import/export*. Navibase alkalmazás: egy „Navibase Agent Pack” formátum, ami a SOUL/AGENTS/policy + skill manifesteket standardizálja, és később külső partnereknek is átadható.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=2 | **Total: 17/25**
+*Új hypothesis (2026-04-04). A GitAgent explicit standard jelzés. A moat a specifikáció + referencia implementáció + template library kombinációja.*
+
+---
+
+## H28 — Bias/Fairness Governance for Agentic Decision Delegation
+**Thesis:** A decision delegation (agent ajánl, rangsorol, döntéstámogat) gyorsan beleütközik a fairness/transparency/compliance falba: a szervezetnek bizonyítania kell, hogy a rendszer nem diszkriminál, és hogy a döntési logika auditálható. A mai governance eszközök főleg naplóznak (H2) és policy-t enforce-olnak (H6), de ritkán adnak *fairness/bias* metrikát és „explainability-ready” dokumentációt agent workflow szinten. Ez külön wedge lehet compliance buyer felé.
+**Signals (updated 2026-04-04):**
+- „Algorithmic bias, data ethics, and governance…” (Semantic Scholar, 2025-02-28) — fairness + governance + compliance fókusz ADM környezetben. HIGH CONFIDENCE.
+- „Ethics of Using Data in Automated Decision-Making…” (Semantic Scholar, 2025-09-01) — transparency + institutional accountability mint mainstream research téma. HIGH CONFIDENCE.
+- „Ethics and Fairness in Conversational AI…” (Semantic Scholar, 2025-11-01) — LLM-alapú conversational rendszerekben bias framework-ek formálódnak. MEDIUM CONFIDENCE.
+- EU AI Act Aug 2026: high-risk AI decisions dokumentálása és megfelelősége kötelező (korábbi signal) — fairness dokumentáció várhatóan besorolási kérdéssé válik. HIGH CONFIDENCE.
+**Assessment:** Ez nem újraírja a H2/H6-ot, hanem *ráépül*: audit trail + policy enforcement mellé „fairness evidence pack” kell. Navibase alkalmazás: „Decision Delegation Fairness Report” modul (agent run sample-set, drift check, bias checklist, audit-ready export), amit enterprise-nél compliance csapat tud használni, KKV-nél pedig bizalomépítő dokumentum.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-04-04). Research jellegű signalok, de compliance-ablakkal (EU AI Act) kombinálva gyorsan termék- és szolgáltatás-wedge lehet.*
+
+---
+
+## Ranking Summary (2026-04-04)
+
+| Rank | Hypothesis | Score | Delta |
+|------|-----------|-------|-------|
+| 1 | H2 — Audit Trail | 22/25 | = |
+| 2 | H6 — Policy Enforcement Runtime | 22/25 | = |
+| 3 | H22 — Adversarial Robustness Layer | 22/25 | = |
+| 4 | H1 — Agent Identity & Auth | 21/25 | = |
+| 5 | H20 — Agent Platform as Regulated Infrastructure | 21/25 | = |
+| 6 | H24 — Shadow AI Governance Plane | 21/25 | = |
+| 7 | H3 — MCP Governance | 20/25 | = |
+| 8 | H12 — Agent Accountability Framework | 20/25 | = |
+| 9 | H10 — Agent Infra as Code | 19/25 | = |
+| 10 | H15 — B2B SaaS Agent Feature Injection | 19/25 | = |
+| 11 | H7 — SMB Deployment Wrapper | 18/25 | = |
+| 12 | H8 — Cross-Agent Context | 18/25 | = |
+| 13 | H13 — Agent Sandboxing & Isolation | 18/25 | = |
+| 14 | H14 — Agent-to-Agent Trust & M2M | 18/25 | = |
+| 15 | H16 — AI Alignment Measurement as a Service | 18/25 | = |
+| 16 | H17 — Controlled Self-Configuration Boundary | 18/25 | = |
+| 17 | H18 — Organizationally-Aligned AI | 18/25 | = |
+| 18 | H19 — Operational Reliability Layer | 18/25 | = |
+| 19 | H21 — Deterministic Agent Behavior as Trust Signal | 18/25 | = |
+| 20 | H23 — Agentic QA & Mutation Testing as a Service | 18/25 | = |
+| 21 | **H28 — Bias/Fairness Governance** | **18/25** | **ÚJ** |
+| 22 | H4 — Agent Payment Rails | 17/25 | = |
+| 23 | H11 — Hallucination Self-Check | 17/25 | = |
+| 24 | **H27 — Agent Packaging & Portability Spec** | **17/25** | **ÚJ** |
+| 25 | H5 — Discovery & Registry | 16/25 | = |
+| 26 | H25 — Dev Multi-Agent Workspace Orchestration | 16/25 | = |
+| 27 | H26 — WordPress/Plugin Ecosystem Vertical Copilots | 14/25 | = |
+| 28 | H9 — Agent Communication Infra | 12/25 | = |
+
+*2026-04-04 delta: 2 új hypothesis (H27, H28). A security/governance blokk továbbra is domináns (H2/H6/H22/H24). H27 portability/spec irány, H28 fairness/bias compliance wedge.*
+
+---
+
+## Top 3 Opportunities + Suggested Experiments (2026-04-04)
+
+### #1: H22 + H24 combo — Shadow Agent Exposure + Adversarial Robustness
+**Miért most:** A „shadow AI” narratíva buyer-hez köt (IT/security), a DeepMind taxonómia pedig konkrét, értékes „scan spec”-et ad. Ez a leggyorsabb út fizetős pilothoz.
+**Javasolt kísérlet:** „Shadow Agent Exposure Scan” 5 EU cégnek (2 hét): inventory + 6-trap exposure score + quick fixes, audit exporttal. Mérők: meeting->pilot, pilot->paid, leggyakoribb kontrolligény.
+
+### #2: H20 — Agent Platform as Regulated Infrastructure (Packaging)
+**Miért most:** EU AI Act Aug 2026 közel. A piac nem feature-t vesz, hanem „compliance-ready” narratívát és dokumentálhatóságot. A Navibase-nél a komponensek megvannak, a csomagolás a bottleneck.
+**Javasolt kísérlet:** 1 oldalas „EU AI Act Agent Compliance Mapping” + letölthető checklist. Mérők: letöltés, inbound meeting, „melyik cikkely fáj legjobban” visszajelzés.
+
+### #3: H28 — Bias/Fairness Governance wedge (Decision Delegation)
+**Miért most:** A fairness/bias governance irodalom sűrűsödik, és compliance oldalon ez hamar „kérdezni fogják” tétel. Aki tud gyors, auditálható evidence pack-et adni, az nyer.
+**Javasolt kísérlet:** „Decision Delegation Fairness Pack” pilot 1 design partnerrel: 30 agent run mintavételezés + bias checklist + explainability-ready export. Mérők: compliance csapat feedback, time-to-approve csökkenés, audit readiness.
+
+---
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-04.md | 2026-04-04 09:30 CET*
