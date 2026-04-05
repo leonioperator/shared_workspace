@@ -921,3 +921,73 @@ Scoring dimensions (1–5 each):
 ---
 
 *Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-04.md | 2026-04-04 09:30 CET*
+
+---
+
+# Update — 2026-04-05
+
+## H29 — Agent Cost Governance & Token Budget Enforcement Plane
+**Thesis:** A multi-agent rendszerek egyik leggyorsabban fájó production problémája a kontrollálhatatlan token költség. A provider oldali limitek (account-level cap) utólagosak: azt mutatják, mi történt, nem azt, mi történik. A csapatoknak kell egy runtime szintű költség- és token budget enforcement réteg: threshold alapú warn/degrade/block, auditálható döntésekkel, több agent és több toolchain (LangChain/CrewAI/AutoGen/MCP) felett.
+**Signals (updated 2026-04-05):**
+- Tokencap (HN/GitHub, 2026-04-04): token budget enforcement wrapper + threshold akciók (WARN/DEGRADE/BLOCK/WEBHOOK), SQLite/Redis backend, framework patching támogatás. HIGH CONFIDENCE.
+- Egyre több agent devtool/platform jel (Microsoft agent-framework, goose, Claude Code) -> több párhuzamos agent run, a költségkockázat gyorsan skálázódik. MEDIUM CONFIDENCE.
+**Assessment:** Ez a H19 (Operational Reliability) pénzügyi testvére: nem csak azt méred, hogy sikerült-e, hanem azt is, hogy mennyibe került és mikor kell beavatkozni. Buyer: engineering lead, platform team, CFO-érzékeny ops vezető. Navibase alkalmazás: “Agent Budget Guard” (per-agent / per-customer / per-workflow budget, automatikus degrade policy, audit export).
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=2 | **Total: 17/25**
+*Új hypothesis (2026-04-05). A Tokencap egy direkt, high-signal validáció: ez már nem “nice-to-have”, hanem production control gap.*
+
+
+## Ranking Summary (2026-04-05)
+
+| Rank | Hypothesis | Score | Delta |
+|------|-----------|-------|-------|
+| 1 | H2 — Audit Trail | 22/25 | = |
+| 2 | H6 — Policy Enforcement Runtime | 22/25 | = |
+| 3 | H22 — Adversarial Robustness Layer | 22/25 | = |
+| 4 | H1 — Agent Identity & Auth | 21/25 | = |
+| 5 | H20 — Agent Platform as Regulated Infrastructure | 21/25 | = |
+| 6 | H24 — Shadow AI Governance Plane | 21/25 | = |
+| 7 | H3 — MCP Governance | 20/25 | = |
+| 8 | H12 — Agent Accountability Framework | 20/25 | = |
+| 9 | H10 — Agent Infra as Code | 19/25 | = |
+| 10 | H15 — B2B SaaS Agent Feature Injection | 19/25 | = |
+| 11 | H7 — SMB Deployment Wrapper | 18/25 | = |
+| 12 | H8 — Cross-Agent Context | 18/25 | = |
+| 13 | H13 — Agent Sandboxing & Isolation | 18/25 | = |
+| 14 | H14 — Agent-to-Agent Trust & M2M | 18/25 | = |
+| 15 | H16 — AI Alignment Measurement as a Service | 18/25 | = |
+| 16 | H17 — Controlled Self-Configuration Boundary | 18/25 | = |
+| 17 | H18 — Organizationally-Aligned AI | 18/25 | = |
+| 18 | H19 — Operational Reliability Layer | 18/25 | = |
+| 19 | H21 — Deterministic Agent Behavior as Trust Signal | 18/25 | = |
+| 20 | H23 — Agentic QA & Mutation Testing as a Service | 18/25 | = |
+| 21 | H28 — Bias/Fairness Governance | 18/25 | = |
+| 22 | H4 — Agent Payment Rails | 17/25 | = |
+| 23 | H11 — Hallucination Self-Check | 17/25 | = |
+| 24 | H27 — Agent Packaging & Portability Spec | 17/25 | = |
+| 25 | **H29 — Cost Governance & Token Budget Enforcement** | **17/25** | **ÚJ** |
+| 26 | H5 — Discovery & Registry | 16/25 | = |
+| 27 | H25 — Dev Multi-Agent Workspace Orchestration | 16/25 | = |
+| 28 | H26 — WordPress/Plugin Ecosystem Vertical Copilots | 14/25 | = |
+| 29 | H9 — Agent Communication Infra | 12/25 | = |
+
+*2026-04-05 delta: 1 új hypothesis (H29). A napi signalok (Tokencap + agent frameworkek) azt jelzik, hogy a költség-kontroll gyorsan “table stakes” lesz a production agent üzemeltetésben.*
+
+---
+
+## Top 3 Opportunities + Suggested Experiments (2026-04-05)
+
+### #1: H22 + H24 combo — Shadow Agent Exposure + Adversarial Robustness
+**Miért most:** Shadow AI buyer (IT/security) + DeepMind 6 trap mint specifikáció. Gyors, mérhető audit deliverable.
+**Javasolt kísérlet:** “Shadow Agent Exposure Scan” 5 EU cégnek: inventory + 6-trap exposure score + quick fixes + audit export. Mérők: meeting->pilot, pilot->paid, top 5 control request.
+
+### #2: H20 — Agent Platform as Regulated Infrastructure (Packaging)
+**Miért most:** EU AI Act Aug 2026. A piac dokumentálhatóságot vesz, nem feature listát.
+**Javasolt kísérlet:** 1 oldalas “EU AI Act Agent Compliance Mapping” (H1+H2+H6+H12+H22) + checklist, 10 célzott outreach. Mérők: letöltés, inbound meeting, compliance kérdések.
+
+### #3: H29 — Agent Cost Governance & Token Budget Enforcement
+**Miért most:** A költség-szivárgás a leggyorsabban észlelt production fájdalom. A Tokencap validálja, hogy már van “új kategória”.
+**Javasolt kísérlet:** Navibase/Leoni “Budget Guard” MVP belsőn: per-run token tracking + threshold (warn/degrade/block) + heti cost report. Mérők: költség-variancia csökkenés, run-fail arány változás, user elégedettség (nem zavaró throttle).
+
+---
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-05.md | 2026-04-05 09:30 CET*
