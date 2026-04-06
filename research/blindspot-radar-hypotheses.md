@@ -991,3 +991,85 @@ Scoring dimensions (1–5 each):
 ---
 
 *Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-05.md | 2026-04-05 09:30 CET*
+
+
+---
+
+# Update — 2026-04-06
+
+## H30 — MCP-based Agent Trading Protocol & Risk Governance Layer
+**Thesis:** Ahogy a trading (forex/crypto/equities) domain-ben megjelennek az autonóm agentek, a legnagyobb hiány nem a stratégiákban, hanem a **standardizált, auditálható és kockázat-korlátozott execution layer-ben** van. Ma mindenki ad-hoc köt broker API-ra, nincs deklaratív risk-limit (position sizing, max drawdown, kill switch), nincs egységes audit trail a tool call-okhoz, és nincs “compliance-ready” agent trading protokoll. Egy MCP-alapú standard/protokoll a trading agentekhez (order intents, approval gates, risk policy, audit export) a következő “infrastructure layer” lehet.
+**Signals (updated 2026-04-06):**
+- Apex Protocol – an open MCP-based standard for AI agent trading (apexstandard.org, 2026-04-06) — explicit standardizációs kísérlet a trading agentekre. HIGH CONFIDENCE.
+- TradingAgents multi-agent trading framework (GitHub, 2026-03-21) — domain agentek proliferálnak, execution + governance gap nő. MEDIUM CONFIDENCE.
+- EU AI Act Aug 2026 + audit/policy trend (korábbi H1/H2/H6/H20) — high-risk döntések és pénzügyi műveletek auditálhatósága és kontrollja “table stakes” irányba megy. HIGH CONFIDENCE.
+**Assessment:** A moat nem a stratégia, hanem a **risk + audit + approval** standard és a broker-connectorok. Navibase alkalmazás: “Trading Ops Agent” csak akkor skálázható, ha a risk policy és a felelősségi határok deklaratívak.
+**Scores:** Pain=5 | Urgency=4 | WTP=4 | Def=3 | IntFric=4 | **Total: 20/25**
+*Új hypothesis (2026-04-06). Az Apex Protocol konkrét jel, hogy a piac standardot keres. A termék-wedge: risk governance + audit export, nem “jobb trading stratégia”.*
+
+---
+
+## H31 — Agent-Native Knowledge Base for Complex Office Files (Local-first)
+**Thesis:** Az SMB ops agentek legnehezebb inputja nem web, hanem **helyi, komplex office fájlok** (Excel, többféle PDF, szerződés verziók, e-mail exportok). A klasszikus RAG/KB rendszerek itt elbuknak: nem értik a táblázat-struktúrát, nem kezelik jól a verziókövetést, és nem adnak “repo-native” workflow-t (diff, cite, provenance). Kell egy agent-native, local-first knowledge base réteg, ami a “messy office” fájlhalmazt megbízhatóan kereshetővé és hivatkozhatóvá teszi.
+**Signals (updated 2026-04-06):**
+- Show HN: DocMason – Agent Knowledge Base for local complex office files (GitHub, 2026-04-04) — explicit pain + megoldási irány. HIGH CONFIDENCE.
+- dmtrKovalenko/fff.nvim – fast file search toolkit for AI agents (GitHub, 2026-04-04) — a file-level retrieval agent primitive lesz. MEDIUM CONFIDENCE.
+**Assessment:** KKV-nál az első kérdés: “a saját fájljaimból dolgozik-e és vissza tudom-e követni?” A differenciáló: citations + provenance + version-aware indexing.
+**Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=3 | IntFric=3 | **Total: 17/25**
+*Új hypothesis (2026-04-06). A DocMason közvetlen validáció: az agentek KB-ja nem csak “docs”, hanem office-file reality.*
+
+---
+
+## Ranking Summary (2026-04-06)
+
+| Rank | Hypothesis | Score | Delta |
+|------|-----------|-------|-------|
+| 1 | H2 — Audit Trail | 22/25 | = |
+| 2 | H6 — Policy Enforcement Runtime | 22/25 | = |
+| 3 | H22 — Adversarial Robustness Layer | 22/25 | = |
+| 4 | H1 — Agent Identity & Auth | 21/25 | = |
+| 5 | H20 — Agent Platform as Regulated Infrastructure | 21/25 | = |
+| 6 | H24 — Shadow AI Governance Plane | 21/25 | = |
+| 7 | H3 — MCP Governance | 20/25 | = |
+| 8 | H12 — Agent Accountability Framework | 20/25 | = |
+| 9 | **H30 — Agent Trading Protocol & Risk Governance** | **20/25** | **ÚJ** |
+| 10 | H10 — Agent Infra as Code | 19/25 | = |
+| 11 | H15 — B2B SaaS Agent Feature Injection | 19/25 | = |
+| 12 | H7 — SMB Deployment Wrapper | 18/25 | = |
+| 13 | H8 — Cross-Agent Context | 18/25 | = |
+| 14 | H13 — Agent Sandboxing & Isolation | 18/25 | = |
+| 15 | H14 — Agent-to-Agent Trust & M2M | 18/25 | = |
+| 16 | H16 — AI Alignment Measurement as a Service | 18/25 | = |
+| 17 | H17 — Controlled Self-Configuration Boundary | 18/25 | = |
+| 18 | H18 — Organizationally-Aligned AI | 18/25 | = |
+| 19 | H19 — Operational Reliability Layer | 18/25 | = |
+| 20 | H21 — Deterministic Agent Behavior as Trust Signal | 18/25 | = |
+| 21 | H23 — Agentic QA & Mutation Testing as a Service | 18/25 | = |
+| 22 | H28 — Bias/Fairness Governance | 18/25 | = |
+| 23 | H4 — Agent Payment Rails | 17/25 | = |
+| 24 | H11 — Hallucination Self-Check | 17/25 | = |
+| 25 | H27 — Agent Packaging & Portability Spec | 17/25 | = |
+| 26 | H29 — Cost Governance & Token Budget Enforcement | 17/25 | = |
+| 27 | **H31 — Agent-Native KB for Office Files** | **17/25** | **ÚJ** |
+| 28 | H5 — Discovery & Registry | 16/25 | = |
+| 29 | H25 — Dev Multi-Agent Workspace Orchestration | 16/25 | = |
+| 30 | H26 — WordPress/Plugin Ecosystem Vertical Copilots | 14/25 | = |
+| 31 | H9 — Agent Communication Infra | 12/25 | = |
+
+---
+
+## Top 3 Opportunities + Suggested Experiments (2026-04-06)
+
+### #1: H22 + H24 combo — Shadow Agent Exposure Scan + Adversarial Shield
+**Miért most:** Shadow AI buyer (IT/security) + DeepMind 6 trap mint kőkemény scan spec. Ez a leggyorsabb “audit deliverable” út fizetős pilothoz.
+**Javasolt kísérlet:** 5 EU cégnek 2 hetes “Shadow Agent Exposure Scan”: inventory + 6-trap exposure score + quick fixes + audit export. Mérők: meeting->pilot, pilot->paid, top 5 control request.
+
+### #2: H20 — Agent Platform as Regulated Infrastructure (EU AI Act packaging)
+**Miért most:** EU AI Act Aug 2026 deadline közel. A compliance-ready platform narratíva most válik belépési feltétellé.
+**Javasolt kísérlet:** 1 oldalas “EU AI Act Agent Compliance Mapping” (H1+H2+H6+H12+H22) + letölthető checklist + 10 célzott outreach. Mérők: letöltés, inbound meeting, “melyik cikkely fáj” visszajelzés.
+
+### #3: H30 — Agent Trading Protocol & Risk Governance (Apex wedge)
+**Miért most:** Az Apex Protocol explicit standard-signal. A trading agenteknél a WTP nem “jobb prompt”, hanem risk limit + audit + approval.
+**Javasolt kísérlet:** 1 hetes prototípus: “Trading MCP Gateway” (csak paper-trading / demo): order-intent schema + risk policy (max loss/nap, max position size) + immutable audit log export. Mérők: 3 domain feedback (trader/dev), implementációs friction (broker API), és hogy mely policy-k a minimum elvárt.
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-06.md | 2026-04-06 09:30 CET*

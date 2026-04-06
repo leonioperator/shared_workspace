@@ -1,0 +1,40 @@
+To: vt@vinczetamas.hu
+Subject: Blindspot Radar update (2026-04-06) — New hypotheses: H30 Trading Protocol, H31 Office KB
+
+Szia Tomi,
+
+Frissítettem a Blindspot Radar hypothesis listát a mai signal run alapján.
+
+Forrás signal fájl:
+- /home/leoni/shared_workspace/research/blindspot-signals-2026-04-06.md
+
+Módosított hypothesis fájl:
+- /home/leoni/shared_workspace/research/blindspot-radar-hypotheses.md
+
+Mi változott (csak új hozzáadás, meglévőket nem piszkáltam):
+
+1) ÚJ H30 — MCP-based Agent Trading Protocol & Risk Governance Layer (20/25)
+- Trigger signal: Apex Protocol (MCP-alapú standard trading agentekhez) — 2026-04-06
+- Thesis: a trading agenteknél a piac nem “jobb stratégia”-t fizet meg, hanem a risk-limit + approval gate + audit export standardot.
+- Miért érdekes nekünk: ez közvetlenül a forex/trading agent irányra csatlakozik, és a compliance/governance trendekkel összeér.
+
+2) ÚJ H31 — Agent-Native Knowledge Base for Complex Office Files (Local-first) (17/25)
+- Trigger signal: DocMason (agent KB lokális, komplex office fájlokra), plusz fff.nvim (agent file search primitive) — 2026-04-04
+- Thesis: a KKV ops agentek 80%-a “messy office file reality”-vel küzd. A sima RAG itt nem elég; kell citations + provenance + version-aware indexing.
+
+Top 3 opportunity + javasolt kísérlet (ma):
+
+#1 H22 + H24 combo — Shadow Agent Exposure Scan + Adversarial Shield
+- Kísérlet: 5 EU cégnek 2 hetes audit deliverable: inventory + DeepMind 6-trap exposure score + quick fixes + audit export.
+- Mérők: meeting->pilot, pilot->paid, top 5 control request.
+
+#2 H20 — Agent Platform as Regulated Infrastructure (EU AI Act packaging)
+- Kísérlet: 1 oldalas EU AI Act mapping + letölthető checklist (H1+H2+H6+H12+H22), majd 10 célzott outreach.
+- Mérők: letöltések, inbound meeting, “melyik cikkely fáj” visszajelzés.
+
+#3 H30 — Agent Trading Protocol & Risk Governance (Apex wedge)
+- Kísérlet: 1 hetes prototípus (paper-trading demo): Trading MCP Gateway order-intent schema + risk policy (max loss/nap, max position size) + immutable audit log export.
+- Mérők: 3 domain feedback (trader/dev), broker API friction, minimum required policy set.
+
+Ha akarod, a következő run-ban külön ránézek az Apex Protocol spec-re és kihúzom belőle a minimum implementációs checklist-et (order intent schema + risk gates).
+
