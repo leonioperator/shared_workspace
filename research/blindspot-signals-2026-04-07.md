@@ -1,0 +1,71 @@
+# Blindspot signals (AI agents / AI decision delegation) - 2026-04-07
+
+Source export: `/opt/apps/haier/exports/evolution_signals_20260407_020452.json`
+Filter: `focus_area` contains `AI agents` OR `AI decision delegation`
+Relevant signals in export: **264**
+
+## Top signals (5-10) with short evidence
+1. **Agent Lifecycle Toolkit (ALTK): Reusable Middleware Components for Robust AI Agents** (arxiv, 2026-03-16T16:06:54+00:00)
+   - Evidence: As AI agents move from demos into enterprise deployments, their failure modes become consequential: a misinterpreted tool argument can corrupt production data, a silent reasoning error can go undetected until damage is…
+   - URL: https://arxiv.org/abs/2603.15473v1
+2. **Regulating AI Agents** (arxiv, 2026-03-24T17:38:27+00:00)
+   - Evidence: AI agents -- systems that can independently take actions to pursue complex goals with only limited human oversight -- have entered the mainstream. These systems are now being widely used to produce software, conduct bus…
+   - URL: https://arxiv.org/abs/2603.23471v1
+3. **LLM Constitutional Multi-Agent Governance** (arxiv, 2026-03-13T17:21:26+00:00)
+   - Evidence: Large Language Models (LLMs) can generate persuasive influence strategies that shift cooperative behavior in multi-agent populations, but a critical question remains: does the resulting cooperation reflect genuine proso…
+   - URL: https://arxiv.org/abs/2603.13189v1
+4. **Show HN: GitAgent – An open standard that turns any Git repo into an AI agent** (hackernews, 2026-03-14T13:41:25+00:00)
+   - Evidence: We built GitAgent because we kept seeing the same problem: every agent framework defines agents differently, and switching frameworks means rewriting everything.<p>GitAgent is a spec that defines an AI agent as files in…
+   - URL: https://www.gitagent.sh/
+5. **Apex Protocol – An open MCP-based standard for AI agent trading** (hackernews, 2026-04-06T00:50:32+00:00)
+   - Evidence: Apex Protocol – An open MCP-based standard for AI agent trading
+   - URL: https://apexstandard.org/
+6. **Microsoft releases open-source toolkit to govern autonomous AI agents - Help Net Security** (google_news, 2026-04-03T05:30:38+00:00)
+   - Evidence: Microsoft releases open-source toolkit to govern autonomous AI agents&nbsp;&nbsp;Help Net Security
+   - URL: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNR1F2M2lMT080M09PNFMxaUFLU0RCY2hwQ241UjZJcFdNaXJ0QWpYMlhHWW1BMmZjd19zZW9WR0cxY08wM2hwaXVOcDgtelVtaTVpTmJyZDlNSkdjZkl4N3NIdlo4dXA2QkZtV0hmTVBxaklFYUp2VlJfSkp3UFBvNDd6VUZlQnM5?oc=5
+7. **Google Deepmind study exposes six "traps" that can easily hijack autonomous AI agents in the wild - the-decoder.com** (google_news, 2026-04-01T17:12:13+00:00)
+   - Evidence: Google Deepmind study exposes six "traps" that can easily hijack autonomous AI agents in the wild&nbsp;&nbsp;the-decoder.com
+   - URL: https://news.google.com/rss/articles/CBMivAFBVV95cUxPNVk0SThWaUI5d3M5N3RZX0lnRFhsZlUwZmo1RjBPc19uM0hiZ3dmZGREcEVzZHZ6VXJHYkt6X2EyaXV0Y2EyTWg2c1FVOGwyOFUxRm8xdUJOdHJzcHJZakM5bktRNXAxdUdoZFB4b0hlQnQ1UFhhZVZRTWJKNTEyUVNHbTl1SGU2TUlRVlJSTjhjV1dnQVFSSzE1UVZCLVpGaTdmMmZmQkp4aVFSZWpPMXRiMFFBMF9Ccl93Vg?oc=5
+8. **Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use** (techcrunch, 2026-04-05T18:51:37+00:00)
+   - Evidence: AI skeptics aren’t the only ones warning users not to unthinkingly trust models’ outputs — that’s what the AI companies say themselves in their terms of service.
+   - URL: https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/
+9. **AWS Deploys AI Agents To Do The Work Of DevOps And Security Teams - Forbes** (google_news, 2026-04-01T05:06:01+00:00)
+   - Evidence: AWS Deploys AI Agents To Do The Work Of DevOps And Security Teams&nbsp;&nbsp;Forbes
+   - URL: https://news.google.com/rss/articles/CBMiuwFBVV95cUxPN0xmX2VycExqMzRJc3BKd0RYb3Jzc3kxQ1NSa1RkRXJwNjN0VE55ZnBmUy05cmVwYXhTQWlYbFlEb0JKN0l2NUNhVmt0Z3pjemlGcGVXWFJTaWkzWHdfY0JkenpDSjVielNBSEM4T0I0Q3p4VHZnYlJTeEc3Wl91TnZPSGVqR3pKMHdWbkJQeF9pbm4ycm9NeGFOaW9mOHpiaFdVQUQtWFJ1WW5tME1BZGZiQWlTa2ZNLVJ3?oc=5
+10. **Show HN: Tokencap – Token budget enforcement across your AI agents** (hackernews, 2026-04-04T14:09:13+00:00)
+   - Evidence: I built this after hitting the same wall repeatedly — no good way to enforce token budgets in application code. Provider caps are account-level and tell you what happened, not what is happening.<p>Two ways to add it:<p>…
+   - URL: https://github.com/pykul/tokencap
+
+## First 30 relevant signals (export order)
+| # | date | title | summary | url |
+|---:|---|---|---|---|
+| 1 | 2026-04-06T21:49:34+00:00 | Show HN: Hippo, biologically inspired memory for AI agents | n/a | https://github.com/kitfunso/hippo-memory |
+| 2 | 2026-04-06T19:41:39+00:00 | Wikipedia's AI agent row likely just the beginning of the bot-ocalypse | n/a | https://www.malwarebytes.com/blog/ai/2026/04/wikipedias-ai-agent-row-likely-just-the-beginning-of-the-bot-ocalypse |
+| 3 | 2026-04-06T19:22:06+00:00 | Show HN: Meta-agent: self-improving agent harnesses from live traces | We built meta-agent: an open-source library that automatically and continuously improves agent harnesses from production traces.<p>Point it at an existing agent, a stream of unlabeled production traces, and a small labeled holdout set.<p>A… | https://github.com/canvas-org/meta-agent |
+| 4 | 2026-04-06T06:12:38+00:00 | Show HN: Aiaiai.guide: Plain-English mental model for LLM apps, tools and agents | I’ve been building LLM tooling for a small VC fund and found myself explaining the same mental model over and over to non-technical people around me: how a stateless LLM becomes a chatbot, how tool use works, what an agent is mechanically,… | https://aiaiai.guide/ |
+| 5 | 2026-04-06T03:19:10+00:00 | Show HN: Multi-agent coding assistant with a sandboxed Rust execution engine | n/a | https://github.com/christianmeurer/Lula |
+| 6 | 2026-04-06T00:50:32+00:00 | Apex Protocol – An open MCP-based standard for AI agent trading | n/a | https://apexstandard.org/ |
+| 7 | 2026-04-06T00:00:00+00:00 | PRISM: A High-Throughput Simulation Infrastructure for CADD Agents | Despite rapid progress in AI agents for computer-aided drug design (CADD), protein-ligand simulation workflows remain fragmented across disparate tools, creating a major bottleneck for scalable candidate evaluation. Here, we present PRISM… | https://www.biorxiv.org/content/10.64898/2026.04.02.716083 |
+| 8 | 2026-04-06T00:00:00+00:00 | MolClaw: An Autonomous Agent with Hierarchical Skills for Drug Molecule Evaluation, Screening, and Optimization | Computational drug discovery, particularly the complex workflows of drug molecule screening and optimization, requires orchestrating dozens of specialized tools in multi-step workflows, yet current AI agents struggle to maintain robust per… | https://www.biorxiv.org/content/10.64898/2026.04.03.716272 |
+| 9 | 2026-04-05T18:51:37+00:00 | Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use | AI skeptics aren’t the only ones warning users not to unthinkingly trust models’ outputs — that’s what the AI companies say themselves in their terms of service. | https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/ |
+| 10 | 2026-04-05T02:01:49.163186+00:00 | microsoft / agent framework | A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET. | https://github.com/microsoft/agent-framework |
+| 11 | 2026-04-05T02:01:49.163182+00:00 | block / goose | an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM | https://github.com/block/goose |
+| 12 | 2026-04-04T16:49:32+00:00 | Show HN: DocMason – Agent Knowledge Base for local complex office files | I think everyone has already read Karpathy&#x27;s Post about LLM Knowledge Bases. Actually for recent weeks I am already working on agent-native knowledge base for complex research (DocMason). And it is purely running in Codex&#x2F;Claude… | https://github.com/jetxu-llm/docmason |
+| 13 | 2026-04-04T14:09:13+00:00 | Show HN: Tokencap – Token budget enforcement across your AI agents | I built this after hitting the same wall repeatedly — no good way to enforce token budgets in application code. Provider caps are account-level and tell you what happened, not what is happening.<p>Two ways to add it:<p><pre><code> # Direct… | https://github.com/pykul/tokencap |
+| 14 | 2026-04-04T02:01:57.361887+00:00 | dmtrKovalenko / fff.nvim | The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS | https://github.com/dmtrKovalenko/fff.nvim |
+| 15 | 2026-04-03T13:45:02+00:00 | Show HN: ctx – an Agentic Development Environment (ADE) | n/a | https://ctx.rs |
+| 16 | 2026-04-03T05:30:38+00:00 | Microsoft releases open-source toolkit to govern autonomous AI agents - Help Net Security | Microsoft releases open-source toolkit to govern autonomous AI agents&nbsp;&nbsp;Help Net Security | https://news.google.com/rss/articles/CBMiiAFBVV95cUxNR1F2M2lMT080M09PNFMxaUFLU0RCY2hwQ241UjZJcFdNaXJ0QWpYMlhHWW1BMmZjd19zZW9WR0cxY08wM2hwaXVOcDgtelVtaTVpTmJyZDlNSkdjZkl4N3NIdlo4dXA2QkZtV0hmTVBxaklFYUp2VlJfSkp3UFBvNDd6VUZlQnM5?oc=5 |
+| 17 | 2026-04-03T00:00:00+00:00 | Agentic-MME: What Agentic Capability Really Brings to Multimodal Intelligence? | Multimodal Large Language Models (MLLMs) are evolving from passive observers into active agents, solving problems through Visual Expansion (invoking visual tools) and Knowledge Expansion (open-web search). However, existing evaluations fal… | https://huggingface.co/papers/2604.03016 |
+| 18 | 2026-04-02T20:11:03+00:00 | KiloClaw targets shadow AI with autonomous agent governance - AI News | KiloClaw targets shadow AI with autonomous agent governance&nbsp;&nbsp;AI News | https://news.google.com/rss/articles/CBMipwFBVV95cUxNcHR4cWpTV1Y5UkFOamF4dmplYVlfQW5uNElQblJ5WWEzWVRObkY1R1dZZDFMZElNTzVxSUUzdzZ2QUVfN1o5aUUtMkxSYXJRckV2Xy1UYVFacDc4NFZhbjc0NnNnaERTb1RwbGRzamQ0bTJidDZseXk2QUExblZ1R0xNejNZQ1F4QmtUb1NnMXRtakdodmF5Q1Y5eHpDYlVTQmVqVXd5Yw?oc=5 |
+| 19 | 2026-04-02T16:38:54+00:00 | How Autonomous Agents Will Transform Legal - harvey.ai | How Autonomous Agents Will Transform Legal&nbsp;&nbsp;harvey.ai | https://news.google.com/rss/articles/CBMiakFVX3lxTE43R2E3ZHdES0ZJMUMyZEFnbmRuSTQ2MWVHcmg0bEtod1hxTDByWHplY0FMMDlYNTBhb0ZSQTVRZXJ5UW9sbnRNMTJHeEwzUktSNS1DQm5Uak5OZlRfWEtkblpvTVhKeER3UHc?oc=5 |
+| 20 | 2026-04-02T14:06:09+00:00 | Deploy Hermes | <p> Private Telegram AI agents, live in under a minute </p> <p> <a href="https://www.producthunt.com/products/deployhermes?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discuss… | https://www.producthunt.com/products/deployhermes |
+| 21 | 2026-04-02T02:01:54.336948+00:00 | anthropics / claude code | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. | https://github.com/anthropics/claude-code |
+| 22 | 2026-04-02T01:42:28+00:00 | WP Copilot | <p> Agentic AI copilot built for WordPress </p> <p> <a href="https://www.producthunt.com/products/wp-copilot?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> \| <a h… | https://www.producthunt.com/products/wp-copilot |
+| 23 | 2026-04-01T21:04:02+00:00 | Mutation Testing for the Agentic Era | n/a | https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/ |
+| 24 | 2026-04-01T20:25:28+00:00 | Startup funding shatters all records in Q1 | The record quarterly fundraise largely fueled four mega-deals into OpenAI, Anthropic, xAI, and Waymo. But it also indicates a generally hot market. | https://techcrunch.com/2026/04/01/startup-funding-shatters-all-records-in-q1/ |
+| 25 | 2026-04-01T18:32:05+00:00 | Functional programming accelerates agentic feature development | n/a | https://cyrusradfar.com/thoughts/functional-programming-is-the-only-way-to-scale-with-ai |
+| 26 | 2026-04-01T17:12:13+00:00 | Google Deepmind study exposes six "traps" that can easily hijack autonomous AI agents in the wild - the-decoder.com | Google Deepmind study exposes six "traps" that can easily hijack autonomous AI agents in the wild&nbsp;&nbsp;the-decoder.com | https://news.google.com/rss/articles/CBMivAFBVV95cUxPNVk0SThWaUI5d3M5N3RZX0lnRFhsZlUwZmo1RjBPc19uM0hiZ3dmZGREcEVzZHZ6VXJHYkt6X2EyaXV0Y2EyTWg2c1FVOGwyOFUxRm8xdUJOdHJzcHJZakM5bktRNXAxdUdoZFB4b0hlQnQ1UFhhZVZRTWJKNTEyUVNHbTl1SGU2TUlRVlJSTjhjV1dnQVFSSzE1UVZCLVpGaTdmMmZmQkp4aVFSZWpPMXRiMFFBMF9Ccl93Vg?oc=5 |
+| 27 | 2026-04-01T15:43:55+00:00 | tama96 | <p> A Tamagotchi for your desktop, terminal, and AI agents </p> <p> <a href="https://www.producthunt.com/products/tama96-desktop-terminal-ai-pet?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-at… | https://www.producthunt.com/products/tama96-desktop-terminal-ai-pet |
+| 28 | 2026-04-01T14:19:37+00:00 | Anthropic Races to Contain Leak of Code Behind Claude AI Agent | n/a | https://www.wsj.com/tech/ai/anthropic-races-to-contain-leak-of-code-behind-claude-ai-agent-4bc5acc7 |
+| 29 | 2026-04-01T12:11:30+00:00 | Show HN: Baton – A desktop app for developing with AI agents | Hi,<p>I built this because running multiple Claude Code agents across multiple IDE and terminal windows was getting messy. Like many, I went from working at one thing at the time, to multiple, and it was all changing quite fast.<p>I needed… | https://getbaton.dev/ |
+| 30 | 2026-04-01T05:06:01+00:00 | AWS Deploys AI Agents To Do The Work Of DevOps And Security Teams - Forbes | AWS Deploys AI Agents To Do The Work Of DevOps And Security Teams&nbsp;&nbsp;Forbes | https://news.google.com/rss/articles/CBMiuwFBVV95cUxPN0xmX2VycExqMzRJc3BKd0RYb3Jzc3kxQ1NSa1RkRXJwNjN0VE55ZnBmUy05cmVwYXhTQWlYbFlEb0JKN0l2NUNhVmt0Z3pjemlGcGVXWFJTaWkzWHdfY0JkenpDSjVielNBSEM4T0I0Q3p4VHZnYlJTeEc3Wl91TnZPSGVqR3pKMHdWbkJQeF9pbm4ycm9NeGFOaW9mOHpiaFdVQUQtWFJ1WW5tME1BZGZiQWlTa2ZNLVJ3?oc=5 |

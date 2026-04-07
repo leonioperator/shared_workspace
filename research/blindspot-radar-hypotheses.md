@@ -1073,3 +1073,52 @@ Scoring dimensions (1–5 each):
 **Javasolt kísérlet:** 1 hetes prototípus: “Trading MCP Gateway” (csak paper-trading / demo): order-intent schema + risk policy (max loss/nap, max position size) + immutable audit log export. Mérők: 3 domain feedback (trader/dev), implementációs friction (broker API), és hogy mely policy-k a minimum elvárt.
 
 *Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-06.md | 2026-04-06 09:30 CET*
+
+
+---
+
+# Update — 2026-04-07
+
+## H32 — Continuous Agent Harness Improvement from Production Traces
+**Thesis:** Production agenteknél a „harness” (promptok, tool policy-k, workflow lépések, retry/guardrail logika) gyorsan elavul és driftel. A mai gyakorlat: kézzel nézzük a trace-eket és kézzel javítunk. Kell egy trace-to-patch réteg: a production trace-ekből automatikusan hibamintákat azonosít, kiértékel, és javaslatot tesz prompt/workflow/policy módosításokra, auditálható módon.
+
+**Signals (updated 2026-04-07):**
+- Show HN: **meta-agent** (GitHub, 2026-04-06): „automatically and continuously improves agent harnesses from production traces”. HIGH CONFIDENCE.
+- **ALTK** paper (arxiv, 2026-03-16): a production failure mode-ok (silent reasoning error, tool argument corruption, policy violation) rendszerszinten jelennek meg; improvement loop nélkül csak tűzoltás lesz. HIGH CONFIDENCE.
+
+**Assessment:** Navibase/Leoni esetben a run log + outcome már most rendelkezésre áll (cron/task, tool-call, hiba). Egy „trace-to-patch” loop közvetlenül csökkenti a human-in-the-loop terhelést és növeli a reliability-t (H19), miközben dokumentálható (H2).
+
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-04-07). A meta-agent jel egyértelmű: a következő réteg nem új agent framework, hanem a production trace-ekből táplált folyamatos javítási pipeline.*
+
+---
+
+## H33 — Multi-Agent Influence Governance (Constitutional / Anti-Manipulation Layer)
+**Thesis:** Multi-agent rendszerekben az agentek nem csak eszközöket használnak, hanem egymást is befolyásolják: meggyőzés, koalíció, collusion, cél-eltolódás. Egy enterprise buyernek nem elég a tool permission (H6) és az audit log (H2) - kell egy governance réteg, ami explicit „constitutiót” ad a multi-agent populációnak (szerepkörök, szavazási szabályok, veto/override, influence detection), és ebből compliance-ready bizonyítékot gyárt.
+
+**Signals (updated 2026-04-07):**
+- **LLM Constitutional Multi-Agent Governance** (arxiv, 2026-03-13): a modellek képesek persuasív influence stratégiákra, amelyek megváltoztatják a kooperációt - kérdés, hogy ez valódi proszociális eredmény-e vagy manipuláció. HIGH CONFIDENCE.
+- **Regulating AI Agents** (arxiv, 2026-03-24): mainstream szabályozói fókusz autonóm cselekvés + limitált emberi felügyelet mellett - multi-agent governance mint következő célterület. HIGH CONFIDENCE.
+
+**Assessment:** Rövid távon nehezebb termékké tenni (komplex, kevés buyer language), de magas Def potenciál: aki először szabványosítja a „multi-agent constitution + evidence pack” gondolkodást, az előnybe kerülhet a nagy enterprise multi-agent deployment hullámban.
+
+**Scores:** Pain=4 | Urgency=3 | WTP=3 | Def=4 | IntFric=4 | **Total: 18/25**
+*Új hypothesis (2026-04-07). A constitutional governance paper explicit jelzés: a következő governance fájdalom az agent-to-agent influence kontrollja lesz, nem csak a tool hozzáférés.*
+
+---
+
+## Top 3 Opportunities + Suggested Experiments (2026-04-07)
+
+### #1: H22 + H24 combo — Shadow Agent Exposure Scan + Adversarial Shield
+**Miért most:** A buyer (IT/security) azonnali fájdalmat érez (shadow agent inventory + containment), a DeepMind 6 trap pedig konkrét „scan spec”-et ad.
+**Javasolt kísérlet:** 5 EU cégnek 2 hetes „Shadow Agent Exposure Scan”: inventory + 6-trap exposure score + quick fixes + audit export. Mérők: meeting->pilot, pilot->paid, top 5 control request.
+
+### #2: H32 — Trace-to-Patch Harness Improvement (belső gyors ROI)
+**Miért most:** A meta-agent jelzi, hogy a „production trace-driven improvement” elkezdett standard mintává válni.
+**Javasolt kísérlet:** 14 napos belső pilot Leoni-n: (1) top 20 failure pattern automatikus klaszterezése trace-ekből, (2) heti 5 „patch proposal” (prompt/policy/workflow) + A/B vagy holdout validáció. Mérők: run success rate, human intervention rate, regressziók száma.
+
+### #3: H20 — Agent Platform as Regulated Infrastructure (packaging)
+**Miért most:** EU AI Act Aug 2026 ablak zárul; a compliance-ready platform narratíva most belépési feltétellé válik.
+**Javasolt kísérlet:** 1 oldalas „EU AI Act Agent Compliance Mapping” (H1+H2+H6+H12+H22) + letölthető checklist + 10 célzott outreach. Mérők: letöltés, inbound meeting, „melyik cikkely fáj” visszajelzés.
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-07.md | 2026-04-07 09:30 CET*
