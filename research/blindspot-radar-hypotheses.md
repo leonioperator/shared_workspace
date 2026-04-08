@@ -1,5 +1,5 @@
 # Blindspot Radar — Scored Hypothesis List
-Last updated: 2026-03-23
+Last updated: 2026-04-08
 
 Scoring dimensions (1–5 each):
 - **Pain**: How painful is the unmet need?
