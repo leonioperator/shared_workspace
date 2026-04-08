@@ -2,52 +2,39 @@
 
 ## vinczetamas.hu jelöltek
 
-### 1. Miért nem a modell a termék, hanem a workflow?
-- Quality score: 5/5
-- Miért erős: jó edukációs téma Tomi pozicionálásához, üzleti és architektúra szinten is érthető.
-- Alapforrások:
-  - https://blog.langchain.com/continual-learning-for-ai-agents/?utm_source=tldrai
-  - https://arxiv.org/abs/2603.28052?utm_source=tldrai
+- **AI már nem tool, hanem operating layer a cégben**  
+  Quality score: 5/5  
+  Miért erős: stratégiai, CEO-szintű keret, jól kapcsolható audit ajánlathoz.  
+  Forrás: https://raffy.ch/blog/2026/04/06/ai-is-becoming-an-operating-system-layer/?utm_source=tldrai
 
-### 2. Pay-as-you-go jön az agent korszakban: így tervezz AI költségkeretet KKV-ként
-- Quality score: 5/5
-- Miért erős: aktuális, fájdalompont alapú, erős tanácsadói belépő téma.
-- Alapforrások:
-  - https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/?utm_source=tldrai
-  - https://www.youtube.com/watch?v=Nv5qaWorhbs
+- **A valódi AI költség nem az előfizetés, hanem a workflow**  
+  Quality score: 5/5  
+  Miért erős: KKV döntéshozóknak közvetlenül releváns, erős edukációs anyag.  
+  Forrás: https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/
 
-### 3. Belső tudásbázis AI-val: hogyan lesz a szétszórt dokumentumokból használható céges memória?
-- Quality score: 4/5
-- Miért erős: gyakorlati, KKV-k számára könnyen érthető, jó audit vagy workshop belépő.
-- Alapforrások:
-  - https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f?utm_source=tldrai
-  - https://links.tldrnewsletter.com/QGprnm
+- **Miért az agent harness a valódi termék, nem a modell**  
+  Quality score: 4/5  
+  Miért erős: differenciáló, szakmai, brandépítő.  
+  Forrás: https://links.tldrnewsletter.com/QzoIRw
 
-### 4. Biztonság AI eszközválasztásnál: mit mond az Anthropic leak-sorozat?
-- Quality score: 4/5
-- Miért erős: bizalmi témára épül, döntéshozói szintű tartalom.
-- Alapforrások:
-  - https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/
-  - https://www.theverge.com/ai-artificial-intelligence/904776/anthropic-claude-source-code-leak
+- **AI ROI vagy bukás: miért lesz 2026 a mérhetőség éve**  
+  Quality score: 4/5  
+  Miért erős: vezetői nyomás, governance, audit belépő.  
+  Forrás: https://pages.dataiku.com/cio-ai-decisions?utm_campaign=37465898-GLO%20CONTENT%20CIO%20Decisions%20Survey%20Report%20Feb%202026&utm_source=glo-superhuman&utm_medium=paid-email
 
 ## elkezdodott.hu jelöltek
 
-### 5. A Visa már automatizálja a reklamációkezelést. Hol vannak a te céged manuális telefonhívásai?
-- Quality score: 4/5
-- Miért erős: KKV-ra lefordítható, erős "hol folyik el az idő" téma.
-- Alapforrás:
-  - https://www.cnbc.com/2026/04/01/visa-ai-tools-dispute-management.html
+- **Mielőtt AI agentet veszel, számold ki ezt a 3 rejtett költséget**  
+  Quality score: 5/5  
+  Miért erős: egyszerű, gyakorlati, KKV nyelvre fordítható.  
+  Forrás: https://metronome.com/podcast/unpack-pricing/pricing-as-product-the-monetization-operating-model-in-action?utm_campaign=pricing%20quiz&utm_medium=newsletter&utm_source=tldr-ai&utm_content=&utm_tldrtest=testa
 
-### 6. AI asszisztensek helyett AI munkafolyamatok: ez a különbség, ami pénzt termel
-- Quality score: 5/5
-- Miért erős: egyszerű nyelven elmagyarázható, erős elkezdodott.hu cikkalap.
-- Alapforrások:
-  - https://blog.langchain.com/continual-learning-for-ai-agents/?utm_source=tldrai
-  - https://arxiv.org/abs/2603.28052?utm_source=tldrai
+- **Nem a legerősebb modell nyer, hanem a legjobban összerakott rendszer**  
+  Quality score: 4/5  
+  Miért erős: jó edukációs darab, közérthető rendszerfókusz.  
+  Forrás: https://www.sciencedaily.com/releases/2026/04/260405003952.htm#google_vignette
 
-### 7. Mire figyelj, mielőtt AI-t engedsz rá az ügyféladatokra?
-- Quality score: 4/5
-- Miért erős: kockázatcsökkentő edukáció, jó CEO-szintű téma.
-- Alapforrások:
-  - https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/
-  - https://www.theverge.com/ai-artificial-intelligence/904776/anthropic-claude-source-code-leak
+- **Hogyan vezess be AI-t úgy, hogy az IT ne essen szét mögötte**  
+  Quality score: 4/5  
+  Miért erős: governance + operatív józanság, KKV CEO-nak releváns.  
+  Forrás: https://pages.dataiku.com/cio-ai-decisions?utm_campaign=37465898-GLO%20CONTENT%20CIO%20Decisions%20Survey%20Report%20Feb%202026&utm_source=glo-superhuman&utm_medium=paid-email

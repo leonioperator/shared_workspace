@@ -1,20 +1,20 @@
-Subject: Az AI nem a modellnél dől el, hanem a workflow-nál
-Preview text: A hét egyik fontos jele: az AI rendszerek valódi értéke nem a modellválasztásban, hanem a jól tervezett folyamatokban van.
+Subject: Az AI költsége nem ott van, ahol a legtöbben keresik
+Preview text: Az előfizetés csak a belépő. A valódi kérdés az, milyen workflow-t és milyen üzleti logikát építesz rá.
 
-## 1) Trend összefoglaló
-- Az agent eszközök költségmodellje gyorsan usage-alapú irányba megy, ezért a KKV AI bevezetéseket már nem fix díj, hanem kontrollált fogyasztás szerint érdemes tervezni.
-- Egyre világosabb, hogy nem a legerősebb modell nyer, hanem az a rendszer, ahol a prompt, a toolok, a memória és a folyamat össze van rakva.
-- A plain text alapú tudásbázis újra előtérben van: ebből lehet stabil, kereshető, AI-val karbantartható céges memória.
-- A nagyvállalati automatizáció most már adminisztratív súrlódásokra is ráfordul, például dispute és ügyintézési folyamatokra.
-- A security továbbra sem melléktéma: AI eszköznél nem csak a képességet, hanem a működési fegyelmet is nézni kell.
+1) Trend összefoglaló
+- Az AI egyre inkább operációs rétegként jelenik meg a cégekben, nem külön toolként.
+- A third-party agent használat külön költségsorrá vált, nem fér bele automatikusan a modell előfizetésbe.
+- A vezetői nyomás nő: mérhető AI ROI nélkül egyre nehezebb lesz döntést védeni.
+- A piac kezdi megérteni, hogy nem a modell önmagában a termék, hanem a köré épített rendszer.
+- Az energia- és infrastruktúra-költség miatt felértékelődik a hatékonyabb, nem csak nagyobb AI megközelítés.
 
-## 2) Gyakorlati tanulság
-Ha AI bevezetésen gondolkodsz, ne az legyen az első kérdésed, hogy "melyik modell a legjobb". Az első kérdés az legyen, hogy melyik visszatérő, drága vagy lassú munkafolyamatot akarod kiváltani. A legtöbb cég nem modellhiányban szenved, hanem rosszul szervezett információáramlásban és túl sok manuális lépésben.
+2) Gyakorlati tanulság
+A legtöbb cég még mindig úgy gondolkodik az AI-ról, mint egy előfizetésről. Pedig a valódi költség és az igazi érték a workflow-ban van: milyen folyamatot automatizálsz, milyen döntést gyorsítasz, milyen emberi időt váltasz ki, és hogyan méred az eredményt. Ha ez nincs tisztázva, az AI gyorsan drága kísérletté válik.
 
-1. Írj össze 3 ismétlődő folyamatot, ahol heti szinten idő megy el keresésre, összefoglalásra vagy utánkövetésre.
-2. Válassz ki egyet, és rajzold fel a lépéseit: input, döntési pontok, output, emberi kontroll.
-3. Csak ezután válassz AI eszközt, fix költségkerettel és egyértelmű sikerkritériummal.
+- Ne toolt válassz elsőként, hanem üzleti szűk keresztmetszetet.
+- Külön mérd a használati költséget, az emberi időnyereséget és a hibaarányt.
+- Olyan AI workflow-val indulj, ahol az eredmény 2-4 héten belül kimutatható.
 
-## 3) CTA
-Ha szeretnéd, megnézem, a te működésedben hol érdemes először AI workflow-t építeni, és hol ég a legtöbb idő feleslegesen.
-Rövid audit: https://vinczetamas.hu/audit
+3) CTA: vinczetamas.hu/audit
+Ha azt akarod látni, hol termelne nálad valódi eredményt az AI, nem pedig újabb költségsort, itt tudsz kérni egy gyors AI auditot: vinczetamas.hu/audit
+Röviden megmutatom, melyik folyamatot érdemes először automatizálni, és melyiket nem.
