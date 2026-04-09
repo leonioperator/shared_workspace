@@ -26,8 +26,8 @@ Ezért működik jobban a rövid, pontos operációs ritmus, mint a látványos,
 > "A bizalom nem attól épül, hogy ritkán hibázol, hanem attól, hogy gyorsan és átláthatóan javítasz."  
 > **VT**
 
-Kapcsolódó gondolkodás: [AI operációs rendszer KKV-ra](https://vinczetamas.hu/ai-operacios-rendszer)  
-Korábbi cikk: [Miért a vezető a szűk keresztmetszet](https://vinczetamas.hu/vezeto-szuk-keresztmetszet)
+Kapcsolódó gondolkodás: [AI operációs rendszer KKV-ra](/irasok/ai-operacios-rendszer)  
+Korábbi cikk: [Miért a vezető a szűk keresztmetszet](/irasok/vezeto-szuk-keresztmetszet)
 
 ## FAQ
 

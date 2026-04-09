@@ -1,0 +1,23 @@
+# Candidates - 2026-04-08
+
+- [vinczetamas] A csendes AI trend: offline diktálásból kész üzleti szöveg | Quality score: 5/5
+  - Miért érdekes: Gyakorlati, azonnal kipróbálható productivity téma KKV vezetőknek.
+  - Forrás: https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/
+- [vinczetamas] AI használat vagy anti-AI kommunikáció: a valódi kérdés a bizalom | Quality score: 5/5
+  - Miért érdekes: Erős stratégiai döntési keret márkáknak és szolgáltatóknak.
+  - Forrás: https://www.gartner.com/en/newsroom/press-releases/2026-03-16-gartner-marketing-survey-finds-50-percent-of-consumers-prefer-brands-that-avoid-using-genai-in-consumer-facing-content0
+- [vinczetamas] Miért veszélyes túl korán rábízni a pénzügyi értelmezést AI-ra | Quality score: 4/5
+  - Miért érdekes: Józanító, hitelesítő anyag CEO-k és tanácsadók felé.
+  - Forrás: https://www.mercor.com/blog/Finance-tasks-ai-failures-modes/?utm_source=tldrai
+- [elkezdodott] Így lehet belső tréninget gyorsítani egy kattintós AI coach-csal | Quality score: 4/5
+  - Miért érdekes: Konkrét tool + folyamat nézőpont, jó how-to cikk alap.
+  - Forrás: https://github.com/farzaa/clicky/releases
+- [elkezdodott] Mit jelent egy KKV-nak, hogy az AI már hibát is keres helyetted | Quality score: 4/5
+  - Miért érdekes: Cybersecurity és risk posture téma egyszerűen elmagyarázható formában.
+  - Forrás: https://www.anthropic.com/glasswing
+- [vinczetamas] Nem minden AI elemzés megbízható: hol kell ember a loopba | Quality score: 5/5
+  - Miért érdekes: Erős, bizalomépítő editorial a túlígért AI piac ellenpontjaként.
+  - Forrás: https://www.mercor.com/blog/Finance-tasks-ai-failures-modes/?utm_source=tldrai
+- [elkezdodott] Vaibhav Sisinty videó feldolgozás: Googles kostenlose KI hat geschafft, was ChatGPT und Claude nicht konnten. | Quality score: 3/5
+  - Miért érdekes: Tartalék jelölt, ha a videó tényleg KKV growth vagy AI workflow fókuszú.
+  - Forrás: https://www.youtube.com/watch?v=Opi4LGmXrsQ
