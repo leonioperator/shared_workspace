@@ -153,6 +153,29 @@ Scoring dimensions (1–5 each):
 
 ---
 
+## H34 — Agent Ops Monitoring & Human-in-the-Loop Control Plane (Messaging-native)
+**Thesis:** Ahogy az agentek a végrehajtás felé mennek (TUI-k, remote desktop, messaging), a napi operációs fájdalom nem az, hogy “mit tud az agent”, hanem hogy **hogyan látod és irányítod futás közben**. Kell egy agent-native “ops console”, ami messagingből elérhető: run státusz, élő napló, jóváhagyási gombok, visszagörgethető audit, és gyors beavatkozás (pause/rollback). A meglévő IT remote desktop tooling rossz erre, mert nem agent művelet-szintű.
+**Signals (updated 2026-04-09):**
+- Astropad Workbench (TechCrunch, 2026-04-08): “remote desktop for AI agents” explicit pozicionálás, agent-ops monitoring kategória megjelenése. HIGH CONFIDENCE.
+- Poke (TechCrunch, 2026-04-08): agents as easy as sending a text, messaging-native UX elterjedése, ami ops kontrollt igényel. HIGH CONFIDENCE.
+- TUI-use (GitHub, 2026-04-08): agentek TUI programokat vezérelnek, amihez transcript + permission + live intervention kell. HIGH CONFIDENCE.
+**Assessment:** Ez a H2/H6/H19 gyakorlati “surface area” kiegészítője, a buyer itt ops lead és IT. Navibase/Leoni irány: Telegram-first approval + run dashboard + audit export, “one glance ops” a CEO-nak.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-04-09). A Workbench + messaging-native agent UX együtt jelzi: agentek üzemeltetése új UI kategória, nem csak backend governance.*
+
+---
+
+## H35 — Agent End-User Distribution via Text, with Identity & Confirmation (Consumer-to-Enterprise Bridge)
+**Thesis:** Az agentek elosztása (distribution) átrendeződik: a “külön app” helyett **SMS/WhatsApp/Telegram** jellegű csatornákon jelennek meg az agentek. Ez megnyitja a tömeges használatot, de azonnal felhozza az identity, consent, és action-confirmation problémát. A piacon hiányzik egy “messaging agent gateway”, ami vállalati szintű identity + scope + confirmation flow-val engedi a text-based agent használatot.
+**Signals (updated 2026-04-09):**
+- Poke (TechCrunch, 2026-04-08): agents via text, mainstream distribution shift. HIGH CONFIDENCE.
+- Copilot terms “for entertainment purposes only” (TechCrunch, 2026-04-05): jogi disclaimerek erősödnek, text-based agentnél kötelező lesz a megerősítés és a felelősségi keret. HIGH CONFIDENCE.
+**Assessment:** Erős wedge lehet SMB-nél: “agent a chatben”, de enterprise-ready guardrail-lel. Navibase kapcsolódás: Telegram-first ops, de identity+authorization és confirmation flow produktizálása.
+**Scores:** Pain=4 | Urgency=4 | WTP=3 | Def=3 | IntFric=3 | **Total: 17/25**
+*Új hypothesis (2026-04-09). A distribution ugrás gyors, de a monetizációs buyer és compliance boundary még alakul.*
+
+---
+
 ## Ranking Summary (2026-03-23)
 
 | Rank | Hypothesis | Score | Delta |
