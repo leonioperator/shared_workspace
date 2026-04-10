@@ -1,5 +1,40 @@
 # Blindspot Radar — Scored Hypothesis List
-Last updated: 2026-04-08
+Last updated: 2026-04-10
+
+## H36 — Managed Infrastructure for Autonomous Agents (Agent Hosting as a Service)
+**Thesis:** Az autonóm agentek a pilot fázisból az éles üzem felé mennek, de a legtöbb csapat nem akar saját runtime-ot, sandboxot, skálázást, update-et és incident response-t építeni. Kell egy managed „agent hosting” réteg, ami elrejti az infrastruktúrát (runtime, izoláció, secrets, policy hooks, observability), és standard felületen adja a futtatást. A buyer itt nem csak enterprise security, hanem termékcsapat, aki gyorsan akar agentet élesíteni.
+**Signals (updated 2026-04-10):**
+- Anthropic launches managed infrastructure for autonomous AI agents (the-decoder.com, 2026-04-09) — explicit managed agent infra kategória, mainstream bejelentés. HIGH CONFIDENCE.
+- Process Manager for Autonomous AI Agents (botctl.dev, 2026-04-09) — operációs réteg termékesedése, „agent process management” új kategória. MEDIUM CONFIDENCE.
+**Assessment:** A managed hosting réteg a H2/H6/H13/H20 blokkal kompatibilis, de más entry point: „ne építsd meg, vedd meg”. Navibase irány: partner/adapter stratégia (compliance + reliability layer ráültetése managed runtime fölé), nem feltétlen infrastruktúra verseny.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=4 | **Total: 19/25**
+*Új hypothesis (2026-04-10). A managed agent infra bejelentés azt jelzi, hogy a runtime réteg commoditizálódik, a differenciáló a governance/reliability és a vertical packaging lesz.*
+
+## H37 — OAuth Credential Delegation for Agents (JIT tokens + least privilege)
+**Thesis:** Az agentek tipikusan túl széles jogokat kapnak (API kulcsok, long-lived tokens), ami compliance és security kockázat. Kell egy credential delegation réteg: OAuth-alapú, just-in-time, scope-olt, rövid élettartamú tokenek agent run-okhoz, auditálható delegation chain-nel. Ez a H1 (identity/auth) gyakorlati implementációs wedge-je.
+**Signals (updated 2026-04-10):**
+- Cred (Product Hunt, 2026-04-09): „OAuth credential delegation for AI agents” — explicit termék validáció. HIGH CONFIDENCE.
+**Assessment:** Erős, nagyon konkrét buyer pain: security team nem engedi a „random API keyt” agentnek. Wedge: drop-in SDK/gateway a token delegationhez, plusz audit export. Navibase: ezt integrációs best practice-ként és compliance komponensként lehet csomagolni (nem biztos, hogy saját termék).
+**Scores:** Pain=5 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 19/25**
+*Új hypothesis (2026-04-10). A Cred jelzi, hogy a piac már megoldást keres. A „least privilege for agents” gyorsan table stakes lesz.*
+
+## H38 — Agent Decision Evidence Packaging (Audit-ready, proof-first outputs)
+**Thesis:** Az agent output akkor lesz vállalati szinten bevezethető, ha a döntésekhez automatikusan „evidence pack” készül: miért ezt javasolta, milyen inputokra hivatkozott, milyen policy-knek felelt meg, és milyen risk check-ek futottak. A naplózás (H2) nem elég, a döntésnek *azonnal* audit-ready bizonyítékká kell alakulnia (exportálható, prezentálható, visszakereshető). Ez különösen kritikus high-risk és pénzügyi/HR/ügyfél-kommunikációs use case-eknél.
+**Signals (updated 2026-04-10):**
+- Cyris (Product Hunt, 2026-04-08): „Turns every AI decision into audit-ready evidence” — explicit kategória és value proposition. HIGH CONFIDENCE.
+**Assessment:** A proof-first output réteg összeköti a H2 (audit log), H6 (policy), H12 (accountability) és H20 (regulated infra) témákat egy könnyen eladható deliverable-be. Navibase: „evidence-by-default” riportok, CEO és compliance számára azonnali fogyasztásra.
+**Scores:** Pain=5 | Urgency=5 | WTP=5 | Def=3 | IntFric=2 | **Total: 20/25**
+*Új hypothesis (2026-04-10). A Cyris jel a piac felől, hogy a buyer nem raw logot akar, hanem kész bizonyítékot. Ez gyors revenue wedge lehet compliance audit szolgáltatásként is.*
+
+## H39 — Agent Ops Monitoring for Non-Technical Teams (Process control + live intervention)
+**Thesis:** Ahogy az agentek „dolgoznak” (TUI, remote desktop, browser automations), a napi fájdalom a nem-tech csapatoknál az, hogy nem látják, mi történik, és nem tudnak közbelépni biztonságosan. Kell egy könnyen használható ops layer: élő státusz, transcript, jóváhagyási pontok, rollback/undo, és „what changed” összefoglaló. Ez a H34 általánosítása: nem csak messaging-native, hanem role-based, non-technical kontroll.
+**Signals (updated 2026-04-10):**
+- Astropad Workbench (TechCrunch, 2026-04-08): remote desktop for AI agents — explicit agent-ops UX kategória. HIGH CONFIDENCE.
+- TUI-use (GitHub, 2026-04-08): agentek TUI programokat vezérelnek — transcript + permission + intervention szükség. HIGH CONFIDENCE.
+**Assessment:** A buyer itt ops lead és a team lead, nem csak security. Navibase: Telegram-first kontroll jó wedge, de bővíthető web dashboard irányba, ha a kontrolligény nő.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-04-10). A „agent-ops UX” külön kategóriává válik, és gyorsan terjed a devtool világon túl.*
+
 
 Scoring dimensions (1–5 each):
 - **Pain**: How painful is the unmet need?
