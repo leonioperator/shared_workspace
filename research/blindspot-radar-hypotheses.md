@@ -1180,3 +1180,90 @@ Scoring dimensions (1–5 each):
 **Javasolt kísérlet:** 1 oldalas „EU AI Act Agent Compliance Mapping” (H1+H2+H6+H12+H22) + letölthető checklist + 10 célzott outreach. Mérők: letöltés, inbound meeting, „melyik cikkely fáj” visszajelzés.
 
 *Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-07.md | 2026-04-07 09:30 CET*
+
+
+---
+
+# Update — 2026-04-11
+
+## H40 — Agent Identity & Attestation for Delegated Workloads (Workload-to-Agent)
+**Thesis:** Az agent identity (H1) implementációja a „workload-to-agent” attestation mintázat felé konszolidálódik: az agent futtatási workload kap rövid életű, igazolt identitást (mTLS/JWT), ami a delegáció kontextusához kötött. Ez egyszerre ad scoped hozzáférést, audit korrelációt, és egyértelmű választ a compliance kérdésre: „ki az agent, miért és milyen jogosultsággal cselekedett?”
+**Signals (updated 2026-04-11):**
+- Agent Identity Standards consolidate around workload-to-agent attestation (2026-04-10) — attestation-first identity minta. HIGH CONFIDENCE.
+- Identity providers add “Agent” as first-class principal type (2026-04-05) — agent principalok külön kezelése. HIGH CONFIDENCE.
+- Authentication for tool servers moves toward mTLS + JWT (2026-03-28) — a technikai forma stabilizálódik. HIGH CONFIDENCE.
+**Assessment:** Ez a H1 „legvalószínűbb kivitelezési formája”. Navibase alkalmazás: per-run issued tokenek + delegation chain id, ami mind auditban (H2), mind policy-ben (H6) alap primitív.
+**Scores:** Pain=5 | Urgency=5 | WTP=5 | Def=4 | IntFric=3 | **Total: 22/25**
+*Új hypothesis (2026-04-11). A workload-attestation minta elég konkrét, hogy termék-spec legyen: runtime identity issuance + audit correlation + scope expiry.*
+
+
+## H41 — Audit-First Agent Logs as Compliance Artifact (Immutable, Replayable)
+**Thesis:** A buyer nem „observabilityt” kér, hanem *compliance artifactot*: immutable, exportálható action log + replay, ami procurement és SOC 2 auditban bizonyíték. Az agent run nem csak trace, hanem aláírható, megőrizhető és SIEM-be köthető bizonyítéklánc.
+**Signals (updated 2026-04-11):**
+- Enterprises demand agent action logs as compliance artifact (2026-04-10) — procurement checklist trend. HIGH CONFIDENCE.
+- Model providers add tool-call audit hooks (2026-03-30) — natív trace export a platformokból. HIGH CONFIDENCE.
+- SOC 2 auditors ask for evidence of agent guardrails (2026-04-04) — explicit audit evidence kérés. HIGH CONFIDENCE.
+**Assessment:** Ez a H2 fókuszát élesíti: nem elég logolni, „audit evidence pack”-ként kell csomagolni (H38). Navibase alkalmazás: export template-ek (SOC2/EU AI Act) + replay link + immutability (hash chain).
+**Scores:** Pain=5 | Urgency=5 | WTP=5 | Def=4 | IntFric=3 | **Total: 22/25**
+*Új hypothesis (2026-04-11). A compliance artifact nyelv buyer-friendly, és közvetlen procurement stopper. Quick wedge lehet advisory + tool.*
+
+
+## H42 — MCP Security Profiles for Tool Servers (Standardized Auth, Scopes, Audit Events)
+**Thesis:** A tool server sprawl (MCP) miatt az enterprise igény a „biztonsági profil”: standard auth (mTLS/JWT/OAuth), least-privilege scope, és egységes audit event schema. Ezzel a governance nem egyedi integráció per tool server, hanem profile-based compliance.
+**Signals (updated 2026-04-11):**
+- MCP Security Profiles proposed for tool servers (2026-04-09) — explicit standard draft. HIGH CONFIDENCE.
+- Policy-as-code gatekeepers for agent actions (2026-04-03) — inline enforcement igény. HIGH CONFIDENCE.
+- Agents as integration layer: tool server market grows (2026-04-02) — tool server piac nő, standardizáció nélkül szétcsúszik. HIGH CONFIDENCE.
+**Assessment:** H3 (MCP governance) konkrétítható „profiles + conformance test” irányba. Navibase alkalmazás: MCP profile lint + conformance scan, compliance reporttal.
+**Scores:** Pain=5 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 19/25**
+*Új hypothesis (2026-04-11). A standard draft miatt a window most nyílt: aki hamar ad lintert és reportot, a procurement nyelvét beszéli.*
+
+
+## H43 — Signed A2A Delegation Claims (Ghost Delegation Prevention)
+**Thesis:** Agent-to-agent kommunikációban a legnagyobb enterprise félelem a „ghost delegation”: ki adott kinek felhatalmazást, milyen policy mellett, és ezt utólag hogyan bizonyítod. A megoldás: aláírt delegation claims (intent, constraints, context) a message payloadban, ami korrelálható audit traillel.
+**Signals (updated 2026-04-11):**
+- Agent-to-agent (A2A) messaging gets standardized claims (2026-04-09) — signed claims schema. HIGH CONFIDENCE.
+- “Delegation risk” added to enterprise AI risk registers (2026-04-08) — kockázat explicit kategória. HIGH CONFIDENCE.
+- Compliance teams ask: “Who is the agent?” (2026-03-27) — identity record igény. HIGH CONFIDENCE.
+**Assessment:** H14 (A2A trust) és H12 (accountability) metszete. Navibase alkalmazás: delegation receipt, chain-of-custody, és dispute/contestability támogatás.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=4 | IntFric=4 | **Total: 20/25**
+*Új hypothesis (2026-04-11). A signed claims lehet a következő standard primitív, de build fric magasabb és a buyer language még alakul.*
+
+
+## H44 — Consent Receipts + Preview-Then-Execute for External Actions
+**Thesis:** Enterprise governance minta: külső kommunikáció és record-módosítás előtt kötelező a preview + explicit consent receipt. A consent receipt egy auditálható artefakt, ami egyértelműsíti: ki és mikor engedélyezte az agent műveletét, milyen diff alapján.
+**Signals (updated 2026-04-11):**
+- “Consent receipts” for delegated actions in customer ops (2026-04-05) — explicit receipt pattern. HIGH CONFIDENCE.
+- Delegation UX patterns: “preview then execute” (2026-04-01) — stabilizálódó UX standard. HIGH CONFIDENCE.
+- Enterprises require HITL for external communications (2026-04-03) — governance baseline. HIGH CONFIDENCE.
+**Assessment:** H34/H39 ops UX + H2 audit trail gyakorlati kimenete. Navibase alkalmazás: Telegram-first diff preview + approve button + consent receipt export.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=2 | **Total: 17/25**
+*Új hypothesis (2026-04-11). Alacsony build fric, gyorsan termékesíthető feature, és erős compliance story.*
+
+
+## H45 — Agent Runbooks + Incident Response Playbooks (Operationalization Layer)
+**Thesis:** Ahogy agentek production-ba kerülnek, SRE-szerű üzemeltetési réteg kell: runbook (eszkaláció, rollback, approval pontok) és incident response playbook (containment, credential revoke, replay analysis). Ez a governance hiányzó „operációs” fele.
+**Signals (updated 2026-04-11):**
+- “Agent runbooks” adopted as operational primitive (2026-04-01) — SRE-minta adaptáció. HIGH CONFIDENCE.
+- Agent incident response playbooks emerge (2026-03-29) — security ops oldal. HIGH CONFIDENCE.
+- Audit-first orchestration differentiator (2026-04-08) — a platformok erre pozicionálnak. HIGH CONFIDENCE.
+**Assessment:** Ez service + tooling csomag. Navibase alkalmazás: standard runbook template library, ami összeköti a H2/H6/H40 identity primitive-eket a valós üzemeltetéssel.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=2 | **Total: 17/25**
+*Új hypothesis (2026-04-11). A runbook deliverable buyer-friendly, és jól csomagolható pilot ajánlatként.*
+
+
+---
+
+## Top 3 Opportunities + Suggested Experiments (2026-04-11)
+
+### #1: H40 + H41 combo — Identity attestation + Compliance-grade action logs
+**Miért most:** A procurement és compliance nyelv most konkretizálódik: „who is the agent” + immutable evidence. Ez a leggyorsabb enterprise wedge.
+**Kísérlet:** 10 EU cégnek „Agent Delegation Evidence Pack” pilot: per-run issued identity (workload attestation) + immutable action log export + replay link. Mérők: procurement blocker-ek száma, pilot->paid konverzió, audit csapat feedback.
+
+### #2: H42 — MCP Security Profiles linter + conformance scan
+**Miért most:** Standard draft ablak nyitva, a tool server piac nő. Aki ad lintert és reportot, könnyen kerül shortlistre.
+**Kísérlet:** Nyílt „MCP Security Profile Linter” v0.1: auth/scope/audit event checklist + report. Mérők: GitHub csillag, enterprise inbound, partner tool server-ek száma.
+
+### #3: H44 — Consent receipts + preview-then-execute (Navibase/Leoni quick win)
+**Miért most:** HITL external comms baseline lett. Low build, high trust.
+**Kísérlet:** Leoni-ban 2 hetes pilot: minden külső email és CRM update előtt diff preview + approve, automatikus consent receipt mentés. Mérők: approval latency, user trust feedback, hibák csökkenése.
