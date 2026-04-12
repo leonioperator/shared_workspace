@@ -1,5 +1,45 @@
 # Blindspot Radar — Scored Hypothesis List
-Last updated: 2026-04-10
+Last updated: 2026-04-12
+
+## H46 — Cloud Sandbox Delegation Harness (PR-returning cloud agents)
+**Thesis:** A coding agentek következő hulláma nem IDE plugin, hanem *delegációs harness*: chat/Slack/GitHub felől leírsz egy feladatot, és a rendszer izolált cloud sandboxban futtatja a lab-native CLI agentet (Claude Code/Codex), majd PR-t/review-t/diagnózist ad vissza. A buyer pain: párhuzamosíthatóság, per-task izoláció, perzisztencia (éjszaka is fut), és a „local machine trust gap”.
+**Signals (updated 2026-04-12):**
+- Twill.ai (Launch HN, 2026-04-10): „delegate to cloud agents, get back PRs”, explicit izolált sandbox + PR output + crons/event triggers. HIGH CONFIDENCE.
+**Assessment:** Ez devtool kategória, de közvetlenül erősíti a Navibase platform narratívát: a harness engineering (izoláció, policy hook, audit trail, persistence) lesz a differenciáló, nem a modell. Navibase irány: nem feltétlen competing harness, hanem compliance/governance layer partner-stratégia ilyen harness-ek fölé.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=2 | IntFric=3 | **Total: 17/25**
+*Új hypothesis (2026-04-12). A Twill nagyon tisztán megfogalmazza a „delegációs harness” kategóriát és a buyer nyelvet.*
+
+## H47 — Secure Agent Gateway Layer (Threat models + batteries-included switching)
+**Thesis:** A platform blindspot, hogy a csapatok több agent/harness/toolchain között váltanak, de nincs egységes, security-first gateway: identitás, policy, secrets, allowlist, audit export, és „channel ownership” kezelés egy helyen. A gateway lehet tool-agnosztikus, és „batteries included” módon ad baseline védelmet mind external támadó (prompt injection/tool poisoning) mind internal agentic failure ellen.
+**Signals (updated 2026-04-12):**
+- Zeroclawed (Show HN, 2026-04-10): „Secure Agent Gateway”, kifejezetten több agent toolchain köré épített gateway, threat model fókusz. HIGH CONFIDENCE.
+**Assessment:** Erős összhang H22/H24/H2/H6 vonallal. A gateway wedge buyer-friendly, mert gyorsan ad „control plane” érzést. Navibase alkalmazás: gateway-pozicionálás (vagy kompatibilitás) és exportálható evidence pack.
+**Scores:** Pain=5 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 19/25**
+*Új hypothesis (2026-04-12). A Zeroclawed jelzi, hogy a „gateway-first” security gondolkodás termékké válik.*
+
+## H48 — Agent Runtime Embedding into Reactive Compute (Notebook-as-harness)
+**Thesis:** Az agentek egy része nem „beszélget”, hanem *fut a compute mellett*: notebook/REPL session mint working memory + execution runtime, ahol a human és az agent közösen iterál. A reactive notebook mint harness csökkenti a hallucination kockázatot (run-to-verify), és auditálható, reprodukálható munkát ad (a notebook fájl maga a trace).
+**Signals (updated 2026-04-12):**
+- marimo pair (Show HN, 2026-04-07): agent skill, ami futó notebook sessionbe „beleülteti” az agentet, code-mode, cell edit/insert/delete, install packages, reprodukálható programként rögzít. HIGH CONFIDENCE.
+**Assessment:** Ez nem enterprise governance wedge első körben, inkább R&D/data csapatok adoption mintázata. Navibase-nél: „evidence-by-default” gondolkodás erősítése, mert a munkavégzés artifact-ja automatikusan keletkezik (H41).
+**Scores:** Pain=3 | Urgency=3 | WTP=3 | Def=2 | IntFric=3 | **Total: 14/25**
+*Új hypothesis (2026-04-12). A notebook-as-harness minta egyre inkább standardizálja a „run, then trust” workflow-t.*
+
+## H49 — OSS Local-First Agent Framework Convergence (install, execute, test)
+**Thesis:** Több open-source agent keretrendszer (goose stb.) a „beyond suggestions” irányba megy: install, execute, edit, test. A risk: framework-sprawl és inconsistent governance. A lehetőség: standard policy/audit hooks és conformance layer, ami több OSS framework felett működik.
+**Signals (updated 2026-04-12):**
+- goose (GitHub, 2026-04-12): „install, execute, edit, and test with any LLM”, explicit local-first execution. HIGH CONFIDENCE.
+**Assessment:** Önmagában nem top wedge, de erősíti a H3/H42 irányt: standard security profiles és audit hooks kellenek a toolchain sprawl miatt. Navibase: conformance scan + evidence export.
+**Scores:** Pain=3 | Urgency=3 | WTP=3 | Def=2 | IntFric=3 | **Total: 14/25**
+*Új hypothesis (2026-04-12). A goose jelzi, hogy a local-first agent runtime mainstream open-source mintává válik.*
+
+## H50 — Trustworthy Agent Benchmarks & Evidence (Benchmark-driven procurement)
+**Thesis:** A buyer (procurement/security) elkezdi „bizonyítékhoz” kötni az agent adoptiont: nem csak vendor claim, hanem benchmark eredmény, attack-resilience, és audit evidence. A benchmarkok megtörése és a benchmarkok hiányosságainak nyilvános elemzése egyaránt jelzi, hogy a benchmark mint procurement eszköz erősödik.
+**Signals (updated 2026-04-12):**
+- Berkeley RDI: “How We Broke Top AI Agent Benchmarks: And What Comes Next” (2026-04-11). HIGH CONFIDENCE.
+**Assessment:** Ez a H41/H22/H23 metszete: evidence pack + robustness + QA. Navibase alkalmazás: benchmark-alapú „readiness score” és dokumentálható test suite, amit sales/procurement nyelven lehet eladni.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-04-12). A benchmark diskurzus a procurement nyelv felé tolja az agent governance kategóriát.*
 
 ## H36 — Managed Infrastructure for Autonomous Agents (Agent Hosting as a Service)
 **Thesis:** Az autonóm agentek a pilot fázisból az éles üzem felé mennek, de a legtöbb csapat nem akar saját runtime-ot, sandboxot, skálázást, update-et és incident response-t építeni. Kell egy managed „agent hosting” réteg, ami elrejti az infrastruktúrát (runtime, izoláció, secrets, policy hooks, observability), és standard felületen adja a futtatást. A buyer itt nem csak enterprise security, hanem termékcsapat, aki gyorsan akar agentet élesíteni.
