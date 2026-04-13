@@ -2,39 +2,44 @@
 
 ## vinczetamas.hu jelöltek
 
-- Címötlet: A nyerő AI ajánlat nem chatbot, hanem egyetlen jól csomagolt workflow
-  - Quality score: 5/5
-  - Miért erős: közvetlenül eladható CEO/KKV nyelven, jól kapcsolható AI audit ajánlathoz
-  - Forrás: https://www.mindstream.news/p/we-try-atlas-ai-to-ace-an-exam
+- **AI agent bevezetés 5 valódi akadálya KKV-knál**  
+  Quality score: 5/5  
+  Miért erős: közvetlenül fordítható audit, workshop vagy tanácsadási ajánlattá.  
+  Forrás: https://www.mindstream.news/p/we-interview-an-ai-ceo
 
-- Címötlet: One-person agency AI-val, de csak akkor működik, ha auditból indul
-  - Quality score: 5/5
-  - Miért erős: üzletközeli, szolgáltatássá fordítható, Vincze Tamás brandhez illeszkedik
-  - Forrás: https://offers.hubspot.com/agency-stack-prompts?utm_medium=email-media-newsletter&utm_source=mindstream&utm_campaign=owned&utm_term=2026-04-11&utm_content=native-ads
+- **Nem AI tool kell, hanem jól bekötött üzleti workflow**  
+  Quality score: 5/5  
+  Miért erős: erős edukációs téma, jól illeszkedik Tomi positioningjához.  
+  Forrás: https://www.mindstream.news/p/we-interview-an-ai-ceo
 
-- Címötlet: Az AI eszköz olcsóbb lesz, az integráció drágább, erre kell most készülni
-  - Quality score: 4/5
-  - Miért erős: stratégiai, edukatív, jó pozicionáló tartalom
-  - Forrás: https://interestingengineering.com/ai-robotics/unitree-r1-robot-aliexpress-global-debut
+- **Search korszak után jön az agent korszak**  
+  Quality score: 4/5  
+  Miért erős: trendanyag, könnyen hírlevélbe vagy LinkedIn posztba fordítható.  
+  Forrás: https://www.mindstream.news/p/we-interview-an-ai-ceo
 
-- Címötlet: Miért a konkrét use case veri meg a nagy AI hype-ot 2026-ban
-  - Quality score: 4/5
-  - Miért erős: newsletter és social formátumba is jól bontható
-  - Forrás: https://www.youtube.com/@vaibhavsisinty/videos
+- **Miért veszélyes a kontroll nélküli pay-as-you-go AI használat**  
+  Quality score: 4/5  
+  Miért erős: költségkontroll, governance, ügyfélbizalom.  
+  Forrás: https://www.mindstream.news/p/we-interview-an-ai-ceo
 
 ## elkezdodott.hu jelöltek
 
-- Címötlet: Így lesz egy PDF-ből és jegyzetkupacból használható AI tanulótárs
-  - Quality score: 4/5
-  - Miért erős: gyakorlati, könnyen elmagyarázható, hétköznapi belépő AI témához
-  - Forrás: https://www.mindstream.news/p/we-try-atlas-ai-to-ace-an-exam
+- **Nem a legnagyobb modell nyer, hanem ami gyorsan és olcsón megoldja a feladatot**  
+  Quality score: 5/5  
+  Miért erős: KKV vezetőnek jól érthető, gyakorlati szemléletváltás.  
+  Forrás: https://www.mindstream.news/p/we-interview-an-ai-ceo
 
-- Címötlet: 3 jel, hogy a cégednél már megérett egy AI audit
-  - Quality score: 5/5
-  - Miért erős: erős belépő cikk lead magnethez vagy audit CTA-hoz
-  - Forrás: https://offers.hubspot.com/agency-stack-prompts?utm_medium=email-media-newsletter&utm_source=mindstream&utm_campaign=owned&utm_term=2026-04-11&utm_content=native-ads
+- **AI hype helyett: melyik admin és ismétlődő feladatot érdemes elsőként automatizálni**  
+  Quality score: 4/5  
+  Miért erős: közvetlenül alkalmazható CEO nézőpontból.  
+  Forrás: https://www.mindstream.news/p/we-interview-an-ai-ceo
 
-- Címötlet: A robotok jönnek, de a legtöbb KKV-nak még a digitális automatizáció az első nagy nyerés
-  - Quality score: 3/5
-  - Miért erős: jó awareness cikk, de kevésbé azonnali
-  - Forrás: https://www.superhuman.ai/p/robotics-special-unitree-brings-the-r1-humanoid-to-the-us
+- **Az AI tempó nő, de a cégek többsége még az integrációnál elakad**  
+  Quality score: 4/5  
+  Miért erős: realista, edukatív, nem hype-os.  
+  Forrás: https://www.mindstream.news/p/we-interview-an-ai-ceo
+
+- **Mit jelent a gyors agent-piac átrendeződés egy magyar kisvállalkozónak**  
+  Quality score: 3/5  
+  Miért erős: Vaibhav-vonalból írható reakcióanyag, de kevésbé stabil, mint a fő Mindstream téma.  
+  Forrás: https://www.youtube.com/@vaibhavsisinty?cbrd=1&ucbcb=1

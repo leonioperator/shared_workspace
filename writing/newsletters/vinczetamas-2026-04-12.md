@@ -1,20 +1,24 @@
-Subject: Az AI-ban most nem a chatbot nyer, hanem az egy feladatra épített rendszer
-Preview text: A következő nyertes AI ajánlat nem általános, hanem egy konkrét üzleti workflow-ra épül.
+# vinczetamas.hu hírlevél draft - 2026-04-12
 
-1) Trend összefoglaló
-- Egyre több AI termék egyetlen jól körülhatárolt feladatra épül, nem általános asszisztensnek pozicionálja magát.
-- Az oktatási és tudásmunka eszközök ott erősek, ahol saját anyagból, saját kontextusra dolgoznak.
-- Az AI audit és workflow design már önálló szolgáltatási csomagként is megjelenik a piacon.
-- A figyelem a gyorsan kipróbálható, ingyenes vagy olcsó, konkrét use case-ek felé tolódik.
-- Hosszabb távon a hardver is olcsóbb lesz, de a valódi érték már most is az integrációban és a folyamatdesignban van.
+Subject: Az AI agent nem ott bukik el, ahol a legtöbben keresik
+Preview text: A legtöbb cégnek nem modellproblémája van, hanem integrációs és működési problémája.
 
-2) Gyakorlati tanulság
-Ha ma KKV vezetőként AI-ban akarsz előrelépni, nem az a jó kérdés, hogy melyik a legerősebb modell. Az a jó kérdés, hogy melyik ismétlődő folyamatod visz el túl sok időt, és abból lehet-e egy fókuszált, mérhető workflow-t építeni. A piac most abba az irányba megy, hogy a generalista AI helyett a konkrét problémára csomagolt megoldások nyernek.
+## 1) Trend összefoglaló
 
-- Válassz ki 1 ismétlődő folyamatot, ami heti szinten időt vagy pénzt éget.
-- Nézd meg, hogy ehhez van-e már használható AI eszköz vagy automatizálható lépéssor.
-- Ne eszközt vezess be elsőként, hanem egy mérhető mini workflow-t, felelőssel és elvárt eredménnyel.
+- Az AI agent hullám gyorsul, de a valódi érték nem a demókban, hanem a működő üzleti integrációkban van.
+- Egyre tisztábban látszik az 5 fő bevezetési akadály: integráció, biztonság, megbízhatóság, megfelelőség, fenntartható üzemeltetés.
+- A piac a sima AI kereséstől az agent-alapú végrehajtás felé mozdul.
+- Nem mindig a nagyobb modell a jobb, sokszor a célzottabb rendszer gyorsabb és olcsóbb.
+- A külső AI toolok költségmodellje változik, ezért a kontroll és a governance felértékelődik.
 
-3) CTA
-Ha szeretnéd látni, nálatok melyik 1-2 folyamatból lehet gyors AI nyereséget kihozni, itt tudsz kérni auditot: vinczetamas.hu/audit
-Egy rövid átvilágítással gyorsan kiderül, hol van valódi ROI, és hol csak újabb szoftverzaj.
+## 2) Gyakorlati tanulság
+
+Ha AI-t akarsz bevezetni a cégedben, ne az legyen az első kérdés, hogy melyik modell a legerősebb. Az első kérdés inkább ez: melyik üzleti folyamatodhoz tudsz biztonságosan, mérhetően és fenntarthatóan kapcsolni egy agentet. A legtöbb projekt nem ott csúszik el, hogy gyenge az AI, hanem ott, hogy nincs rendben a rendszer, amihez hozzá kellene nyúlni.
+
+1. Válassz ki 1 ismétlődő, kézi, idegesítő folyamatot.
+2. Nézd meg, milyen rendszerhez kell kapcsolódnia, és ott rendben van-e a hozzáférés és az adat.
+3. Csak utána válassz modellt vagy toolt, nem fordítva.
+
+## 3) CTA
+
+Ha szeretnéd gyorsan átlátni, nálatok hol lehet valódi üzleti haszna az AI-nak, ezen segít egy rövid AI audit. Nem hype, nem demo, hanem konkrét folyamatokra bontott átvilágítás: vinczetamas.hu/audit
