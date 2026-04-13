@@ -1,0 +1,73 @@
+From: Leoni Operator <leoni.operator@vinczetamas.hu>
+To: vt@vinczetamas.hu
+Subject: Blindspot Radar hypothesis frissítés (2026-04-13)
+
+Tárgy: Blindspot Radar hypothesis frissítés (2026-04-13)
+
+Szia Tomi,
+
+Frissítettem a Blindspot Radar hypothesis listát a mai (2026-04-13) signal export alapján.
+Forrás: /home/leoni/shared_workspace/research/blindspot-signals-2026-04-13.md
+Célfájl: /home/leoni/shared_workspace/research/blindspot-radar-hypotheses.md
+
+Újonnan hozzáadott hypothesisek (csak append, meglévők nem módosultak):
+
+H51 — Autonomous Loop Runners for PRD Completion (Agent Task Closure Engine)
+- Signal: snarktank/ralph (GitHub, 2026-04-13) https://github.com/snarktank/ralph
+- Lényeg: zárt hurok, ami PRD/checklist tételeken iterál, futtat és lezárásig ismétel.
+- Score: 15/25
+
+H52 — Inline Review Loops for Agents (Diff/Plan Annotation → Agent Patch)
+- Signal: umputun/revdiff (GitHub, 2026-04-12) https://github.com/umputun/revdiff
+- Lényeg: TUI diff és plan review overlay, inline annotáció vissza az agentnek, gyors iteráció.
+- Score: 15/25
+
+H53 — Agent Secret Handling & Key Trust Boundary (Secretless-by-default Patterns)
+- Signal: Ask HN (2026-04-12) https://news.ycombinator.com/item?id=47736831
+- Lényeg: a kulcsok megosztása a legkeményebb trust boundary, JIT/scoped credential + approval + audit a wedge.
+- Score: 19/25
+
+H54 — Long-Term Collaboration Memory as Shared Infrastructure (Episodic + World Model)
+- Signal: visionscaper/collabmem (GitHub, 2026-04-11) https://github.com/visionscaper/collabmem
+- Lényeg: memory mint operációsított workflow (read/update/maintain), nem chat log.
+- Score: 16/25
+
+H55 — Interactive Terminal Program Control Layer (TUI Automation as Primitive)
+- Signal: onesuper/tui-use (GitHub, 2026-04-08) https://github.com/onesuper/tui-use
+- Lényeg: interactive TUI programok vezérlése agentekkel, transcript + permission surface.
+- Score: 14/25
+
+H56 — In-Browser Design Editing → Agent Code Patches (Design-to-Agent Feedback Loop)
+- Signal: CSS Studio (2026-04-09) https://cssstudio.ai
+- Lényeg: böngészős vizuális edit esemény-streamként az agentnek, aki patch-et készít.
+- Score: 16/25
+
+Top 3 opportunity (mostani run alapján) + javasolt kísérlet:
+
+1) H53 — Agent Secret Handling & Key Trust Boundary (19/25)
+- Miért most: a ‘odaadhatom-e a kulcsaimat’ kérdés buyer- és practitioner-szinten a stopper; közvetlenül kapcsolódik H37/H40/H44 csomaghoz.
+- Kísérlet (1 hét): “Secretless-by-default” minta implementáció és demo:
+  - per-run JIT tokenek (scoped, short-lived)
+  - consent receipt preview-then-execute külső akciókra
+  - auditált secret access események
+  - Mérőszám: hány külső action megoldható long-lived key nélkül, és mennyit lassít a HITL.
+
+2) H52 — Inline Review Loops for Agents (15/25)
+- Miért most: a review roundtrip a legdrágább emberi idő a coding agent flow-ban.
+- Kísérlet (2-3 nap): “Annotation loop” pilot a saját dev agent folyamatunkban:
+  - diff/plan annotációs formátum standardizálása
+  - mérés: iterációk száma 1 feature-re, review idő/iteráció, regressziók.
+
+3) H51 — Autonomous Loop Runners (15/25)
+- Miért most: outcome-alapú zárt hurok, ami csökkenti a félkész állapotok számát.
+- Kísérlet (2-3 nap): 1 belső PRD checklist (5-8 tétel) loop-runner prototípus:
+  - “done” definíció: tesztek zöldek + checklist kipipálva + diff summary
+  - mérés: human shepherding idő (perc), ciklusok száma.
+
+Technikai műveletek:
+- Git commit: 2c26504 ("Update blindspot radar hypotheses (2026-04-13)")
+- Git push: main frissítve.
+
+Ha kéred, a Top 3 opportunity-t át is rendezzük a fő ranking summary-ba, de most a kérés szerint csak új hypothesiseket appendeltem, meglévőt nem módosítottam.
+
+Leoni
