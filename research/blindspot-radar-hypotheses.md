@@ -1,5 +1,5 @@
 # Blindspot Radar — Scored Hypothesis List
-Last updated: 2026-04-12
+Last updated: 2026-04-13
 
 ## H46 — Cloud Sandbox Delegation Harness (PR-returning cloud agents)
 **Thesis:** A coding agentek következő hulláma nem IDE plugin, hanem *delegációs harness*: chat/Slack/GitHub felől leírsz egy feladatot, és a rendszer izolált cloud sandboxban futtatja a lab-native CLI agentet (Claude Code/Codex), majd PR-t/review-t/diagnózist ad vissza. A buyer pain: párhuzamosíthatóság, per-task izoláció, perzisztencia (éjszaka is fut), és a „local machine trust gap”.
@@ -40,6 +40,54 @@ Last updated: 2026-04-12
 **Assessment:** Ez a H41/H22/H23 metszete: evidence pack + robustness + QA. Navibase alkalmazás: benchmark-alapú „readiness score” és dokumentálható test suite, amit sales/procurement nyelven lehet eladni.
 **Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
 *Új hypothesis (2026-04-12). A benchmark diskurzus a procurement nyelv felé tolja az agent governance kategóriát.*
+
+## H51 — Autonomous Loop Runners for PRD Completion (Agent Task Closure Engine)
+**Thesis:** A következő dev-agent wedge nem csak ‘generate code’, hanem egy zárt hurkú végrehajtó: a PRD (vagy issue checklist) tételein iterál, futtat, ellenőriz, és addig ismétel, amíg minden tétel teljesül, majd bizonyítékot ad (diff/test output). Ez csökkenti a ‘félkész PR’ és ‘human shepherding’ terhet.
+**Signals (updated 2026-04-13):**
+- snarktank/ralph (GitHub, 2026-04-13): ‘autonomous AI agent loop that runs repeatedly until all PRD items are complete’ — explicit loop-runner kategória. https://github.com/snarktank/ralph
+**Assessment:** A Twill-féle delegációs harness (H46) és a trace-to-patch (H32) mellett ez egy konkrét execution primitive: ‘task closure loop’. Navibase szempont: nem feltétlen termék, de a reliability és evidence-by-default narratívát erősíti (H41).
+**Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=2 | IntFric=2 | **Total: 15/25**
+*Új hypothesis (2026-04-13). A ‘loop until complete’ framing buyer-nyelv: outcome, nem output.*
+
+## H52 — Inline Review Loops for Agents (Diff/Plan Annotation → Agent Patch)
+**Thesis:** A coding agenteknél a legnagyobb friction a review roundtrip. Egy agent-native review UI (TUI overlay) ami diffet vagy tervet mutat, inline annotációt vesz fel, majd visszatolja az agentnek, gyorsítja a iterációs ciklust és csökkenti a félreértéseket. A review maga ‘tool’ lesz.
+**Signals (updated 2026-04-13):**
+- umputun/revdiff (GitHub, 2026-04-12): TUI diff reviewer inline annotációval, Claude Code plugin, plan-review hook (revdiff-planning). https://github.com/umputun/revdiff
+**Assessment:** Ez nagyon jól illeszkedik a H25 (multi-agent workspace orchestration) és H19 (operational reliability) köré: a review a legdrágább emberi idő, a visszacsatolás strukturálása a ROI. Navibase: ha fejlesztői ügynököket futtatunk, ez a human-in-the-loop UX minta exportálható.
+**Scores:** Pain=4 | Urgency=4 | WTP=3 | Def=2 | IntFric=2 | **Total: 15/25**
+*Új hypothesis (2026-04-13). A revdiff azt jelzi, hogy a ‘review loop tooling’ külön termékkategória lesz.*
+
+## H53 — Agent Secret Handling & Key Trust Boundary (Secretless-by-default Patterns)
+**Thesis:** A produkciós agent adoption egyik legkeményebb bizalmi határa: ‘odaadhatom-e a kulcsaimat’. A piac a long-lived .env kulcsok felől a scoped, rövid életű, delegált credential minták felé tolódik. A wedge: secret minimization, JIT tokenek, approval gates, és auditált secret access.
+**Signals (updated 2026-04-13):**
+- Ask HN: ‘Do you trust AI agents with API keys / private keys?’ (HN, 2026-04-12): explicit practitioner pain a secret megosztásról. https://news.ycombinator.com/item?id=47736831
+**Assessment:** Ez közvetlenül erősíti a H37 (OAuth credential delegation) és H40 (workload attestation) vonalat, de buyer-szinten a ‘kulcsok odaadhatósága’ a döntő kérdés. Navibase: egyszerű kommunikációs és termék-packaging lehetőség: ‘secretless by default’ + consent receipts (H44).
+**Scores:** Pain=5 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 19/25**
+*Új hypothesis (2026-04-13). A HN thread jelzi, hogy ez már nem elméleti compliance kérdés, hanem napi dev/ops dilemma.*
+
+## H54 — Long-Term Collaboration Memory as Shared Infrastructure (Episodic + World Model)
+**Thesis:** Hosszú távú human-AI együttműködésnél a legnagyobb teljesítmény-limit nem a modell, hanem a közös memória és a ‘project world model’. A memory rendszer nem chat log, hanem strukturált, indexelt, karbantartott tudás (episodic + reality), explicit műveletekkel (read/update/maintain).
+**Signals (updated 2026-04-13):**
+- visionscaper/collabmem (GitHub, 2026-04-11): long-term collaboration memory system sentinel tokenekkel, világmodell + történet index. https://github.com/visionscaper/collabmem
+**Assessment:** A kategória zsúfolt (H8), de a collabmem explicit ‘maintenance protocol’ mintája fontos: a memory rendszer nem csak store, hanem workflow. Navibase: a Leoni jellegű ops agentnél ez közvetlen érték, mert a döntések és kontextus auditálhatóbbá válik.
+**Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=2 | IntFric=3 | **Total: 16/25**
+*Új hypothesis (2026-04-13). A ‘sentinel token + maintenance’ minta a memory operációsítását jelzi.*
+
+## H55 — Interactive Terminal Program Control Layer (TUI Automation as Primitive)
+**Thesis:** Az agentek egyre több legacy/interactive CLI-t kell vezéreljenek (git TUI, db console, infra TUI). Ehhez kell egy TUI automation primitive: képernyő-állapot felismerés, input események, transcript, és permission/intervention. Ez az ‘agent ops surface’ új attack és governance felület.
+**Signals (updated 2026-04-13):**
+- onesuper/tui-use (GitHub, 2026-04-08): AI agents control interactive terminal programs. https://github.com/onesuper/tui-use
+**Assessment:** Ez a H39/H34 (ops monitoring) fejlesztői megfelelője: nem remote desktop, hanem terminal-level control. Navibase: belső eszköztárban hasznos, de enterprise-ben governance nélkül kockázatos, ezért összeér H22/H6-tal.
+**Scores:** Pain=3 | Urgency=3 | WTP=3 | Def=2 | IntFric=3 | **Total: 14/25**
+*Új hypothesis (2026-04-13). A TUI control az agent capability-k standardizálódó alsó rétege.*
+
+## H56 — In-Browser Design Editing → Agent Code Patches (Design-to-Agent Feedback Loop)
+**Thesis:** A ‘design by hand, code by agent’ workflow stabilizálódik: a user a böngészőben vizuálisan módosít, a változás strukturált eseményként megy az agenthez, aki patch-et készít a kódbázisban. Ez csökkenti a design-dev roundtripet és a félreértéseket.
+**Signals (updated 2026-04-13):**
+- cssstudio.ai (2026-04-09): in-browser editing, MCP-szerű event stream az agenthez, agent kódot módosít. https://cssstudio.ai
+**Assessment:** Ez a H25 (workspace orchestration) és a MCP governance (H3/H42) metszete: új tool surface (UI events) plusz audit/permission igény. Navibase: KKV webes projektekben gyors revenue wedge lehet, ha van safe change wrapper.
+**Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=2 | IntFric=3 | **Total: 16/25**
+*Új hypothesis (2026-04-13). A CSS Studio jelzi, hogy a UI-event alapú agent input mainstream minta.*
 
 ## H36 — Managed Infrastructure for Autonomous Agents (Agent Hosting as a Service)
 **Thesis:** Az autonóm agentek a pilot fázisból az éles üzem felé mennek, de a legtöbb csapat nem akar saját runtime-ot, sandboxot, skálázást, update-et és incident response-t építeni. Kell egy managed „agent hosting” réteg, ami elrejti az infrastruktúrát (runtime, izoláció, secrets, policy hooks, observability), és standard felületen adja a futtatást. A buyer itt nem csak enterprise security, hanem termékcsapat, aki gyorsan akar agentet élesíteni.
