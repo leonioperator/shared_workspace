@@ -89,6 +89,37 @@ Last updated: 2026-04-13
 **Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=2 | IntFric=3 | **Total: 16/25**
 *Új hypothesis (2026-04-13). A CSS Studio jelzi, hogy a UI-event alapú agent input mainstream minta.*
 
+## H57 — Agent-Native Video Knowledge Bases (YouTube-to-Wiki, scene-aware)
+**Thesis:** A „knowledge base” következő hulláma nem (csak) dokumentum-RAG, hanem **videókból** épített, kompaundáló tudás: transcript + scene change detektálás + key frame leírás → strukturált wiki oldalak, amikből az agent gyorsan visszakeres és hivatkozik. A value: a hosszú videók (talkok, belső felvételek, tréning) végre **repo-natív**, kereshető és idézhető tudásként élnek, nem „scrubolós” időrablásként.
+**Signals (updated 2026-04-14):**
+- mcptube / mcptube-vision (Show HN, 2026-04-13): Karpathy LLM Wiki minta YouTube-ra, ingest-time wiki page generálás, ffmpeg scene change + vision keyframe leírás, FTS5 keresés, MCP server mód. https://github.com/0xchamin/mcptube
+**Assessment:** Ez egyszerre MCP-szerű tool surface (H3/H42) és ops-érték: a csapat „agent oktatóanyaga” verziózható artefakt lesz. Navibase-nél gyors belső leverage: saját runbookok, demo videók, kliens onboarding videók tudásbázissá konvertálása.
+**Scores:** Pain=4 | Urgency=3 | WTP=3 | Def=2 | IntFric=2 | **Total: 14/25**
+*Új hypothesis (2026-04-14). A videó-tudásbázis a következő „unstructured data” wedge, és a workflow (scene + multimodal) már oss eszközzel megjelent.*
+
+## H58 — Local-First Agent Compute Kits (Vendor-Supported On-Device Agents)
+**Thesis:** A privacy, latency és költség miatt egyre több agent workflow tolódik **local-first / on-device** futtatásra. Ahogy a hardvergyártók explicit „local agent” toolkit-et adnak, az edge agent futtatás mainstream lesz, és új governance mintákat kér (policy, audit, model frissítés, data boundary) a lokális környezetben is.
+**Signals (updated 2026-04-14):**
+- AMD Gaia docs: “Build AI Agents That Run Locally” (2026-04-13). https://amd-gaia.ai/docs
+**Assessment:** Navibase/KKV kontextusban ez a „nem adom ki az adatot” buyer objection ellenszere. A kockázat: lokális sprawl és kontrollvesztés. A lehetőség: local agent deployment wrapper + evidence export ugyanúgy, mint cloudban.
+**Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=2 | IntFric=3 | **Total: 16/25**
+*Új hypothesis (2026-04-14). A vendor-szintű toolkit jelzi, hogy a local-first agent futtatás nem hobby, hanem termékesedő irány.*
+
+## Top 3 Opportunities + Suggested Experiments (2026-04-14)
+
+### #1: H53/H37/H40 — Secretless-by-default + credential delegation (Trust boundary wedge)
+**Miért most:** A „odaadhatom-e a kulcsaimat?” téma újra és újra feljön (Ask HN), miközben a credential delegation (Cred) és workload-attestation (H40) implementálható mintává konszolidálódik.
+**Kísérlet:** 1 hetes „Delegated Credential Demo”: JIT token issuance + scope + expiry + audit correlation. Deliverable: 1 oldalas evidence export + rövid video demo.
+
+### #2: H57 — Video-to-Wiki knowledge base (agent training leverage)
+**Miért most:** A mcptube-vision workflow konkrét, kipróbálható: scene-aware multimodal ingest + wiki pages. A csapatoknak ez azonnal időnyereség.
+**Kísérlet:** 1 nap: ingest 10 releváns agent/MCP/security YouTube videót, és mérni a keresési időt (FTS query → 1 perc alatt „idézet + summary”). 2. nap: MCP serverből agent query demo.
+
+### #3: H58 — Local-first agents (privacy-first SMB packaging)
+**Miért most:** Vendor-szintű „run locally” docs jelzi a wave-et. A buyer objection (adat) itt oldható fel leggyorsabban.
+**Kísérlet:** 3 napos POC: 1 tipikus SMB workflow local futtatása (pl. e-mail draft + docs summary) úgy, hogy semmi ne menjen ki a gépről. Mérők: minőség, latency, üzemeltetési friction, update story.
+
+
 ## H36 — Managed Infrastructure for Autonomous Agents (Agent Hosting as a Service)
 **Thesis:** Az autonóm agentek a pilot fázisból az éles üzem felé mennek, de a legtöbb csapat nem akar saját runtime-ot, sandboxot, skálázást, update-et és incident response-t építeni. Kell egy managed „agent hosting” réteg, ami elrejti az infrastruktúrát (runtime, izoláció, secrets, policy hooks, observability), és standard felületen adja a futtatást. A buyer itt nem csak enterprise security, hanem termékcsapat, aki gyorsan akar agentet élesíteni.
 **Signals (updated 2026-04-10):**
