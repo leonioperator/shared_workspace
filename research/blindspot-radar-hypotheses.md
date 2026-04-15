@@ -1,6 +1,45 @@
 # Blindspot Radar — Scored Hypothesis List
 Last updated: 2026-04-13
 
+## H59 - Agent Credential Brokerage (Secretless access for coding agents)
+**Thesis:** A coding agenteknek egyre több külső rendszerhez kell hozzáférés (GitHub, DB, billing, infra), de a long-lived API keyk .env-ben vagy chatben való kezelése tarthatatlan. A piac egy "credential broker" mintázat felé tolódik: OIDC/token exchange, rövid életu, scope-olt cred, audit stream, és egyértelmu delegation chain.
+**Signals (updated 2026-04-15):**
+- Kontext CLI (GitHub, 2026-04-14): credential broker AI coding agentekhez (OIDC + token exchange, short-lived scoped creds, audit streaming). https://github.com/kontext-dev/kontext-cli
+- Cred (Product Hunt, 2026-04-09): OAuth credential delegation AI agenteknek. https://www.producthunt.com/products/cred-3
+**Assessment:** Ez a H37/H53 irány gyakorlati termékesedése. A buyer nyelv egyszeru: "nem adom oda a kulcsaimat". Navibase: drop-in JIT token issuance + audit korreláció, plusz consent receipt (H44) a high-risk műveletekhez.
+**Scores:** Pain=5 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 19/25**
+*Új hypothesis (2026-04-15). A Kontext a cred-delegation mintát konkrét eszközzé teszi, ami felgyorsítja a table stakes szintet.*
+
+## H60 - Agent Identity Platform (Lifecycle, authZ, audit as primitives)
+**Thesis:** Az agent identity nem csak "token scope", hanem teljes lifecycle: agent principal típus, provisioning/deprovisioning, policy, attestation, audit export, és ownership. Ahogy az agentek autonómabbá válnak, külön identity platform jelenik meg kifejezetten agentekre.
+**Signals (updated 2026-04-15):**
+- ZeroID (Help Net Security, 2026-04-13): open-source identity platform autonomous agentekhez. https://news.google.com/rss/articles/CBMiowFBVV95cUxNQ0tqVkFiZV9IbjR1R1ZMVVZVdHpMZjcta0VTV3hxSllhNkpmaUFWYzdSZmFZQjd3SlZ5UzNlU083Ql9pa0E1ajF4alBYRktpdEVFYnFlTVprNHBQTXNwWWFFNVFhVVdlVmRKdkNHVjdCTFFFSnIwSmgzdDdMOTJKTThjbURYOU9LOUFTcGotQ1NqVmhraFA2OGswMGhxQWlfamZv?oc=5
+**Assessment:** Ez a H1/H40 kiegészítő, de termék-szinten: identity control plane agenteknek. Navibase: nem feltétlen saját IDP, inkább kompatibilitás, evidence export és "agent principal" best practice csomag.
+**Scores:** Pain=5 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 19/25**
+*Új hypothesis (2026-04-15). A ZeroID jelzi, hogy az agent identity külön platformrétegként kezd kristályosodni.*
+
+## H61 - Agent Failure Investigation Automation (RCA for LLM apps)
+**Thesis:** A production agentek nem "crash-elnek", hanem csendben rossz kimenetet adnak. A trace-ek kézi elemzése skálázhatatlan. Kell egy RCA réteg, ami automatikusan klaszterez, root cause hipotéziseket javasol, és a hibákhoz javítási útvonalat ad.
+**Signals (updated 2026-04-15):**
+- Kelet (2026-04-14): root cause analysis agent LLM appokhoz, trace scroll helyett mintázat felismerés. https://kelet.ai/
+**Assessment:** Rokona a H32 trace-to-patch-nek, de ops fókuszú: "mi romlott el" és "hol". Navibase: Leoni reliability javítás gyors ROI, plusz enterprise audit story (H41).
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=2 | IntFric=3 | **Total: 17/25**
+*Új hypothesis (2026-04-15). A Kelet azt jelzi, hogy a hibakeresés önálló termékkategória lesz agent rendszereknél.*
+
+## Top 3 Opportunities + Suggested Experiments (2026-04-15)
+
+### #1: H59 - Credential broker demo (secretless-by-default gyors proof)
+**Miért most:** Kontext + Cred együtt jelzi, hogy a buyer elvárás a rövid életu, scope-olt credential. Ez az egyik leggyorsabban értékesíthető bizalmi wedge.
+**Kísérlet:** 3 napos demo: OIDC token exchange + JIT token issuance + audit correlation id (run id). Deliverable: 1 oldalas evidence export + 2 perces képernyőfelvétel.
+
+### #2: H61 - RCA pilot Leoni trace-eken (belső gyors ROI)
+**Miért most:** A trace-ek már megvannak, a kézi elemzés drága. A buyer nyelv: "miért nem azt csinálta".
+**Kísérlet:** 1 hét: utolsó 30 nap hibás run klaszterezése, top 10 failure pattern + javasolt guardrail/prompt/policy fix. Mérők: human intervention rate csökkenés, regressziók száma.
+
+### #3: H60 - Agent identity platform scan (ZeroID fit + gap list)
+**Miért most:** Identity lifecycle most fordul át "nice"-ból "compliance kérdés"-sé.
+**Kísérlet:** 2 nap: ZeroID áttekintés + "agent principal" checklist (provisioning, rotation, deprovision, audit export). Output: gap lista Navibase/Leoni-hoz és 1 integrációs útvonal.
+
 ## H46 — Cloud Sandbox Delegation Harness (PR-returning cloud agents)
 **Thesis:** A coding agentek következő hulláma nem IDE plugin, hanem *delegációs harness*: chat/Slack/GitHub felől leírsz egy feladatot, és a rendszer izolált cloud sandboxban futtatja a lab-native CLI agentet (Claude Code/Codex), majd PR-t/review-t/diagnózist ad vissza. A buyer pain: párhuzamosíthatóság, per-task izoláció, perzisztencia (éjszaka is fut), és a „local machine trust gap”.
 **Signals (updated 2026-04-12):**
