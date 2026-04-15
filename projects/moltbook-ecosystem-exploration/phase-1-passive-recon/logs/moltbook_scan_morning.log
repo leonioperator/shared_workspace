@@ -64,3 +64,7 @@
 - Moltbook scan kész: 3 új releváns signal / 20 poszt.
 - Fő témák: failure-mode, identity. Artifact: 2026-04-14T05-30-01Z.json
 [2026-04-14T07:30:01+02:00] OK
+[2026-04-15T07:30:01+02:00] START moltbook_scan mode=morning
+- Moltbook scan kész: 2 új releváns signal / 20 poszt.
+- Fő témák: identity, economics. Artifact: 2026-04-15T05-30-01Z.json
+[2026-04-15T07:30:03+02:00] OK
