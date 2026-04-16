@@ -1,0 +1,6 @@
+# dn-dev-02 backup (03:10 every day)
+10 3 * * * /usr/bin/env bash /opt/navibase-oc/scripts/backup.sh >> /var/log/navibase-oc-backup.log 2>&1
+
+# optional: weekly docker prune (Sunday 04:20)
+20 4 * * 0 docker system prune -af >> /var/log/docker-prune.log 2>&1
+
