@@ -1425,3 +1425,49 @@ Scoring dimensions (1–5 each):
 ### #3: H44 — Consent receipts + preview-then-execute (Navibase/Leoni quick win)
 **Miért most:** HITL external comms baseline lett. Low build, high trust.
 **Kísérlet:** Leoni-ban 2 hetes pilot: minden külső email és CRM update előtt diff preview + approve, automatikus consent receipt mentés. Mérők: approval latency, user trust feedback, hibák csökkenése.
+
+
+---
+
+# Update — 2026-04-16
+
+## H62 — Vendor Agent SDK Safety Primitives (Guardrails move “up-stack”)
+**Thesis:** Ahogy a nagy model provider-ek agent SDK-i érettebbé válnak, a safety és governance primitívek (policy hooks, tool call guardrails, structured auditing) "felköltöznek" a vendor SDK rétegébe. Ez csökkenti a belépési súrlódást, de új problémát nyit: a csapatok több SDK-t használnak, és kell egy cross-vendor baseline (evidence export, policy mapping, org standard) ami nem lock-in.
+**Signals (updated 2026-04-16):**
+- OpenAI Agents SDK update (TechCrunch, 2026-04-15): enterprise-safe agent building primitives bővülése. https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/
+**Assessment:** Ez a H6/H2/H41 irányt erősíti, de a termék-szintű realitás az, hogy a buyer először vendor SDK-t fog választani. Navibase: "guardrails + evidence export" adapter réteg, ami több SDK fölött ugyanazt a compliance artifactot adja.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=2 | **Total: 17/25**
+*Új hypothesis (2026-04-16). A safety primitives vendor-szintre tolódása gyorsítja az adoptiont, és felértékeli a cross-SDK governance/evidence réteget.*
+
+
+## H63 — Agent Seat Licensing & Procurement Controls (Agents as employees)
+**Thesis:** Ha az agentek "digitális munkatársakként" jelennek meg, a következő kontroll nem technikai, hanem gazdasági és compliance: licenc, seat assignment, költségallokáció, és entitlement kezelés (mely agent milyen szoftvert "használhat"). A seat/licensing modellek agent principalokra való kiterjesztése új platformréteget igényel.
+**Signals (updated 2026-04-16):**
+- Microsoft exec suggests AI agents will need to buy licenses, just like employees (Business Insider, 2026-04-14). https://www.businessinsider.com/microsoft-executive-suggests-ai-agents-buy-software-licenses-seats-2026-4
+**Assessment:** Ez a H1/H60 identity + H29 cost governance metszete. Navibase: "agent entitlement registry" (agent principal → allowed apps/licenses) + audit export, ami procurement nyelven beszél.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-04-16). A "seat for agents" narratíva buyer-friendly, és gyorsan procurement kérdéssé válhat.*
+
+
+## H64 — Integrity Hallucination / Decision Consistency Governance
+**Thesis:** High-stakes környezetben a probléma nem csak "hallucination", hanem az inkonzisztens döntés (ugyanarra az inputra más kimenet, indoklás drift). Kell egy integritás és konzisztencia réteg: decision fingerprinting, invariánsok, regressziós teszt suite, és "integrity drift" metrika.
+**Signals (updated 2026-04-16):**
+- Integrity hallucination raises concerns over inconsistent AI decision-making in high-stakes systems (Devdiscourse, 2026-04-15). https://news.google.com/rss/articles/CBMi6wFBVV95cUxNYmJrUi1haWpYaFlZdENRdUswaFBlRDNpWGxTTHduQjl6QU04c3phN0FqR1YwRHlnY2JMTDBaUWVEVnRxVG9zdGpWckVHY05SRGZoc0VLSkZHdHY4SWJPdnZOckFyeVFwNDk3a1BZOUthQzUzLTJ4YmluYmhoSTgwWWRnWjJKWExwaFROcFBBRE1ZQ1RwZ3ZEM2cta3NCRFNfeHBlRVhwWlpxMHJrckFmeDg5eXM2bHp3R1BzcTRhYTUyMElqcTNFR01MRURRLTIyRUpEanRTaWZEd2NYdXRjTlQtWWt3amF6ZWlv0gHwAUFVX3lxTE15WFh1Skp4OE1RYjVYQ1JrVEt6QnpoSGl6SElXYmtxV3Bqc0pIa0dEVjU4Q2tHelkwa1JObXJ0ZG5TbVN6Y0JTSG8xQWoyMGV1Wkc1cVdpRnUySHBEQk1WWWdpVTNkYm91RE12Q1g0OS0zWXllQXZSMks0Ry01VFA4QlBQRDBubjVFNGRUYmwwWUlSOUtlT2dyMmVuSXNEY3VrbmphU3V5MElzYW9vRzREVm1qRVZ1VE9ESWhzSVQxOHB1Z1BHbTY0bHJlZDMwNGp6TzBkN2lfMTBIck9mSFVDdjRPSmlKdFgwbWt1QWpkOA?oc=5
+**Assessment:** Ez a H21 (deterministic trust) technikai megfelelője. Navibase: "integrity gate" minden külső kimenet előtt, plusz audit-evidence a konzisztencia tesztekről.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-04-16). A failure-mode név ("integrity hallucination") segít buyer-nyelvre fordítani a konzisztencia problémát.*
+
+
+## Top 3 Opportunities + Suggested Experiments (2026-04-16)
+
+### #1: H62 — Cross-SDK evidence export baseline (vendor guardrails fölé)
+**Miért most:** A safety primitive-ek vendor SDK-kban landolnak, de a buyer nem akar lock-in és egységes compliance artifactot akar.
+**Kísérlet:** 3 nap: egy "evidence export adapter" prototípus (1 workflow) ami OpenAI Agents SDK runból exportál: tool-call timeline + policy decisions + correlation id, és ugyanarra a sémára illeszthető más SDK-ból is.
+
+### #2: H63 — Agent entitlement registry (seat/licensing control plane)
+**Miért most:** A "agents buy seats" narratíva procurement nyelv, gyorsan költség és compliance témává válik.
+**Kísérlet:** 1 hét: minimál entitlement registry (agent principal → allowed SaaS/apps/licenses) + audit export + egyszerű approval flow (H44).
+
+### #3: H64 — Integrity drift check for outbound actions (consistency gate)
+**Miért most:** Inkonzisztens döntések high-stakes környezetben új failure-mode-ként vannak címkézve, a buyer ezt érti.
+**Kísérlet:** 1 hét: "integrity test pack" 20 fix scenario-val + regressziós futtatás release előtt, és runtime "invariant checks" outbound email/record update előtt.
