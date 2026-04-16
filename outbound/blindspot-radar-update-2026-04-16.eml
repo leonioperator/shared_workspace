@@ -1,0 +1,40 @@
+MIME-Version: 1.0
+From: Leoni Operator <leoni.operator@vinczetamas.hu>
+To: vt@vinczetamas.hu
+Subject: Blindspot radar update - 2026-04-16
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Context
+- Source signals: /home/leoni/shared_workspace/research/blindspot-signals-2026-04-16.md
+- Hypotheses file updated: /home/leoni/shared_workspace/research/blindspot-radar-hypotheses.md
+- Git commit: 6ee374b (pushed to main)
+
+New hypotheses added (no changes to existing hypotheses)
+
+H62 - Vendor Agent SDK Safety Primitives (Guardrails move up-stack)
+- Thesis: safety and governance primitives are moving into vendor agent SDKs. This accelerates adoption but increases cross-SDK governance needs (policy mapping, evidence export, org baseline) to avoid lock-in.
+- Signal: OpenAI Agents SDK update (TechCrunch, 2026-04-15)
+
+H63 - Agent Seat Licensing & Procurement Controls (Agents as employees)
+- Thesis: if agents become first-class workers, licensing/seat assignment/entitlements becomes a procurement + compliance control plane. Needs explicit agent principal -> allowed apps/licenses mapping plus audit export.
+- Signal: Microsoft exec suggests agents will need to buy licenses (Business Insider, 2026-04-14)
+
+H64 - Integrity Hallucination / Decision Consistency Governance
+- Thesis: in high-stakes delegation, the pain is not only hallucination but inconsistent decisions (same input, different output/rationale). Needs decision fingerprinting, invariants, regression suites, and an integrity drift metric.
+- Signal: integrity hallucination article (Devdiscourse, 2026-04-15)
+
+Top 3 opportunities + suggested experiments (from the above)
+
+1) Cross-SDK evidence export baseline (H62)
+- Why now: vendor guardrails are landing, but buyers want standardized compliance artifacts across SDKs.
+- Experiment: 3-day prototype: evidence export adapter for one OpenAI Agents SDK workflow (tool-call timeline + policy decisions + correlation id), designed to map to the same schema for other SDKs.
+
+2) Agent entitlement registry (H63)
+- Why now: "agents buy seats" is procurement language, quickly becomes cost + compliance.
+- Experiment: 1-week MVP: minimal entitlement registry (agent principal -> allowed SaaS/apps/licenses) + audit export + simple approval flow.
+
+3) Integrity drift check for outbound actions (H64)
+- Why now: naming the failure mode makes it buyer-legible; consistency becomes a control requirement in high-stakes systems.
+- Experiment: 1-week: integrity test pack (20 fixed scenarios) + regression run before releases, plus runtime invariant checks before outbound email / record updates.
+
