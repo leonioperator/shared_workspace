@@ -1471,3 +1471,108 @@ Scoring dimensions (1–5 each):
 ### #3: H64 — Integrity drift check for outbound actions (consistency gate)
 **Miért most:** Inkonzisztens döntések high-stakes környezetben új failure-mode-ként vannak címkézve, a buyer ezt érti.
 **Kísérlet:** 1 hét: "integrity test pack" 20 fix scenario-val + regressziós futtatás release előtt, és runtime "invariant checks" outbound email/record update előtt.
+
+
+---
+
+# Update — 2026-04-17
+
+## H65 — Real-Time Agent Stack Anomaly Detection (Proactive Failure Intelligence)
+**Thesis:** A passzív logging (trace, audit trail) és az utólagos RCA (H61) nem elegendő: a produkciós agent hiba ott fáj, ahol csendben, de az egész tech stacken keresztül terjedve jelenik meg. Az InsightFinder $15M befektetési validáció pontosan erre a rétegre irányul: nem a model-hibák detektálása, hanem az agent + infra + app stack viselkedésének proaktív anomália-detekciója. A winner nem logol, hanem előre jelez.
+**Signals (updated 2026-04-17):**
+- InsightFinder raises $15M: "help companies figure out where AI agents go wrong" (TechCrunch, 2026-04-16): CEO szerint a probléma nem egyes model hibák, hanem az egész tech stack viselkedése — explicit proaktív anomália kategória. $15M seed validálja a WTP-t. HIGH CONFIDENCE.
+- Integrity hallucination — inconsistent AI decision-making in high-stakes systems (Devdiscourse, 2026-04-15): az inkonzisztencia felderítése real-time monitoring nélkül lehetetlen. HIGH CONFIDENCE.
+**Assessment:** Ez a H61 (RCA) és H19 (operational reliability) következő rétege: nem "mi romlott el", hanem "mikor fog elromlani". A $15M validálja, hogy a buyer fizet ezért. Navibase alkalmazás: agent + cron + API stack behavioral baseline + anomália alert Telegramon, mielőtt a hiba terjed.
+**Scores:** Pain=4 | Urgency=4 | WTP=5 | Def=3 | IntFric=3 | **Total: 19/25**
+*Új hypothesis (2026-04-17). Az InsightFinder befektetés az eddig legerősebb VC-validáció a proaktív agent stack monitoring kategóriában.*
+
+
+## Megerősített signalok (2026-04-17)
+
+**H59/H37/H53 (credential delegation):** Kontext CLI bekerült GitHub-ra (2026-04-14) + "Do you trust AI agents with API keys?" HN thread (2026-04-12) egymást erősítik. A credential boundary kérdés nem elméleti — napi ops dilemma. Credential brokerage/JIT token pattern gyorsabban válhat table stakes-szé, mint terveztük.
+
+**H60/H1 (agent identity platform):** ZeroID megerősítés (Help Net Security, 2026-04-13) + dedikált "AI Agents Authentication" cikk (Security Boulevard, 2026-04-16): az agent identity mint önálló platform-réteg kristályosodik. A ZeroID open-source terjedése felgyorsíthatja a compliance elvárást a nem-ZeroID platformokon.
+
+**H63 (agent seat licensing):** Microsoft "agents buy licenses like employees" újra megjelent mainstream sajtóban (Business Insider, 2026-04-14). Az entitlement/licensing kérdés a procurement szintre érkezett.
+
+**H64/H21 (integrity/consistency governance):** Az "integrity hallucination" elnevezés (Devdiscourse, 2026-04-15) buyer-szintű nyelvet ad a konzisztencia-problémának. High-stakes rendszereknél ez gyorsan compliance-kérdéssé válik.
+
+**H34/H44 (human-in-the-loop formalization):** "The human exception in AI governance: ticking boxes?" (Computer Weekly, 2026-04-08) jelzi, hogy a HITL nem elég szabályozói szemmel — formalizált döntési határok kellenek. Ez a H44 (consent receipts) és H6 (policy enforcement) piaci narratíváját erősíti.
+
+**H20/H6 (policy + platform compliance):** Algorithmic government paper (BizNews, 2026-04-15) — a döntési delegáció szabályozói keretbe illesztése nemcsak várható, hanem elkerülhetetlen. Platform-szintű compliance deadline-ok közelednek.
+
+
+## Ranking Summary (2026-04-17)
+
+| Rank | Hypothesis | Score | Delta |
+|------|-----------|-------|-------|
+| 1 | H2 — Audit Trail | 22/25 | = |
+| 2 | H6 — Policy Enforcement Runtime | 22/25 | = |
+| 3 | H22 — Adversarial Robustness Layer | 22/25 | = |
+| 4 | H1 — Agent Identity & Auth | 21/25 | = |
+| 5 | H20 — Agent Platform as Regulated Infrastructure | 21/25 | = |
+| 6 | H24 — Shadow AI Governance Plane | 21/25 | = |
+| 7 | H40 — Workload-to-Agent Attestation | 22/25 | = |
+| 8 | H41 — Audit-First Compliance Artifacts | 22/25 | = |
+| 9 | H3 — MCP Governance | 20/25 | = |
+| 10 | H12 — Agent Accountability Framework | 20/25 | = |
+| 11 | H30 — Agent Trading Protocol & Risk Governance | 20/25 | = |
+| 12 | H43 — Signed A2A Delegation Claims | 20/25 | = |
+| 13 | H10 — Agent Infra as Code | 19/25 | = |
+| 14 | H15 — B2B SaaS Agent Feature Injection | 19/25 | = |
+| 15 | H42 — MCP Security Profiles | 19/25 | = |
+| 16 | **H65 — Proactive Agent Stack Anomaly Detection** | **19/25** | **ÚJ** |
+| 17 | H59 — Agent Credential Brokerage | 19/25 | = |
+| 18 | H60 — Agent Identity Platform | 19/25 | = |
+| 19 | H7 — SMB Deployment Wrapper | 18/25 | = |
+| 20 | H8 — Cross-Agent Context | 18/25 | = |
+| 21 | H13 — Agent Sandboxing & Isolation | 18/25 | = |
+| 22 | H14 — Agent-to-Agent Trust & M2M | 18/25 | = |
+| 23 | H16 — AI Alignment Measurement as a Service | 18/25 | = |
+| 24 | H17 — Controlled Self-Configuration Boundary | 18/25 | = |
+| 25 | H18 — Organizationally-Aligned AI | 18/25 | = |
+| 26 | H19 — Operational Reliability Layer | 18/25 | = |
+| 27 | H21 — Deterministic Agent Behavior as Trust Signal | 18/25 | = |
+| 28 | H23 — Agentic QA & Mutation Testing as a Service | 18/25 | = |
+| 29 | H28 — Bias/Fairness Governance | 18/25 | = |
+| 30 | H32 — Trace-to-Patch Harness Improvement | 18/25 | = |
+| 31 | H33 — Multi-Agent Influence Governance | 18/25 | = |
+| 32 | H61 — Agent Failure Investigation Automation | 17/25 | = |
+| 33 | H63 — Agent Seat Licensing & Procurement | 18/25 | ↑ signal erős |
+| 34 | H64 — Integrity Hallucination / Consistency Governance | 18/25 | ↑ névvel bíró failure mode |
+| 35 | H4 — Agent Payment Rails | 17/25 | = |
+| 36 | H11 — Hallucination Self-Check | 17/25 | = |
+| 37 | H27 — Agent Packaging & Portability Spec | 17/25 | = |
+| 38 | H29 — Cost Governance & Token Budget | 17/25 | = |
+| 39 | H31 — Agent-Native KB for Office Files | 17/25 | = |
+| 40 | H44 — Consent Receipts + Preview-Then-Execute | 17/25 | = |
+| 41 | H45 — Agent Runbooks & Incident Response | 17/25 | = |
+| 42 | H62 — Cross-SDK Safety Primitives | 17/25 | = |
+| 43 | H5 — Discovery & Registry | 16/25 | = |
+| 44 | H25 — Dev Multi-Agent Workspace Orchestration | 16/25 | = |
+| 45 | H26 — WordPress/Plugin Ecosystem Vertical Copilots | 14/25 | = |
+| 46 | H9 — Agent Communication Infra | 12/25 | = |
+
+*2026-04-17 delta: 1 új hypothesis (H65 — Proactive Agent Stack Anomaly Detection, 19/25). Megerősített irányok: H59/H60 credential+identity erősödik, H63 procurement szintre ér, H64 buyer-language névvel bír.*
+
+
+## Top 3 Opportunities + Suggested Experiments (2026-04-17)
+
+### #1: H65 — Proactive Agent Stack Anomaly Detection (InsightFinder validáció)
+**Miért most:** $15M seed befektetés validálja a WTP-t — a buyer fizet a proaktív anomália-detektálásért. A versenytárs (InsightFinder) enterprise-fókuszú; a KKV wedge nyitva van. Leoni belső infrastruktúrán (cron, task runner, API hívások) már van elég trace-adat egy MVP-hez.
+**Kísérlet:** 2 hetes pilot: agent run behavioral baseline rögzítés (latency, tool-call sorrend, failure arány per feladattípus) + anomália alert Telegramon ha >2 sigma eltérés. Mérők: false positive arány, mean-time-to-detect, Tomi visszajelzés (hasznos-e az alert).
+**Befektetés:** ~3 nap build. Leoni trace data már megvan.
+
+### #2: H59/H37 — Credential Delegation Demo (Secretless-by-default proof)
+**Miért most:** Kontext CLI + HN trust thread egyszerre jelzi: ez napi ops dilemma, nem elméleti. A buyer language egyszerű: "nem adom oda a kulcsaimat." JIT token + scope + audit correlation lánc gyorsan termékesíthető.
+**Kísérlet:** 3 napos demo: OIDC token exchange + JIT token issuance + audit correlation ID (per run). Deliverable: 1 oldalas evidence export + 2 perces képernyőfelvétel a Navibase pitchhez.
+**Befektetés:** ~3 nap. Kontext CLI maga a reference implementation.
+
+### #3: H64 — Integrity Consistency Gate (outbound actions előtt)
+**Miért most:** Az "integrity hallucination" buyer-szintű névvel bíró failure mode lett. High-stakes döntéseknél (ajánlat, email, döntéstámogatás) az inkonzisztencia már közvetlen üzleti kár. Alacsony build fric: 20 fix scenario + regression checker.
+**Kísérlet:** 1 hét: "integrity test pack" (20 fix scenario, Leoni outbound email + kanban update + cron) + regressziós futtatás release/konfig változás előtt. Mérők: inkonzisztencia arány, false block arány, Tomi audit visszajelzés.
+**Befektetés:** ~2 nap. Navibase differenciáló: "minden outbound action mögött konzisztencia garancia."
+
+---
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-17.md (350 releváns, 92 prioritizált) | 2026-04-17 18:48 CET*
