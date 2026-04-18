@@ -74,7 +74,7 @@ sync_shared_workspace() {
 
 sync_workspace_backup() {
   local repo_dir="/home/leoni/.openclaw/workspace"
-  local log_dir="/home/leoni/.openclaw/workspace/ops/logs"
+  local log_dir="/home/leoni/shared_workspace/ops/logs"
   local log_file="$log_dir/repo_sync_workspace_backup.log"
 
   log_init "$log_dir" "$log_file"
