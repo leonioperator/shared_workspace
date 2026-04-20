@@ -1576,3 +1576,162 @@ Scoring dimensions (1–5 each):
 ---
 
 *Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-17.md (350 releváns, 92 prioritizált) | 2026-04-17 18:48 CET*
+
+
+---
+
+# Update — 2026-04-20
+
+## H66 — Agentic Supply Chain Security (Distillation as Attack Vector)
+**Thesis:** Az agentic safety eddig feltételezte, hogy az adatszanitáció elegendő védelmet nyújt. Az arxiv "subliminal transfer" paper megmutatja: veszélyes viselkedési minták implicit módon beágyazódnak modell-disztilláció során — akkor is, ha az explicit kulcsszavakat kiszűrik. Ez az agentic supply chain legalaposabban alulbeszélt kockázata: nem az input, hanem a modell örökölt viselkedése a fenyegetés. Kell egy "supply chain attestation" réteg: honnan jött a modell, milyen trajektória-adatokon tanult, és milyen implicit viselkedési bias-t örökített a tanártól a diákra?
+**Signals (updated 2026-04-20):**
+- "Subliminal Transfer of Unsafe Behaviors in AI Agent Distillation" (arxiv, 2026-04-16): diákmodell örökli a tanár destruktív magatartását (törlési bias, destructive filesystem operations) puszta trajektória-dinamikából, explicit kulcsszavak kiszürése után is. HIGH CONFIDENCE.
+- "Secure-by-Design: 3 Principles to Safely Scale Agentic AI" (CIO.com, 2026-04-16): mainstream enterprise IT napirendbe kerül az agentic AI biztonság, de a supply chain kockázat explicit formában még nem jelenik meg. HIGH CONFIDENCE.
+- H22 (Adversarial Robustness) és H23 (Agentic QA) az input és runtime rétegre fókuszál — a supply chain (training/distillation) réteg különálló kategória.
+**Assessment:** Ha az adatszanitáció nem véd, az enterprise adopció alapfeltevése omlik össze. A "supply chain attestation" mint compliance primitive valószínüleg gyorsan table stakes-szé válik: milyen training provenance van a deployed agent mögött? Navibase alkalmazás: deployed agent-ek "training lineage card"-ja, implicit behavior audit (behavioral invariant test suite), és vendor-attestation kérés kritikus deploymenteknél.
+**Scores:** Pain=5 | Urgency=4 | WTP=4 | Def=4 | IntFric=4 | **Total: 21/25**
+*Új hypothesis (2026-04-20). Az arxiv paper az elso empirikus bizonyíték arra, hogy az agentic supply chain támadási vektor — a training provenance és behavioral audit kategória eddig üres volt.*
+
+---
+
+## H67 — Offensive Agent Red-Teaming as a Service (Multi-turn Attack Automation)
+**Thesis:** Az agentic testing ma manuális: biztonsági csapatok kézzel próbálnak prompt injectiont, tool hijackinget, logic bug-okat keresni. A Nyx harness megmutatja, hogy az agentic red-teaming automatizálható multi-turn forgatókönyvekkel — és 10 perc alatt megtalál olyan hibákat, amelyeket manuális auditok órák alatt sem. Ez az "offensive testing as a service" kategóriát nyitja meg: nem csak defense (H22/H6), hanem aktív, rendszeres agent attack simulation, deliverable-lel és compliance evidence-szel.
+**Signals (updated 2026-04-20):**
+- "Nyx – Multi-turn Offensive Testing Harness for AI Agents" (HN / fabraix.com, 2026-04-19): autonóm blackbox tesztelő eszköz AI agentekhez, 10 perc alatt detektál logikai hibát, prompt injectiont, tool hijackinget. HIGH CONFIDENCE.
+- Trail of Bits mutation testing paper (2026-04-01): az agentic testing üres kategória, különbözo megközelítések egymást kiegészítik. HIGH CONFIDENCE.
+- H23 (Agentic QA) rokon kategória, de a Nyx multi-turn attack simulation más dimenzió: nem mutation testing, hanem adversarial dialogue és toolchain abuse.
+**Assessment:** Az "offensive agent testing" buyer-language: "tudom-e, hogy az agenten tört be valaki?" — ez a SOC 2 és enterprise security audit természetes következo kérdése. Navibase alkalmazás: negyedéves "Agent Red-Team Report" deliverable, Nyx-alapú automated scan + human-curated findings.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-04-20). A Nyx validálja a piacot: az automated multi-turn attack simulation nem kutatás, hanem használható eszköz. A "red-teaming as a service" a H23 mutation testing természetes következo fázisa.*
+
+---
+
+## H68 — Self-Evolving Agent Governance (GEP / Genome-Level Audit Gap)
+**Thesis:** A "Genome Evolution Protocol" alapú önfejleszto agentek (EvoMap/evolver) megjelenése elorehozza az eddig 2027+ kategóriának besorolt governance kérdést: hogyan auditálható egy agent, amelyik saját magát módosítja futás közben? A H17 (Controlled Self-Configuration) a statikus scope-határ kérdése — az önfejleszto agent dinamikusan változó scope-ot jelent, ahol az audit trail nem egy állapotot, hanem egy evolúciós trajektóriát kell rögzítenie. Kell egy "genome audit" primitív: mikor változott az agent, mit változtatott, és a változás compliance-korlátok közt maradt-e?
+**Signals (updated 2026-04-20):**
+- "EvoMap/Evolver – GEP-Powered Self-Evolution Engine for AI Agents" (GitHub, 2026-04-17): agenteket önmagukat fejlesztheto rendszerekként kezeli Genome Evolution Protocol alapján. HIGH CONFIDENCE.
+- H17 (Controlled Self-Configuration Boundary, 18/25): statikus scope-hardening megoldott — a dinamikus self-evolution új governance primitívet igényel.
+- "Agentic AI and the next intelligence explosion" (arxiv, 2026-03-30): a self-evolving agent narratíva erosödik, governance elmarad. HIGH CONFIDENCE.
+**Assessment:** Ez rövid távon research fázis, de a tooling megjelenése (EvoMap) azt jelzi, hogy a kérdés hamarabb éri el a productiont, mint terveztük. Navibase alkalmazás: "agent genome snapshot" minden futás elott/után + diff + compliance gate (engedélyezett vs. nem engedélyezett változás típusok).
+**Scores:** Pain=4 | Urgency=3 | WTP=3 | Def=4 | IntFric=4 | **Total: 18/25**
+*Új hypothesis (2026-04-20). Az EvoMap a "self-evolving agent" kategóriát konkrét OSS eszközként megnyitja — a governance kérdés hamarabb production-kérdés lesz, mint várható volt.*
+
+---
+
+## H69 — Cross-Border AI Regulatory Fragmentation (Compliance Translation Layer)
+**Thesis:** Ázsiában (India, Indonézia, Kína) és Európában (EU AI Act) párhuzamosan formálódnak az AI governance struktúrák, egymással nem harmonizáltan. Egy cross-border agent deployment (pl. KKV európai irodával és ázsiai partnerekkel) egyszerre kell megfeleljen az EU AI Act, MeitY, és esetleg indonéziai/kínai szabályozásnak — jelenleg nincs olyan eszköz, ami ezt automatikusan mappel, jelöli a konfliktusokat, és javasol compliance adaptációt. Ez az "AI regulatory translation" kategória.
+**Signals (updated 2026-04-20):**
+- India dual AI governance structure (Zee News / MediaNews4U, 2026-04-17-18): MeitY tech-policy panel + Ashwini Vaishnaw-vezette cross-minisztériumi testület párhuzamosan — India regulatory landscape összetett és gyorsan változik. HIGH CONFIDENCE.
+- Indonesia AI Ethics and National Regulation (2026-04-17): délkelet-ázsiai szabályozás is formálódik. MEDIUM CONFIDENCE.
+- Chinese groups global AI governance framework (2026-04-17): Kína aktívan alakítja a globális AI governance normákat, EU-s keretekkel kevés átfedéssel. MEDIUM CONFIDENCE.
+- EU AI Act Aug 2026: európai framework kész, de cross-border deployment-nél nem elegendo. HIGH CONFIDENCE.
+**Assessment:** A cross-border compliance gap 2026 végére éles piaci problémává válhat. A buyer: multinacionális KKV, külföldi piacra lépo startup, enterprise compliance csapat. Navibase alkalmazás: "Regulatory Matrix" — per-deployment compliance mapping (EU AI Act + MeitY + local) + automatikus gap-detekció + javasolt adaptációs lépések.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=4 | **Total: 19/25**
+*Új hypothesis (2026-04-20). Az ázsiai regulatory proliferáció egyszerre erösíti és bonyolítja a compliance piacot. A "regulatory translation" kategória üres — a buyer fájdalma valós, de a termék még nincs.*
+
+---
+
+## H70 — Agent-Ready Web as Interoperability Standard
+**Thesis:** Az internetes infrastruktúra "agent-readiness" szempontú értékelése (isitagentready.com, Cloudflare) jelzi, hogy hamarosan elvárás lesz, hogy API-k, weboldalak és B2B platformok natively megérthetok legyenek AI agentek számára (robots.txt analógiája agentek számára, strukturált tool-call schema, consent/auth dokumentáció). Aki nem tervezi erre rendszereit, az lemarad az agent-driven distribution hullámtól. Ez a "web-for-agents" szabványosítás következo platform-váltása.
+**Signals (updated 2026-04-20):**
+- "Isitagentready.com / Cloudflare — Website Agent-Readiness Scanner" (Product Hunt / Cloudflare, 2026-04-17): a Cloudflare elkezdette az internetes infrastruktúra "agent-readiness" szempontú értékelését. HIGH CONFIDENCE.
+- "Agentic Infrastructure" (Vercel blog, 2026-04-17): Vercel dedikált blogposztban definiálja az "agentic infrastructure" fogalmát — az infrastruktúra réteg agent-first átalakulóban. HIGH CONFIDENCE.
+- "Cloudflare Shared Dictionaries for agentic web" (2026-04-17): Cloudflare aktívan fejleszti az agent-web szint protokolljait. MEDIUM CONFIDENCE.
+**Assessment:** Ez a következo "platform shift" — a web agent-ready lesz vagy lemarad. A buyer: weboldal-tulajdonos, SaaS cég, API-t publikáló vállalat. Navibase alkalmazás: "Agent-Ready Audit" — meglevo KKV infrastruktúra agent-readiness scoring + quick-fix checklist.
+**Scores:** Pain=3 | Urgency=3 | WTP=3 | Def=3 | IntFric=3 | **Total: 15/25**
+*Új hypothesis (2026-04-20). A Cloudflare + Vercel egyszerre validálja az irányt — az "agent-ready web" 2026-2027-es platform elvárás lesz, de a WTP és az urgency még alakul.*
+
+---
+
+## Megerosített signalok (2026-04-20)
+
+**H1/H60 (agent authentication):** "AI Agents Authentication: How Autonomous Systems Prove Identity" (Security Boulevard, 2026-04-16) — az agent authentikáció mainstream napirendként jelenik meg. A H60 (Agent Identity Platform) megerosödik: ez a következo különálló platformréteg lesz.
+
+**H65 (proaktív anomália detekció):** InsightFinder $15M megerosítés (TechCrunch, 2026-04-16) — a befektetés validálja, hogy a proaktív agent stack monitoring WTP reális. Az InsightFinder enterprise-fókuszú, KKV wedge nyitva.
+
+**H22 (adversarial robustness):** Nyx offensive harness + H66 distillation attack vector együttesen jelzik: az adversarial agent attack surface szélesedik (nem csak input, hanem training + multi-turn dialogue).
+
+**H36 (managed infrastructure):** Vercel "agentic infrastructure" blog — az infrastruktúra réteg agent-first átalakulása erösödik. Platform-szintü váltás közeledik.
+
+**H49/H27 (multi-agent framework fragmentation):** OpenAI Agents Python nyílt forráskód (GitHub, 2026-04-17) — framework proliferáció és portabilitás/interoperabilitás kérdése élesedik. H27 (Agent Packaging & Portability) megerösödik.
+
+
+## Ranking Summary (2026-04-20)
+
+| Rank | Hypothesis | Score | Delta |
+|------|-----------|-------|-------|
+| 1 | H2 — Audit Trail | 22/25 | = |
+| 2 | H6 — Policy Enforcement Runtime | 22/25 | = |
+| 3 | H22 — Adversarial Robustness Layer | 22/25 | = |
+| 4 | H40 — Workload-to-Agent Attestation | 22/25 | = |
+| 5 | H41 — Audit-First Compliance Artifacts | 22/25 | = |
+| 6 | H1 — Agent Identity & Auth | 21/25 | = |
+| 7 | H20 — Agent Platform as Regulated Infrastructure | 21/25 | = |
+| 8 | H24 — Shadow AI Governance Plane | 21/25 | = |
+| 9 | **H66 — Agentic Supply Chain Security** | **21/25** | **ÚJ** |
+| 10 | H3 — MCP Governance | 20/25 | = |
+| 11 | H12 — Agent Accountability Framework | 20/25 | = |
+| 12 | H30 — Agent Trading Protocol & Risk Governance | 20/25 | = |
+| 13 | H43 — Signed A2A Delegation Claims | 20/25 | = |
+| 14 | H10 — Agent Infra as Code | 19/25 | = |
+| 15 | H15 — B2B SaaS Agent Feature Injection | 19/25 | = |
+| 16 | H42 — MCP Security Profiles | 19/25 | = |
+| 17 | H59 — Agent Credential Brokerage | 19/25 | = |
+| 18 | H60 — Agent Identity Platform | 19/25 | = |
+| 19 | H65 — Proactive Agent Stack Anomaly Detection | 19/25 | = |
+| 20 | **H69 — Cross-Border Regulatory Fragmentation** | **19/25** | **ÚJ** |
+| 21 | H7 — SMB Deployment Wrapper | 18/25 | = |
+| 22 | H8 — Cross-Agent Context | 18/25 | = |
+| 23 | H13 — Agent Sandboxing & Isolation | 18/25 | = |
+| 24 | H14 — Agent-to-Agent Trust & M2M | 18/25 | = |
+| 25 | H16 — AI Alignment Measurement as a Service | 18/25 | = |
+| 26 | H17 — Controlled Self-Configuration Boundary | 18/25 | = |
+| 27 | H18 — Organizationally-Aligned AI | 18/25 | = |
+| 28 | H19 — Operational Reliability Layer | 18/25 | = |
+| 29 | H21 — Deterministic Agent Behavior as Trust Signal | 18/25 | = |
+| 30 | H23 — Agentic QA & Mutation Testing as a Service | 18/25 | = |
+| 31 | H28 — Bias/Fairness Governance | 18/25 | = |
+| 32 | H32 — Trace-to-Patch Harness Improvement | 18/25 | = |
+| 33 | H33 — Multi-Agent Influence Governance | 18/25 | = |
+| 34 | H63 — Agent Seat Licensing & Procurement | 18/25 | = |
+| 35 | H64 — Integrity Hallucination / Consistency Governance | 18/25 | = |
+| 36 | **H67 — Offensive Agent Red-Teaming as a Service** | **18/25** | **ÚJ** |
+| 37 | **H68 — Self-Evolving Agent Governance** | **18/25** | **ÚJ** |
+| 38 | H4 — Agent Payment Rails | 17/25 | = |
+| 39 | H11 — Hallucination Self-Check | 17/25 | = |
+| 40 | H27 — Agent Packaging & Portability Spec | 17/25 | = |
+| 41 | H29 — Cost Governance & Token Budget Enforcement | 17/25 | = |
+| 42 | H31 — Agent-Native KB for Office Files | 17/25 | = |
+| 43 | H44 — Consent Receipts + Preview-Then-Execute | 17/25 | = |
+| 44 | H45 — Agent Runbooks & Incident Response | 17/25 | = |
+| 45 | H61 — Agent Failure Investigation Automation | 17/25 | = |
+| 46 | H62 — Cross-SDK Safety Primitives | 17/25 | = |
+| 47 | H5 — Discovery & Registry | 16/25 | = |
+| 48 | H25 — Dev Multi-Agent Workspace Orchestration | 16/25 | = |
+| 49 | **H70 — Agent-Ready Web Infrastructure** | **15/25** | **ÚJ** |
+| 50 | H26 — WordPress/Plugin Ecosystem Vertical Copilots | 14/25 | = |
+| 51 | H9 — Agent Communication Infra | 12/25 | = |
+
+*2026-04-20 delta: 5 új hypothesis (H66-H70). H66 (Agentic Supply Chain Security, 21/25) azonnal a top 9-be kerül — empirikus bizonyíték arra, hogy az adatszanitáció elégtelen védelemként az agentic supply chain ellen. H69 (Cross-Border Regulatory Fragmentation, 19/25) az ázsiai regulatory proliferációt fedezi le. H67/H68 a 18/25 blokkba kerülnek. H70 új kategória, 15/25 szinten még.*
+
+
+## Top 3 Opportunities + Suggested Experiments (2026-04-20)
+
+### #1: H66 — Agentic Supply Chain Security (Training Provenance Audit)
+**Miért most:** Az arxiv subliminal transfer paper az egyetlen empirikus bizonyíték arra, hogy az enterprise compliance alapfeltevése ("szanitálj és telepíts") hamis. Ez a kategória eddig üres — az elso, aki "training lineage card" és behavioral invariant test suite-ot ad, azt a procurement kérdést kezeli, ami eddig nem létezett.
+**Kísérlet:** 1 hét: "Behavioral Invariant Test Suite" prototípus — 20 fix scenario, amelyre az agent viselkedésének konzisztensen a várható határon belül kell maradnia, + automated run + pass/fail report. Deliverable: 1 oldalas "Agent Supply Chain Evidence Card" (training provenance + behavioral audit results). Merők: false positive arány, compliance csapat visszajelzés.
+**Befektetés:** ~1 hét. Az arxiv paper maga a spec — szabad és high-credibility forrás.
+
+### #2: H67 — Offensive Agent Red-Teaming (Nyx-alapú quarterly scan)
+**Miért most:** A Nyx harness konkrét, useable eszköz — 10 perc alatt megtalál olyan hibákat, amelyeket manuális auditok nem. Az "offensive testing" SOC 2 és enterprise security buyer számára természetes deliverable.
+**Kísérlet:** 2 napos pilot: Nyx futtatása Leoni agent-en + manuális kiegészítés (multi-turn adversarial dialogue) + "Agent Red-Team Summary" (3-5 kritikus finding + remediation javaslat). Merők: finding szám, severity, remediation time.
+**Befektetés:** ~2 nap. Nyx maga az eszköz — externally validated scan.
+
+### #3: H69 — Cross-Border Regulatory Compliance Mapping (EU + Asia wedge)
+**Miért most:** India párhuzamos dual governance struktúra + EU AI Act Aug 2026 deadline — a cross-border compliance gap valóssá vált. Nincs eszköz, nincs advisory service, nincs template. Az elso "Regulatory Matrix" letöltheto sablon erős lead gen és thought leadership.
+**Kísérlet:** 3 nap: "EU AI Act vs MeitY vs Indonesia AI Ethics" összehasonlító mátrix — per-kategória conflict mapping. Deliverable: 1 oldalas PDF + LinkedIn post + 5 célzott outreach CEE multinacionális cégeknek. Merők: letöltések, inbound megkeresések.
+**Befektetés:** ~3 nap kutatás + formázás. Erős CEE differenciáló.
+
+---
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-20.md (402 releváns, top 30 elemezve) | 2026-04-20 09:30 CET*
