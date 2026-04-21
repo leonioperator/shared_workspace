@@ -1,5 +1,5 @@
 # Blindspot Radar — Scored Hypothesis List
-Last updated: 2026-04-13
+Last updated: 2026-04-21
 
 ## H59 - Agent Credential Brokerage (Secretless access for coding agents)
 **Thesis:** A coding agenteknek egyre több külső rendszerhez kell hozzáférés (GitHub, DB, billing, infra), de a long-lived API keyk .env-ben vagy chatben való kezelése tarthatatlan. A piac egy "credential broker" mintázat felé tolódik: OIDC/token exchange, rövid életu, scope-olt cred, audit stream, és egyértelmu delegation chain.
@@ -1735,3 +1735,122 @@ Scoring dimensions (1–5 each):
 ---
 
 *Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-20.md (402 releváns, top 30 elemezve) | 2026-04-20 09:30 CET*
+
+
+---
+
+# Update — 2026-04-21
+
+## H71 — Formal AI Agent Oversight Institutions (Multi-Jurisdiction Governance Convergence)
+**Thesis:** Az AI governance eddig vállalati és szabályozói szinten mozgott, de 2026 Q2-ben formális, multi-stakeholder felügyeleti intézmények megjelenése jelzi, hogy az agent döntési delegáció szabályozása az "akadémiai/technikai vita" fázisból a "formális intézményesítés" fázisba lép. India cross-minisztériumi AI testületet hoz létre, Kína globális framework-et sürget, Cambridge az "AI oversight bodies" mintázatát modellezi — egyszerre, egyazon héten. Aki ma dokumentálja, hogy egy agent deployment hogyan illeszkedik ezekbe a keretekbe, az compliance-ready lesz, mielőtt a szabályozás kötelezővé válna.
+**Signals (updated 2026-04-21):**
+- Cambridge University Press: "Institutionalizing proxy responsibility: AI oversight bodies and resort-to-force decision making" (2026-04-18): a proxy-felelősség intézményesítése formális oversight bodies keretében — nem vállalati, hanem állami/intézményi szintű kérdéssé válik. HIGH CONFIDENCE.
+- India MeitY: cross-minisztériumi AI governance testület (2026-04-17-18): Ashwini Vaishnaw vezette Technology and Policy Expert Committee, government-szintű mandátummal. HIGH CONFIDENCE.
+- China: globális AI governance framework (2026-04-17): kínai csoportok multilaterális keretet sürgetnek, EU-tól eltérő narratívával. MEDIUM CONFIDENCE.
+- Indonesia AI Ethics and National Regulation (2026-04-17): délkelet-ázsiai regulatory hullám önálló framework-kel. MEDIUM CONFIDENCE.
+- EU AI Act Aug 2026 (korábbi): a legoperacionalizáltabb kereten kívül más intézményi formák is formálódnak párhuzamosan. HIGH CONFIDENCE.
+**Assessment:** Ez a H69 (cross-border regulatory fragmentation) és H20 (agent platform as regulated infrastructure) összekötő eleme: nem csak szabályozói megfelelés, hanem formális intézményi beágyazottság. Az 5 különböző forrásból érkező governance-jel egyazon héten ritka, erős konvergencia-signal. A buyer kérdése: "Tudom, hogy az agentünk a várható globális governance kerethez illeszkedik?" Navibase alkalmazás: "Global Agent Governance Readiness Scorecard" — EU AI Act + MeitY + indonéziai framework + kínai elvárások per-deployment mappelése, gap-detekció és felülvizsgálható evidencia.
+**Scores:** Pain=4 | Urgency=5 | WTP=4 | Def=3 | IntFric=4 | **Total: 20/25**
+*Új hypothesis (2026-04-21). Az egy héten belüli multi-jurisdikciós konvergencia (Cambridge + India + Kína + Indonézia) ritka, erős jel: a governance-institutionalization hullám most indul. 20/25 — közvetlen top 10 belépő.*
+
+---
+
+## Megerősített signalok (2026-04-21)
+
+**H66 (agentic supply chain security):** A subliminal unsafe behavior transfer arxiv paper (2026-04-16) ismét megjelenik a napi top signalok között — a 2026-04-20-as H66 hypothesis közvetlen, folytatódó megerősítése. Az "enterprise compliance alapfeltevés omlik össze" narratíva erősödik.
+
+**H22 (adversarial robustness):** "Secure-by-Design: 3 Principles to Safely Scale Agentic AI" (CIO.com, 2026-04-16) — enterprise IT napirendbe kerül az agentic safety, erősíti a H22 urgency-t. A "batteries-included" approach egyre inkább elvárás.
+
+**H1/H20 (governance mainstream):** "AI Agent Governance: How to Control Autonomous Agents Safely" (Cybernews, 2026-04-20) — a governance rés mainstream témává válik. Az iparág nem rendelkezik kialakult standardokkal, ez a H20 positioning ablakot tovább tágítja.
+
+**H67 (offensive agent testing):** Nyx multi-turn offensive harness megerősítés — az agentek "nem úgy törnek meg, mint hagyományos szoftver". Az offensive testing mint önálló kategória stabilizálódik.
+
+**H65 (proaktív anomália detekció):** InsightFinder $15M megerősítés az Apr 21-i listában is — befektetés és buyer-language együtt erősítik a WTP-t.
+
+**H69 (cross-border regulatory):** India dual governance structure (MeitY + Policy Committee) párhuzamos megjelenése tovább növeli H69 urgency-t — a szabályozói landscape már nem EU-centrikus.
+
+**H70 (agent-ready web):** Vercel "Agentic Infrastructure" blog (2026-04-17) + Cloudflare jelzi: az infrastruktúra réteg agent-first átalakulóban. H70 score lassan erősödik (15 → várható 16).
+
+---
+
+## Ranking Summary (2026-04-21)
+
+| Rank | Hypothesis | Score | Delta |
+|------|-----------|-------|-------|
+| 1 | H2 — Audit Trail | 22/25 | = |
+| 2 | H6 — Policy Enforcement Runtime | 22/25 | = |
+| 3 | H22 — Adversarial Robustness Layer | 22/25 | = |
+| 4 | H40 — Workload-to-Agent Attestation | 22/25 | = |
+| 5 | H41 — Audit-First Compliance Artifacts | 22/25 | = |
+| 6 | H1 — Agent Identity & Auth | 21/25 | = |
+| 7 | H20 — Agent Platform as Regulated Infrastructure | 21/25 | = |
+| 8 | H24 — Shadow AI Governance Plane | 21/25 | = |
+| 9 | H66 — Agentic Supply Chain Security | 21/25 | ↑ megerősítve |
+| 10 | H3 — MCP Governance | 20/25 | = |
+| 11 | H12 — Agent Accountability Framework | 20/25 | = |
+| 12 | H30 — Agent Trading Protocol & Risk Governance | 20/25 | = |
+| 13 | H43 — Signed A2A Delegation Claims | 20/25 | = |
+| 14 | **H71 — Formal AI Oversight Institutions** | **20/25** | **ÚJ** |
+| 15 | H10 — Agent Infra as Code | 19/25 | = |
+| 16 | H15 — B2B SaaS Agent Feature Injection | 19/25 | = |
+| 17 | H42 — MCP Security Profiles | 19/25 | = |
+| 18 | H59 — Agent Credential Brokerage | 19/25 | = |
+| 19 | H60 — Agent Identity Platform | 19/25 | = |
+| 20 | H65 — Proactive Agent Stack Anomaly Detection | 19/25 | = |
+| 21 | H69 — Cross-Border Regulatory Fragmentation | 19/25 | ↑ urgency erősödik |
+| 22 | H7 — SMB Deployment Wrapper | 18/25 | = |
+| 23 | H8 — Cross-Agent Context | 18/25 | = |
+| 24 | H13 — Agent Sandboxing & Isolation | 18/25 | = |
+| 25 | H14 — Agent-to-Agent Trust & M2M | 18/25 | = |
+| 26 | H16 — AI Alignment Measurement as a Service | 18/25 | = |
+| 27 | H17 — Controlled Self-Configuration Boundary | 18/25 | = |
+| 28 | H18 — Organizationally-Aligned AI | 18/25 | = |
+| 29 | H19 — Operational Reliability Layer | 18/25 | = |
+| 30 | H21 — Deterministic Agent Behavior as Trust Signal | 18/25 | = |
+| 31 | H23 — Agentic QA & Mutation Testing as a Service | 18/25 | = |
+| 32 | H28 — Bias/Fairness Governance | 18/25 | = |
+| 33 | H32 — Trace-to-Patch Harness Improvement | 18/25 | = |
+| 34 | H33 — Multi-Agent Influence Governance | 18/25 | = |
+| 35 | H63 — Agent Seat Licensing & Procurement | 18/25 | = |
+| 36 | H64 — Integrity Hallucination / Consistency Governance | 18/25 | = |
+| 37 | H67 — Offensive Agent Red-Teaming as a Service | 18/25 | = |
+| 38 | H68 — Self-Evolving Agent Governance | 18/25 | = |
+| 39 | H4 — Agent Payment Rails | 17/25 | = |
+| 40 | H11 — Hallucination Self-Check | 17/25 | = |
+| 41 | H27 — Agent Packaging & Portability Spec | 17/25 | = |
+| 42 | H29 — Cost Governance & Token Budget Enforcement | 17/25 | = |
+| 43 | H31 — Agent-Native KB for Office Files | 17/25 | = |
+| 44 | H44 — Consent Receipts + Preview-Then-Execute | 17/25 | = |
+| 45 | H45 — Agent Runbooks & Incident Response | 17/25 | = |
+| 46 | H61 — Agent Failure Investigation Automation | 17/25 | = |
+| 47 | H62 — Cross-SDK Safety Primitives | 17/25 | = |
+| 48 | H5 — Discovery & Registry | 16/25 | = |
+| 49 | H25 — Dev Multi-Agent Workspace Orchestration | 16/25 | = |
+| 50 | H70 — Agent-Ready Web Infrastructure | 15/25 | = |
+| 51 | H26 — WordPress/Plugin Ecosystem Vertical Copilots | 14/25 | = |
+| 52 | H9 — Agent Communication Infra | 12/25 | = |
+
+*2026-04-21 delta: 1 új hypothesis (H71 — Formal AI Oversight Institutions, 20/25). Megerősített irányok: H66 supply chain security folytatódik, H22 secure-by-design mainstream, H69 urgency erősödik. A multi-jurisdikciós governance konvergencia (Cambridge + India + Kína + Indonézia ugyanabban a héten) ritka, erős signal.*
+
+---
+
+## Top 3 Opportunities + Suggested Experiments (2026-04-21)
+
+### #1: H66 + H71 combo — Supply Chain Attestation + Governance Readiness
+**Miért most:** A subliminal behavior transfer paper (H66) és a multi-jurisdikciós governance convergence (H71) egymást erősítő, különböző szektorbeli signalok ugyanabból a hétből. Az "enterprise compliance alapfeltevés omlik össze" narratíva gyorsan procurement-stopperré válhat. Aki ma tud "supply chain evidence card + governance readiness scorecard" kombinált deliverable-t adni, az a legtöbb compliance checklist kérdést egyszerre válaszolja meg.
+**Kísérlet:** 5 napos sprint: (1) "Behavioral Invariant Test Suite" 20 fix scenarióval + (2) "Governance Readiness Scorecard" EU AI Act + MeitY + Indonesia mapping + (3) összefűzés 1 oldalas "Agent Trust Dossier"-ben. Mérők: procurement csapat visszajelzés, audit blocker-ek száma, pilot→paid konverzió.
+**Befektetés:** ~5 nap. Két meglévő signal + egy új deliverable formátum.
+
+### #2: H22 — Secure-by-Design Agentic AI (3 principles packaging)
+**Miért most:** A "Secure-by-Design: 3 Principles" CIO-szintű cikk jelzi, hogy az enterprise IT stratégiai kérdésként kezeli az agentic biztonságot. A DeepMind 6 trap taxonómia mellé most van egy buyer-friendly "3 principles" keretrendszer is. Navibase: a meglévő adversarial robustness architekturát (H22) fordítsd le "3 principle" + "6 trap coverage" formátumba.
+**Kísérlet:** 2 nap: "Navibase Secure-by-Design Agent Checklist" — a CIO.com 3 elvét mappelve a meglévő Leoni security architekturára + DeepMind 6 trap coverage nyilatkozat. Deliverable: 1 oldalas "security-first agent" pitch anyag CIO közönségnek.
+**Befektetés:** ~2 nap. Magas leverage: meglévő technológia, új buyer-language csomagolás.
+
+### #3: H69/H71 — Cross-Border Regulatory Matrix v2 (India + EU + Asia)
+**Miért most:** India dual governance structure véglegesedett, Kína globális framework-et sürget, Indonesia saját szabályozást vezet be — a cross-border compliance gap most vált élessé. A H69 kísérlet (3 napos regulatory matrix) most sürgősebbé vált, mert az India MeitY panel már aktív.
+**Kísérlet:** 3 nap: "EU AI Act vs MeitY vs Indonesia AI Ethics" összehasonlító mátrix frissítése + kínai governance elvárások hozzáadása + "cross-border agent deployment checklist". Mérők: letöltések, CEE multinacionális inbound megkeresések, LinkedIn impressions.
+**Befektetés:** ~3 nap. Az Apr 20-as H69 kísérlet most pontosabb timing.
+
+---
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-21.md (408 releváns, top 30 elemezve) | 2026-04-21 09:30 CET*
