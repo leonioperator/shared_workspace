@@ -1854,3 +1854,144 @@ Scoring dimensions (1–5 each):
 ---
 
 *Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-21.md (408 releváns, top 30 elemezve) | 2026-04-21 09:30 CET*
+
+
+---
+
+# Update — 2026-04-22
+
+## H72 — Agent Network Segmentation & Identity Plane (Network-Level Isolation)
+**Thesis:** Az enterprise hálózatokban mozgó autonóm agentek új biztonsági problémát nyitnak: az agent identity nem csak API token szintű, hanem hálózati szintű kérdés is. Kell egy dedikált "agent network segmentation" réteg, ami az agentek mozgását (east-west traffic), lateral movement kísérleteit és hálózati hozzáférési scope-ját izoláltan kezeli — nem a teljes enterprise hálózathoz adva hozzáférést, hanem csak a szükséges szegmensekhez, auditálható policy-vel. Ez a H1 (identity) és H13 (sandboxing) hálózati rétege.
+**Signals (updated 2026-04-22):**
+- Zero Networks — AI Segmentation: Autonomous Agent Governance (2026-04-21): enterprise biztonsági cég dedikált terméket indít autonóm AI agentek hálózati szegmentálására — explicit termék validáció a "network-level agent governance" kategóriában. HIGH CONFIDENCE.
+- H47 (Secure Agent Gateway, 2026-04-12): a gateway-first megközelítés és a network segmentation egymást kiegészítő, de különböző entry point-ok (protokoll vs. hálózati réteg). MEDIUM CONFIDENCE.
+**Assessment:** A Zero Networks termékbejelentés azt jelzi, hogy az agent mozgása / autorizációja a hálózatban önálló enterprise biztonsági problémává vált. Ez nem a sandbox (H13) vagy a gateway (H47) — ez a hálózati identitás és least-privilege access a mozgó agentekre. Navibase alkalmazás: agent deployment-eknél "network identity scope" deklaráció + audit export, és kompatibilitás a Zero Networks-típusú szegmentáló eszközökkel.
+**Scores:** Pain=5 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 19/25**
+*Új hypothesis (2026-04-22). A Zero Networks termék az első konkrét enterprise biztonsági termék kizárólag az autonóm agentek hálózati szegmentálására — közvetlen piacvalidáció.*
+
+---
+
+## H73 — Agent Financial Delegation & Spending Control Layer
+**Thesis:** Az "agent as employee" narratíva pénzügyi dimenziója: az agentek egyre inkább kapnak kiadási jogot (vásárlás, API előfizetés, SaaS licensz, futási költség). A piaci rés: nincs standard "financial delegation layer" ami egyszerre ad spending power-t az agentnek és control-t az embernek — budget limit, per-task cost cap, approval gate, auditálható tranzakció-napló. Ez nem payment rails (H4 — infrastruktúra), hanem delegált pénzügyi kontroll (authorization + limit + audit) az agent szintjén.
+**Signals (updated 2026-04-22):**
+- delegare (Product Hunt, 2026-04-19): "AI Agents Spending Power Without Losing Control" — explicit termék a financial delegation problémára. Scope: kiadási jog adása agenteknek, de emberi kontroll megtartása. HIGH CONFIDENCE.
+- Microsoft: "agents buy licenses like employees" (Business Insider, 2026-04-14): az entitlement/licensing kérdés procurement szintre érkezett (H63 megerősítés) — a spending control természetes következő lépés. HIGH CONFIDENCE.
+- H4 (Agent Payment Rails): infrastruktúra réteg (Stripe/Visa/Mastercard) — a H73 az alkalmazás réteg felette: nem "hogyan fizet az agent", hanem "mennyi pénzt adhat ki és ki hagyja jóvá". MEDIUM CONFIDENCE (distinkció).
+**Assessment:** A delegare launch azt jelzi, hogy a piac megtalálta a buyer language-t: "spending power without losing control." Ez a H37 (credential delegation) pénzügyi megfelelője. Navibase alkalmazás: per-agent / per-task spending limit + approval workflow + cost audit export, ami összeköti a H29 (token budget) és H63 (agent seat licensing) vonalat.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-04-22). A delegare ProductHunt launch közvetlen termékvalidáció — a "financial delegation layer" kategória létezik és vevője van. A H4-től és H37-től megkülönböztethető wedge.*
+
+---
+
+## H74 — Agent Training Pipeline Compliance (Human Behavioral Data as Training Signal)
+**Thesis:** A következő compliance frontier az agent training pipeline: nem a deployed agent viselkedése (H66 supply chain), hanem a training adatgyűjtés maga. A Meta employee tracking eset (egér/billentyűzet monitoring agent training célból) megnyitja a munkajogi, adatvédelmi és GDPR compliance kérdést: ki nyújtott hozzájárulást, milyen adatot gyűjtöttek, és ki felelős, ha ez az adat torzítást visz a modellbe? Ez a HR, legal és compliance csapatok új "agent kérdése" 2026 H2-ben.
+**Signals (updated 2026-04-22):**
+- Meta — AI Agent Training via Employee Mouse/Keyboard Tracking (Ars Technica, 2026-04-21): Meta alkalmazotti tevékenységet rögzít (egér, billentyűzet) az AI agent training adathoz — "human-as-training-signal" paradigma megjelenése, adatvédelmi és munkajogi implikációkkal. HIGH CONFIDENCE.
+- H66 (Agentic Supply Chain Security, 21/25): a supply chain kockázat eddig a deployed modell viselkedésére fókuszált — a training adatgyűjtés compliance rétege különálló, de szorosan kapcsolódó kategória. MEDIUM CONFIDENCE.
+- GDPR enforcement + EU AI Act Aug 2026: a training adatgyűjtés jogi kerete Európában a legszigorúbb — ez cross-border compliance (H69) dimenzióban is éles kérdés. HIGH CONFIDENCE.
+**Assessment:** Rövid távon inkább HR/Legal buyer, mint security buyer. A Navibase/KKV relevanciája: ha egy KKV Leoni-típusú agent rendszert vezet be és a training-adat kérdés előjön (pl. ügyfélkommunikációból tanul), a "training data provenance + consent documentation" compliance artifact értékes. Összefügg H66 (supply chain) és H28 (bias/fairness) vonalával.
+**Scores:** Pain=3 | Urgency=3 | WTP=3 | Def=3 | IntFric=3 | **Total: 15/25**
+*Új hypothesis (2026-04-22). A Meta tracking eset az agent training pipeline compliance kérdését mainstream napirendbe emeli. Közepes score — a buyer language és WTP még alakul, de a regulatory nyomás (GDPR + EU AI Act) gyorsan élesítheti.*
+
+---
+
+## Megerosített signalok (2026-04-22)
+
+**H1/H60 (agent identity platform):** Zero Networks dedikált agent network identity termék — az agent identity már hálózati rétegen is önálló termékként jelenik meg. H72 az ezt operacionalizáló új hypothesis.
+
+**H4/H37/H53 (financial + credential delegation):** delegare "spending power without losing control" launch — a financial delegation layer (H73) a credential delegation (H37) és payment rails (H4) között megnyílt kategória. A buyer language: "adok hozzáférést, de megmarad a kontroll."
+
+**H71/H69 (governance institutionalization):** India MeitY cross-ministerial AI governance body második heti megerősítés — a multi-jurisdikciós governance intézményesítése folytatódik. H71 urgency erősödik.
+
+**H36/H70 (agentic infrastructure):** Vercel "Agentic Infrastructure" blog ismételt megjelenés — az infrastruktúra réteg agent-first átalakulása (routing, state, auth az agent-execution köré) mélyül. H70 score erősödőben (15→16 várható).
+
+**H20/H6 (platform compliance):** "AI Agent Governance: How to Control Autonomous Agents Safely" (Cybernews, 2026-04-20) — governance gap mainstream, még mindig nincs standard framework. H20 positioning ablak nyitva.
+
+**H22 (adversarial robustness):** "Secure-by-Design" + Zero Networks hálózati szegmentálás egyaránt jelzi: az adversarial surface bővül (input + network + training). A H22+H72+H66 combo a teljes attack surface-t lefedi.
+
+---
+
+## Ranking Summary (2026-04-22)
+
+| Rank | Hypothesis | Score | Delta |
+|------|-----------|-------|-------|
+| 1 | H2 — Audit Trail | 22/25 | = |
+| 2 | H6 — Policy Enforcement Runtime | 22/25 | = |
+| 3 | H22 — Adversarial Robustness Layer | 22/25 | = |
+| 4 | H40 — Workload-to-Agent Attestation | 22/25 | = |
+| 5 | H41 — Audit-First Compliance Artifacts | 22/25 | = |
+| 6 | H1 — Agent Identity & Auth | 21/25 | = |
+| 7 | H20 — Agent Platform as Regulated Infrastructure | 21/25 | = |
+| 8 | H24 — Shadow AI Governance Plane | 21/25 | = |
+| 9 | H66 — Agentic Supply Chain Security | 21/25 | = |
+| 10 | H3 — MCP Governance | 20/25 | = |
+| 11 | H12 — Agent Accountability Framework | 20/25 | = |
+| 12 | H30 — Agent Trading Protocol & Risk Governance | 20/25 | = |
+| 13 | H43 — Signed A2A Delegation Claims | 20/25 | = |
+| 14 | H71 — Formal AI Oversight Institutions | 20/25 | ↑ urgency erosodik |
+| 15 | H10 — Agent Infra as Code | 19/25 | = |
+| 16 | H15 — B2B SaaS Agent Feature Injection | 19/25 | = |
+| 17 | H42 — MCP Security Profiles | 19/25 | = |
+| 18 | H59 — Agent Credential Brokerage | 19/25 | = |
+| 19 | H60 — Agent Identity Platform | 19/25 | = |
+| 20 | H65 — Proactive Agent Stack Anomaly Detection | 19/25 | = |
+| 21 | H69 — Cross-Border Regulatory Fragmentation | 19/25 | ↑ India signal |
+| 22 | **H72 — Agent Network Segmentation & Identity Plane** | **19/25** | **ÚJ** |
+| 23 | H7 — SMB Deployment Wrapper | 18/25 | = |
+| 24 | H8 — Cross-Agent Context | 18/25 | = |
+| 25 | H13 — Agent Sandboxing & Isolation | 18/25 | = |
+| 26 | H14 — Agent-to-Agent Trust & M2M | 18/25 | = |
+| 27 | H16 — AI Alignment Measurement as a Service | 18/25 | = |
+| 28 | H17 — Controlled Self-Configuration Boundary | 18/25 | = |
+| 29 | H18 — Organizationally-Aligned AI | 18/25 | = |
+| 30 | H19 — Operational Reliability Layer | 18/25 | = |
+| 31 | H21 — Deterministic Agent Behavior as Trust Signal | 18/25 | = |
+| 32 | H23 — Agentic QA & Mutation Testing as a Service | 18/25 | = |
+| 33 | H28 — Bias/Fairness Governance | 18/25 | = |
+| 34 | H32 — Trace-to-Patch Harness Improvement | 18/25 | = |
+| 35 | H33 — Multi-Agent Influence Governance | 18/25 | = |
+| 36 | H63 — Agent Seat Licensing & Procurement | 18/25 | = |
+| 37 | H64 — Integrity Hallucination / Consistency Governance | 18/25 | = |
+| 38 | H67 — Offensive Agent Red-Teaming as a Service | 18/25 | = |
+| 39 | H68 — Self-Evolving Agent Governance | 18/25 | = |
+| 40 | **H73 — Agent Financial Delegation & Spending Control** | **18/25** | **ÚJ** |
+| 41 | H4 — Agent Payment Rails | 17/25 | = |
+| 42 | H11 — Hallucination Self-Check | 17/25 | = |
+| 43 | H27 — Agent Packaging & Portability Spec | 17/25 | = |
+| 44 | H29 — Cost Governance & Token Budget Enforcement | 17/25 | = |
+| 45 | H31 — Agent-Native KB for Office Files | 17/25 | = |
+| 46 | H44 — Consent Receipts + Preview-Then-Execute | 17/25 | = |
+| 47 | H45 — Agent Runbooks & Incident Response | 17/25 | = |
+| 48 | H61 — Agent Failure Investigation Automation | 17/25 | = |
+| 49 | H62 — Cross-SDK Safety Primitives | 17/25 | = |
+| 50 | H5 — Discovery & Registry | 16/25 | = |
+| 51 | H25 — Dev Multi-Agent Workspace Orchestration | 16/25 | = |
+| 52 | H70 — Agent-Ready Web Infrastructure | 15/25 | = |
+| 53 | **H74 — Agent Training Pipeline Compliance** | **15/25** | **ÚJ** |
+| 54 | H26 — WordPress/Plugin Ecosystem Vertical Copilots | 14/25 | = |
+| 55 | H9 — Agent Communication Infra | 12/25 | = |
+
+*2026-04-22 delta: 3 új hypothesis (H72, H73, H74). H72 (Agent Network Segmentation, 19/25) azonnal a top 22-be kerül — a Zero Networks enterprise termék közvetlen validáció. H73 (Financial Delegation, 18/25) a delegare ProductHunt launch alapján. H74 (Training Pipeline Compliance, 15/25) a Meta tracking eset korai jelzése. Megerősített irányok: H71 urgency erosödik (India), H69 India-signal folytatódik, H22+H72+H66 együtt lefedi az agent attack surface teljes rétegét.*
+
+---
+
+## Top 3 Opportunities + Suggested Experiments (2026-04-22)
+
+### #1: H22 + H72 combo — Adversarial Shield + Network Segmentation Layer
+**Miért most:** A Zero Networks enterprise termék azt jelzi, hogy a network-szintű agent identity és szegmentálás önálló piaccá vált — de KKV szinten nincs belépő. A DeepMind 6 trap + network lateral movement együttesen az agent attack surface két dimenzióját fedi: input (H22) és hálózat (H72). Aki mindkettőt csomagolja, az a legteljesebb "Agent Security Bundle"-t adja.
+**Kísérlet:** 3 napos "Agent Security Exposure Scan" prototípus: (1) bemeneti adversarial check (6 DeepMind pattern), (2) agent network scope audit (mely API-khoz, host-okhoz fér hozzá az agent, mi a minimum scope). Deliverable: "Agent Security Baseline Report" 2 szekcióval. Merők: finding szám, remediation javasolt lépések, compliance csapat visszajelzés.
+**Befektetés:** ~3 nap. Zero Networks validálja a piaci igényt; belső Leoni audit az elso use case.
+
+### #2: H73 — Financial Delegation Demo (delegare wedge)
+**Miért most:** A delegare ProductHunt launch explicit piacvalidáció — a buyer language egyszerű: "adok pénzügyi hozzáférést az agentnek, de nem veszítem el a kontrollt." Ez a H37 (credential delegation) pénzügyi megfeleloje, és a H29 (token/cost budget) természetes kiterjesztése. KKV szinten ez az egyik legkonkrétabb "agent trust" kérdés.
+**Kísérlet:** 1 hetes "Agent Budget Guard" v2 prototípus: per-run spending limit + approval gate magas cost esetén + heti cost summary Telegramon. Deliverable: "Agent Financial Delegation Evidence" — ki kapott mennyi kiadási jogot, mikor, milyen approval alapján. Merők: Tomi visszajelzés (hasznos-e a spending alert), false block arány, cost variance csökkenés.
+**Befektetés:** ~3 nap. A H29 (token budget) alapjaira épül, pénzügyi delegation audit hozzáadásával.
+
+### #3: H66 + H74 combo — Supply Chain Attestation + Training Data Compliance
+**Miért most:** A Meta employee tracking eset (H74) és a subliminal transfer paper (H66) egyszerre jelzik: az agent "mibóll lett" kérdés kötelező compliance artifact lesz. Az enterprise compliance csapat nem csak a deployed agent viselkedését fogja vizsgálni, hanem a training provenance-t és az adatgyujtési hozzájárulást is. A két signal egymást erosíti.
+**Kísérlet:** 2 napos "Agent Trust Dossier" template: (1) training provenance card (honnan jön a modell, milyen adatból), (2) behavioral invariant test suite eredmény (20 fix scenario), (3) adatgyujtési consent dokumentáció sablon. Deliverable: 1 oldalas, procurement-ready PDF. Merők: compliance csapat visszajelzés, audit blocker csökkenés.
+**Befektetés:** ~2 nap sablon + 1 nap teszt futtatás. A H66 kísérlet kiterjesztése.
+
+---
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-22.md (423 releváns, 30 elemezve) | 2026-04-22 09:30 CET*
