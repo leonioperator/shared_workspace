@@ -1995,3 +1995,152 @@ Scoring dimensions (1–5 each):
 ---
 
 *Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-22.md (423 releváns, 30 elemezve) | 2026-04-22 09:30 CET*
+
+
+---
+
+# Update — 2026-04-24
+
+## H75 — Agent Privacy Execution Environment (Information Flow Control as Trust Primitive)
+**Thesis:** Az agent privacy modellje ma feltételezi, hogy az agent megbízható — a user engedéllyel ad hozzáférést, az agent azt felhasználja. A GAAP (Guaranteed Accounting for Agent Privacy) paradigmaváltás: nem az agentben bízunk, hanem a flow-ban. Determinisztikus Information Flow Control (IFC) garantálja, hogy az agent fizikailag nem tud privát adatot kiszivárogtatni — sem a modell providere felé, sem cross-task tracking révén, sem prompt injection során. Ez az "agent nem lát érzékeny adatot, csak proxylt folyamatot" architektúra.
+**Signals (updated 2026-04-24):**
+- GAAP — Guaranteed Accounting for Agent Privacy (arxiv, 2026-04-21): determinisztikus IFC implementáció, amely az agent és a data permission layer szétválasztásával teszi fizikailag lehetetlenné az adatszivárgást, beleértve az AI model provider felé is. Prompt injection védelem és cross-task tracking blokkolás mellékhatásként. HIGH CONFIDENCE.
+**Assessment:** Ez nem a H1 (identity) vagy H13 (sandboxing) — ez egy szintet mélyebb: az adatáramlás maga van megszűrve, nem az agent engedélyei. A Navibase alkalmazás: "privacy-by-default agent execution" mint differenciáló értékajánlat KKV-knál, ahol ügyféladatok kerülnek az agent közelébe (email, számlázó, CRM). A buyer kérdése: "az agented ténylegesen nem látja az érzékeny adatot, vagy csak ígéri, hogy nem osztja meg?"
+**Scores:** Pain=5 | Urgency=4 | WTP=4 | Def=5 | IntFric=4 | **Total: 22/25**
+*Új hypothesis (2026-04-24). A GAAP paper az első empirikus bizonyíték arra, hogy a privacy execution environment megvalósítható determinisztikus IFC-vel. A Def=5 ritka a listán — aki elsőként implementálja és kommunikálja ezt a primitívet, az erős moatot épít az "agent nem látja az adatot" kategóriában.*
+
+---
+
+## H76 — Cross-Session Adversarial Threat Detection (Memoryless Guardrails Gap)
+**Thesis:** A jelenlegi agent guardrail-ek session-bound-ok: minden session-ben frissen indulnak, és nem látnak cross-session mintázatokat. A CSTM-Bench benchmark megmutatja: 26 dokumentált attack taxonomia létezik, amelyek szándékosan több sessionre osztják szét a payloadot — a session-határon átnyúló kompozit támadások ellen a mai guardrail-ok teljesen vakok. Kell egy "cross-session threat memory" réteg, ami a korábbi session-ök anomáliáit megtartja, és az aktuális session-ben beérkező inputot azok fényében értékeli.
+**Signals (updated 2026-04-24):**
+- Cross-Session Threats in AI Agents: Benchmark, Evaluation, and Algorithms — CSTM-Bench (arxiv, 2026-04-22): 26 attack taxonomia keresztül session-határokon, ahol csak a Coreset Memory Reader (K=50) tart megbízható recall-t mindkét tesztkörnyezetben. Az enterprise guardrail-ok session-határon vakak. HIGH CONFIDENCE.
+- H22 (Adversarial Robustness Layer, 22/25): a DeepMind 6 trap session-belüli védelmet ad — a CSTM-Bench a session-közi réteg hiányát mutatja meg. Ez szükséges kiterjesztés, nem duplikáció.
+**Assessment:** Az enterprise agent deployment-eknél a "multi-session user" és a "multi-session attack" együtt jelenik meg. Aki ma session-bound guardrail-lel megy piacra, az elveszíti ezt a kategóriát az első komolyabb enterprise audit során. Navibase alkalmazás: cross-session anomália registry (rolling window, pl. 72h) + threshold alert Telegramon ha cross-session pattern detektálva.
+**Scores:** Pain=5 | Urgency=4 | WTP=4 | Def=4 | IntFric=4 | **Total: 21/25**
+*Új hypothesis (2026-04-24). A CSTM-Bench az első nyilvános benchmark cross-session agent támadásokra — a kategória most nyílt. Az enterprise guardrail-ok hiányossága empirikusan dokumentált.*
+
+---
+
+## H77 — Stateless Decision Architecture for Regulated AI (Append-Only Projection)
+**Thesis:** A stateful agent memória architektúrák enterprise-ban nem skálázódnak: minden döntésnél keresni, aggregálni, konzisztenciát biztosítani kell — regulated kontextusban (biztosítás, adóügy, pénzügyi compliance) ez prohibitív. A DPM (Deterministic Projection Memory) paradigma: append-only event log + egyetlen döntési időben futtatott projection. Eredmény: 7-15x gyorsabb auditálható végrehajtás, 2 LLM hívás vs. 83-97, faktális precizitás +0.52 (Cohen h=1.17, p=0.0014). A "statelessness mint load-bearing property" az enterprise regulated agent deployment alapköve — és senki nem kommunikálja termékként.
+**Signals (updated 2026-04-24):**
+- Stateless Decision Memory for Enterprise AI Agents — DPM paper (arxiv, 2026-04-22): append-only event log + projection architektúra regulated deployment-ben (underwriting, claims, tax), 7-15x gyorsabb, szignifikáns faktális precizitás javulás. HIGH CONFIDENCE.
+**Assessment:** Ez a H8 (cross-agent context) és H41 (audit-first compliance artifacts) metszete, de más architektúrális döntés: nem shared state, hanem append-only log + projekció. Navibase alkalmazás: "regulated decision log" — minden agent döntésnél append-only event + on-demand projection, export-ready. A buyer kérdése: "ha auditálnak, vissza tudom-e játszani a döntés pillanatát?"
+**Scores:** Pain=4 | Urgency=4 | WTP=5 | Def=4 | IntFric=3 | **Total: 20/25**
+*Új hypothesis (2026-04-24). A DPM paper az első empirikus bizonyíték arra, hogy a stateless architektúra regulated agent deployment-ben szignifikánsan jobb teljesítményt és auditálhatóságot ad. A "statelessness load-bearing" narratíva counter-intuitív és könnyen differenciálható.*
+
+---
+
+## H78 — Agent Behavioral Fingerprinting as Privacy Risk (Owner Identification via Agents)
+**Thesis:** Az agentek nem generikus outputot produkálnak — a viselkedésük szisztematikusan tükrözi a tulajdonos jellemzőit (topic, értékek, affektív stílus), explicit konfiguráció nélkül is. A Moltbook 10.659 human-agent pár vizsgálata megmutatja: erősebb behavioral transfer = több személyes adat szivárgás. Ez platform design és agent governance implikáció: az agented az ownered ujjlenyomata. Ha egy agent publikus felületen szerepel, az owner azonosítható a viselkedéséből.
+**Signals (updated 2026-04-24):**
+- Behavioral Transfer in AI Agents: Evidence and Privacy Implications (arxiv, 2026-04-21): 10.659 human-agent pár elemzése (Moltbook platform), szisztematikus behavioral transfer bizonyítva (topic, értékek, affekt, stílus) — az owner azonosítható az agent viselkedéséből. HIGH CONFIDENCE.
+**Assessment:** Ez a H28 (bias/fairness) és H74 (training pipeline compliance) privacy dimenziója, de a mechanizmus más: nem a training adatgyűjtés, hanem az agent által végzett munka mintázata szivárogtatja az owner identitását. Navibase alkalmazás: "behavioral fingerprint audit" — mikor viselkedik az agent úgy, hogy a kliensre vagy ownerre utal vissza? Különösen releváns ügyfélkommunikációs agenteknél.
+**Scores:** Pain=3 | Urgency=3 | WTP=3 | Def=3 | IntFric=3 | **Total: 15/25**
+*Új hypothesis (2026-04-24). Az empirikus platform-adat (10.659 pár) szokatlanul erős bizonyíték. Rövidebb távon inkább research/advisory kategória, de a GDPR "behavioral profiling" tiltott kategóriájával kombinálva gyorsan compliance kérdéssé válhat.*
+
+---
+
+## Megerősített signalok (2026-04-24)
+
+**H59/H37/H53 (credential delegation):** Agent Vault (Infisical, 2026-04-22) — open-source HTTP credential proxy, ahol az agent soha nem látja a credentialt, csak proxylt kérést küld. Anthropic Managed Agents kompatibilis. Ez az elso OSS implementáció, ami a "secretless-by-default" mintát termékkénnt implementálja. H59 és H37 urgency erősödik.
+
+**H20/H6 (governance prompt quality):** AGENTS.md Governance Prompts Quality Gaps paper (arxiv, 2026-04-22) — 34 publikus AGENTS.md elemzése: 37% nem éri el a strukturális teljességi küszöböt. A data classification és assessment rubric a leghiányosabb területek. Automatikus static analysis eszköz hiánya megerősíti H20 (platform as regulated infrastructure) és H6 (policy enforcement) narratívát.
+
+**H34/H44 (HITL formalizáció):** Pista system (N=16 within-subjects study, arxiv, 2026-04-22) — aktív beavatkozás minden agent lépésnél, post-hoc review elégtelen. Co-ownership érzet csak real-time participációval lehetséges. H44 (consent receipts) és H34 (agent ops monitoring) megerősítve: az "emberi felügyelet" nem post-hoc review, hanem real-time participation.
+
+**H71 (formal oversight institutions):** AI Governance under Political Turnover (arxiv, 2026-04-22) — formális modell: compliance réteg path-dependent, egyszer felépítve nehéz visszavonni. A governance réteg a hatalmi struktúra részévé válik. H71 (Formal AI Oversight Institutions) narratívát erősíti az intézményi beágyazottság maradandóságával.
+
+**H41/H22 (compliance artifacts + adversarial):** Context AI / Delve security incident (TechCrunch, 2026-04-23) — AI compliance audit startup maga kompromittált. A "certified compliance" nem jelent tényleges biztonságot. Third-party AI compliance audit infrastruktúra megbízhatósága alapvetően kérdéses — H41 (compliance artifact) és H22 (adversarial robustness) narratívát erősíti: az audit nem elég, a technikai garancia kell.
+
+---
+
+## Ranking Summary (2026-04-24)
+
+| Rank | Hypothesis | Score | Delta |
+|------|-----------|-------|-------|
+| 1 | H2 — Audit Trail | 22/25 | = |
+| 2 | H6 — Policy Enforcement Runtime | 22/25 | = |
+| 3 | H22 — Adversarial Robustness Layer | 22/25 | = |
+| 4 | H40 — Workload-to-Agent Attestation | 22/25 | = |
+| 5 | H41 — Audit-First Compliance Artifacts | 22/25 | = |
+| 6 | **H75 — Agent Privacy Execution Environment (IFC)** | **22/25** | **ÚJ** |
+| 7 | H1 — Agent Identity & Auth | 21/25 | = |
+| 8 | H20 — Agent Platform as Regulated Infrastructure | 21/25 | = |
+| 9 | H24 — Shadow AI Governance Plane | 21/25 | = |
+| 10 | H66 — Agentic Supply Chain Security | 21/25 | = |
+| 11 | **H76 — Cross-Session Adversarial Threat Detection** | **21/25** | **ÚJ** |
+| 12 | H3 — MCP Governance | 20/25 | = |
+| 13 | H12 — Agent Accountability Framework | 20/25 | = |
+| 14 | H30 — Agent Trading Protocol & Risk Governance | 20/25 | = |
+| 15 | H43 — Signed A2A Delegation Claims | 20/25 | = |
+| 16 | H71 — Formal AI Oversight Institutions | 20/25 | ↑ path-dependency megerősítve |
+| 17 | **H77 — Stateless Decision Architecture for Regulated AI** | **20/25** | **ÚJ** |
+| 18 | H10 — Agent Infra as Code | 19/25 | = |
+| 19 | H15 — B2B SaaS Agent Feature Injection | 19/25 | = |
+| 20 | H42 — MCP Security Profiles | 19/25 | = |
+| 21 | H59 — Agent Credential Brokerage | 19/25 | ↑ Agent Vault OSS validáció |
+| 22 | H60 — Agent Identity Platform | 19/25 | = |
+| 23 | H65 — Proactive Agent Stack Anomaly Detection | 19/25 | = |
+| 24 | H69 — Cross-Border Regulatory Fragmentation | 19/25 | = |
+| 25 | H72 — Agent Network Segmentation & Identity Plane | 19/25 | = |
+| 26 | H7 — SMB Deployment Wrapper | 18/25 | = |
+| 27 | H8 — Cross-Agent Context | 18/25 | = |
+| 28 | H13 — Agent Sandboxing & Isolation | 18/25 | = |
+| 29 | H14 — Agent-to-Agent Trust & M2M | 18/25 | = |
+| 30 | H16 — AI Alignment Measurement as a Service | 18/25 | = |
+| 31 | H17 — Controlled Self-Configuration Boundary | 18/25 | = |
+| 32 | H18 — Organizationally-Aligned AI | 18/25 | = |
+| 33 | H19 — Operational Reliability Layer | 18/25 | = |
+| 34 | H21 — Deterministic Agent Behavior as Trust Signal | 18/25 | = |
+| 35 | H23 — Agentic QA & Mutation Testing as a Service | 18/25 | = |
+| 36 | H28 — Bias/Fairness Governance | 18/25 | = |
+| 37 | H32 — Trace-to-Patch Harness Improvement | 18/25 | = |
+| 38 | H33 — Multi-Agent Influence Governance | 18/25 | = |
+| 39 | H63 — Agent Seat Licensing & Procurement | 18/25 | = |
+| 40 | H64 — Integrity Hallucination / Consistency Governance | 18/25 | = |
+| 41 | H67 — Offensive Agent Red-Teaming as a Service | 18/25 | = |
+| 42 | H68 — Self-Evolving Agent Governance | 18/25 | = |
+| 43 | H73 — Agent Financial Delegation & Spending Control | 18/25 | = |
+| 44 | H4 — Agent Payment Rails | 17/25 | = |
+| 45 | H11 — Hallucination Self-Check | 17/25 | = |
+| 46 | H27 — Agent Packaging & Portability Spec | 17/25 | = |
+| 47 | H29 — Cost Governance & Token Budget Enforcement | 17/25 | = |
+| 48 | H31 — Agent-Native KB for Office Files | 17/25 | = |
+| 49 | H44 — Consent Receipts + Preview-Then-Execute | 17/25 | = |
+| 50 | H45 — Agent Runbooks & Incident Response | 17/25 | = |
+| 51 | H61 — Agent Failure Investigation Automation | 17/25 | = |
+| 52 | H62 — Cross-SDK Safety Primitives | 17/25 | = |
+| 53 | H5 — Discovery & Registry | 16/25 | = |
+| 54 | H25 — Dev Multi-Agent Workspace Orchestration | 16/25 | = |
+| 55 | H70 — Agent-Ready Web Infrastructure | 15/25 | = |
+| 56 | H74 — Agent Training Pipeline Compliance | 15/25 | = |
+| 57 | **H78 — Agent Behavioral Fingerprinting & Privacy Risk** | **15/25** | **ÚJ** |
+| 58 | H26 — WordPress/Plugin Ecosystem Vertical Copilots | 14/25 | = |
+| 59 | H9 — Agent Communication Infra | 12/25 | = |
+
+*2026-04-24 delta: 4 új hypothesis (H75–H78). H75 (Agent Privacy Execution Environment, 22/25) azonnal a top 6-ba kerül — a GAAP IFC paper Def=5 értékkel ritka moat potenciált jelöl. H76 (Cross-Session Adversarial, 21/25) a session-boundary guardrail gap empirikus bizonyítéka. H77 (Stateless Decision Architecture, 20/25) a regulated AI deployment legkevésbé kommunikált, de empirikusan legjobban alátámasztott architektúrális döntése. H78 (Behavioral Fingerprinting, 15/25) korai jelzés a privacy frontier következő rétegéről.*
+
+---
+
+## Top 3 Opportunities + Suggested Experiments (2026-04-24)
+
+### #1: H75 — Agent Privacy Execution Environment (IFC-alapú trust wedge)
+**Miért most:** A GAAP paper az egyetlen empirikus bizonyíték arra, hogy az "agent nem látja az adatot" nem csak policy kérdés, hanem fizikai garancia. A buyer kérdése: "tényleg nem látja az agented az ügyféladatot?" — erre ma nincs hiteles válasz. Def=5 ritka a listán. Navibase differenciátor: "privacy-by-default agent execution" mint enterprise és KKV egyaránt érthető értékajánlat.
+**Kísérlet:** 1 hetes prototípus: egy Leoni workflow-ban (pl. email draft) az érzékeny mezők (ügyfélnév, összeg, személyes adat) IFC-proxy-n mennek keresztül — az LLM csak anonymizált vagy proxylt adatot lát. Deliverable: "Privacy Execution Baseline" — mi látható és mi nem az agent számára. Merők: false anonymization arány, latency overhead, Tomi visszajelzés.
+**Befektetés:** ~1 hét. A GAAP paper maga a spec. Ha működik: a Navibase pitch legdifferenciálóbb eleme.
+
+### #2: H76 + H22 combo — Cross-Session + In-Session Adversarial Defense (Full Coverage)
+**Miért most:** A CSTM-Bench megmutatja: a jelenlegi guardrail-ok session-határon vakok. A DeepMind 6 trap + cross-session composit attack együttesen lefedi az agent attack surface teljes vertikumát. Aki mindkét réteget csomagolja, az a legteljesebb "Adversarial Agent Defense Bundle"-t adja — és az enterprise SOC kérdésre ("meg tudja védeni az agenteket?") igennel válasszol.
+**Kísérlet:** 3 napos "Full Adversarial Coverage Scan": (1) in-session: 6 DeepMind pattern check, (2) cross-session: rolling 72h anomália registry + cross-session pattern detekció Leoni session-ökön. Deliverable: "Agent Adversarial Exposure Report" — in-session és cross-session finding-ekkel. Merők: finding szám, coverage arány, compliance csapat visszajelzés.
+**Befektetés:** ~3 nap. A H22 in-session prototípus kiterjesztése.
+
+### #3: H59/H37 — Agent Vault Pattern (Secretless-by-default OSS referencia)
+**Miért most:** Az Infisical Agent Vault az első OSS implementáció a "secretless agent credential proxy" mintára — az agent soha nem látja a credentialt. Ez a HN "Do you trust AI agents with API keys?" kérdésre adott technikai válasz. Navibase: ez a H59 credential brokerage-t az "OSS referencia implementáció" szintről a "best practice standard" szintre emeli. A buyer language egyszerű és meggyőző.
+**Kísérlet:** 2 napos "Secretless Credential Demo": Agent Vault telepítése + Leoni GitHub/Gmail API hívásainak átrouting-ja Vault proxyra + audit log export. Deliverable: 2 perces képernyőfelvétel "az agent soha nem látja a kulcsot" + 1 oldalas evidence. Merők: credential exposure arány (0 a cél), audit correlation ID megléte, Tomi visszajelzés.
+**Befektetés:** ~2 nap. Az Agent Vault maga az OSS eszköz — telepítés és tesztelés a fő feladat.
+
+---
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-24.md (459 releváns, top 30 elemezve) | 2026-04-24 18:41 CET*
