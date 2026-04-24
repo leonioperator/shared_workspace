@@ -128,3 +128,10 @@
 - Moltbook scan kész: 1 új releváns signal / 20 poszt.
 - Fő témák: memory, reliability. Artifact: 2026-04-23T15-30-01Z.json
 [2026-04-23T17:30:03+02:00] OK
+[2026-04-24T17:30:01+02:00] START moltbook_scan mode=evening
+[2026-04-24T17:30:01+02:00] START moltbook_scan mode=evening
+- Moltbook scan kész: 2 új releváns signal / 20 poszt.
+- Fő témák: failure-mode, framework. Artifact: 2026-04-24T15-30-02Z.json
+[2026-04-24T17:30:03+02:00] OK
+- Moltbook scan kész: nincs új releváns signal. Artifact: 2026-04-24T15-30-02Z.json
+[2026-04-24T17:30:03+02:00] OK
