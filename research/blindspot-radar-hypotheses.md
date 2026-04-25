@@ -2144,3 +2144,49 @@ Scoring dimensions (1–5 each):
 ---
 
 *Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-24.md (459 releváns, top 30 elemezve) | 2026-04-24 18:41 CET*
+
+
+---
+
+# Update — 2026-04-25
+
+## H79 — Governance Prompt QA & Linting Layer (Policy Prompt Quality Gate)
+**Thesis:** A governance promptok minősége kritikus bottleneck lett. Ha a policy/prompt specifikációk hiányosak vagy strukturálatlanok, az agent viselkedése auditálhatatlanul szór. Kell egy dedikált QA/linting réteg, ami még deploy előtt ellenőrzi a governance promptokat (teljesség, ellentmondás, adatklasszifikáció, risk rubric), és compliance-ready riportot ad.
+**Signals (updated 2026-04-25):**
+- Structural Quality Gaps in Practitioner AI Governance Prompts (arxiv, 2026-04-22): öt elv mentén mért hiányosságok, a promptok strukturális minősége egyértelműen gyenge. HIGH CONFIDENCE.
+- AGENTS.md governance prompt quality gap jellegű előző napi megerősítés (2026-04-24): a data classification és assessment rubric visszatérő hiányterület. HIGH CONFIDENCE.
+- Engaged AI Governance „Last Mile” paper (arxiv, 2026-04-23): team-szintű implementáció a szűk keresztmetszet. HIGH CONFIDENCE.
+**Assessment:** Ez a H6/H20 gyorsan termékesíthető alrétege: nem új policy engine, hanem „pre-deploy quality gate” a policy promptokra. Navibase alkalmazás: AGENTS/SOUL/policy szövegek automatikus lint + score + javítási javaslat.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=2 | **Total: 17/25**
+*Új hypothesis (2026-04-25). A prompt-minőség most már empirikusan mért governance kockázat, nem „best practice” tanács.*
+
+---
+
+## H80 — Post-DAG Multi-Agent Runtime Pattern (State Machines over Static Graphs)
+**Thesis:** A klasszikus DAG-orchestration rosszul illeszkedik hosszúhorizontú, visszacsatolásos multi-agent munkákhoz. Kell egy új runtime minta, ahol állapotgépek, események, és iteratív döntési ciklusok az alap primitívek, nem az egyszer lefutó aciklikus gráf.
+**Signals (updated 2026-04-25):**
+- “Dags are the wrong abstraction for multi-agent systems” (band.ai, 2026-04-23): explicit practitioner jelzés, hogy a DAG modell termelési fájdalmat okoz. MEDIUM CONFIDENCE.
+- Multi-agent adoption folyamatosan nő (ChatDev/Claude Code/Baton előző hetek): orchestration komplexitás halmozódik. MEDIUM CONFIDENCE.
+**Assessment:** Ez a H25/H32/H39 metszete: az orchestration nem UI/projektmenedzsment kérdés, hanem runtime architektúra döntés. Navibase alkalmazás: event-driven task state modell a hosszabb ügynöki flow-khoz.
+**Scores:** Pain=3 | Urgency=3 | WTP=3 | Def=3 | IntFric=3 | **Total: 15/25**
+*Új hypothesis (2026-04-25). Korai, de jó „architecture watchlist” jelzés a következő 6-12 hónapra.*
+
+---
+
+## Top 3 Opportunities + Suggested Experiments (2026-04-25)
+
+### #1: H75 + H79 combo — Privacy-by-default + Governance Prompt QA
+**Miért most:** H75 (IFC privacy) adja a technikai trust garanciát, H79 pedig a policy/prompt minőségbiztosítását. Együtt erős, auditálható „agent trust stack” üzenet.
+**Kísérlet:** 1 hetes mini-pilot: (1) egy érzékeny Leoni flow IFC-proxyval, (2) governance prompt lint scorecard futtatása ugyanarra a flow-ra. Deliverable: 1 oldalas „Trust Baseline” riport.
+
+### #2: H76 + H22 — Full adversarial coverage (in-session + cross-session)
+**Miért most:** A session-határon vak guardrail ma enterprise stopper. In-session (DeepMind 6 trap) és cross-session (CSTM minták) együtt ad teljes védelmi narratívát.
+**Kísérlet:** 3 napos scan: 6-trap check + 72 órás cross-session pattern detekció, majd remediation lista.
+
+### #3: H59/H37 — Secretless credential proxy demo (Agent Vault pattern)
+**Miért most:** A „kulcsot nem adom oda” buyer-fájdalomra már van hiteles OSS minta. Gyors, látványos, alacsony build-friction demo.
+**Kísérlet:** 2 nap: 1 API workflow átkötése credential proxyra + audit evidence export + rövid demo videó.
+
+---
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-25.md (465 releváns, top 30 elemezve) | 2026-04-25 09:30 CET*
