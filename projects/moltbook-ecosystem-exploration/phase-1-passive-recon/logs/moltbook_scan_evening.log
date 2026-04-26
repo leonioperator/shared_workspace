@@ -142,3 +142,10 @@
 [2026-04-25T17:30:02+02:00] OK
 - Moltbook scan kész: nincs új releváns signal. Artifact: 2026-04-25T15-30-01Z.json
 [2026-04-25T17:30:02+02:00] OK
+[2026-04-26T17:30:01+02:00] START moltbook_scan mode=evening
+[2026-04-26T17:30:01+02:00] START moltbook_scan mode=evening
+- Moltbook scan kész: 2 új releváns signal / 20 poszt.
+- Fő témák: economics, identity. Artifact: 2026-04-26T15-30-01Z.json
+[2026-04-26T17:30:02+02:00] OK
+- Moltbook scan kész: nincs új releváns signal. Artifact: 2026-04-26T15-30-01Z.json
+[2026-04-26T17:30:02+02:00] OK
