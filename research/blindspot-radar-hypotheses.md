@@ -2190,3 +2190,141 @@ Scoring dimensions (1–5 each):
 ---
 
 *Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-25.md (465 releváns, top 30 elemezve) | 2026-04-25 09:30 CET*
+
+
+---
+
+# Update — 2026-04-28
+
+## H81 — Regime-Resilient Compliance Architecture (Durable Governance Under Political Turnover)
+**Thesis:** Az AI governance compliance rendszerek eddig feltételeztek egy stabil szabályozói és politikai környezetet. Az "AI Governance under Political Turnover" paper (arxiv, 2026-04-22) megmutatja: a compliance design maga is path-dependent — amit egy politikai rezsimben felépítettünk, az a következőben nem garantáltan működik. Enterprise agent deploymentnél ez kettős kockázat: (1) a compliance architektúra beégett a rendszerbe, rugalmasság nélkül; (2) cross-border deploymentnél az egymással inkompatibilis regulatory horizontok metszetében kell működni. Kell egy "regime-resilient" compliance layer: policy primitívek, amelyek szabályozói keretváltásra is adaptálhatók, verziókövetett audit traillel, és "alignment surface" dokumentációval — ami megmutatja, hogyan illeszkedik a deployed agent az aktuális regulatory keretbe.
+**Signals (updated 2026-04-28):**
+- "AI Governance under Political Turnover: The Alignment Surface of Compliance Design" (arxiv, 2026-04-22): compliance réteg beágyazódik a döntési struktúrába, path-dependent; politikai váltáskor az agent governance keretrendszer törékenységét modellezi. HIGH CONFIDENCE.
+- India dual AI governance structure (MeitY, 2026-04-17-18): párhuzamos, egymással nem harmonizált regulatory testületek — a "melyik framework él még holnap?" kérdés valódi. HIGH CONFIDENCE.
+- Cambridge: "Institutionalizing proxy responsibility" (2026-04-18): az intézményes beágyazottság szükséges, de a túlzott beágyazottság kockázat is (H71 megerősítés, de más dimenzióból). HIGH CONFIDENCE.
+- EU AI Act Aug 2026 deadline közeledik, de a politikai tér (Sanders/AOC moratorium, kínai counter-framework) jelzi: a szabályozói landscape volatilis. HIGH CONFIDENCE.
+**Assessment:** Ez a H71 (Formal AI Oversight Institutions) és H69 (Cross-Border Regulatory Fragmentation) komplementere: nem a compliance tartalma, hanem a compliance architektúra rugalmassága az igazi differenciáló. A buyer kérdése: "ha megváltozik a szabályozás, újra kell írnom az egész rendszert?" Navibase alkalmazás: modular, cserélhető policy primitive-ek + regulatory mapping verziókövetéssel + "alignment surface" dokumentáció, amelyet bármely compliance audithoz be lehet mutatni.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=4 | IntFric=4 | **Total: 20/25**
+*Új hypothesis (2026-04-28). Az arxiv paper az egyetlen empirikus keretrendszer a compliance design politikai turnover-robustusságára. Magas Def: aki a "resilient compliance layer" narratívát elsőként kommunikálja, az az egész cross-border enterprise szegmensben differenciál.*
+
+---
+
+## H82 — Agent Action Auditing in Knowledge Work Tools (Spreadsheet/Office Vertical)
+**Thesis:** Az AI agentek egyre inkább bekerülnek a napi tudásmunkába: spreadsheetelnek, szerkesztenek, döntéseket dokumentálnak. A probléma: a táblázatban elvégzett agent-műveletek (cella-módosítás, képlet-csere, sor-törlés, adatimport) teljesen átláthatatlanok. Nincs cell-level audit trail, nincs "ki csinálta" attribúció, nincs visszagörgethetőség. A kutatás (arxiv, 2026-04-22) megmutatja: az agent által elvégzett spreadsheet-műveletek felügyelete „a folyamat nagy részéig hozzáférhetetlen
+" az execution közben. Ez konkrét üzleti kár: a CFO nem látja, az agent mit változtatott a pénzügyi modellen. Kell egy "agent action audit réteg" a knowledge work toolokhoz: cell-level action log, diff-view, rollback, és approval gate magas kockázatú módosítások előtt.
+**Signals (updated 2026-04-28):**
+- "Auditing and Controlling AI Agent Actions in Spreadsheets" (arxiv, 2026-04-22): az agent spreadsheet-műveleteinek felügyelete szisztematikusan hiányzik; a kutatás az audit és kontrolligényt dokumentálja, első célzott kategória-definíció. HIGH CONFIDENCE.
+- H34/H44 (agent ops monitoring + consent receipts): ezek általános agent action audit primitívek — a knowledge work / office vertikál specifikus, magas-kockázatú megvalósítása különálló wedge. MEDIUM CONFIDENCE.
+- ServiceNow + Google Cloud agent partnership (2026-04-22): az enterprise operatív rendszerekbe integrálódó agentek number nő — a spreadsheet/office "action audit" igény ezzel párhuzamosan nő. MEDIUM CONFIDENCE.
+**Assessment:** Ez alacsony build-fric (IntFric=2) entry point: a buyer (CFO, pénzügyi controller, compliance) azonnali fájdalmat érez, és a "audit trail a tábláimban" meggyőző pitch. Navibase alkalmazás: KKV pénzügyi/sales spreadsheet-eken agent action log + diff export + approval gate magas értékű módosítások előtt.
+**Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=3 | IntFric=2 | **Total: 16/25**
+*Új hypothesis (2026-04-28). Az arxiv paper az első célzott kategória-definíció a knowledge work agent audit vertikálra. Alacsony build friction, közvetlen KKV relevanciával.*
+
+---
+
+## Megerősített signalok (2026-04-28)
+
+**H59/H37/H53 (secretless credentials):** Agent Vault (Infisical OSS) második heti megerősítés + a "secretless-by-default" pattern 465 signal között a top 8-ban szerepel (2026-04-22-i launch folytatódik). Az OSS referencia implementáció létezik, a buyer language egyszerű.
+
+**H79 (governance prompt QA):** "Engaged AI Governance: Last Mile Challenge" (arxiv, 2026-04-23) megerősíti: a team-szintű implementáció a szűk keresztmetszet, nem a policy keret. Ez a governance prompt linting (H79) natív belépési pontja.
+
+**H22/H76 (adversarial + cross-session):** "Secure-by-Design: 3 Principles to Safely Scale Agentic AI" (CIO.com) és "Cross-Session Threats" (CSTM-Bench) egymást erősítik: az in-session + cross-session combined defense a teljes adversarial narrative.
+
+**H71/H81 (governance institutionalization):** AI Governance under Political Turnover (arxiv, 2026-04-22) + India MeitY dual structure = a "durable compliance architecture" igény most vált konkréttá.
+
+**H41 (compliance artifacts):** Context AI / Delve security incident (TechCrunch, 2026-04-23) — third-party AI compliance audit is compromised. A "certified compliance" nem jelent tényleges biztonságot, a technikai evidence-pack (H41) nem helyettesíthető külső tanúsítóval.
+
+---
+
+## Ranking Summary (2026-04-28)
+
+| Rank | Hypothesis | Score | Delta |
+|------|-----------|-------|-------|
+| 1 | H2 — Audit Trail | 22/25 | = |
+| 2 | H6 — Policy Enforcement Runtime | 22/25 | = |
+| 3 | H22 — Adversarial Robustness Layer | 22/25 | = |
+| 4 | H40 — Workload-to-Agent Attestation | 22/25 | = |
+| 5 | H41 — Audit-First Compliance Artifacts | 22/25 | = |
+| 6 | H75 — Agent Privacy Execution Environment (IFC) | 22/25 | = |
+| 7 | H1 — Agent Identity & Auth | 21/25 | = |
+| 8 | H20 — Agent Platform as Regulated Infrastructure | 21/25 | = |
+| 9 | H24 — Shadow AI Governance Plane | 21/25 | = |
+| 10 | H66 — Agentic Supply Chain Security | 21/25 | = |
+| 11 | H76 — Cross-Session Adversarial Threat Detection | 21/25 | = |
+| 12 | H3 — MCP Governance | 20/25 | = |
+| 13 | H12 — Agent Accountability Framework | 20/25 | = |
+| 14 | H30 — Agent Trading Protocol & Risk Governance | 20/25 | = |
+| 15 | H43 — Signed A2A Delegation Claims | 20/25 | = |
+| 16 | H71 — Formal AI Oversight Institutions | 20/25 | = |
+| 17 | H77 — Stateless Decision Architecture for Regulated AI | 20/25 | = |
+| 18 | **H81 — Regime-Resilient Compliance Architecture** | **20/25** | **ÚJ** |
+| 19 | H10 — Agent Infra as Code | 19/25 | = |
+| 20 | H15 — B2B SaaS Agent Feature Injection | 19/25 | = |
+| 21 | H42 — MCP Security Profiles | 19/25 | = |
+| 22 | H59 — Agent Credential Brokerage | 19/25 | ↑ OSS validáció |
+| 23 | H60 — Agent Identity Platform | 19/25 | = |
+| 24 | H65 — Proactive Agent Stack Anomaly Detection | 19/25 | = |
+| 25 | H69 — Cross-Border Regulatory Fragmentation | 19/25 | = |
+| 26 | H72 — Agent Network Segmentation & Identity Plane | 19/25 | = |
+| 27 | H7 — SMB Deployment Wrapper | 18/25 | = |
+| 28 | H8 — Cross-Agent Context | 18/25 | = |
+| 29 | H13 — Agent Sandboxing & Isolation | 18/25 | = |
+| 30 | H14 — Agent-to-Agent Trust & M2M | 18/25 | = |
+| 31 | H16 — AI Alignment Measurement as a Service | 18/25 | = |
+| 32 | H17 — Controlled Self-Configuration Boundary | 18/25 | = |
+| 33 | H18 — Organizationally-Aligned AI | 18/25 | = |
+| 34 | H19 — Operational Reliability Layer | 18/25 | = |
+| 35 | H21 — Deterministic Agent Behavior as Trust Signal | 18/25 | = |
+| 36 | H23 — Agentic QA & Mutation Testing as a Service | 18/25 | = |
+| 37 | H28 — Bias/Fairness Governance | 18/25 | = |
+| 38 | H32 — Trace-to-Patch Harness Improvement | 18/25 | = |
+| 39 | H33 — Multi-Agent Influence Governance | 18/25 | = |
+| 40 | H63 — Agent Seat Licensing & Procurement | 18/25 | = |
+| 41 | H64 — Integrity Hallucination / Consistency Governance | 18/25 | = |
+| 42 | H67 — Offensive Agent Red-Teaming as a Service | 18/25 | = |
+| 43 | H68 — Self-Evolving Agent Governance | 18/25 | = |
+| 44 | H73 — Agent Financial Delegation & Spending Control | 18/25 | = |
+| 45 | H4 — Agent Payment Rails | 17/25 | = |
+| 46 | H11 — Hallucination Self-Check | 17/25 | = |
+| 47 | H27 — Agent Packaging & Portability Spec | 17/25 | = |
+| 48 | H29 — Cost Governance & Token Budget Enforcement | 17/25 | = |
+| 49 | H31 — Agent-Native KB for Office Files | 17/25 | = |
+| 50 | H44 — Consent Receipts + Preview-Then-Execute | 17/25 | = |
+| 51 | H45 — Agent Runbooks & Incident Response | 17/25 | = |
+| 52 | H61 — Agent Failure Investigation Automation | 17/25 | = |
+| 53 | H62 — Cross-SDK Safety Primitives | 17/25 | = |
+| 54 | H79 — Governance Prompt QA & Linting | 17/25 | = |
+| 55 | H5 — Discovery & Registry | 16/25 | = |
+| 56 | H25 — Dev Multi-Agent Workspace Orchestration | 16/25 | = |
+| 57 | **H82 — Agent Action Auditing in Knowledge Work Tools** | **16/25** | **ÚJ** |
+| 58 | H70 — Agent-Ready Web Infrastructure | 15/25 | = |
+| 59 | H74 — Agent Training Pipeline Compliance | 15/25 | = |
+| 60 | H78 — Agent Behavioral Fingerprinting & Privacy Risk | 15/25 | = |
+| 61 | H80 — Post-DAG Multi-Agent Runtime Pattern | 15/25 | = |
+| 62 | H26 — WordPress/Plugin Ecosystem Vertical Copilots | 14/25 | = |
+| 63 | H9 — Agent Communication Infra | 12/25 | = |
+
+*2026-04-28 delta: 2 új hypothesis (H81, H82). H81 (Regime-Resilient Compliance Architecture, 20/25) azonnal a top 18-ba kerül — a compliance architektúra politikai rugalmasságának empirikus keretrendszere egyedülálló differenciáló narratíva. H82 (Knowledge Work Agent Audit, 16/25) alacsony build-fric, közvetlen KKV entry point. Megerősített irányok: H59 OSS secretless validáció, H79 governance prompt QA, H41/H22 adversarial coverage.*
+
+---
+
+## Top 3 Opportunities + Suggested Experiments (2026-04-28)
+
+### #1: H75 + H79 + H81 combo — Privacy-by-default + Governance Prompt QA + Resilient Compliance
+**Miért most:** Három komplementer réteg, amelyek együtt adnak "Agent Trust Stack" narratívát: (1) az agent fizikailag nem látja az érzékeny adatot (H75 IFC), (2) a governance promptok minősége mérve és javítva (H79 lint), (3) a compliance architektúra regulatory változásra is adaptálható (H81 resilient layer). Ez az egyetlen kombináció, amely a buyer leggyakoribb 3 compliance kérdését egyszerre válaszolja meg.
+**Kísérlet:** 1 hetes "Agent Trust Dossier v2": (1) IFC privacy execution baseline (1 Leoni workflow), (2) governance prompt lint scorecard (SOUL/AGENTS/policy szövegek), (3) regulatory alignment surface dokumentáció (EU AI Act + adaptálhatósági nyilatkozat). Deliverable: 2 oldalas "Agent Trust Dossier" PDF, procurement-ready. Mérők: compliance csapat visszajelzés, audit blocker csökkenés, Tomi visszajelzés.
+**Befektetés:** ~5 nap. Három meglévő signal + egy új deliverable formátum.
+
+### #2: H76 + H22 — Full Adversarial Coverage (In-Session + Cross-Session Defense)
+**Miért most:** A CSTM-Bench 26 cross-session attack taxonomia + DeepMind 6 in-session trap együttesen lefedi az agent attack surface vertikumát. Ez az egyetlen kombináció, amely az enterprise SOC "Meg tudja védeni az agenteket?" kérdésére teljes igent mond. Eddig egyetlen termék sem kommunikálja mindkét réteget.
+**Kísérlet:** 3 napos "Full Adversarial Coverage Scan": (1) 6 DeepMind pattern in-session check, (2) 72 órás cross-session anomália registry + composit pattern detekció Leoni session-ökön. Deliverable: "Agent Adversarial Exposure Report" — in-session és cross-session finding-ekkel + remediation javaslat. Mérők: finding szám, coverage arány, enterprise SOC feedback.
+**Befektetés:** ~3 nap. H22 in-session prototípus kiterjesztése cross-session réteggel.
+
+### #3: H82 — Knowledge Work Agent Audit (Spreadsheet/Office quick win)
+**Miért most:** Alacsony build friction (IntFric=2), közvetlen buyer fájdalom (CFO, pénzügyi controller), és az arxiv paper az első célzott kategória-definíció. Ez a H2 (audit trail) legkönnyebben eladható vertikális alkalmazása: "mutasd meg, mit változtatott az agented a pénzügyi modellben."
+**Kísérlet:** 2 napos pilot: egy Leoni-hoz kapcsolódó spreadsheet workflow (pl. kanban export, budget summary) action log implementáció — cell/row szintű audit trail + diff export + approval gate ha >X sor módosítás. Deliverable: "Spreadsheet Agent Audit Demo" — 2 perces képernyőfelvétel + sample audit export. Mérők: audit export pontossága, false block arány, Tomi visszajelzés.
+**Befektetés:** ~2 nap. Navibase quick win demonstrálható bármely KKV pénzügyi pitch-ben.
+
+---
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-25.md (465 releváns, top 30 elemezve) | 2026-04-28 09:30 CET*
