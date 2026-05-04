@@ -1,0 +1,3 @@
+# Candidates — 2026-05-03
+
+0 releváns hírlevél, nincs jelölt
