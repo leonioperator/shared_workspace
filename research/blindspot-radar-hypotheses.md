@@ -462,7 +462,43 @@ Scoring dimensions (1–5 each):
 
 ---
 
-## Ranking Summary (2026-03-27)
+## H62 — Governance-Compliance Structural Alignment (Expressiveness ↔ Governance Boundary)
+**Thesis:** A "The Two Boundaries" model azt mutatja, hogy a legtöbb produkciós agent rendszernél a system expressiveness (capability limits) és a governance coverage (policy limits) függetlenül vannak definiálva. Ez 3 régióban szétszóródott kockázatot hozhat: (1) governed capability (jó, de ritka), (2) ungoverned capability (biztonsági kockázat), (3) ungoverned but restricted capability (feleslegesen drága). Az explicit boundary mapping és a "governance surface discovery" hiánya a fő structural vacuity.
+**Signals (updated 2026-05-04):**
+- The Two Boundaries: Why Behavioral AI Governance Fails Structurally (arxiv, 2026-04-30): explicit model, structural failure pattern dokumentálva. HIGH CONFIDENCE.
+- UGAF-ITS: Standards Harmonization Framework (arxiv, 2026-04-07): fragmented governance (ISO/IEC 42001, EU AI Act, NIST) — boundary mismatch Enterprise szinten is. HIGH CONFIDENCE.
+- AI Governance Control Stack for Operational Stability (arxiv, 2026-03-12): "many governance approaches focus primarily on policy guidance rather than operational stability mechanisms" — structural gap, nem csak missing implementation. HIGH CONFIDENCE.
+**Assessment:** Navibase alkalmazás: explicit "Agent Governance Surface Map" — capabilities audit + policy coverage scan + gap report. Audit-ready deliverable, amelyet security/compliance teams azonnal használhatnak. Gyors entry point a H2/H6/H10 irányba.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=2 | **Total: 17/25**
+*Új hypothesis (2026-05-04). A "Two Boundaries" explicit model megnyitja az auditálási, majd compliance-as-code dienálási lehetőséget.*
+
+---
+
+## H63 — Public Trust Degradation Monitoring (Real-time Feedback Loop Management)
+**Thesis:** A "Stability of AI Governance Systems" coupled dynamics model azt mutatja, hogy a deployed agent viselkedése és a nyilvános bizalom között instabil feedback loop alakul ki: rossz agent output → nyilvános bizalomvesztés → politikai/regulatív backlash → korlátozások → innovation block. A jelenleg semmilyen real-time monitoring nem követi ezt a feedback loop-ot, így az agent adoption és societális stability között egy critical blind spot van. Szervezeteknek nincsen eszköze, hogy "trust degradation" megelőzésként jelezzenek.
+**Signals (updated 2026-05-04):**
+- Stability of AI Governance Systems: A Coupled Dynamics Model of Public Trust and Social Disruptions (arxiv, 2026-03-10): explicit coupled system model, public trust as stability determinant. HIGH CONFIDENCE.
+- Meta rogue agent incident (2026-03-18): cascading trust erosion, media backlash — live feedback loop case study. HIGH CONFIDENCE.
+- EU AI Act Aug 2026 deadline + Gartner: 80% of governments deploy agents by 2028 — public trust decisions at scale incoming. MEDIUM CONFIDENCE.
+**Assessment:** Az ops ügynök (Leoni) kontextusában értékesíthető: "Agent Output Public Trust Score" — outgoing communication (email, ajánlat, report) tone/accuracy/compliance szűrés + external reputation feedback (media, customer complaint monitoring). Preventív risk management pitch.
+**Scores:** Pain=4 | Urgency=4 | WTP=3 | Def=3 | IntFric=3 | **Total: 17/25**
+*Új hypothesis (2026-05-04). A coupled dynamics model explicit modellezése omogeti a prevenív beavatkozási stratégiákat.*
+
+---
+
+## H64 — Autonomy-Control Balance Framework (Safe Handoff Mechanisms)
+**Thesis:** A "Autonomy vs. Control Paradox" pattern arra mutat, hogy az agentek autonómiája és az emberi oversight közötti trade-off kézileg oldódik meg (vagy nem oldódik meg). Jelenleg nincs formális keretrendszer az "autonóm hatáskör limitjainak" definiálására agent szinten (pl. maximum tranzakciós érték, maximum comunicatio surface, approval gates specifikus operációkhoz). Ez a hiányosság tanto security (rogue agent) mint user experience (túl sok jóváhagyás) kockázatot hozhat. Szükség van egy "Safe Handoff" framework-re, amely explicit autonomy budget, capability scope, és fallback stratégia-kat definiál per-agent-per-task.
+**Signals (updated 2026-05-04):**
+- From Prompt to Physical Actuation: A Unified Framework and Benchmark for LLMs Embodying Autonomous Agents (implicit signal): Language-centric interfaces limit oversight mechanisms in robotics/autonomous agents. MEDIUM CONFIDENCE (inferred from recommendations).
+- LLM Constitutional Multi-Agent Governance (arxiv, 2026-03-13): "does cooperation reflect genuine prosocial alignment, or does it mask failure?" — autonomy vs. control trade-off formalization szükséges. MEDIUM CONFIDENCE.
+- Agent authentication + Zeroclawed gateway (2026-04-10/2026-04-13): "secure switching" logicája előfeltételez explicit autonomy scope. MEDIUM CONFIDENCE (inferred).
+**Assessment:** Navibase-nél konkrét alkalmazás: per-task autonomy budget template (pl. "email draft: autonomy 80%, approval gate 20%; cost approval threshold: 1000 HUF"), audit trail with "autonomy decision boundary." KKV compliance + operatív safety pitch.
+**Scores:** Pain=3 | Urgency=3 | WTP=3 | Def=3 | IntFric=3 | **Total: 15/25**
+*Új hypothesis (2026-05-04). Az explicit autonomy budget definiálása szükséges a "agent hacker" vs. "agent escrow" narratíva közötti választás feloldásához.*
+
+---
+
+## Ranking Summary (2026-05-04)
 
 | Rank | Hypothesis | Score | Delta |
 |------|-----------|-------|-------|
@@ -470,15 +506,18 @@ Scoring dimensions (1–5 each):
 | 2 | H6 — Policy Enforcement Runtime | 22/25 | = |
 | 3 | H1 — Agent Identity & Auth | 21/25 | = |
 | 4 | H3 — MCP Governance | 20/25 | = |
-| 5 | **H10 — Agent Infra as Code** | **19/25** | **ÚJ** |
-| 6 | H7 — SMB Deployment Wrapper | 18/25 | = |
-| 7 | H8 — Cross-Agent Context | 18/25 | = |
-| 8 | H4 — Agent Payment Rails | 17/25 | = |
-| 9 | **H11 — Hallucination Self-Check** | **17/25** | **ÚJ** |
-| 10 | H5 — Discovery & Registry | 16/25 | = |
-| 11 | H9 — Agent Communication Infra | 12/25 | = |
+| 5 | H10 — Agent Infra as Code | 19/25 | = |
+| 6 | **H62 — Governance Boundary Alignment** | **17/25** | **ÚJ** |
+| 7 | **H63 — Trust Degradation Monitoring** | **17/25** | **ÚJ** |
+| 8 | H7 — SMB Deployment Wrapper | 18/25 | = |
+| 9 | H8 — Cross-Agent Context | 18/25 | = |
+| 10 | H4 — Agent Payment Rails | 17/25 | = |
+| 11 | H11 — Hallucination Self-Check | 17/25 | = |
+| 12 | **H64 — Autonomy-Control Balance** | **15/25** | **ÚJ** |
+| 13 | H5 — Discovery & Registry | 16/25 | = |
+| 14 | H9 — Agent Communication Infra | 12/25 | = |
 
-*2026-03-27 delta: 2 új hypothesis (H10, H11). Meglévő scorok változatlanok. Governance/Compliance nyomás (H1/H2/H6) és infrastrukturális standardizáció (H10) dominál. EU AI Act Aug 2026 deadline közeledtével urgency emelkedés várható Q2-ben.*
+*2026-05-04 delta: 3 új hypothesis (H62, H63, H64). Meglévő scorok változatlanok. Új structural governance themata: boundary alignment + trust monitoring + autonomy budget. A "Two Boundaries" modell és coupled dynamics research az agent governance design-t egyre explicitebb keretre kényszeríti. Strukturális és real-time monitoring innovációk felértékelődnek.*
 
 ---
 
@@ -494,9 +533,10 @@ Scoring dimensions (1–5 each):
 **Javasolt kísérlet:** Navibase "Agent Config Template Library" — 5 iparági sablon (ügyfélszolgálat, könyvelés, HR, értékesítés, logisztika) YAML-ban, Orloj/policy-as-code mintára. Mérő: GitHub star szerzés 30 nap alatt, inbound enterprise kontakt, template letöltések.
 **Befektetés:** ~1 hét. Erős SEO- és thought leadership-hatás a Navibase brand számára.
 
-### #3: H11 — Hallucination Self-Check réteg (Navibase közvetlen alkalmazás) [Score: 17/25 — ÚJ]
-**Miért most:** A MARCH paper (8B MARL modell, closed-source szintű teljesítmény) megnyitja a cost-efficient in-pipeline self-check lehetőséget. KKV-knál a "agent hibás emailt küldött az ügyfélnek" forgatókönyv a legfőbb adopciós barrier — ezt megszünteti. Belső implementáció gyors ROI-t hozhat a Leoni ops agent megbízhatóságán.
-**Javasolt kísérlet:** Leoni kimenő kommunikáció pipeline-jában (email, ajánlat, riport) MARCH-alapú self-check réteg prototípus. Mérő: false positive arány (nem blokkol helyes outputot), false negative arány (nem enged át hibásat), latency overhead. 2 hetes A/B: önellenőrzéssel vs. anélkül.
+### #3: H62 + H63 — Governance Boundary Mapping + Trust Monitoring [Score: 17/25 — ÚJ]
+**Miért most:** Az új signal file explicit strukturális modelleket hoz (The Two Boundaries, Coupled Dynamics) — ez azt jelzi, hogy a piac el tudja kezdeni formalizálni, amit eddig ad-hoc módon csinált. Az "Agent Governance Surface Map" + "Trust Degradation Real-time Feed" kettős pitch gyors belépési pont a H2/H6 audit/policy irányához, viszont strukturálisabb és measurable-ebb megközelítéssel.
+**Javasolt kísérlet:** Navibase "Agent Governance Audit Tool" — Capabilities Discovery + Policy Coverage Scan + Trust Monitoring Dashboard. Input: agent MCP config + recent outputs. Output: (1) governance surface map, (2) boundary mismatch report, (3) public trust risk score (tone/accuracy check). Integrációs partner lehetőség H2 (audit trail) és H6 (policy enforcement) felett.
+**Befektetés:** ~2 hét. Strong B2B SaaS foundation, audit/legal szellőztetéshez könnyű pitch.
 **Befektetés:** ~1 hét. Azonnal tesztelhető a meglévő Leoni infrastruktúrán. Ha működik: KKV pitch centerdarabja.
 
 ---
