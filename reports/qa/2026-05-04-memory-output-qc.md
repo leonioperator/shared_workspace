@@ -5,8 +5,7 @@ Status: **WARN**
 
 ## Heti riport
 - Elvárt: 1 (2026-04-27.md)
-- Hiányzó: 1
-  - 2026-04-27
+- Hiányzó: 0
 
 ## Diary lefedettség (napi memory fájlok alapján)
 - Napi memory fájlok az ablakban: 0
