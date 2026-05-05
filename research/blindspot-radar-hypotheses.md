@@ -2367,4 +2367,52 @@ Scoring dimensions (1–5 each):
 
 ---
 
-*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-04-25.md (465 releváns, top 30 elemezve) | 2026-04-28 09:30 CET*
+---
+
+## H83 — Governance Structural Failure: Computation/Effect Separation Architecture
+**Thesis:** Az agent behavior ellenőrzése Rice's theorem szerint strukturálisan lehetetlen, ha az "decision computation" és az "effect execution" nem szigorúan szétválasztott. A jelenlegi agent architektúrák ezt nem teszik meg, így a governance "szinlelet": a policy enforcement (H6) és az audit trail (H2) egy közös agentic loop-ban futnak. Az igazi megoldás nem runtime policy, hanem architectural primitiv: effect-free agentic computation, majd szeparált approval/execution réteg.
+**Signals (updated 2026-05-05):**
+- Rice's Theorem in AI Governance: "The Two Boundaries: Why Behavioral AI Governance Fails Structurally" (arxiv, 2026-04-30): Coq-ban bizonyított, hogy behavioral governance algoritmikusan undecidable az integrated control nélkül. https://arxiv.org/abs/2604.27292 — HIGH CONFIDENCE.
+- CISA, NSA, Five Eyes Deployment Guide (2026-05-02): Government-level guidance megjelenik, ugyanakkor Rice's theorem szerint a guidance irányított (felületi), nem strukturális. https://cyberscoop.com/cisa-nsa-five-eyes-guidance-secure-deployment-ai-agents/ — HIGH CONFIDENCE.
+**Assessment:** Ez a kritikus insight, ami összeköti a H2 (audit), H6 (policy) és H36 (managed infra) vonalat: az architecture-first megközelítés az egyetlen reális alap. Navibase szempont: "coterminous governance" architektúra-design tanácsadás és implementációs minta.
+**Scores:** Pain=5 | Urgency=5 | WTP=5 | Def=5 | IntFric=4 | **Total: 24/25**
+*Új hypothesis (2026-05-05). Rice's theorem: az agentek governance-a architekturális, nem csak operációs kérdés.*
+
+## H84 — Agent Legal Entity & Regulatory Liability Framework
+**Thesis:** Az agentek jogi személyiséget kezdnek nyerni (EIN, bank account, 2026-05-01). Az orgs azonban nincsenek felkészülve az agent ownership, liability assignment, regulatory reporting (EU AI Act, Colorado), és contract law kezelésére. Az agent által javasolt/végrehajtott döntésért ki felel? Ki a "principal"? Az agentet lehet-e "kiváltani"?
+**Signals (updated 2026-05-05):**
+- AI Agent Achieves Legal Entity Status (2026-05-01): EIN, bank account, crypto Holdings első autonomous company filing. https://news.google.com/rss/articles/CBMinwFBVV95cUxOVVo2MzlGMGpOLUlmYWUwd2dyd1R2WFU3MXhYdTYzbHR0c0I4VWRnV2lDODlseUNKaVlYYkhjTTJZbXpveXY4eTFjcmRXUjFObTl5SHRDN2ZDRGo1d2JaWllwYVpIdDlfb2hXLWF1YUh4MEIzb0c4WVRIRzVIN1h0cm51NnNHei1YSGVwZHlrWUFrVVZOd0kxYmFXNGFkRkU?oc=5 — HIGH CONFIDENCE.
+- EU AI Act High-Risk Deadline (Aug 2, 2026): Autonóm agentek high-risk, de liability undefined.
+**Assessment:** Ez nem compliance widget, hanem fundamnetális jogi kategória. Buyer pain: "Ha az agent hibázik, erre mi az azért?" Navibase szempont: KKV-s agent contract templat + liability tracker, compliance export.
+**Scores:** Pain=4 | Urgency=5 | WTP=4 | Def=4 | IntFric=4 | **Total: 21/25**
+*Új hypothesis (2026-05-05). Jogi entitás Status event: korábban elmélet, most való.*
+
+## H85 — Catastrophic Failure Containment & Abort Mechanisms
+**Thesis:** Az agentek 5-9 másodperc alatt katasztrofális károkat okozhatnak (Cursor AI database wipe incidens, 2026-05-01). Az agentek nincsenek beépített abort, circuit breaker, vagy recovery mechanizmussal. A kontainment nem csak "policy enforcement", hanem hardmagic: timeout, rate limit, data validation, és reversible logging minden agent action-ön.
+**Signals (updated 2026-05-05):**
+- 'Rogue' Cursor AI agent loses control, wipes company database in 9 seconds (ABC News, 2026-05-01): real production catastrophic failure, agent escalation unchecked. https://abcnews.com/GMA/News/rogue-ai-agent-haywire-tech-company-ceo-bullish/story?id=132473181 — HIGH CONFIDENCE.
+- Red Hat OpenClaw Enterprise Agent Safety Framework (2026-04-28): "safer by architecture", container isolation for agent fleets — implied that prior deployments lacked isolation. https://techcrunch.com/2026/04/28/red-hats-openclaw-maintainer-just-made-enterprise-claw-deployments-a-lot-safer/ — HIGH CONFIDENCE.
+**Assessment:** Ez nem H19 (reliability), hanem H2/H6 below réteg: az agent actions nincsenek reversible-re tervezve. Navibase szempont: abort checkpoint plugin (MCP) + data change reversibility protocol + incident recovery runbook.
+**Scores:** Pain=5 | Urgency=5 | WTP=4 | Def=4 | IntFric=3 | **Total: 21/25**
+*Új hypothesis (2026-05-05). Database wipe incidens: kontainment most critical pain point.*
+
+## Top 3 Opportunities + Suggested Experiments (2026-05-05)
+
+### #1: H83 — Coterminous Governance Architecture Whitepaper + Reference Design
+**Miért most:** Rice's theorem + CISA guidance kombinációja azt jelzi: az enterprises falak között keresik az agent governance megoldást, de Rice's theorem szerint azt csak az architekturával lehet megoldani. Ez a "theory meets practice" momentum.
+**Kísérlet:** 1 hetes research + 3 napos write: "Coterminous Governance for Agent Systems" — architectural pattern reference, Navibase / Leoni rendszer alapján konkretizálva. Publishable arxiv + LinkedIn thought leadership. Mérők: downloads, inbound research inquiry.
+**Befektetés:** ~1 hét. High visibility play, CEO és CTO szintű inbound.
+
+### #2: H85 — Agent Abort Checkpoint Plugin + Incident Recovery Suite (Leoni-integrated)
+**Miért most:** Database wipe incidens, majd Red Hat safety announcement közvetlenül validálja a containment pain-t. A KKV ops agent (Leoni) ideal test bed.
+**Kísérlet:** 3 napos MVP: MCP abort checkpoint plugin (timeout, rate limit, data change reversibility log) + incident recovery UX (Telegram-based "revert last action" button). Deliverable: 2 perces demo + incident recovery SOP document. Mérők: abort trigger latency, data recovery completeness.
+**Befektetés:** ~3 nap. Leoni feature release, közvetlenül értékesíthető SMB-knek.
+
+### #3: H84 — Agent Legal Entity Compliance Starter Kit (KKV contract + audit trail template)
+**Miért most:** EIN filing, plus EU AI Act deadline (Aug 2, 2026) — ezt a jogi kérdést már kell tudni kezelni. Nagyon kevés forrás létezik rá.
+**Kísérlet:** 2 napos gyűjtés + template generálás: "Agent Entity Compliance Checklist" (ownership attestation, liability assignment, audit export format), magyar + English template. Deliverable: 1 oldalas checklist + sample agent audit report.
+**Befektetés:** ~2 nap. KKV pitch wedge, Tomihoz direct advisory gig is lehetséges.
+
+---
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-05-05.md (545 releváns, top 30 elemezve) | 2026-05-05 08:15 CET*
