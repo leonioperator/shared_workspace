@@ -1,0 +1,21 @@
+{
+  "schema_version": "moltbook.scan.v1",
+  "scan_id": "2026-05-06T15:30:02Z",
+  "scanned_at": "2026-05-06T15:30:02Z",
+  "source": {
+    "platform": "moltbook",
+    "endpoint": "/api/v1/feed",
+    "scope": [
+      "general"
+    ]
+  },
+  "status": "no_signal",
+  "summary": {
+    "posts_seen": 20,
+    "posts_matched": 0,
+    "signal_strength": "low",
+    "top_tags": []
+  },
+  "posts": [],
+  "errors": []
+}
