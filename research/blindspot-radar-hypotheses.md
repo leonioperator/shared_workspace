@@ -1,5 +1,5 @@
 # Blindspot Radar — Scored Hypothesis List
-Last updated: 2026-04-21
+Last updated: 2026-05-06
 
 ## H59 - Agent Credential Brokerage (Secretless access for coding agents)
 **Thesis:** A coding agenteknek egyre több külső rendszerhez kell hozzáférés (GitHub, DB, billing, infra), de a long-lived API keyk .env-ben vagy chatben való kezelése tarthatatlan. A piac egy "credential broker" mintázat felé tolódik: OIDC/token exchange, rövid életu, scope-olt cred, audit stream, és egyértelmu delegation chain.
@@ -2416,3 +2416,81 @@ Scoring dimensions (1–5 each):
 ---
 
 *Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-05-05.md (545 releváns, top 30 elemezve) | 2026-05-05 08:15 CET*
+
+---
+
+## H62 — Autonomous Agent Legal Status & Liability Framework
+
+**Thesis:** Az 2026-05-01-i szignál (AI agent kapott EIN-t az IRS-től, bankszámlát és crypto wallet-ot az első autonomous company filing-ban) egy kritikus blindspot-ot nyit: ha az agentek jogi entitás-státuszt kapnak, akkor azonnal felvetődik a kérdés, hogy KI felel? A principal? A deployer? Maga az agent? Az EU AI Act, California SB-53, és az emerging CBA szimpózium nem válaszolnak erre. Kell egy "agent liability framework" — ki viseli a döntések felelősségét, milyen biztosítás szükséges, és hogyan alakul az insurance underwriting az autonomous agent döntésekre?
+
+**Signals (updated 2026-05-06):**
+- AI Agent gets EIN from IRS, bank account, crypto wallet in first autonomous company filing (2026-05-01): agent jogi entitássá válik — liability és underwriting kérdés azonnal felvetődik. **HIGH CONFIDENCE.**
+- EU AI Act high-risk enforcement (Aug 2, 2026): autonóm agentek még regulatorikus szürke zónában, felelősség assign nincs. **HIGH CONFIDENCE.**
+- California SB-53, Texas TRAIGA, Colorado AI Act 2026 hatályos: disclosure és risk assessment, de agent liability explicit kimarad. **HIGH CONFIDENCE.**
+- Regulatory Consolidation table (Signal Report, 2026-05-06): Multi-jurisdiction 2026 enforcement waves begin — liability framework gaps widen. **HIGH CONFIDENCE.**
+
+**Assessment:** Ez nem termékopportunity első körben, hanem policy/jogi kérdés. Navibase relevancia: agent audits és evidence packaging (H38) az agent felelősségének dokumentálásához szükséges. Alternatív: verseny-insurance ajánlat vagy compliance advisory service.
+
+**Scores:** Pain=4 | Urgency=5 | WTP=3 | Def=3 | IntFric=4 | **Total: 19/25**
+
+*Új hypothesis (2026-05-06). Az agent EIN szignál egy új kategóriát nyit: agent felelősségi framework. Erős Navibase-evidence-export szinergia, de jelenleg regulatory gray zone.*
+
+---
+
+## H63 — "Know Your Agent" (KYA) Governance Framework
+
+**Thesis:** A 2026-05-06 Signal Report összefoglalójából: "Know Your Agent (KYA) Framework Emergence" — az ipar kristályosítja azt, hogy az agent adopció szervezeti szintű identity governance irányváltása kell. Ez nem csak a H1/H60 (agent identity), hanem egy teljes operatív keretrendszer: agent principal típus, provisioning, deprovisioning, behavioral monitoring, anomaly detection, és human oversight a high-risk műveletekhez. Ez a H1 gyakorlati operacionalizálása, de szövetségi szinten.
+
+**Signals (updated 2026-05-06):**
+- "Know Your Agent" (KYA) Framework Emergence (Signal Report, 2026-05-06): web search reveals KYA as 2026 industry standard across identity, security, and compliance. Components: cryptographic identity, lifecycle governance, least-privilege controls, continuous behavioral monitoring, human oversight. **HIGH CONFIDENCE.**
+- CISA/NSA multi-agency guidance (2026-05-02): formal agent safe-deployment guidance, KYA-szerű governance implicit expectation. **HIGH CONFIDENCE.**
+- NIST CAISI agent auth/authz concept papers due April 2, 2026: formal government framework forming. **HIGH CONFIDENCE.**
+- Agent Platform Blindspot Radar (May 6, 2026): explicit KYA components + audit trail + policy enforcement table as emerging table-stakes. **HIGH CONFIDENCE.**
+
+**Assessment:** Ez az operatív keretrendszer, amit az enterprises most épít ki. Termék: KYA conformance scan + best practice template + evidence export. Navibase: Leoni governance + identity/policy/audit exportálása KYA keretbe. SMB pitch: "Your agent meets Know Your Agent standard" — simple, auditable, compliance-ready.
+
+**Scores:** Pain=4 | Urgency=5 | WTP=4 | Def=4 | IntFric=2 | **Total: 19/25**
+
+*Új hypothesis (2026-05-06). KYA keretrendszer intézményes szintű elfogadása jelzi a governance kategória érésekedéseit. Ez a top 3 opportunity lehet: KYA audit service.*
+
+---
+
+## Top 3 Opportunities + Suggested Experiments (2026-05-06) [UPDATED]
+
+### #1: H63 — "Know Your Agent" (KYA) Conformance Audit Service
+
+**Miért most:** A Signal Report explicit szignál: KYA az industry standard, de 95% org nincs formális KYA keretrendszere. Ez egy gyors, high-value advisory service. CISA/NSA guidance + NIST deadline (Q2 2026) accelerators.
+
+**Kísérlet:** 2 napos KYA Audit: agent provisioning + behavioral monitoring + access control + audit export checklist. Deliverable: 1 oldalas "KYA Readiness Score" + gap lista + javasolt next steps. Piac: EU-based enterprises (AI Act deadline Aug 2), compliance lead, CTO.
+
+**Mérés:** Conversion to longer advisory engagement, pricing sensitivity, repeat audit volume. If successful: productize to recurring compliance check (quarterly).
+
+**Befektetés:** ~2-3 nap (Tomi + Leoni). Directly sellable, no infrastructure cost.
+
+---
+
+### #2: H62 — Agent Liability & Insurance Framework Research
+
+**Miért most:** Az agent EIN szignál új kategóriát nyit. Insurance és legal advisory szervezetek még nem ebben az irányba mennek. Vannak innen intelligence wins és advisory upside.
+
+**Kísérlet:** 1 héten: 5 Insurance/legal szervezet interjúja, agent liability kérdésről + Tomi-val joint whitepaper outline (arxiv/LinkedIn). Nem termék — research + positioning. Cél: "first mover" knowledge position, majd advisory gig opportunity.
+
+**Mérés:** Interview receptivity, whitepaper citation/reach, inbound inquiry rate.
+
+**Befektetés:** ~1 hét (Tomi + research partner). High visibility, thought leadership play.
+
+---
+
+### #3: H59 (refreshed) — Credential Broker JIT Token Demo (meglévő top 3 mellett)
+
+**Miért most:** Kontext + Cred szignálok 2026-04-15 óta inaktívak voltak, de a 2026-05-06 report újra kiemeli az credential delegation-t mint "pain=5" taboo-feloldó wedge. Palo Alto Networks / Portkey acquisition (2026-05-03) validálja a market momentum.
+
+**Kísérlet:** 3 napos POC: GitHub + DB + billing API-hoz JIT token delegation + audit trace + approval gate. Deliverable: 2 perces video + 1 oldalas evidence export. Pitch: "Your agents never touch long-lived keys."
+
+**Mérés:** Demo request rate, security team objection count, deal size for JIT credentialing.
+
+**Befektetés:** ~3 nap (Leoni feature + demo). Leverages existing Navibase/MCP infrastructure.
+
+---
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-05-06.md (562 releváns, top 30 elemezve, 8 emerging themes) + prior H history | 2026-05-06 07:30 UTC*
