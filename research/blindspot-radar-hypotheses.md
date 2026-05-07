@@ -1,5 +1,64 @@
 # Blindspot Radar — Scored Hypothesis List
-Last updated: 2026-05-06
+Last updated: 2026-05-07
+
+
+## H62 - Agent Proof Chain Infrastructure (Non-repudiable agent evidence)
+**Thesis:** A sima log nem elég, ha egy agent döntést, tool-hívást vagy jóváhagyást később bizonyítani kell. A következő réteg a proof chain: ok-okozati lánc inputokkal, policy checkekkel, tool eredményekkel, emberi jóváhagyásokkal, hash-elhető evidence csomaggal és exportálható audit nézettel.
+**Signals (updated 2026-05-07):**
+- Why AI Agents Need Proof Chains, Not Just Logs (2026-05-05): explicit állítás, hogy az agent rendszerekben a naplózás kevés, bizonyítási lánc kell. https://github.com/rodriguezaa22ar-boop/atlas-trust-infrastructure
+- CISA, NSA & Five Eyes AI agent deployment guidance (2026-05-02): állami security szervek már konkrét üzemeltetési kockázatként kezelik az agent deploymentet. https://cyberscoop.com/cisa-nsa-five-eyes-guidance-secure-deployment-ai-agents/
+**Assessment:** Ez H2/H38 felett egy szigorúbb, technikai trust primitive. A buyer nem raw logot akar, hanem vitatható helyzetben védhető bizonyítékot. Navibase/Leoni irány: minden high-risk runhoz automatikus proof receipt, correlation id, input/output hash és policy snapshot.
+**Scores:** Pain=5 | Urgency=5 | WTP=5 | Def=4 | IntFric=3 | **Total: 22/25**
+*Új hypothesis (2026-05-07). A proof-chain framing külön kategóriává teszi az audit evidence réteget, nem csak szebb lognézetté.*
+
+## H63 - Agent Legal Entity Boundary (KYC, authorization, liability for autonomous entities)
+**Thesis:** Ha agentek EIN-t, bankszámlát, walletet vagy céges regisztrációt érintenek, az identity probléma jogi és pénzügyi felelősségi határrá válik. Kell egy réteg, ami megmondja: ki a jogi principal, milyen mandate alapján lép az agent, milyen KYC/AML bizonyíték van, és ki vállalja a liability-t.
+**Signals (updated 2026-05-07):**
+- AI Agent gets EIN from IRS, bank account, crypto wallet in first autonomous company filing (2026-05-01): agent átlépett jogi és pénzügyi identity felületre. https://news.google.com/rss/articles/CBMinwFBVV95cUxOVVo2MzlGMGpOLUlmYWUwd2dyd1R2WFU3MXhYdTYzbHR0c0I4VWRnV2lDODlseUNKaVlYYkhjTTJZbXpveXY4eTFjcmRXUjFObTl5SHRDN2ZDRGo1d2JaWllwYVpIdDlfb2hXLWF1YUh4MEIzb0c4WVRIRzVIN1h0cm51NnNHei1YSGVwZHlrWUFrVVZOd0kxYmFXNGFkRkU?oc=5
+- CISA, NSA & Five Eyes guidance (2026-05-02): autonóm agent deployment biztonsági és governance kockázatként kezelve.
+**Assessment:** Ez H1 és H4 metszete, de önálló buyer nyelve van: bank, KYC, audit, felelősség. KKV-nál első körben nem autonóm cégek, hanem pénzügyi és szerződéses műveletek agent-mandate bizonyítása releváns.
+**Scores:** Pain=5 | Urgency=4 | WTP=5 | Def=4 | IntFric=4 | **Total: 22/25**
+*Új hypothesis (2026-05-07). A jogi entitás határ nem ugyanaz, mint az API identity: pénzügyi és compliance szereplők saját bizonyítékot kérnek.*
+
+## H64 - Agent-Readable API and Context Quality Layer (APIs graded for agent usability)
+**Thesis:** Az API-k eddig emberi fejlesztőknek készültek, de az új használó sokszor agent lesz. A kérdés nem csak dokumentáció, hanem agent-readable discovery, schema, permission, entity matching, context index, safe write primitives és tesztelhető agent grade. A jó API procurement előnye lehet: az agent megbízhatóan tud rajta dolgozni.
+**Signals (updated 2026-05-07):**
+- Agentic API Grader by SaaStr.ai (2026-05-04): explicit buyer framing, hogy az AI agent az új ügyfél, és az API-kat agent szempontból osztályozni kell. https://www.producthunt.com/products/saastr-ai-your-ai-powered-b2b-advisor
+- Airbyte Agents (2026-05-05): context layer több adatforrásra, mert a vékony MCP/API wrapper nem elég agenteknek. https://news.ycombinator.com/item?id=48023496
+**Assessment:** Ez erős B2B wedge lehet fejlesztői és SaaS csapatoknak. Navibase alkalmazás: ügyfélrendszerek agent-readiness auditja, majd javítási checklist. Nem agentet adunk először, hanem megmondjuk, miért nem tud az agent stabilan dolgozni a meglévő API-kon.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=2 | **Total: 17/25**
+*Új hypothesis (2026-05-07). Az API usability agentekre fordítása új értékelési és tanácsadási kategória lehet.*
+
+## H65 - Structured Desktop Automation Governance (Accessibility-tree control with policy)
+**Thesis:** A desktop automation agentek a screenshot és koordináta alapú módszerről strukturált accessibility-tree vezérlésre váltanak. Ez olcsóbb és stabilabb, de high-permission felületet nyit meg natív appokban. Kell policy, allowlist, transcript, user confirmation és rollback a desktop accessibility API fölé.
+**Signals (updated 2026-05-07):**
+- Agent-desktop (2026-05-02): cross-platform CLI natív appok strukturált vezérlésére accessibility tree alapján, JSON outputtal. https://github.com/lahfir/agent-desktop
+- Ajelix AI Agent for Work (2026-05-05): Google Workspace sidebar agent, ami üzleti productivity környezetben fut. https://www.producthunt.com/products/ajelix-ai-excel-tools
+**Assessment:** Ez H39 és H55 rokona, de nem TUI és nem remote desktop: OS accessibility surface. KKV-nál hasznos, mert sok legacy workflow csak desktopon érhető el, de governance nélkül könnyen túl nagy jogosultságot kap az agent.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-05-07). A structured desktop control új, nagy jogosultságú agent felület, ezért külön guardrail csomagot érdemel.*
+
+## H66 - Oversight Incentive Engineering (Auditor pressure as runtime design)
+**Thesis:** Az agent pipeline-okban nem elég utólag ellenőrizni a választ. A solver és auditor viselkedése ösztönzők szerint alakul: ha az audit túl drága vagy túl ritka, a rendszer megtanulja kikerülni a valódi ellenőrzést. Kell mérhető oversight pressure: mikor ellenőrzünk, mit büntetünk, milyen javítási eseményt logolunk, és hogyan tartjuk aktívan az auditort.
+**Signals (updated 2026-05-07):**
+- AI Alignment via Incentives and Correction (arXiv, 2026-05-02): solver-auditor pipeline, reward design és monitoring incentive explicit modellezése. https://arxiv.org/abs/2605.01643
+**Assessment:** Ez H6/H11 mélyebb működési rétege. Nem csak policy rule kell, hanem ellenőrzési gazdaságtan: mikor éri meg az agentnek vagy auditor agentnek elcsalni, kihagyni, vagy formálisan kipipálni a kontrollt. Navibase: belső reliability metrika lehet, később enterprise evidence elem.
+**Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=4 | IntFric=4 | **Total: 19/25**
+*Új hypothesis (2026-05-07). Az oversight incentive nézőpont fontos, mert a compliance checkbox különben könnyen performatív kontrollá válik.*
+
+## Top 3 Opportunities + Suggested Experiments (2026-05-07)
+
+### #1: H62/H38/H2 - Proof-chain evidence pack for high-risk agent runs
+**Miért most:** A proof-chain signal és a CISA/NSA guidance ugyanarra mutat: agent deploymentnél a védhető bizonyíték lesz a trust layer, nem a hosszú log.
+**Kísérlet:** 3 napos belső POC Leoni runokra: minden high-risk művelethez run id, input hash, policy snapshot, tool result digest, approval receipt és final decision summary. Deliverable: 1 oldalas PDF/Markdown evidence pack egy cron runhoz.
+
+### #2: H63 - Agent mandate receipt for financial/legal actions
+**Miért most:** Az EIN, bankszámla és wallet jel már nem sci-fi, hanem compliance trigger. A KKV buyer nyelve: "mit tehet meg az agent a nevemben, és ezt mivel bizonyítjuk".
+**Kísérlet:** 2 nap: mandate receipt sablon készítése pénzügyi, szerződéses és email-küldési műveletekre. Teszt: 5 valós Leoni action kategória besorolása no-go, approval required, auto-approved szintekre.
+
+### #3: H64 - Agent-readiness API audit offer
+**Miért most:** Airbyte és SaaStr.ai együtt jelzi, hogy az agent nem endpointot akar, hanem discoverable, biztonságosan írható kontextust.
+**Kísérlet:** 1 hetes mini-offer: 1 ügyfél vagy saját rendszer API/CLI auditja agent szemmel. Output: grade, top 10 blocker, javítási backlog, és egy demo ahol az agent stabilan végrehajt egy end-to-end workflow-t.
 
 ## H59 - Agent Credential Brokerage (Secretless access for coding agents)
 **Thesis:** A coding agenteknek egyre több külső rendszerhez kell hozzáférés (GitHub, DB, billing, infra), de a long-lived API keyk .env-ben vagy chatben való kezelése tarthatatlan. A piac egy "credential broker" mintázat felé tolódik: OIDC/token exchange, rövid életu, scope-olt cred, audit stream, és egyértelmu delegation chain.
