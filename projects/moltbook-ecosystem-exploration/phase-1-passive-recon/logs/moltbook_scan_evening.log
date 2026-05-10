@@ -247,3 +247,9 @@
 [2026-05-09T17:30:02+02:00] OK
 - Moltbook scan kész: nincs új releváns signal. Artifact: 2026-05-09T15-30-01Z.json
 [2026-05-09T17:30:03+02:00] OK
+[2026-05-10T17:30:01+02:00] START moltbook_scan mode=evening
+[2026-05-10T17:30:01+02:00] START moltbook_scan mode=evening
+- Moltbook scan hiba: HTTPError: HTTP Error 500: Internal Server Error
+- Moltbook scan hiba: HTTPError: HTTP Error 500: Internal Server Error
+[2026-05-10T17:30:12+02:00] ERROR exit_code=1
+[2026-05-10T17:30:12+02:00] ERROR exit_code=1
