@@ -1,32 +1,71 @@
 [
   {
     "name": "Email and GitHub Check (daytime)",
-    "schedule": {"kind":"cron","expr":"0 6-22/2 * * *","tz":"Europe/Budapest"},
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 6-22/2 * * *",
+      "tz": "Europe/Budapest"
+    },
     "sessionTarget": "main",
-    "payload": {"kind":"systemEvent","text":"Check emails and GitHub repository for updates. Email policy: process inbox items, and delete emails already fully processed to conserve mailbox storage."}
+    "payload": {
+      "kind": "systemEvent",
+      "text": "Check emails and GitHub repository for updates. Email policy: process inbox items, and delete emails already fully processed to conserve mailbox storage."
+    }
   },
   {
     "name": "Napi hírlevél feldolgozás",
-    "schedule": {"kind":"cron","expr":"0 6 * * *","tz":"Europe/Budapest"},
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 6 * * *",
+      "tz": "Europe/Budapest"
+    },
     "sessionTarget": "main",
-    "payload": {"kind":"systemEvent","text":"Napi hírlevél + tartalomjel feldolgozás: olvasd el az előző nap beérkezett hírleveleket, készíts kivonatot és témajelölteket a writing/research mappába."}
+    "payload": {
+      "kind": "systemEvent",
+      "text": "Napi hírlevél + tartalomjel feldolgozás: olvasd el az előző nap beérkezett hírleveleket, készíts kivonatot és témajelölteket a writing/research mappába."
+    }
   },
   {
     "name": "Reggeli brief",
-    "schedule": {"kind":"cron","expr":"30 6 * * *","tz":"Europe/Budapest"},
+    "schedule": {
+      "kind": "cron",
+      "expr": "30 6 * * *",
+      "tz": "Europe/Budapest"
+    },
     "sessionTarget": "isolated",
-    "payload": {"kind":"agentTurn","message":"Készíts rövid, magyar reggeli briefet: mi történt az előző brief óta, mai feladatok, nyitott itemek, kockázatok.","timeoutSeconds":900}
+    "payload": {
+      "kind": "agentTurn",
+      "message": "Minden futás elején töltsd be a /home/leoni/.env fájlt, ha létezik, és olvasd el a /home/leoni/.openclaw/workspace/SOUL.md, USER.md, valamint a mai és tegnapi memory fájlokat. Maradj SOUL/bouncer stílusban: rövid, direkt, tényalapú, magyar, hype nélkül. Használd a gemini-2.5-flash modellt. Nézd át a friss emailt és a shared_workspace inboxot csak az előző brief óta történt változásokhoz. Írj rövid reggeli briefet Tominak Telegramra: mi történt az előző brief óta, mai feladatok, nyitott itemek, kockázatok. Ha nincs érdemi változás, mondd ki röviden. Frissítsd a napi memory fájlt tömören.",
+      "timeoutSeconds": 300,
+      "model": "gemini-2.5-flash"
+    }
   },
   {
     "name": "Weekly memory-output QC report",
-    "schedule": {"kind":"cron","expr":"40 7 * * 1","tz":"Europe/Budapest"},
+    "schedule": {
+      "kind": "cron",
+      "expr": "40 7 * * 1",
+      "tz": "Europe/Budapest"
+    },
     "sessionTarget": "isolated",
-    "payload": {"kind":"agentTurn","message":"Run /home/leoni/shared_workspace/ops/scripts/quality_check_memory_outputs.py and report PASS/WARN with report path.","timeoutSeconds":600}
+    "payload": {
+      "kind": "agentTurn",
+      "message": "Run /home/leoni/shared_workspace/ops/scripts/quality_check_memory_outputs.py and report PASS/WARN with report path.",
+      "timeoutSeconds": 600
+    }
   },
   {
     "name": "Heti összefoglaló (hétfő)",
-    "schedule": {"kind":"cron","expr":"0 8 * * 1","tz":"Europe/Budapest"},
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 8 * * 1",
+      "tz": "Europe/Budapest"
+    },
     "sessionTarget": "isolated",
-    "payload": {"kind":"agentTurn","message":"Készíts heti összefoglalót a HEARTBEAT.md alapján, mentsd a shared_workspace/reports/weekly/YYYY-MM-DD.md fájlba, és küldj rövid Telegram státuszt.","timeoutSeconds":1800}
+    "payload": {
+      "kind": "agentTurn",
+      "message": "Készíts heti összefoglalót a HEARTBEAT.md alapján, mentsd a shared_workspace/reports/weekly/YYYY-MM-DD.md fájlba, és küldj rövid Telegram státuszt.",
+      "timeoutSeconds": 1800
+    }
   }
 ]
