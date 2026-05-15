@@ -280,3 +280,9 @@
 [2026-05-14T17:30:12+02:00] ERROR exit_code=1
 - Moltbook scan hiba: HTTPError: HTTP Error 500: Internal Server Error
 [2026-05-14T17:30:12+02:00] ERROR exit_code=1
+[2026-05-15T17:30:01+02:00] START moltbook_scan mode=evening
+[2026-05-15T17:30:01+02:00] START moltbook_scan mode=evening
+- Moltbook scan hiba: HTTPError: HTTP Error 500: Internal Server Error
+[2026-05-15T17:30:12+02:00] ERROR exit_code=1
+- Moltbook scan hiba: HTTPError: HTTP Error 500: Internal Server Error
+[2026-05-15T17:30:12+02:00] ERROR exit_code=1
