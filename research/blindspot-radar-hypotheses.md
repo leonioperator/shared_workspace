@@ -1,6 +1,31 @@
 # Blindspot Radar — Scored Hypothesis List
-Last updated: 2026-05-07
+Last updated: 2026-05-17
 
+
+## H67 — Apple App Store for Autonomous Agents (Distribution, Verification, Revenue Models)
+**Thesis:** Az agentek ekoszisztémája decentralizálódik. Az Apple App Store ügyletet nyit az agentek számára: verifikált, karbantartott, felülvizsgált agentek, amelyek felhasználók által kereshetőek és telepíthetőek. Ez egy új distribution channel, és ezzel egy új agent marketplace economics — revenue share, rating system, version control, automated security scan.
+**Signals (updated 2026-05-17):**
+- Apple Prepares App Store for Autonomous AI Agents (PYMNTS.com, 2026-05-13): explicit bejelentés, hogy az App Store ecosystem kiterjed agentekre, verification + distribution szervezett. HIGH CONFIDENCE.
+**Assessment:** Gyors market validator — ha az Apple ezt nyitja meg, az enterprise agentek is distribution channelon lesznek, nem csak "saját infra". Navibase: ehhez egy SMB-friendly agent publishing + verification module kellhet (federate Apple-höz vagy önálló). A revenue model (subscription, usage-based) nyílt kérdés.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-05-17). Az Apple App Store agent marketplace a distribution game szabályait írja át — ez a table stakes réteg emelkedik.*
+
+## H68 — Proactive Autonomous Assistants (Background Reasoning + Opportunistic Action)
+**Thesis:** Az agentek eddig request-response: a felhasználó kérdez, az agent válaszol. A következő réteg: az agent **háttérben fut** (scheduled, event-triggered), elhatározódik hogy van-e releváns akció, és **proaktívan cselekvésre javasol vagy végrehajtja**. Ez a personal agent paradigma: "gondolkozz és cselekedjél, amikor szükséges". A kihívás: a proactive agentnél az unintended side effect risk nő, a control gap nagyobb.
+**Signals (updated 2026-05-17):**
+- Poppy debuts a proactive AI assistant to help organize your digital life (TechCrunch, 2026-05-13): explicit proactive agent — "surfaces reminders, suggestions, and tasks based on what's happening in your life". HIGH CONFIDENCE.
+**Assessment:** Poppy a personal/productivity domain-ben, de a pattern általánosítható: agentek, amelyek a háttérben járnak és "találnak" dolgokat csinálni. Enterprise-ben ez az anomaly detection, ops proactive response, és policy suggestion szintjén van. Navibase: Leoni már proaktív ebben (daily brief, heartbeat), de a workflow strukturálhatóbbá tehetne.
+**Scores:** Pain=3 | Urgency=3 | WTP=3 | Def=2 | IntFric=3 | **Total: 14/25**
+*Új hypothesis (2026-05-17). A proactive agent paradigm az agent behavior centralizált kontroll-előfeltételét változtatja.*
+
+## H69 — Regulated Vertical Agent Markets (Healthcare, Finance, Government Payment Models)
+**Thesis:** A Medicare AI agent payment model bejelentése jelzi: a szabályozott vertikálisok (healthcare, finance, government) **ágent-specifikus** kereskedelmi és compliance kereteket építenek. Ez nem általános agent economy, hanem cada vertical saját: reimbursement, audit, liability, approval workflow. Az opportunity: vertical-specific agent packaging, compliance templates, és integration playbook.
+**Signals (updated 2026-05-17):**
+- Medicare's new payment model is built for AI, and most of the tech world has no idea (TechCrunch, 2026-05-13): explicit healthcare vertical, agent telemedicine + monitoring, payment model megjelent. HIGH CONFIDENCE.
+- CISA, NSA & Five Eyes guidance (2026-05-02): government-level agent deployment and governance. HIGH CONFIDENCE.
+**Assessment:** Ez a H4 (micropayments) és H63 (legal entity boundary) metszete, de vertical-specifikus. Opportunity: healthcare kliensnél agent-ready payment + audit + compliance setup, nem bara termék.
+**Scores:** Pain=5 | Urgency=4 | WTP=5 | Def=4 | IntFric=4 | **Total: 22/25**
+*Új hypothesis (2026-05-17). A szabályozott vertikálisok saját agent commerce kereteket építenek — ez a "agent as regulated instrument" fordulópont.*
 
 ## H62 - Agent Proof Chain Infrastructure (Non-repudiable agent evidence)
 **Thesis:** A sima log nem elég, ha egy agent döntést, tool-hívást vagy jóváhagyást később bizonyítani kell. A következő réteg a proof chain: ok-okozati lánc inputokkal, policy checkekkel, tool eredményekkel, emberi jóváhagyásokkal, hash-elhető evidence csomaggal és exportálható audit nézettel.
@@ -45,6 +70,20 @@ Last updated: 2026-05-07
 **Assessment:** Ez H6/H11 mélyebb működési rétege. Nem csak policy rule kell, hanem ellenőrzési gazdaságtan: mikor éri meg az agentnek vagy auditor agentnek elcsalni, kihagyni, vagy formálisan kipipálni a kontrollt. Navibase: belső reliability metrika lehet, később enterprise evidence elem.
 **Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=4 | IntFric=4 | **Total: 19/25**
 *Új hypothesis (2026-05-07). Az oversight incentive nézőpont fontos, mert a compliance checkbox különben könnyen performatív kontrollá válik.*
+
+## Top 3 Opportunities + Suggested Experiments (2026-05-17)
+
+### #1: H67 — Apple App Store + Proactive Agent Distribution Model
+**Miért most:** Az Apple App Store agent marketplace + Poppy proactive pattern = új distribution és UX paradigma. A SMB-knek lehetőség: egy "publication toolkit" amivel az ügyfél agentjei App Store-ba (vagy saját marshalhallba) kerülhetnek, verification + version control + usage metrikákkal.
+**Kísérlet:** 1 hetes scoping: Apple App Store agent submission flow elemzése + Poppy UX mintázat vizsgálata + szervezeti agent publishing workflow vázlat. Deliverable: 1 oldalas opportunity brief + 3 integrációs útvonal (Apple federate, standalone marketplace, enterprise app store).
+
+### #2: H69 — Healthcare Vertical Agent Commerce (Medicare Payment Model POC)
+**Miért most:** A Medicare bejelentése konkrét: "government-backed payment model for AI agents in healthcare". Ez a first regulated vertical precedent. A kísérlet: hogyan strukturálhat egy SMB (pl. telemedicine partner) agent-ready compliance frameworket?
+**Kísérlet:** 2 napos research + 3 napos POC: healthcare agent workflow (intake form fill + triage recomendation) mappoalása a Medicare model-re + compliance checklist. Teszt: egy mock healthcare agent audit és payment proof pack generálása.
+
+### #3: H62/H38 — Proof-Chain Evidence Pack (Refined Defense-in-Depth Integration)
+**Miért most:** A Microsoft "defense in depth" + Cyris "evidence pack" + medicare audit requirement = erős convergencia. Proof-chain az agent security ás compliance alap.
+**Kísérlet:** 2 napos internal: egy recent, high-risk Leoni run re-audit proof chain format-tal (input hash + policy check snapshot + tool result digest + approval receipt + decision summary). PDF exportálás + Tomi review.
 
 ## Top 3 Opportunities + Suggested Experiments (2026-05-07)
 
