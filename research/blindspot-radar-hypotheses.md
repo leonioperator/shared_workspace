@@ -2,6 +2,31 @@
 Last updated: 2026-05-17
 
 
+## H70 — Agentic Copyright & Data Provenance Chain (Training + Output Attribution)
+**Thesis:** Az agentek tant őrdeknél (RAG, finetuning) és output-jában szerzői jogok sérülhetnek. Ez eddig egyéni model-problémának kezeltetett, de ahogy az agentek nagyobb adatból tanulnak és autonóm módon generálnak outputokat, a szerzői jogi chain-ben az agent-operátor vagy az agent-megbízó feladata hogy dokumentálja: melyik tanítódata jogi? melyik outputja attribúció-szükséges? kik az érdekeltek? Ez a H63 (jogi entity határ) mellett a pénzügyi/jogi felelősség határának mássza meg-definiálása.
+**Signals (updated 2026-05-18):**
+- Agentic Copyright, Data Scraping & AI Governance: Toward a Coasean Bargain in the Era of Artificial Intelligence (arXiv, 2026-04-08, Deep Score 0.4): explicit tanulmány, hogy a multi-agentic AI deployment során a data scraping, szerzői jogi felelősség és governance framework szükséges. arXiv: https://arxiv.org/abs/2604.07546. HIGH CONFIDENCE.
+**Assessment:** Ez közvetlenül érinti az SMB klienst, aki "nem akarom, hogy jogilag kitettnek legyék". Az agent output attribúciós lánca (melyik adat, melyik modell, melyik prompt) az audit evidence (H62) és mandate (H63) mellett a harmadik jogi bizonyíték-réteg. Navibase: "copyright-clean" agent deployment checklist, tanítódata-audit, output attribution metszet.
+**Scores:** Pain=5 | Urgency=4 | WTP=5 | Def=3 | IntFric=4 | **Total: 21/25**
+*Új hypothesis (2026-05-18). Az arXiv papír a szerzői jogi governance-t szakterületi problémáról agentic infrastructure-ra emeli: nem elég a modell, a teljes agent pipeline provenance-e szükséges.*
+
+## H71 — Rubric-Guided Agent Policy Decomposition (Verifiable decision-making)
+**Thesis:** Az agent döntéseket jól definiált, emberi ellenőrizhető rubricokhoz kötni az átláthatóság és verifikálhatóság alapja. A rubric nem apenas checklist, hanem a döntés struktúrája: mely kritériumok számítanak, milyen sorrend, milyen trade-off, és ezek explicit, modellezhető formában jelennek meg. Ez csökkenti a hallucination-t (az agent tudja, mi számít), növeli az audit-útot (a rubric a *miért* dokumentációja), és lehetővé teszi a "soft constraint" ("ezt nagyon fontos szem előtt tartani") és "hard constraint" ("ezt az ellenőr vissza fogja rúgni") közötti egyensúly.
+**Signals (updated 2026-05-18):**
+- RubricEM: Meta-RL with Rubric-guided Policy Decomposition beyond Verifiable Rewards (HuggingFace Papers, 2026-05-11, Deep Score 0.3): explicit rubric-guided reinforcement learning az agent döntéshozatalhoz, verifiable rewards helyett. HuggingFace: https://huggingface.co/papers/2605.10899. HIGH CONFIDENCE.
+**Assessment:** Az enterprise audit-ready output (H38) és policy enforcement (H6) mellett a rubric a döntés *szerkezetévé* válik, nem csak audit-nyomássá. Ez a H66 (oversight incentive) mélyebb szintje: az agent tanításakor már benne a rubric, nem utólag van ellenőrzve. Navibase: high-risk runokhoz rubric template + agent instruálás. A kinyomott rubric az evidence pack része (H62).
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-05-18). A rubric-guided framing a policy-s kontrollt agent capability-vé emeli, nem csak post-hoc ellenőrzéssé.*
+
+## H72 — High-Stakes Decision Integrity Certification (Healthcare/Legal/Defense Vertical)
+**Thesis:** Healthcare (telemedicine, diagnostics), legal (contract review, case prediction), védelmi (autonomous weapons policy) és pénzügyi szakterületeken az agent döntések szigorú integrity certifikációt és verifikálhatóságot igényelnek. Az FDA/EMA drug approval, a jogi precedens, a govern-level policy és a compliance audit szintjei különbözőek, de közös: az agent döntéshez "certificate of integrity" kell: verifikált input,Policy/rubric audit, decision transcript, és approval chain. Ez a H69 (regulated verticals) fokozódása: nem csak payment model, hanem a teljes decision-making chain certifikálása.
+**Signals (updated 2026-05-18):**
+- AI Integrity: A New Paradigm for Verifiable AI Governance (arXiv, 2026-04-13, Deep Score 0.3): explicit high-stakes decision integrity framework. arXiv: https://arxiv.org/abs/2604.11065. HIGH CONFIDENCE.
+- BiomniBench: Process-level Evaluation of LLM Agents for Real-world Biomedical Research (biorXiv, 2026-05-14, Deep Score 0.1): biomedical agent evaluation standard, domain-specific agent audit framework. biorXiv: https://www.biorxiv.org/content/10.64898/2026.05.12.724604. HIGH CONFIDENCE.
+**Assessment:** Vertical-specifikus (healthcare, legal, government) market, erős regulatory pull. Az SMB-ből kifelé, de a szakterületen dolgozó KKV-knak (telemedicine startup, legal tech, compliance firm) ez a első adoption blocker feloldása. Navibase: vertical "certification support" csomag (template + audit automation + versioning) lehet a 2026-2027 entry point.
+**Scores:** Pain=5 | Urgency=4 | WTP=5 | Def=4 | IntFric=4 | **Total: 22/25**
+*Új hypothesis (2026-05-18). Az integrity certification keretrendszer ezt az agent governance-ből regulatory/compliance/liability kérdésévé teszi - a szakterületi adoption gátor.*
+
 ## H67 — Apple App Store for Autonomous Agents (Distribution, Verification, Revenue Models)
 **Thesis:** Az agentek ekoszisztémája decentralizálódik. Az Apple App Store ügyletet nyit az agentek számára: verifikált, karbantartott, felülvizsgált agentek, amelyek felhasználók által kereshetőek és telepíthetőek. Ez egy új distribution channel, és ezzel egy új agent marketplace economics — revenue share, rating system, version control, automated security scan.
 **Signals (updated 2026-05-17):**
@@ -70,6 +95,20 @@ Last updated: 2026-05-17
 **Assessment:** Ez H6/H11 mélyebb működési rétege. Nem csak policy rule kell, hanem ellenőrzési gazdaságtan: mikor éri meg az agentnek vagy auditor agentnek elcsalni, kihagyni, vagy formálisan kipipálni a kontrollt. Navibase: belső reliability metrika lehet, később enterprise evidence elem.
 **Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=4 | IntFric=4 | **Total: 19/25**
 *Új hypothesis (2026-05-07). Az oversight incentive nézőpont fontos, mert a compliance checkbox különben könnyen performatív kontrollá válik.*
+
+## Top 3 Opportunities + Suggested Experiments (2026-05-18)
+
+### #1: H70 — Agentic Copyright Audit + Provenance Chain (Data Governance POC)
+**Miért most:** Az arXiv papír explicit: szerzői jogi felelősség az agent pipeline-ban nem megoldott. A kísérlet: SMB kliens által használt agent-tantó dataset audit + output attribúció chain dokumentálás.
+**Kísérlet:** 3 nap research + 2 nap POC: Leoni recent agentnél auditálni: milyen tányad tanult (copyright check), milyen output attribúció kell. Deliverable: 1 oldalas copyright risk assessment + "copyright-clean" deployment checklist.
+
+### #2: H72 — Healthcare Vertical Integrity Certification (Regulatory POC)
+**Miért most:** A BiomniBench + Medicare model konvergenciája: az agent döntések szakterületi certifikáció szükséges. POC: egy healthcare workflow (telemedicine intake triage) integrity certificate pack.
+**Kísérlet:** 2 napi research + 3 napi POC: mock healthcare agent workflow (patient intake form + triage recommendation) mappoálása integrity framework-re (verified input + policy audit + decision transcript + approval chain). Deliverable: certification template + evidence pack PDF.
+
+### #3: H71 — Rubric-Guided Agent Policy (Decision Structure Demo)
+**Miért most:** A RubricEM papír azt jelzi, hogy a policy enforcement (H6) nem csak post-hoc, hanem a döntés-szerkezetbe éptett lehet. POC: high-risk Leoni run instruálása explicit rubric-kal.
+**Kísérlet:** 1 napos scoping + 2 napi fejlesztés: egy recent, complex Leoni task (pl. email draft + policy review) rubric-al instruált verziója. Output: rubric template + agent instructions + kinyomott rubric az evidence pack-ben.
 
 ## Top 3 Opportunities + Suggested Experiments (2026-05-17)
 
