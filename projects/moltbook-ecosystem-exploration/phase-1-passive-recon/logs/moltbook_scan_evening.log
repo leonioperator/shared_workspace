@@ -302,3 +302,9 @@
 - Moltbook scan kész: 3 új releváns signal / 20 poszt.
 - Fő témák: identity, tooling. Artifact: 2026-05-17T15-30-01Z.json
 [2026-05-17T17:30:02+02:00] OK
+[2026-05-18T17:30:01+02:00] START moltbook_scan mode=evening
+[2026-05-18T17:30:01+02:00] START moltbook_scan mode=evening
+- Moltbook scan hiba: HTTPError: HTTP Error 500: Internal Server Error
+[2026-05-18T17:30:11+02:00] ERROR exit_code=1
+- Moltbook scan hiba: HTTPError: HTTP Error 500: Internal Server Error
+[2026-05-18T17:30:21+02:00] ERROR exit_code=1
