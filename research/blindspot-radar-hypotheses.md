@@ -96,6 +96,20 @@ Last updated: 2026-05-17
 **Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=4 | IntFric=4 | **Total: 19/25**
 *Új hypothesis (2026-05-07). Az oversight incentive nézőpont fontos, mert a compliance checkbox különben könnyen performatív kontrollá válik.*
 
+## Top 3 Opportunities + Suggested Experiments (2026-05-19)
+
+### #1: H74 — Agent Data Trustworthiness Audit (Input Pedigree + Validation)
+**Miért most:** A ServiceNow + Experian konvergenciája konkrét: az agentic döntések csak akkor audit-able, ha az input data trustworthy. Ez a missing link a compliance narratívában.
+**Kísérlet:** 2 napos research + 1 napi POC: egy SMB workflow (e.g. invoice processing) adatforásainak pedigree auditja és trustworthiness scoring. Deliverable: 1 oldalas data governance checklist + trusted input certification template.
+
+### #2: H76 — Decision Escalation Policy Framework (High-Budget Agent Governance)
+**Miért most:** A Hershey precedens azt mutatja, hogy az agentic autonomy nagybankban szélesedik — de a governance még ad-hoc. A Hershey szintű esetek elkészítik az "override required" szinteket.
+**Kísérlet:** 2 napos scoping + 2 napi fejlesztés: egy complex, high-cost Leoni workflow (pl. email draft approval chain) escalation policy instruálása. Templatelés: milyen költségvetési szint kell felülbírálás, milyen kategóriákra érvényes, és approval audit. Deliverable: escalation policy template + instruált workflow.
+
+### #3: H78 — Real-Time Agent Behavioral SLA & Monitoring (Anomaly Detection POC)
+**Miért most:** A Beacon + CISA jelez, hogy az observability real-time, nem post-hoc. Az SMB-nél ez gyors security win lehet: "agent nem módosíthat 5 API-t másodpercenként" SLA + alerting.
+**Kísérlet:** 2 napos development: Leoni run behavioral telemetry (API call rate, data volume, time per task) baseline + anomaly detection rule (> 2 sigma). Output: SLA dashboard + alert sample.
+
 ## Top 3 Opportunities + Suggested Experiments (2026-05-18)
 
 ### #1: H70 — Agentic Copyright Audit + Provenance Chain (Data Governance POC)
@@ -330,6 +344,59 @@ Last updated: 2026-05-17
 **Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
 *Új hypothesis (2026-04-10). A „agent-ops UX” külön kategóriává válik, és gyorsan terjed a devtool világon túl.*
 
+
+## H73 — Notion-Native Agent Ecosystem & Plugin Distribution (Platform as SDK)
+**Thesis:** Az eszköz-platformok (Notion) fejlesztő-ökoszisztémáról agentic platformokra tolódnak. A Notion Agent Hub precedens: integrált agent discovery, native capability binding (tools, data sources, automations), és felhasználó-szintű agent publishing. Ez nem közvetített, hanem közvetlen szóvetkezetépítés: a platform saját agentic szövetsége válnak, nem csak a kívüli toolok. Az opportunity: a KKV-nak vertikális-specifikus agentic sablonok (e.g. accounting integrations, CRM workflows) Notion-szintű elérhetőséggel.
+**Signals (updated 2026-05-19):**
+- Notion transforms workspace into hub for AI agents (TechCrunch, 2026-05-13): agent discovery, native integration, workspace orchestration, developer platform. HIGH CONFIDENCE.
+**Assessment:** Ez a H25 (workspace orchestration) meglépése: az eszközplatform maga agentic hub. Az SMB Notion-nál már van, és ha a publisher frictionless, a Notion agent ecosystem gyorsan nagyobb lehet a generikus agent piacacnál. Navibase: Notion sablonok + compliance wrapper, ha a kliens Notion-native.
+**Scores:** Pain=3 | Urgency=4 | WTP=3 | Def=2 | IntFric=2 | **Total: 14/25**
+*Új hypothesis (2026-05-19). A Notion agent hub a tool platform agentic évoldását jelzi: a SDK maga lesz az agent SDK, nem a toolok belül.*
+
+## H74 — Agent Data Trustworthiness Certification (Service + Identity Convergence)
+**Thesis:** Az autonomous agent döntések olyan felsőbb rétegekbe emelkednek (finance, healthcare, government), ahol a bemenet data trustworthiness-e kritikus. A ServiceNow + Experian partnership precedens: nem csak az agent logika, hanem az input data pedigree és validáció is governance terület. Ez az architektura pont: agentic AI + data governance = autonóm döntés hitelessége.
+**Signals (updated 2026-05-19):**
+- ServiceNow partners with Experian to power autonomous AI agents with trusted data (2026-05-18): enterprise-grade data + autonomy integration, data trustworthiness as bottleneck. HIGH CONFIDENCE.
+**Assessment:** Ez az identitás és adatkezelés metszete. Ahogy az agentek szigorúbb szakterületekbe (finance, HR, legal) érkeznek, az input adatok validációja és attribúciója ugyanolyan kritikus, mint a decision trace. Navibase: data governance audit + "trusted input" checkpoint lehet a compliance wrapper része.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-05-19). A ServiceNow + Experian jelzi, hogy az agentic autonomy data governance-kötött: rossz input = rossz agentic decision, bármilyen jó a policy.*
+
+## H75 — Agent Authorization Standards & Compliance Frameworks (Fragmentation Risk)
+**Thesis:** Az AgentGate, Microsoft Defense-in-Depth és Notion agent platform között nincsenek közös authorization minták. Ahogy az agentek terjednek, ez az interoperability gát és compliance nightmare potenciálisan. Kell egy standard authorization réteg agentek számára (OWASP/NIST / CISA szintű), amely scope-olt, delegated, revocable és audit-capable.
+**Signals (updated 2026-05-19):**
+- AgentGate – Authorization Layer for AI Agents (GitHub, 2026-05-13): permission/identity/auth gap in agent ecosystem. HIGH CONFIDENCE.
+- Microsoft Defense in Depth for Autonomous AI Agents (2026-05-14): enterprise security architecture, implies agent threat surface poorly understood. HIGH CONFIDENCE.
+- CISA, NSA & Five Eyes guidance (2026-05-02): already concrete operational deployment risks for agents. HIGH CONFIDENCE.
+**Assessment:** Ezek a signalok azt mutatják, hogy az authorization réteg kaotikus marad, ha nem lesz szabvány. Az opportunity: compliance-ready authorization framework, amely kompatibilis NIST/CISA irányelvekkel. Navibase: authorization template + audit export, amit szükség szerint könnyű a meglévő infra-val integrálni (OAuth, SAML stb.).
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-05-19). A fragmentáció kockázat azt jelzi, hogy az authorization standards megjelenése gyorsítani fog — korán kezdeni a kompatibilitásban jó előny.*
+
+## H76 — Autonomous Agent Decision Escalation & Budget Control (High-Stakes Autonomy Governance)
+**Thesis:** Az agentek $2 milliárdos költségvetésekhez kapnak hozzáférést (Hershey), de az emberi felügyelet még ritka. A kockázat: az agent rossz döntést hoz nagy pénzért (pl. marketing kampány, pénzügyi pozíció), és az audit trail nem elég az "igazolás"-hoz. Kell egy governance réteg, amely definiálja: milyen döntéshez kell emberi jóváhagyás, milyen költségvetési korláton túl auto-escalate, és mi a rollback/undo stratégia.
+**Signals (updated 2026-05-19):**
+- Hershey bets on agentic AI to rethink $2B marketing spend (Adweek, 2026-05-18): autonomous agents operating with minimal human oversight on large budgets. HIGH CONFIDENCE.
+**Assessment:** Ez a H66 (oversight incentive) és H72 (integrity certification) összefonódása, de nagy-kockázatú döntésekre fókuszálva. Az SMB-nél ezt nem adatok ámonda mutat meg, de az opportunity: "decision escalation" sablonok szakterületi kategóriákra (marketing, pénzügyi, HR), ahol az agentic autonomy leggyorsabban nő, de a kontroll leggyengébb.
+**Scores:** Pain=5 | Urgency=4 | WTP=5 | Def=3 | IntFric=3 | **Total: 20/25**
+*Új hypothesis (2026-05-19). A Hershey precedens azt mutatja, hogy a nagy költségvetések agentic autonomyval történő delegálása már valóság — az oversight architektúra nem követi ezt el.*
+
+## H77 — Multi-Agent Governance & Coordination Standards (Emergent Behavior Risk)
+**Thesis:** Az Agora-1 kutatás jelzi: a több agent rendszerek koordináció és viselkedés-emergens tulajdonságok nehéz probléma. Az agentek közötti kommunikáció (proto-MCP, chain-of-thought delegation) szabályozotlan még, és az emergent behavioral risk (egy agent tanítja a másikat rossz viselkedésre, vagy nem szándékolt policy interaction) nem modellezett. Ehhez kell egy multi-agent governance réteg: agent-to-agent policy, versioning, rollback, és observability.
+**Signals (updated 2026-05-19):**
+- Agora-1: Multi-Agent World Model (Odyssey.ml, 2026-05-18): advanced multi-agent coordination models in research phase, production deployment likely within 6-12 months. HIGH CONFIDENCE.
+**Assessment:** Ez még előadás, de az opportunity korai: agentic multi-agent governance framework és best practices dokumentálása előbb, mint a sprawl megtörténik. Navibase: multi-agent run observability + policy audit, valamint a coordination protokollok templatelása (agent A -> agent B policy approval, delegation audit).
+**Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=3 | IntFric=3 | **Total: 17/25**
+*Új hypothesis (2026-05-19). Az Agora-1 jelzi, hogy a multi-agentic koordináció standard problémává válik — korai intervention opportunity.*
+
+## H78 — Agent Observability & Behavioral Monitoring Layer (Real-time Governance)
+**Thesis:** A Beacon minta (local agent visibility) és a CISA deployment guidance (agent threat model) azt jelzi: az agentic rendszerekben az observability nem audit trail, hanem real-time behavioral monitoring. Az agent nem várhat naplónak post-hoc elemzésre, hanem live surveillance kell: mi csinál az agent most, mit kér az API-tól, mely adatokat érinti, és van-e anomálie.
+**Signals (updated 2026-05-19):**
+- Beacon – Local AI Agent Visibility (GitHub trending, 2026-05-18): open-source layer for local AI agent visibility/monitoring. HIGH CONFIDENCE.
+- CISA, NSA & Five Eyes guidance (2026-05-02): agent deployment as threat surface. HIGH CONFIDENCE.
+**Assessment:** Ez a H34 (ops monitoring) és H39 (non-tech control) felülrétege: real-time behavioral telemetry, anomaly detection, és automatic intervention (pause, alert, rollback) gatewayként. Az SMB-nél gyors entry: "agentic behavioral SLA" (e.g., "agent nem hívhat 5 API-t másodpercenként" vagy "agent nem módosíthat $1000-nál többet") monitoring és enforcement. Navibase: behavioral SLA template + monitoring dashboard.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-05-19). A Beacon + CISA konvergenció azt jelzi, hogy az agentic observability post-hoc audit helyett real-time monitoring-gá válik.*
+
+---
 
 Scoring dimensions (1–5 each):
 - **Pain**: How painful is the unmet need?
