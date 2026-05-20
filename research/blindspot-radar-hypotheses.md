@@ -396,6 +396,50 @@ Last updated: 2026-05-17
 **Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
 *Új hypothesis (2026-05-19). A Beacon + CISA konvergenció azt jelzi, hogy az agentic observability post-hoc audit helyett real-time monitoring-gá válik.*
 
+## H79 — Agent Input Data Pedigree & Quality Assurance (Source Trust)
+**Thesis:** Az agentic döntések csak annyira jók, mint az input adatok. A ServiceNow + Experian konvergenciája jelzi: az audit és compliance a döntéshez szükséges, de az input data trustworthiness még ad-hoc. Kell egy data pedigree réteg: honnan jönnek az adatok, mik az anomáliák/kitöltések, milyen validáció futott, és ez végig auditálható.
+**Signals (updated 2026-05-20):**
+- ServiceNow + Experian partnership: enterprise data + autonomous agents (2026-05-18): data trustworthiness bottleneck for agentic autonomy. HIGH CONFIDENCE.
+- "Algorithmic Bias, Data Ethics, and Governance: A Comparative Perspective" (Semantic Scholar, 2026-02-28): data + ethics + governance nexus. HIGH CONFIDENCE.
+**Assessment:** Ez a H74 (data trustworthiness certification) mélyítése: nem elég a döntés auditja, a bemenet is kell. Az SMB-nél a practice: adatforrások regisztrációja, quality baseline, anomaly flag, és approval gate high-risk döntésekhez.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-05-20). A ServiceNow + Experian jelzi, hogy az agentic autonomy előfeltétele az input data trustworthiness.*
+
+## H80 — Sustainability & ESG-Aligned Agent Governance (Impact Auditing)
+**Thesis:** Az AI Policy Climate Action agenda (Signal 19) jelzi: az agentic döntések szociális és környezeti hatásával kezdenek foglalkozni. Kell egy impact audit réteg: az agent javaslatai/döntései mely ESG céloknak felelnek meg, milyen unintended externality kockázat van, és hogyan mérhető a netto impact.
+**Signals (updated 2026-05-20):**
+- How AI Policy can Accelerate Climate Action (Google News, 2026-09-23): policy-driven agentic deployment for sustainability. HIGH CONFIDENCE.
+- Agentic AI for Sustainable Development (Semantic Scholar, 2026-09-01): explicit sustainability narrative for agentic AI. HIGH CONFIDENCE.
+**Assessment:** Ez a H12 (accountability to stakeholders) ESG dimenzió. Az SMB-nél a practice: sustainability checklist agent runokhoz ("ez a javasalt költségvetés milyen CO2-láb", "HR döntés neme/diversity implicit kockázat"), és impact report generálás.
+**Scores:** Pain=3 | Urgency=3 | WTP=3 | Def=2 | IntFric=3 | **Total: 14/25**
+*Új hypothesis (2026-05-20). Az ESG-agent konvergencia még korai, de gyorsulni fog a regulatory push.*
+
+## H81 — Global South & Culturally-Contextualized Agent Governance (Localization)
+**Thesis:** Az "Moving Beyond the Term 'Global South'" signal (27) jelzi: az agentic AI governance Western-centric, és a lokális kontextus (jogi, kulturális, infrastrukturális) figyelmen kívül marad. Kell egy localization réteg: ország/régió-specifikus policy templates, jogi attribúció, és bias-audit lokális adatok és user base alapján.
+**Signals (updated 2026-05-20):**
+- Moving Beyond the Term "Global South" in AI Ethics (Google News, 2026-11-19): geopolitical + cultural AI governance fragmentation. HIGH CONFIDENCE.
+- AI Ethics Education in India: A Syllabus-Level Review (Semantic Scholar, 2026-09-26): regional education + bias + governance gap. HIGH CONFIDENCE.
+- Global AI Governance Law and Policy: China, Australia, UAE (Google News, 2026-11-05 to 2026-12-10): jurisdiction-specific governance. HIGH CONFIDENCE.
+**Assessment:** Még korai market, de az India, Southeast Asia, Afrika agent adoption felé mozog. Az opportunity: "AI governance in a box" szakterületi packages (banking, healthcare, e-commerce) minden major jurisdiction számára, baked-in cultural/legal audit.
+**Scores:** Pain=4 | Urgency=3 | WTP=3 | Def=2 | IntFric=4 | **Total: 16/25**
+*Új hypothesis (2026-05-20). A Global South perspective agent governance fragmentáció jelzi, de ez long-tail opportunity, nem immediate.*
+
+---
+
+## Top 3 Opportunities + Suggested Experiments (2026-05-20)
+
+### #1: H79 — Agent Input Data Quality Audit (SMB packaging)
+**Miért most:** A ServiceNow + Experian precedens konkrét: input data trustworthiness az agentic döntés fundamentuma. Az SMB-nél ez gyors, értékelhető audit.
+**Kísérlet:** 2 napos research + 3 napos POC: egy tipikus SMB workflow (pl. invoice-to-payment) adatforrásainak audítja (source, transform rules, validation gaps). Deliverable: 1 oldalas "data governance readiness" report + policy template.
+
+### #2: H77 — Multi-Agent Coordination & Policy Conflict Detection (Preemptive risk)
+**Miért most:** Az Agora-1 jelzi, hogy a multi-agent systems gyorsan komplexek lesznek. Korai tooling (conflict detection, policy override audit) most szerez WTP-t.
+**Kísérlet:** 1 hetes research: multi-agent coordination pattern mapping (agent A->B delegation, policy override scenarios, emergent behavior). Deliverable: 1 oldalas threat model + governance template.
+
+### #3: H76 — Large-Budget Decision Escalation Framework (Enterprise wedge)
+**Miért most:** A Hershey $2B precedens azt mutatja, hogy az agentic autonomy na nagy költségvetésnél már mainstream. Az opportunity: "decision escalation" sablonok szakterületekre.
+**Kísérlet:** 2 napi scoping + 2 napi fejlesztés: marketing campaign budget recommendation workflow escalation policy (cost threshold, approval chain, override audit). Deliverable: policy template + instruált workflow demo.
+
 ---
 
 Scoring dimensions (1–5 each):
