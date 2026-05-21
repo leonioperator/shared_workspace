@@ -96,15 +96,15 @@ Last updated: 2026-05-17
 **Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=4 | IntFric=4 | **Total: 19/25**
 *Új hypothesis (2026-05-07). Az oversight incentive nézőpont fontos, mert a compliance checkbox különben könnyen performatív kontrollá válik.*
 
-## Top 3 Opportunities + Suggested Experiments (2026-05-19)
+## Top 3 Opportunities + Suggested Experiments (2026-05-21)
 
-### #1: H74 — Agent Data Trustworthiness Audit (Input Pedigree + Validation)
-**Miért most:** A ServiceNow + Experian konvergenciája konkrét: az agentic döntések csak akkor audit-able, ha az input data trustworthy. Ez a missing link a compliance narratívában.
-**Kísérlet:** 2 napos research + 1 napi POC: egy SMB workflow (e.g. invoice processing) adatforásainak pedigree auditja és trustworthiness scoring. Deliverable: 1 oldalas data governance checklist + trusted input certification template.
-
-### #2: H76 — Decision Escalation Policy Framework (High-Budget Agent Governance)
-**Miért most:** A Hershey precedens azt mutatja, hogy az agentic autonomy nagybankban szélesedik — de a governance még ad-hoc. A Hershey szintű esetek elkészítik az "override required" szinteket.
+### #1: H76 — Decision Escalation Policy Framework (High-Budget Agent Governance)
+**Miért most:** A Hershey $2B precedens azt mutatja, hogy az agentic autonomy nagybankban szélesedik — de a governance még ad-hoc. A Hershey szintű esetek elkészítik az "override required" szinteket.
 **Kísérlet:** 2 napos scoping + 2 napi fejlesztés: egy complex, high-cost Leoni workflow (pl. email draft approval chain) escalation policy instruálása. Templatelés: milyen költségvetési szint kell felülbírálás, milyen kategóriákra érvényes, és approval audit. Deliverable: escalation policy template + instruált workflow.
+
+### #2: H80 — Agent-Specific Security Operations (Email Output Verification POC)
+**Miért most:** A Ocean $28M jelzi: agentic email security külön kategória. Az SMB-nél ez gyors trust wedge lehet: "valóban az agent írta-e ezt az email-t?"
+**Kísérlet:** 2 napos research + 2 napi fejlesztés: Leoni recent email draft-jainak retrospektív validációja (tone, sender pattern, anomaly scoring). Output: email output validation template + anomaly baseline dashboard.
 
 ### #3: H78 — Real-Time Agent Behavioral SLA & Monitoring (Anomaly Detection POC)
 **Miért most:** A Beacon + CISA jelez, hogy az observability real-time, nem post-hoc. Az SMB-nél ez gyors security win lehet: "agent nem módosíthat 5 API-t másodpercenként" SLA + alerting.
@@ -365,6 +365,51 @@ Last updated: 2026-05-17
 **Thesis:** Az AgentGate, Microsoft Defense-in-Depth és Notion agent platform között nincsenek közös authorization minták. Ahogy az agentek terjednek, ez az interoperability gát és compliance nightmare potenciálisan. Kell egy standard authorization réteg agentek számára (OWASP/NIST / CISA szintű), amely scope-olt, delegated, revocable és audit-capable.
 **Signals (updated 2026-05-19):**
 - AgentGate – Authorization Layer for AI Agents (GitHub, 2026-05-13): permission/identity/auth gap in agent ecosystem. HIGH CONFIDENCE.
+**Assessment:** Ez a H40 (workload attestation), H53 (secretless delegation) és H2 (audit) metszete, de a piac fragmentációja (Notion, Anthropic, Microsoft, OpenClaw) azt jelzi, hogy a standard még nem alakult ki. Lehetőség: conformance layer és interop mapper, ha az ügyfél multi-platform agenteket futtat.
+**Scores:** Pain=4 | Urgency=4 | WTP=3 | Def=2 | IntFric=3 | **Total: 16/25**
+*Új hypothesis (2026-05-19). Az authorization fragmentáció compliance és interop gát lesz, ha nem szinkronizálódik.*
+
+## H76 — Decision Escalation Policy Framework (High-Budget Agent Governance)
+**Thesis:** Az agentic autonomy egyre nagyobb budget és üzleti hatásra terjed (Hershey $2B marketing spend precedent). Szükség van a "override required" politika végrehajtási rendszerre: mely költségvetési szint, mely tranzakció típus vagy mely kategória-döntés igényel emberi felülvizsgálatot, jóváhagyást vagy eskalációt? Az escalation policy nem statikus rule, hanem dinamikus, learnable (ha 10 override zárult sikeresen, csökkenthetjük a threshold-ot), és audit-trackable.
+**Signals (updated 2026-05-21):**
+- Hershey $2B marketing spend delegation (2026-05-13 TechCrunch): explicit big-budget agent autonomy precedent. HIGH CONFIDENCE.
+- Matthew DiGiuseppe NWO grant: AI governance frameworks emerging (2026-05-20 implicit): high-stakes decision governance szükség. MEDIUM CONFIDENCE.
+**Assessment:** Ez a H6 (policy enforcement) operációs kiterjesztése: nem csak kizárás ("this is not allowed"), hanem szintezés ("this needs approval level X"). Az SMB-nél ez gyors adoption wedge lehet: költség-szint alapú approval routing + Slack/email workflow.
+**Scores:** Pain=5 | Urgency=4 | WTP=5 | Def=3 | IntFric=3 | **Total: 20/25**
+*Új hypothesis (2026-05-21). Az escalation policy Hershey-méretű autonomy-hoz szükséges, és a workflows ezt már támogatják (Slack approval, JIRA integration).*
+
+## H77 — Agentic Documentation Validation (Agent-as-Test-Harness for API Docs)
+**Thesis:** Az API dokumentáció mai formátuma emberi fejlesztőknek készült. A Dari-docs precedent azt jelzi: az agentek **dokumentáció validálás** új szintje lehet, ha a dokumentáció executable. Az agent valós API-t hívja, a dokumentáció lépéseit követi, és hibát jelez ha "Ez az API nem teszi, amit a doc ígér". Ez az ügyfelek számára gyors QA wedge: agent-driven API audit + doc freshness check.
+**Signals (updated 2026-05-21):**
+- Dari-docs (GitHub, 2026-05-20): "Optimize your docs using parallel coding agents" — agents test docs against live APIs. HIGH CONFIDENCE.
+**Assessment:** Ez a H64 (agent-readable API) fordított oldala: az API owner perspektívájából ez a "is my API agent-friendly?" kérdés. Navibase: API doc audit sablonok + parallel agent harness sebességünk lehet a selling point. KKV integrator ügyfeleknél is értékesíthető: "szállító API-d valóban működik-e?"
+**Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=2 | IntFric=2 | **Total: 15/25**
+*Új hypothesis (2026-05-21). A dokumentáció-validation agent-by-default workflow támogatása felfelé toleráltsabb, mint post-hoc auditing.*
+
+## H78 — Real-Time Agent Behavioral SLA & Monitoring (Anomaly Detection)
+**Thesis:** Az agentek produkción futnak, de a behvaiorális anomáliákat (rate limiting túllépés, adatcsere volumen ugrás, time-per-task eszkalálódás, karakterisztikus pattern eltérés) nem monitorozzák. Kell egy runtime behavioral telemetry + anomaly SLA: "agent max 5 API call / sec", "max 100 MB data transfer/hour", "no task > 5 min". A Beacon + CISA guidance jelzi: real-time observability security kérdés is, nem csak ops-metrika.
+**Signals (updated 2026-05-21):**
+- Beacon (GitHub, 2026-05-20 implicit): agent observability az CISA guidance szemben. MEDIUM CONFIDENCE.
+- Jensen Huang, xAI infra jel: agent compute-intensity és cost monitoring kritikus. MEDIUM CONFIDENCE.
+**Assessment:** Ez a H34 (ops monitoring) kiterjesztése: nem csak üzleti telemetry, hanem behavioral security SLA. Az SMB-nél ezt Telegram alerting formájában lehet eladni: "agent túl gyors, vagy túl sokáig fut". Navibase: baseline behavioral profiling + anomaly rule sablonok.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=2 | **Total: 17/25**
+*Új hypothesis (2026-05-21). A behavioral SLA a monitoring-ból governance-sé válik, ha az agent cost és security exponenciális.*
+
+## H79 — Multi-Agent Reliability Orchestration (Coordination Failure Detection)
+**Thesis:** Az agentek csapatban futnak (ViMax pattern: Director, Screenwriter, Producer, Video Generator). Az új kockázat: a koordináció meghibásodása — az egyik agent output rossz, az összes downstream agent tévútra indul, és a hibadetektálás kaszkádosan késik. Kell egy **coordination reliability réteg**: validálj agent output-okat köztük, detektálj "weird" state korai (pl. Producer outputot Screenwriter nem értelmezi), és escalate. Ez a distributed systems reliability gondolata, de agentic formában.
+**Signals (updated 2026-05-21):**
+- ViMax (GitHub, 2026-05-20): multi-role agentic video generation, explicit coordination dependencies. HIGH CONFIDENCE.
+**Assessment:** A katalógus még nem érett erről az angle-ról, de a multi-agent pattern terjedésével lesz szükség. Navibase: workflow validation sablonok + inter-agent contract checking (output schema validation).
+**Scores:** Pain=3 | Urgency=3 | WTP=4 | Def=2 | IntFric=3 | **Total: 15/25**
+*Új hypothesis (2026-05-21). A multi-agent failure modes új kutatási terület, de az üzleti szükség nyilvánvaló.*
+
+## H80 — Agent-Specific Security Operations (Email/Comms Threat Detection)
+**Thesis:** Az agentek nem csak adattal, hanem **kommunikációval** is dolgoznak (email draft, Slack message, chat reply). Az Ocean precedent ($28M) azt jelzi: agentic email security külön kategória (agent impersonation detection, fraud email generation azonosítása, social engineering resilience). Ez nem általános AI security, hanem agent-output-specifikus: "valóban az engedélyezett agent írta-e ezt az email-t?"
+**Signals (updated 2026-05-21):**
+- Ocean (TechCrunch, 2026-05-19): "$28M to fight AI phishing" — agentic email security és context-deep fraud analysis. HIGH CONFIDENCE.
+**Assessment:** Ez a H23 (robustness) és H6 (policy) mellett a **agentic output verification** réteg. Az SMB-nél ezt "draft approval + agent signature" formájában lehet eladni. Navibase: email draft validation sablonok + tone/context analyzer ("Ez az email anormális agenthez képest?").
+**Scores:** Pain=5 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 19/25**
+*Új hypothesis (2026-05-21). A agentic communication security az agent capability terjedésével kritikus lesz, mai 0 signal.*
 - Microsoft Defense in Depth for Autonomous AI Agents (2026-05-14): enterprise security architecture, implies agent threat surface poorly understood. HIGH CONFIDENCE.
 - CISA, NSA & Five Eyes guidance (2026-05-02): already concrete operational deployment risks for agents. HIGH CONFIDENCE.
 **Assessment:** Ezek a signalok azt mutatják, hogy az authorization réteg kaotikus marad, ha nem lesz szabvány. Az opportunity: compliance-ready authorization framework, amely kompatibilis NIST/CISA irányelvekkel. Navibase: authorization template + audit export, amit szükség szerint könnyű a meglévő infra-val integrálni (OAuth, SAML stb.).
