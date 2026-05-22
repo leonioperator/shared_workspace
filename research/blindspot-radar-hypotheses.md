@@ -96,6 +96,20 @@ Last updated: 2026-05-17
 **Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=4 | IntFric=4 | **Total: 19/25**
 *Új hypothesis (2026-05-07). Az oversight incentive nézőpont fontos, mert a compliance checkbox különben könnyen performatív kontrollá válik.*
 
+## Top 3 Opportunities + Suggested Experiments (2026-05-22)
+
+### #1: H76 — Commoditized Harness Integration with Compliance Wrapper (Fast Wedge)
+**Miért most:** Runtime és a Solana/xAI convergence azt jelzi, hogy a harness már commodity. A compliance + vertical governance layer a differenciáló. A Fast Wedge: Runtime (vagy E2B) + Navibase compliance adapter.
+**Kísérlet:** 2 napos research + 3 napos development: Runtime vagy E2B harness integrációja Leoni Python agentbe, compliance metadata capture (secret scopes, RBAC decisions, audit correlation). Deliverable: end-to-end run transcript + compliance annotation JSON + 2 perces demo.
+
+### #2: H77 — Blockchain Agent Payment Proof-of-Concept (Marketplace Play)
+**Miért most:** Solana acceleration + xAI burn rate konvergenciája = blockchain payment infrastructure agentek számára real. Az SMB e-commerce marketplace-ek most akarnak ágent-based vendor payout automation-t.
+**Kísérlet:** 3 napos research + 2 napos demo: mock marketplace agent workflow (order → agent validation → payout trigger) Solana SPL token + escrow mappa (testnet). Deliverable: architecture diagram + payment flow transcript + risk assessment.
+
+### #3: H70/H72 — Copyright + Integrity Certification Bundled Template (Regulatory Hedging)
+**Miért most:** A 2026-05-22 signal explicit: data scraping, szerzői jog, és verifiable governance konvergál. A template-based approach gyors trust-building.
+**Kísérlet:** 2 napi research + 2 napi template: agent-deployment checklist (copyright audit + integrity certification) egy tipikus SMB workflow-hez. Output: 1 oldalas deployment readiness score + template PDF.
+
 ## Top 3 Opportunities + Suggested Experiments (2026-05-21)
 
 ### #1: H76 — Decision Escalation Policy Framework (High-Budget Agent Governance)
@@ -365,6 +379,23 @@ Last updated: 2026-05-17
 **Thesis:** Az AgentGate, Microsoft Defense-in-Depth és Notion agent platform között nincsenek közös authorization minták. Ahogy az agentek terjednek, ez az interoperability gát és compliance nightmare potenciálisan. Kell egy standard authorization réteg agentek számára (OWASP/NIST / CISA szintű), amely scope-olt, delegated, revocable és audit-capable.
 **Signals (updated 2026-05-19):**
 - AgentGate – Authorization Layer for AI Agents (GitHub, 2026-05-13): permission/identity/auth gap in agent ecosystem. HIGH CONFIDENCE.
+
+## H76 — Commoditized Sandboxed Agent Harnesses with RBAC & Secret Isolation
+**Thesis:** A coding agentek infrastruktúrájának abstrakciós szintje radikálisan csökken: secret-injection, per-agent RBAC, sandboxing, provisioning/deprovision, observability mind commodityzálódik. A tényezők (Runtime, E2B, Daytona, Daytona) azt jelzik, hogy a harness engineering már nem differenciáló — a differenciáló a compliance layer, a vertical-specifikus tooling, és az enterprise governance (H2, H6, H38) lesz. Az opportunity: gyors on-ramp untuk KKV-kat: keretrendszer (sandbox + RBAC) + szavak compliance szét, nem helyaett home-brew sandboxnak.
+**Signals (updated 2026-05-22):**
+- Runtime (YC P26, 2026-05-21): Sandboxed coding agents, secret-injection via managed proxy, per-agent RBAC, sandboxing-as-commodity — "enterprises can NOW deploy agents without security theater". https://www.runtm.com/. HIGH CONFIDENCE.
+**Assessment:** Ez a H36 (managed infra) és H40 (workload attestation) közvetlenül validációja. A buyer language jól artikulálódott: "secretless sandbox + RBAC". Navibase: nem kell saját harness, de a compliance layer (H38, H6, H62) integráció Runtime-fölé gyors value-proposition és partner play.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=2 | IntFric=2 | **Total: 16/25**
+*Új hypothesis (2026-05-22). A Runtime bejelentés azt jelzi, hogy a commoditized harness már production-grade, a moat a compliance és vertical packaging.*
+
+## H77 — Blockchain-Native Agent Payment & Wallet Autonomy
+**Thesis:** Ahogy az agentek pénzügyi autonómiát nyernek (escrow, microtransaction, commerce), a blockchain-based payment és custody megoldások ágent-specifikus keretrendszer felé süllyednek. A Solana agent acceleration és a Hershey $2B precedens konvergál: az agent végrehajthat pénzügyi tranzakciókat, ha a blockchain custody, escrow és audit path világos. Az opportunity: KKV-s e-commerce, SaaS payment automation, és marketplace agentek, amelyeknek nyílt, auditable, trustless pénzügyi pipeline kell.
+**Signals (updated 2026-05-22):**
+- Solana accelerates on AI agents (2026-05-19, Deep Score 0.1): blockchain-native agent integration, cryptocurrency wallet autonomy, marketplace payment models. https://news.google.com/rss/articles/[Solana agent]. MEDIUM CONFIDENCE.
+- xAI burned $6.4B last year (2026-05-20, Deep Score 0.1): $1.25B/month spending signals agents are COGS-critical; financing converges with payment infrastructure. https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/. HIGH CONFIDENCE.
+**Assessment:** Ez a H63 (agent legal entity boundary) és H4 (micropayments) digitális extension-ja, de blockchain-specifikus. A buyer itt commerce/marketplace founder, aki szeretne ágent-based payment flow-t. Navibase: ez vagyis integration play vagy vertical template (e-commerce marketplace), nem önálló core termék.
+**Scores:** Pain=3 | Urgency=3 | WTP=4 | Def=2 | IntFric=4 | **Total: 16/25**
+*Új hypothesis (2026-05-22). A Solana + xAI together jelzi, hogy az agent commerce crypto-native irányba tolódik — regulatory wild west, de adoption trend erős.*
 **Assessment:** Ez a H40 (workload attestation), H53 (secretless delegation) és H2 (audit) metszete, de a piac fragmentációja (Notion, Anthropic, Microsoft, OpenClaw) azt jelzi, hogy a standard még nem alakult ki. Lehetőség: conformance layer és interop mapper, ha az ügyfél multi-platform agenteket futtat.
 **Scores:** Pain=4 | Urgency=4 | WTP=3 | Def=2 | IntFric=3 | **Total: 16/25**
 *Új hypothesis (2026-05-19). Az authorization fragmentáció compliance és interop gát lesz, ha nem szinkronizálódik.*
