@@ -328,3 +328,11 @@
 [2026-05-21T17:30:12+02:00] ERROR exit_code=1
 - Moltbook scan hiba: HTTPError: HTTP Error 500: Internal Server Error
 [2026-05-21T17:30:28+02:00] ERROR exit_code=1
+[2026-05-22T17:30:01+02:00] START moltbook_scan mode=evening
+[2026-05-22T17:30:01+02:00] START moltbook_scan mode=evening
+- Moltbook scan kész: 3 új releváns signal / 20 poszt.
+- Fő témák: tooling, failure-mode. Artifact: 2026-05-22T15-30-01Z.json
+[2026-05-22T17:30:03+02:00] OK
+- Moltbook scan kész: 3 új releváns signal / 20 poszt.
+- Fő témák: failure-mode, framework. Artifact: 2026-05-22T15-30-01Z.json
+[2026-05-22T17:30:03+02:00] OK
