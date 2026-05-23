@@ -2818,3 +2818,101 @@ Scoring dimensions (1–5 each):
 ---
 
 *Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-05-06.md (562 releváns, top 30 elemezve, 8 emerging themes) + prior H history | 2026-05-06 07:30 UTC*
+
+---
+
+## H81 — Learned Decentralized Multi-Agent Task Allocation (CBBA + RL)
+**Thesis:** A több agent rendszereknél az erőforrás-allokáció eddig hand-crafted greedy scoring alapján működött. Az új eredmény: learned RL bidding policies (centralized training, decentralized execution) jobbat talál, miközben decentralizált garanciákat tartalmaz. Ez nem csak robotika: bármely multi-agent workflow (parallel runs, resource pools, task delegation) tanulhat az agent-szintű allokációs mintázatokat, csökkentve a kézi scheduling frictiont.
+**Signals (2026-05-23):**
+- Auction-Consensus Algorithm with Learned Bidding Scheme for Multi-Robot Systems (arXiv, 2026-05-21, Deep Score 0.3): explicit learned bidding policy a CBBA-ban, multi-robot teams limited communication constraints alatt. https://arxiv.org/abs/2605.21932. HIGH CONFIDENCE.
+**Assessment:** KKV-nál releváns, ha egynél több agent fut (task distribution, resource contention). Navibase: agent scheduling best practice és "autonomous orchestration" feature lehet a jövőben.
+**Scores:** Pain=3 | Urgency=3 | WTP=3 | Def=2 | IntFric=3 | **Total: 14/25**
+*Új hypothesis (2026-05-23). Az auction-consensus dengan learned bidding jól illeszkedik a H25 (workspace orchestration) irányba.*
+
+## H82 — Multi-Agent Communication Security & Protocol Authentication (Agent-to-Agent Trust)
+**Thesis:** Ahogy az agentek egymás között kommunikálnak (agent orchestration, delegation, approval workflows), új attack felület nyílik meg: domain-camouflaged injection, agent impersonation, policy bypass. A megoldás: protokoll-szintű authentication, attestation, és encrypted channels multi-agent rendszerekben. Ez H22/H24 (security) mélyebb szintje: nem client-facing injection, hanem inter-agent threat model.
+**Signals (2026-05-23):**
+- Domain-Camouflaged Injection Attacks Evade Detection in Multi-Agent LLM Systems (arXiv, 2026-05-22, Deep Score 0.1): multi-agent LLM communication bypass, injection elleni detektálás hiányzik. https://arxiv.org/abs/2605.22001. HIGH CONFIDENCE.
+**Assessment:** Ez a H25/H33 szintjén: agent-to-agent message signing, capability attestation, és audit transcript. Navibase: multi-agent deployments (ha elkészül majd) safety critical feature.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=4 | **Total: 19/25**
+*Új hypothesis (2026-05-23). A domain-camouflaged pattern azt jelzi, hogy az agent orchestration biztonsági rétegei még immatúr.*
+
+## H83 — Provider-Specific Agentic Shifts in Model Capability & Commercial Terms
+**Thesis:** Az eddigi model competition a "helpfulness" és az "accuracy" körül forgott. A 2026-05-19 Google bejelentés (Gemini 3.5 Flash agent-first) azt mutatja, hogy a major provider pivot agentic capability szétszóródása felé. Ennek üzleti következménye: minden provider saját "agentic optimization" profilt fog építeni, az API és pricing eltérően lesz strukturálva agentek számára. A blindspot: a KKV-nak nincs model selection framework agent use case-hez.
+**Signals (2026-05-23):**
+- With Gemini 3.5 Flash, Google bets its next AI wave on agents, not chatbots (TechCrunch, 2026-05-19, Deep Score 0.1): explicit provider shift agent-first irányba, model optimalizálás agent benchmark-okra. https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/. HIGH CONFIDENCE.
+**Assessment:** Ez nem product wedge, hanem stratégiai kontextus: az agent selection framework (model + cost + capability profile) saját valuációs és procurement szint lesz. Navibase: "agent-ready model guide" tájékoztatás lehet az SMB számára.
+**Scores:** Pain=3 | Urgency=3 | WTP=3 | Def=2 | IntFric=2 | **Total: 13/25**
+*Új hypothesis (2026-05-23). A provider consolidáció körüli confusion gyors POC/advisory opportunity.*
+
+## H84 — NVIDIA Verified Agent Skills Marketplace & Capability Standardization
+**Thesis:** Az agentic capabilities (tools, APIs, datasets) eddig un-vetted, untrustworthy marketplace-en forogtak. Az NVIDIA Verified Agent Skills bejelentés jel: vendor-supported, auditable skill standard és marketplace formálódik. Ez a H50 (benchmark-driven procurement) kiegészítése: nem csak benchmark, hanem vendor-certified capability unit. Az SMB opportunity: either publish certified skills vagy use verified marketplace for compliance procurement.
+**Signals (2026-05-23):**
+- NVIDIA-Verified Agent Skills Provide Capability Governance for AI Agents (2026-05-19, Deep Score 0.1): vendor-verified capability standard, governance-first skill curation. https://news.google.com/rss/... HIGH CONFIDENCE.
+**Assessment:** Ez H24/H42 szintjén: standard capability protocol + marketplace. Navibase: partner-stratégia vendor marketplacekel, vagy saját "SMB-certified skills" collection.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-05-23). Az NVIDIA validator roles új governance primitive-t jelzi: capability certification.*
+
+## H85 — Agentic Search & SEO/SEM Business Model Disruption (Discovery Paradigm Shift)
+**Thesis:** A "Google Search as you know it is over" statement jel, hogy az agent-first discovery (conversational, autonomous research agent) egy új discovery kategóriává lép. Ez üzleti szintű: az SEO/SEM (keyword, ranking, paid placement) business model feloszlik, helyét az "agent-preferred sources" ranking és "agent-native prompting" veszi át. Az SMB szintjén: content strategy, customer acquisition, distribution fundamentálisan megváltozik, ha a search helyét agent-based discovery veszi át.
+**Signals (2026-05-23):**
+- Google Search as you know it is over (TechCrunch, 2026-05-19, Deep Score 0.1): shift from ranking to agentic discovery, conversational research, autonomous agent preference. https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over. HIGH CONFIDENCE.
+**Assessment:** Ez nem technikai governance kérdés, hanem szervezeti/üzleti: az SMB digitális stratégiáját átírja. Navibase: advisory/content strategy szint, nem az agent product szintje. De hosszú távon: az agent-friendly tudásstruktúrálása (structured data, API-first content, agent prompts) új készségi szint.
+**Scores:** Pain=5 | Urgency=3 | WTP=3 | Def=3 | IntFric=4 | **Total: 18/25**
+*Új hypothesis (2026-05-23). A discovery paradigm shift nem technikai, hanem piaci szintű disruption, de az SMB stratégiára közvetlenül hat.*
+
+---
+
+## Ranking Summary (2026-05-23)
+
+| Rank | Hypothesis | Score | Delta |
+|------|-----------|-------|-------|
+| 1 | H2 — Audit Trail | 22/25 | = |
+| 2 | H6 — Policy Enforcement Runtime | 22/25 | = |
+| 3 | H1 — Agent Identity & Auth | 21/25 | = |
+| 4 | H20 — Agent Orchestration as Regulated Infra | 21/25 | = |
+| 5 | H3 — MCP Governance | 20/25 | = |
+| 6 | H12 — Agent Accountability Framework | 20/25 | = |
+| 7 | H10 — Agent Infra as Code | 19/25 | = |
+| 8 | **H82 — Multi-Agent Communication Security** | **19/25** | **ÚJ** |
+| 9 | H15 — B2B SaaS Agent Feature Injection | 19/25 | = |
+| 10 | H7 — SMB Deployment Wrapper | 18/25 | = |
+| 11 | H8 — Cross-Agent Context | 18/25 | = |
+| 12 | H13 — Agent Sandboxing & Isolation | 18/25 | = |
+| 13 | H14 — Agent-to-Agent Trust & M2M | 18/25 | = |
+| 14 | H16 — AI Alignment Measurement as a Service | 18/25 | = |
+| 15 | H17 — Controlled Self-Configuration Boundary | 18/25 | = |
+| 16 | H18 — Organizationally-Aligned AI | 18/25 | = |
+| 17 | H19 — Operational Reliability Layer | 18/25 | = |
+| 18 | **H84 — NVIDIA Verified Agent Skills Marketplace** | **18/25** | **ÚJ** |
+| 19 | **H85 — Agentic Search & Discovery Disruption** | **18/25** | **ÚJ** |
+| 20 | H4 — Agent Payment Rails | 17/25 | = |
+| 21 | H11 — Hallucination Self-Check | 17/25 | = |
+| 22 | H5 — Discovery & Registry | 16/25 | = |
+| 23 | **H81 — Learned Decentralized Task Allocation** | **14/25** | **ÚJ** |
+| 24 | H9 — Agent Communication Infra | 12/25 | = |
+
+*2026-05-23 delta: 5 új hypothesis (H81-H85). Governance infrastruktúra és compliance narratívák (H2/H6/H20) dominálja a top 5-öt. Az agent orchestration themed hypotheses (H14/H82) felértékelődnek, mivel a multi-agent deployment Wave beérkezik. Az urgency mindegyik új H-nél magas: az EU AI Act deadline Aug 2026, Google/NVIDIA player moves, és SEO/SEM disruption rövid időhorizontra van.*
+
+---
+
+## Top 3 Opportunities + Suggested Experiments (2026-05-23)
+
+### #1: H20 — Agent Orchestration Platform as Regulated Infrastructure [Score: 21/25]
+**Miért most:** EU AI Act Aug 2026 deadline 2.5 hónapon belül. Az "agent platform infrastruktúra" narratíva mainstream médiában jelent meg (National Today, 2026-03-29). A Navibase/Leoni már implementálja az audit trail, policy engine, identity scope komponenseket — most kommunikálnia kell ezt együtt, mint "EU AI Act-ready compliance platform."
+**Javasolt kísérlet:** 15 EU-based AI governance officer (compliance, legal) hideg megkeresés. Ajánlat: "Agent Platform EU AI Act Readiness Audit" — 2 hetes szabad audit, checklist, remediation roadmap. Mérők: audit→paid advisory konverzió, enterprise inbound pipeline.
+**Befektetés:** ~1 hét audit sablon + sales outreach. High-touch, de szoros compliance szükségletre épít.
+
+### #2: H82 — Multi-Agent Communication Security [Score: 19/25 — ÚJ]
+**Miért most:** A domain-camouflaged injection attack 2026-05-22 jelent meg — az inter-agent messaging biztonsági réteg ma unresolved. Ahogy a multi-agent pipeline-ok production-ba kerülnek (Nyne, orchestration wave), ez az attack felület élő lesz. Navibase: agent-to-agent message signing + capability attestation MVP.
+**Javasolt kísérlet:** 2 nap research: domain-camouflaged attack anatomy vizsgálata. 3 nap MVP: agent-to-agent message signing + audit transcript. Deliverable: security white paper + PoC demo.
+**Befektetés:** ~5 nap. Thought leadership + Product feature roadmap.
+
+### #3: H84/H85 (szinkronban) — NVIDIA Skills Marketplace + Search Disruption [Score: 18/25 — ÚJ]
+**Miért most:** NVIDIA vendor-standardizációja és Google Search dismantling egyszerre jelent meg — ezek az agent ecosystem fő pilléreinek dekonstrukcióját jelzik. Az SMB-nek szüksége van egy navigációs útmutató: "melyik marketplace-en kell prezentálnom az agent capable-et, és hogyan kell alkalmazkodnom a discovery paradigma eltolódásához."
+**Javasolt kísérlet:** 1 napos advisory brief: NVIDIA Verified Skills eligibility + Google agentic search content strategy. Deliverable: 1 oldalas "Agent Marketplace Positioning Guide" SMB számára.
+**Befektetés:** ~1 nap research. Quick advisory wedge, ezt követően workshop-pilot.
+
+---
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-05-23.md (736 signal, HAIER export) | 2026-05-23 09:30 CET*
