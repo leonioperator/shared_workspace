@@ -3,6 +3,10 @@ title: 2026-04-18 — Email AI Triage Setup — Offer Asset
 date: '2026-05-25'
 site: vinczetamas
 status: draft
+id: 2026-04-
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.463869+00:00'
 ---
 
 # 2026-04-18 — Email AI Triage Setup — Offer Asset

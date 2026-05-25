@@ -1,13 +1,17 @@
 ---
-title: "AI hírlevél draft - 2026-03-16"
+title: AI hírlevél draft - 2026-03-16
 date: 2026-03-16
 status: draft
 channel: MailerLite
 site: vinczetamas.hu
 subject_options:
-  - "AI már nem demo. A bizalom lett a szűk keresztmetszet"
-  - "Az AI verseny most nem a modellekről szól, hanem a működésről"
-  - "A következő AI nyertesek nem a leghangosabbak lesznek"
+- AI már nem demo. A bizalom lett a szűk keresztmetszet
+- Az AI verseny most nem a modellekről szól, hanem a működésről
+- A következő AI nyertesek nem a leghangosabbak lesznek
+id: 2026-03-
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.405394+00:00'
 ---
 
 # AI hírlevél draft

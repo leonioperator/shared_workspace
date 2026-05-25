@@ -3,6 +3,10 @@ title: 'AI agent a VPS-eden: 7 dolláros titkárnő ami soha nem alszik'
 date: '2026-05-25'
 site: vinczetamas
 status: draft
+id: 2026-03-
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.436528+00:00'
 ---
 
 # AI agent a VPS-eden: 7 dolláros titkárnő ami soha nem alszik

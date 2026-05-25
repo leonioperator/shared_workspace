@@ -3,6 +3,10 @@ title: 'AI bevezetés ellenállás nélkül: mit mondj a csapatodnak?'
 date: '2026-05-25'
 site: vinczetamas
 status: draft
+id: vinczeta
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.505725+00:00'
 ---
 
 # AI bevezetés ellenállás nélkül: mit mondj a csapatodnak?

@@ -15,6 +15,10 @@ tags:
 - hatékonyság
 slug: ket-ai-eszkoz-gyorsitja-vallalkozasod-automatizalasat
 status: draft
+id: elkezdod
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.423638+00:00'
 ---
 
 Képzeld el, hogy a cégedben dolgoznak olyan digitális asszisztensek, akik önállóan végeznek el rutinfeladatokat, gyűjtenek adatokat, vagy akár komplexebb döntésekben is segítenek. Ez nem a jövő, hanem a jelen, és két új AI eszköz, a Grok Build és a Genkit teszi ezt valósággá még a kis- és középvállalkozások számára is. Ezek a platformok leegyszerűsítik az „okos” AI ügynökök építését, így gyorsabban profitálhatsz az automatizálásból, anélkül, hogy mélyreható programozási tudásra lenne szükséged.

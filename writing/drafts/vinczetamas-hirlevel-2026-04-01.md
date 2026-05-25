@@ -3,6 +3,12 @@ date: 2026-04-01
 platform: vinczetamas.hu hírlevél (MailerLite)
 status: draft
 author: Leoni
+id: vinczeta
+title: Az AI ipar legemlékezetesebb napja — és egy véletlen tanulság
+site: vinczetamas
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.511301+00:00'
 ---
 
 # Az AI ipar legemlékezetesebb napja — és egy véletlen tanulság

@@ -10,6 +10,10 @@ tags:
 - rendszer
 slug: hosszu-debug-hasznos-rend
 status: draft
+id: vinczeta
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.500009+00:00'
 ---
 
 Egy elhúzódó debug egy 5-50 fős cégnél akkor fáj a legjobban, ha csak időt visz, de nem hagy maga után jobb rendszert. Ha viszont dokumentált lépésekké és új működési szabállyá alakul, akkor befektetés lesz belőle. Vincze Tamás stratégiai AI operációs partnerként ezt a különbséget építi be a napi működésbe.

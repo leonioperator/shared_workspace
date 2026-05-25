@@ -3,6 +3,10 @@ title: Automatikus Heti Riport Checklist — KKV-k számára
 date: '2026-05-25'
 site: vinczetamas
 status: draft
+id: 2026-05-
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.480608+00:00'
 ---
 
 # Automatikus Heti Riport Checklist — KKV-k számára

@@ -3,6 +3,10 @@ title: 'A szervezet új szuperhatalom: amikor nem kell tudni programozni'
 date: '2026-05-25'
 site: vinczetamas
 status: draft
+id: vinczeta
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.503826+00:00'
 ---
 
 # A szervezet új szuperhatalom: amikor nem kell tudni programozni

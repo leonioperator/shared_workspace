@@ -1,13 +1,23 @@
 ---
-title: "Az AI, ami akkor is dolgozik, amikor te alszol"
+title: Az AI, ami akkor is dolgozik, amikor te alszol
 slug: always-on-agent-kkv
 site: elkezdodott.hu
 date: 2026-04-23
 status: draft
 score: 4/5
 source: signals-2026-04-22.md
-topics: [always-on agent, OpenAI Hermes, automatizáció, KKV]
-meta_description: "Az always-on AI agent nem azt jelenti, hogy te dolgozol az AI-jal. Azt jelenti, hogy az AI dolgozik helyetted, folyamatosan, akkor is, ha te nem ülsz a gép előtt. Ez a váltás 2026 tavaszán valódi lett."
+topics:
+- always-on agent
+- OpenAI Hermes
+- automatizáció
+- KKV
+meta_description: Az always-on AI agent nem azt jelenti, hogy te dolgozol az AI-jal.
+  Azt jelenti, hogy az AI dolgozik helyetted, folyamatosan, akkor is, ha te nem ülsz
+  a gép előtt. Ez a váltás 2026 tavaszán valódi lett.
+id: elkezdod
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.421469+00:00'
 ---
 
 # Az AI, ami akkor is dolgozik, amikor te alszol

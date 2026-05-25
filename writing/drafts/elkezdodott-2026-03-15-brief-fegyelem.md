@@ -10,6 +10,10 @@ tags:
 - operáció
 slug: brief-fegyelem
 status: draft
+id: elkezdod
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.409478+00:00'
 ---
 
 A napi brief egy 5-50 fős cégben nem extra admin, hanem döntési biztonság. Ha minden nap ugyanabban a formában látod, mi kész, mi csúszik, mi a kockázat, kevesebb a meglepetés. Vincze Tamás ezért a rövid, konzisztens státuszt preferálja a ritka, hosszú beszámolóval szemben.

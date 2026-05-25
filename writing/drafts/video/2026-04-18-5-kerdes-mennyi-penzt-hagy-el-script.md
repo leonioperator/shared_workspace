@@ -3,6 +3,10 @@ title: 2026-04-18 — 5 kérdés elárulja, mennyi pénzt hagy el a céged havon
 date: '2026-05-25'
 site: vinczetamas
 status: draft
+id: 2026-04-
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.462910+00:00'
 ---
 
 # 2026-04-18 — 5 kérdés elárulja, mennyi pénzt hagy el a céged havonta — script

@@ -3,6 +3,10 @@ title: Marketing kampány optimalizáló workflow — KKV számára
 date: '2026-05-25'
 site: vinczetamas
 status: draft
+id: 2026-05-
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.488957+00:00'
 ---
 
 # Marketing kampány optimalizáló workflow — KKV számára

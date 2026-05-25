@@ -10,6 +10,10 @@ tags:
 - migráció
 slug: migracio-elotti-rend
 status: draft
+id: elkezdod
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.407939+00:00'
 ---
 
 A migrációk többsége nem a másoláskor bukik el, hanem utána, amikor kiderül, hogy kimaradt egy cron, egy jogosultság vagy egy visszaállási lépés. Egy 5-50 fős cégben ez gyorsan napi működési kockázat lesz. Vincze Tamás ezért mindig a költözés előtti rendrakással kezd.

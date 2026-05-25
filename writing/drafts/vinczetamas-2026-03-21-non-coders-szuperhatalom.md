@@ -1,11 +1,21 @@
 ---
-title: "A non-coder szervezet: a következő szuperhatalom"
+title: 'A non-coder szervezet: a következő szuperhatalom'
 date: 2026-03-21
 site: vinczetamas.hu
-description: "Miért lesz a nem-kódolókból álló szervezet a legversenyképesebb az AI korában?"
-tags: [AI, szervezet, skill, KKV, non-coder]
+description: Miért lesz a nem-kódolókból álló szervezet a legversenyképesebb az AI
+  korában?
+tags:
+- AI
+- szervezet
+- skill
+- KKV
+- non-coder
 slug: non-coders-szuperhatalom
 status: draft
+id: vinczeta
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.501712+00:00'
 ---
 
 Az AI világa eddig a kódolókról szólt. Aki tud programozni, az nyert. Aki nem, az várt.

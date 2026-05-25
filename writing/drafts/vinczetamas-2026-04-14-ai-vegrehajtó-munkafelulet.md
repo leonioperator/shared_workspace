@@ -1,11 +1,22 @@
 ---
-title: "Az AI chatbot korszaka véget ér. Ami jön, az már nem válaszol, hanem csinál."
+title: Az AI chatbot korszaka véget ér. Ami jön, az már nem válaszol, hanem csinál.
 date: 2026-04-14
 site: vinczetamas.hu
-description: "A következő AI hullám nem chatbotot hoz. Végrehajtó munkafelületet hoz, ami önállóan navigál szoftverekben, adatokban, folyamatokban. A kérdés már nem az, hogy 'felváltja-e az embereket', hanem az, hogy a te céged felkészült-e arra, amit ez megkövetel."
-tags: [ai-stratégia, ceo, automatizálás, digitális-transzformáció]
+description: A következő AI hullám nem chatbotot hoz. Végrehajtó munkafelületet hoz,
+  ami önállóan navigál szoftverekben, adatokban, folyamatokban. A kérdés már nem az,
+  hogy 'felváltja-e az embereket', hanem az, hogy a te céged felkészült-e arra, amit
+  ez megkövetel.
+tags:
+- ai-stratégia
+- ceo
+- automatizálás
+- digitális-transzformáció
 slug: ai-vegrehajtó-munkafelulet-kkv
 status: draft
+id: vinczeta
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.507196+00:00'
 ---
 
 Az AI következő generációja nem azt teszi, amit kérdeznek tőle. Elvégzi azt, amit rábíznak. Nem válaszol, hanem navigál, kattint, adatot húz le, emailt küld, riportot ír. Ez nem sci-fi. 2026 tavaszán több nagy tech cég egyszerre mutatta be az asztali AI agent platformjait. A 5-50 fős cégek számára ez egyszerre jelent veszélyt és lehetőséget.

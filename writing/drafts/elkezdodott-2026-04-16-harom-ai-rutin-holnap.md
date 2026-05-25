@@ -1,13 +1,17 @@
 ---
 site: elkezdodott.hu
-title: "3 konkrét AI rutin, amit a csapatod holnap be tud vezetni"
+title: 3 konkrét AI rutin, amit a csapatod holnap be tud vezetni
 date: 2026-04-16
 slug: harom-ai-rutin-holnap
 status: draft
 categories:
-  - ai
-  - productivity
-  - process
+- ai
+- productivity
+- process
+id: elkezdod
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.419547+00:00'
 ---
 
 **Featured snippet (40–60 szó):**

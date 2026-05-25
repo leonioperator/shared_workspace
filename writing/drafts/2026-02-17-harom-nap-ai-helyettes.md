@@ -12,6 +12,10 @@ tags:
 category: AI az operációban
 status: draft
 site: vinczetamas
+id: 2026-02-
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.403146+00:00'
 ---
 
 Hogyan épül fel egy AI operatív asszisztens a nulláról? Nem elméletben, nem demóban, hanem egy valódi szerveren, valódi feladatokkal, valódi hibákkal. Három nap története következik, amiben egy ember és egy AI együtt próbált összerakni valamit, ami működik.

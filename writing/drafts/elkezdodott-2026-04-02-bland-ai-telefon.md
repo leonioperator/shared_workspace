@@ -4,6 +4,10 @@ title: 'Telefonos AI ügyfélszolgálat kód nélkül: hogyan állítottuk be eg
 date: '2026-05-25'
 site: elkezdodott
 status: draft
+id: elkezdod
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.417094+00:00'
 ---
 
 # Telefonos AI ügyfélszolgálat kód nélkül: hogyan állítottuk be egy délután alatt

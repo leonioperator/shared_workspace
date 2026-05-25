@@ -3,6 +3,10 @@ title: AI Készültségi Audit - KKV verzió
 date: '2026-05-25'
 site: vinczetamas
 status: draft
+id: 2026-04-
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.469357+00:00'
 ---
 
 # AI Készültségi Audit - KKV verzió

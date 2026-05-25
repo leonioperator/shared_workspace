@@ -1,12 +1,16 @@
 ---
 site: elkezdodott.hu
-title: "Csendes AI trend: offline diktálásból kész üzleti szöveg"
+title: 'Csendes AI trend: offline diktálásból kész üzleti szöveg'
 date: 2026-04-09
 slug: offline-diktalas-uzleti-szoveg
 status: draft
 categories:
-  - ai
-  - productivity
+- ai
+- productivity
+id: elkezdod
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.418263+00:00'
 ---
 
 **Featured snippet (40–60 szó):**

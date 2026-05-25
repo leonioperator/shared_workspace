@@ -2,6 +2,11 @@
 date: '2026-05-25'
 site: vinczetamas
 status: draft
+id: 2026-05-
+title: 2026-05-25-unified-llm-api-barmely-agent-barmilyen-modell-script
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.498649+00:00'
 ---
 
 (0-3mp) HOOK: Unified LLM API: bármely agent, bármilyen modell.

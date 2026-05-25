@@ -3,6 +3,10 @@ title: Az AI-hozzáférés hamarosan luxus lesz - mit csinálj most?
 date: '2026-05-25'
 site: vinczetamas
 status: draft
+id: vinczeta
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.504811+00:00'
 ---
 
 # Az AI-hozzáférés hamarosan luxus lesz - mit csinálj most?

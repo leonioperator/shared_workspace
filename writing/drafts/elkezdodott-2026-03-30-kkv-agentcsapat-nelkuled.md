@@ -15,6 +15,10 @@ slug: kkv-agentcsapat-nelkuled
 score: 5
 source: https://www.therundown.ai/p/an-exclusive-q-a-with-alibaba-com-s-kuo-zhang
 status: draft
+id: elkezdod
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.415667+00:00'
 ---
 
 Az AI agentcsapat nem egy személy munkáját veszi át, hanem egy osztályét. Az Alibaba Accio Work rendszere ma már önállóan intéz e-kereskedelmi bevezetést, tárgyalja le a szállítókat és kezeli a logisztikát - a CEO csak a végső jóváhagyást adja meg. Ez nem kísérlet: ez a 2026-os operatív valóság 5-50 fős cégeknek is.

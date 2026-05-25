@@ -2,6 +2,11 @@
 date: '2026-05-25'
 site: vinczetamas
 status: draft
+id: vinczeta
+title: vinczetamas_hu_newsletter_2026-03-14
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.513965+00:00'
 ---
 
 Subject: AI Hírek & KKV Fókusz: Videó, Képszerkesztés, Adatvizualizáció és Marketing Hatékonyság AI-jal

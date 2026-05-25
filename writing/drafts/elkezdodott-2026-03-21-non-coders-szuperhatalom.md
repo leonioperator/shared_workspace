@@ -1,11 +1,21 @@
 ---
-title: "Non-coder + AI = versenyképes csapat: hogyan csináltam meg"
+title: 'Non-coder + AI = versenyképes csapat: hogyan csináltam meg'
 date: 2026-03-21
 site: elkezdodott.hu
-description: "Hogyan kezdtek el AI-t használni a fejlesztői háttér nélküli csapattagok, és mit spórolt ez meg?"
-tags: [AI, csapat, non-coder, KKV, automatizálás]
+description: Hogyan kezdtek el AI-t használni a fejlesztői háttér nélküli csapattagok,
+  és mit spórolt ez meg?
+tags:
+- AI
+- csapat
+- non-coder
+- KKV
+- automatizálás
 slug: non-coders-szuperhatalom
 status: draft
+id: elkezdod
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.411125+00:00'
 ---
 
 Három hónapja még azt hittem, hogy az AI-automatizáláshoz kódolástudás kell. Tévedtem.

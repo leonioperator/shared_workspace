@@ -1,0 +1,92 @@
+{
+  "total": 106,
+  "changed": 91,
+  "missing_fixed": 87,
+  "bad_yaml_fixed": 4,
+  "status_normalized": 0,
+  "status_counts_before": {
+    "missing": 98,
+    "draft": 8
+  },
+  "status_counts_after": {
+    "missing": 7,
+    "draft": 99
+  },
+  "sample_changes": [
+    {
+      "file": "/home/leoni/shared_workspace/writing/drafts/draft-log-2026-04.md",
+      "before": "missing",
+      "after": "draft"
+    },
+    {
+      "file": "/home/leoni/shared_workspace/writing/drafts/elkezdodott-2026-03-23-ai-felelem-kutatás.md",
+      "before": "missing",
+      "after": "draft"
+    },
+    {
+      "file": "/home/leoni/shared_workspace/writing/drafts/elkezdodott-2026-03-23-non-coders-szervezet.md",
+      "before": "missing",
+      "after": "draft"
+    },
+    {
+      "file": "/home/leoni/shared_workspace/writing/drafts/elkezdodott-2026-04-02-bland-ai-telefon.md",
+      "before": "missing",
+      "after": "draft"
+    },
+    {
+      "file": "/home/leoni/shared_workspace/writing/drafts/newsletter-2026-03-22-vinczetamas.md",
+      "before": "missing",
+      "after": "draft"
+    },
+    {
+      "file": "/home/leoni/shared_workspace/writing/drafts/video/2026-03-26-ai-meetingjegyzo-offer.md",
+      "before": "missing",
+      "after": "draft"
+    },
+    {
+      "file": "/home/leoni/shared_workspace/writing/drafts/video/2026-03-26-ai-meetingjegyzo-script.md",
+      "before": "missing",
+      "after": "draft"
+    },
+    {
+      "file": "/home/leoni/shared_workspace/writing/drafts/video/2026-03-26-ai-ugyfelvp-offer.md",
+      "before": "missing",
+      "after": "draft"
+    },
+    {
+      "file": "/home/leoni/shared_workspace/writing/drafts/video/2026-03-26-ai-ugyfelvp-script.md",
+      "before": "missing",
+      "after": "draft"
+    },
+    {
+      "file": "/home/leoni/shared_workspace/writing/drafts/video/2026-03-27-ai-admin-agent-offer.md",
+      "before": "missing",
+      "after": "draft"
+    },
+    {
+      "file": "/home/leoni/shared_workspace/writing/drafts/video/2026-03-27-ai-admin-agent-script.md",
+      "before": "missing",
+      "after": "draft"
+    },
+    {
+      "file": "/home/leoni/shared_workspace/writing/drafts/video/2026-03-27-ai-lead-agent-offer.md",
+      "before": "missing",
+      "after": "draft"
+    },
+    {
+      "file": "/home/leoni/shared_workspace/writing/drafts/video/2026-03-27-ai-lead-agent-script.md",
+      "before": "missing",
+      "after": "draft"
+    },
+    {
+      "file": "/home/leoni/shared_workspace/writing/drafts/video/2026-03-28-ai-connector-offer.md",
+      "before": "missing",
+      "after": "draft"
+    },
+    {
+      "file": "/home/leoni/shared_workspace/writing/drafts/video/2026-03-28-ai-connector-script.md",
+      "before": "missing",
+      "after": "draft"
+    }
+  ]
+}

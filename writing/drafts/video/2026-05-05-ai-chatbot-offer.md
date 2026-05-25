@@ -3,6 +3,10 @@ title: AI Chatbot Setup — 20 kérdés checklist + beállítási útmutató
 date: '2026-05-25'
 site: vinczetamas
 status: draft
+id: 2026-05-
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.476941+00:00'
 ---
 
 # AI Chatbot Setup — 20 kérdés checklist + beállítási útmutató

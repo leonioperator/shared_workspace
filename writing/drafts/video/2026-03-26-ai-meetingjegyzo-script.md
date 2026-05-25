@@ -3,6 +3,10 @@ title: 'AI veszi át a meetingjegyzést: soha többé manuális action item'
 date: '2026-05-25'
 site: vinczetamas
 status: draft
+id: 2026-03-
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.426811+00:00'
 ---
 
 # AI veszi át a meetingjegyzést: soha többé manuális action item

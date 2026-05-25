@@ -3,6 +3,10 @@ title: Script - Az AI projektek 70%-a nulla ROI-t termel
 date: '2026-05-25'
 site: vinczetamas
 status: draft
+id: 2026-04-
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.470248+00:00'
 ---
 
 # Script - Az AI projektek 70%-a nulla ROI-t termel

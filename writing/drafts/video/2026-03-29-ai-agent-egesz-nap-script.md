@@ -3,6 +3,10 @@ title: Hogyan dolgozzon helyetted egy AI agent egész nap?
 date: '2026-05-25'
 site: vinczetamas
 status: draft
+id: 2026-03-
+content_type: article
+created_at: '2026-05-25'
+updated_at: '2026-05-25T11:25:40.440387+00:00'
 ---
 
 # Hogyan dolgozzon helyetted egy AI agent egész nap?
