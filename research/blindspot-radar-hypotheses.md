@@ -323,6 +323,20 @@ Last updated: 2026-05-24
 **Miért most:** Vendor-szintű "run locally" docs jelzi a wave-et. A buyer objection (adat) itt oldható fel leggyorsabban.
 **Kísérlet:** 3 napos POC: 1 tipikus SMB workflow local futtatása (pl. e-mail draft + docs summary) úgy, hogy semmi ne menjen ki a gépről. Mérők: minőség, latency, üzemeltetési friction, update story.
 
+## Top 3 Opportunities + Suggested Experiments (2026-05-25)
+
+### #1: H83 - Smart Documentation for Parallel Agent Teams (Dari-docs Wedge)
+**Miért most:** Az Dari-docs konkrét: agents tesztelik a dokumentációt parallel futtatásban (live API validation). Ez a H64 (agent-readable API) és H22 (quality governance) metszete, de dokumentáció-specifikus. SMB-nél ez gyors adoption wedge: "az agenteim stabilan tudnak dolgozni a docssal?"
+**Kísérlet:** 2 napos POC: 1 Navibase agent API + CLI doc snapshot, majd 3 parallel agent test (live validation + blockers + improvement feedback). Deliverable: test transcript + documentation quality score + top 10 blockers.
+
+### #2: H79 - Agent Output Quality Grading & Continuous Verification (Constraint Decay Mitigation)
+**Miért most:** Az arXiv papír (Constraint Decay) explicit: LLM agentek backend kódgenerálásban szisztematikus failure mode-okat mutatnak. Continuous verification (agent teszteli a saját output-ját, documentation agent validálja az API-t) csökkenti a hallucination-t.
+**Kísérlet:** 1 heti internal research: Leoni recent output-jainak retrospektív quality grading (logical consistency, API compatibility, edge case handling). Deliverable: grading rubric + failure pattern matrix + remediation prompt library.
+
+### #3: H81 - Multi-Agent Injection Attack Prevention (Supply Chain Security)
+**Miért most:** Az arXiv papír (Domain-Camouflaged Injection) jelzi: agentek közötti delegáció prompt injection attack vectort nyit. Ez a H6 (policy enforcement) és H22 (threat detection) melyebb rétege: az agent output-ja másik agent input-ja lehet.
+**Kísérlet:** 3 napos research: multi-agent workflow threat modeling (agent A → tool output → agent B). Output: threat map + injection detection rubric + policy enforcement template.
+
 ## Top 3 Opportunities + Suggested Experiments (2026-05-24)
 
 ### #1: H75/H72 - Multi-Agent Debate Proof-of-Concept (Healthcare/Legal High-Stakes)
@@ -372,6 +386,65 @@ Last updated: 2026-05-24
 **Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
 *Új hypothesis (2026-04-10). A "agent-ops UX" külön kategóriává válik, és gyorsan terjed a devtool világon túl.*
 
+
+## H86 - Multi-Agent Parallel Execution Infrastructure (Worktree + Environment Isolation)
+**Thesis:** Ahogy az agentek párhuzamosan futnak ugyanazon a kódbázison (triaging, review, implementálás, kutatás egyszerre), az infrastruktúra koordináció lesz a szoros gát: worktree izoláció, environment konzisztencia, és concurrent write safety már product differenciátor. Ez a H46 (delegációs harness) fokozódása: nem csak izolált sandbox, hanem szimultán feladatok koordínálása.
+**Signals (updated 2026-05-25):**
+- Superset (YC P26, 2026-05-22): explicit "IDE for the agents era", git worktrees parallel agent management, multiple agents same repo. HIGH CONFIDENCE.
+- Runtime (YC P26, 2026-05-21): "Sandboxed coding agents for everyone on a team", Docker Compose snapshot + multi-service persistence. HIGH CONFIDENCE.
+**Assessment:** Ez a developer experience bottleneck: "nálunk több agent fut párhuzamosan, de merge conflictok és environment inconsistency drágítanak". Navibase irány: ha coding agent feature lesz, az orchestration layer kritikus.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=2 | IntFric=4 | **Total: 18/25**
+*Új hypothesis (2026-05-25). A Superset és Runtime párhuzamos bejelentése jelzi, hogy a team-scale agent orchestration most válik mainstream igénnyé.*
+
+## H87 - Agent-to-Agent Injection Attack Prevention (Multi-Agent Supply Chain Security)
+**Thesis:** Ahogy az agent rendszerek összekapcsolódnak és delegálnak egymásnak, a prompt injection új támadási vektor: az ügynök B input-ja az ügynök A output-ja lehet, és ha A-t megtámadták (ou rosszul validálják), a fertőzés átterjedhet B-re. Ez "agent supply chain attack".
+**Signals (updated 2026-05-25):**
+- Domain-Camouflaged Injection Attacks Evade Detection in Multi-Agent LLM Systems (arXiv 2605.22001, 2026-05-22): explicit multi-agent LLM attack felülete és domain masquerading. HIGH CONFIDENCE.
+**Assessment:** Ez a H6 (policy enforcement) és H22 (threat detection) mélyebb rétege: nem egyetlen agent védelem, hanem inter-agent validation és trust boundary enforcement. KKV-nél ez akkor válik kritikus, amikor az agent ecosystem nőni kezd (saját agent + partneri agent integráció).
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-05-25). Az arXiv papír explicit jelzi, hogy a "supply chain" gondolkodás a multi-agent systemekre is vonatkozik.*
+
+## H88 - Agentic Design Surface Adoption & Output Validation (Design-to-Code Safety)
+**Thesis:** Mint a Figma agent assistant és CSS Studio jelezik, a design toolok agent-native input/output felületté válnak. Az agent kockázata: hallucináció design intent-ben, missing elements, vagy design policy megsértés (brand, accessibility). Kell egy validation réteg: design audit, intent verification, a1y11 compliance check az agent design interpretation-re.
+**Signals (updated 2026-05-25):**
+- Figma adds an AI assistant to its collaborative canvas (TechCrunch, 2026-05-20): explicit design agent surface bejelentés, user collaboration model. HIGH CONFIDENCE.
+**Assessment:** Ez a design teams agentic adoption új frontier: a designert nem helyettesíti, de eszköz-szinten válik agent-accessible. Kockázat: designer intent hallucináció. Navibase: design audit framework a design agent use cases-hez.
+**Scores:** Pain=3 | Urgency=3 | WTP=3 | Def=2 | IntFric=2 | **Total: 13/25**
+*Új hypothesis (2026-05-25). A Figma bejelentése az agent adoption új szakterülete: nem csak dev, hanem design tooling.*
+
+## H89 - Smart Documentation Quality Metric for Agent Teams (Dari-docs Compatibility Score)
+**Thesis:** Ahogy teams több agentet futtatnak, a dokumentáció minősége nem emberi dologbólás (readability) vagy struktura-kérdés, hanem **agent compatibility kérdés**: "az agent megbízhatóan tudja-e végrehajatni a dokumentációban leírt feladatot?". Ez a H64 (API agent-readiness) extension, de doc-specifikus. Az opportunity: "documentation agent-compatibility score" (mint Cyris evidence) procurement criteria.
+**Signals (updated 2026-05-25):**
+- Dari-docs (Show HN, 2026-05-20): "Optimize your docs using parallel coding agents", live API validation, agent task execution on docs. HIGH CONFIDENCE.
+**Assessment:** Developer tools procurement = új procurement kategória, ahol "agents can complete tasks from our docs" = competitive advantage. Navibase: doc audit service + "agent-readable" badge, vagy documentation optimization runbook.
+**Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=2 | IntFric=2 | **Total: 15/25**
+*Új hypothesis (2026-05-25). A Dari-docs konkrét workflow azt jelzi, hogy a "documentation quality" átdefiniálódik agent capability-re.*
+
+## H90 - Infrastructure-as-Code Agents with Change Audit & Rollback (IaC Safety)
+**Thesis:** Az agents egyre több felhő infrastruktúrát orchestrálnak (InstaVM instant VMs, Google Antigravity workflows). Az infra változások (security group rules, database backups, VPC config) kritikus és irreversible. Kell egy version control + approval + rollback réteg: infra change transcript, policy audit ("ez a change megsértett volna egy compliance szabályt?"), és atomic rollback capability.
+**Signals (updated 2026-05-25):**
+- Google Antigravity 2.0 (Product Hunt, 2026-05-20): "Orchestrate multi-agent workflows from a desktop app", workflow composition és execution. HIGH CONFIDENCE.
+- InstaVM (Product Hunt, 2026-05-20): "Instant computers for AI agents", rapid VM provisioning and teardown. HIGH CONFIDENCE.
+**Assessment:** IaC agents a "regular" code agents-nél magasabb risk: infra default-ban permanent és katasztrófális lehet a hiba. Kell a code review minta, de infra-specifikus: terraform plan audit, cost estimation, blast radius check. Navibase: "safe IaC agent" checklist és rollback tooling.
+**Scores:** Pain=5 | Urgency=4 | WTP=5 | Def=3 | IntFric=4 | **Total: 21/25**
+*Új hypothesis (2026-05-25). Az InstaVM + Antigravity convergenciája jelzi, hogy az infra orchestration agentic lesz, de governance gap marad.*
+
+## H91 - Agent Reliability Certification for SaaS Integrations (Vendor-Backed Compatibility)
+**Thesis:** Ahogy enterprises multi-agent teams-eket futtatnak, az API reliability és agent compatibility SaaS procurement criteria válnak. Hasonló a SOC 2-hez, az "agent-certified" SaaS badge-je: az API stabil, well-documented, agent-compatible (H64), és a vendor explicit támogat agent use cases. Ez a H49/H64 irány termékesedése: standard compliance.
+**Signals (updated 2026-05-25):**
+- Runtime (YC P26, 2026-05-21): "team-wide agent deployment", integrations scoped per human and per agent, skills installable. Team-level procurement model explicit. HIGH CONFIDENCE.
+- Superset (YC P26, 2026-05-22): parallel agents same repo, aber "each agent gets isolated environment", skills/context per agent. HIGH CONFIDENCE.
+**Assessment:** Ez a developer ecosystem maturity jel: "agent-friendly" = új marketing kategória és RFP criterion. Kockázat: vagyis "agent-certified" = new compliance checkbox sprawl. Opportunity: SaaS platform számára quick adoption signal ("agents can use our API"), Navibase-nek: vendor certification framework és audit.
+**Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=2 | IntFric=2 | **Total: 15/25**
+*Új hypothesis (2026-05-25). A Runtime és Superset team-level integration models jelzik, hogy a vendor SaaS certification agentic lesz.*
+
+## H92 - Agent-Native Product Demo & Sales Content Automation (Slideshot + Video Workflow)
+**Thesis:** Agentek generálhatnak product demo videókat (Slideshot: "product demo videos, recorded by your AI agent"), amely gyors content creation wedge. Kockázat: demo accuracy, brand consistency, és viewer trust ("ezek valódi feature demonstrációk?"). Opportunity: sales/marketing automation, de integrity chain szükséges.
+**Signals (updated 2026-05-25):**
+- Slideshot (Product Hunt, 2026-05-20): "Product demo videos, recorded by your AI agent", automated demo generation. MEDIUM CONFIDENCE.
+**Assessment:** Ez marketing/sales adoption wedge, nem dev-ops. Kockázat: reputational ("AI-generated content") és accuracy (hallucinálhat az agent). Opportunity: ha done right, content creation cost csökkent drasztikusan. Navibase: demo accuracy audit + integrity stamp ("this demo was AI-generated, verified for accuracy").
+**Scores:** Pain=3 | Urgency=2 | WTP=3 | Def=2 | IntFric=3 | **Total: 13/25**
+*Új hypothesis (2026-05-25). A Slideshot jel a "creative content" agent capability-k piacosodásáról.*
 
 ## H75 - Multi-Agent Debate as Verification Layer (Structured Consensus Protocol)
 **Thesis:** Az agent döntések verifikálásának új stratégiája a multi-agent debate: több independens agent evaluálja ugyanazt a problémát, explicit rubricokkal és ellentmondásos érvelésekkel, majd strukturált consensus protocol révén jut végeredményre. Az AutoResearchClaw precedens (54.7% performance gain ARC-Bench-en) azt mutatja, hogy az "agent dönt + ember ellenőriz" helyett a "többagent vitázik → consensus" kevesebb hallucination-t és magasabb verifikálhatóságot ad. Ez a peer-review agent-szintjére fordít, és a compliance/audit szöveg csökkenti.
