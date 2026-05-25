@@ -1,3 +1,10 @@
+---
+title: Revenue Script — Ez az AI agent minden reggel elvégzi a napi admin feladataid
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Revenue Script — Ez az AI agent minden reggel elvégzi a napi admin feladataid
 **Dátum:** 2026-05-04
 **Task ID:** moqsm3notds9

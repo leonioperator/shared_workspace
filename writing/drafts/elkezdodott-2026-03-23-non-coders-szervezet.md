@@ -1,3 +1,10 @@
+---
+title: Nem kell fejlesztő ahhoz, hogy a kollégád maga megcsinálja
+date: '2026-05-25'
+site: elkezdodott
+status: draft
+---
+
 # Nem kell fejlesztő ahhoz, hogy a kollégád maga megcsinálja
 
 **Featured snippet (40-60 szó):** Ha a szervezetedben minden technikai igény az IT-n vagy egy fejlesztőn múlik, nem kapacitásprobléma van. Rendszerprobléma. 2026-ban a nem-fejlesztő munkatársak is képesek belső eszközöket, riportokat és automatizálásokat készíteni, ha megkapják a megfelelő AI eszközt és 2-3 nap tanulási időt.

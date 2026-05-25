@@ -1,3 +1,10 @@
+---
+title: Így köt össze az AI 1000 appodat emberi beavatkozás nélkül
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Így köt össze az AI 1000 appodat emberi beavatkozás nélkül
 ## Revenue Script — 30-60 mp
 

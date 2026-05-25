@@ -1,3 +1,10 @@
+---
+title: 'Offer Asset: AI Munkatárs Teams-ben'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Offer Asset: AI Munkatárs Teams-ben
 
 **Task ID:** mob2qw4wq0a6  

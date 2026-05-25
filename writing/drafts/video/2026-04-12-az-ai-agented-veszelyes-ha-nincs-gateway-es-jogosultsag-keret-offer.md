@@ -1,3 +1,10 @@
+---
+title: Minimal Agent Gateway Checklist KKV-knek
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Minimal Agent Gateway Checklist KKV-knek
 
 ## Mit kapsz ezzel

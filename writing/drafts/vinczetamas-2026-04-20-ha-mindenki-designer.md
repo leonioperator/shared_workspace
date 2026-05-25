@@ -1,3 +1,10 @@
+---
+title: Ha már mindenki designer, ki védi a márkádat?
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Ha már mindenki designer, ki védi a márkádat?
 
 **Meta description:** Canva AI 2.0 után bárki profi anyagot készíthet 5-50 fős cégben is. Vincze Tamás leírja, miért nem ez a valódi kérdés, és mi az, amit ettől a pillanattól a vezető nem kerülhet el.

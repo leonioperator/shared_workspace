@@ -1,3 +1,10 @@
+---
+title: 'Script: AI chatbot 24/7'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Script: AI chatbot 24/7
 **Hook:** Amíg alszol, az AI válaszol az ügyfeleidnek ingyen
 **Task ID:** mos806vj96jt

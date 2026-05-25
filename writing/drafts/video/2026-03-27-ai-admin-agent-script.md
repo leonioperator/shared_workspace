@@ -1,3 +1,10 @@
+---
+title: Így delegáld a napi admin munkát AI agentnek ma
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Így delegáld a napi admin munkát AI agentnek ma
 ## Revenue Script — 30-60 mp
 

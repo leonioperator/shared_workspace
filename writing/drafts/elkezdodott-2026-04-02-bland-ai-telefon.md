@@ -1,3 +1,11 @@
+---
+title: 'Telefonos AI ügyfélszolgálat kód nélkül: hogyan állítottuk be egy délután
+  alatt'
+date: '2026-05-25'
+site: elkezdodott
+status: draft
+---
+
 # Telefonos AI ügyfélszolgálat kód nélkül: hogyan állítottuk be egy délután alatt
 
 **Céloldal:** elkezdodott.hu  

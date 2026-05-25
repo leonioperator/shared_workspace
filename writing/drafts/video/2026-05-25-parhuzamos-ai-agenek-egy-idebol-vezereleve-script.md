@@ -1,3 +1,9 @@
+---
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 (0-3mp) HOOK: Párhuzamos AI agentek: egy IDE-ből vezérelve.
 
 (3-10mp) PAIN: A KKV vezetők tudják, hogy az AI-ban óriási potenciál van, de a több agent koordinálása egy rémálom. Külön tabok, külön bejelentkezések, elvesztegetett idő. Ez nem egy technikai probléma, hanem egy kontroll-architektúra kérdése.

@@ -1,10 +1,20 @@
 ---
-title: "Két AI eszköz, ami felgyorsítja a vállalkozásod automatizálását"
+title: Két AI eszköz, ami felgyorsítja a vállalkozásod automatizálását
 date: 2026-05-25
 site: elkezdodott.hu
-description: "Ismerd meg a Grok Buildet és a Genkitet, amelyekkel egyszerűbben és gyorsabban építhetsz okos AI ügynököket a cégednek."
-tags: [AI, automatizálás, KKV, vállalkozás, fejlesztés, Grok Build, Genkit, hatékonyság]
+description: Ismerd meg a Grok Buildet és a Genkitet, amelyekkel egyszerűbben és gyorsabban
+  építhetsz okos AI ügynököket a cégednek.
+tags:
+- AI
+- automatizálás
+- KKV
+- vállalkozás
+- fejlesztés
+- Grok Build
+- Genkit
+- hatékonyság
 slug: ket-ai-eszkoz-gyorsitja-vallalkozasod-automatizalasat
+status: draft
 ---
 
 Képzeld el, hogy a cégedben dolgoznak olyan digitális asszisztensek, akik önállóan végeznek el rutinfeladatokat, gyűjtenek adatokat, vagy akár komplexebb döntésekben is segítenek. Ez nem a jövő, hanem a jelen, és két új AI eszköz, a Grok Build és a Genkit teszi ezt valósággá még a kis- és középvállalkozások számára is. Ezek a platformok leegyszerűsítik az „okos” AI ügynökök építését, így gyorsabban profitálhatsz az automatizálásból, anélkül, hogy mélyreható programozási tudásra lenne szükséged.

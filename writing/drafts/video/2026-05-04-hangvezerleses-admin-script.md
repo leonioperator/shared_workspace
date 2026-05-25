@@ -1,3 +1,10 @@
+---
+title: Revenue Script — Napi 2 óra adminisztrációból 20 perc lesz hangvezérléssel
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Revenue Script — Napi 2 óra adminisztrációból 20 perc lesz hangvezérléssel
 **Dátum:** 2026-05-04
 **Task ID:** moqslyvp171n

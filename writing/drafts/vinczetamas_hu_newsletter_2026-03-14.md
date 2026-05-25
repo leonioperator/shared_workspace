@@ -1,3 +1,9 @@
+---
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 Subject: AI Hírek & KKV Fókusz: Videó, Képszerkesztés, Adatvizualizáció és Marketing Hatékonyság AI-jal
 
 Szia!

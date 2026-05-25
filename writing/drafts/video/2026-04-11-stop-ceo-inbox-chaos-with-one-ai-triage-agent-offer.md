@@ -1,3 +1,10 @@
+---
+title: Inbox triage checklist KKV cégnek
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Inbox triage checklist KKV cégnek
 
 ## Mit kapsz ezzel

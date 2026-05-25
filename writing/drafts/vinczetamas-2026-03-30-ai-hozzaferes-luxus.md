@@ -1,3 +1,10 @@
+---
+title: Az AI-hozzáférés hamarosan luxus lesz - mit csinálj most?
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Az AI-hozzáférés hamarosan luxus lesz - mit csinálj most?
 
 **Meta description:** Az AI-hozzáférés drágul, rate limit szükíti, amit ingyen kapsz. Vincze Tamás leírja, mit jelent ez egy 5-50 fős cég számára, és hogyan kerülheted el, hogy lemaradj.

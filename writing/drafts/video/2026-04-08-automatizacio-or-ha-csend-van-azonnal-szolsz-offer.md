@@ -1,3 +1,10 @@
+---
+title: Automatizáció heartbeat checklist céged számára
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Automatizáció heartbeat checklist céged számára
 
 ## Mit kapsz ezzel

@@ -1,3 +1,10 @@
+---
+title: 'OFFER ASSET: AI Email Agent – Ügyfélszolgálat Automatizálás'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # OFFER ASSET: AI Email Agent – Ügyfélszolgálat Automatizálás
 
 **Task ID:** mo34vuemiti5

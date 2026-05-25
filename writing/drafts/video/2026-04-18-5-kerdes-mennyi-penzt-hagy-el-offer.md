@@ -1,3 +1,10 @@
+---
+title: 2026-04-18 — AI Readiness Audit — Offer Asset
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # 2026-04-18 — AI Readiness Audit — Offer Asset
 
 **Task ID:** mo42c97hxuc4  

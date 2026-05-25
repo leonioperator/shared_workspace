@@ -1,3 +1,10 @@
+---
+title: Belső Tudáskereső Beállítási Checklist — KKV tulajdonosoknak
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Belső Tudáskereső Beállítási Checklist — KKV tulajdonosoknak
 
 ## Mit kapsz ezzel

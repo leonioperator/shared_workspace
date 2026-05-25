@@ -1,3 +1,10 @@
+---
+title: 2026-04-18 — Napi 2 óra emailezés helyett 15 perc — script
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # 2026-04-18 — Napi 2 óra emailezés helyett 15 perc — script
 
 **Task ID:** mo42c48lapsb  

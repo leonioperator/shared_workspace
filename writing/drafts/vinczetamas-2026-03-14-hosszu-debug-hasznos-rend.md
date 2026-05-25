@@ -1,10 +1,15 @@
 ---
-title: "Hosszú debug, jobb vezetői kontroll"
+title: Hosszú debug, jobb vezetői kontroll
 date: 2026-03-14
 site: vinczetamas.hu
-description: "A hibakeresés nem elveszett idő, ha közben nő az átláthatóság és a döntési kontroll."
-tags: ["AI", "vezetés", "rendszer"]
-slug: "hosszu-debug-hasznos-rend"
+description: A hibakeresés nem elveszett idő, ha közben nő az átláthatóság és a döntési
+  kontroll.
+tags:
+- AI
+- vezetés
+- rendszer
+slug: hosszu-debug-hasznos-rend
+status: draft
 ---
 
 Egy elhúzódó debug egy 5-50 fős cégnél akkor fáj a legjobban, ha csak időt visz, de nem hagy maga után jobb rendszert. Ha viszont dokumentált lépésekké és új működési szabállyá alakul, akkor befektetés lesz belőle. Vincze Tamás stratégiai AI operációs partnerként ezt a különbséget építi be a napi működésbe.

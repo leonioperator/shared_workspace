@@ -1,3 +1,10 @@
+---
+title: Az AI agented veszélyes, ha nincs gateway és jogosultság keret
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Az AI agented veszélyes, ha nincs gateway és jogosultság keret
 
 ## Hook

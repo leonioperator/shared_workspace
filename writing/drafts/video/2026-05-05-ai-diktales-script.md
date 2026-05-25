@@ -1,3 +1,10 @@
+---
+title: 'Script: AI diktálás workflow'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Script: AI diktálás workflow
 **Hook:** Heti 3 órát spórolsz, ha ma telepíted ezt
 **Task ID:** mos7zxerr583

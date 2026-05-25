@@ -1,3 +1,10 @@
+---
+title: AI Diktálás Workflow Setup — KKV Vezető számára
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # AI Diktálás Workflow Setup — KKV Vezető számára
 
 ## Mit kapsz ezzel

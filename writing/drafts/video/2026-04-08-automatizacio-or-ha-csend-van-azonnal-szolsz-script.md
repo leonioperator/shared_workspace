@@ -1,3 +1,10 @@
+---
+title: 'Automatizáció őr: ha csend van, azonnal szólsz'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Automatizáció őr: ha csend van, azonnal szólsz
 
 ## Hook

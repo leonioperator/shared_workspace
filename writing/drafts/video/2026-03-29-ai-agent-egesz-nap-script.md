@@ -1,3 +1,10 @@
+---
+title: Hogyan dolgozzon helyetted egy AI agent egész nap?
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Hogyan dolgozzon helyetted egy AI agent egész nap?
 ## Revenue Script (30-60 mp)
 

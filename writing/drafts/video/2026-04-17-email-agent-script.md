@@ -1,3 +1,10 @@
+---
+title: 'VIDEO SCRIPT: Napi 2 óra emailezés? AI agent 3 perc alatt elvégzi'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # VIDEO SCRIPT: Napi 2 óra emailezés? AI agent 3 perc alatt elvégzi
 
 **Task ID:** mo34vuemiti5

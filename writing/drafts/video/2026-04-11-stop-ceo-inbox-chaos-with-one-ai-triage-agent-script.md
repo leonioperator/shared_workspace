@@ -1,3 +1,10 @@
+---
+title: Stop CEO inbox chaos with one AI triage agent
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Stop CEO inbox chaos with one AI triage agent
 
 ## Input összefoglaló

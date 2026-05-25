@@ -1,3 +1,10 @@
+---
+title: Az AI projektek 70%-a nulla ROI-t termel - nem az AI gyenge, hanem az implementáló
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Az AI projektek 70%-a nulla ROI-t termel - nem az AI gyenge, hanem az implementáló
 
 ## 30-60 mp Revenue Script

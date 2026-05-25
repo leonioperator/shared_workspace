@@ -1,3 +1,10 @@
+---
+title: AI Lead Gyujto Agent Beallitas Checklist — vinczetamas.hu szamara
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # AI Lead Gyujto Agent Beallitas Checklist — vinczetamas.hu szamara
 
 ## Mit kapsz ezzel

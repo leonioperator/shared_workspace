@@ -1,3 +1,10 @@
+---
+title: Reggeli AI Agent Csomag — KKV-k számára
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Reggeli AI Agent Csomag — KKV-k számára
 
 ## Mit kapsz ezzel

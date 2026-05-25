@@ -1,3 +1,10 @@
+---
+title: 20 másodperces dokumentumkereső mini workflow KKV-knak
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # 20 másodperces dokumentumkereső mini workflow KKV-knak
 
 ## Mit kapsz ezzel

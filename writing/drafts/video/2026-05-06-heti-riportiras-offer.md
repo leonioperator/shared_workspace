@@ -1,3 +1,10 @@
+---
+title: Automatikus Heti Riport Checklist — KKV-k számára
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Automatikus Heti Riport Checklist — KKV-k számára
 
 **Task ID:** motngc2303rx

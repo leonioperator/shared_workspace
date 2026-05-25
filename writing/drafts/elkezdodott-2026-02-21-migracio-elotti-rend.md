@@ -1,10 +1,15 @@
 ---
-title: "Migráció előtt rend, különben hétfőn káosz"
+title: Migráció előtt rend, különben hétfőn káosz
 date: 2026-02-21
 site: elkezdodott.hu
-description: "A költözés nem másolásról szól, hanem arról, hogy mi marad ki. KKV vezetőknek gyakorlati keret a biztonságos átálláshoz."
-tags: ["KKV", "rendszer", "migráció"]
-slug: "migracio-elotti-rend"
+description: A költözés nem másolásról szól, hanem arról, hogy mi marad ki. KKV vezetőknek
+  gyakorlati keret a biztonságos átálláshoz.
+tags:
+- KKV
+- rendszer
+- migráció
+slug: migracio-elotti-rend
+status: draft
 ---
 
 A migrációk többsége nem a másoláskor bukik el, hanem utána, amikor kiderül, hogy kimaradt egy cron, egy jogosultság vagy egy visszaállási lépés. Egy 5-50 fős cégben ez gyorsan napi működési kockázat lesz. Vincze Tamás ezért mindig a költözés előtti rendrakással kezd.

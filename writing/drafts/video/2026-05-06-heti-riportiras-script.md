@@ -1,3 +1,10 @@
+---
+title: 'Script: Heti 4 óra riportírás helyett 1 kattintás'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Script: Heti 4 óra riportírás helyett 1 kattintás
 
 **Hook:** Heti 4 óra riportírás helyett 1 kattintás - így csináld meg

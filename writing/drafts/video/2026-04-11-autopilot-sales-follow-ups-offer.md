@@ -1,3 +1,10 @@
+---
+title: Sales follow-up ellenőrzőlista KKV cégeknek
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Sales follow-up ellenőrzőlista KKV cégeknek
 
 ## Mit kapsz ezzel

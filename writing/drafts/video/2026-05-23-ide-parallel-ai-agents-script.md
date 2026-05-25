@@ -1,3 +1,9 @@
+---
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 1. HOOK (0-3 mp)
 – IDE párhuzamos AI agentekhez
 

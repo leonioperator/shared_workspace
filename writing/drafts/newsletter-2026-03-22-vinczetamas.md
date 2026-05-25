@@ -1,3 +1,10 @@
+---
+title: 'Draft: Vinczetamas.hu Hírlevél — 2026-03-22'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Draft: Vinczetamas.hu Hírlevél — 2026-03-22
 
 ## Cím

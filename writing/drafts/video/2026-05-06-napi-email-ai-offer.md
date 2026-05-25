@@ -1,3 +1,10 @@
+---
+title: AI Email-kezelő Checklist — KKV-k számára
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # AI Email-kezelő Checklist — KKV-k számára
 
 **Task ID:** motnghs2g2q1

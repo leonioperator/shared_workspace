@@ -1,3 +1,10 @@
+---
+title: 'Offer Asset: Gmail AI Gyorskonfiguráció'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Offer Asset: Gmail AI Gyorskonfiguráció
 
 **Task ID:** mob2qmeyx6k3  

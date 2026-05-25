@@ -1,3 +1,10 @@
+---
+title: 'AI agent a VPS-eden: 7 dolláros titkárnő ami soha nem alszik'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # AI agent a VPS-eden: 7 dolláros titkárnő ami soha nem alszik
 ## Revenue Script — 30-60 mp
 

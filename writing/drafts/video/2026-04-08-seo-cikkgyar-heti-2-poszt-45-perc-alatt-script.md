@@ -1,3 +1,10 @@
+---
+title: 'SEO cikkgyár: heti 2 poszt 45 perc alatt'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # SEO cikkgyár: heti 2 poszt 45 perc alatt
 
 ## Input

@@ -1,3 +1,10 @@
+---
+title: Meeting után 30 perc admin? Vidd le 3 percre.
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Meeting után 30 perc admin? Vidd le 3 percre.
 
 ## Hook

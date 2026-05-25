@@ -1,3 +1,10 @@
+---
+title: 'Offer asset — SEO cikkgyár: heti 2 poszt 45 perc alatt'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Offer asset — SEO cikkgyár: heti 2 poszt 45 perc alatt
 
 ## Mini workflow: heti 2 SEO poszt rendszer 45 perc/poszt modellel

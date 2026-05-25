@@ -1,3 +1,10 @@
+---
+title: AI App Integracios Mini Workflow
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # AI App Integracios Mini Workflow
 
 ## Mit kapsz ezzel

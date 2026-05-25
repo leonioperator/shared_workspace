@@ -1,3 +1,10 @@
+---
+title: 'AI ügyfélszolgálat: éjjel is válaszol, te reggel csak átnézed'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # AI ügyfélszolgálat: éjjel is válaszol, te reggel csak átnézed
 ## Revenue Script — 30-60 mp
 

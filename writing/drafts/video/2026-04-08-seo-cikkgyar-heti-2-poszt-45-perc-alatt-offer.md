@@ -1,3 +1,10 @@
+---
+title: SEO cikkgyár induló checklist KKV marketingcsapatnak
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # SEO cikkgyár induló checklist KKV marketingcsapatnak
 
 ## Mit kapsz ezzel

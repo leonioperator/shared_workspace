@@ -1,3 +1,10 @@
+---
+title: Meeting utáni follow-up checklist KKV csapatoknak
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Meeting utáni follow-up checklist KKV csapatoknak
 
 ## Mit kapsz ezzel

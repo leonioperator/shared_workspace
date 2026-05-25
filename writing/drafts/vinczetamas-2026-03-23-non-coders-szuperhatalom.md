@@ -1,3 +1,10 @@
+---
+title: 'A szervezet új szuperhatalom: amikor nem kell tudni programozni'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # A szervezet új szuperhatalom: amikor nem kell tudni programozni
 
 **Featured snippet (40-60 szó):** A legjobban teljesítő szervezetek 2026-ban nem több fejlesztőt vesznek fel, hanem megtanítják a nem-fejlesztő munkatársaikat AI eszközökkel alkotni. A "builder culture" nem IT ügy, hanem szervezeti stratégia, ami megváltoztatja, ki számít értékes kollégának egy 5-50 fős cégnél.

@@ -1,10 +1,15 @@
 ---
-title: "Napi brief fegyelem: kicsi szokás, nagy nyugalom"
+title: 'Napi brief fegyelem: kicsi szokás, nagy nyugalom'
 date: 2026-03-15
 site: elkezdodott.hu
-description: "A napi rövid státusz nem adminisztráció, hanem a KKV vezető legolcsóbb kockázatkezelése."
-tags: ["KKV", "vezetés", "operáció"]
-slug: "brief-fegyelem"
+description: A napi rövid státusz nem adminisztráció, hanem a KKV vezető legolcsóbb
+  kockázatkezelése.
+tags:
+- KKV
+- vezetés
+- operáció
+slug: brief-fegyelem
+status: draft
 ---
 
 A napi brief egy 5-50 fős cégben nem extra admin, hanem döntési biztonság. Ha minden nap ugyanabban a formában látod, mi kész, mi csúszik, mi a kockázat, kevesebb a meglepetés. Vincze Tamás ezért a rövid, konzisztens státuszt preferálja a ritka, hosszú beszámolóval szemben.

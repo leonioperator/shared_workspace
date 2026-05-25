@@ -1,3 +1,10 @@
+---
+title: 'Video Script: Holnap délutánig legyen AI munkatársad a Teams-ben'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Video Script: Holnap délutánig legyen AI munkatársad a Teams-ben
 
 **Task ID:** mob2qw4wq0a6  

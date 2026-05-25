@@ -1,3 +1,10 @@
+---
+title: AI Agent Napi Admin Atvetele - Indulasi Checklist
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # AI Agent Napi Admin Atvetele - Indulasi Checklist
 
 ## Mit kapsz ezzel

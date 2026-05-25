@@ -1,3 +1,10 @@
+---
+title: IDE Párhuzamos AI Agentekhez — Gyorsfejlesztési Workflow KKV-knak
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # IDE Párhuzamos AI Agentekhez — Gyorsfejlesztési Workflow KKV-knak
 
 ## Mit kapsz ezzel

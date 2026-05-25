@@ -1,3 +1,10 @@
+---
+title: Szerződést keresel 20 percig? Találd meg 20 másodperc alatt.
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Szerződést keresel 20 percig? Találd meg 20 másodperc alatt.
 
 ## Hook

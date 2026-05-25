@@ -1,3 +1,10 @@
+---
+title: 'Revenue Script: AI marketing asszisztens, amit te irányítasz (mpc85a72aaqa)'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Revenue Script: AI marketing asszisztens, amit te irányítasz (mpc85a72aaqa)
 
 ## Script

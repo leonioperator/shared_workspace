@@ -1,3 +1,10 @@
+---
+title: Meeting follow-up mini workflow — KKV cég számára
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Meeting follow-up mini workflow — KKV cég számára
 
 ## Mit kapsz ezzel

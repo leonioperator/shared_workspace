@@ -1,3 +1,10 @@
+---
+title: AI Hangvezérléses Admin Csomag — KKV-k számára
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # AI Hangvezérléses Admin Csomag — KKV-k számára
 
 ## Mit kapsz ezzel

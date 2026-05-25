@@ -1,3 +1,10 @@
+---
+title: Script - Az AI projektek 70%-a nulla ROI-t termel
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Script - Az AI projektek 70%-a nulla ROI-t termel
 
 ## 30-60 mp revenue script

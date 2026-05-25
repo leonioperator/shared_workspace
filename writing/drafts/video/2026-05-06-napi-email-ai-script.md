@@ -1,3 +1,10 @@
+---
+title: 'Script: Napi 30 email kézi megválaszolás helyett az AI csinálja az első 80%-ot'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Script: Napi 30 email kézi megválaszolás helyett az AI csinálja az első 80%-ot
 
 **Hook:** Napi 30 email kézi megválaszolás helyett az AI csinálja az első 80%-ot

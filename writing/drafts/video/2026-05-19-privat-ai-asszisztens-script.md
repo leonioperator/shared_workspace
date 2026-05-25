@@ -1,3 +1,10 @@
+---
+title: 'Revenue Script: Privát AI asszisztens, amit csak te használsz (mpc85cf7sojj)'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Revenue Script: Privát AI asszisztens, amit csak te használsz (mpc85cf7sojj)
 
 ## Script

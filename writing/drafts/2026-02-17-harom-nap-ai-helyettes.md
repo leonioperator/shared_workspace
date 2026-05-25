@@ -1,9 +1,17 @@
 ---
-title: "Három nap alatt felépítettünk egy AI helyettest. Ez történt valójában."
+title: Három nap alatt felépítettünk egy AI helyettest. Ez történt valójában.
 date: 2026-02-17
-description: "Hogyan épül fel egy AI operatív asszisztens a nulláról, egy valós VPS-en, valós feladatokkal? Három nap krónikája, hibákkal együtt."
-tags: ["AI asszisztens", "operáció", "automatizálás", "KKV", "Navibase"]
-category: "AI az operációban"
+description: Hogyan épül fel egy AI operatív asszisztens a nulláról, egy valós VPS-en,
+  valós feladatokkal? Három nap krónikája, hibákkal együtt.
+tags:
+- AI asszisztens
+- operáció
+- automatizálás
+- KKV
+- Navibase
+category: AI az operációban
+status: draft
+site: vinczetamas
 ---
 
 Hogyan épül fel egy AI operatív asszisztens a nulláról? Nem elméletben, nem demóban, hanem egy valódi szerveren, valódi feladatokkal, valódi hibákkal. Három nap története következik, amiben egy ember és egy AI együtt próbált összerakni valamit, ami működik.

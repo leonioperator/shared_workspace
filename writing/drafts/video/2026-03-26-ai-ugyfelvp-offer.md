@@ -1,3 +1,10 @@
+---
+title: AI Ügyfélszolgálat Beállítás Checklist — vinczetamas.hu számára
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # AI Ügyfélszolgálat Beállítás Checklist — vinczetamas.hu számára
 
 ## Mit kapsz ezzel

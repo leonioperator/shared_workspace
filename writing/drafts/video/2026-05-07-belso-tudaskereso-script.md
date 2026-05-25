@@ -1,3 +1,10 @@
+---
+title: Revenue Script — Belső tudáskereső agent
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Revenue Script — Belső tudáskereső agent
 *Hook: "Heti 5 óra megy el belső keresgélésre?"*
 *Dátum: 2026-05-07 | Task: mov2v8o1vnvs*

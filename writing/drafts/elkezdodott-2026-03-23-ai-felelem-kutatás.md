@@ -1,3 +1,10 @@
+---
+title: Miért nem használja a csapatod az AI-t, amit megvettél?
+date: '2026-05-25'
+site: elkezdodott
+status: draft
+---
+
 # Miért nem használja a csapatod az AI-t, amit megvettél?
 
 **Featured snippet (40-60 szó):** Egy 81 000 fős Anthropic kutatás megmutatta: az emberek nem azért nem fogadják el az AI-t, mert bonyolult. Azért, mert félnek a hibáktól, a kontrolvesztéstől és a felelősségtől. Egy KKV vezető ezeket a félelmeket protokollal kezeli, nem motivációs meetinggel.

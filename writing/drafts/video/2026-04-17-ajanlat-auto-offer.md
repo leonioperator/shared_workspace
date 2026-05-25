@@ -1,3 +1,10 @@
+---
+title: 'OFFER ASSET: AI Árajánlat Automatizálás'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # OFFER ASSET: AI Árajánlat Automatizálás
 
 **Task ID:** mo34vzed3v11

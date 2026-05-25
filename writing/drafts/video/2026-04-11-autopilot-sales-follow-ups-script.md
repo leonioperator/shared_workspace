@@ -1,3 +1,10 @@
+---
+title: Autopilot sales follow ups, never lose a lead again
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Autopilot sales follow ups, never lose a lead again
 
 ## Input összefoglaló

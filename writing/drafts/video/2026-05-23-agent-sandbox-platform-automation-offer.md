@@ -1,3 +1,10 @@
+---
+title: Agent Sandbox Platform Automatizálásra — Biztonságos Kód Agent Futtatás KKV-knak
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Agent Sandbox Platform Automatizálásra — Biztonságos Kód Agent Futtatás KKV-knak
 
 ## Mit kapsz ezzel

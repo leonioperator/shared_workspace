@@ -1,3 +1,10 @@
+---
+title: AI Admin Agent Delegálás Checklist — vinczetamas.hu számára
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # AI Admin Agent Delegálás Checklist — vinczetamas.hu számára
 
 ## Mit kapsz ezzel

@@ -1,3 +1,10 @@
+---
+title: AI App Connector Felterkepezesi Lap — vinczetamas.hu szamara
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # AI App Connector Felterkepezesi Lap — vinczetamas.hu szamara
 
 ## Mit kapsz ezzel

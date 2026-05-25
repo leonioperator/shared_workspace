@@ -1,3 +1,10 @@
+---
+title: 1000 appot köt össze az AI agented, kézi munka nélkül
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # 1000 appot köt össze az AI agented, kézi munka nélkül
 ## Revenue Script (30-60 mp)
 

@@ -1,3 +1,10 @@
+---
+title: 'AI veszi át a meetingjegyzést: soha többé manuális action item'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # AI veszi át a meetingjegyzést: soha többé manuális action item
 ## Revenue Script — 30-60 mp
 

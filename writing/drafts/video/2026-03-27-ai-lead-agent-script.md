@@ -1,3 +1,10 @@
+---
+title: Így gyűjt az AI 50 minősített leadet hetente helyetted
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Így gyűjt az AI 50 minősített leadet hetente helyetted
 ## Revenue Script — 30-60 mp
 

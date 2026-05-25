@@ -1,3 +1,10 @@
+---
+title: 'VIDEO SCRIPT: Minden árajánlatod 5 perc alatt kész automatikusan'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # VIDEO SCRIPT: Minden árajánlatod 5 perc alatt kész automatikusan
 
 **Task ID:** mo34vzed3v11

@@ -1,3 +1,10 @@
+---
+title: 2026-04-18 — 5 kérdés elárulja, mennyi pénzt hagy el a céged havonta — script
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # 2026-04-18 — 5 kérdés elárulja, mennyi pénzt hagy el a céged havonta — script
 
 **Task ID:** mo42c97hxuc4  

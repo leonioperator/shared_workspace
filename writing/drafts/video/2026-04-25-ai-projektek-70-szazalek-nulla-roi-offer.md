@@ -1,3 +1,10 @@
+---
+title: AI Készenléti Audit Checklist KKV-knak
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # AI Készenléti Audit Checklist KKV-knak
 
 ## Mit kapsz ezzel

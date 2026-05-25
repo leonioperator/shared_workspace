@@ -1,3 +1,10 @@
+---
+title: 'Video Script: Heti 5 óra emailezés megszűnik, az AI csinálja helyetted'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Video Script: Heti 5 óra emailezés megszűnik, az AI csinálja helyetted
 
 **Task ID:** mob2qmeyx6k3  

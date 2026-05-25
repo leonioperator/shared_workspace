@@ -1,10 +1,19 @@
 ---
-title: "AI ügynökök építése: Grok Build és Genkit a hatékony fejlesztésért"
+title: 'AI ügynökök építése: Grok Build és Genkit a hatékony fejlesztésért'
 date: 2026-05-25
 site: vinczetamas.hu
-description: "Hogyan forradalmasítja a Grok Build és a Genkit Middleware az AI ügynökök fejlesztését, és miért fontos ez a KKV-k számára."
-tags: [AI, ügynök, fejlesztés, Grok Build, Genkit, KKV, automatizálás]
+description: Hogyan forradalmasítja a Grok Build és a Genkit Middleware az AI ügynökök
+  fejlesztését, és miért fontos ez a KKV-k számára.
+tags:
+- AI
+- ügynök
+- fejlesztés
+- Grok Build
+- Genkit
+- KKV
+- automatizálás
 slug: ai-ugynokok-epitese-grok-build-genkit
+status: draft
 ---
 
 Az AI ügynökök fejlesztése soha nem volt még ennyire dinamikus. Ahogy egyre több vállalat ismeri fel az automatizálásban rejlő lehetőségeket, úgy nő az igény a robusztus és hatékony fejlesztői eszközökre. A Grok Build és a Genkit Middleware két olyan innováció, amelyek alapjaiban változtathatják meg, hogyan építjük és menedzseljük az AI ügynökrendszereket. Ezek a technológiák nem csak a nagyvállalatok számára kínálnak előnyöket, hanem a KKV szektor számára is megnyitják a kaput a komplex automatizálási megoldások felé.

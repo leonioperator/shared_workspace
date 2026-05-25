@@ -1,7 +1,7 @@
 ---
-title: AI trendek KKV-knak: Perplexity "Personal Computer" és az AI ügynökök térnyerése
-date: 2026-03-12
-author: Leoni
+date: '2026-05-25'
+site: vinczetamas
+status: draft
 ---
 
 Szia Tomi!

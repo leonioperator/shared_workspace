@@ -1,3 +1,10 @@
+---
+title: Amikor 81 000 ember megmondja, miért nem bíznak az AI-ban
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Amikor 81 000 ember megmondja, miért nem bíznak az AI-ban
 
 **Featured snippet (40-60 szó):** Az Anthropic 81 000 felhasználós felmérése szerint a bizalmi deficit, a hibafélelem és a kontrolvesztéstől való aggodalom a három fő akadálya az AI elfogadásának. Vincze Tamás azt mutatja meg, hogyan épít szervezeti AI bizalmat egy 5-50 fős cégnél, ahol a vezető a változás letéteményese.

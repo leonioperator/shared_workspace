@@ -1,3 +1,10 @@
+---
+title: 'AI bevezetés ellenállás nélkül: mit mondj a csapatodnak?'
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # AI bevezetés ellenállás nélkül: mit mondj a csapatodnak?
 
 **Meta description:** Az AI bevezetése nem technológiai projekt, hanem bizalmi projekt. Itt a 6 mondat és 4 lépés, amivel egy 5-50 fős cég vezetőjeként úgy vezeted be az AI-t, hogy ne pánikot, hanem működést hozzon.

@@ -1,3 +1,9 @@
+---
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 (0-3mp) HOOK: Unified LLM API: bármely agent, bármilyen modell.
 
 (3-10mp) PAIN: Fejlesztőként állandóan új API-kat kell integrálnod, ha másik LLM-et akarsz használni. OpenAI, DeepSeek, vagy helyi modellek – mindegyikhez más kódot kell írni. Ez rengeteg felesleges munka, ami elveszi az időt a valódi fejlesztéstől.

@@ -1,3 +1,10 @@
+---
+title: Revenue Script — Ajánlatkövető agent
+date: '2026-05-25'
+site: vinczetamas
+status: draft
+---
+
 # Revenue Script — Ajánlatkövető agent
 *Hook: "Heti 6 óra elmegy ajánlat-utánkövetésre?"*
 *Dátum: 2026-05-07 | Task: mov2v8izz3s7*
