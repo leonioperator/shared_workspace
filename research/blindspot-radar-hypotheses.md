@@ -323,6 +323,44 @@ Last updated: 2026-05-24
 **Miért most:** Vendor-szintű "run locally" docs jelzi a wave-et. A buyer objection (adat) itt oldható fel leggyorsabban.
 **Kísérlet:** 3 napos POC: 1 tipikus SMB workflow local futtatása (pl. e-mail draft + docs summary) úgy, hogy semmi ne menjen ki a gépről. Mérők: minőség, latency, üzemeltetési friction, update story.
 
+## H84 - Multi-Agent Orchestration Platform Governance (Workspace-First Design)
+**Thesis:** Az agentek ekoszisztémája distributed team-ek felé tolódik, amik shared workspace-ben dolgoznak (phodal/routa minta: shared Specs, Kanban orchestration, MCP/ACP support). A governance szint: cross-agent policy, shared secret management, inter-agent audit trail, conflict resolution, és capability discovery. A platform (workspace) maga lesz a compliance boundary.
+**Signals (updated 2026-05-26):**
+- phodal / routa (GitHub, 2026-05-26): Workspace-first multi-agent coordination, shared Specs, Kanban orchestration, MCP/ACP support. HIGH CONFIDENCE.
+**Assessment:** Ez a H25 (multi-agent workspace orchestration) fejlesztése, de platform-szintű governance szükséges. A multi-agent adoption gyorsul, ezért a shared workspace kontrollpontja kerül fókuszba: milyen agentek futnak párhuzamosan, mit nem csinálhatnak egymásnak, és ki felel az összhangért.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-05-26). A workspace-first framing azt jelzi, hogy az agent governance nemcsak egyedileg, hanem collaboration szintjén szükséges.*
+
+## H85 - Chaos Engineering Observability for AI Agents (Silent Failure Pattern Recognition)
+**Thesis:** Az agentek szisztatikus failure mode-okat generálnak, amik nem látszanak hagyományos monitoringon (nem crashelnek, hanem szisztematikusan rossz kimenetet adnak, edge case-eket kihagynak, vagy subtly hallucináló outputot adnak). Kell chaos engineering observability: failure pattern recognition, behavioral baseline, SLA violation alerts (rate, quality, latency), és anomaly-driven remediation suggestions.
+**Signals (updated 2026-05-26):**
+- AI agents are quietly generating chaos engineering failures enterprises don't track yet (Venturebeat, 2026-05-24): explicit jelzés, hogy az agent failure-ök "silent" és szisztematikus. HIGH CONFIDENCE.
+**Assessment:** Ez a H32 (RCA automation) és H19 (operational reliability) kombinációja, de chaos engineering perspektívából. Az enterprise már észleli, hogy az agentek "normálisan" rossz döntéseket hoznak, de nincs rendszeres méréstől. Navibase: anomaly detection template + failure pattern library, majd enterprise SLA monitoring mosule.
+**Scores:** Pain=5 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 19/25**
+*Új hypothesis (2026-05-26). A VentureBeat cikk azt jelzi, hogy a silent failure megnyitja az observability kategóriát az agentek számára.*
+
+## H86 - AI Agent MLOps Standardization (Tool/Model/Skill Lifecycle Management)
+**Thesis:** Az agentek MLOps lifecycle-a standardizálódik: model versioning, tool inventory, skill testing framework, deployment pipeline orchestration, rollback capability, és performance metrics standardizálása. Ezekre kell conformance framework, amivel az enterprises audit és control tudnak gyakorolni.
+**Signals (updated 2026-05-26):**
+- AI Agent MLOps Playbook for Autonomous Agents (Blockchain Council, 2026-05-25): explicit playbook kategória, amit az industry szervezet közvetít. HIGH CONFIDENCE.
+**Assessment:** Ez a H13 (versioning), H32 (testing), H19 (ops reliability), és H50 (benchmarks) metszete. Az "MLOps" keretezés azt sugallja, hogy az industry ML termékkategóriaként kezdi normalizálni az agent deployment lifecycle-ot. Navibase: MLOps checklist + tool conformance template + deployment automation wrapper.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-05-26). A Blockchain Council playbook azt jelzi, hogy az agent MLOps a table stakes réteg felé tolódik.*
+
+## Top 3 Opportunities + Suggested Experiments (2026-05-26)
+
+### #1: H84 - Workspace Governance POC (Multi-Agent Policy Enforcement)
+**Miért most:** A phodal/routa workspace-first pattern konkrét, és a Navibase multi-agent narrative-hez közvetlen kapcsolódik. Az enterprise már több agentet futtat párhuzamosan (Leoni + future clients).
+**Kísérlet:** 3 napos POC: Leoni + 1 mock agent workspace governance setup (shared secret routing + inter-agent policy + audit correlation). Output: governance architecture diagram + policy template + 2 perces workflow demo.
+
+### #2: H85 - Silent Failure Pattern Detection Dashboard (Internal Observability)
+**Miért most:** A chaos engineering failures explicit signal, és Leoni fut production-szerűen. Gyors internal ROI: failure pattern library alapján javítani a prompt/tool instrumentation.
+**Kísérlet:** 2 nap: Leoni recent run-ok retrospektív chaos scoring (rate-of-fire, output consistency, edge case handling). Mérők: failure cluster patterns + remediation suggestion. Deliverable: failure pattern dashboard + top 10 fix candidates.
+
+### #3: H86 - Agent MLOps Compliance Checklist (Standardized Deployment Readiness)
+**Miért most:** A playbook kategória jelzi, hogy az industry normalizálódik. SMB kliensnél ez sales/procurement Language lehet.
+**Kísérlet:** 2 nap: Navibase agent deployment checklist (model version audit + tool inventory + skill test coverage + deployment automation + rollback capability). Output: 1 oldalas readiness score + remediation roadmap.
+
 ## Top 3 Opportunities + Suggested Experiments (2026-05-25)
 
 ### #1: H83 - Smart Documentation for Parallel Agent Teams (Dari-docs Wedge)
