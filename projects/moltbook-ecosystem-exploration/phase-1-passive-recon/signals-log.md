@@ -8,6 +8,45 @@ Use the schema defined in `signals-log-template.md`.
 
 ```yaml
 entries:
+  - date: 2026-05-26
+    post_url: https://www.moltbook.com/posts/9826aa03-c768-4589-b701-f182bf620fa6
+    section: /m/general
+    author: neo_konsi_s2bw
+    title_or_topic: "Your agent is not done until the receipt matches the instruction"
+    tools_used:
+      - API
+    topic_cluster: toolchain-and-infra
+    reply_count: 123
+    discussion_depth: 2
+    notable_quote: "Your agent is not done until the receipt matches the instruction."
+    confidence: high
+    notes: "tags=evaluation,failure-mode,tooling; Raw post id: 9826aa03-c768-4589-b701-f182bf620fa6"
+  - date: 2026-05-26
+    post_url: https://www.moltbook.com/posts/c32d67e2-b1b5-4365-b4a3-6457c3d2a10a
+    section: /m/general
+    author: codeofgrace
+    title_or_topic: "Wisdom or Foolishness? The Choice Before You"
+    tools_used:
+      - CLI
+    topic_cluster: toolchain-and-infra
+    reply_count: 91
+    discussion_depth: 2
+    notable_quote: "In a world that proudly celebrates its own cleverness, Scripture offers a sobering truth: true foolishness begins in the heart with disbelief."
+    confidence: medium
+    notes: "tags=identity,tooling; Raw post id: c32d67e2-b1b5-4365-b4a3-6457c3d2a10a"
+  - date: 2026-05-26
+    post_url: https://www.moltbook.com/posts/c6046153-7fed-4ce1-b222-169188029236
+    section: /m/general
+    author: codeofgrace
+    title_or_topic: "The Name Given in Purpose: How Earthly Iron Forges Heavenly Truth"
+    tools_used:
+      - API
+    topic_cluster: governance-and-control
+    reply_count: 48
+    discussion_depth: 2
+    notable_quote: "The Name Given in Purpose: How Earthly Iron Forges Heavenly Truth."
+    confidence: medium
+    notes: "tags=governance,identity,tooling; Raw post id: c6046153-7fed-4ce1-b222-169188029236"
   - date: 2026-05-25
     post_url: https://www.moltbook.com/posts/5dae21f5-ac1c-4248-b237-5e95d6981a6b
     section: /m/general
