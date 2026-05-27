@@ -347,6 +347,52 @@ Last updated: 2026-05-24
 **Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
 *Új hypothesis (2026-05-26). A Blockchain Council playbook azt jelzi, hogy az agent MLOps a table stakes réteg felé tolódik.*
 
+## H87 - Search Backlash & Privacy-First Agent Trust Recovery (DuckDuckGo Precedent)
+**Thesis:** A Google I/O 2026 Search AI-ősítésére való user backlash (DuckDuckGo installs +30%) jelzi, hogy az agent önelégedettsége és az opaque decision-making nyomot hagy a felhasználó bizalomban. Az opportunity: **"transparent, auditable agent decisions"** mint differenciáló értékajánlat. A szögvetés nem "anti-AI", hanem "readable decisions" és "user control" irányába.
+**Signals (updated 2026-05-27):**
+- DuckDuckGo installs up 30% as users reject Google's AI-forced search (TechCrunch, 2026-05-26): explicit user backlash és alternative adoption. https://techcrunch.com/2026/05/26/duckduckgo-installs-surged-30-percent/ HIGH CONFIDENCE.
+**Assessment:** A trust erosion szignál (H22 cikk mellett) konkrét, mérhető jelenség. Navibase szögvetés: az "agentic transparency" és "decision explainability" mint SMB kiválasztási kritérium, nem csak governance menü. KKV kliensnél ez marketing/branding differenciáló lehet: "Az agentek is transzparensak, mint az emberi döntések".
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=2 | **Total: 17/25**
+*Új hypothesis (2026-05-27). A DuckDuckGo jelenség azt mutatja, hogy a transparency és auditability nem csak compliance, hanem user value proposition.*
+
+## H88 - Labor Displacement Policy Framework & Reskilling Platform (ClickUp Precedent)
+**Thesis:** A ClickUp 'hundreds of employees replaced by thousands of agents' precedent jelzi, hogy az agent adoption nem silent-adoption, hanem public labor market shock. Az SMB/KKV szinten az opportunity: **"responsible agent deployment" csomag** - reskilling pipeline, gradual automation (hybrid human-agent), és audit evidence hogy az automation **nem csak cost-cutting, hanem capability augmentation**.
+**Signals (updated 2026-05-27):**
+- What ClickUp's mass layoff tells us about the future of work (Venturebeat, 2026-05-26): explicit precedent - "nine-year-old startup is replacing hundreds of employees with thousands of AI agents". Regulatory és labor-policy backlash is várható.
+**Assessment:** Ez a H82 (labor policy) fejlesztése, de konkrét precedent-tel. A KKV szinten ez érzékeny: az "agentek nem biztos, hogy jó dolog" sentiment növekedhet. Navibase lehetőség: 'Responsible Agent Deployment Playbook' - dokumentálható, hogy hogyan lehet az agenteket úgy bevezetni, hogy az **munkahelyeket "fejlesztsen", nem semmisítsen meg**. (Pl. helpdesk agent → ügyfélszolgálat embere magasabb-érték taskra szabadulhat.)
+**Scores:** Pain=5 | Urgency=4 | WTP=4 | Def=3 | IntFric=4 | **Total: 20/25**
+*Új hypothesis (2026-05-27). A ClickUp precedent azt jelzi, hogy az agent deployment labor policy és vállalati imago kérdésé válik.*
+
+## H89 - Agent Desktop UI Paradigm Shift (Always-On Assistants, Accessibility API Standardization)
+**Thesis:** Az Ajar és hasonló UI agent-ek azt jelzik, hogy az agent integráció legfontosabb felülete nem chatbot vagy API, hanem **az operációs rendszer és az alkalmazás szintje**: accessibility API, menu bar, sidebar, desktop notification. Ez egy új agent discovery, invocation és governance felületet nyit meg, ahol a "user intent" szándék és az "agent capability" találkozik.
+**Signals (updated 2026-05-27):**
+- Ajar - Lid Angle Sync & Keep Awake for AI Agents on Mac (Product Hunt, 2026-05-25): explicit macOS integration, accessibility API surface, always-on pattern. https://producthunt.com/products/ajar
+**Assessment:** Ez a H55 (TUI automation) és H65 (desktop accessibility) fejlesztése, de UX-fokuszú. Az "always-on assistant" paradigma azt jelzi, hogy az agent nem az alkalmazás belseje, hanem az OS "fabric" része lesz. Governance pont: az accessibility API control (milyen alkalmazások, milyen operációk) és audit trail (mit nyitott meg, mit módosított) kritikus. Navibase: standard macOS/Windows agent integration wrapper + accessibility API allowlist template.
+**Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=2 | IntFric=3 | **Total: 16/25**
+*Új hypothesis (2026-05-27). Az OS-szintű agent UI standardizálódása azt jelzi, hogy az agent discovery és invocation paradigma radikálisan megváltozik.*
+
+## H90 - Standardized Agentic Cybersecurity Skill Framework & Compliance Skills Reuse
+**Thesis:** A Blockchain Council 754 structured cybersecurity skills for agents bejelentése jelzi, hogy az agent capability-ket (eddig ad-hoc) standardizálódó skillset keretben lehet gondolni. Ez egy nyitópont az **"agentic skillset conformance"** audit felé: melyik agentek tudnak mit, ezek az ismeretek auditálhatóak, és szervezetszintű skill inventory központi management-re lép.
+**Signals (updated 2026-05-27):**
+- mukul975 / Anthropic Cybersecurity Skills - 754 structured cybersecurity skills for AI agents, mapped to 5 frameworks (MITRE, CIS, NIST, etc.) (GitHub, 2026-05-24): explicit skillset standardization és framework mapping. https://github.com/mukul975/anthropic-cybersecurity-skills
+**Assessment:** Ez a H13 (capability versioning) és H86 (MLOps standardization) erősítése, de skillset specifikus. Az industry már azt látja, hogy az agentek "tanulnak" és ezt dokumentálni kell. Navibase lehetőség: "Agent Skill Compliance Audit" - az SMB agentek capability-jeit felmérik az industry standard framework-ök (MITRE, CIS) ellen, és audit report-ot adnak. Ez egy "capabilities as compliance boundary" kategória.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-05-27). Az 754 skills framework azt jelzi, hogy az agent capability-k standardizálódó inventory-ként kezdenek működni.*
+
+## Top 3 Opportunities + Suggested Experiments (2026-05-27)
+
+### #1: H87 - Transparent Agent Decision Archive (Trust Recovery Wedge)
+**Miért most:** A DuckDuckGo backlash konkrét, mérhető jelenség. Az SMB kliensnél az "ügyfelem látja, az agent mit csinál" már marketing pont lehet.
+**Kísérlet:** 2 napos POC: Leoni recent decisions retrospektív "transparency archive" (decision tree + rationale + approval chain + output comparison). Deliverable: 1 oldalas decision transparency report + sample audit PDF.
+
+### #2: H88 - Responsible Agent Deployment Playbook (Labor-Sensitive SMB Adoption)
+**Miért most:** A ClickUp precedent felvetette az "agent job security" szenzitív kérdést. SMB-nél ez akár adoption blocker, de ha van "responsible ramp" - ez trust builder.
+**Kísérlet:** 2 napi research + 2 napi playbook: "how to introduce agents utan displacing people" checklist (hybrid workflows, capability augmentation mindset, reskilling pathway outline). Output: 2 oldalas playbook + 1 case study template.
+
+### #3: H90 - Agentic Skill Compliance Audit (Standardized Capability Assessment)
+**Miért most:** Az 754 skills framework explicit, és az enterprise security audit već ezt kéri: "milyen agentek tunak mit, és ez megfelel-e a szabályozásnak?".
+**Kísérlet:** 2 napi research + 1 napos POC: Leoni skillset mappaolása a Blockchain Council / MITRE frameworkökre. Deliverable: skill inventory + compliance score + 10 remediation candidates.
+
 ## Top 3 Opportunities + Suggested Experiments (2026-05-26)
 
 ### #1: H84 - Workspace Governance POC (Multi-Agent Policy Enforcement)
