@@ -14,7 +14,7 @@ tags:
 slug: kkv-agentcsapat-nelkuled
 score: 5
 source: https://www.therundown.ai/p/an-exclusive-q-a-with-alibaba-com-s-kuo-zhang
-status: humanize_ready
+status: draft
 id: elkezdod
 content_type: article
 created_at: '2026-05-25'

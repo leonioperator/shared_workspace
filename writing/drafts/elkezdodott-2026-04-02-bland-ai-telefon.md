@@ -3,7 +3,7 @@ title: 'Telefonos AI ügyfélszolgálat kód nélkül: hogyan állítottuk be eg
   alatt'
 date: 2026-06-11
 site: elkezdodott
-status: humanize_ready
+status: draft
 id: elkezdod
 content_type: article
 created_at: '2026-05-25'
@@ -76,7 +76,7 @@ A prompt megírása az egyetlen hely, ahol el lehet rontani. Ha az AI nem tudja,
 
 Az átirányítás is prompt-kérdés. Ha van olyan eset, amit emberi kollégának kell átvenni, azt explicit be kell írni: "Ha valaki reklamál, mondd, hogy egy percen belül visszahívjuk, és logold a nevet és a számot." Ez működik.
 
-Az ingyenes verzió korlátozott hívásszámmal elérhető, az éles használathoz havonta néhány tízezer forint körüli díj van. Ez a legtöbb cégnek nem döntési kérdés, hanem kalkuláció: mennyit ér, ha nem esik el hívás?
+Az ingyenes verzió korlátozott hívásszámmal működik, az igazi használathoz havonta néhány tízezer forint körüli költség van. A legtöbb cég számára nem ez a nagy kérdés, hanem hogy: mennyit ér egy olyan hívás, amit korábban elínyöméltél volna?
 
 ### Mire való és mire nem?
 
@@ -94,7 +94,7 @@ Az egyszerű problémák általában nem igényelnek bonyolult megoldást. A tel
 
 A Bland AI nem varázslat. De az a fajta eszköz, ami pontosan azt csinálja, amire szüksége van egy 5-20 fős cégnek: megfogja az ismétlődő feladatot, és leveszi a csapatról.
 
-A legdrágább ügyfélszolgálati eszköz az, amelyiket senki nem veszi fel.
+A legdrágabb ügyfélszolgálat az, amit nincs aki felvenni.
 
 ---
 

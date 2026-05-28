@@ -2,7 +2,7 @@
 title: Miért nem használja a csapatod az AI-t, amit megvettél?
 date: 2026-06-15
 site: elkezdodott
-status: humanize_ready
+status: draft
 id: elkezdod
 content_type: article
 created_at: '2026-05-25'
@@ -54,14 +54,14 @@ Nem tréning. Nem szoftver. Megállapodás.
 
 ## FAQ
 
-**Tényleg ilyen egyszerű a megoldás?**
-Igen, az induláshoz igen. A legtöbb KKV-ban az AI adoptáció nem ütközik technikai falba. Ütközik egy kimondatlan kérdésbe: "Mi lesz, ha hibázok?" Egy rövid protokoll és egy nyílt megbeszélés ezt feloldja.
+**Tényleg ilyen egyszerű?**
+Igen, az induláshoz teljesen. A legtöbb KKV-ban az AI nem technikai probléma. Az a probléma, amit senki nem tesz fel: "Mi lesz, ha hibázok?" Egy egyoldalas protokoll és egy őszinte beszélgetés ezt feloldja.
 
 **Mi van, ha valaki a csapatból elvileg sem akarja használni az AI-t?**
 Ez is valódi helyzet. Fontos, hogy ne force-old az adoptációt. Inkább kérdezd meg nyíltan, mi a konkrét aggálya. Az Anthropic kutatás azt mutatja, hogy a specifikus félelmek kezelhetők, ha nevesítve vannak. A "nem akarom" mögött szinte mindig egy konkrét, kezelhető aggodalom van.
 
-**Mikor van szükség komolyabb szervezeti változásmenedzsmentre?**
-Ha 10 főnél több embernél vezetsz be AI eszközt, és az egész folyamatot érinti, érdemes egy strukturált change management lépcsőt beiktatni. Ehhez ajánljuk Vincze Tamás tanácsadói csomagját, ami a szervezeti AI readiness felmérésétől az adoptációs protokollig végigkísér.
+**Mikor kell nagyobb csomag?**
+Ha 10-nél több emberhez ér az AI és az a teljes munkafolyamatot érinti, akkor több időt és gondolkodást érdemes rászánni. Ilyenkor Vincze Tamás teljes tanácsadói csomagja segít: a szervezet AI-készsége felmérésétől kezdve az első 90 napig.
 
 ---
 
