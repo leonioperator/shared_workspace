@@ -3,7 +3,7 @@ site: elkezdodott.hu
 title: 3 konkrét AI rutin, amit a csapatod holnap be tud vezetni
 date: 2026-06-07
 slug: harom-ai-rutin-holnap
-status: humanize_ready
+status: draft
 categories:
 - ai
 - productivity

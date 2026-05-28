@@ -3,7 +3,7 @@ title: Az AI, ami akkor is dolgozik, amikor te alszol
 slug: always-on-agent-kkv
 site: elkezdodott.hu
 date: 2026-06-05
-status: humanize_ready
+status: draft
 score: 4/5
 source: signals-2026-04-22.md
 topics:

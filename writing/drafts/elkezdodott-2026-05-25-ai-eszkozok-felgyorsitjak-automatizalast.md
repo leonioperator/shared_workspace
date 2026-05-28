@@ -14,7 +14,7 @@ tags:
 - Genkit
 - hatékonyság
 slug: ket-ai-eszkoz-gyorsitja-vallalkozasod-automatizalasat
-status: humanize_ready
+status: draft
 id: elkezdod
 content_type: article
 created_at: '2026-05-25'
