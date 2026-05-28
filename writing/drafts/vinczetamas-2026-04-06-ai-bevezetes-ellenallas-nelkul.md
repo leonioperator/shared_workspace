@@ -1,12 +1,12 @@
 ---
 title: 'AI bevezetés ellenállás nélkül: mit mondj a csapatodnak?'
-date: '2026-05-25'
+date: 2026-06-10
 site: vinczetamas
 status: draft
 id: vinczeta
 content_type: article
 created_at: '2026-05-25'
-updated_at: '2026-05-25T11:25:40.505725+00:00'
+updated_at: '2026-05-28T09:19:03.187458+00:00'
 ---
 
 # AI bevezetés ellenállás nélkül: mit mondj a csapatodnak?
@@ -159,3 +159,7 @@ A titkolózás. Ha a csapat azt érzi, hogy a háttérben történik valami, az 
 ---
 
 *Draft státusz. Publikálás Tomi jóváhagyásával.*
+
+## 2026-os relevancia frissítés
+Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
+

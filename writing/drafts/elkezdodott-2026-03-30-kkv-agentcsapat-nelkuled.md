@@ -1,6 +1,6 @@
 ---
 title: Hogyan fut egy KKV agentcsapat nélküled?
-date: 2026-03-30
+date: 2026-06-13
 site: elkezdodott.hu
 description: 'AI agentcsapat, ami megmondja a célt és elvégzi a munkát - programozás
   nélkül. Nem sci-fi: az Alibaba már élesben futtatja. Mit jelent ez egy 5-50 fős
@@ -18,7 +18,7 @@ status: draft
 id: elkezdod
 content_type: article
 created_at: '2026-05-25'
-updated_at: '2026-05-25T11:25:40.415667+00:00'
+updated_at: '2026-05-28T09:19:03.187458+00:00'
 ---
 
 Az AI agentcsapat nem egy személy munkáját veszi át, hanem egy osztályét. Az Alibaba Accio Work rendszere ma már önállóan intéz e-kereskedelmi bevezetést, tárgyalja le a szállítókat és kezeli a logisztikát - a CEO csak a végső jóváhagyást adja meg. Ez nem kísérlet: ez a 2026-os operatív valóság 5-50 fős cégeknek is.
@@ -100,3 +100,7 @@ Ha van egy ismétlődő folyamatod, ami heti több órát vesz el, logikus lép�
 ---
 
 *Forrás: [The Rundown AI - An exclusive Q&A with alibaba.com's Kuo Zhang](https://www.therundown.ai/p/an-exclusive-q-a-with-alibaba-com-s-kuo-zhang)*
+
+## 2026-os relevancia frissítés
+Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
+

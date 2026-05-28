@@ -1,12 +1,12 @@
 ---
 title: "AI profitabilitás fordulópont: mit jelent ez egy magyar KKV-nak?"
-date: 2026-05-18
+date: 2026-06-04
 site: vinczetamas
 slug: ai-profitabilitas-fordulopont
 status: draft
 quality_score: '4/5'
 created_at: '2026-05-18'
-updated_at: '2026-05-28T09:06:23.310361+00:00'
+updated_at: '2026-05-28T09:19:03.187458+00:00'
 ---
 
 Ha az AI labok pénzügyi képe érik, az a KKV-knak két dolgot üzen: stabilabb szolgáltatói környezet jön, viszont keményebb ár- és csomagpolitika is. Most kell tudatos vásárlóvá válni.
@@ -24,3 +24,7 @@ A klasszikus hiba: egyetlen vendorra túl gyors ráülés, majd meglepődés a c
 - **Mit kérdezzek a szolgáltatótól?** Árskála, limitkezelés, SLA, és exportálhatóság.
 - **Kell azonnal multi-vendor?** Legalább a kritikus folyamatokra igen, minimális fallback szinten.
 - **Mikor tárgyaljak újra?** Amint usage trended van és látszik az üzleti érték.
+
+## 2026-os relevancia frissítés
+Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
+

@@ -1,12 +1,12 @@
 ---
 title: "Computer-use vs API: hol folyik el a pénz a KKV automatizálásban?"
-date: 2026-05-07
+date: 2026-05-30
 site: elkezdodott
 slug: computer-use-vs-api-koltseg-kkv
 status: draft
 quality_score: '5/5'
 created_at: '2026-05-07'
-updated_at: '2026-05-28T09:06:23.310361+00:00'
+updated_at: '2026-05-28T09:19:03.187458+00:00'
 ---
 
 Ha ugyanazt a feladatot API-n oldod meg, sokszor töredék áron fut, mint computer-use módban. A KKV nem demo-t vesz, hanem stabil működést. Először adatkapcsolat, webhook, API, és csak utána vision fallback.
@@ -24,3 +24,7 @@ Gyakori hiba, hogy a csapat UI-automationnel indul, mert látványos. Rövid tá
 - **Nem jó a computer-use?** De, jó fallbackként. Core folyamatra viszont drága és törékeny tud lenni.
 - **Mi a minimum kontroll?** Task-level logging, költség limit, és heti top-10 legdrágább futás lista.
 - **Hol kezdjem?** Ott, ahol magas az ismétlődés és stabil az adatstruktúra.
+
+## 2026-os relevancia frissítés
+Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
+

@@ -1,12 +1,12 @@
 ---
 title: Amikor 81 000 ember megmondja, miért nem bíznak az AI-ban
-date: '2026-05-25'
+date: 2026-06-14
 site: vinczetamas
 status: draft
 id: vinczeta
 content_type: article
 created_at: '2026-05-25'
-updated_at: '2026-05-25T11:25:40.502868+00:00'
+updated_at: '2026-05-28T09:19:03.187458+00:00'
 ---
 
 # Amikor 81 000 ember megmondja, miért nem bíznak az AI-ban
@@ -104,3 +104,7 @@ A legegyszerűbb jelzés: hány spontán kérdés érkezik az AI eszközről nap
 - Tag: AI bizalom, szervezeti AI, Anthropic, adoption
 
 **Status: DRAFT - Tomi review szükséges publikálás előtt**
+
+## 2026-os relevancia frissítés
+Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
+

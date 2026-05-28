@@ -1,12 +1,12 @@
 ---
 title: Ha már mindenki designer, ki védi a márkádat?
-date: '2026-05-25'
+date: 2026-06-08
 site: vinczetamas
 status: draft
 id: vinczeta
 content_type: article
 created_at: '2026-05-25'
-updated_at: '2026-05-25T11:25:40.508475+00:00'
+updated_at: '2026-05-28T09:19:03.187458+00:00'
 ---
 
 # Ha már mindenki designer, ki védi a márkádat?
@@ -95,3 +95,7 @@ Igen, de máshol. Nem a kivitelezésben, hanem a stratégiai brand gondolkodásb
 *Tag: canva, design, márkaépítés, KKV, AI eszközök*
 *Belső link: ai-hozzaferes-luxus, ai-bevezetes-ellenallas-nelkul*
 *Illusztráció: szükséges (BLOG-ILLUSTRATION-SKILL.md szerint, ember/állat tilos)*
+
+## 2026-os relevancia frissítés
+Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
+

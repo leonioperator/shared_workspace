@@ -1,13 +1,13 @@
 ---
 title: 'Telefonos AI ügyfélszolgálat kód nélkül: hogyan állítottuk be egy délután
   alatt'
-date: '2026-05-25'
+date: 2026-06-11
 site: elkezdodott
 status: draft
 id: elkezdod
 content_type: article
 created_at: '2026-05-25'
-updated_at: '2026-05-25T11:25:40.417094+00:00'
+updated_at: '2026-05-28T09:19:03.187458+00:00'
 ---
 
 # Telefonos AI ügyfélszolgálat kód nélkül: hogyan állítottuk be egy délután alatt
@@ -120,3 +120,7 @@ Főként olyan 5-50 fős cégeknek, ahol rendszeresen érkeznek ismétlődő tel
 - Korábbi cikk: (szerkesztéskor frissíteni a releváns cikkel)
 
 **Illusztráció:** 1200x630px, absztrakt/geometrikus, telefon + automatizáció vizuális metafora, ember/állat nélkül
+
+## 2026-os relevancia frissítés
+Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
+

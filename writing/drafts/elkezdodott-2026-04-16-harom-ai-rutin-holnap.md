@@ -1,7 +1,7 @@
 ---
 site: elkezdodott.hu
 title: 3 konkrét AI rutin, amit a csapatod holnap be tud vezetni
-date: 2026-04-16
+date: 2026-06-07
 slug: harom-ai-rutin-holnap
 status: draft
 categories:
@@ -11,7 +11,7 @@ categories:
 id: elkezdod
 content_type: article
 created_at: '2026-05-25'
-updated_at: '2026-05-25T11:25:40.419547+00:00'
+updated_at: '2026-05-28T09:19:03.187458+00:00'
 ---
 
 **Featured snippet (40–60 szó):**
@@ -114,3 +114,7 @@ Ha egy hét múlva kevesebb a "mit beszéltünk meg?" kérdés, és gyorsabban z
 
 ## Forrás
 - https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/
+
+## 2026-os relevancia frissítés
+Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
+

@@ -1,6 +1,6 @@
 ---
 title: 'Non-coder + AI = versenyképes csapat: hogyan csináltam meg'
-date: 2026-03-21
+date: 2026-06-17
 site: elkezdodott.hu
 description: Hogyan kezdtek el AI-t használni a fejlesztői háttér nélküli csapattagok,
   és mit spórolt ez meg?
@@ -15,7 +15,7 @@ status: draft
 id: elkezdod
 content_type: article
 created_at: '2026-05-25'
-updated_at: '2026-05-25T11:25:40.411125+00:00'
+updated_at: '2026-05-28T09:19:03.187458+00:00'
 ---
 
 Három hónapja még azt hittem, hogy az AI-automatizáláshoz kódolástudás kell. Tévedtem.
@@ -46,3 +46,7 @@ Kezdj el egyel. Nem kell forradalmat csinálni. Csak egy feladat, egy eszköz, e
 ---
 
 *Draft státusz. Publikálás Tomi jóváhagyása alapján.*
+
+## 2026-os relevancia frissítés
+Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
+

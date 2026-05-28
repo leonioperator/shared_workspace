@@ -1,6 +1,6 @@
 ---
 title: 'Napi brief fegyelem: kicsi szokás, nagy nyugalom'
-date: 2026-03-15
+date: 2026-06-19
 site: elkezdodott.hu
 description: A napi rövid státusz nem adminisztráció, hanem a KKV vezető legolcsóbb
   kockázatkezelése.
@@ -13,7 +13,7 @@ status: draft
 id: elkezdod
 content_type: article
 created_at: '2026-05-25'
-updated_at: '2026-05-25T11:25:40.409478+00:00'
+updated_at: '2026-05-28T09:19:03.187458+00:00'
 ---
 
 A napi brief egy 5-50 fős cégben nem extra admin, hanem döntési biztonság. Ha minden nap ugyanabban a formában látod, mi kész, mi csúszik, mi a kockázat, kevesebb a meglepetés. Vincze Tamás ezért a rövid, konzisztens státuszt preferálja a ritka, hosszú beszámolóval szemben.
@@ -49,3 +49,7 @@ Nem, ha 3 pontban marad és döntési fókuszú. A cél nem az ellenőrzés, han
 
 ### Mikor látszik az eredmény?
 Jellemzően 1-2 héten belül csökken a váratlan fennakadás és gyorsul a döntés.
+
+## 2026-os relevancia frissítés
+Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
+

@@ -1,12 +1,12 @@
 ---
 title: Miért nem használja a csapatod az AI-t, amit megvettél?
-date: '2026-05-25'
+date: 2026-06-15
 site: elkezdodott
 status: draft
 id: elkezdod
 content_type: article
 created_at: '2026-05-25'
-updated_at: '2026-05-25T11:25:40.412606+00:00'
+updated_at: '2026-05-28T09:19:03.187458+00:00'
 ---
 
 # Miért nem használja a csapatod az AI-t, amit megvettél?
@@ -77,3 +77,7 @@ Ha 10 főnél több embernél vezetsz be AI eszközt, és az egész folyamatot �
 - Tag: AI félelem, KKV AI, adoptáció, szervezeti változás
 
 **Status: DRAFT - Tomi review szükséges publikálás előtt**
+
+## 2026-os relevancia frissítés
+Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
+

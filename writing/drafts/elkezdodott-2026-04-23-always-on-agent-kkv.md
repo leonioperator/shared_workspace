@@ -2,7 +2,7 @@
 title: Az AI, ami akkor is dolgozik, amikor te alszol
 slug: always-on-agent-kkv
 site: elkezdodott.hu
-date: 2026-04-23
+date: 2026-06-05
 status: draft
 score: 4/5
 source: signals-2026-04-22.md
@@ -17,7 +17,7 @@ meta_description: Az always-on AI agent nem azt jelenti, hogy te dolgozol az AI-
 id: elkezdod
 content_type: article
 created_at: '2026-05-25'
-updated_at: '2026-05-25T11:25:40.421469+00:00'
+updated_at: '2026-05-28T09:19:03.187458+00:00'
 ---
 
 # Az AI, ami akkor is dolgozik, amikor te alszol
@@ -94,3 +94,7 @@ Az 5-50 főig terjedő vállalkozásoknak különösen releváns, ahol a vezető
 
 **Mikor lesz elérhető a Hermes és a Conway platform?**
 Az OpenAI Hermes platform 2026 tavaszán jelent meg a ChatGPT ecosystemben, az Anthropic Conway pedig fejlesztés alatt áll. Pontos elérhetőség és árazás egyelőre változékony, érdemes a hivatalos bejelentéseket követni.
+
+## 2026-os relevancia frissítés
+Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
+

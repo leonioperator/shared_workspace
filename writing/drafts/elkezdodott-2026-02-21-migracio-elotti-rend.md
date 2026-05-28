@@ -1,6 +1,6 @@
 ---
 title: Migráció előtt rend, különben hétfőn káosz
-date: 2026-02-21
+date: 2026-06-20
 site: elkezdodott.hu
 description: A költözés nem másolásról szól, hanem arról, hogy mi marad ki. KKV vezetőknek
   gyakorlati keret a biztonságos átálláshoz.
@@ -13,7 +13,7 @@ status: draft
 id: elkezdod
 content_type: article
 created_at: '2026-05-25'
-updated_at: '2026-05-25T11:25:40.407939+00:00'
+updated_at: '2026-05-28T09:19:03.187458+00:00'
 ---
 
 A migrációk többsége nem a másoláskor bukik el, hanem utána, amikor kiderül, hogy kimaradt egy cron, egy jogosultság vagy egy visszaállási lépés. Egy 5-50 fős cégben ez gyorsan napi működési kockázat lesz. Vincze Tamás ezért mindig a költözés előtti rendrakással kezd.
@@ -48,3 +48,7 @@ Egy kicsi rendszerhez is kell 1-2 óra strukturált listaépítés. Ezt nem lehe
 
 ### Kell külön ember csak a dokumentációra?
 Nem feltétlenül, de kell egy felelős. Felelős nélkül a dokumentáció mindig "majd később" lesz.
+
+## 2026-os relevancia frissítés
+Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
+

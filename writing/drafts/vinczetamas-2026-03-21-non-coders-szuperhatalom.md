@@ -1,6 +1,6 @@
 ---
 title: 'A non-coder szervezet: a következő szuperhatalom'
-date: 2026-03-21
+date: 2026-06-16
 site: vinczetamas.hu
 description: Miért lesz a nem-kódolókból álló szervezet a legversenyképesebb az AI
   korában?
@@ -15,7 +15,7 @@ status: draft
 id: vinczeta
 content_type: article
 created_at: '2026-05-25'
-updated_at: '2026-05-25T11:25:40.501712+00:00'
+updated_at: '2026-05-28T09:19:03.187458+00:00'
 ---
 
 Az AI világa eddig a kódolókról szólt. Aki tud programozni, az nyert. Aki nem, az várt.
@@ -47,3 +47,7 @@ Melyik kollégád lesz az első "AI-natív" non-coder a csapatodban? Ha nem tudo
 ---
 
 *Ez a poszt draft státuszú. Publikálás Tomi jóváhagyása alapján.*
+
+## 2026-os relevancia frissítés
+Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
+
