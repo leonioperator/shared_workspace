@@ -12,7 +12,7 @@ tags:
 - automatizálás
 - digitális-transzformáció
 slug: ai-vegrehajtó-munkafelulet-kkv
-status: humanize_ready
+status: draft
 id: vinczeta
 content_type: article
 created_at: '2026-05-25'
@@ -21,55 +21,53 @@ updated_at: '2026-05-28T09:19:03.187458+00:00'
 
 Az AI következő generációja nem azt teszi, amit kérdeznek tőle. Elvégzi azt, amit rábíznak. Nem válaszol, hanem navigál, kattint, adatot húz le, emailt küld, riportot ír. Ez nem sci-fi. 2026 tavaszán több nagy tech cég egyszerre mutatta be az asztali AI agent platformjait. A 5-50 fős cégek számára ez egyszerre jelent veszélyt és lehetőséget.
 
----
+Egy ügyfelemmel egy januári megbeszélés után, a parkolóban állva feltette a kérdést: "Tomi, te mire használod az AI-t a saját munkádban?"
 
-Egy ügyfelemmel egy januári megbeszélés után, a parkolóban állva egyszer feltette a kérdést: "Tomi, te mire használod az AI-t a saját munkádban?"
+Azt mondtam: emaileket összefoglalok, keresek, vázlatokat íratok gyorsan.
 
-Azt mondtam, hogy emaileket összefoglalásra, keresésre, vázlatok gyors megírására.
+Bólintott. Pontosan így működött az ő csapatánál is. Mindenki használta az AI-t, de senki nem változtatott a folyamatokon.
 
-Bólintott. Pontosan így nézett ki az ő csapatánál is. Mindenki használja, senki nem változtatott semmit a folyamatokon.
+Ez az a mondat, ami akkor maradt bennem.
 
-Ez volt az a mondat, ami azóta is bennem maradt.
+Mert a chatbot alapú AI pontosan idáig jutott el a legtöbb helyen. Gyors válasz. Jobb email fogalmazás. Néha egy Excel képlet. De a cég maga ugyanúgy működött, mint két évvel ezelőtt. Ugyanazok az emberek, ugyanazok a szűk keresztmetszetek, ugyanaz a vezető, aki minden döntésnél ott kell legyen.
 
-Mert a chatbot alapú AI pontosan idáig jutott el a legtöbb helyen. Gyors válasz. Jobb e-mail fogalmazás. Időnként egy Excel képlet. De a cég maga ugyanúgy működik, mint két évvel ezelőtt. Ugyanazok az emberek, ugyanazok a szűk keresztmetszetek, ugyanaz a vezető, aki minden döntésnél ott kell legyen.
+A következő AI hullám ezt a logikát szétfeszegeti.
 
-A következő AI hullám ezt a logikát töri szét.
+A chatbot kérdésre vár. Az agent cselekvést kap és elvégzi.
 
-**A chatbot kérdést vár. Az agent cselekvést kap.**
-
-Nem azt mondom, hogy "írj nekem egy emailt". Azt mondom, hogy "nézd meg a beérkező levelekben a mai árajánlat kéréseket, írj minden feladónak egy első választ a sablonunk alapján, és tedd be CRM-be followup-nak péntekre". Az agent ezt elvégzi. Nem megkérdezi, hogyan kellene. Csinálja.
+En nem azt mondom: "írj nekem egy emailt". Azt mondom: "nézd meg a beérkező leveleket, keress mailárajánlat-kéréseket, írj minden feladónak egy standard válaszunkat, és tedd a CRM-be pénteki follow-upnak". Az agent ezt egyszerűen megteszi. Nem kérdez, hanem csinál.
 
 A Google, a Microsoft és több kisebb labor egyszerre adott ki ilyesmit ebben a negyedévben. Nem bétaként. Éles, asztali platformként.
 
-Az első reakció, amit láttam a 5-50 fős cégek vezetőinél, ezek szerint általában kettő:
+Az első reakció, amit a 5-50 fős cégek vezetőinél látok, általában kettő közül az egyik:
 
-Az egyik: "Jó, majd megnézem." Aztán nem nézi meg.
+Az egyik: "Érdekes, majd megnézem." És nem nézik meg.
 
-A másik: "Rendben, de a mi folyamataink mások, nálunk ez nem fog menni."
+A másik: "Értem, de nálunk máshogy működik, ezt nem tudjuk alkalmazni."
 
-Mindkét reakció mögött ugyanaz a felismerés hiányzik.
+Mindkét felelet ugyanazt mutatja: hiányzik a tisztánlátás arról, hogy mi az igazi kérdés.
 
-A végrehajtó AI nem egy jobb tool. Egy más rendszer. Ahhoz, hogy hasznos legyen, nem elég, hogy valaki tudja kezelni. A folyamatoknak kell formában lenniük. Az adatoknak kell valahol elérhetőnek lenniük. A döntési logikának kell valahol leírva lennie.
+A végrehajtó AI nem egy jobb eszköz. Egy más rendszer. Ahhoz, hogy működjön, nem elég, hogy valaki tudja használni. A folyamatoknak formalizálva kell lenniük. Az adatoknak elérhetőnek kell lenniük valahol. A döntési logikának leírva kell lennie.
 
-Pontosan az, ami a legtöbb 5-50 fős cégnél nincs meg.
+Ez az, ami a legtöbb 5-50 fős cégnél nem létezik.
 
-Nem azért, mert lusták vagy nem elég okosak a vezetők. Hanem azért, mert sosem volt rá ok. Ha mindig volt egy ember, aki a fejében tartotta az összes szabályt, akkor miért kellene kiírni?
+Nem azért, mert lusta vagy nem elég okos a vezető. Hanem azért, mert eddig felesleges volt. Ha volt egy ember, aki fejből tudta az összes szabályt, miért kellene leírni?
 
-Most van okod. Az agent nem olvas fejekben.
+Ma van oka. Az agent nem tud fejből olvasni.
 
-Vincze Tamás tapasztalata alapján a cégek kb. 80 százaléka úgy épül fel, hogy a vezető az egyetlen, aki az összes folyamatot érti. Ez a modell nem skálázódik, de eddig legalább működött. A végrehajtó AI ebből a helyzetből nem segít, hanem rámutat a hiányra.
+A tapasztalatom szerint a cégek kb. 80 százaléka pontosan így épül: a vezető az egyetlen, aki az összes folyamatot ismeri. Ez a rendszer nem skálázódik, de működik. A végrehajtó AI nem segít ezen, csak rávilágít a hiányosságra.
 
 ---
 
-Ez az a pillanat, ahol a chatbot korából kilépő cégek elválnak egymástól.
+Ez az a pont, ahol az okos vezetők elválnak a többitől.
 
-Aki most nekiáll leírni, hogyan hoz döntéseket a cégben, hogyan néz ki egy normál értékesítési folyamat, mi a három lépés egy ügyfél onboarding-ban, az 6-12 hónapon belül egy agent-ready rendszert épít, akaratlanul is.
+Aki most hozzákezd leírni, hogyan dönt a cég, hogy néz ki az eladási folyamat, milyen az ügyfél onboarding, az 6-12 hónapon belül egy agent-ready rendszert épít. Majdnem észrevétlenül.
 
-Aki vár, az egy év múlva ugyanitt áll. De a versenytársai már nem.
+Aki vár, az egy év múlva ugyanitt áll. De a konkurenciája már kétféleztad égy lépése előrébb.
 
-A chatbot kérdéssel keres. Az agent rendszerben gondolkodik. Ha a rendszered nincs meg, az agent nincs mit elvégezzen.
+A chatbot szavakkal dolgozik. Az agent rendszerek szerint működik. Ha a rendszered nem létezik, az agentnek nincs mit csinálni.
 
-> **VT:** A következő AI lépés nem technológia kérdése. Az a kérdés, hogy a céged folyamatai fejben vannak, vagy leírva. Vincze Tamás, stratégiai AI operációs partner.
+> **VT:** A következő AI lépés nem technológiai. Az a kérdés, hogy a céged folyamatai fejben vannak-e, vagy leírva vannak. Vincze Tamás, stratégiai AI partnerem.
 
 ---
 

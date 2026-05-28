@@ -3,7 +3,7 @@ title: 'Az AI-agent infrastruktúra hiányzó láncszemei: a következő KKV el�
 date: 2026-05-31
 site: vinczetamas
 slug: agent-infrastruktura-hianyzo-lancszemek
-status: humanize_ready
+status: draft
 quality_score: 5/5
 created_at: '2026-04-27'
 updated_at: '2026-05-28T09:30:02.136904+00:00'

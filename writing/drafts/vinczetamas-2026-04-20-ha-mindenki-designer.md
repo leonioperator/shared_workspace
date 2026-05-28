@@ -2,7 +2,7 @@
 title: Ha már mindenki designer, ki védi a márkádat?
 date: 2026-06-08
 site: vinczetamas
-status: humanize_ready
+status: draft
 id: vinczeta
 content_type: article
 created_at: '2026-05-25'
@@ -19,7 +19,7 @@ updated_at: '2026-05-28T09:19:03.187458+00:00'
 
 ## Featured snippet
 
-A Canva AI 2.0 megjelenésével bárki profi designt készíthet, aki korábban nem tudott. Ez egy 5-50 fős cégben egyszerre szabadság és kockázat: a design kapacitás kiterjed az egész szervezetre, de ha nincs mögötte rendszer, a marka hamarosan tucatnyiféle vizuális identitással fut párhuzamosan.
+A Canva AI 2.0 megjelenésével bárki profi designt tud készíteni, aki előtte nem tudott. Egy 5-50 fős cégben ez jó és rossz egy időben: a tervezési képesség az egész szervezetre szétszóródik, ami gyors, de ha nincs szab ályrendszer, a márkád hamarosan 10 féle kinézetben él párhuzamosan.
 
 *(Szószám: 55 szó)*
 
@@ -37,7 +37,7 @@ A Canva AI 2.0 bejelentése pontosan erről szól, csak más szavakkal. A CPO, C
 
 A technológia valóban rendkívüli.
 
-De a kérdés, amit senki nem tesz fel elég hangosan: ha már mindenki tud designolni, ki vigyáz arra, hogy mit designolnak?
+De itt van a valódi kérdés, amit ritkán halok: ha már mindenki tud designolni, ki vigyáz arra, hogy mit tesznek le?
 
 ---
 
