@@ -2,7 +2,7 @@
 title: Ha már mindenki designer, ki védi a márkádat?
 date: 2026-06-08
 site: vinczetamas
-status: draft
+status: humanize_ready
 id: vinczeta
 content_type: article
 created_at: '2026-05-25'

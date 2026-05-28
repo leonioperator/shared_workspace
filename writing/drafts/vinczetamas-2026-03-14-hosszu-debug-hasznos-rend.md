@@ -9,7 +9,7 @@ tags:
 - vezetés
 - rendszer
 slug: hosszu-debug-hasznos-rend
-status: draft
+status: humanize_ready
 id: vinczeta
 content_type: article
 created_at: '2026-05-25'

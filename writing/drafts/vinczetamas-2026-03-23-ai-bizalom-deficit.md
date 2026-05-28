@@ -2,7 +2,7 @@
 title: Amikor 81 000 ember megmondja, miért nem bíznak az AI-ban
 date: 2026-06-14
 site: vinczetamas
-status: draft
+status: humanize_ready
 id: vinczeta
 content_type: article
 created_at: '2026-05-25'

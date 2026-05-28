@@ -3,7 +3,7 @@ title: 'Telefonos AI ügyfélszolgálat kód nélkül: hogyan állítottuk be eg
   alatt'
 date: 2026-06-11
 site: elkezdodott
-status: draft
+status: humanize_ready
 id: elkezdod
 content_type: article
 created_at: '2026-05-25'

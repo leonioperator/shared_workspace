@@ -1,12 +1,14 @@
 ---
-title: "AI költségfegyelem: hogyan maradjon nyereséges az agent működés?"
+title: 'AI költségfegyelem: hogyan maradjon nyereséges az agent működés?'
 date: 2026-05-29
 site: vinczetamas
 slug: ai-koltseg-usage-fegyelem
-status: draft
-quality_score: '5/5'
+status: humanize_ready
+quality_score: 5/5
 created_at: '2026-05-11'
-updated_at: '2026-05-28T09:19:03.187458+00:00'
+updated_at: '2026-05-28T09:30:02.138465+00:00'
+id: vinczeta
+content_type: article
 ---
 
 A valóság: nem a melyik modell olcsóbb dönt, hanem az, mennyire kontrollált a használat. Aki usage-fegyelmet épít, ugyanabból a költségkeretből többet szállít.

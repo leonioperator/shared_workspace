@@ -2,7 +2,7 @@
 title: 'AI bevezetés ellenállás nélkül: mit mondj a csapatodnak?'
 date: 2026-06-10
 site: vinczetamas
-status: draft
+status: humanize_ready
 id: vinczeta
 content_type: article
 created_at: '2026-05-25'

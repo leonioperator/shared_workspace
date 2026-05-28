@@ -1,12 +1,14 @@
 ---
-title: "Az AI-agent infrastruktúra hiányzó láncszemei: a következő KKV előny"
+title: 'Az AI-agent infrastruktúra hiányzó láncszemei: a következő KKV előny'
 date: 2026-05-31
 site: vinczetamas
 slug: agent-infrastruktura-hianyzo-lancszemek
-status: draft
-quality_score: '5/5'
+status: humanize_ready
+quality_score: 5/5
 created_at: '2026-04-27'
-updated_at: '2026-05-28T09:19:03.187458+00:00'
+updated_at: '2026-05-28T09:30:02.136904+00:00'
+id: vinczeta
+content_type: article
 ---
 
 A nagyok már láthatóan ugyanabba a falba mennek: nem a modell, hanem az üzemeltetés a szűk keresztmetszet. A KKV-knak itt nyílik rés: aki ezt korán rendbe teszi, tempóelőnyt kap.

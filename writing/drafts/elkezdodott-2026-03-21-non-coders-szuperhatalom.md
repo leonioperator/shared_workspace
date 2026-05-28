@@ -11,7 +11,7 @@ tags:
 - KKV
 - automatizálás
 slug: non-coders-szuperhatalom
-status: draft
+status: humanize_ready
 id: elkezdod
 content_type: article
 created_at: '2026-05-25'

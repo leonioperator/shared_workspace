@@ -13,7 +13,7 @@ tags:
 - KKV
 - automatizálás
 slug: ai-ugynokok-epitese-grok-build-genkit
-status: draft
+status: humanize_ready
 id: vinczeta
 content_type: article
 created_at: '2026-05-25'

@@ -12,7 +12,7 @@ tags:
 - automatizálás
 - digitális-transzformáció
 slug: ai-vegrehajtó-munkafelulet-kkv
-status: draft
+status: humanize_ready
 id: vinczeta
 content_type: article
 created_at: '2026-05-25'

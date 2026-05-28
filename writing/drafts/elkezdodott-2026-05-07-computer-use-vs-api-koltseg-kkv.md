@@ -1,12 +1,14 @@
 ---
-title: "Computer-use vs API: hol folyik el a pénz a KKV automatizálásban?"
+title: 'Computer-use vs API: hol folyik el a pénz a KKV automatizálásban?'
 date: 2026-05-30
 site: elkezdodott
 slug: computer-use-vs-api-koltseg-kkv
-status: draft
-quality_score: '5/5'
+status: humanize_ready
+quality_score: 5/5
 created_at: '2026-05-07'
-updated_at: '2026-05-28T09:19:03.187458+00:00'
+updated_at: '2026-05-28T09:30:02.076039+00:00'
+id: elkezdod
+content_type: article
 ---
 
 Ha ugyanazt a feladatot API-n oldod meg, sokszor töredék áron fut, mint computer-use módban. A KKV nem demo-t vesz, hanem stabil működést. Először adatkapcsolat, webhook, API, és csak utána vision fallback.

@@ -3,7 +3,7 @@ site: elkezdodott.hu
 title: 'Csendes AI trend: offline diktálásból kész üzleti szöveg'
 date: 2026-06-09
 slug: offline-diktalas-uzleti-szoveg
-status: draft
+status: humanize_ready
 categories:
 - ai
 - productivity

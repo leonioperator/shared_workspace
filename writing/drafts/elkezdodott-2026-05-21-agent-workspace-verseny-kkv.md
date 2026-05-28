@@ -1,12 +1,14 @@
 ---
-title: "Agent workspace verseny: mit jelent a Google Spark egy KKV-nak?"
+title: 'Agent workspace verseny: mit jelent a Google Spark egy KKV-nak?'
 date: 2026-06-01
 site: elkezdodott
 slug: agent-workspace-verseny-kkv
-status: draft
-quality_score: '4/5'
+status: humanize_ready
+quality_score: 4/5
 created_at: '2026-05-21'
-updated_at: '2026-05-28T09:19:03.187458+00:00'
+updated_at: '2026-05-28T09:30:02.078943+00:00'
+id: elkezdod
+content_type: article
 ---
 
 Ha a nagy platformok beépítik a 24/7 agentet a saját ökoszisztémába, a KKV döntése már nem az, hogy kell-e AI, hanem az, hogy hol marad nálad a kontroll. Sebesség kell, de lock-in nélkül.

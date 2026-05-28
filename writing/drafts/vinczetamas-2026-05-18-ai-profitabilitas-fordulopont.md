@@ -1,12 +1,14 @@
 ---
-title: "AI profitabilitás fordulópont: mit jelent ez egy magyar KKV-nak?"
+title: 'AI profitabilitás fordulópont: mit jelent ez egy magyar KKV-nak?'
 date: 2026-06-04
 site: vinczetamas
 slug: ai-profitabilitas-fordulopont
-status: draft
-quality_score: '4/5'
+status: humanize_ready
+quality_score: 4/5
 created_at: '2026-05-18'
-updated_at: '2026-05-28T09:19:03.187458+00:00'
+updated_at: '2026-05-28T09:30:02.139932+00:00'
+id: vinczeta
+content_type: article
 ---
 
 Ha az AI labok pénzügyi képe érik, az a KKV-knak két dolgot üzen: stabilabb szolgáltatói környezet jön, viszont keményebb ár- és csomagpolitika is. Most kell tudatos vásárlóvá válni.

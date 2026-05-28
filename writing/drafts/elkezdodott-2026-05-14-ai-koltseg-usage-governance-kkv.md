@@ -1,12 +1,14 @@
 ---
-title: "Az AI költség nem modellár: usage-fegyelem nélkül elúszik a büdzsé"
+title: 'Az AI költség nem modellár: usage-fegyelem nélkül elúszik a büdzsé'
 date: 2026-05-28
 site: elkezdodott
 slug: ai-koltseg-usage-governance-kkv
-status: draft
-quality_score: '5/5'
+status: humanize_ready
+quality_score: 5/5
 created_at: '2026-05-14'
-updated_at: '2026-05-28T09:19:03.187458+00:00'
+updated_at: '2026-05-28T09:30:02.077615+00:00'
+id: elkezdod
+content_type: article
 ---
 
 A legtöbb KKV-nál nem a modelllista, hanem a kontroll hiánya drágít. Ha nincs usage-limit, jogosultsági rend és folyamatnapló, az AI számla csendben felkúszik. A megoldás: governance, nem újabb modellteszt.
