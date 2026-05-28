@@ -9,43 +9,36 @@ tags:
 - vezetés
 - rendszer
 slug: hosszu-debug-hasznos-rend
-status: humanize_ready
+status: draft
 id: vinczeta
 content_type: article
 created_at: '2026-05-25'
 updated_at: '2026-05-28T09:19:03.187458+00:00'
 ---
 
-Egy elhúzódó debug egy 5-50 fős cégnél akkor fáj a legjobban, ha csak időt visz, de nem hagy maga után jobb rendszert. Ha viszont dokumentált lépésekké és új működési szabállyá alakul, akkor befektetés lesz belőle. Vincze Tamás stratégiai AI operációs partnerként ezt a különbséget építi be a napi működésbe.
+Egy elhúzódó debug egy 5-50 fős cégnél akkor fáj a legjobban, ha csak időt visz, de nem tanulsz belőle. Ha viszont dokumentált lépések és új szabályok születnek belőle, akkor érdemes volt az idő.
 
-Sokan úgy kezelik a hibát, mint szégyent. Emiatt gyorsan befoltozzák, majd mennek tovább. Két hét múlva ugyanaz visszajön.
+Sokan úgy kezelik a hibát, mint szégyent. Befoltozzák, mennek tovább. Két hét múlva ugyanaz vissza.
 
-A vezetői kontroll ott kezdődik, hogy a hiba útja visszanézhető:
+A vezetői kontroll az, hogy vissza tudod követni, mi történt:
+- Mi volt a probléma
+- Miért volt
+- Mit változtattunk utána
 
-- mi történt,
-- miért történt,
-- mi változott utána.
+Igazság: a legtöbb cégben a hibák nem technikai okból ismétlődnek. Azért, mert nincs végpontja. Van javítás, nincs tanulság dokumentálva.
 
-A kényelmetlen felismerés: a legtöbb cégben a hibák nem technikai okból ismétlődnek, hanem azért, mert nincs lezárási rítus. Van javítás, nincs tanulság.
+Mi az elég dokumentáció? Rövid. De kötelező: ok, javítás, megelőzés. Ez 5-10 perc, és később órákat takarít meg.
 
-A gyakorlatban ez annyit jelent, hogy minden komolyabb hibakeresés végén születik egy rövid működési szabály. Nem esszé, egy szabály. Ettől lesz kevesebb második hiba.
-
-> "A jó debug nem attól jó, hogy gyors, hanem attól, hogy legközelebb rövidebb lesz tőle."  
-> **VT**
+> "Az a debug jó, ami legközelebb rövidebb lesz tőle."
 
 Pillar link: [AI operációs partner szerepe](https://vinczetamas.hu/strategiai-ai-operacios-partner)  
 Korábbi cikk: [A döntési késések valódi ára](https://vinczetamas.hu/dontesi-kesesek-ara)
 
-## FAQ
+## Mikor jó egy debug?
+Akkor, ha nem lesz ugyanaz két hét múlva. Ehhez kell egy szabály. Nem esszé. Egy szabály.
 
-### Mikor számít egy debug sikeresnek?
-Akkor, ha a hiba megszűnik és új szabály is születik. Szabály nélkül nagy az ismétlődés esélye.
-
-### Mennyi dokumentáció elég?
-Rövid, de kötelező: ok, javítás, megelőzés. Ez 5-10 perc, mégis órákat spórol később.
-
-### Miért vezetői téma ez?
-Mert a visszatérő hibák a döntési tempót eszik meg. A tempó pedig közvetlenül bevétel és fókusz kérdése.
+## Miért vezetői téma ez?
+Mert a visszatérő hibák időt esznek. Az idő pedig pénz.
 
 ## 2026-os relevancia frissítés
 Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
