@@ -9,44 +9,39 @@ tags:
 - rendszer
 - migráció
 slug: migracio-elotti-rend
-status: draft
+status: publish_ready
 id: elkezdod
 content_type: article
-created_at: '2026-05-25'
+created_at: '2026-02-21'
 updated_at: '2026-05-28T09:19:03.187458+00:00'
 ---
 
-A rendszer költözés nem a másoláskor megy keresztül, hanem az után. Ekkor derül ki, hogy valaki elfelejtett egy beállítást, egy jogosultság maradt el, vagy egy rutinfeladat nincs dokumentálva. Egy 5-50 fős cégnél ez egyből működési zavar. Ezért érdemes előtte tisztázni, hogy mi megy, mi marad, és hogyan állunk vissza ha baj van.
+A rendszer költözés nem az adatmozgatás során történik, hanem az után. Ekkor derül ki, hogy valaki elfelejtett egy beállítást, egy jogosultság elmaradt, vagy egy rutinfeladat nincs dokumentálva. Egy kisebb cégnél ez egyből működési zavart tud okozni. Ezért érdemes előtte tisztázni, hogy mi megy, mi marad, és hogyan állunk vissza, ha baj van.
 
-A legtöbb csapat ott csúszik meg, hogy a "majd ott beállítjuk" úgy hangzik, mint terv. De valójában nem az.
+A legtöbb esetben ott csúsznak el a dolgok, hogy a "majd beállítjuk" úgy hangzik, mint egy terv. De valójában nem az.
 
-Mit működik gyakorlatban:
+Mit működik a gyakorlatban:
 
-1. Pontos lista: mit viszünk át, mit nem. Nem lehet "szinte minden".
-2. Visszaállási terv: papíron, 30-60 percre tervezett. Hogy lehet visszamászni, ha félremegy.
-3. A rutin dolgok külön listán: cronok, napi checkek, ütemezett munkák. Hogy semmi ne maradjon ki.
-4. Amit nem nyúlunk a költözés napján: kritikus adatok, éppen futó projektek, ügyfél interfészek.
+1. Pontos lista: mit viszünk át, mit nem. Tilos "szinte mindent".
+2. Visszaállási terv: papíron, 30-60 percre tervezett. Hogyan lehet visszaállni, ha félremegy valami.
+3. A rutin dolgok külön listán: automata futások, napi ellenőrzések, ütemezett munkák. Hogy semmi ne maradjon ki.
+4. Amihez nem nyúlunk a költözés napján: kritikus adatok, éppen futó projektek, ügyfél adatok, kapcsolatok.
 
-A gyakorlat azt mutatja: sok cégnél az összes rendszer egy-két ember fejében él. Ez addig működik, amíg az illető elérhető. Nem működik, ha betegszabadság, váratlan lemondás vagy stressz történik.
+A gyakorlat azt mutatja, hogy sok cégnél az összes rendszer egy-két ember fejében él. Ez addig tök működik, amíg az illető elérhető. Nem működik, ha betegszabadság, váratlan lemondás vagy stressz szól közbe.
 
-Mit csinálja ebből a legjobb? Ha költöznöl, ne egy technikus listát kezdj szerkeszteni, hanem azt: milyen dolgotól függ hétfő reggel a napi működés. Azt védd meg előszőr. A többi másodlagos.
+Mit csináljunk, hogy ebből a legjobbat tudjuk kihozni? Ha migrációt tervezel, akkor ne egy technikai listát kezdj szerkeszteni, hanem azt írd le, hogy milyen dolgoktól függ hétfő reggel a napi működésed. Azt védd meg előszőr. A többi másodlagos.
 
-> "Költözés előtt érdemes gondolkodni rajta, mint kockázat kezelésen. Nem technikai projekten."
+> "A migrációt érdemes kockázatkezelésként, és nem technikai projektként kezelni."
 > (Vincze Tamás)
-
-## Konkrét példa
-
-Az egyik KKV, ahol ezt csináltuk, az első lépés volt: melyik 5 dolog nem működhet hétfő reggel? Ezek voltak: email jövetele, termékkatalógus, számlázó, pénztárgép adatok, ügyfél adatbázis. Erre az ötre fókuszáltunk. Minden más sokkal kevesebb volt aggodalomra okot adó.
 
 ## Ha már túl késő: a drágább út
 
-Aki nem tervez előre, az később drágán fizet. Tipikus forgatókönyv: pénteken költöznek, szombaton kiderül, hogy az egyik rendszer nem működik, vasárnap pánikban kezdik az improvizálást, hétfőn reggel az ügyfél fél, hogy mi a helyzet. Ez pár ezer euróba kerül, és alig állítható vissza.
+Akik nem készülnek fel, azok később fizetnek. Klasszikus forgatókönyv: pénteken költöznek, szombaton kiderül a hiba, vasárnap pánik üzemmódban javítgatnak, hétfőn pedig az ügyfelek hívogatnak idegesen, hogy „mi a fene van nálatok?”
 
-Az előzetes rend összerakása tart 2-3 órát. Az improvizáció miatt okozott zavar napokba, hetekbe kerülhet.
+Ez nem csak idegőrlő, de több ezer euróba is kerülhet, és napokig, sőt hetekig elhúzódhat a helyreállítás.
+Egy jó előkészítés mindössze 2-3 órát vesz igénybe. Az improvizáció viszont nagyon sokba kerülhet.
 
 ---
-
-*Draft státusz. Publikálás Tomi jóváhagyása alapján.*
 
 ## 2026-os relevancia frissítés
 
