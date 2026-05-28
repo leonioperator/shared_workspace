@@ -3,7 +3,7 @@ title: 'AI költségfegyelem: hogyan maradjon nyereséges az agent működés?'
 date: 2026-05-29
 site: vinczetamas
 slug: ai-koltseg-usage-fegyelem
-status: humanize_ready
+status: draft
 quality_score: 5/5
 created_at: '2026-05-11'
 updated_at: '2026-05-28T09:30:02.138465+00:00'
@@ -11,21 +11,21 @@ id: vinczeta
 content_type: article
 ---
 
-A valóság: nem a melyik modell olcsóbb dönt, hanem az, mennyire kontrollált a használat. Aki usage-fegyelmet épít, ugyanabból a költségkeretből többet szállít.
+A valóság az: nem a model ára dönt, hanem az, hogy mennyire tudod kontrollálni a használatot. Aki fegyelmet tart, ugyanabból a költségvetésből többet tud kihozni.
 
 ## Mit jelent ez egy KKV CEO-nak?
-Az AI költség görbéje alattomos: kis volumenen láthatatlan, skálán hirtelen fáj. Ezért kell korán költség- és teljesítményfék. Nem pénzügyi hiszti, hanem működési higiénia.
+Az AI költség görbéje alattomos: kicsi volumennél láthatatlan, de ha skálázol, hirtelen ütődik az érzéked. Ezért kell korán költségkontrollt beépíteni. Nem számviteli parázonia, hanem alapvető működési fegyelem.
 
 ## Mit csinálj hétfő reggel?
-Vezess be három szintet: csapat budget, workflow budget, task budget. Mellé tegyél automatikus riasztást és heti döntési rituálét: mit állítunk le, mit skálázunk fel.
+Járható: vezess be három költségszintet (csapat, workflow, task), automata riasztás, és egy heti review. Ebben az 10 percben eldöntöd, mit húzol vissza és mit tolsz előre.
 
 ## Gyakori hibák
-Gyakori vezetői hiba: új modellre váltanak, miközben a rosszul tervezett folyamat marad. Ilyenkor a probléma csak drágábban fut tovább.
+Gyakori vezetői hiba: megtámadasgatsz egy új, olcsóbb modellre, miközben a rossz workflow marad. Ilyenkor csak az a gond drágábban folytatódik.
 
 ## FAQ
-- **Mennyi adat kell jó döntéshez?** Már 2-3 hét strukturált usage adat elég trendet mutatni.
-- **Mit állítsak le először?** A legdrágább, legalacsonyabb üzleti értékű automatizmust.
-- **Mi a gyors nyerés?** Prompt/cache normalizálás és fölösleges hívások kivágása.
+- **Mennyi adat kell ahhoz, hogy értelmes döntést hozz?** 2-3 hét. Ennyi alatt már látod az irányokat.
+- **Mit állítsak le először?** Azt, ami drágább és kevesebb üzleti értéket ad.
+- **Mi a leggyorsabb nyerés?** Prompt-ok normalizálása, cache beépítése, és a felesleges API-hívások kidobása.
 
 ## 2026-os relevancia frissítés
 Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
