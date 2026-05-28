@@ -9,46 +9,45 @@ tags:
 - rendszer
 - migráció
 slug: migracio-elotti-rend
-status: humanize_ready
+status: draft
 id: elkezdod
 content_type: article
 created_at: '2026-05-25'
 updated_at: '2026-05-28T09:19:03.187458+00:00'
 ---
 
-A migrációk többsége nem a másoláskor bukik el, hanem utána, amikor kiderül, hogy kimaradt egy cron, egy jogosultság vagy egy visszaállási lépés. Egy 5-50 fős cégben ez gyorsan napi működési kockázat lesz. Vincze Tamás ezért mindig a költözés előtti rendrakással kezd.
+A rendszer költözés nem a másoláskor megy keresztül, hanem az után. Ekkor derül ki, hogy valaki elfelejtett egy beállítást, egy jogosultság maradt el, vagy egy rutinfeladat nincs dokumentálva. Egy 5-50 fős cégnél ez egyből működési zavar. Ezért érdemes előtte tisztázni, hogy mi megy, mi marad, és hogyan állunk vissza ha baj van.
 
-A legtöbb csapat ott csúszik meg, hogy a "majd ott beállítjuk" mondatot tervnek nézi. Nem terv.
+A legtöbb csapat ott csúszik meg, hogy a "majd ott beállítjuk" úgy hangzik, mint terv. De valójában nem az.
 
-A használható minimum így néz ki:
+Mit működik gyakorlatban:
 
-1. Kimenő lista: mit viszünk át pontosan.
-2. Visszaállási terv: ha félremegy, hogyan állunk vissza 30-60 perc alatt.
-3. Operációs lista: cronok, rutinok, napi checkek külön listán.
-4. Freeze pont: mihez nem nyúlunk a költözés napján.
+1. Pontos lista: mit viszünk át, mit nem. Nem lehet "szinte minden".
+2. Visszaállási terv: papíron, 30-60 percre tervezett. Hogy lehet visszamászni, ha félremegy.
+3. A rutin dolgok külön listán: cronok, napi checkek, ütemezett munkák. Hogy semmi ne maradjon ki.
+4. Amit nem nyúlunk a költözés napján: kritikus adatok, éppen futó projektek, ügyfél interfészek.
 
-A kényelmetlen rész: sok KKV-nál a rendszer valójában egy ember fejében él. Ez addig kényelmes, amíg az az ember elérhető. Utána drága.
+A gyakorlat azt mutatja: sok cégnél az összes rendszer egy-két ember fejében él. Ez addig működik, amíg az illető elérhető. Nem működik, ha betegszabadság, váratlan lemondás vagy stressz történik.
 
-Mit jelent ez neked KKV CEO-ként?  
-Ha jövő héten költözöl, ne technikai listával kezdj, hanem működési listával. Először azt védd, amitől hétfő reggel elindul a céged.
+Mit csinálja ebből a legjobb? Ha költöznöl, ne egy technikus listát kezdj szerkeszteni, hanem azt: milyen dolgotól függ hétfő reggel a napi működés. Azt védd meg előszőr. A többi másodlagos.
 
-> "A migráció nem projekt, hanem üzletmenet-kockázat kezelése."  
-> **VT**
+> "Költözés előtt érdemes gondolkodni rajta, mint kockázat kezelésen. Nem technikai projekten."
+> (Vincze Tamás)
 
-Kapcsolódó oldal: [Operációs stabilitás KKV-ban](https://elkezdodott.hu/operacios-stabilitas)  
-Korábbi cikk: [Miért égnek el a csendes hibákban a csapatok](https://elkezdodott.hu/csendes-hibak)
+## Konkrét példa
 
-## FAQ
+Az egyik KKV, ahol ezt csináltuk, az első lépés volt: melyik 5 dolog nem működhet hétfő reggel? Ezek voltak: email jövetele, termékkatalógus, számlázó, pénztárgép adatok, ügyfél adatbázis. Erre az ötre fókuszáltunk. Minden más sokkal kevesebb volt aggodalomra okot adó.
 
-### Mi az első jel, hogy rosszul készülünk migrációra?
-Ha nincs írott visszaállási terv. Ilyenkor mindenki improvizálni fog hiba esetén.
+## Ha már túl késő: a drágább út
 
-### Mennyi előkészítés kell minimum?
-Egy kicsi rendszerhez is kell 1-2 óra strukturált listaépítés. Ezt nem lehet nullára csökkenteni kockázat nélkül.
+Aki nem tervez előre, az később drágán fizet. Tipikus forgatókönyv: pénteken költöznek, szombaton kiderül, hogy az egyik rendszer nem működik, vasárnap pánikban kezdik az improvizálást, hétfőn reggel az ügyfél fél, hogy mi a helyzet. Ez pár ezer euróba kerül, és alig állítható vissza.
 
-### Kell külön ember csak a dokumentációra?
-Nem feltétlenül, de kell egy felelős. Felelős nélkül a dokumentáció mindig "majd később" lesz.
+Az előzetes rend összerakása tart 2-3 órát. Az improvizáció miatt okozott zavar napokba, hetekbe kerülhet.
+
+---
+
+*Draft státusz. Publikálás Tomi jóváhagyása alapján.*
 
 ## 2026-os relevancia frissítés
-Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
 
+Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.

@@ -11,42 +11,54 @@ tags:
 - KKV
 - automatizálás
 slug: non-coders-szuperhatalom
-status: humanize_ready
+status: draft
 id: elkezdod
 content_type: article
 created_at: '2026-05-25'
 updated_at: '2026-05-28T09:19:03.187458+00:00'
 ---
 
-Három hónapja még azt hittem, hogy az AI-automatizáláshoz kódolástudás kell. Tévedtem.
+Három hónapja még azt gondoltam, hogy ha valakinek kódolástudása nincs, az AI-vel nem tud majd automatizálni. Tévedtem, és ezt most szeretném megosztani.
 
-## A kísérlet
+## Mi történt
 
-Kipróbáltuk: adtunk egy non-coder csapattagnak egy AI eszközt és egy konkrét feladatot. Content pipeline, automatikus státusz riport, sablon generálás. Eredmény: 2-3 óra munkával heti 5 óra megspórolva.
+Lett egy olyan csapattagunk, aki nem programozó. De voltak ismétlődő feladatai: heti riport összeállítása, sablon kitöltés, státusz szövegek generálása. Gondolkoztunk: lehet-e ezt valahogy gyorsabbá tenni?
 
-Fejlesztő nem kellett hozzá. Csak egy eszköz és 20 perc beállítás.
+Próbára adtunk neki egy AI eszközt (Claude, illetve később Cursor). Leírta azt, amit szeretne, egy templáttal, és az AI azt elkészítette. Heti 5-6 óra munka abból 2 lett.
+
+Fejlesztő nem kellett. Csak egy jó eszköz és 20 perc beállítás.
 
 ## Miért működik
 
-Az AI eszközök (Cursor, Claude, Google AI Studio) ma már annyira felhasználóbarátok, hogy ha meg tudod fogalmazni, mit akarsz -- meg is kapod. A skill a precíz kérdezés, nem a programozás.
+Az AI eszközök ma már annyira emberközpontúak, hogy nem kell tudnod, hogyan működik belül. Ha azt tudod elmagyarázni, mit szeretnél és milyen formátumban, az AI azt megcsinálja. Ez nem fejlesztőmunka. Ez precíz kommunikáció.
 
-## Konkrét lépések, ahogy mi csináltuk
+## Gyakorlati lépések, ahogy mi csináltuk
 
-1. Azonosítottuk az ismétlődő, kiszámítható feladatot (heti riport)
-2. Leírtuk pontosan, mi az elvárt output
-3. Kipróbáltuk Claude-dal, majd Cursorral
-4. 20 perc beállítás, 5 perc hetente futtatás
+1. Megnéztük az ismétlődő feladatokat (minden héten egyforma riport volt).
+2. Leírta, mit szeretne látni az outputban (táblázat, szöveges összefoglalás, stb.).
+3. Megmutattuk neki a Claude webinterfészét.
+4. A gép elkészítette az első verzió promptot és a templátot.
+5. Hetente egyszer 5 percbe kerül futtatni.
 
-## A tanulság
+Ez nem magic. Ez munkafolyamat-design.
 
-A csapatod legköltségesebb erőforrása az idő. Ha egy AI eszköz 5 órát spórol hetente -- az 20 óra havonta. Hány ilyen feladat van nálad?
+## A valódi tanulság
 
-Kezdj el egyel. Nem kell forradalmat csinálni. Csak egy feladat, egy eszköz, egy kolléga.
+Az idő a legtöbb KKV-ban a legdrágább erőforrás. Ha egy AI-vel hetente 5 órát megtakaríthatsz, az 20 óra havonta. Mennyi ilyen feladat lehet még a cégedben?
+
+Nem kell nagy forradalom. Egy feladat, egy eszköz, egy kolléga. Többit majd lát.
+
+> "Az AI nem a programozóké. Az ideje annak, aki tudja használni."
+> (Vincze Tamás)
+
+## Mellesleg
+
+Mi olyan másként csináltuk, mint a legtöbb cég? Nem rettegünk attól, hogy az AI felváltja a dolgozókat. Hanem azt gondolkoztunk: ha az AI ezt végzi, az ember mit csinálhatnék helyette ami fontosabb? A válasz egyből érdekes lett.
 
 ---
 
 *Draft státusz. Publikálás Tomi jóváhagyása alapján.*
 
 ## 2026-os relevancia frissítés
-Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
 
+Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
