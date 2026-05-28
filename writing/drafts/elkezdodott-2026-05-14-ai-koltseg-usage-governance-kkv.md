@@ -3,7 +3,7 @@ title: 'Az AI költség nem modellár: usage-fegyelem nélkül elúszik a büdzs
 date: 2026-05-28
 site: elkezdodott
 slug: ai-koltseg-usage-governance-kkv
-status: humanize_ready
+status: draft
 quality_score: 5/5
 created_at: '2026-05-14'
 updated_at: '2026-05-28T09:30:02.077615+00:00'
@@ -11,22 +11,24 @@ id: elkezdod
 content_type: article
 ---
 
-A legtöbb KKV-nál nem a modelllista, hanem a kontroll hiánya drágít. Ha nincs usage-limit, jogosultsági rend és folyamatnapló, az AI számla csendben felkúszik. A megoldás: governance, nem újabb modellteszt.
+Az AI-t drágának gondoljuk, de gyakran nem a technológia a baj, hanem az, hogy semmi nem szabályozza a használatát. Ha bárki akárhány feladatot rábízhat az AI-ra, anélkül hogy valaki figyeli, akkor a hónap végén jön a vesze a számla.
 
-## Mit jelent ez egy KKV CEO-nak?
-CEO szinten ez operációs kérdés. Ugyanaz a modell lehet profitgép vagy pénznyelő attól függően, van-e szabályrendszer körülötte. Költségfék nélkül az agent szépen dolgozik, csak közben eszi a marginod.
+## Mit jelent ez a gyakorlatban?
+CEO-ként ezt így gondoljuk: az AI egy gyártósor szekció. Ha nincs nyersanyag-szabályozás és nincs teljesítménymérés, akkor az önköltség repül az égbe. Az AI ugyanez. Ugyanaz az eszköz lehet hasznos vagy költséges, attól függően, hogy van-e mögötte fegyelem.
 
-## Mit csinálj hétfő reggel?
-Vezess be három kötelező elemet: (1) budget cap folyamatonként, (2) jogosultság role alapon, (3) heti usage review. Ezzel már az első hónapban látszik, melyik automatizmus hoz pénzt és melyik viszi.
+## Mit tegyél konkrétan?
+Hagyjuk az elmélkedéseket. Vezessünk be három pont: (1) egy költségkeret feladattípusonként, (2) senki sem használhatja szabadon, és (3) hetente nézzük meg: mivel költöttünk a legtöbbet. Már az első hónapban látni fogjuk, melyik automatizáció visz, és melyik hozza a pénzt.
 
-## Gyakori hibák
-Hiba, amikor a csapat még egy erősebb modell megoldásban gondolkodik. Nem modellprobléma van, hanem rendszerprobléma: nincsenek guardrailek, nincs ownership, nincs visszamérés.
+## Mit szoktunk elrontani?
+A klasszikus hiba: azt gondoljuk, hogy egy drágább AI-modell majd megoldja a gondot. De ha a gyakorlat nem szabályozott, akkor még többet költünk azután. Az igazi probléma nem a modell, hanem az, hogy nincs mögötte kontroll és felügyelet.
 
-## FAQ
-- **Mennyi idő ezt bevezetni?** Kicsiben 1-2 nap, nagyobb folyamatokra 1-2 hét.
-- **Mit mérjek először?** Költség/feladat, sikerarány, és emberi utánmunka ideje.
-- **Kell ehhez enterprise stack?** Nem. Egyszerű log + budget szabályokkal is már nagyot javulsz.
+## Praktikus kérdések
+**Mennyi időt vesz igénybe?** Kicsiben kezdve egy nap vagy kettő, ha már nagyobb folyamataink vannak, akkor egy-két hét.
 
-## 2026-os relevancia frissítés
-Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
+**Mit nézzük meg először?** Azt, hogy egy feladat mennyibe kerül, milyen gyakran sikerül, és utána mit kell még kézzel megcsinálni.
+
+**Szükség van-e drága szoftver erre?** Nem. Egy egyszerű naplófájl és egy költségkorlát már nagy előrelépés.
+
+## Miért ez aktuális?
+Most, hogy az AI integráció gyorsan halad, az igazi verseny nem a technológiáért van, hanem az intelligens felhasználásáért. Aki tudja, hogy a költségét kontrollálja, az lép sokat előre.
 

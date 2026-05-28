@@ -3,7 +3,7 @@ title: 'Computer-use vs API: hol folyik el a pénz a KKV automatizálásban?'
 date: 2026-05-30
 site: elkezdodott
 slug: computer-use-vs-api-koltseg-kkv
-status: humanize_ready
+status: draft
 quality_score: 5/5
 created_at: '2026-05-07'
 updated_at: '2026-05-28T09:30:02.076039+00:00'
@@ -11,22 +11,24 @@ id: elkezdod
 content_type: article
 ---
 
-Ha ugyanazt a feladatot API-n oldod meg, sokszor töredék áron fut, mint computer-use módban. A KKV nem demo-t vesz, hanem stabil működést. Először adatkapcsolat, webhook, API, és csak utána vision fallback.
+Egy automatizáció két módon működhet. Az egyik: az AI elképzeli, hogy ő, vagy az ember, és kattintgat a képernyőn ("computer-use"). A másik: az adatok közvetlenül jelen vannak, és az AI veleszerzett szabályok alapján dolgozik ("API"). A másik olcsóbb. A KKV-nak nem az a kérdés, hogy melyik közegesebb, hanem hogy melyik marad még havi szinten is költséghatékony.
 
-## Mit jelent ez egy KKV CEO-nak?
-A fő döntés nem a modell neve. A fő döntés az, hogy a folyamat mennyire strukturált. Ha a rendszer kattintgatást imitál, drágább és sérülékenyebb. Ha API-t használ, olcsóbb, mérhetőbb, auditálhatóbb.
+## Mit jelent ez gyakorlatban?
+A döntés nem a szoftvérnévről szól, hanem arról, hogy az adat mennyire rendezett. Ha vannak tiszta adatok és szabados kapcsolatok, akkor az API mód olcsóbb és megbízhatóbb. Ha az adat zavaros, vagy a folyamat kaotikus, akkor a képernyő-automatizáció mögött "szépítő közelete" az, hogy nem kellett átalakítani észszet.
 
-## Mit csinálj hétfő reggel?
-Válassz ki 3 visszatérő folyamatot (pl. ajánlat, státuszfrissítés, riport). Mindenhol írd le: input, output, trigger. Ahol lehet, válts API/webhook útra. Ahol nem lehet, ott marad computer-use backupként.
+## Mit csinálj konkrétan?
+Válassz ki 3 rendszeres feladat (ajánlat, státusz, riport). Minden egynél: mit adunk be, mit kell kijönie, mikor kell futnia. Ahol az adat tiszta, használj közvetlen kapcsolatot. Ahol nem, ott okés, a képernyő-mód fallback marad.
 
-## Gyakori hibák
-Gyakori hiba, hogy a csapat UI-automationnel indul, mert látványos. Rövid távon gyors, hosszú távon drága. Másik hiba: nincs költségmérés task szinten, ezért a hónap végén derül ki a probléma.
+## Mit szoktunk elrontani?
+Az egyik ütközés: láttunk egy könnyed demonstrációt, ahol az AI kattintgat, és azt gondoltuk, hogy az a mérték. De hosszú távon draga és sérülékeny. A másik hiba: nincsenek költségnapló feladataranként, szóval a hónap végén ésszet vesz előtünket a számla.
 
-## FAQ
-- **Nem jó a computer-use?** De, jó fallbackként. Core folyamatra viszont drága és törékeny tud lenni.
-- **Mi a minimum kontroll?** Task-level logging, költség limit, és heti top-10 legdrágább futás lista.
-- **Hol kezdjem?** Ott, ahol magas az ismétlődés és stabil az adatstruktúra.
+## Gyakori kérdések
+**De az átalakítás nem drága?** Lehet, de egy jó API-csatorna bevezetése több pénzt spórol, mint amit elköltünk a felépítésén.
 
-## 2026-os relevancia frissítés
-Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
+**Mi a "minimum vigyázat" itt?** A legfontosabb: mérjük, hogy egy feladat mennyibe kerül, és felül monitorozzuk a havi Top 10 legdrágábbat.
+
+**Hol kezdjek a legövenesebben?** Ott, ahol egy rutin újra és újra ismétlődik, és az adatok kerek számon vannak.
+
+## Miért lesz ez fontosabb?
+Mint az AI-kiadások nőnek, az intelligens kiválasztás lesz az igazi kompetitív előny. Egy olyan KKV, amely tudja, hogy adatok alapján építi fel az automatizációit, sokkal olcsóbban és biztonságosabban fog haladni, mint aki csak UI-t automatizál.
 

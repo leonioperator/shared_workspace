@@ -3,7 +3,7 @@ title: 'Agent workspace verseny: mit jelent a Google Spark egy KKV-nak?'
 date: 2026-06-01
 site: elkezdodott
 slug: agent-workspace-verseny-kkv
-status: humanize_ready
+status: draft
 quality_score: 4/5
 created_at: '2026-05-21'
 updated_at: '2026-05-28T09:30:02.078943+00:00'
@@ -11,22 +11,24 @@ id: elkezdod
 content_type: article
 ---
 
-Ha a nagy platformok beépítik a 24/7 agentet a saját ökoszisztémába, a KKV döntése már nem az, hogy kell-e AI, hanem az, hogy hol marad nálad a kontroll. Sebesség kell, de lock-in nélkül.
+Egyre több platform (Google, Microsoft, stb.) építi be az AI-agentet a saját eszközeihez. Ez gyors és kényelmes. De egy KKV-nak ésszerű kérdés: mit nyerünk, ha rá vagyunk függve egy szállítótól? Az valódi választás nem az, hogy kell-e AI, hanem az, hogy mennyire kötjük magunkat egy platformhoz.
 
-## Mit jelent ez egy KKV CEO-nak?
-A valódi kérdés: ki birtokolja az adatfolyamot és az automatizmus szabályait. Ha minden egy platformon belül van, gyorsabb az indulás, de nehezebb a migráció. KKV-ként ez stratégiai kockázat.
+## Mit jelent ez gyakorlatban?
+Konkrét szinten: ha az összes adat és szabály egy platformon élnek, akkor gyors az indulás. De ha később szeretnénk változtatni, magas a költsége. Ez KKV-nak rossz helyzet, mert kevésbé tudjuk majd lepakolni, ha szükséges.
 
-## Mit csinálj hétfő reggel?
-Rövid távon csinálj hibrid felállást: kritikus folyamatoknál vendorfüggetlen interfész, nem kritikusnál platform-native gyorsítás. Így marad mozgástered, miközben haladsz.
+## Mit csinálj a gyakorlatban?
+Hagyjuk az extremitásokat. A kritikus folyamatainkba építsünk be kevés "kötni való" pontot (gondoljuk úgy, mint a biztosítékok az ésszerűségünkre). A kevésbé kritikus helyeken pedig nyugodtan használjuk a platform-specifikus megoldásokat. Így haladunk gyorsan, de nem zárkózunk be teljesen.
 
-## Gyakori hibák
-Hiba, ha a csapat egy kattintásos csoda ígéretre mindent átköltöztet. A másik véglet is hiba: túlzott óvatosság miatt nem indulsz el. A jó út: kontrollált pilot, mérés, fokozatos skálázás.
+## Mit szoktunk elrontani?
+Az egyik véglet: meghallunk egy platformról szóló jó hírt, és azonnal oda költöztetünk minden folyamatot. A másik véglet: annyira óvatosak vagyunk, hogy sosem indulunk el. Az igazi megoldás a kettő között van: próbáljunk meg mit, és ha működik, növeljük a szerepét.
 
-## FAQ
-- **Mikor érdemes platformra építeni?** Ha gyors piacra lépés fontosabb, mint az azonnali portabilitás.
-- **Mikor kell vendorfüggetlen réteg?** Ha üzletkritikus folyamatot futtatsz és hosszú távú alkupozíció kell.
-- **Mi legyen az első pilot?** Egy közepes kockázatú, jól mérhető, heti ismétlődő folyamat.
+## Tipikus kérdések
+**Mikor érdemes egy platformra fókuszálni?** Ha gyorsaság a lényeg, és tudjuk, hogy később mozogni kell tudni.
 
-## 2026-os relevancia frissítés
-Ez a cikk tartalmilag továbbra is releváns az aktuális AI-piaci helyzetben is. A fókusz ma: költségkontroll, adatminőség, workflow-governance, és vendorfüggetlen működés. A példák időközben változhatnak, de a vezetői döntési keret és a megvalósítási logika ma is érvényes.
+**Mikor kell óvatosabbnak lenni?** Ha olyan folyamatról van szó, ami az üzletünk szíve. Ott vagy több szállító, vagy legalább egy jó kiálló ajtó.
+
+**Mit próbáljunk meg először?** Valami, ami csinálja, nem a végzet, de látni lehet, hogy működik-e. Mondjuk egy adminisztratív rutin vagy egy riportgenerálás.
+
+## Miért számít most ez?
+Az AI egyre jobban beszivárog az üzletekbe, és egyre több szállító kínál "all-in-one" megoldást. A cél nem az, hogy lemaradunk, hanem az, hogy mi határozzuk meg a sebességet, nem a szállító.
 
