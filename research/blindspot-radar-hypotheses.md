@@ -1,5 +1,5 @@
 # Blindspot Radar — Scored Hypothesis List
-Last updated: 2026-05-24
+Last updated: 2026-05-28
 
 
 ## H70 - Agentic Copyright & Data Provenance Chain (Training + Output Attribution)
@@ -95,6 +95,44 @@ Last updated: 2026-05-24
 **Assessment:** Ez H6/H11 mélyebb működési rétege. Nem csak policy rule kell, hanem ellenőrzési gazdaságtan: mikor éri meg az agentnek vagy auditor agentnek elcsalni, kihagyni, vagy formálisan kipipálni a kontrollt. Navibase: belső reliability metrika lehet, később enterprise evidence elem.
 **Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=4 | IntFric=4 | **Total: 19/25**
 *Új hypothesis (2026-05-07). Az oversight incentive nézőpont fontos, mert a compliance checkbox különben könnyen performatív kontrollá válik.*
+
+## H90 - Multi-Agent Debate for Autonomous Research & Failure Transformation
+**Thesis:** Az agentek kutatási és döntési pipeline-jaiban a multi-agent debate csökkenti a hallucination-t és a validation bias-t. Az AutoResearchClaw konkretizálja: structural multi-agent debate → result analysis → failure transformation (Pivot/Refine loop), cross-run evolution, és human-in-the-loop collaboration at high-leverage decision points. Ez a felhalmozódó tapasztalat alapján javítja az output és csökkenti a felfújt claims-et.
+**Signals (updated 2026-05-28):**
+- AutoResearchClaw: Self-Reinforcing Autonomous Research with Human-AI Collaboration (arXiv, 2026-05-19, Deep Score 0.4): explicit multi-agent debate framework, failure transformation, verifiable result reporting, és structured collaboration. https://arxiv.org/abs/2605.20025. HIGH CONFIDENCE.
+**Assessment:** Ez az agent döntéshozatal validálásában új kategória: nem solo agent hallucination, hanem multiple debate perspective + structured failure recovery. Navibase alkalmazás: high-cost/high-stakes decisions (strategy, research, proposal generation) multi-perspective review + failure-to-guardrail conversion.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-05-28). Az AutoResearchClaw jelzi, hogy a multi-agent debate alapú validation független termékkategóriává válik.*
+
+## H91 - Learned Auction-Consensus for Multi-Agent Task Allocation
+**Thesis:** Nagyszámú, hasonló agentek kooperatív task allocation-nél az auction-consensus algoritmusok (CBBA + learned bidding with neural policy) olcsóbbak és skálázhatóbbak, mint centralizált scheduler. A learned bidding policy (RL-trained) jobb outcomes-ot ad, mint hand-crafted scoring, és decentralizált execution-t megtart.
+**Signals (updated 2026-05-28):**
+- Auction-Consensus Algorithm with Learned Bidding Scheme for Multi-Robot Systems (arXiv, 2026-05-21, Deep Score 0.3): explicit learned auction-consensus framework, RL-trained bidding policy, centralized training + decentralized execution paradigm. https://arxiv.org/abs/2605.21932. HIGH CONFIDENCE.
+**Assessment:** Ez a multi-agent orchestration (H84) és decentralized governance szintjén az allocation mechanikát hatékonyabbá teszi. Egy agentek által megbízott marketplace (pl. vendor payout, task routing) auction alapokra építhető. Navibase: marketplace vagy multi-tenant agent deploymentnél task fairness + efficiency design.
+**Scores:** Pain=3 | Urgency=3 | WTP=4 | Def=2 | IntFric=2 | **Total: 14/25**
+*Új hypothesis (2026-05-28). A learned bidding minta azt jelzi, hogy az allocation AI-szintű optimizációváé válik, nem kézzel kódolt szabályévé.*
+
+## H92 - Epistemic Independence in Human-AI Collaboration (Anti-Sycophancy Framework)
+**Thesis:** Az agentek kontextusosan empatikusak: ha a user rossz inputot ad vagy félreértelmez valamit, az agent azt tükrözi vissza helyett korrigálni vagy kérdezni. Ez "contextual sycophancy"-t hoz létre, ahol az agent a user reasoning errors-t amplifikálja az assistance helyett. Az intervention: AI literacy + prompting skills + system-level independence design (rubric-based, explicit dissent mode, evidence citation).
+**Signals (updated 2026-05-28):**
+- The Hidden Cost of Contextual Sycophancy: an AI Literacy Intervention in Human-AI Collaboration (arXiv, 2026-05-18, Deep Score 0.2): explicit sycophancy pattern recognition, user error propagation, intervention study results. https://arxiv.org/abs/2605.18372. HIGH CONFIDENCE.
+**Assessment:** Ez a decision quality (H71/H72) és user trust (H87) metszete: az agent nem feltétlenül alignment/safety issue, hanem collaboration pattern problem. Navibase: high-risk domains-ben (healthcare, legal, financial) explicit anti-sycophancy mode, ahol az agent evidence-based disagreement-et képes artikulálni.
+**Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=3 | IntFric=3 | **Total: 17/25**
+*Új hypothesis (2026-05-28). Az anti-sycophancy framing az agent feedback-et "yes-man optimization" helyett epistemic quality-vé emelik.*
+
+## Top 3 Opportunities + Suggested Experiments (2026-05-28)
+
+### #1: H90 - Multi-Agent Debate POC for High-Stakes Decisions
+**Miért most:** Az AutoResearchClaw 0.4 deep score + 54.7% AI Scientist v2 felülmúlás konkrét bizonyíték, hogy a multi-agent debate validálási értéket ad. Az SMB-nél a "second opinion" trustworthinessé válik.
+**Kísérlet:** 3 napi development: egy complex Leoni task (pl. strategic recommendation) 3-agent debate framework-be implementálása (propose → critic → synthesizer). Output: debate transcript + consensus decision + dissent log + confidence score.
+
+### #2: H92 - Anti-Sycophancy Mode Demo (Epistemic Independence)
+**Miért most:** A contextual sycophancy paper azt jelzi, hogy az agent "agreement bias" mérhetően csökkenti a decision quality-t. Ez a trust problem, amit gyorsan lehet demonstrálni.
+**Kísérlet:** 2 napos POC: Leoni recent task, ahol corrigible missunderstanding-et teszteltünk. Replay: default mode vs. explicit anti-sycophancy mode (evidence-citing, disagreement flag). Output: failure rate comparison + user perception survey.
+
+### #3: H91 - Marketplace Task Allocation Proof (Auction-Based Fairness)
+**Miért most:** A learned auction-consensus paper konkrét, implementálható, és a Solana + blockchain payment convergency-vel (H77) összeér.
+**Kísérlet:** 1 hetes mini-research: mock marketplace scenario (3-5 agent vendor task allocation) CBBA vs. learned bidding comparison. Output: fairness metrics (task distribution, efficiency) + deployment architecture draft.
 
 ## Top 3 Opportunities + Suggested Experiments (2026-05-22)
 
