@@ -120,6 +120,61 @@ Last updated: 2026-05-28
 **Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=3 | IntFric=3 | **Total: 17/25**
 *Új hypothesis (2026-05-28). Az anti-sycophancy framing az agent feedback-et "yes-man optimization" helyett epistemic quality-vé emelik.*
 
+## H93 - Permission Fatigue UX Pattern (Agent Consent Fatigue → Silent Failure)
+**Thesis:** Az 'Continue? Y/N' game explicit: az approval-loop agentekre sok interactive gate → user méginkább csak kattintgat. A közvetlen kockázat: silently fail (user végül kattintgat, amit nem akart) vagy agent output avoidance (agent biztonságosan alulmúködik, de így is "jó" feedback). A framing: permission fatigue a sycophancy (H92) testvér-problémája.
+**Signals (updated 2026-05-29):**
+- Show HN: Continue? Y/N: A 60-second game about AI agent permission fatigue (2026-05-28): explicit UX pattern recognition, hogy az interactive gates mentálisan terhelőek és hibás döntéseket vezetnek. https://llmgame.scalex.dev. HIGH CONFIDENCE.
+**Assessment:** Ez a H66 (oversight incentive) negatív irányítása: az audit design "lusta" kezelkedésre tanít, nem vigilant-ra. Navibase: compound approval design (confidence-based gating, batching, progressive disclosure) közvetlen trust-improvement eszköz.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-05-29). Az UX-pattern game a permission fatigue-t user behavior szintről jól világította meg.*
+
+## H94 - Conversational Proactive Agent Marketplace (iOS/Mobile-First)
+**Thesis:** A Sesame iOS app jelzi: agentek egyre inkább mobile-first, back-and-forth conversational, és proactive suggestion-alapúak. Ez az eltolódás az agent UX-ot nem "command line"-ból "always-on chat"-ba tolja. A marketplace implicits: ha az iOS App Store agent-ek disztribúciót nyit meg, akkor mobile-first agentek scale-eznek, és az attribúciós/revenue split (H67) máshogy működik.  
+**Signals (updated 2026-05-29):**
+- Sesame, the conversational AI startup from Oculus founders, launches its iOS app (TechCrunch, 2026-05-28): explicit iOS distribution, conversational + proactive, "feel less like chatbots and more like talking to a person". HIGH CONFIDENCE.
+**Assessment:** Rokona H68 (proactive agentek), de UX/distribution szint. Az SMB-nél "mobil-ready agent" packaging + consent mechanism (H44) lesz a table-stakes, mert a customer-facing agent workflow többsége már mobile.
+**Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=2 | IntFric=3 | **Total: 16/25**
+*Új hypothesis (2026-05-29). A Sesame az iOS App Store distribution wave-et szimbolizálja.*
+
+## H95 - Autonomous Capability Evolution via Feedback Loop (Self-Improving Agentic Systems)
+**Thesis:** A CoreWeave "autonomous improvement capabilities" azt jelzi: az agentek nem statikus model-wrapper, hanem feedback (agent output performance, user feedback, operational metrics) alapján evolváló rendszerek. A beavatkozás pont: mikor és hogyan tanul az agent a feedback-ből, és ki kontrollálja a capability shift-et. Ez nagyobb autonomy-t ad az agentnek, de új governance szükséges (versioning, rollback, approval gate agent evolution-re).
+**Signals (updated 2026-05-29):**
+- CoreWeave introduces autonomous improvement capabilities for AI agents (2026-05-28): explicit "agent improve themselves based on feedback" feature. https://news.google.com/rss/articles/CBMipgFBVV95cUxPQWFDU0JEb0VKSGRCS0Q4OWk2T3lRY2lqWHZrQ1ZPbnJKZE85QlRDQWlOUHVWcU1UWTV0UkVkRzA4VGJuaGYwbzRKc08zbENnWF9RMEM0WnYwNVB6aEJDaEs3X211UmxIZWJRR1gtTjF5QjlHSnM2RnBQdzRzZnBmMHV3cVBkZW1xdzhrekJuVXBfN2xHNjVzMHl1N0htODhreWNJd0d3?oc=5. HIGH CONFIDENCE.
+**Assessment:** Ez a H6 (policy enforcement) és H32 (auto-patching) mögé egy emberi és operational layer: agent can evolve, de evolve-nek is tudniuk kell a bounds-ok. Audit trail az evolution-re szigorúbb, mert az output behavior shift nem az "explicit update" hanem a "learned change" miatt keletkezik.
+**Scores:** Pain=5 | Urgency=4 | WTP=4 | Def=4 | IntFric=4 | **Total: 21/25**
+*Új hypothesis (2026-05-29). Az autonomous improvement jelzi: agent lifecycle kontrol egy szinttel magasabbra tolódik (nem deployment, hanem runtime behavior shift).*
+
+## H96 - Financial Agent Trading Regulation & Liability (Robinhood Pattern)
+**Thesis:** A Robinhood agentic trading (agent = principal, autonomous trade execution) jelzi: a pénzügyi regulátor (SEC, FINRA) explicit agent policy-t kell építsen. A kérdés: ki felel a trade-ért, ha az agent "tévesztett", mi az approval chain, és mi az audit trail? Ez a H69 (regulated verticals) financia-specifikus megjelenése, de magasabb autonomy szint (trade execution, nem recommendation).
+**Signals (updated 2026-05-29):**
+- Robinhood now lets your AI agents trade stocks (TechCrunch, 2026-05-27): explicit agent autonomous trading execution (not just recommendations), user agent can "read and analyze portfolios to come up with trading strategies". HIGH CONFIDENCE.
+**Assessment:** Ez a H63 (legal entity boundary) és H69 (regulated verticals) konvergenciája. Az SMB-nél nem közvetlenül (trading), de a pénzügyi automatizálás (AP/AR agentek) ugyanezzel az audit/liability kérdéssel szembesül. Navibase: "financial agent audit readiness" bundle (approval flow + decision transcript + rollback capability).
+**Scores:** Pain=5 | Urgency=4 | WTP=5 | Def=4 | IntFric=4 | **Total: 22/25**
+*Új hypothesis (2026-05-29). A Robinhood agentic trading precedens: agent autonomy + financial execution = explicit regulatory framing szükséges.*
+
+## H97 - Large-Scale Agentic Infrastructure Economics (AWS/Cloudflare Redesign + Compute Deal Scale)
+**Thesis:** Az Amazon/Snowflake $6B deal + "internet is being rebuilt for machines" signal konvergál: agentic workload méretezhető (AWS redesigning cloud infra), komputálódó (Anthropic/SpaceX szintű), és szakterületi (healthcare, finance, ops). Ez az infrastruktúra szint, ahol az ár/teljesítmény a kritikus, és ahol új "agentic pricing model" bejöhet (pay-per-action, per-hour standby, oversubscribed reasoning).
+**Signals (updated 2026-05-29):**
+- The internet is being rebuilt for machines (TechCrunch, 2026-05-28): AWS, Cloudflare redesigning for "machine-generated internet traffic" instead of humans. HIGH CONFIDENCE.
+- Amazon Strikes $6B Deal with Snowflake for Agentic Computing Chips (WSJ, 2026-05-28): explicit infrastructure investment in agentic workload acceleration. HIGH CONFIDENCE.
+**Assessment:** Ez a H4 (micropayments) és H76 (harness integration) feletős pénzügyi/infra réteg. Navibase-nél: nem közvetlenül termék, de a "cost per agent run" és "infrastructure amortization" narratíva kereslet-driver lehet.
+**Scores:** Pain=3 | Urgency=4 | WTP=4 | Def=2 | IntFric=2 | **Total: 15/25**
+*Új hypothesis (2026-05-29). Az infra deal-ek azt jelzik: agentic workload szintű felépítmény (pricing, orchestration) formálódik.*
+
+## Top 3 Opportunities + Suggested Experiments (2026-05-29)
+
+### #1: H95 - Autonomous Capability Evolution POC (Self-Improving Agent Guardrails)
+**Miért most:** A CoreWeave signal azt mutatja, hogy az agentek már tanulnak feedback-ből, azaz az agent behavior shift nem csak deployment+update, hanem runtime learning. Kell versioning + audit + rollback capability az evolution-re.
+**Kísérlet:** 3 nap: egy Leoni task-ra "evolution checkpoint" system beépítése (behavior version, feedback log, revert capability). Output: checkpoint manifest + evolution audit log + rollback demo.
+
+### #2: H93 - Permission Fatigue UX Redesign (Confidence-Based Gating)
+**Miért most:** Az UX game explicit problem-et mutatott: sok approval → user behavior shift (lazy clicks). Ezt reverse-engineeri lehet: high-confidence decisions auto-approve, low-confidence batched approval.
+**Kísérlet:** 2 nap: egy approval-heavy Leoni workflow reprisi confidence scorer-rel. Output: approval reduction % + user friction score comparison (baseline vs. confidence-gating).
+
+### #3: H96 - Financial Agent Audit Readiness Template (Robinhood Fallout)
+**Miért most:** Robinhood agentic trading precedens: regulátorok már agentic financial actions-zt kezelnek. Az SMB pénzügyi automation (AP, AR, invoice) ugyanez audit igényt generálja.
+**Kísérlet:** 2 nap: AP approval workflow agentic szint mappálása audit template-re (decision approval, transcript, reversibility). Output: 1 oldalas readiness checklist + sample audit export.
+
 ## Top 3 Opportunities + Suggested Experiments (2026-05-28)
 
 ### #1: H90 - Multi-Agent Debate POC for High-Stakes Decisions
