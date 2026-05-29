@@ -1,21 +1,20 @@
 ---
-title: Migráció előtt rend, különben hétfőn káosz
+content_type: article
+created_at: '2026-02-21'
 date: 2026-06-20
-site: elkezdodott.hu
 description: A költözés nem másolásról szól, hanem arról, hogy mi marad ki. KKV vezetőknek
   gyakorlati keret a biztonságos átálláshoz.
+id: elkezdod
+site: elkezdodott.hu
+slug: migracio-elotti-rend
+status: publish_failed
 tags:
 - KKV
 - rendszer
 - migráció
-slug: migracio-elotti-rend
-status: publish_ready
-id: elkezdod
-content_type: article
-created_at: '2026-02-21'
-updated_at: '2026-05-28T09:19:03.187458+00:00'
+title: Migráció előtt rend, különben hétfőn káosz
+updated_at: '2026-05-29T06:03:02.820118+00:00'
 ---
-
 A rendszer költözés nem az adatmozgatás során történik, hanem az után. Ekkor derül ki, hogy valaki elfelejtett egy beállítást, egy jogosultság elmaradt, vagy egy rutinfeladat nincs dokumentálva. Egy kisebb cégnél ez egyből működési zavart tud okozni. Ezért érdemes előtte tisztázni, hogy mi megy, mi marad, és hogyan állunk vissza, ha baj van.
 
 A legtöbb esetben ott csúsznak el a dolgok, hogy a "majd beállítjuk" úgy hangzik, mint egy terv. De valójában nem az.

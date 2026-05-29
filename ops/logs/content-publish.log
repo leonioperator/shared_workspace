@@ -27,3 +27,8 @@
 [2026-05-27 06:03:01 UTC] autopublish: nincs publish_ready draft
 [2026-05-28 06:03:02 UTC] autopublish: nincs publish_ready draft
 [2026-05-28 08:13:32 UTC] autopublish: nincs publish_ready draft
+[2026-05-29 06:03:02 UTC] autopublish FAIL: elkezdodott-2026-02-21-migracio-elotti-rend.md — Command failed: git push origin main
+stdout: 
+stderr: error: src refspec main does not match any
+error: failed to push some refs to 'github.com:vincze-tamas/elkezdodott.hu.git'
+
