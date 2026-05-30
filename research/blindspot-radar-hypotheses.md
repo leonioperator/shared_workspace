@@ -472,6 +472,44 @@ Last updated: 2026-05-28
 **Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
 *Új hypothesis (2026-05-27). Az 754 skills framework azt jelzi, hogy az agent capability-k standardizálódó inventory-ként kezdenek működni.*
 
+## H98 - Agent Adoption Failure Patterns & Recovery Framework (Gartner Demotions)
+**Thesis:** A Gartner bejelentése (40% of Enterprises Will Demote or Decommission) jelzi, hogy az agent adoption nem lineáris adoption curve, hanem **U-shaped**: kezdeti hype → realitás check → 40% decommission (rossz use case, Trust gap, integration pain, cost-benefit hiány). Az opportunity: az agentic failure post-mortem-ek struktúrálása, recovery pathway-k (redeployment, guardrail adjustment, use case pivot), és a "what went wrong" minták dokumentálása. Az SMB szint: ez a debido diligence input lehet: "ezek a tipikus demotion okok, kerüljük el".
+**Signals (updated 2026-05-29):**
+- 40% of Enterprises Will Demote or Decommission Autonomous AI Agents (Gartner, 2026-05-26, Deep Score 0.3): explicit precedent, governance gaps, trust failure, integration complexity cited. https://www.gartner.com/en/newsroom/press-releases/2026-05-26-gartner-says-applying-uniform-governance-across-ai-agents-will-lead-to-enterprise-ai-agent-failure. HIGH CONFIDENCE.
+**Assessment:** Bejelentés szint valida: "uniform governance" hiánya explicit gátként van nevezve. Ez a H2/H6/H38 értékajánlatát erősíti: ha az governance nincs meg, az adoption failure van. Navibase: agent deployment readiness assessment (prediction: success vs. demotion risk) + mitigation playbook lehet a sales wedge.
+**Scores:** Pain=5 | Urgency=5 | WTP=4 | Def=3 | IntFric=3 | **Total: 20/25**
+*Új hypothesis (2026-05-29). A 40% demotion adat azt jelzi, hogy az adoption failure patterns már statisztikai szinten mérhetőek.*
+
+## H99 - Agent Detectability & Adversarial Robustness (CAPTCHA-Resistant Design)
+**Thesis:** A Roundtable AI kutatása (CAPTCHAs can still detect AI agents) jelzi, hogy az agentek nem "undetectable" - léteznek behavioral és pattern-based detectors (CAPTCHA, rate limiting, intent analysis). Az agent robustness kérdése: hogyan készítsen az agent human-like, detector-resistant interacciót, egyben marad a governance control-under-policy. A kockázat: agent adversarial arms race (detector → evasion → better detector). Az opportunity: "CAPTCHA-resistance" technikai benchmark és governance point lehet (is the agent able to execute even under adversarial observation?).
+**Signals (updated 2026-05-29):**
+- CAPTCHAs can still detect AI agents (Roundtable AI, 2026-05-27): explicit detectability study, behavioral patterns vs. CAPTCHA. https://research.roundtable.ai/captchas-detect-ai/. HIGH CONFIDENCE.
+**Assessment:** Ez a H22 (threat detection) és H35 (agent resilience) fordított oldala: agentek hogy "adversarial environment-ek ellenálló". Navibase: agent robustness testing (CAPTCHA resistance, rate-limit handling, intent ambiguity) szeterület lehet a quality assurance részéhez.
+**Scores:** Pain=3 | Urgency=3 | WTP=3 | Def=2 | IntFric=3 | **Total: 14/25**
+*Új hypothesis (2026-05-29). A CAPTCHA detectability azt jelzi, hogy az agent behavior forensics (mint detector) emerging field.*
+
+## H100 - Agent-Native Web Change Monitoring & Reaction Framework (Firecrawl Pattern)
+**Thesis:** A Firecrawl /monitor ("notify your AI agent when the web changes") jelzi, hogy az agentek trigger-based, event-driven rétegre tolódnak: nem "pull, then process", hanem "web observable → event → agent reaction". Ez az agent proactivity (H68) új szintje: agentek monitoroznak, nem "react on demand". A kockázat: trigger-spam, false positive reactions, kosztos processing. Az opportunity: monitoring-based agent automation az SMB-nél (price change detection, competitor news, API status monitoring, regulatory change monitoring).
+**Signals (updated 2026-05-29):**
+- /monitor by Firecrawl (Product Hunt, 2026-05-27): agent-native web monitoring, event stream, automated reaction. https://www.producthunt.com/products/extract-by-firecrawl. HIGH CONFIDENCE.
+**Assessment:** Ez a H68 (proactive agents) operacionalizálása és az event-driven agentic automation új surface. Az API event webhookok mellett a "web observable change" monitorozása (DOM change, price change, text update) új agent workflow kategória. Navibase: monitoring template library (price, status, content) + false positive suppression framework lehet a wrapper.
+**Scores:** Pain=3 | Urgency=3 | WTP=3 | Def=2 | IntFric=3 | **Total: 14/25**
+*Új hypothesis (2026-05-29). A Firecrawl monitor az agent trigger-driven event pattern-ét jelzi, mely growing adoption surface.*
+
+## Top 3 Opportunities + Suggested Experiments (2026-05-29)
+
+### #1: H98 - Agent Adoption Failure Root Cause Analysis POC (Demotion Prevention)
+**Miért most:** A Gartner 40% demotion adat explicit: az adoption failure már statisztikai szintű jelenség. Az SMB szint: prediktor modell "kiállandó use case?", mitigáció checklist. gyors trust builder.
+**Kísérlet:** 2 napi research + 2 napi POC: 5 tipikus SMB agent use case (email triage, doc summary, approval routing, invoice processing, slack automation) demotion risk scoring + mitigation checklist. Output: demotion risk matrix + playbook per use case.
+
+### #2: H99 - Agent Adversarial Robustness Benchmark (CAPTCHA Resistance Test Suite)
+**Miért most:** A CAPTCHA detectability konkrét, mérve van. Az agent quality assertion (H50) egy új dimenzió: "can the agent handle adversarial observation?".
+**Kísérlet:** 1 heti mini-research + 1 napi POC: Leoni workflow-k robustness scoring (CAPTCHA exposure, rate-limit handling, false-positive reaction). Output: robustness benchmark template + top 10 hardening candidates.
+
+### #3: H100 - Web Monitoring + Agent Trigger Integration (Event-Driven Automation POC)
+**Miért most:** Az Firecrawl monitor konkrét, és a "agent monitoring" usecase (price, status, news) gyors SMB revenue wedge.
+**Kísérlet:** 2 napi research + 2 napi POC: mock web monitoring + agent trigger (price change → email, status down → alert, competitor news → summarize). Output: trigger mapping template + 3 ready-to-use monitoring scenarios.
+
 ## Top 3 Opportunities + Suggested Experiments (2026-05-27)
 
 ### #1: H87 - Transparent Agent Decision Archive (Trust Recovery Wedge)
