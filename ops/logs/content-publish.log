@@ -32,3 +32,4 @@ stdout:
 stderr: error: src refspec main does not match any
 error: failed to push some refs to 'github.com:vincze-tamas/elkezdodott.hu.git'
 
+[2026-05-30 06:03:01 UTC] autopublish: nincs publish_ready draft
