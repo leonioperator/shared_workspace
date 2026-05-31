@@ -161,6 +161,52 @@ Last updated: 2026-05-28
 **Scores:** Pain=3 | Urgency=4 | WTP=4 | Def=2 | IntFric=2 | **Total: 15/25**
 *Új hypothesis (2026-05-29). Az infra deal-ek azt jelzik: agentic workload szintű felépítmény (pricing, orchestration) formálódik.*
 
+## H98 - Gemini Spark: Everyday Agent Automation at Scale (Consumer-Grade Agentic UX)
+**Thesis:** A Google Gemini Spark bejelentése jelzi, hogy az 24/7 autonomous agent (inbox summary, event planning, document handling) már mainstream consumer/employee feature. Az implicits: agentek már nem "expert tool" vagy "development artifact", hanem embedded operational assistant. Az SMB szintjén ez az employee agent adoption (Leoni-szerű) normalizálódása, mely felfelé tolja a governance kérdéseket: ki kontrollálja az agent-et, ha 24/7 fut és proaktívan javasol/végrehajt?
+**Signals (updated 2026-05-30):**
+- Google Gemini Spark 24/7 AI assistant (TechCrunch, 2026-05-30): everyday automation, inbox/event/document, autonomous operation. HIGH CONFIDENCE.
+**Assessment:** Ez a H68 (proactive agent) és H94 (conversational UX) fölékes: adoption szint ugrása. Az SMB-nél ez "default approval + exception override" modell erősödésére mutat.
+**Scores:** Pain=4 | Urgency=4 | WTP=3 | Def=2 | IntFric=2 | **Total: 15/25**
+*Új hypothesis (2026-05-30). A Gemini Spark adoption az employee agent normalizálódás fordulópontja.*
+
+## H99 - Enterprise Agent Governance Failure Mode (Large-Scale Decommission Pattern)
+**Thesis:** A Gartner report (40% enterprises decommission/demote autonomous agents) explicit failure mode: az approval design vagy user training nem működött. Ez nem "agentek nem jók", hanem "agentek nélkül governance = disaster". Az SMB szintjén a reverz-question: mit tanulunk a failed deployments-ből?
+**Signals (updated 2026-05-29):**
+- Gartner: 40% of enterprises will demote/decommission autonomous AI agents (2026-05-29): explicit failure statistic, governance root cause. https://www.gartner.com/en/newsroom/press-releases/2026-05-26-gartner-says-applying-uniform-governance-across-ai-agents-will-lead-to-enterprise-ai-agent-failure. HIGH CONFIDENCE.
+**Assessment:** Ez a H66 (oversight incentive) és H93 (permission fatigue) sötét oldala: ha az oversight túl nehéz, az agent-t leállítják. Navibase wedge: postmortem template, "agent governance restart" csomag.
+**Scores:** Pain=5 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 19/25**
+*Új hypothesis (2026-05-29). A decommission trend azt mutatja, hogy a governance-or-death döntési pont most érkezik el.*
+
+## H100 - Executive Domain Expertise Gap in Agent Deployment (CEO AI Psychosis)
+**Thesis:** Az Aaron Levie insight (Box): a döntéshozó nem érti, hogy az agentnek mit kell tennie, így túl autonóm vagy túl restrictív engedélyt ad. Ez szervezeti alignment probléma. Az SMB szintjén: owner/CEO és ops team közötti misalignment az agent governance kudarcainak fő oka.
+**Signals (updated 2026-05-29):**
+- Aaron Levie (Box): "The people deciding that AI can replace your job are the ones least likely to understand what your job involves" (TechCrunch, 2026-05-29): executive domain knowledge gap. HIGH CONFIDENCE.
+**Assessment:** Ez szervezeti readiness szint. Navibase: "agent governance alignment workshop" vagy "executive agent literacy" checklist. A buyer pain: "CEO azt akarja, hogy az agent 'mindent' csinálja", de valóság: "bizonyos munkafolyamatok szétválaszthatatlanak az operator jelenlététől".
+**Scores:** Pain=4 | Urgency=3 | WTP=3 | Def=2 | IntFric=4 | **Total: 16/25**
+*Új hypothesis (2026-05-29). A CEO psychosis framing azt jelzi, hogy az agent adoption szervezeti politics mező lesz.*
+
+## H101 - Event-Driven Agent Triggers (Firecrawl /monitor Pattern)
+**Thesis:** Az agentek eddig user-requested vagy scheduled módon futtak. Az új pattern: external event triggering. A Firecrawl /monitor jelzi: "notify your AI agent when the web changes". Ez azt jelenti, hogy az agent "figyeli az external state-et és csatornáz az action-hoz". Az SMB szintjén: új approval/control szükséges.
+**Signals (updated 2026-05-28):**
+- Firecrawl /monitor (Product Hunt, 2026-05-28): external event trigger for agent action. https://www.producthunt.com/products/extract-by-firecrawl. HIGH CONFIDENCE.
+**Assessment:** Ez a H68 (proactive agent) mellett egy konkrét triggering mechanizmus. Az impact: az agent "passive monitor" helyett "active responder" lesz. Governance: "mi okoz triggert, mi az auto-execute küszöb, milyen rollback".
+**Scores:** Pain=3 | Urgency=3 | WTP=3 | Def=2 | IntFric=3 | **Total: 14/25**
+*Új hypothesis (2026-05-28). Az event-driven pattern az agent execution control plane-ként jelenkezik.*
+
+## Top 3 Opportunities + Suggested Experiments (2026-05-31)
+
+### #1: H99 - Enterprise Governance Failure Mode Recovery (Postmortem + Restart)
+**Miért most:** A Gartner 40% statisztika egy felismerésre váró kategória. Egy failed deployment audit és "governance restart" template gyors Navibase win.
+**Kísérlet:** 2 napi research + 2 napi template: "agent deployment postmortem" és "governance restart checklist" egy typical failure scenario-hoz (túl sok approval, user frustration, decommission). Output: 1 oldalas postmortem template + 3 pontos restart csomag.
+
+### #2: H98 - Gemini Spark Consumer-Enterprise Bridge (Adoption Narrative)
+**Miért most:** A Gemini Spark adoption azt jelzi, hogy a consumer agent UX már standard. Az SMB owner már tudja, hogy "agent lehet", így a kérdés a szervezeti deployment-re tolódik.
+**Kísérlet:** 1 nap: Gemini Spark feature analysis + "Leoni equivalent" mapping. Output: "why Leoni is the enterprise version of Gemini Spark" positioning doc (1 oldal).
+
+### #3: H100 - Executive Alignment Workshop (CEO Domain Literacy)
+**Miért most:** Az Aaron Levie insight azt mutatja, hogy az executive buy-in az agent governance sérülésének fő oka. Szervezeti coaching opportunity.
+**Kísérlet:** 1 nap: CEO/owner kérdéssor draft ("Mit akar az agent tenni", "Ki dönt felülírásáról", "Mit nem szabad tennie"). Output: 1 lapos workshop agenda + interview template.
+
 ## Top 3 Opportunities + Suggested Experiments (2026-05-29)
 
 ### #1: H95 - Autonomous Capability Evolution POC (Self-Improving Agent Guardrails)
