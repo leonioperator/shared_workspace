@@ -1,5 +1,5 @@
 # Blindspot Radar — Scored Hypothesis List
-Last updated: 2026-05-28
+Last updated: 2026-06-01
 
 
 ## H70 - Agentic Copyright & Data Provenance Chain (Training + Output Attribution)
@@ -3265,6 +3265,50 @@ Scoring dimensions (1-5 each):
 | 24 | H9 - Agent Communication Infra | 12/25 | = |
 
 *2026-05-23 delta: 5 új hypothesis (H81-H85). Governance infrastruktúra és compliance narratívák (H2/H6/H20) dominálja a top 5-öt. Az agent orchestration themed hypotheses (H14/H82) felértékelődnek, mivel a multi-agent deployment Wave beérkezik. Az urgency mindegyik új H-nél magas: az EU AI Act deadline Aug 2026, Google/NVIDIA player moves, és SEO/SEM disruption rövid időhorizontra van.*
+
+---
+
+## H102 - Portable Agent Team Definition Schema (Dockerfile for Multi-Agent Systems)
+**Thesis:** A multi-agent rendszerek production mintává válnak, de a team definíciók ma framework-függők: role-ok, modellek, handoffok, human gate-ek, schedule-ok, access policy-k és secret injection minden runtime-ban máshogy néz ki. Kell egy hordozható, validálható agent-team manifest, amely ugyanúgy leírja az agent csapatot, mint a Dockerfile a containert: mit futtat, milyen jogosultsággal, milyen human checkpointtal, milyen network policy mellett.
+**Signals (updated 2026-06-01):**
+- Open Envelope: open JSON Schema for defining AI agent teams (2026-05-29): explicit portable schema agent definitions, supervisor/sub-agent hierarchy, human-in-the-loop gates, schedules, secrets/variables, and host-level access policies for multi-agent teams. https://openenvelope.org/docs/schema/. HIGH CONFIDENCE.
+**Assessment:** Ez a H27 (agent packaging), H42 (MCP security profiles) és H80 (state-machine runtime) gyakorlati konvergenciája. Navibase/Leoni szempontból ez közvetlenül értékes: ügyfélnél nem csak "agent van", hanem exportálható, reviewzható, verziózható agent team manifest. KKV wedge: agent governance audit indulhat egy manifest lintből.
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=4 | IntFric=2 | **Total: 18/25**
+*Új hypothesis (2026-06-01). Az Open Envelope jelzi, hogy az agent team definíciók hordozhatósága és policy-validálása külön infrastruktúra réteggé válik.*
+
+## H103 - Semantic Checkpoint Layer for Action-Outcome Fidelity
+**Thesis:** Multi-agent workflow-ban nem elég, ha az agentek kódot generálnak és toolokat hívnak. Bizonyítani kell, hogy a végrehajtott eljárás még mindig ugyanazt a döntési szándékot követi, amit a rendszer kiválasztott. A semantic drift kockázat: az agentek közötti kommunikáció, self-healing execution és retry loopok során a tényleges action eltér az eredeti stratégiától, de az output formailag sikeresnek látszik. Kell semantic checkpoint: intent, action, result és downstream evaluation összevetése.
+**Signals (updated 2026-06-01):**
+- Learning to Choose: An Empowerment-Guided Multi-Agent System with semantic communication for Adaptive Method Selection (arXiv, 2026-05-28): explicit semantic checkpoints to preserve action-outcome fidelity and prevent semantic drift in multi-agent scientific workflows. https://arxiv.org/abs/2605.30042. HIGH CONFIDENCE.
+**Assessment:** Ez mélyebb, mint sima audit log (H2/H41) vagy proof chain (H62): nem csak azt bizonyítja, hogy mi történt, hanem azt is, hogy a történés megfelelt-e a választott döntési stratégiának. Navibase alkalmazás: high-risk taskoknál "intent checkpoint" bevezetése a tool execution előtt és után, eltérés esetén human review.
+**Scores:** Pain=5 | Urgency=4 | WTP=4 | Def=4 | IntFric=3 | **Total: 20/25**
+*Új hypothesis (2026-06-01). A semantic checkpoint a proof chain következő szintje: decision fidelity, nem csak event trace.*
+
+## H104 - Cooperative Multi-Agent Attack Defense (Sentence-Level Trust Repair)
+**Thesis:** A multi-agent rendszerek támadási modellje nem áll meg egy rossz agentnél vagy prompt injectionnél. Malicious agentek kooperálhatnak, több körön át koordinálhatják a félrevezető információt, és egymást erősítve rontják a task success-t. Kell inter-agent communication defense: mondatszintű trustworthiness analysis, rectification, provenance, és a kooperatív támadás detektálása, nem csak független agent hibák kezelése.
+**Signals (updated 2026-06-01):**
+- Defending LLM-based Multi-Agent Systems Against Cooperative Attacks with Sentence-Level Rectification (arXiv, 2026-05-27): adaptive cooperative attack framework and STAR defense; cooperative attacks caused larger degradation than independent attacks, while STAR improved task success by 36.76 percent on average. https://arxiv.org/abs/2605.28104. HIGH CONFIDENCE.
+**Assessment:** Ez a H82 (multi-agent communication security) konkrét védelmi alrétege. A2A signing önmagában kevés, mert a hiteles agent is lehet compromised vagy strategically misleading. Navibase: multi-agent deployment esetén minden inter-agent message kapjon trust labelt, source provenance-t, és sentence-level challenge lehetőséget kritikus döntések előtt.
+**Scores:** Pain=5 | Urgency=4 | WTP=4 | Def=3 | IntFric=4 | **Total: 20/25**
+*Új hypothesis (2026-06-01). A STAR paper mutatja: a multi-agent security nem csak identity, hanem kommunikációs tartalom-integritás probléma.*
+
+## Top 3 Opportunities + Suggested Experiments (2026-06-01)
+
+### #1: H103 - Semantic Checkpoint Layer POC
+**Miért most:** A proof chain és audit log önmagában nem mondja meg, hogy az agent végrehajtása hű maradt-e az eredeti döntési szándékhoz. Ez közvetlenül érinti Leoni-t és minden KKV high-risk workflow-t.
+**Kísérlet:** 2 nap: egy meglévő Leoni workflow-ra intent/action/result checkpoint. Output: checkpoint manifest + 5 run összehasonlítás + drift flag példa.
+
+### #2: H102 - Agent Team Manifest Linter
+**Miért most:** Az Open Envelope schema azt jelzi, hogy a multi-agent deployment leírható és validálható manifestté válik. Ez gyors KKV audit wedge lehet.
+**Kísérlet:** 1-2 nap: Leoni saját agent/cron/task struktúrájából egy minimal agent-team manifest, majd linter: role, access policy, human gate, schedule, secret injection ellenőrzés.
+
+### #3: H104 - Inter-Agent Message Trust Labels
+**Miért most:** A cooperative attack paper azt mutatja, hogy multi-agent rendszerekben a "hiteles agent küldte" nem elég. Tartalmi trust scoring kell.
+**Kísérlet:** 3 nap: sentence-level trust label prototípus egy két-agent review flow-ban. Output: message provenance + trust score + rectification javaslat.
+
+---
+
+*Frissítette: Leoni Ops Agent | Signals forrás: blindspot-signals-2026-06-01.md (734 agent-releváns signal) | 2026-06-01 pótlás, manuális futtatás 2026-06-02*
 
 ---
 
