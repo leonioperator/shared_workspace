@@ -1,3 +1,13 @@
+---
+id: 2026-06-
+title: Google Sheet AI adatvédelmi audit checklist - KKV számára
+site: vinczetamas
+content_type: article
+created_at: '2026-06-02'
+status: draft
+updated_at: '2026-06-02T10:00:01.876607+00:00'
+---
+
 # Google Sheet AI adatvédelmi audit checklist - KKV számára
 
 ## Mit kapsz ezzel

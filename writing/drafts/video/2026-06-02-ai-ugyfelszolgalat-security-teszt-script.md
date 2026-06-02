@@ -1,3 +1,13 @@
+---
+id: 2026-06-
+title: Az AI ügyfélszolgálatod is átadhatja a fiókodat - script
+site: vinczetamas
+content_type: article
+created_at: '2026-06-02'
+status: draft
+updated_at: '2026-06-02T10:30:02.117256+00:00'
+---
+
 # Az AI ügyfélszolgálatod is átadhatja a fiókodat - script
 
 ## 30-60 mp revenue script

@@ -1,3 +1,13 @@
+---
+id: 2026-06-
+title: Az AI agented nem buta, csak nincs kontrollja - script
+site: vinczetamas
+content_type: article
+created_at: '2026-06-02'
+status: draft
+updated_at: '2026-06-02T10:30:02.116161+00:00'
+---
+
 # Az AI agented nem buta, csak nincs kontrollja - script
 
 ## 30-60 mp revenue script

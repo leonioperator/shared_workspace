@@ -1,3 +1,13 @@
+---
+id: 2026-06-
+title: A céges Google Sheet is kiszivárogtathat ügyféladatot - script
+site: vinczetamas
+content_type: article
+created_at: '2026-06-02'
+status: draft
+updated_at: '2026-06-02T10:00:01.877588+00:00'
+---
+
 # A céges Google Sheet is kiszivárogtathat ügyféladatot - script
 
 ## 30-60 mp revenue script

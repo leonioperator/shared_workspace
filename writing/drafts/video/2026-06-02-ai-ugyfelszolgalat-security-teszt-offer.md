@@ -1,3 +1,13 @@
+---
+id: 2026-06-
+title: AI ügyfélszolgálat security teszt checklist - KKV számára
+site: vinczetamas
+content_type: article
+created_at: '2026-06-02'
+status: draft
+updated_at: '2026-06-02T10:30:02.116722+00:00'
+---
+
 # AI ügyfélszolgálat security teszt checklist - KKV számára
 
 ## Mit kapsz ezzel
