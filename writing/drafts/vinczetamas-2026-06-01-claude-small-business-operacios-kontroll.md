@@ -3,7 +3,7 @@ title: "Claude Small Business: az AI már operációs kérdés"
 date: 2026-06-01
 site: vinczetamas.hu
 slug: claude-small-business-operacios-kontroll
-status: draft
+status: humanized
 quality_score: 5/5
 created_at: "2026-06-01"
 updated_at: "2026-06-01T07:46:00+02:00"
