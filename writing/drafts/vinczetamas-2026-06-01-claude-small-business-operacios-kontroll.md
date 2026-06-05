@@ -1,27 +1,28 @@
 ---
-title: "Claude Small Business: az AI már operációs kérdés"
+title: 'Claude Small Business: az AI már operációs kérdés'
 date: 2026-06-01
 site: vinczetamas.hu
 slug: claude-small-business-operacios-kontroll
-status: humanized
+status: draft
 quality_score: 5/5
-created_at: "2026-06-01"
-updated_at: "2026-06-01T07:46:00+02:00"
+created_at: '2026-06-01'
+updated_at: '2026-06-05T06:00:02.020468+00:00'
 id: vinczeta
 content_type: article
-description: "Claude Small Business mutatja, hogy az AI nem chatbot kérdés, hanem operációs kontroll, delegálás és vezetői felelősség."
+description: Claude Small Business mutatja, hogy az AI nem chatbot kérdés, hanem operációs
+  kontroll, delegálás és vezetői felelősség.
 tags:
-  - AI operáció
-  - KKV
-  - Claude
-  - delegálás
-  - automatizálás
+- AI operáció
+- KKV
+- Claude
+- delegálás
+- automatizálás
 source_research:
-  - /home/leoni/shared_workspace/writing/research/candidates-2026-05-31.md
-  - /home/leoni/shared_workspace/writing/research/signals-2026-05-31.md
+- /home/leoni/shared_workspace/writing/research/candidates-2026-05-31.md
+- /home/leoni/shared_workspace/writing/research/signals-2026-05-31.md
 external_sources:
-  - https://www.anthropic.com/news/claude-for-small-business
-  - https://claude.com/plugins/small-business
+- https://www.anthropic.com/news/claude-for-small-business
+- https://claude.com/plugins/small-business
 ---
 
 Claude Small Business azért fontos egy 5-50 fős cég vezetőjének, mert az AI-t nem külön eszközként kezeli, hanem meglévő üzleti folyamatokba köti be. A valódi kérdés már nem az, tud-e válaszolni a modell. Az a kérdés, ki engedélyezi, mit csinálhat, és hol marad kontroll a vezető kezében.
