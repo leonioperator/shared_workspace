@@ -1,5 +1,5 @@
 # Blindspot Radar — Scored Hypothesis List
-Last updated: 2026-06-01
+Last updated: 2026-06-06
 
 
 ## H70 - Agentic Copyright & Data Provenance Chain (Training + Output Attribution)
@@ -330,7 +330,19 @@ Last updated: 2026-06-01
 **Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=2 | IntFric=3 | **Total: 17/25**
 *Új hypothesis (2026-04-15). A Kelet azt jelzi, hogy a hibakeresés önálló termékkategória lesz agent rendszereknél.*
 
-## Top 3 Opportunities + Suggested Experiments (2026-04-15)
+## Top 3 Opportunities + Suggested Experiments (2026-06-06)
+
+### #1: H70 - Agentic Copyright & Data Provenance Chain (Training + Output Attribution)
+**Miért most:** A MemPalace nyílt forráskódú AI memória rendszer és a Microsoft Scout OpenClaw alapú agentje egyaránt hangsúlyozzák a szerzői jogi és adatprovenancia kérdéseket.
+**Kísérlet:** 1 hetes pilot: Navibase "copyright-clean" agent deployment checklist létrehozása, tanítódata-audit és output attribution metszet tesztelése 3 kliensnél.
+
+### #2: H71 - Rubric-Guided Agent Policy Decomposition (Verifiable decision-making)
+**Miért most:** A RubricEM tanulmány és a biomedicinális agent audit keretrendszerek igénylik a strukturált döntési rubricokat.
+**Kísérlet:** 2 hetes pilot: high-risk runokhoz rubric template kifejlesztése + agent instruálás, mérés: hallucination rate csökkenés, audit idő csökkenés.
+
+### #3: H72 - High-Stakes Decision Integrity Certification (Healthcare/Legal/Defense Vertical)
+**Miért most:** A Microsoft Scout és healthcare agent payment model jelzi a vertikális specifikus certifikáció irányát.
+**Kísérlet:** 3 hetes research: vertical "certification support" csomag (template + audit automation + versioning) prototípus készítése healthcare és legal domainben.
 
 ### #1: H59 - Credential broker demo (secretless-by-default gyors proof)
 **Miért most:** Kontext + Cred együtt jelzi, hogy a buyer elvárás a rövid életu, scope-olt credential. Ez az egyik leggyorsabban értékesíthető bizalmi wedge.
