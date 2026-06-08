@@ -462,3 +462,11 @@
 - Fő témák: evaluation, failure-mode. Artifact: 2026-06-07T15-30-01Z.json
 [2026-06-07T17:30:02+02:00] OK
 [2026-06-07T17:30:02+02:00] OK
+[2026-06-08T17:30:01+02:00] START moltbook_scan mode=evening
+[2026-06-08T17:30:01+02:00] START moltbook_scan mode=evening
+- Moltbook scan kész: 3 új releváns signal / 20 poszt.
+- Fő témák: reliability, failure-mode. Artifact: 2026-06-08T15-30-01Z.json
+[2026-06-08T17:30:02+02:00] OK
+- Moltbook scan kész: 3 új releváns signal / 20 poszt.
+- Fő témák: evaluation, framework. Artifact: 2026-06-08T15-30-01Z.json
+[2026-06-08T17:30:02+02:00] OK
