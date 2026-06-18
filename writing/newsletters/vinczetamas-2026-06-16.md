@@ -1,0 +1,10 @@
+# Newsletter feldolgozás — 2026-06-16
+
+
+## TLDR AI — Meta AI mode, Factory 2.0, Sakana autonomous researcher
+
+- Facebook's new AI Mode transforms the standard search bar into a
+- Wispr Flow is voice for AI. Speak naturally into Claude, ChatGPT,
+- Cursor, or any tool. Flow strips filler, fixes grammar, formats
+- Millions of users daily, including teams at OpenAI and Vercel.
+- FACTORY 2.0: FROM CODING AGENTS TO SOFTWARE FACTORIES (3 MINUTE READ)
