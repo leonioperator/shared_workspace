@@ -180,3 +180,70 @@ Last updated: 2026-06-06
 
 ## Daily Radar Delta - 2026-06-08
 **Nincs új hypothesis a mai signal fájlban.**
+
+## Daily Radar Delta - 2026-06-19
+
+**Forrás:** Blindspot Signals Report 2026-06-19 (694 relevans signal, AI Agents / AI Decision Delegation focus)
+**Top Deep Score Range:** 0.6 – 0.3 (30 jel)
+
+### Új Hypothesis-ek (3 + 2 kiegészítés)
+
+## H100 - Latent Communication Security Governance (KV-Cache Representation Protection)
+**Thesis:** A multi-agent szisztémák egyre gyakrabban cserélnek latent communication-t (KV-caches, embeddings, hidden states) a szöveges üzenet helyett. Ez gyorsabb és információ-tőke, de új biztonsági felület nyit: a shared KV-cache szenzitív input data, intermediate reasoning state, és agent-specifikus információ kódol. Az "LCGuard" pattern: reprezentációs szintű biztonsági transzformáció (adversarial training) mely megtartja task relevancia de redukálja reconstructable szenzitív infót.
+**Signals (updated 2026-06-19):**
+- LCGuard: Latent Communication Guard for Safe KV Sharing in Multi-Agent Systems (arXiv, 2026-05-21, Deep Score 0.3): explicit latent channel safety framework, reconstruction-based leakage operationalization, adversarial training formulation. https://arxiv.org/abs/2605.22786. HIGH CONFIDENCE.
+- Beyond tokens: a unified framework for latent communication in LLM-based multi-agent systems (arXiv, 2026-06-04, Deep Score 0.3): formal taxonomy (WHAT: embeddings/hidden states/KV-caches, WHICH: sender-receiver alignment, HOW: fusion methods), 18 representative methods, open challenges including "security of latent channels". https://arxiv.org/abs/2606.05711. HIGH CONFIDENCE.
+**Assessment:** Ez a H62 (proof chain) és H63 (legal entity boundary) feletti új szint: az agent-to-agent kommunikáció opacity problémája. Financial/healthcare agentek latent channel-ben szenzitív (diagnózis, trading signal, PII) data-t oszthatnak → compliance/audit evidence szükséges. Navibase: latent communication audit protocol + LCGuard-style mitigation rubric.
+**Scores:** Pain=5 | Urgency=4 | WTP=4 | Def=4 | IntFric=4 | **Total: 21/25**
+*Új hypothesis (2026-06-19). A latent channel security a transparency/audit requirement új rétege az agentic multi-agent infraban.*
+
+## H101 - Multi-Agent Resilience to Misinformation (Propaganda Propagation Prevention)
+**Thesis:** Ha egy agent rosszinformált input kap (tool-call hiba, hallucination, szándékos beinjekció), az multi-agent debate-ben tovább terjedhet másik agentet félrevezető contextuális support. A robusztusság függ: csoport összetétel (misinformed agentek aránya), döntési protokoll (consensus vs. voting), model architecture (nem minden model áll vissza ugyanúgy). Ez a "Gartner 40% decommission" failure mode egyik nyilvános okozza.
+**Signals (updated 2026-06-19):**
+- Misinformation Propagation in Benign Multi-Agent Systems (arXiv, 2026-06-15, Deep Score 0.3): empirical study 12+ LLM model pair-eken, intent-based misinformation injection, agent debate resilience measurement, consensus/voting robustness trade-off. https://arxiv.org/abs/2606.16710. HIGH CONFIDENCE.
+**Assessment:** Ez H92 (anti-sycophancy) és H90 (multi-agent debate validity) metszete. Az agent governance-ben nem elég egyedi agent reliability, hanem ensemble misinformation recovery capability. Navibase: "agent debate resilience test" bundle (misinformation scenario, recovery measurement, composition recommendation).
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=3 | IntFric=3 | **Total: 18/25**
+*Új hypothesis (2026-06-19). A multi-agent misinformation propagation explicit szimulációs/assessment kategória az ensemble trust-nél.*
+
+## H102 - Semantic Drift Prevention in Agentic Pipelines (Intent-Action Consistency)
+**Thesis:** Multi-stage agentic pipeline-okban (plan → execute → evaluate → refine) az intent-action mapping szakadhat: az initial planner döntése "hire contractor", de a worker agent a bejelentkezés nélküli context-ben "hire full-time employee" parancsot futtat. Ez a "semantic drift": a végrehajt procedúra már nem a decision intent-et tükrözi. A megoldás: "semantic checkpoint"-ok, melyek explicitte assert input-output fidelity, és rollback-et triggerelnek intent mismatch-nél.
+**Signals (updated 2026-06-19):**
+- Learning to Choose: An Empowerment-Guided Multi-Agent System with semantic communication for Adaptive Method Selection (arXiv, 2026-05-28, Deep Score 0.3): explicit semantic checkpoint mechanism, action-outcome fidelity preservation across pipeline, ATHENA framework + empowerment lens, improves convergence + robustness vs. unchecked drift. https://arxiv.org/abs/2605.30042. HIGH CONFIDENCE.
+**Assessment:** Ez a H71 (rubric-guided policy) és H65 (desktop automation governance) apja: intent consistency szintjén. Navibase: "semantic consistency validator" module (stage transitions checkpoint-ek, intent-action assertion grammar, rollback protocol).
+**Scores:** Pain=4 | Urgency=4 | WTP=4 | Def=4 | IntFric=3 | **Total: 19/25**
+*Új hypothesis (2026-06-19). A semantic drift prevention explicit pipeline corruption risk kategória, nem csak logging problem.*
+
+## H103 - Interpretable Policy Tree Extraction (LLM Reasoning Distillation)
+**Thesis:** Az agent complex reasoning-ját (multi-step planning, constraint trade-off, human preferences) distillálni lehet egy executable, interpretable policy tree-be. Ez a tree: partner-behavior prediction nodes és agent-action selection nodes, natural language feedback alapján iterálható. Az érték: 77.7% LLM query reduction, 97.1% latency reduction, de még magas reward (35.4% improvement over baseline).
+**Signals (updated 2026-06-19):**
+- Distilling LLM Reasoning into an Interpretable Policy Tree for Human-AI Collaboration (Co-pi-tree, arXiv, 2026-06-07, Deep Score 0.3): policy tree distillation from LLM debate + partner interaction evaluation + NL feedback loop for branch improvement. https://arxiv.org/abs/2606.08596. HIGH CONFIDENCE.
+**Assessment:** Ez a H71 (rubric-guided) és H92 (epistemic independence) összekapcsolása: nem raw LLM output, hanem interpretable, verifiable, editable tree. Navibase: "agent reasoning audit" feature (policy tree visualization, branch weights, override history).
+**Scores:** Pain=4 | Urgency=3 | WTP=4 | Def=3 | IntFric=3 | **Total: 17/25**
+*Új hypothesis (2026-06-19). A policy tree distillation egy új agent interpretability/audit kategória.*
+
+## H104 - Meta-Agent Automatic Decomposition & Verification (Construction-Time Verification)
+**Thesis:** Az agentek bonyolult multi-agent szisztémekbe szerveződnek (task DAG, specialization, coordination). A Meta-Agent framing: construction phase egy DAG-ot generál (task planner), web-based grounding (evidence collection), code generation (system prompts/tools), és construction-time verification (schema, input/output contracts, consistency check). Execution phase: coordinator + execution-time verification + error attribution (local/upstream/structural) → targeted recovery (retry/re-execution/re-decomposition).
+**Signals (updated 2026-06-19):**
+- Meta-Agent: From Task Descriptions to Verified Multi-Agent Systems (arXiv, 2026-05-24, Deep Score 0.3): two-phase framework, task planner DAG generation, construction-time verification + execution-time verification, three-level error attribution, targeted recovery strategies. https://arxiv.org/abs/2605.25233. HIGH CONFIDENCE.
+**Assessment:** Ez a H62 (proof chain) és H72 (integrity certification) meta-szintje: nem individual agent validation, hanem multi-agent synthesis + verification pipeline. Navibase: "multi-agent workflow audit" template (DAG contracts, artifact grounding, error taxonomy).
+**Scores:** Pain=4 | Urgency=4 | WTP=5 | Def=4 | IntFric=4 | **Total: 21/25**
+*Új hypothesis (2026-06-19). A construction-time verification az agentic complexity-nek egy crítica kontrolltje, nem post-hoc.*
+
+## Top 3 Opportunity / Experiment Recommendation
+
+**1. Edge Agent Governance (H14 + H105 convergence)**
+- **Szövegkörnyezet:** MCU/resource-constrained agents (AutoMCU + DARRMS) gyorsan nőnek edge deployment-ben. A bottleneck: per-model compliance audit + low-resource constraint verification.
+- **Opportunity:** "Certified Low-Resource Agent" badge + compliance template (memory footprint, execution time guarantee, power budget audit). B2B SaaS entry: robotics/IoT startup audit readiness.
+- **Kísérlet:** DARRMS adaptive attention radius implementation audit: mely task-nél milyen attention radius, és compliance attestation generateit.
+
+**2. Latent Communication Privacy Compliance (H100 + H63)**
+- **Szövegkörnyezet:** Healthcare/financial agentek KV-cache-t osztanak, de HIPAA/PII recovery risk nem formalizált regulatorially.
+- **Opportunity:** "Latent Channel Audit" service (LCGuard-style reconstruction test, evidence package generation, compliance report untuk fintech/healthcare client). 
+- **Kísérlet:** Mock healthcare multi-agent system (diagnosis pipeline 2-3 agent), latent KV leakage rate mérésze, mitigation overhead számítása.
+
+**3. Multi-Agent Misinformation Resilience Diagnostic (H101 + H99)**
+- **Szövegkörnyezet:** Gartner 40% enterprise decommission → oft implicit ok: ensemble agent debate nem volt elég robust misinformation-re. 
+- **Opportunity:** "Agent Debate Resilience Audit" (scenario-based misinformation injection, group composition recommendation, recovery SLA validation). Előzetes check a multi-agent deployment-nél.
+- **Kísérlet:** Navibase internal toolchain 2-3 agent decision chain, misinformation inject + observe propagation, remediation feedback loop design.
+
+**Status:** 3 új hypothesis (H100, H101, H102, H103, H104 together), 3 opportunity, 3 experiment recommendation. All scores > 17/25 (mid-to-high confidence). Latent communication security (H100) a legmagasabb pain/urgency/WTP converge; meta-agent decomposition (H104) a legmagasabb overall score (21/25).
