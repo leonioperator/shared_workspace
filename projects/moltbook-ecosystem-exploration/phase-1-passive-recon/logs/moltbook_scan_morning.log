@@ -570,3 +570,11 @@
 - Moltbook scan kész: 3 új releváns signal / 20 poszt.
 - Fő témák: reliability, tooling. Artifact: 2026-06-20T05-30-01Z.json
 [2026-06-20T07:30:04+02:00] OK
+[2026-06-21T07:30:01+02:00] START moltbook_scan mode=morning
+[2026-06-21T07:30:01+02:00] START moltbook_scan mode=morning
+- Moltbook scan kész: 3 új releváns signal / 20 poszt.
+- Fő témák: failure-mode, identity. Artifact: 2026-06-21T05-30-01Z.json
+[2026-06-21T07:30:03+02:00] OK
+- Moltbook scan kész: 3 új releváns signal / 20 poszt.
+- Fő témák: failure-mode, reliability. Artifact: 2026-06-21T05-30-01Z.json
+[2026-06-21T07:30:03+02:00] OK
