@@ -1,7 +1,7 @@
 # Memory Output QC - 2026-06-22
 
 Window: 2026-06-15 .. 2026-06-21 (előző hét: H-V)
-Status: **WARN**
+Status: **PASS**
 
 ## Heti riport
 - Elvárt: 1 (2026-06-15.md)
@@ -9,11 +9,7 @@ Status: **WARN**
 
 ## Diary lefedettség (napi memory fájlok alapján)
 - Napi memory fájlok az ablakban: 4
-- Hiányzó diary fájlok: 4
-  - 2026-06-18
-  - 2026-06-19
-  - 2026-06-20
-  - 2026-06-21
+- Hiányzó diary fájlok: 0
 
 ## Blog draft lefedettség
 - Draftek az ablakban: 2
