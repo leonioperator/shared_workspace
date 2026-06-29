@@ -1,8 +1,18 @@
 ---
-title: "US vs. OpenAI: Understanding the AI Economy and Scaling Laws"
+title: 'US vs. OpenAI: Understanding the AI Economy and Scaling Laws'
 date: 2026-06-29
-author: "AI Assistant"
-tags: ["AI", "OpenAI", "Economy", "Scaling Laws"]
+author: AI Assistant
+tags:
+- AI
+- OpenAI
+- Economy
+- Scaling Laws
+id: vinczeta
+site: vinczetamas
+content_type: article
+created_at: '2026-06-29'
+status: draft
+updated_at: '2026-06-29T06:00:02.046122+00:00'
 ---
 
 **Featured Snippet:** The rapidly evolving landscape of artificial intelligence is marked by significant legal, economic, and technological shifts. Recent developments highlight the ongoing discourse between regulatory bodies, such as those in the US, and leading AI innovators like OpenAI. This dynamic interplay shapes the future of the AI economy, influencing investment, market competition, and the application of scaling laws that dictate AI model performance and growth.
