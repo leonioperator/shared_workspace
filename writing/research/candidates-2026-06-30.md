@@ -1,0 +1,63 @@
+# Candidates - 2026-06-30
+
+- Runpod Flash Hack Day: turn Python functions into auto-scaling, serverless GPU endpoints without Docker.
+- GPT-5.5 Instant: updated for better conversation, intent, constraints, recommendations.
+- Exa Connect: web agents to query ZoomInfo, Crunchbase, Similarweb.
+- Perplexity Computer for Counsel: legal research, docs and matter tools in Computer.
+- AssemblyAI Universal-3.5 Pro Realtime: speech-to-text uses the agent’s side of the call as context.
+- Modal Auto Endpoints: run open models in production with one command.
+- Executor: open-source gateway for connecting agents to services.
+- Aside: AI browser with vertical tabs, local encrypted data and Claude/ChatGPT support.
+- Genspark Design: generate UI prototypes, videos, HTML animations and code.
+- Hubble: Markdown notepad for you and agents, with live HTML previews.
+- Emil’s design skills repo: design engineering skills with 100k+ installs.
+- Harvey Labs: legal foundation models, open evals, firm-owned intelligence.
+- Codex workflow tip: have your agent write workflow papercuts to /tmp while it runs.
+- nexos.ai: unified AI platform, access to 100+ models, automatically picks the best one.
+- Cursor /automate: describe an automation; Cursor sets triggers, tools and instructions.
+- Claude Code steering guide: where to put instructions, skills, hooks and subagents.
+- birdclaw.sh: local Twitter archive with search, inbox and ranked triage.
+- Lettera: native file-based Markdown editor for Mac.
+- Stripe Directory: agents can search and pay Stripe businesses from the CLI.
+- Clips: open-source Loom alternative agents can inspect from a URL.
+- Ports: Mac menu app for local dev servers, ports and kill/open buttons.
+- ElevenLabs Ads Engine: localise ads into 50+ languages and publish to ad accounts.
+- Joining a Software Factory: how Factory builds repos for agent PRs.
+- Post-Agent Companies: agents make labour cheap; context and trust stay scarce.
+- Smallest AI - Pulse: world’s fastest speech-to-text model (P95 latency), top accuracy (under 5% WER), 39 languages, 100+ accents.
+- Stacker's AI Accelerator: $500k in inference credits to businesses ready to go AI-first, with mentoring.
+- Stacker: AI coworker that joins the dots in your business, lives in Slack, connects tools, and does the work.
+- ChatGPT: new table of contents UI for long chats, full-screen long-form writing mode that saves drafts to Library.
+- Replit added a Canvas: create variants, annotate, compare design directions and apply changes back into your app.
+- Figma Make: now works on local code; visually edit app, annotate, chat and open PRs.
+- SkillSpector: new security scanner for skills by NVIDIA.
+- Google AI Studio: build apps that connect to Gmail, Drive, Sheets without other Google Cloud screens.
+- Agent Cookie: syncs cookies, CLI tokens and API keys from laptop to Mac mini running OpenClaw/Hermes.
+- Agent Handler for Employees: secure AI access for every employee.
+- Impeccable 3.5: design skill for coding agents with model-specific anti-pattern rules.
+- Four tips to help agents understand your codebase.
+- Hyperagent from Airtable: cloud agent system with full computing environments, giving $10M in inference credits to founders.
+- Cursor: now lets you run cloud agents inside a fully configured development environment.
+- Orca: Claude Code’s agent view but for Codex, OpenCode, Droid and Pi.
+- Oboe: LLMs wrapped in a way that helps you learn.
+- Interfaces.dev: monthly design engineering magazine about building great interfaces.
+- AI IQ: frontier AI models, scored on the human IQ scale.
+- Executor: Convert MCPs/OpenAPIs servers into code mode, 100% local on your device.
+- How OpenAI built a safe sandbox for Windows.
+- AWS workshop: learn deterministic workflow orchestration with Step Functions, reasoning-driven coordination with Bedrock Agents, and human-in-the-loop approval gates for multi-agent systems.
+- Spinach AI: The 10X notetaker that powers Claude & ChatGPT.
+- Krea launches K2: image model built for aesthetic diversity and stylistic control, not photorealism. Headline feature is moodboards (blends style of reference images).
+- How to analyze any business idea with Perplexity: use Deep Research with a specific prompt acting as a top-tier VC/startup operator to create a 10-slide investment-style analysis.
+- Sauna AI: first multiplayer AI agent (hive mind for agents). Shared "brain" learns style, workflows, pulls context from 3,800+ tools (Slack, Superhuman, email). Automates repeated work.
+- How to create educational encyclopedia-style images with ChatGPT: use a specific prompt to generate a "premium vertical encyclopedia-style infographic" with detailed main subject image, zoomed-in callouts, info panels, taxonomy, facts, charts, concise text.
+- Guidde: Create video documentation with AI to train teams.
+- Adject: Create realistic product visuals with AI.
+- Saydi: Real-time voice translations for work.
+- UpSynth: Restore and modify photos in one seamless editor.
+- Keupera: Automate entire search engine optimization workflow with AI.
+- Visual Thinking ChatGPT Prompt: explains topics using structured visual-thinking approach with text-based diagrams, flowcharts, layered frameworks, timelines, systems maps, comparisons, mental models, step-by-step structures.
+- Premium Scandinavian Poster ChatGPT Image 2.0 Prompt: create premium editorial travel poster illustration with flat vector, ultra clean minimalism, mid-century modern aesthetic, no photorealism.
+- Google Workspace CLI: for authenticating, fetching emails, and updating labels, used as the base for the custom email app.
+- Factory: described as the "best harness for code," especially for non-coders, complete and handles more than other tools, with easy switching between Claude and Opus models.
+- Pi (with GPT 5.5): for day-to-day "work" like brainstorming and idea discussion (non-coding heavy projects).
+- Obsidian web clipper: a reference for effective web page previewing, implying a potential technique for AI agents to "reverse engineer" for tasks like email rendering.
