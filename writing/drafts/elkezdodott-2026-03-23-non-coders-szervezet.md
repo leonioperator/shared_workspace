@@ -1,12 +1,12 @@
 ---
-title: A belső fejlesztési igények felgyorsítása: Az AI-alapú 'builder culture' bevezetése
-date: '2026-05-25'
-site: elkezdodott
-status: draft
 id: elkezdod
+title: 'A belső fejlesztési igények felgyorsítása: Az AI-alapú ''builder culture''
+  bevezetése'
+site: elkezdodott
 content_type: article
-created_at: '2026-05-25'
-updated_at: '2026-05-25T11:25:40.413833+00:00'
+created_at: '2026-07-07'
+status: draft
+updated_at: '2026-07-07T06:00:02.029307+00:00'
 ---
 
 # A belső fejlesztési igények felgyorsítása: Az AI-alapú 'builder culture' bevezetése
