@@ -2,10 +2,253 @@
 
 - Source export: `/opt/apps/haier/exports/evolution_signals_20260711_020536.json`
 - Total signals in export: 5000
-- Agent-relevant signals: 612
+- Agent-relevant signals: 606
+- Novel vs previous reports: 481
 - Filter: `focus_area` or `technology_type` contains `AI agents` or `AI decision delegation`
 
-## Top Signals By Deep Score
+## New Signals Since Previous Reports
+
+### 1. Choosing the Right AI Agent Memory Strategy: A Decision-Tree Approach
+- Deep score: 0.2
+- Date: 2026-07-11T00:43:39+00:00
+- Source: hackernews
+- Focus/tech: AI agents / AI agents
+- URL: https://machinelearningmastery.com/choosing-the-right-ai-agent-memory-strategy-a-decision-tree-approach/
+- Summary: No summary.
+
+### 2. Introducing Oracle Autonomous AI Database A2A Server for Governed Multi-Agent Systems - Oracle Blogs
+- Deep score: 0.2
+- Date: 2026-07-07T21:56:50+00:00
+- Source: google_news
+- Focus/tech: AI agents / AI agents
+- URL: https://news.google.com/rss/articles/CBMixAFBVV95cUxNNWEzeEVaT281Qks1Q0pLTU4tbE44NmNIVV9tMjQxTGNENHROOTFCQjVjSWRLV0Viak4yLXdyOEtLbTBvM1VYX0JrLVJiUTIwVXlYdFNlcXdkano4ZFA3NjB1b1J4RklTUjNUcDViRTVTZUt2MlVQNDN1TC10Q1lLdEdkWmVLdTJjckZhOFFteVo2WkwtRERTMjU4VXBQWU9seWYtRXM2a3NocUlDSEllckViQ2hCQ3VxMTRydVE2VTFpSUh3?oc=5
+- Summary: Introducing Oracle Autonomous AI Database A2A Server for Governed Multi-Agent Systems&nbsp;&nbsp;Oracle Blogs
+
+### 3. When Agents Go Rogue: Activation-Based Detection of Malicious Behaviors in Multi-Agent Systems
+- Deep score: 0.2
+- Date: 2026-07-07T21:12:27+00:00
+- Source: arxiv
+- Focus/tech: AI agents / AI agents
+- URL: https://arxiv.org/abs/2607.06807
+- Summary: While enabling effective collaboration on complex tasks, LLM-based Multi-Agent Systems (MAS) face critical security challenges due to vulnerabilities at the agent and interaction levels. Most existing MAS security defenses are built upon two core assumptions: semantically-explicit malicious attacks and explicit graph-based modeling of the MAS topology and agent-level interactions. In practice, real-world attacks are becoming more semantically stealthy, while MAS execution is typically asynchronous without the temporal alignment assumed by graph-based propagation models. To address these limitations, we propose AcMAS, an activation-based framework for malicious-behavior detection in MAS. By analyzing internal reasoning states in the activation space of local agents, AcMAS detects even stealthy attacks in a synchronization-robust fashion, without relying on explicit interaction graphs. Moreover, our activation analysis provides critical signals to guide AcMAS in restoring the functionality of compromised agents, rather than the disruptive agent isolation commonly used by the state-of-the-art methods. Comprehensive evaluation demonstrates that AcMAS significantly outperforms graph-based baselines against stealthy attacks, by +0.22 F1 in synchronous settings (0.94 vs. 0.72) and by +0.55 F1 in asynchronous settings (0.93 vs. 0.38), with generalization across diverse open-source LLM backbones, attack intensity, and MAS scale.
+
+### 4. StateFuse: Deterministic Conflict-Preserving Memory for Multi-Agent Systems
+- Deep score: 0.2
+- Date: 2026-07-07T05:06:33+00:00
+- Source: arxiv
+- Focus/tech: AI agents / AI agents
+- URL: https://arxiv.org/abs/2607.05844
+- Summary: Agent systems accumulate conflicting observations across branches, retries, and replicas, yet many practical memory layers still collapse disagreement behind overwrite rules that are difficult to inspect or correct. We present StateFuse, a conflict-aware replicated memory contract built on standard OpSet/CRDT merge. StateFuse does not introduce a new join algebra; it defines an agent-facing semantics layer with immutable history, explicit conflict objects, exact and semantic correction handles (claim_id / claim_ref), deterministic predicate contracts, and projection-time resolution that cannot rewrite replicated state. We evaluate StateFuse against flat multi-value, raw-log, provenance-style, and collapsed baselines under matched resolver and verification policies. On a 282-question official conflict-bearing MemoryAgentBench slice, the compared methods tie on answer accuracy, but conflict-preserving surfaces keep contradictions visible while collapsed surfaces do not. In a controlled agent loop with uniform verification, preserving ambiguity enables safer abstention and correction than early collapse. A correction-handle ablation further shows that semantic handles matter when exact prior identifiers are unavailable. The resulting claim is narrow: StateFuse is best supported as a safer public memory contract for contradiction surfacing, abstention, and auditable correction, not as a universal accuracy gain.
+
+### 5. When AI Agents Attack: Autonomous Cyber Operations and Europe’s Governance Gap - Carnegie Endowment for International Peace
+- Deep score: 0.2
+- Date: 2026-07-06T22:17:06+00:00
+- Source: google_news
+- Focus/tech: AI agents / AI agents
+- URL: https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRjNxNmcxQXE4anJQX1Jsemx0akk2RXR3YTNidnlXZnBUSVFkZ3BSQy12MHdqRW82WHUxcTZoS29NT3lPM3RQLUpSdVkxSVhTZmV1RTBvSXhLaV9zNDFPU19JNGdBdVJmMm1GMjJYTm1ndnprUUVaYkFpUHR3MFYzM3BQR21MY3V2Snpla1dJeWhYY3FSU2YxUHhPX2lZRHotS2ZQbXlxWTRKYkhaSUlzTmdjWFJ5RVJMZVo0NWF6WUM?oc=5
+- Summary: When AI Agents Attack: Autonomous Cyber Operations and Europe’s Governance Gap&nbsp;&nbsp;Carnegie Endowment for International Peace
+
+### 6. OthmanAdi / planning with files
+- Deep score: 0.2
+- Date: 2026-07-06T02:01:45.718108+00:00
+- Source: github_trending
+- Focus/tech: AI agents / AI agents
+- URL: https://github.com/OthmanAdi/planning-with-files
+- Summary: Persistent file-based planning for AI coding agents and long-running agentic tasks. Crash-proof markdown plans that survive context loss and /clear, plus a deterministic completion gate and multi-agent shared state on disk. Manus-style. Works with Claude Code, Codex CLI, Cursor, Kiro, OpenCode and 60+ agents via the SKILL.md standard.
+
+### 7. Nuggets, Innovation Labs advance governance for autonomous AI agents - Biometric Update
+- Deep score: 0.2
+- Date: 2026-07-03T20:25:00+00:00
+- Source: google_news
+- Focus/tech: AI agents / AI agents
+- URL: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTTdNT1Zpc1hyQjQtVTc0NnFpOXNRSllSYmNzbzlTeHllQ1pNUmVzVHJjQWdhWWk1bXUzcURIRjdwLW8tZlJ5OC1feVRiYThFZF85SnNLQ2t4eWlxRUdPWExQQUFiaWYtVmVtUkNOblNVenlZcnI3ZTVHMGJ6NmNfanlaMXlTN19sSGI5WmpReVNsajEyVmFkR1BWR3hsUi1qSU1Ub3Y3cGZ6UQ?oc=5
+- Summary: Nuggets, Innovation Labs advance governance for autonomous AI agents&nbsp;&nbsp;Biometric Update
+
+### 8. Cache Merging as a Convergent Replicated State for Multi-Agent Latent Reasoning
+- Deep score: 0.2
+- Date: 2026-07-03T14:12:38+00:00
+- Source: hackernews
+- Focus/tech: AI agents / AI agents
+- URL: https://arxiv.org/abs/2607.01308
+- Summary: No summary.
+
+### 9. Consensus-Breaking Global Hopf Bifurcation in Memory-Based Multi-Agent Systems
+- Deep score: 0.2
+- Date: 2026-07-02T16:24:42+00:00
+- Source: arxiv
+- Focus/tech: AI agents / AI agents
+- URL: https://arxiv.org/abs/2607.02388
+- Summary: This dissertation provides the first systematic study of symmetric consensus-breaking bifurcation to periodic multiconsensus in multi-agent systems. It analyzes this for three classes of multi-agent systems based on three different types of memory, whose closed-loop dynamics equations form delay differential equations of retarded type, neutral type, and pseudoneutral type - a subclassification of retarded type equations introduced in this dissertation which bridges retarded and neutral type delay equations. Equivariant twisted degree is used to analyze the symmetric global Hopf bifurcation problem in these systems, i.e. bifurcation from a stable consensus to periodic multiconsensus. This shows how the effects of memory allow self-organizing agents to move beyond mere stationary consensus. Theoretical results for the global Hopf bifurcation and symmetric classification of periodic multiconsensus solutions across all three systems are provided, and numerical results are conducted to both validate and enhance the theoretical predictions by providing stability information on the branches which is not obtainable by the degree alone. These principles are demonstrated in three real-world applications: one involving the control of formations of UAVs, allowing them to maintain their overall spatial relationships while dancing in complex selectable oscillations; and two more in networked asset markets featuring different traders with different memory-based strategies, showing how similar mechanisms can be responsible for economic cycles of bubbles and crashes. Finally, we also numerically investigate resonant double Hopf bifurcations in the neutral delay system, showing strong evidence of a breakdown to chaos via the Ruelle-Takens-Newhouse scenario and the existence of riddled basins.
+
+### 10. A-TMA: Decoupling State-Aware Memory Failures in Long-Term Agent Memory
+- Deep score: 0.2
+- Date: 2026-07-02T09:28:29+00:00
+- Source: arxiv
+- Focus/tech: AI agents / AI agents
+- URL: https://arxiv.org/abs/2607.01935
+- Summary: Long term memory lets LLM agents act as persistent assistants, but user facts change. A useful memory system must know what is true now, what used to be true, and what changed. We study \emph{ghost memory}, a state coordination failure in which old, current, and transition facts coexist in the memory bank, remain mixed during retrieval, and mislead the answer model. We argue that memory systems should be understood and optimized from three levels: bank maintenance, retrieval, and answer time resolution. We propose ATMA, a state aware overlay for existing memory systems. ATMA keeps superseded and transition records in the bank, builds evidence packets for the query's requested state view, and exposes current, historical, and transition labels to QA. We further call for decoupled evaluation of bank, retrieval, and answer level failures, since final QA accuracy can hide where ghost memory occurs. To make this failure measurable, we build LTP (LoCoMo Temporal Plus), a conflict heavy benchmark for ghost memory, and evaluate on LoCoMo for long conversation generalization. On LTP, Graphiti+ATMA improves conflict accuracy by 0.240 absolute over Graphiti. On LoCoMo, Graphiti+ATMA raises temporal F1 from 0.0295 to 0.1705. The gains are host dependent, but they indicate that explicit state roles can reduce memory failures hidden by final QA accuracy.
+
+### 11. Robots Ask the Way: Communication-Enabled Social Navigation
+- Deep score: 0.2
+- Date: 2026-07-01T15:07:40+00:00
+- Source: arxiv
+- Focus/tech: AI agents, robotics / robotics
+- URL: https://arxiv.org/abs/2607.01044
+- Summary: Assistive autonomous robots operating in multi-agent environments require efficient strategies to locate specific individuals among multiple residents. Current social navigation methods focus on reactive collision avoidance and trajectory adaptation, but lack mechanisms to proactively gather information through human-robot communication. We introduce Communication-enabled Social Navigation (CommNav). In this novel task, robotic agents actively seek assistance from residents to locate target individuals by requesting information about recent sightings, locations, and movements. To evaluate CommNav, we extend Habitat 3.0 to create Habitat 3.0c, a communication-enabled variant supporting multi-human environments with information exchange protocols. Adding our communication module (COMM) to a state-of-the-art social navigation model yields a 10 percentage-point improvement in Episode Success. We further investigate the transition from structured data to natural language by evaluating models trained on LLM-generated instructions and on colloquial instructions collected from a human study. Our experiments reveal that: (i) explicit human-robot communication substantially enhances multi-person navigation performance; (ii) pre-training COMM on a communication pretext task effectively addresses the challenge of occasional interaction signals; and (iii) the navigation policy is highly robust to natural, colloquial human language, achieving an episode success statistically similar to the model using perfect structured data.
+
+### 12. ASPIRE: Agentic /Skills Discovery for Robotics
+- Deep score: 0.2
+- Date: 2026-06-30T23:38:46+00:00
+- Source: arxiv
+- Focus/tech: AI agents, robotics / robotics
+- URL: https://arxiv.org/abs/2607.00272
+- Summary: Traditional robot programming is challenging: it requires orchestrating multimodal perception, managing physical contact dynamics, and handling diverse configurations and execution failures. We introduce ASPIRE (Agentic Skill Programming through Iterative Robot Exploration), a continual learning system that autonomously writes and refines robot control programs in a code-as-policy paradigm while compounding experience into a reusable skill library. ASPIRE discovers skills that persist across tasks, simulation and real-world settings, and embodiments. It operates in an open-ended loop with three components: (1) a closed-loop robot execution engine that exposes fine-grained multimodal traces, enabling autonomous failure diagnosis, repair synthesis, and validation; (2) a continually expanding skill library that distills validated fixes into reusable, transferable knowledge; and (3) evolutionary search that generates diverse task sequences and control programs to explore beyond single-trajectory refinement. ASPIRE surpasses prior methods by up to 77% on LIBERO-Pro manipulation under perturbation, 72% on Robosuite bimanual handover, and 32% on BEHAVIOR-1K long-horizon household tasks. Its accumulated library also enables zero-shot generalization to unseen long-horizon tasks: on LIBERO-Pro Long, ASPIRE achieves 31% success versus 4% for prior methods despite their use of test-time reasoning and retries. Finally, simulation-discovered skills provide initial evidence of sim-to-real transfer, substantially reducing real-robot programming effort across different embodiments and robot APIs.
+
+### 13. Agentic RAG-VLM: Affordance-Aware Retrieval-Augmented Generation with Self-Reflective Planning for Robotic Grasping
+- Deep score: 0.2
+- Date: 2026-06-30T06:30:22+00:00
+- Source: arxiv
+- Focus/tech: AI agents, robotics / robotics
+- URL: https://arxiv.org/abs/2606.31200
+- Summary: Generalizable robotic grasping in cluttered environments is essential for deploying manipulators in unstructured human spaces, yet existing VLM-based methods rely on visual similarity for object matching, neglecting physical affordances such as handle graspability and material fragility, and operate open-loop without spatial reasoning or failure recovery, limiting their effectiveness when objects are densely packed or physically diverse. We present Agentic RAG-VLM, a unified framework that bridges VLM-based semantic understanding and physically grounded grasp execution by integrating retrieval-augmented generation (RAG) with vision-language models (VLMs) and agentic self-reflective planning. Agentic RAG-VLM introduces three tightly coupled components: (1) a Hierarchical Affordance-Aware RAG (HAA-RAG) that encodes four-dimensional affordance descriptors, including type, material, fragility, and graspable region, and retrieves strategies by functional affordance compatibility rather than visual appearance; (2) a Scene Graph Constraint Reasoner that constructs spatial relationship graphs from VLM perception and translates proximity, occlusion, and support constraints into concrete grasp parameter adjustments; and (3) an Agentic Self-Reflective Pipeline with a 14-type failure taxonomy and three-level adaptive retry for closed-loop grasp refinement. Evaluated on a 12-task benchmark spanning single-grasp, interactive, and long-horizon scenarios with 360 trials per configuration, Agentic RAG-VLM achieves 78.3 percent overall success, a 53.3 percentage-point absolute gain over VLM-only baselines, demonstrating that affordance-aware retrieval, scene graph reasoning, and agentic recovery are jointly essential for robust manipulation.
+
+### 14. GeneBench-Pro: Evaluating Multistage Statistical Reasoning\\in Genomics, Quantitative Biology, and Translational Biomedicine
+- Deep score: 0.2
+- Date: 2026-06-30T00:00:00+00:00
+- Source: biorxiv
+- Focus/tech: AI agents / AI agents
+- URL: https://www.biorxiv.org/content/10.64898/2026.06.29.735386
+- Summary: We introduce GeneBench-Pro, an expanded and improved version of GeneBench that comprises harder problems across a wider breadth of domains. GeneBench-Pro is a benchmark for AI agents performing realistic multi-stage scientific analyses in genomics, quantitative biology, and translational biomedicine which seeks to capture the complexity of real-world problems that computational life scientists face when tasked with producing a conclusion upon which a downstream scientific or translational decision is contingent. The benchmark comprises 129 evaluations targeting quantities of direct practical relevance across 10 primary domains and 21 terminal subdomains, with a genomics-centered core. Similarly to GeneBench, each problem provides the agent with brief context, a target estimand, and minimal guidance otherwise; the agent must then navigate multiple dependent decision points; i.e., substantive inferential forks where a plausible wrong choice changes the downstream analysis, to identify and execute the correct analysis workflow and arrive at the correct answer. Relative to GeneBench, GeneBench-Pro adds 29 new problems, drops three, and introduces significantly redesigned versions of 54 of the remaining 100 overlapping problems. 82 of the 129 problems were reviewed by external domain experts, whose findings led to prompt/data modifications and redesign of those problems whose targets were not sufficiently identifiable. Ten externally reviewed problems are released publicly, 50 held-out problems were provided to Artificial Analysis for independent third-party model benchmarking, and the remainder are retained as an internal holdout. In evaluations over the full 129-problem suite, GPT-5.6 Sol reaches an eval-level pass rate of 28.7% at the max reasoning level, and GPT-5.6 Sol Pro reaches 31.5% in separately reported GPT Pro runs. GPT-5.5 reaches 12.0%, GPT-5.4 reaches 8.9%, and the strongest non-GPT baseline, Claude Opus 4.8, reaches 16.0%. As with GeneBench, models often …
+
+### 15. Sampling-Based Coordination-Informed Multi-Objective Multi-Robot Reinforcement Learning
+- Deep score: 0.2
+- Date: 2026-06-29T20:31:03+00:00
+- Source: arxiv
+- Focus/tech: AI agents, robotics / robotics
+- URL: https://arxiv.org/abs/2606.30893
+- Summary: Multi-robot systems must simultaneously optimize competing objectives while maintaining coordinated behavior. Existing multi-agent reinforcement learning approaches often rely on fixed or centralized coordination, which limits adaptability and violates distributed constraints. This work introduces the Coordination-Informed Multi-Objective Reinforcement Learning (CIMORL) framework, integrating a distributed weight prediction mechanism, a privileged expert training strategy, and theoretical guarantees for Pareto-optimal solutions. We present the base CIMORL method alongside two sampling-based variants, CIMORL-TS (Tree Search) and CIMORL-MPPI (MPPI), which leverage privileged global information during training to enable fully decentralized deployment. Experimental validation in cooperative and adversarial scenarios demonstrates a $21.2\%$ hypervolume improvement and superior policy stability compared to state-of-the-art baselines. Real-world experiments with Crazyflie drones further validate the framework's robustness in resource allocation and multi-attacker multi-defend scenarios under partial observability.
+
+### 16. Training Therapeutic Judges and Multi-Agent Systems for Human-Aligned Mental Health Support
+- Deep score: 0.2
+- Date: 2026-06-29T20:22:25+00:00
+- Source: arxiv
+- Focus/tech: AI agents / AI agents
+- URL: https://arxiv.org/abs/2606.30887
+- Summary: Large language models show promise for mental health support, yet therapeutic quality improves only when evaluation functions as an actionable control signal rather than a passive metric. We introduce a framework that formulates therapeutic response generation as a decision-refinement problem driven by multi-dimensional, human-aligned evaluation. In Stage I, we introduce TheraJudge, an open-source therapeutic evaluator trained via preference-based optimization on human-annotated data to produce reliable judgments across 7 psychological dimensions. In Stage II, we introduce TheraAgent, which operationalizes TheraJudge's evaluations through a coordinated refinement process with specialized Critic, Coach, and Therapist roles that translate evaluative signals into targeted response revisions. Empirically, TheraJudge achieves strong agreement with clinician ratings, with intraclass correlation coefficients (ICC = 0.87-0.95), surpassing supervised baselines and strong closed-source judges, particularly on critical dimensions such as Safety, Relevance, and Empathy. Acting on these evaluations, TheraAgent yields a +0.43 improvement in human-rated therapeutic quality (on a 5-point scale) under blind evaluation, with 96\% clinician inter-rater reliability. Low-quality responses ($\leq 3$) improve by +2.45 points with a 94\% recovery rate, demonstrating targeted correction of unsafe outputs. Overall, our results indicate that effective alignment of mental-health LLMs stems from acting on human-aligned evaluation, rather than relying solely on stronger generation. We release code at https://github.com/vis-nlp/TheraAlign.
+
+### 17. MESA: Prioritizing Vulnerable Communication Channels for Securing Multi-Agent Systems
+- Deep score: 0.2
+- Date: 2026-06-29T17:40:45+00:00
+- Source: arxiv
+- Focus/tech: AI agents / AI agents
+- URL: https://arxiv.org/abs/2606.30602
+- Summary: Multi-agent systems (MAS) are increasingly used to automate complex, distributed workflows. However, their inter-agent communication channels introduce new attack surfaces that remain poorly understood and are difficult to defend against. In this paper, we address how defenders should prioritize limited security effort to protect vulnerable communication channels before attacks are observed. This is motivated by our observation that the channel-level attack impact is highly non-uniform: a single compromised edge can account for up to 75% of total attack success. We introduce Mesa, a label-free framework for proactively ranking which MAS edges are most security-critical -- that is, most likely to affect the system's decision if compromised. Mesa combines six graph-theoretic metrics and two dynamic probes (ablation and masking) without requiring attack traces. We evaluate Mesa against a dynamic misinformation attack pipeline across three diverse MAS scenarios, eight network topologies, and five open-source LLMs from Qwen, Llama, and Gemma families. Mesa rankings correlate strongly with empirical per-edge attack success rate, achieving mean Spearman $ρ=+0.60$ (peaking at $+0.73$). In resource-constrained defense deployment, monitoring the top 10% of Mesa-ranked edges intercepts about 3x the successful attacks as random allocation. We further test Mesa under varying attacker and defender models and LangGraph workflows and characterize its limits under adaptive attacks and high-redundancy graphs. Overall, our results show that edge-level risk in MAS is often concentrated and predictable, allowing proactive hardening of multi-agent infrastructures.
+
+### 18. Understanding LLM Intervention Explanations in Multi-Party Human-Robot Interaction
+- Deep score: 0.2
+- Date: 2026-06-28T15:30:15+00:00
+- Source: arxiv
+- Focus/tech: robotics, AI decision delegation / robotics
+- URL: https://arxiv.org/abs/2606.29460
+- Summary: Large Language Models (LLMs) are increasingly embedded in social robots to support natural group interactions, yet their role in complex multi-party settings remains underexplored. In particular, it is unclear how LLM-driven robots decide when and why to intervene in group conversations. This paper investigates the intervention explanations generated by an LLM-based orchestrator in a multi-party interaction involving three human participants and two robots. We conducted a between-subjects study with 24 groups (66 university students), comparing a homogeneous condition (two robots with the same role, i.e., a mover) and a heterogeneous condition (two robots with different roles, i.e., a mover and an opposer). At each conversational turn, the LLM orchestrator decided whether to intervene and generated a textual explanation of its decision. We performed a thematic analysis of 610 intervention explanations, identifying five recurring themes. Results show that explanations are facilitation-oriented, emphasizing agreement, participation, and interaction flow. While patterns remain stable across conditions, role differentiation emerges: the mover supports coordination, whereas the opposer drives goal-oriented interventions. These findings contribute to explainable AI by characterizing how LLM-driven systems justify intervention decisions in real-time, multi-party human-robot interaction.
+
+### 19. GBC: Gradient-Based Connections for Optimizing Multi-Agent Systems
+- Deep score: 0.2
+- Date: 2026-06-26T15:32:33+00:00
+- Source: arxiv
+- Focus/tech: AI agents / AI agents
+- URL: https://arxiv.org/abs/2606.28187
+- Summary: Multi-agent systems (MAS) built on large language models (LLMs) provide a promising framework for solving complex tasks through role specialization and structured interaction. However, their performance is often limited by miscoordination and, more fundamentally, the lack of fine-grained credit assignment across agents. Existing approaches typically rely on coarse-grained feedback, making it difficult to identify which agents or interaction steps are responsible for errors. We propose Gradient-Based Connections (GBC), an approach for fine-grained attribution and optimization of multi-agent systems. GBC models a MAS as a computational graph and introduces gradient-based connection weights to quantify the influence of each agent's output on downstream agents at the token level. By constructing an attribution graph and propagating task-specific loss signals backward, our method enables precise identification of error sources and targeted prompt optimization. We further develop AgentChord, an efficient implementation that leverages prefix-based gradient computation. Experiments on MultiWOZ and τ-bench show that GBC improves multi-agent performance and outperforms strong single-agent and multi-agent baselines, and higher attribution quality is associated with greater optimization effectiveness. Code is available at: https://github.com/yxc-cyber/AgentChord.
+
+### 20. When Multi-Robot Systems Meet Agentic AI:Towards Embodied Collective Intelligence
+- Deep score: 0.2
+- Date: 2026-06-26T10:21:52+00:00
+- Source: arxiv
+- Focus/tech: AI agents, robotics / AI agents
+- URL: https://arxiv.org/abs/2606.27929
+- Summary: Embodied AI is increasingly becoming agentic, shifting robots from perception--control pipelines towards closed-loop systems that can retrieve context, deliberate during execution, monitor feedback, and refine future behavior. In parallel, robotics research has also moved from single-robot autonomy towards multi-robot systems, driven by the need for wider sensing, distributed action, heterogeneous capabilities, and fault tolerance. As AI agents move from single-agent use towards multi-agent collaboration, robotics faces a parallel challenge: robot teams must move beyond sharing maps, task assignments, and datasets towards sharing the state produced by embodied agent loops. This article explores Embodied Collective Intelligence (ECI), a future multi-robot paradigm in which a robot team accumulates and uses world context, task progress, and skill experience as shared resources. Specifically, we first review how embodied AI is becoming agentic and how multi-robot cooperation has evolved. We then present Embodied Collective Intelligence through Co-Perception, Co-Action, and Co-Evolution. Finally, we use an illustrative navigation study to examine one concrete component of the concept: shared world-memory inheritance. The study shows that a newly added robot can benefit from merged team memory, but it is not intended as a full evaluation of the ECI framework. Taken together, the review and conceptual framework motivate Embodied Collective Intelligence as a direction for embodied multi-agent intelligence, while the case study grounds one measurable part of the concept.
+
+### 21. QueenBee Planner: Skill-Evolving Communication Topologies for Token-Efficient LLM Multi-Agent Systems
+- Deep score: 0.2
+- Date: 2026-06-25T19:16:51+00:00
+- Source: arxiv
+- Focus/tech: AI agents / AI agents
+- URL: https://arxiv.org/abs/2606.27492
+- Summary: Large language model (LLM) multi-agent systems increasingly depend not only on how individual agents reason, but also on how agents are connected. This paper introduces QueenBee Planner, a framework that treats inter-agent communication topology as a retrievable and self-improving design skill. A pool of worker agents, the task adapter, and the scoring function are frozen; only an outer LLM planner learns to generate temporal communication DAGs specifying who sends information to whom, in which round, who merges messages, and who emits the final answer. Execution traces are distilled into evidence-backed design rules with three actions: \emph{Preserve}, \emph{Modify}, and \emph{Avoid}. To prevent self-evolution from turning lucky runs or plausible but false explanations into policy, QueenBee uses held-out acceptance gates, variance-aware credit, motif-level attribution, transfer trust, insight falsification, and structural deduplication. We evaluate the method on Count-Frequency aggregation and Silo-Bench-style distributed coordination tasks. With fixed workers, self-evolved graph generation produces communication structures that improve over fixed topologies and cold generation. In the CF fulltest setting, the best generated graph reduces RMSE from 12.53 for the strongest fixed topology to 7.87 while also reducing messages, model calls, and token cost; Silo-style results show the same direction of improvement over cold and fixed-topology baselines. These results suggest that multi-agent systems can learn reusable architectural design knowledge rather than merely memorizing task answers.
+
+### 22. Qwen-Image-Agent: Bridging the Context Gap in Real-World Image Generation
+- Deep score: 0.2
+- Date: 2026-06-25T00:00:00+00:00
+- Source: huggingface
+- Focus/tech: AI agents / AI agents
+- URL: https://huggingface.co/papers/2606.26907
+- Summary: While text-to-image (T2I) models have achieved remarkable progress, they struggle with real-world requests that are often underspecified, implicit, or dependent on up-to-date knowledge. We identify this challenge as the Context Gap: the mismatch between the user context and the sufficient generation context for T2I models. To bridge this gap, we propose Qwen-Image-Agent, a unified agentic framework that integrates plan, reason, search, memory and feedback in a context-centric manner. Qwen-Image-Agent treats user input as partial context and progressively constructs the generation context through Context-Aware Planning and Context Grounding. Specifically, Context-Aware Planning identifies missing context and plans how it should be acquired and used, while Context Grounding gathers this context from reason, search, memory, and feedback. To evaluate agentic image generation, we further introduce Image Agent Bench (IA-Bench), a benchmark covering four core image agent capabilities: Plan, Reason, Search, and Memory. Experiments on IA-Bench, Mindbench and WISE-Verified show that Qwen-Image-Agent outperforms strong baselines and achieves state-of-the-art performance.
+
+### 23. RBI proposes AI governance framework for banks, mandates human oversight of model driven decisions - BFSI News
+- Deep score: 0.2
+- Date: 2026-06-24T14:15:50+00:00
+- Source: google_news
+- Focus/tech: AI decision delegation / AI decision delegation
+- URL: https://news.google.com/rss/articles/CBMizgFBVV95cUxNYXl2cmxtc2ZuQmlEQ1lOWnJnS3AtclRVT19TQWlUTWRRM0pUQ0YyOGVBZm5JWDZqWGNPN3AyWlZyUEdQNW5NUzh5aHZRZmEtaWp4NDhUS2pPdkZIdW8wcDRrM0g3ZkgyNmpxbUlMc3puVnVhLUV2QzNmQ2RrSzRrZzloY0k3Z1dNZjNaY2UwNFRMdkplVUF5WWRpbkJjRFJYdjRhd0lJa1RKQkFHQ3FPZGlEMGQ2cG0wVXNqc1B4UFo2UThvNkdsQWRxR2R6d9IB0wFBVV95cUxQZzY2aGxWYVdzWkpMTk9DaHBjSkJOcTNHLUxxV1hDaVN4dUVYd1ZtMVRUZVVVcllhaFYtRkZMU1k1OFF6eEFKV2p1SHB5WFZDYUQ2azBDanVpTFlfNHVKdXJQaUc2M2NWdV9yUXhJUWxtZHM2TUN1V1otVHkzaUpFcDg0ZFhMczM1VU5EUFBLVWtsYlotWUVoUjZpNjNMekxYLXN5ZlhPLXB5R1lDUGRtYlRXTElqRlBleGdZMmNralBIQUtaUHZwRHFBaGk0aGJ5NTVr?oc=5
+- Summary: RBI proposes AI governance framework for banks, mandates human oversight of model driven decisions&nbsp;&nbsp;BFSI News
+
+### 24. MedGuards: Multi-Agent System for Reliable Medical Error Detection and Correction
+- Deep score: 0.2
+- Date: 2026-06-24T10:07:59+00:00
+- Source: arxiv
+- Focus/tech: AI agents / AI agents
+- URL: https://arxiv.org/abs/2606.25651
+- Summary: As Large Language Models (LLMs) are increasingly deployed in healthcare settings, accurate error detection and correction in generated or existing text becomes critical, as even minor mistakes can pose risks to patient safety. Existing methods for error detection and correction, including automated checks and heuristic-based approaches, do not generalize well across unseen datasets. In this paper, we propose MedGuards as a medical safety guardrail, which is a new framework that treats medical error detection and correction as a multi-agent in-context learning task. Specialized agents separately detect, localize, and correct errors, while a confidence-guided arbitration mechanism resolves disagreements using reasoning traces and confidence scores. This design enhances interpretability, robustness, and adaptability, without requiring additional training of the base LLMs. Additionally, we introduce the Keyword-Prioritized Correction Score (KPCS), a new evaluation metric that considers whether critical keywords within the reference text are generated correctly, providing a more comprehensive assessment than conventional metrics. Experiments across four multilingual medical datasets consisting of clinical notes demonstrate significant improvements by the proposed framework across several metrics and models. Our aim is to enable safer deployment of LLMs in real-world healthcare applications. For reproducibility, we make our code publicly available at https://github.com/congboma/MedErrBench.
+
+### 25. Probabilistic Agents in Deterministic Audits: Evaluating Multi-Agent Systems for Automated Audits Based on the German IT-Grundschutz
+- Deep score: 0.2
+- Date: 2026-06-24T09:31:06+00:00
+- Source: arxiv
+- Focus/tech: AI agents / AI agents
+- URL: https://arxiv.org/abs/2606.25622
+- Summary: The NIS-2 Directive mandates robust Risk Management from thousands of small and medium enterprises. To ensure compliance, companies rely on established standards such as the German IT-Grundschutz (IT-GS) of the Federal Office for Information Security. However, IT-GS certification is resource-intensive and requires a high level of manual effort for documentation, validation, and revision, making scalable implementation difficult and expensive. Building upon our previous conceptual framework, this paper presents the technical implementation and empirical evaluation of a Multi-Agent System (MAS) architecture combined with Hybrid Retrieval Augmented Generation (HybridRAG) for the partial automation of IT-GS certification. We introduce two novel technical contributions to the MAS architecture to enforce the compliance rigor. The Hypothesis-Verification Loop in the Structural Analysis (SA) phase that cross-references agent-inferred dependencies against the Knowledge Graph to reduce hallucinations, and a Decoupled Reasoning Pipeline that separates agent-driven semantic extraction from the deterministic protection need inheritance. We utilize the BSI's "RecPlast GmbH" case study as a human expert-generated reference data set for end-to-end evaluation of the architecture and to quantify Precision, Recall, and F1-scores. The performance of the system is investigated across the phases of SA, Protection Needs Assessment (PNA), Modeling, and IT-GS Check. The empirical results reveal noticeable differences throughout the different steps of IT-GS. While the MAS demonstrates high efficacy in semantic tasks (SA and Modeling), significantly reducing manual effort through automated information extraction, quantitative results reveal limitations in logical reasoning phases (PNA and IT-GS Check) as the probabilistic nature of current LLMs struggles to meet the deterministic rigor required by IT-GS.
+
+### 26. Varying Bundle Size Reactive Multi-Task Assignment using Selective Cost Estimation for Multi-Agent Systems
+- Deep score: 0.2
+- Date: 2026-06-23T11:55:20+00:00
+- Source: arxiv
+- Focus/tech: AI agents, robotics / AI agents
+- URL: https://arxiv.org/abs/2606.24462
+- Summary: This paper presents a scalable framework for multi-robot task allocation in complex environments where estimating task execution costs is computationally expensive. While combinatorial auction-based approaches offer reliable solutions, the exponential complexity of bundle generation typically renders them intractable for real-time reactive applications, particularly when accurate path planning is required for cost validation. We address this through a distributed, two-stage multi-fidelity bundle generation approach. Agents utilize a local search tree guided by a low-fidelity heuristic (such as euclidean distance) to rapidly explore the bundle space, applying high-fidelity path planning only to the most promising candidates in a best-first manner. These refined bids are then submitted to a central coordinator that solves a set packing problem to ensure global feasibility and maximize the overall utility. Simulation results in multiple environments demonstrate that the framework is able to improve the performance of reactive auction-based task allocation. Overall, the presented framework is shown to enable reactive task allocation with dynamic bundle sizes in multiple settings without exposing the agents' state and internal cost estimation models.
+
+### 27. AdsMind: A Physics-Grounded Multi-Agent System for Self-Correcting Discovery of Adsorption Configurations on Heterogeneous Catalyst Surfaces
+- Deep score: 0.2
+- Date: 2026-06-17T14:57:16+00:00
+- Source: arxiv
+- Focus/tech: AI agents / AI agents
+- URL: https://arxiv.org/abs/2606.19152
+- Summary: Identifying the lowest-energy surface-adsorbate configuration is critical for modeling heterogeneous catalysis, yet exhaustive exploration with ab initio calculations is computationally prohibitive. Machine-learning force fields (MLFFs) accelerate structural relaxation but leave the search over the vast configurational space a major bottleneck, and open-loop large language model (LLM) agents lack a physics-grounded feedback mechanism to correct erroneous initial guesses. We propose AdsMind (Adsorption configuration discovery with Machine intelligence and relaxation feedback), a closed-loop multi-agent framework that enables autonomous error correction through MLFF relaxation feedback. Across four LLM backends, AdsMind achieves consistently high search reliability, with success rates of 100% and 98.8% on the benchmarks AA20 and OCD-GMAE62. Relative to its single-pass (1-Shot) ablation it reduces cross-backend energy dispersion, and it uses only 4.11 and 4.67 MLFF relaxations per case, respectively -- an approximately 14-fold reduction over heuristic enumeration baselines. Density functional theory (DFT) validation using VASP/PBE on six representative AA20 systems shows that the reported open-loop Adsorb-Agent outputs exhibit qualitative adsorption-energy sign errors for molecular adsorbates, whereas AdsMind preserves the correct sign in all tested cases with closer quantitative agreement. AdsMind thus delivers reliability, self-reflection, and interpretability simultaneously, supporting more DFT-informed autonomous chemistry workflows.
+
+### 28. PersonalPlan: Planning Multi-Agent Systems for Personalized Programming Learning
+- Deep score: 0.2
+- Date: 2026-06-17T03:03:53+00:00
+- Source: arxiv
+- Focus/tech: AI agents / AI agents
+- URL: https://arxiv.org/abs/2606.18633
+- Summary: Effective programming education requires personalized instruction adapted to diverse learner backgrounds. However, while LLM-based multi-agent systems (MAS) excel at complex planning, existing planners often lack profile-grounding and pedagogical scaffolding, thereby undermining personalized programming learning. To fill in the gap, we first introduce \textbf{MAP-PPL} (\textbf{M}ulti-\textbf{A}gent \textbf{P}lans for \textbf{P}ersonalized \textbf{P}rogramming \textbf{L}earning), a profile-conditioned multi-agent planning dataset with 3{,}043 query--profile--plan instances from 1{,}730 Stack Overflow question groups and 2{,}738 learner profiles. Each plan specifies agents, subtasks, executable steps, and prerequisite dependencies. Then, we propose \textbf{PersonalPlan}, a two-stage MAS planner that first performs hierarchical SFT with separate LoRA adapters for profile-aware task decomposition and step dependency planning, then applies a Reward-Adaptive GRPO to encourage the model to generate executable, personalized, and pedagogically scaffolded plans. Extensive experiments on MAP-PPL comparing PersonalPlan against frontier LLMs, generic MAS frameworks, and agentic planners demonstrate its superiority. With only 8B and 32B variants, PersonalPlan achieves state-of-the-art plan executability, personalization, and pedagogical quality, effectively orchestrating MAS for agent-student interactions.
+
+### 29. Towards Scalable Customization and Deployment of Multi-Agent Systems for Enterprise Applications
+- Deep score: 0.2
+- Date: 2026-06-16T21:30:10+00:00
+- Source: arxiv
+- Focus/tech: AI agents / AI agents
+- URL: https://arxiv.org/abs/2606.18502
+- Summary: Large language model (LLM)-based multi-agent systems demonstrate strong performance on complex reasoning and task execution, enabling broad enterprise applications. However, production deployment remains challenging due to domain-specific customization requirements and high latency and inference costs in agentic workflows. We propose a unified framework for customization and efficient deployment of multi-agent systems in real-world settings. The first stage, Agentic Model Customization, combines continual pretraining, supervised fine-tuning, and preference optimization to adapt a compact model to specialized domains while retaining strong agentic capabilities. The second stage, Inference Optimization, integrates speculative decoding and FP8 quantization with targeted calibration to enable cost-efficient serving with minimal quality loss. Across enterprise workloads, our framework enables rapid domain adaptation and achieves a 4.48x speedup in throughput while maintaining performance and improving robustness on long-tail scenarios.
+
+### 30. Searching for Synergy in Shared Workspace Human-AI Collaboration
+- Deep score: 0.2
+- Date: 2026-06-16T19:08:43+00:00
+- Source: arxiv
+- Focus/tech: AI agents / AI agents
+- URL: https://arxiv.org/abs/2606.18413
+- Summary: Automated AI agents are increasingly capable, yet many scientific and professional tasks require human judgment and contextual expertise. We study shared-workspace human-AI teams, where AI agents and human collaborators must coordinate responsibilities before submitting a final answer. Using the Collaborative Gym environment with DiscoveryBench tasks, we examine when adding simulated human collaborators improves performance and when process loss turns additional collaborators into coordination overhead. Across 1,482 sessions, adding relevant collaborators can lower performance when teams lack structure to coordinate their contributions. We then evaluate scaffolding that combines shared group memory with simulated human-in-the-loop (HITL) gates, where selected actions require approval from a designated simulated participant. This scaffolding yields higher mean performance, most clearly in three-person teams, with clearer responsibility signals and stronger routing of expertise to team actions. Overall, how human-AI teams coordinate and integrate expertise matters as much as the capability available to them.
+
+## Top Signals By Deep Score (including already-seen)
 
 ### 1. Toward Human-Centered Multi-Agent Systems: Integrating Cognition, Culture, Values, and Cooperation in AI Agents
 - Deep score: 0.6
