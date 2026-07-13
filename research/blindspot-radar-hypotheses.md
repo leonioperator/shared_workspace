@@ -2584,3 +2584,115 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-07-13
+
+**Forrás:** Blindspot Signals Report 2026-07-13 (30 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.2 – 0.2
+**Assessment Date:** 2026-07-13
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Encoding and Retrieval in Parallel: ERP Correlates of Continuous Recognition Memory for Natural Scenes** (0.2)
+   - **Forrás:** biorxiv 2026-07-11T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.07.07.736108
+   - **Thesis:** Human long-term memory for visual scenes is remarkably robust, yet the neural mechanisms supporting memory encoding and retrieval remain poorly understood when both processes must operate at the same time. For instance, this might happen when we encounter a familiar place while simultaneously forming new memories of this encounter. We investigated electrophysiological correlates of visual recognition memory using a continuous recognition task (CRT), in which participants judged a continuous stream of scene photogra…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+2. **AI governance for military decision-making: A proposal for managing complexity - Cambridge University Press & Assessment** (0.2)
+   - **Forrás:** google_news 2026-07-10T18:25:26+00:00 — https://news.google.com/rss/articles/CBMipAJBVV95cUxQZmdRZ1hDQXdPZ1Vwd0tTYWd4RDV1MXROMEluMmZQaTBKZmRyTDRsNnMwdmRmVExGOTZURkpVWnp2a2RWTDctVVVjNDZZZnlJNW9PY1dqMjREOWtoZHNaT0dQSEdGdURYeC1Bamg3NHlJUldzVXdtSVVMOVNiUXhsaDZJVUdQa2c1TmV1S0tPY080ZmFsNHFBTUlyUFRHdlQtOUIwVzRseEVhUFhHZV8tNE9YSUxvN1MtYzFlQ0ltNmNWWGE4Yk1OdGNzUVktNWs3b0V5VElTSm5aZE1xU0JUbVppdEtYMG5jMXN0cDFXbFV6LW5QdGdEMWhyYVVmYjhkTHMxWjBaamZwTTRoQWxIUUwxQ19kM2pCREo3RHI5QldsNWRh?oc=5
+   - **Thesis:** AI governance for military decision-making: A proposal for managing complexity&nbsp;&nbsp;Cambridge University Press & Assessment
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Coordinating Task Switching in a Robotics Multi-Agent System Using Behavior Trees** (0.2)
+   - **Forrás:** arxiv 2026-05-31T11:22:16+00:00 — https://arxiv.org/abs/2606.01170
+   - **Thesis:** The application of multi-agent systems in robotics is a very challenging field. Several competitions involving such systems are proposed to foster research and development of strategies and mechanisms using games as the underlying domain. Among them are the ones from the \textit{IEEE Very Small Soccer (VSSS)} category, which is the case study described in this paper. In VSSS, two teams of three robots each compete in a very dynamic environment of a soccer game. Thus, coordination of robots' behavior during the game…
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity), H103 (Policy Tree Audit), H105 (Decentralized Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **memorywire: A Vendor-Neutral Wire Format for Agent Memory Operations** (0.2)
+   - **Forrás:** arxiv 2026-05-31T10:18:56+00:00 — https://arxiv.org/abs/2606.01138
+   - **Thesis:** Agent-memory frameworks -- mem0, Letta/MemGPT, Cognee, Zep/Graphiti, MemoryOS, MemTensor -- each ship their own SDK, storage layout, and operational vocabulary. There is no shared wire format: every integration is bespoke, every migration rebuilds memory from scratch, and no framework ships a governance surface that lets a human review writes before they enter long-term storage. We present memorywire, a JSON-Schema 2020-12 wire format for five memory operations (remember, recall, forget, merge, expire) over four me…
+   - **Hypothesis-ek:** H62 (Proof Chain), H63 (Legal Entity / Human-Centered Governance), H102 (Semantic Drift)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks** (0.2)
+   - **Forrás:** hackernews 2026-05-31T07:27:28+00:00 — https://arxiv.org/abs/2510.12635
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **CV-Arena: An Open Benchmark for Instructional Computer Vision Problem Solving with Human-AI Collaborative Preferences** (0.2)
+   - **Forrás:** arxiv 2026-05-30T23:37:55+00:00 — https://arxiv.org/abs/2606.00931
+   - **Thesis:** Instruction-guided image editing is becoming a general interface for visual work, yet existing benchmarks still focus largely on narrow appearance edits and do not fully capture the diversity of real-image tasks in professional workflows. Here, we define instructional computer vision problem solving as a broader formulation of image editing: given a real input image and a natural-language instruction, a system must produce an edited output that realizes the requested transformation while satisfying explicit preserv…
+   - **Hypothesis-ek:** H62 (Proof Chain), H104 (Meta-Agent Decomposition)
+   - **Megerősítés:** A benchmark-konstrukció maga is verifikálható multi-agent pipeline lesz; H104 és H62 közvetlenül erősödik.
+
+7. **Dynamic Coordination Strategy Selection for Enterprise Multi-Agent Systems** (0.2)
+   - **Forrás:** arxiv 2026-05-30T16:43:02+00:00 — https://arxiv.org/abs/2606.00804
+   - **Thesis:** Enterprise multi-agent systems increasingly expose multiple coordination patterns, but deployments often lack evidence for when to use consensus, debate, synthesis, or a simpler single-agent workflow. This paper evaluates whether coordination strategy should be selected dynamically by problem class rather than fixed globally. We run a frozen matrix of 30 enterprise tasks spanning six industries, five problem classes, four execution conditions, three replications per cell, and four model arms: qwen_local, sonnet, ge…
+   - **Hypothesis-ek:** H62 (Proof Chain), H71 (Rubric-Guided Policy), H72 (High-Stakes Integrity), H105 (Decentralized Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **Scaling Behavior of Single LLM-Driven Multi-Agent Systems** (0.2)
+   - **Forrás:** arxiv 2026-05-30T09:57:49+00:00 — https://arxiv.org/abs/2606.00655
+   - **Thesis:** The burgeoning field of LLM-based Multi-Agent Systems (MAS) promises to tackle complex tasks through collaborative intelligence, yet fundamental questions regarding their scaling behavior and intrinsic collective dynamics remain underexplored. This paper systematically investigates how the performance of a homogeneous MAS evolves as the number of agents increases, isolating the variable of collaboration from model or knowledge heterogeneity. We propose the Sequential Iterative Multi-Agent System (SIMAS) framework,…
+   - **Hypothesis-ek:** H105 (Decentralized Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+9. **MemPro: Agentic Memory Systems as Evolvable Programs** (0.2)
+   - **Forrás:** arxiv 2026-05-30T08:47:33+00:00 — https://arxiv.org/abs/2606.00619
+   - **Thesis:** Long-horizon autonomous agents require memory systems to retain historical information, track evolving states, and reuse relevant knowledge beyond finite context windows. Existing agentic memory systems typically follow a memory construction-retrieval (MCR) pipeline, but often adapt mainly the memory bank while keeping the surrounding pipeline fixed after deployment. This fixed-pipeline design struggles to handle heterogeneous task-specific failure modes and can become misaligned with memory banks that evolve in sc…
+   - **Hypothesis-ek:** H103 (Policy Tree Audit), H104 (Meta-Agent Decomposition), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+10. **RoboWits: Unexpected Challenges for Robotic Creative Problem Solving** (0.2)
+   - **Forrás:** arxiv 2026-05-28T17:57:15+00:00 — https://arxiv.org/abs/2605.30326
+   - **Thesis:** The ability to reason, adapt, and creatively solve problems under unexpected challenges is essential for robots operating in real-world environments. However, current robotic benchmarks primarily emphasize skill-level execution and provide limited insight into such cognitive reasoning capabilities. We introduce RoboWits, a bi-manual robotic benchmark designed to systematically evaluate cognitive reasoning, creative tool use, and robustness to unexpected conditions. To enable scalable construction of high-quality re…
+   - **Hypothesis-ek:** H62 (Proof Chain), H104 (Meta-Agent Decomposition)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H103** (Policy Tree Audit): mai signalok által megerősítve
+- **H105** (Decentralized Governance): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H102** (Semantic Drift): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H104** (Meta-Agent Decomposition): mai signalok által megerősítve
+- **H71** (Rubric-Guided Policy): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-07-13 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
