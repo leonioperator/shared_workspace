@@ -2807,3 +2807,114 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-07-15
+
+**Forrás:** Blindspot Signals Report 2026-07-15 (30 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.3 – 0.1
+**Assessment Date:** 2026-07-15
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **MechAInistic: An LLM-guided Multi-Agent System for Reasoning over Genome-Scale Constraint-Based Metabolic Models** (0.3)
+   - **Forrás:** biorxiv 2026-07-14T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.05.11.723319
+   - **Thesis:** Constraint-based metabolic modeling is a powerful way to study the mechanistic basis of cellular states and disease, but its effective use demands substantial computational expertise and careful coordination of multi-step analyses. We developed MechAInistic to lower this barrier and enable researchers to ask complex biological questions in natural language. Harnessing large language models, MechAInistic is a multi-agent system organized around an Architect-Reviewer pattern that transforms a natural-language questio…
+   - **Hypothesis-ek:** H105 (Decentralized Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Why Cynomi Is Eyeing Autonomous AI Agents for Security Teams - GovInfoSecurity** (0.1)
+   - **Forrás:** google_news 2026-07-14T21:55:52+00:00 — https://news.google.com/rss/articles/CBMimAFBVV95cUxNYXhDcTdiX2pCSV9ybm1oVm9EcmJUMGFQOFl5V1JDY0ZEZ2MtSXpGclFBMnhGaHZES2M4ZXFteHFBdmRRRGFnekx3QUxmeXVPakZrWC1XSlNQMDFpaFFHYnZIOUpMX1hHWl9jdHpMcUY1alR3Y0F1MnZZeGk5c0w5OThWZGNuLWlybnJjM0xiSFdabHVKS2tudQ?oc=5
+   - **Thesis:** Why Cynomi Is Eyeing Autonomous AI Agents for Security Teams&nbsp;&nbsp;GovInfoSecurity
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Injective launches AI Agent SDK for onchain autonomous agents - Crypto Briefing** (0.1)
+   - **Forrás:** google_news 2026-07-14T15:56:17+00:00 — https://news.google.com/rss/articles/CBMiaEFVX3lxTE45eXB1d2ZpNy03NHd2amc2VmdQQnl1VFRtN3lrQ1d2ZHRmSmJwbm1jQXprbEIyVl8yQ3MyWDZqVFU1RUV2Rm1SOVNzNjhOdmxLbGl0SEE4aVlTWXViU2NWdkVkMU9obzhP?oc=5
+   - **Thesis:** Injective launches AI Agent SDK for onchain autonomous agents&nbsp;&nbsp;Crypto Briefing
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **Transplant-Agents: A Multi-Agent Artificial Intelligence Framework for Reproducibility Assessment of Post-Transplant Risk Prediction and Rejection Biomarkers** (0.1)
+   - **Forrás:** biorxiv 2026-07-14T00:00:00+00:00 — https://www.biorxiv.org/content/10.1101/2025.07.10.664265
+   - **Thesis:** Reproducible biomarker identification and transplant rejection risk prediction remain fundamental yet unsolved challenges in transplantation medicine. Traditional approaches rely on hypothesis-driven analyses and domain expertise, limiting scalability and generalizability across diverse populations. We introduce Transplant-Agents, a data-driven multi-agent AI framework integrating large language models (LLMs) with machine learning algorithms for automated biomarker identification and rejection risk prediction. Agen…
+   - **Hypothesis-ek:** H71 (Rubric-Guided Policy), H72 (High-Stakes Integrity), H104 (Meta-Agent Decomposition)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **Agent4cs: A Multi-agent System for Code Summarization in Large Hierarchical Codebases** (0.1)
+   - **Forrás:** arxiv 2026-07-01T19:41:38+00:00 — https://arxiv.org/abs/2607.01425
+   - **Thesis:** Understanding large, complex codebases, especially those with obfuscated structures and incomplete documentation, remains a significant challenge. Existing code summarization solutions often rely on a single language model or coding assistant like Claude Code, and treat source code as flat text, underutilizing the rich interdependencies and hierarchical information within a repository. To address these shortcomings, we propose Agent4cs - a multi-agent framework that summarizes large codebases in a bottom-up fashion…
+   - **Hypothesis-ek:** H90 (Multi-Agent Debate / Research Agents), H102 (Semantic Drift)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **Attackers Exploit Exposed Enterprise AI Infrastructure to Power Autonomous Agents - Petri IT Knowledgebase** (0.1)
+   - **Forrás:** google_news 2026-07-01T13:28:06+00:00 — https://news.google.com/rss/articles/CBMickFVX3lxTFA2akJGdzJqSnpkZ0ZvWUZpOWFuWXBjblhuTkpCQmt0Wm4tUmdWU2JiRVV5QVAzWXk1SG1jQzYzdHRYYlBLajVXTWctcDFSQllZcTM3RklrRlJ6TG9xc1VXV2F4SEVVTGpzSzBLbHQyYUMtQQ?oc=5
+   - **Thesis:** Attackers Exploit Exposed Enterprise AI Infrastructure to Power Autonomous Agents&nbsp;&nbsp;Petri IT Knowledgebase
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+7. **OKX Launches Marketplace for Autonomous AI Agents - Let's Data Science** (0.1)
+   - **Forrás:** google_news 2026-06-30T18:48:16+00:00 — https://news.google.com/rss/articles/CBMilgFBVV95cUxNTTBac01RNzZSbGZBbHFicGh2UmdTWkFuamVHbzJwZHZOUVU4S08zbkMzaVQ0allZa1RZb0JBc3ZrT0VRZDFsaWQ1V2p0bzNpVFgxSEhhZEUtUXRHX0hpMGlvYWhhd3RlZm9TejdyT2pJUTZNOFgtZmRVZmJsWWs0d01Fclg3clQyenJKU0JLb2ZwcHlQY1E?oc=5
+   - **Thesis:** OKX Launches Marketplace for Autonomous AI Agents&nbsp;&nbsp;Let's Data Science
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **Harness Adds Autonomous AI Agents for DevOps Automation - Let's Data Science** (0.1)
+   - **Forrás:** google_news 2026-06-30T15:22:25+00:00 — https://news.google.com/rss/articles/CBMingFBVV95cUxNNjgtUFlna0dKcmlxU0gwQkJXOVRKZDZYR3Vzb2xnaHN0Nms2cTBRZG9qUE43MTV0QW5ibjd2bUN3cmk0NkxNZHZ2T0hod3FWajJ6Zlh4ZTlvUHFDVFVCY0F5Y2oyV1RSRXBlbHJmb01CTVhHVUZrZlYzMk9hMXpNbkphWE4wQWtka1QwU0NfOENJRUNsb2JTd256YWZrZw?oc=5
+   - **Thesis:** Harness Adds Autonomous AI Agents for DevOps Automation&nbsp;&nbsp;Let's Data Science
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+9. **A Modular Vision-Language-Action Robotics Framework for Indoor Environments** (0.1)
+   - **Forrás:** arxiv 2026-06-30T05:17:02+00:00 — https://arxiv.org/abs/2606.31144
+   - **Thesis:** This paper presents an integrated system for the CMU Vision-Language-Action (VLA) Challenge, designed to enable an autonomous agent to perform complex tasks based on natural language instructions. Our framework employs a modular architecture that orchestrates environment mapping, question processing, and navigation. The system operates in two parallel streams: a perception pipeline that constructs a semantic voxel map from real-time camera feeds using OwlViT embeddings, and a language pipeline that classifies user…
+   - **Hypothesis-ek:** H102 (Semantic Drift), H104 (Meta-Agent Decomposition), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+10. **Show HN: Agentic Orchestrator, a TUI for long-running coding agents** (0.1)
+   - **Forrás:** hackernews 2026-06-30T01:14:29+00:00 — https://github.com/doordash-oss/agentic-orchestrator
+   - **Thesis:** Hello Folks!<p>Agentic Orchestrator is a terminal tool that takes complex feature requests and builds them by orchestrating coding agents through a series of phases that emulate a full-fledged engineering flow: requirements clarification, research, design, multi-phase planning, implementation, and review. It is a single pane of glass for all your features and exposes post-publish utilities such as resolving merge conflicts and responding to review comments.<p>The key design choice is that this is deterministic orch…
+   - **Hypothesis-ek:** H66 (Oversight Incentive / Delay Risk)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H105** (Decentralized Governance): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H71** (Rubric-Guided Policy): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H104** (Meta-Agent Decomposition): mai signalok által megerősítve
+- **H90** (Multi-Agent Debate / Research Agents): mai signalok által megerősítve
+- **H102** (Semantic Drift): mai signalok által megerősítve
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-07-15 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
