@@ -1,0 +1,17 @@
+# Candidates 2026-07-17
+
+*   **Granola MCP integration:** Claude (vagy ChatGPT) hozzáfér a megbeszélési jegyzetekhez, automatizált munkafolyamatok egyetlen promptra. (TLDR AI, szponzorált tartalom, de érdekes lehet)
+*   **Teleport - Zero Trust to Agent Trust:** Miért kell a Zero Trust elveket kiterjeszteni az ügynök viselkedésekre. (TLDR AI, szponzorált tartalom, de releváns)
+*   **Jira AI-native software development:** Atlassian új Jira képességei lehetővé teszik a feladatok kiosztását Claude-nak, Cursornak vagy GitHub Copilotnak közvetlenül Jirából. (TLDR AI, szponzorált tartalom, de releváns)
+*   **ReactBench V1:** Értékelési keretrendszer, amely teszteli a kódoló ügynököket valós React munkán. (TLDR AI)
+*   **AI Gateway Leaderboard Data:** Rangsorolja a modellek, laborok, alkalmazások és szolgáltatók forgalmát. (TLDR AI)
+*   **Silico:** Platform, amely AI kutatócsoportot biztosít kísérletek futtatásához. (TLDR AI)
+*   **The $110/month self-improving pipeline:** Egy fejlesztő beállított egy önfejlesztő pipeline-t Claude Code-dal, amely triázsolja, lebontja, implementálja, teszteli a feladatokat és PR-t nyit. (TLDR AI)
+*   **Supply Co. x Work Louder:** kbd-1.0-codex-micro, parancsközpont ügynöki munkához. (TLDR AI)
+*   **Attio:** Az agentic CRM. Ügynökökkel és automatizálással épít pipeline-t, követi a jeleket és előremozdítja az üzleteket. (ben's bites, szponzorált tartalom)
+*   **Yoroll:** Ötleteket, videókat és promptokat játszható játékokká alakítja. (ben's bites)
+*   **Scan:** Készítsen megosztható vizuális térképet a kódbázisáról Claude vagy Codex segítségével. (ben's bites)
+*   **TogetherLink:** Futtasson nyílt modelleket, mint a GLM-5.2 Codexben vagy Claude Code-ban. (ben's bites)
+*   **Grandma:** Egy eszköz, amely megjegyzi a stackjét, projektjeit és kódolási stílusát, majd tájékoztatja az új ügynököket. (ben's bites)
+*   **Reflect notes app:** Fable-lel újraépített jegyzetalkalmazás két hét alatt, ingyenes és MIT-licencelt asztali verzióval. (ben's bites)
+*   **Why we stopped using SDKs:** Közvetlen API hívások könnyebbek az ügynökök számára a hibakereséshez és a hibák láthatóvá tételéhez. (ben's bites)
