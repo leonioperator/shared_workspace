@@ -3025,3 +3025,110 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-07-17
+
+**Forrás:** Blindspot Signals Report 2026-07-17 (30 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.2 – 0.1
+**Assessment Date:** 2026-07-17
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **A multi-agent workflow converts CAR-T patient evidence into experimentally testable hypotheses** (0.2)
+   - **Forrás:** biorxiv 2026-07-16T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.07.15.738646
+   - **Thesis:** The rapid expansion of chimeric antigen receptor (CAR) T cell studies has produced a fragmented evidence landscape linking publications, repository accessions, patient metadata and mechanistic observations. Here we present BioPathfinder, a multi-agent discovery engine for CAR-T research evidence construction, hypothesis generation and validation planning. Unlike existing LLM-based and agentic approaches centered on predefined CAR-T development tasks, BioPathfinder constructs a provenance-tracked resource linking sc…
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Medea: An AI agent for therapeutic reasoning across biological contexts** (0.2)
+   - **Forrás:** biorxiv 2026-07-16T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.01.16.696667
+   - **Thesis:** Therapeutic hypotheses can transfer across diseases but their relevance depends on biological context. The same target, perturbation, or treatment can produce different effects across cell types, disease states, genetic backgrounds, and patients. Therapeutic reasoning therefore requires methods that preserve context, test when evidence supports transfer, and identify where context-specific effects limit it. Although AI agents can perform therapeutic analyses, existing systems often fail to preserve biological conte…
+   - **Hypothesis-ek:** H62 (Proof Chain), H72 (High-Stakes Integrity)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Show HN: Libretto PR agents – Automatically fix failing playwright scripts** (0.1)
+   - **Forrás:** hackernews 2026-07-16T20:21:27+00:00 — https://libretto.sh/debug-agents
+   - **Thesis:** Libretto PR agents is a free TypeScript library for maintaining Playwright browser automations. Add one line of code to your existing Playwright scripts and it lets an agent automatically open GitHub PRs fixing the script when it fails.<p>A few months ago we released Libretto, a CLI + coding-agent skill for building deterministic browser automations. The idea was that for many browser workflows, especially repetitive business workflows, you don’t need an AI agent making decisions at runtime. You want deterministic…
+   - **Hypothesis-ek:** H103 (Policy Tree Audit), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **Lineation.ai focuses on runtime security for autonomous AI agents - Help Net Security** (0.1)
+   - **Forrás:** google_news 2026-07-16T09:12:21+00:00 — https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdnV6N0dUdXM4eFpIOFBiV1N5NF9kYUhxOU9DcnFRZnNHRjJDS3pRLUZSY0NCNmxGUlpwcnVxTkNUTnNDRXlrQ3JJN3pSM2hfbm9VZV9KekdYalNvOGlXdjI5ZjZhbDVZa1ZtbW9fQnctRVU4NXRSY1ZBNURwSmlVU3pxYWE4V1Bm?oc=5
+   - **Thesis:** Lineation.ai focuses on runtime security for autonomous AI agents&nbsp;&nbsp;Help Net Security
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **Kit For AI** (0.1)
+   - **Forrás:** product_hunt 2026-07-15T10:39:04+00:00 — https://www.producthunt.com/products/kit-for-ai
+   - **Thesis:** <p> The memory layer for AI agents </p> <p> <a href="https://www.producthunt.com/products/kit-for-ai?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1197148?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **Manta AI** (0.1)
+   - **Forrás:** product_hunt 2026-07-13T12:00:36+00:00 — https://www.producthunt.com/products/manta-ai
+   - **Thesis:** <p> Your AI agent for autonomous web app testing </p> <p> <a href="https://www.producthunt.com/products/manta-ai?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1195155?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+7. **ENPIRE: Agentic Robot Policy Self-Improvement in the Real World** (0.1)
+   - **Forrás:** arxiv 2026-06-18T09:21:27+00:00 — https://arxiv.org/abs/2606.19980
+   - **Thesis:** Achieving dexterous robotic manipulation in the real world heavily relies on human supervision and algorithm engineering, which becomes a central bottleneck in the pursuit of general physical intelligence. Although emerging coding agents can generate code to automate algorithm search, their successes remain largely confined in digital environments. We conjecture that the missing abstraction to automate robotics research is a repeatable feedback loop for real-world policy improvement: reset the scene, execute a poli…
+   - **Hypothesis-ek:** H62 (Proof Chain), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **Get back hours every day with autonomous agents in Amazon Quick - Amazon Web Services (AWS)** (0.1)
+   - **Forrás:** google_news 2026-06-17T20:35:39+00:00 — https://news.google.com/rss/articles/CBMirwFBVV95cUxNNTBPMElPTW1nYXJMVXBqY293dldfNDVDaWhpcmV0ZU0waE1mVjZOTHR0ek1INVFqNmRBUml4bUJ0TnBNb2xJVGNMTDNMaFZrdlhOOE1BdHRHSGZTeUtXT0FweXVZZFpHenVWUW95UXAzeTRWOXlCMXBidHBsYjdzYnJWWC13a1ZvS09ORHJkN0ozYzNaWXp0RldnaHlQYWh3akNKRkVBSU5WWm1xaFBn?oc=5
+   - **Thesis:** Get back hours every day with autonomous agents in Amazon Quick&nbsp;&nbsp;Amazon Web Services (AWS)
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+9. **Show HN: Relaymux, a tmux-based meta-harness for local coding agents** (0.1)
+   - **Forrás:** hackernews 2026-06-17T17:27:58+00:00 — https://github.com/mupt-ai/relaymux
+   - **Thesis:** Hey HN,<p>There’s been a lot of interest recently in meta-harnesses, loops, and multi-agent orchestration. Obviously, there are already a lot of good tools: Conductor, cmux, the native Codex &#x2F; Claude Code apps, etc.<p>For my own use cases, I’ve felt that the orchestration layer tends to feel overengineered. I mostly wanted a simple local harness (i.e Pi) for running and tracking CLI agents with the ability to hop in (via tmux). Relaymux is my opinionated attempt at that.<p>A few design principles:<p>- The fron…
+   - **Hypothesis-ek:** H103 (Policy Tree Audit)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+10. **Skill-MAS: Evolving Meta-Skill for Automatic Multi-Agent Systems** (0.1)
+   - **Forrás:** arxiv 2026-06-17T09:12:50+00:00 — https://arxiv.org/abs/2606.18837
+   - **Thesis:** Large Language Model (LLM)-based automatic Multi-Agent Systems (MAS) generation has become a crucial frontier for tackling complex tasks. However, existing methods face a dilemma between model capability and experience retention. Inference-time MAS leverages frozen frontier LLMs but repeats identical searches without learning from past experience. Conversely, Training-time MAS internalizes experience via gradient updates but is constrained by the low capability ceiling of smaller models, and is hard to scale to lar…
+   - **Hypothesis-ek:** H62 (Proof Chain), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H103** (Policy Tree Audit): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-07-17 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
