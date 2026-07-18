@@ -3132,3 +3132,113 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-07-18
+
+**Forrás:** Blindspot Signals Report 2026-07-18 (30 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.1 – 0.1
+**Assessment Date:** 2026-07-18
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Entrust: Deploying Autonomous AI Agents at Scale with Trust - Cyber Magazine** (0.1)
+   - **Forrás:** google_news 2026-07-17T15:25:10+00:00 — https://news.google.com/rss/articles/CBMikwFBVV95cUxQeldFcVRkNkw5LWRQRF9TRGNkczkydG1zdXE4QVhfZE9STTlYYnY1RkZWdkJRd0R4YTlESGpMSXpNbXhpRm9HdHZTSmxHTHh3cUlmajNQVlFJQlROT1otUGpGNkM1MDZZNVZxdDZMR0lKeG5IdnpsY0VpaDVDRnl2bVEtX1FLZi15R1ZuNHFxc0JFMFk?oc=5
+   - **Thesis:** Entrust: Deploying Autonomous AI Agents at Scale with Trust&nbsp;&nbsp;Cyber Magazine
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Show HN: On-chain bond market where the issuers are AI agents** (0.1)
+   - **Forrás:** hackernews 2026-07-17T14:25:20+00:00 — https://selbonds.now
+   - **Thesis:** Hi Hacker News, I built sellbonds.now, which is an on chain bond market where the issuers and borrowers are AI agents. sellbonds.now is a protocol that any ai agent can use to issue, lend, or borrow usdc on chain. I&#x27;m fascinated by the idea of agentic autonomous finance - a future where AI agents aren&#x27;t acting on behalf of humans, but where they are autonomous financial actors themselves, issuing debt, lending money, and doing trillions of autonomous transactions per day. In that direction I&#x27;m excite…
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Using Microsegmentation to Contain Autonomous AI Agents - Akamai** (0.1)
+   - **Forrás:** google_news 2026-07-16T18:08:37+00:00 — https://news.google.com/rss/articles/CBMiiwFBVV95cUxOT295cERwdXNtaHJYTUViSW5wcVBWdGRjU3ljU1hlV055NWgtSFhPNkVaZGptYVJLUkhjTDJzOGt4b1lSek1rUU1OT2xfaG9RQTJ4azZHR2hYajhRQlJmRHdBRXVrX3NQM3NSMVFyN0lmWjl4Nkd4RzljLWdkWTgwRDJKT3lWMUZfelBn?oc=5
+   - **Thesis:** Using Microsegmentation to Contain Autonomous AI Agents&nbsp;&nbsp;Akamai
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **A New Study from Harvard and Perplexity Finds AI Agents Perform 26 Minutes of Autonomous Work per Session vs 33 Seconds for Search - MarkTechPost** (0.1)
+   - **Forrás:** google_news 2026-06-09T05:53:36+00:00 — https://news.google.com/rss/articles/CBMigAJBVV95cUxNZVhFX3F2VzBYZTBaMDdPX3Z6ajFtYVFWdFZfclF1ZnNyTV9faEVSek5tU2VWTEwzX0Y5SERkc3lPNWpiTkNfdkdJbzlKcTZKX1BHeFRLdi1reE16ODYzOWNDNWJhNl9PWV9xQ3hnaGhLUmh2dFZZS21DTjdZaXhmTzNoMlJlVG1fU0VjSTZkVzV3eUVEaWtkYzE4ZnQ4bzFVN2Q1ejZZa1g3UVpjeDhpU3B0ZmlDMmlfYXRRTXdHcm02TnRWTlhxUExHWWMtdDg3Um9CT2VEVy1lTGtBWWJMVHdscGlTaktreV9acTFUZ3Bzc2dwdWxOa2poYmwzU3A2?oc=5
+   - **Thesis:** A New Study from Harvard and Perplexity Finds AI Agents Perform 26 Minutes of Autonomous Work per Session vs 33 Seconds for Search&nbsp;&nbsp;MarkTechPost
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **What Spatial Memory Must Store: Occlusion as the Test for Language-Agent Memory** (0.1)
+   - **Forrás:** arxiv 2026-06-09T01:34:18+00:00 — https://arxiv.org/abs/2606.10299
+   - **Thesis:** Language-agent "memory palace" systems anchor each memory to a world coordinate, on the intuition that geometry adds something text cannot. We make that intuition testable and report three results. First, the memory-palace default of folding spatial proximity into a linear blend beside recency and importance does not help and can hurt: in a pre-registered recall experiment the shipped blend fails its own frozen test (mean Delta-Hit@5 -0.0375, Wilcoxon p=0.306), sitting at a position-blind baseline, while a geometry…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **Game-Theoretic Area Coverage Control with Cooperative-Adversarial Multi-Agent Systems** (0.1)
+   - **Forrás:** arxiv 2026-06-08T21:43:39+00:00 — https://arxiv.org/abs/2606.10201
+   - **Thesis:** We formulate a multi-agent area coverage control problem as a two-player zero-sum game between two agent groups with conflicting goals. Conventional coverage control allocates resources based on an environmental risk density field. In contrast, we generalize this metric by allowing a second group of adversarial agents to generate the spatial risk field. Coupled agent dynamics are linked through the area coverage metric, which functions as the game reward. This framework induces coupled gradient-descent-ascent contr…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **A multi-agent system for spine MRI report generation from multi-sequence imaging** (0.1)
+   - **Forrás:** arxiv 2026-06-08T00:50:07+00:00 — https://arxiv.org/abs/2606.08897
+   - **Thesis:** Spinal pathology is a leading cause of pain and disability worldwide. Spine MRI is central to clinical evaluation, yet its interpretation remains complex and time-consuming, requiring integration of information across multiple imaging sequences and anatomical regions. Despite recent advances in automated MRI analysis, effectively combining multi-sequence data while preserving sequence-specific diagnostic information remains an open challenge. Here we present SpineAgent, a multi-agent framework for spine MRI report…
+   - **Hypothesis-ek:** H90 (Multi-Agent Debate / Research Agents)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **Comprehensive evaluation of LLM capabilities for interpretation and analysis of genome-scale metabolic models in metabolic engineering** (0.1)
+   - **Forrás:** biorxiv 2026-06-08T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.06.03.730004
+   - **Thesis:** Genome-scale metabolic models (GSMs) underpin pathway and strain engineering by linking genes to metabolic reactions and enabling system-level simulation of cellular fluxes and intervention effects, yet end-to-end analysis workflows remain fragmented, expert-demanding, and slow to adapt. Large language models (LLMs) could transform this landscape, lowering the barrier by explaining concepts, interpreting GSM files, and turning natural-language instructions into valid analysis code, thereby substantially mitigating…
+   - **Hypothesis-ek:** H62 (Proof Chain), H66 (Oversight Incentive / Delay Risk), H71 (Rubric-Guided Policy), H72 (High-Stakes Integrity)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+9. **Show HN: YourMemory, agentic memory is a pruning problem, not a hoarding problem** (0.1)
+   - **Forrás:** hackernews 2026-06-07T09:49:42+00:00 — https://yourmemoryai.vercel.app/
+   - **Thesis:** This is a project that I have been building for a while now, YourMemory is a solution to agentic memory which focuses on pruning of noise rather than hoarding of data.<p>In the current state of agentic memory most of the context is stored in the form of a MD file or is derived through a RAG model where you store each and everything. Both of the solution leads to bloated context which does not optimize the usage of any tokens.<p>In this system we only keep relevant data in our memory and prune all the unnecessary da…
+   - **Hypothesis-ek:** H102 (Semantic Drift)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+10. **Universal Memory Protocol – a shared format for agent memory** (0.1)
+   - **Forrás:** hackernews 2026-06-06T20:39:21+00:00 — https://universalmemoryprotocol.io/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H90** (Multi-Agent Debate / Research Agents): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+- **H71** (Rubric-Guided Policy): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H102** (Semantic Drift): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-07-18 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
