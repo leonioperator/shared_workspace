@@ -3242,3 +3242,109 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-07-19
+
+**Forrás:** Blindspot Signals Report 2026-07-19 (30 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0 – 0
+**Assessment Date:** 2026-07-19
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs** (0)
+   - **Forrás:** techcrunch 2026-07-17T22:55:09+00:00 — https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/
+   - **Thesis:** From AI workflows to battery life and security, here's what it's really like to live with Vertu's luxury foldable every day.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+2. **Trend Micro tests 13 AI models in PwC-backed AI agent risk study - International Business Times** (0)
+   - **Forrás:** google_news 2026-07-17T22:51:06+00:00 — https://news.google.com/rss/articles/CBMilgFBVV95cUxQa05PUEFfbXBXeTNHYlRjbU5FRER2ZE42dUdGa21lU25jTjhmVlp6Z2hTclZWMmJwVUViN2VmQ18zZmtEd2JJVng0anBESzVNSjQ0N1k2bEtBbjJpZHZYc3JtLURQc01FNWxTd3d3OWZvLVhPSjVqeUtMWEw0SVMybl9wa2ZNZHdxdTFCNU93MnNHLWdTd0E?oc=5
+   - **Thesis:** Trend Micro tests 13 AI models in PwC-backed AI agent risk study&nbsp;&nbsp;International Business Times
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+3. **VulnHunter: Capital One's agentic AI code security tool** (0)
+   - **Forrás:** hackernews 2026-07-17T12:42:12+00:00 — https://www.capitalone.com/tech/open-source/announcing-vulnhunter/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **Agentic Commerce Is Coming—Will the Legal System Be Ready? - Consumer Finance Monitor** (0)
+   - **Forrás:** google_news 2026-07-16T20:37:30+00:00 — https://news.google.com/rss/articles/CBMi2AFBVV95cUxNM1M5cjU1czhmTnpMZ3NIZ0tzNmJmLWZwWExMSmROZDVWTGlRUl90MHRaTVRKMU56TjRNMlA0WF82QzlZZGFjcVlESnJEd25QM1NfcHVjb2lrRWVkWEdQNVRRNnE5c00xQVJfb0d6SE9ZTm04dWFsMllGcUtGUG55NGJxelNHbk1sRV93UkFSX01aRVdNUnoxcndzejcxeEpYcW5ETEdkOXJiRWtJZm1mcTU1SmQ5MXVpTGxqTGZkdmFROGxhSE5PV1BPR3U4WldFT0dvdEhTdkQ?oc=5
+   - **Thesis:** Agentic Commerce Is Coming—Will the Legal System Be Ready?&nbsp;&nbsp;Consumer Finance Monitor
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **LM Studio Bionic: the AI agent for open models** (0)
+   - **Forrás:** hackernews 2026-07-16T20:18:15+00:00 — https://lmstudio.ai/blog/introducing-lm-studio-bionic
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **Carrington partners with Kastle to deploy AI agents - HousingWire** (0)
+   - **Forrás:** google_news 2026-07-16T18:09:33+00:00 — https://news.google.com/rss/articles/CBMiekFVX3lxTE1kRTF1dmVZN1cyNXotTmhOU1ZlSUQzTjFfdnNoRDFVWklJNTlKeW9YZS1DdFVrZkc2N3J4STdJY21idVptTEMtU21jYVl5VF9lM1o3SnJBSURzS1I5QmU5cXVRNmxvVXJZYlAyXzRCOG5lMUEtXzVlTFRn?oc=5
+   - **Thesis:** Carrington partners with Kastle to deploy AI agents&nbsp;&nbsp;HousingWire
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **Newsletter platform Beehiiv now lets subscribers chat with each other, adds AI** (0)
+   - **Forrás:** techcrunch 2026-07-16T17:00:00+00:00 — https://techcrunch.com/2026/07/16/newsletter-platform-beehiiv-now-lets-subscribers-chat-with-each-other-adds-ai/
+   - **Thesis:** Beehiiv is launching an AI Copilot to help publishers with user growth and analytics.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Yes, you can now order DoorDash from the command line** (0)
+   - **Forrás:** techcrunch 2026-07-16T15:38:55+00:00 — https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/
+   - **Thesis:** DoorDash is opening a limited beta of dd-cli, a command-line tool that lets developers and AI agents search stores, build carts, and place orders from the terminal, marking another step toward software designed for AI agents instead of just humans.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Carrington Deploys AI Agents For Servicing And Collections - National Mortgage Professional** (0)
+   - **Forrás:** google_news 2026-07-16T12:24:36+00:00 — https://news.google.com/rss/articles/CBMiogFBVV95cUxPS2RIRjFTOE9GYVdPaEFpMGt5UXl6MF9NdTgwUmY4YTd0WDE3eGhyMjh0Y05KdUJ3TnhVNV9jNkhPTDAzMmc2akNuT25Ob25zREY0eWo1Z3dVMm9ZQjFXT0J1WWUzcV9pZktOczkwdEZaY3doZWVRd1lqMHI1VVB6cVBIRWYyc2wwRW9XRmVWRGwxejUtbC12VkpUTkxxdnZVMFE?oc=5
+   - **Thesis:** Carrington Deploys AI Agents For Servicing And Collections&nbsp;&nbsp;National Mortgage Professional
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex** (0)
+   - **Forrás:** techcrunch 2026-07-15T19:41:38+00:00 — https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/
+   - **Thesis:** OpenAI, which is in the middle of a legal battle with Apple over hardware trade theft allegations, just released a light-up keyboard designed to be paired with its agentic coding app.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-07-19 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
