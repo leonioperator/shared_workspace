@@ -15,37 +15,37 @@ updated_at: '2026-05-25T11:25:40.426811+00:00'
 ---
 
 ### HOOK (0–3 mp)
-Hetente három-négy órát töltöttél azzal, hogy a meetingek után összefoglald a feladatokat? Ennek most vége.
+Heti három-négy óra ment el arra, hogy meetingek után action itemeket szedtél össze. Ez véget ért.
 
 ---
 
 ### PAIN (3–10 mp)
-Ismerős a helyzet: vége a megbeszélésnek, mindenki rohan a saját dolgára. Te pedig ott ülsz, és próbálod összerakni, ki mit vállalt. E-maileket bogarászol át részletekért. Két nap múlva kiderül, hogy valaki nem tudott egy fontos döntésről. Miért? Mert nem volt írásban rögzítve.
+Ismered: vége a meetingnek, mindenki megy vissza a dolgára. Te ülsz, és próbálod rekonstruálni, ki mit vállalt. Az emailláncból keresel ki részleteket. Két nappal később kiderül, hogy valaki nem tudott egy döntésről. Mert nem volt írásban.
 
-Ez nem szervezési hiba, hanem egy alapvető, strukturális probléma.
+Ez nem szervezési hiba. Ez strukturális probléma.
 
 ---
 
 ### SOLUTION (10–30 mp)
-Három egyszerű lépésben:
+Három lépés:
 
-1.  A meeting zajlik, az AI pedig figyel. Rögzíti és összefoglalja a lényeget.
-2.  A megbeszélés végén azonnal kapsz egy tiszta összefoglalót: ki mit vállalt, mi a pontos döntés, és mi a következő lépés.
-3.  A feladatok automatikusan eljutnak az érintettekhez.
+1. A meeting zajlik, az AI figyel. Rögzít és összefoglal.
+2. Meeting vége: kapsz egy összefoglalót. Ki mit vállalt, mi a döntés, mi a következő lépés.
+3. A feladatok automatikusan kimennek az érintetteknek.
 
-Nincs többé utólagos adminisztráció, és soha többé nem vész el egyetlen fontos döntés sem.
+Nincs utólagos adminisztráció. Nincs elveszett döntés.
 
 ---
 
 ### RESULT (30–45 mp)
-Hetente három-négy óra felszabadul. Minden döntés dokumentálva van. Minden további lépés automatikus.
+Heti három-négy óra visszajön. Minden döntés dokumentálva. Minden follow-up automatikus.
 
 ---
 
 ### CTA (45–60 mp)
-Ha be szeretnéd vezetni ezt a rendszert a cégedben, látogass el a vinczetamas.hu/audit oldalra. Három napon belül elindítjuk. Ha az első hónapban nem spórol meg hetente három órát, visszafizetem az árát.
+Ha be akarod állítani: vinczetamas.hu/audit. Három napon belül fut. Ha az első hónapban nem spórol meg heti három órát, visszaadom az árát.
 
 ---
 
 **CTA (külön):**
-vinczetamas.hu/audit — 3 nap alatt beállítjuk, vagy visszajár az ára.
+vinczetamas.hu/audit — beállítjuk 3 nap alatt, vagy visszajár.

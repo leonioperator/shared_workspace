@@ -247,8 +247,20 @@ def main():
         if write_draft(draft_day, 'elkezdodott', topic2[2], topic2[1], args.overwrite): changed.append('draft elkezdodott')
     print('changed:', ', '.join(changed) if changed else 'none')
     if args.commit:
-        paths = ['ops/scripts/memory_weekly_outputs.py','writing/diary','reports/weekly','writing/drafts']
-        run(['git','add'] + paths, check=True)
+        # Stage only files this weekly generator owns. Do NOT add whole writing/drafts;
+        # that can sweep unrelated in-progress video edits into cron commits.
+        owned = ['ops/scripts/memory_weekly_outputs.py']
+        owned.append(str((WEEKLY_DIR / f'{start.isoformat()}.md').relative_to(ROOT)))
+        for i in range(7):
+            d = start + timedelta(days=i)
+            owned.append(str((DIARY_DIR / f'{d.year}' / f'{d.month:02d}' / f'{d.day:02d}.md').relative_to(ROOT)))
+        owned.append(str((DRAFTS_DIR / f'draft-log-{draft_day.strftime("%Y-%m")}.md').relative_to(ROOT)))
+        for p in DRAFTS_DIR.glob(f'vinczetamas-{draft_day.isoformat()}-*.md'):
+            owned.append(str(p.relative_to(ROOT)))
+        for p in DRAFTS_DIR.glob(f'elkezdodott-{draft_day.isoformat()}-*.md'):
+            owned.append(str(p.relative_to(ROOT)))
+        existing = [x for x in dict.fromkeys(owned) if (ROOT / x).exists()]
+        run(['git','add'] + existing, check=True)
         staged,_ = run(['git','diff','--cached','--name-only'])
         if staged:
             msg = f'Generate memory weekly outputs {today.isoformat()}'
