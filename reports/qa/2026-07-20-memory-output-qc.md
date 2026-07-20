@@ -1,7 +1,7 @@
 # Memory Output QC - 2026-07-20
 
 Window: 2026-07-13 .. 2026-07-19 (előző hét: H-V)
-Status: **WARN**
+Status: **PASS**
 
 ## Heti riport
 - Elvárt: 1 (2026-07-13.md)
@@ -9,18 +9,13 @@ Status: **WARN**
 
 ## Diary lefedettség (napi memory fájlok alapján)
 - Napi memory fájlok az ablakban: 7
-- Hiányzó diary fájlok: 7
-  - 2026-07-13
-  - 2026-07-14
-  - 2026-07-15
-  - 2026-07-16
-  - 2026-07-17
-  - 2026-07-18
-  - 2026-07-19
+- Hiányzó diary fájlok: 0
 
 ## Blog draft lefedettség
-- Draftek az ablakban: 0
-- vinczetamas-* : 0
-- elkezdodott-* : 0
+- Draftek az ablakban: 2
+- vinczetamas-* : 1
+- elkezdodott-* : 1
 
 ## Draft fájlok
+- elkezdodott-2026-07-19-ai-agent-deterministicus-vegrehajtas.md
+- vinczetamas-2026-07-19-kontrollalt-ai-operator-kkv.md
