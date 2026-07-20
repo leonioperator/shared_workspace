@@ -3348,3 +3348,110 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-07-20
+
+**Forrás:** Blindspot Signals Report 2026-07-20 (30 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.1 – 0
+**Assessment Date:** 2026-07-20
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Hugging Face Says an Autonomous AI Agent Swarm Breached Its Systems Over a Weekend - Startup Fortune** (0.1)
+   - **Forrás:** google_news 2026-07-19T14:43:07+00:00 — https://news.google.com/rss/articles/CBMirwFBVV95cUxNN2xSVVRUUE03SDV1WXl1WldQTUc3SXV5bXJiOWNCclF6eGZBZkl5Ynhvd1I2ZEh3Z0UyN2xvVWdYVjBQTnNvaEpDWjZNajhkQ0JhRGdEZFBNbHFiMFlEdXRQd0dqdW9JY3oxMVRvV3BaMUtYVEsyeHlTT04wbERROWI1VVBXcXI4bEs4V19Cc2ttTVdVamMwMnNqUjRWd0p3LWp2ZzFUZTFLaXo1Vkpn?oc=5
+   - **Thesis:** Hugging Face Says an Autonomous AI Agent Swarm Breached Its Systems Over a Weekend&nbsp;&nbsp;Startup Fortune
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Canner / WrenAI** (0)
+   - **Forrás:** github_trending 2026-07-20T02:01:45.866533+00:00 — https://github.com/Canner/WrenAI
+   - **Thesis:** GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data sources, such as BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks and more.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+3. **Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k** (0)
+   - **Forrás:** hackernews 2026-07-12T18:25:51+00:00 — https://systima.ai/blog/claude-code-vs-opencode-token-overhead
+   - **Thesis:** This started based off of a hunch. We usually use OpenCode, but were &#x27;forced&#x27; to use Claude Code for a while due to issues with Meridian. In that time, we saw the usage meter rise much, much more quickly than when using OpenCode.<p>This was the initial anecdotal evidence, but we undertook this small study to collect empirical data:<p>We added logging between the agentic coding tool (Claude Code and OpenCode) and Anthropic&#x27;s endpoint, and captured all requests (and the returned usage blocks).<p>With o…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper** (0)
+   - **Forrás:** hackernews 2026-07-12T17:13:07+00:00 — https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **One Wikipedia page costs your AI agent 68,000 tokens** (0)
+   - **Forrás:** hackernews 2026-07-11T00:12:26+00:00 — https://news.ycombinator.com/item?id=48867021
+   - **Thesis:** i use claude code daily and measured what pages cost it while doing research. an average wikipedia article, for instance, is 68,240 tokens of raw html (tiktoken); nike&#x27;s homepage is 353,000.<p>claude code&#x27;s built-in webfetch handles the easy case well. it summarizes wikipedia to about 950 tokens and clears cloudflare on some sites like indeed and ticketmaster. but, and there&#x27;s always a but, on js-rendered and some anti-bot pages it returns nothing.<p>quotes.toscrape.com&#x2F;js gives &quot;no quotes…
+   - **Hypothesis-ek:** H62 (Proof Chain), H103 (Policy Tree Audit)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **NoMac.app** (0)
+   - **Forrás:** product_hunt 2026-07-10T21:07:45+00:00 — https://www.producthunt.com/products/nomac
+   - **Thesis:** <p> The headless iOS app publishing pipeline for AI agents. </p> <p> <a href="https://www.producthunt.com/products/nomac?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1193239?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H104 (Meta-Agent Decomposition)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+7. **Advancing from level II to level III AI agents in precision medicine - The Cancer Letter** (0)
+   - **Forrás:** google_news 2026-07-10T19:50:04+00:00 — https://news.google.com/rss/articles/CBMibEFVX3lxTE1TT0hXbmpLcmdNR2dSbW5BTVFweUx5YWJVZTN3M0JObkhVbnNpMnVnemhrdUFYdGpNV0ZfN3ExbXNhbkRHRjFaNUM0WS1rdHdVc01wOGlQTkFyR084WjVOam11STBtVFhadktlRQ?oc=5
+   - **Thesis:** Advancing from level II to level III AI agents in precision medicine&nbsp;&nbsp;The Cancer Letter
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Show HN: SubjectiveZero, an open-source agentic node editor for creative coding** (0)
+   - **Forrás:** hackernews 2026-07-10T15:23:50+00:00 — https://sxp.studio/apps/subz
+   - **Thesis:** Hey there,<p>My name is Clem, I&#x27;ve been a solo indie dev for a couple years now, exploring frontier tech like XR and agentic workflows in the context of creative &#x2F; interactive work.<p>I&#x27;ve been building creation tools for a while and some common design challenge is to figure out the right level of abstraction for your tool. You can always make it super advanced and complex with low level concepts (shader composition, actual code etc.) but then you get something with a high complexity &#x2F; learning…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Fudge MCP** (0)
+   - **Forrás:** product_hunt 2026-07-10T14:06:45+00:00 — https://www.producthunt.com/products/fudge-mcp
+   - **Thesis:** <p> Give your AI agents design taste from existing websites </p> <p> <a href="https://www.producthunt.com/products/fudge-mcp?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1192979?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter** (0)
+   - **Forrás:** techcrunch 2026-07-10T00:16:54+00:00 — https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/
+   - **Thesis:** OpenAI's new family of models will continue to power Microsoft's suite of workplace and productivity apps.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H103** (Policy Tree Audit): mai signalok által megerősítve
+- **H104** (Meta-Agent Decomposition): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-07-20 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
