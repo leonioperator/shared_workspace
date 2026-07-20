@@ -9,34 +9,40 @@ created_at: '2026-05-25'
 updated_at: '2026-05-25T11:25:40.427945+00:00'
 ---
 
-# AI Ügyfélszolgálat Beállítás Checklist — vinczetamas.hu számára
+# AI Ügyfélszolgálat Beállítás Checklist – Vinczetamas.hu számára
 
-## Mit kapsz ezzel
-Egy lépésről lépésre listát arról, mit kell összeszednünk a cégedből, hogy az AI átvegye az ismétlődő ügyfélkérdések 80%-át. Nem elméleti anyag. Ezt töltjük ki együtt az audit során.
+## Ez miért fontos Neked?
+
+Ez a lista lépésről lépésre megmutatja, milyen információkat kell összegyűjtenünk a cégedből ahhoz, hogy a mesterséges intelligencia átvegye az ismétlődő ügyfélkérdések akár 80%-át. Ez nem egy elméleti anyag, hanem egy konkrét checklist, amit együtt töltünk ki az audit során.
 
 ---
 
 ## Checklist
 
-### 1. Adatgyűjtés (te csinálod, 30 perc)
-- [ ] Gyűjtsd össze az utolsó 30 nap leggyakrabban ismétlődő ügyfélkérdéseit (email, chat, telefon)
-- [ ] Írj mellé egy-egy rövid, emberi választ (ahogy te szokál fogalmazni)
-- [ ] Jelöld meg, melyiket kell mindig embernek kezelni (pl. reklamáció, egyedi ajánlat)
+### 1. Adatgyűjtés (Ez a Te feladatod, kb. 30 percet vesz igénybe)
 
-### 2. Csatorna meghatározása (mi segítünk)
-- [ ] Email auto-válasz
-- [ ] Chat widget (honlapon)
-- [ ] WhatsApp Business (opcionális)
+- [ ] Gyűjtsd össze az elmúlt 30 nap leggyakrabban ismétlődő ügyfélkérdéseit (e-mailből, chatből, telefonhívásokból).
+- [ ] Minden kérdés mellé írj egy rövid, emberséges választ, a Te megszokott stílusodban.
+- [ ] Jelöld meg azokat a kérdéseket, amelyeket mindig emberi kollégának kell kezelnie (pl. reklamációk, egyedi ajánlatkérések).
 
-### 3. Hangnem kalibráció (mi csináljuk)
-- [ ] Az AI a te fogalmazásodban válaszol
-- [ ] Tesztelés: 10 kérdés, te visszajelzed, mi finomítjuk
+### 2. Csatorna meghatározása (Ebben mi segítünk)
 
-### 4. Átadás (beállítás után)
-- [ ] Napi summary email neked: ki kérdezett, mit válaszolt az AI, mi maradt emberi kezelésre
-- [ ] Első hét: te átnézed a válaszokat, visszajelzed ha valami nem stimmel
+- [ ] E-mail automatikus válaszok.
+- [ ] Chat widget a honlapon.
+- [ ] WhatsApp Business integráció (opcionális).
+
+### 3. Hangnem kalibráció (Ezt mi intézzük)
+
+- [ ] Az AI a Te cégének hangján, a Te fogalmazásodban válaszol az ügyfeleknek.
+- [ ] Tesztelés: 10 kérdésre adott válaszait átnézed, visszajelzést adsz, mi pedig finomítjuk a beállításokat.
+
+### 4. Átadás (A beállítás után)
+
+- [ ] Napi összefoglaló e-mailt kapsz: ki kérdezett, mit válaszolt az AI, és mi maradt emberi kezelésre.
+- [ ] Az első héten átnézed az AI által adott válaszokat, és visszajelzést adsz, ha valami módosításra szorul.
 
 ---
 
-## Következo lepes
-"Ha ezt be akarod állítani a cégedben: vinczetamas.hu/audit"
+## Következő lépés
+
+Ha szeretnéd, hogy a cégedben is bevezessük ezt a rendszert, látogass el a vinczetamas.hu/audit oldalra.
