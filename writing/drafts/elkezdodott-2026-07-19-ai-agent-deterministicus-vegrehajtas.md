@@ -1,10 +1,20 @@
 ---
-title: "Az AI agent akkor hasznos, ha nem mindent ő csinál"
+title: Az AI agent akkor hasznos, ha nem mindent ő csinál
 date: 2026-07-19
 site: elkezdodott.hu
-description: "A jó agent rendszerben az LLM dönt és fogalmaz, a végrehajtás viszont scriptelt és ellenőrizhető."
-tags: [ai-agent, kkv, automatizalas, governance]
-slug: "ai-agent-deterministicus-vegrehajtas"
+description: A jó agent rendszerben az LLM dönt és fogalmaz, a végrehajtás viszont
+  scriptelt és ellenőrizhető.
+tags:
+- ai-agent
+- kkv
+- automatizalas
+- governance
+slug: ai-agent-deterministicus-vegrehajtas
+id: elkezdod
+content_type: article
+created_at: '2026-07-20'
+status: draft
+updated_at: '2026-07-20T08:30:01.205654+00:00'
 ---
 
 A legtöbb agent projekt ott csúszik el, hogy az LLM-re bízza a determinisztikus munkát is. A jobb modell egyszerű: döntés és szöveg LLM, ismétlődő végrehajtás script, minden fontos ponton auditnyom.

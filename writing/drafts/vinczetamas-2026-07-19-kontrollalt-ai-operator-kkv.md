@@ -1,10 +1,19 @@
 ---
-title: "Miért nem chatbot kell a KKV-nak, hanem kontrollált AI operátor?"
+title: Miért nem chatbot kell a KKV-nak, hanem kontrollált AI operátor?
 date: 2026-07-19
 site: vinczetamas.hu
-description: "Az AI agent értéke nem a varázslat, hanem a mérhető, ellenőrizhető végrehajtás."
-tags: [ai-agent, kkv, automatizalas, governance]
-slug: "kontrollalt-ai-operator-kkv"
+description: Az AI agent értéke nem a varázslat, hanem a mérhető, ellenőrizhető végrehajtás.
+tags:
+- ai-agent
+- kkv
+- automatizalas
+- governance
+slug: kontrollalt-ai-operator-kkv
+id: vinczeta
+content_type: article
+created_at: '2026-07-20'
+status: draft
+updated_at: '2026-07-20T08:30:01.285912+00:00'
 ---
 
 KKV vezetőként nem újabb appra van szükséged, hanem olyan AI operátorra, amely figyel, javasol, előkészít, de pénzhez, ügyfélhez és jogi döntéshez csak kontrollált kapun át nyúl.
