@@ -3455,3 +3455,107 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-07-21
+
+**Forrás:** Blindspot Signals Report 2026-07-21 (30 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.1 – 0
+**Assessment Date:** 2026-07-21
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Natural raises $30M to reinvent payments for AI agents — and take on Stripe** (0.1)
+   - **Forrás:** techcrunch 2026-07-20T19:11:25+00:00 — https://techcrunch.com/2026/07/20/natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe/
+   - **Thesis:** The one-year-old startup aims to reinvent financial architecture for autonomous AI transactions.
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Hugging Face warns an autonomous AI agent hacked its network - BleepingComputer** (0.1)
+   - **Forrás:** google_news 2026-07-20T11:56:28+00:00 — https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcUMybWdla01CZEhudnl5R0xXekFRT1I3QnNaRFBvNUM0dE9LbWQwS01VVW1NYnNwTG15ZzgzQWszSld1VWoyeTNDVC1MNjlMUWJNZnJSREpIT2V6RWVFWDRsVVloN0FoUWRqT19UeHpsM3VURXp5TXl1dkY3cDBvLVpCa0xJT21wQUxVbHFwM196MDJTRnBnd00wXzh6YVZaZFNZOXNPVHRydUtxY1VMM3cwY24xWWVTdjE1TE1ocFNvQdIBxwFBVV95cUxQcVpWSC01YWEtX2Q1QU5XMWJ0Mzc5Wko1MGdyejkzRDhkOHM3MFg4M0drQ2dWMElNOUtGaUlzLUJmSFVaNkJSN3JlcUR5NkVnMGRJZHl4U1BhSUtCaEVEN3JpWncydWxmWk9CSmJRLU1OLU9ESWRwM25FLXR2Z2h0LU0ta2lLdzhTV0Y0MmdxcVJNem9ZSjhIb0pfZGhhcEF3Q0EzNE00VEtvS0w2VHNPTlBGY2l6bWxqWnJ0b0w5ZmNieXpyVVRV?oc=5
+   - **Thesis:** Hugging Face warns an autonomous AI agent hacked its network&nbsp;&nbsp;BleepingComputer
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Hugging Face breached by autonomous AI agent - Help Net Security** (0.1)
+   - **Forrás:** google_news 2026-07-20T10:52:36+00:00 — https://news.google.com/rss/articles/CBMikgFBVV95cUxOQndJekJMOEtRYUhlNHNlbUNoNFF1SkVuYUFjTXhiQkVnemMzWlQzSjJnZldzV3lUQlNybldPWEhGVWlUNldhT19JTXhLczdzakFiOTE1X0xnakQtRWIySHlhODltSEZMZmJ4OW8yczVJN050MXZScnBEZ21FcGdKTVRxbG8ySVBGM2NzNFZaZ29OQQ?oc=5
+   - **Thesis:** Hugging Face breached by autonomous AI agent&nbsp;&nbsp;Help Net Security
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **AI Agents Turned Into Attackers: Hugging Face Reveals Autonomous Intrusion Campaign - Security Affairs** (0.1)
+   - **Forrás:** google_news 2026-07-20T08:27:05+00:00 — https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSmdiUHRZZmQ1U2xaWnJKdmVYTzVxRWJZb2k5amJtY2xQaXJNT1VQOGRVaU1vOENQby1sbTQ3bDNUMVVvcGNIT2poT0NoejhUSnRSWTVCMmxUTU5LQTJFX0wzMjdQSVlEVG8wdzQ3QUJaMWNPZDRaeEU0YU1TV01lenozU0FXRERHZ21TcnNyVGU4UHk4eUJmbU9ncElfdmlGZVBfSnlqNkF1N2hrem5JdG5MSGJTTG9YVnp0aDdlNFFyMzDSAcgBQVVfeXFMTWxSVmlyNFdDZFM0YWhCdFBaUG5SNWY0VWtYTWRxMkw3UFI5Q1ZKdXI5bFozbkFUSU13Z0R5TFlNcm9RWG0xSWJOaFE1OXNuT0xic05PVWU4MkNfTEh3cVRqTjF5dHJLMjBGX21EVkh0cm01elFub3NhQks0a0l6eGtGVnRyb0RXVFRVS0tKWEZ3NkQ2LWlzTHpDR282Zmlsc1ZrWVF6aG9lbGxqeGhMcVhBUGlnZDJlS1YzbzZBby0zQVdWRDFhR2U?oc=5
+   - **Thesis:** AI Agents Turned Into Attackers: Hugging Face Reveals Autonomous Intrusion Campaign&nbsp;&nbsp;Security Affairs
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent - The Hacker News** (0.1)
+   - **Forrás:** google_news 2026-07-20T05:27:00+00:00 — https://news.google.com/rss/articles/CBMifkFVX3lxTFBoUTdHbHN6Mlo0QV9IRmhnZUR0T1RJT1F3aUZwZlFLaW1JbXZ4azdpUkxWZFg4NGFvcUtDaTJiLWpaV1M0NkdzazR4SVhpQWVKZ3dZX28wM21WX0ZjZHJxRlN2OU43al96S1JJVDg2T2dtblIyODlTS255MVE4dw?oc=5
+   - **Thesis:** World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent&nbsp;&nbsp;The Hacker News
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **Hugging Face Confirms AI-Driven Breach: Attackers used Autonomous Agents, defenders countered with AI - CyberSecurityNews** (0.1)
+   - **Forrás:** google_news 2026-07-18T17:30:35+00:00 — https://news.google.com/rss/articles/CBMieEFVX3lxTE11dWFkYjFWeVF6cHFwb2xXM25ZSmh2NE5RWExCZ1RGRGZUcjl2MXFUbkVBLTFyVGcyZ3RHaDhrS1dVNWo3bEQ3OFpiVkJoNTQ4NkxYWF8tTDlYQkVleWYzZG5DTVllY3QwQkhLc2M5MWZYZmJ3SlhPZ9IBfkFVX3lxTE9DM0htelNJTVR6dkd4TlF6VVAxcE0zX1pMS05zTnhIbWhMbTRuazlMUjBBMU44Y3Vyekw4UThVWGhlMWo4d2JSQmIyQmpmLXlzeThqelk2ZGdFbmVUcmt0SzN1eHBTV0FhN3VWbm1rSm9qbXJ0YUhQaHdFXzlkZw?oc=5
+   - **Thesis:** Hugging Face Confirms AI-Driven Breach: Attackers used Autonomous Agents, defenders countered with AI&nbsp;&nbsp;CyberSecurityNews
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+7. **Rex** (0)
+   - **Forrás:** product_hunt 2026-07-19T23:08:58+00:00 — https://www.producthunt.com/products/rex-7
+   - **Thesis:** <p> AI agents that run order-to-cash operations </p> <p> <a href="https://www.producthunt.com/products/rex-7?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1200946?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **LnkFlow** (0)
+   - **Forrás:** product_hunt 2026-07-17T21:45:06+00:00 — https://www.producthunt.com/products/lnkflow
+   - **Thesis:** <p> Agentic click tracking that shows what grows your business </p> <p> <a href="https://www.producthunt.com/products/lnkflow?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1199443?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Deck** (0)
+   - **Forrás:** product_hunt 2026-07-17T16:41:13+00:00 — https://www.producthunt.com/products/deck-9
+   - **Thesis:** <p> The most capable AI assistant with its own inbox </p> <p> <a href="https://www.producthunt.com/products/deck-9?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1199241?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Lunen.ai** (0)
+   - **Forrás:** product_hunt 2026-07-17T14:26:11+00:00 — https://www.producthunt.com/products/lunen-ai
+   - **Thesis:** <p> Build AI agents your whole team can run, and control </p> <p> <a href="https://www.producthunt.com/products/lunen-ai?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1199157?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-07-21 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
