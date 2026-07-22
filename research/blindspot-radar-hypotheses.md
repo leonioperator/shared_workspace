@@ -3559,3 +3559,112 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-07-22
+
+**Forrás:** Blindspot Signals Report 2026-07-22 (60 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.1 – 0
+**Assessment Date:** 2026-07-22
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Hugging Face Says Autonomous AI Agent System Breached Production Infrastructure - Hackread** (0.1)
+   - **Forrás:** n/a 2026-07-20T21:06:48+00:00 — https://news.google.com/rss/articles/CBMid0FVX3lxTE1pQS0wb0haX2N0TEZjb3dFX1BpX3VYbjZoOFpSdXhHNG5Kel9ES3hxQ1k5aUhRREgxZUpRVzROSHRxWEJpcHlZOENmWDByR0RUeGs5TXp3dlplNWdYbXk2SFFBeWVtWVBMcW1BLXNDa3hxWUpTZEVV?oc=5
+   - **Thesis:** Hugging Face Says Autonomous AI Agent System Breached Production Infrastructure&nbsp;&nbsp;Hackread
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **AI Agents Turned Into Attackers: Hugging Face Reveals Autonomous Intrusion Campaign** (0.1)
+   - **Forrás:** n/a 2026-07-20T08:27:05+00:00 — https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSmdiUHRZZmQ1U2xaWnJKdmVYTzVxRWJZb2k5amJtY2xQaXJNT1VQOGRVaU1vOENQby1sbTQ3bDNUMVVvcGNIT2poT0NoejhUSnRSWTVCMmxUTU5LQTJFX0wzMjdQSVlEVG8wdzQ3QUJaMWNPZDRaeEU0YU1TV01lenozU0FXRERHZ21TcnNyVGU4UHk4eUJmbU9ncElfdmlGZVBfSnlqNkF1N2hrem5JdG5MSGJTTG9YVnp0aDdlNFFyMzDSAcgBQVVfeXFMTWxSVmlyNFdDZFM0YWhCdFBaUG5SNWY0VWtYTWRxMkw3UFI5Q1ZKdXI5bFozbkFUSU13Z0R5TFlNcm9RWG0xSWJOaFE1OXNuT0xic05PVWU4MkNfTEh3cVRqTjF5dHJLMjBGX21EVkh0cm01elFub3NhQks0a0l6eGtGVnRyb0RXVFRVS0tKWEZ3NkQ2LWlzTHpDR282Zmlsc1ZrWVF6aG9lbGxqeGhMcVhBUGlnZDJlS1YzbzZBby0zQVdWRDFhR2U?oc=5
+   - **Thesis:** AI Agents Turned Into Attackers: Hugging Face Reveals Autonomous Intrusion Campaign&nbsp;&nbsp;Security Affairs
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Show HN: Superserve – Firecracker microVM sandboxes for long-running AI agents** (0.1)
+   - **Forrás:** n/a 2026-07-21T22:59:06+00:00 — https://www.superserve.ai/
+   - **Thesis:** Hey HN, I built Superserve, a compute layer that lets AI agents live inside isolated Firecracker microVMs with no session time limits.<p>The problem I kept running into: most sandbox providers kill your agent after 24 hours. If you&#x27;re running something autonomous that needs to work for days — refactoring a codebase, running tests in a loop — you&#x27;re constantly fighting timeouts and rebuilding state.<p>Superserve lets you snapshot a running VM at any point, fork it into parallel branches, and resume exactly…
+   - **Hypothesis-ek:** H103 (Policy Tree Audit), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **Show HN: Meltbox – where your agents send you briefs** (0.1)
+   - **Forrás:** n/a 2026-07-21T20:56:40+00:00 — https://meltbox.ai/
+   - **Thesis:** Easy to try even without an account! Would love all feedback.<p>Hey all, I&#x27;m building Meltbox as a better human in the loop system. It&#x27;s a way to centralize all of the decisions you need to make into context-rich briefs in a system built for fast human review.<p>[Why]<p>Something major changed recently. Agents have gotten even better and even faster at building apps &#x2F; sites &#x2F; dashboards &#x2F; etc... and that&#x27;s changed my development workflow in a major way.<p>I often have my agents build a…
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **Experts discuss AI ethics and governance rules at WAIC - news.cgtn.com** (0.1)
+   - **Forrás:** n/a 2026-07-18T09:13:04+00:00 — https://news.google.com/rss/articles/CBMisAFBVV95cUxNRlFjS1phQjltZENRdk9CZnhzX1huNVB0TVV2bjZFMDd2YjNCQ2VheDdZMU9uZGlzcnNkdTZzc1ZtMC1VZHVmb09JSV8yd05LeURHODQ2dThmNThqRlVmMmc3eW9OZ1JYMkkyUVlTNlZ2MVhWZjBnekd3aFRueFk1YVhSX1BLM1RuNU05cmgwRmRZRDBmUjBOUUw4bUtDWHYtdGF1d3VYOXVUT29QVjlUYQ?oc=5
+   - **Thesis:** Experts discuss AI ethics and governance rules at WAIC&nbsp;&nbsp;news.cgtn.com
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **HKUDS / nanobot** (0)
+   - **Forrás:** n/a 2026-07-22T02:01:49.342885+00:00 — https://github.com/HKUDS/nanobot
+   - **Thesis:** Lightweight, open-source AI agent for your tools, chats, and workflows.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **langchain ai / open deep research** (0)
+   - **Forrás:** n/a 2026-07-22T02:01:47.958206+00:00 — https://github.com/langchain-ai/open_deep_research
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H90 (Multi-Agent Debate / Research Agents)
+   - **Megerősítés:** A deep-research agenteknél az auditálhatóság, self-verification és domain-grounded reasoning már architektúra-követelmény; H62/H72/H90 erős validáció.
+
+8. **bojieli / ai agent book** (0)
+   - **Forrás:** n/a 2026-07-22T02:01:47.957909+00:00 — https://github.com/bojieli/ai-agent-book
+   - **Thesis:** 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Headroom - compress AI agent input for reduced token usage w/out harming output** (0)
+   - **Forrás:** n/a 2026-07-21T23:36:06+00:00 — https://github.com/headroomlabs-ai/headroom
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Show HN: Browser Tools SDK – an optimal browser harness for agents** (0)
+   - **Forrás:** n/a 2026-07-21T21:01:57+00:00 — https://libretto.sh/browser-tools
+   - **Thesis:** We’re open-sourcing Browser Tools SDK: a small TypeScript package to give any AI agent a reliable way to control a real browser. With just a few lines of code, you can give any agent a production-ready browser harness<p><pre><code> import { createAiSdkBrowserTools } from &quot;libretto-browser-tools&#x2F;ai-sdk&quot;; import { LocalBrowserProvider } from &quot;libretto-browser-tools&quot;; const { tools } = createAiSdkBrowserTools(new LocalBrowserProvider()); const result = await generateText({ model: anthropic(&qu…
+   - **Hypothesis-ek:** H62 (Proof Chain)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H103** (Policy Tree Audit): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H90** (Multi-Agent Debate / Research Agents): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-07-22 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
