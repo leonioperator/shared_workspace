@@ -1,29 +1,29 @@
-# AI agent workflow: Show HN: Superserve – Firecracker microVM sandboxes for long-ru — short-form revenue video script
+# AI agent, ami nem felejti el hol tartott - short-form revenue video script
 
 Source task: `mrvoatiwxyvk`
 Date: 2026-07-22
 
 ## Hook
-AI agent workflow: Show HN: Superserve – Firecracker microVM sandboxes for long-ru
+Az AI agented ne 24 oraban gondolkodjon, hanem folyamatban.
 
-## 30–60 mp script
+## 30-60 mp script
 
-**0–3 mp — Hook:**  
-AI agent workflow: Show HN: Superserve – Firecracker microVM sandboxes for long-ru
+**0-3 mp - Hook:**  
+Az AI agented ne 24 oraban gondolkodjon, hanem folyamatban.
 
-**3–12 mp — Pain:**  
-KKV vezetőnek túl sok rutin döntés, admin és utánkövetés marad kézzel.
+**3-12 mp - Pain:**  
+Sok ceg azert nem jut el valodi AI automatizalasig, mert az agent csak rovid sessionokben dolgozik. Elindul, kap egy feladatot, aztan megszakad, ujra kell epiteni a kontextust, es megint emberi utanakovetes kell.
 
-**12–32 mp — Solution:**  
-AI-alapú workflow/agent beállítás a jel alapján: Show HN: Superserve – Firecracker microVM sandboxes for long-running AI agents.
+**12-32 mp - Solution:**  
+A kovetkezo szint az, amikor az agent sajat izolalt munkakornyezetet kap. Tud futni napokig, pillanatkepeket lehet rola kesziteni, vissza lehet terni egy korabbi allapothoz, es nem nyul kozvetlenul a nyers API kulcsokhoz.
 
-**32–48 mp — Result:**  
-Kevesebb manuális munka, gyorsabb válaszidő, ellenőrizhetőbb folyamat.
+**32-48 mp - Result:**  
+KKV-ban ez nem sci-fi. Ilyen lehet egy ajanlatkoveto agent, egy ugyfelszolgalati backoffice agent, vagy egy belso admin folyamat, ami nem felejti el, hol tartott tegnap.
 
-**48–60 mp — CTA:**  
-Ha ezt akarod a saját cégedben, írj: *AI workflow*. Megnézzük, melyik rutinfolyamatodból lehet először heti órákat kivenni.
+**48-60 mp - CTA:**  
+Ha van olyan folyamatod, amit mindig ujra kell kezdeni, irj: *AI workflow*. Megnezzuk, hol lehet eloszor heti 2 ora kezi munkat kivenni.
 
 ## Felvételi jegyzet
 - Hang: direkt, KKV CEO-kompatibilis, hype nélkül.
-- Vizual: képernyőn előtte/utána workflow.
+- Vizual: kepernyon elotte/utana workflow, session megszakadas kontra folyamatos agent.
 - Ne ígérj csodát; időnyereséget és kontrollt ígérj.
