@@ -1,3 +1,13 @@
+---
+id: 2026-07-
+title: Offer asset - AI agent, ami nem felejti el hol tartott
+site: vinczetamas
+content_type: article
+created_at: '2026-07-22'
+status: draft
+updated_at: '2026-07-22T06:30:02.204254+00:00'
+---
+
 # Offer asset - AI agent, ami nem felejti el hol tartott
 
 Source task: `mrvoatiwxyvk`

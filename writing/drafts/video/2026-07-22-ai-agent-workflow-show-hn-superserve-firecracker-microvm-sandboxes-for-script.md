@@ -1,3 +1,13 @@
+---
+id: 2026-07-
+title: AI agent, ami nem felejti el hol tartott - short-form revenue video script
+site: vinczetamas
+content_type: article
+created_at: '2026-07-22'
+status: draft
+updated_at: '2026-07-22T06:30:02.205235+00:00'
+---
+
 # AI agent, ami nem felejti el hol tartott - short-form revenue video script
 
 Source task: `mrvoatiwxyvk`
