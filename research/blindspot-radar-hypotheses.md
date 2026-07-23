@@ -3668,3 +3668,108 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-07-23
+
+**Forrás:** Blindspot Signals Report 2026-07-23 (60 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.2 – 0
+**Assessment Date:** 2026-07-23
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Cognitive impairments in a mouse model for Huntington's disease correlate with presymptomatic locomotion and number of CAG repeats** (0.2)
+   - **Forrás:** n/a 2026-07-22T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.07.17.738914
+   - **Thesis:** Huntington's disease (HD) is a progressive neurodegenerative disorder caused by an expanded CAG repeat in the huntingtin (HTT) gene. The disease is characterized by movement disorders, and it also presents with personality changes, including apathy and aggression, along with cognitive decline. While most animal models for HD have been validated for motor deficits, less is known about alterations in other behavioral functions. Here, we performed a longitudinal study to analyze the behavior of a knock-in mouse model…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+2. **Integration and governance prove critical to AI agent rollouts - No Jitter** (0.1)
+   - **Forrás:** n/a 2026-07-22T14:36:28+00:00 — https://news.google.com/rss/articles/CBMiowFBVV95cUxOT1BrNUJrd1FKS1RCVmVvN19DSkVaaXBhdDN5NWVFX1NFUmtSWGNvSDZLZlhLRGtwbWk4RXZuOXlvMm9kOU9YaUhmOVgzd0xmb096SmhQLTBCNE5TczU4bTFXaGlGbkl4WFJBZUVnSXlyQUVlekZlV2g0RGtnNDVTOE5iSkxMd3RYYUpzQ2Q5cG9jV0xEZUdXbVNGcE13SHJsRGUw?oc=5
+   - **Thesis:** Integration and governance prove critical to AI agent rollouts&nbsp;&nbsp;No Jitter
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Autonomous AI agent 'escapes' and hacks another company - Insurance Business** (0.1)
+   - **Forrás:** n/a 2026-07-22T11:13:18+00:00 — https://news.google.com/rss/articles/CBMitwFBVV95cUxPemwzd09TT3RRSWdnVlA4TV94UkZlWVotMmN3Y0hJTTlINmpzYThnV1ZCVnRKVHJ3V0xud3pUM0t3eWpFeHAzWkt2TzVhclNrVjIzUS1XZXJpbFdtcVpoenk5eGFKdFdDUjV1VVFmU0lESC1KLV9DdXlKTEZ0VFROWmkwZUhhS0QxU1NRRmdxNEUzN1ItRUQ1X1pMTW1URnpVUUlkTWN3ZTlJTHBiZWJ2NDhrR1diNGs?oc=5
+   - **Thesis:** Autonomous AI agent 'escapes' and hacks another company&nbsp;&nbsp;Insurance Business
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **AI governance in practice: moving from policy to live controls (via Passle) - Bristows** (0.1)
+   - **Forrás:** n/a 2026-07-22T09:04:05+00:00 — https://news.google.com/rss/articles/CBMisgFBVV95cUxNdHd0Rm1McU9PRjNnSW11endvaVJYa2h6cnFhR2ZtTG5oZjNWcFk1U2VGV21Xajd4eElFN2dfOEQwdGJsYk4zY3pURFdZaGIyNklxdU01ZlVUUFlhaVViZjc0djdoZm5SNVNmY1hRcFAzN3BVV1NNQmVIUWZHVmJHY2VGNGRYQ1JoSS1yRUVYMFlpMDVScGNibUZFMXdyMHptMy1zUHBLWC15elNzcU1PV1JR?oc=5
+   - **Thesis:** AI governance in practice: moving from policy to live controls (via Passle)&nbsp;&nbsp;Bristows
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **OpenAI reports 'unprecedented' autonomous hack by AI agents - France 24** (0.1)
+   - **Forrás:** n/a 2026-07-22T05:47:10+00:00 — https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ1JHam80LUloS2FaYUhsRjFYcFZzRExwNWt4eElzRV96SzBFeEtVWF84eFhIUjV6LVNPX0QwajQyblNnX0tpdnhRbXYweDRTMnlaOUl2X3NkcGFfZklvbjRWVlJmTWhlMzhaZktTTGFNd19PVEhoLXhoaGQwdW9yc3lTZktBVFVnRDh0S1pFRmxQWTB4NWpSd0NKWXU2cE9Xd0ZYb0g1MA?oc=5
+   - **Thesis:** OpenAI reports 'unprecedented' autonomous hack by AI agents&nbsp;&nbsp;France 24
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **Surprise gates two distinct mechanisms to support memorability in music** (0.1)
+   - **Forrás:** n/a 2026-07-22T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.07.21.739807
+   - **Thesis:** Music is a uniquely memorable human creation that, when skillfully composed, can persist in individual memory (as in e.g., earworms) and cultural transmission (e.g. global hits or anthems). While both acoustic and statistical properties are known to influence a song's memorability, the neural mechanisms that facilitate the engramming of certain musical sequences remain unclear. Current theories suggest that memory systems function as predictive internal models, enhancing learning when expectations are violated. Yet…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **Chinese AI agent outperforms Anthropic’s Claude Code in autonomous research - South China Morning Post** (0.1)
+   - **Forrás:** n/a 2026-07-21T12:17:32+00:00 — https://news.google.com/rss/articles/CBMixgFBVV95cUxQSXJuMjJKb1l6ajJGdjVnMnV3YmppZmtTN2JMRWpuRktyam9NcXg2MkhtbjYwWG1zR0l1SEdmMzU4eDk5MXdZODl3RVlkdU9Jbk5wLV8xbUNKQ2VKdE56d2F3a1Y3NzNROTA1d2N3d1dJVi1kbVZtUVFLZHlJbzRZYnBaTjZjWmQ4Y1hwcWI3bng1N0ZhRlVpZ2RpWG5IVDlZb1dHajNSX0x4dXY4Zy1vV0IwWjBielhCWWYzcTFqX2RZS2Vhc1HSAcYBQVVfeXFMT0NxY1hqdEhNY3NaRGkwX1lOelI2cW5XLVN4TmV2T2U0SXdqY2lJTW5sRFBPaGR0NkpEYV82dnhGZ0ZDWWNWblJFNzRERGdhd003VUdQQ2g4amN2ZXRlTW1hQUhwY0txVVcxeVozTkwtR01iMV9vajFqWFdTWEdiWWVpUHRWX1VxbjllRWxueWZWamNEd2k2OFV4TEhkS3JxazFjdVdkYjZQSkl0ZXpqXzh6eWVVUnZIRHhLc3RKX1o4X0U3RHZ3?oc=5
+   - **Thesis:** Chinese AI agent outperforms Anthropic’s Claude Code in autonomous research&nbsp;&nbsp;South China Morning Post
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **Chaos Begets Chaos; Order Begets Order: Agentic Coding as Crystallisation** (0)
+   - **Forrás:** n/a 2026-07-22T23:19:14+00:00 — https://medium.com/@rotbart/chaos-begets-chaos-order-begets-order-agentic-coding-as-crystallisation-a0261b453ca0
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **OpenAI says its AI agent broke out of testing sandbox to hack Hugging Face** (0)
+   - **Forrás:** n/a 2026-07-22T23:07:06+00:00 — https://arstechnica.com/ai/2026/07/how-an-openai-benchmark-test-turned-into-a-real-world-cyberattack/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **NotchAgent – native macOS notch control for AI agents running under herdr** (0)
+   - **Forrás:** n/a 2026-07-22T21:43:42+00:00 — https://github.com/ykushch/agsig
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-07-23 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
