@@ -15,12 +15,12 @@ updated_at: '2026-05-25T11:25:40.430974+00:00'
 ---
 
 ### HOOK (0–3 mp)
-Napi három óra megy el adminra. Emailek. Riportok. Összefoglalók. Ennek vége.
+Naponta három óra megy el adminisztrációra. Emailek. Riportok. Összefoglalók. Ennek vége.
 
 ---
 
 ### PAIN (3–10 mp)
-Ismered ezt: reggel az asztalodnál ülsz, és az időd fele olyasmire megy, amire nem kellene neked mennie. Levelek, amikre valaki más is válaszolhatna. Heti riport, amit mindig te csinálsz meg. Összefoglalók, amiket manuálisan szeded össze.
+Ismerős a helyzet: reggel az asztalánál ül, és az ideje fele olyasmire megy, amire nem kellene Neki mennie. Levelek, amikre valaki más is válaszolhatna. Heti riport, amit mindig Ön készít el. Összefoglalók, amiket manuálisan szed össze.
 
 Nincs kihez delegálni. Vagy van, de nem ér rá, nem tudja, nem megbízható.
 
@@ -29,19 +29,19 @@ Nincs kihez delegálni. Vagy van, de nem ér rá, nem tudja, nem megbízható.
 ### SOLUTION (10–30 mp)
 Egy AI agent beállítása három lépésben:
 
-1. Meghatározod, mi az a három ismétlődő feladat, ahol legtöbbet veszítesz.
-2. Beállítjuk az agentet: emailválasz, riport, összefoglaló. A te stílusodban, a te adataid alapján.
-3. Átadás: az agent fut, te csak jóváhagyod, amit jóváhagyni kell. A többi automatikus.
+1. Meghatározza, mi az a három ismétlődő feladat, ahol a legtöbbet veszíti.
+2. Beállítjuk az agentet: emailválasz, riport, összefoglaló. Az Ön stílusában, az Ön adatai alapján.
+3. Átadás: az agent fut, Ön csak jóváhagyja, amit jóváhagyni kell. A többi automatikus.
 
 ---
 
 ### RESULT (30–45 mp)
-Napi három óra visszajön. Nem lesz kisebb a céged. Csak te nem leszel az adminisztrátor.
+Naponta három óra visszajön. Nem lesz kisebb a cége. Csak Ön nem lesz az adminisztrátor.
 
 ---
 
 ### CTA (45–60 mp)
-Ha be akarod állítani: vinczetamas.hu/audit. Öt munkanapon belül kész. Ha az első hónapban nem spórol meg napi két órát, visszaadom az árát.
+Ha be akarja állítani: vinczetamas.hu/audit. Öt munkanapon belül kész. Ha az első hónapban nem spórol meg naponta két órát, visszaadjuk az árát.
 
 ---
 

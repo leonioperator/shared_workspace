@@ -11,22 +11,22 @@ updated_at: '2026-05-25T11:25:40.429882+00:00'
 
 # AI Admin Agent Delegálás Checklist — vinczetamas.hu számára
 
-## Mit kapsz ezzel
-Egy 15 perces felmérési lista arról, hol tudsz ma azonnal delegálni AI agentnek. Nem általános tanács. Konkrét, a te cégedre szabott delegálási térkép.
+## Mit kap ezzel
+Egy 15 perces felmérési lista arról, hol tud ma azonnal delegálni AI agentnek. Nem általános tanács, hanem konkrét, az Ön cégére szabott delegálási térkép.
 
 ---
 
 ## Checklist
 
-### 1. Admin feladatok feltérképezése (te csinálod, 15 perc)
-- [ ] Írd le a 3 leggyakoribb ismétlődő admin feladatot (ami hetente visszajön)
-- [ ] Becsüld meg: mennyi idő megy el rá hetente?
+### 1. Admin feladatok feltérképezése (Ön végzi, 15 perc)
+- [ ] Írja le a 3 leggyakoribb ismétlődő admin feladatot (ami hetente visszatér)
+- [ ] Becsülje meg: mennyi időt vesz igénybe hetente?
 - [ ] Melyikhez kell emberi döntés, és melyik menne automatikusan?
 
 ### 2. Delegálhatóság szűrő (mi segítünk)
 Minden feladatnál három kérdés:
-- Van-e rá sablonod vagy korábbi outputod? (ha igen: könnyen tanítható)
-- Ismétlodik-e hetente legalább 3x? (ha igen: érdemes automatizálni)
+- Van-e rá sablonja vagy korábbi outputja? (ha igen: könnyen tanítható)
+- Ismétlődik-e hetente legalább 3x? (ha igen: érdemes automatizálni)
 - Jár-e külső személlyel való kommunikációval? (ha igen: jóváhagyási kapu kell)
 
 ### 3. Agent konfiguráció (mi csináljuk)
@@ -35,15 +35,15 @@ Minden feladatnál három kérdés:
 - [ ] Összefoglaló agent: bemenet (meeting, email, dokumentum) + output struktúra
 
 ### 4. Jóváhagyási kapuk beállítása
-- [ ] Mi megy automatikusan (küldés előtt te nem látsz rá)
-- [ ] Mi kerül eléd jóváhagyásra (küldés előtt te okézod)
+- [ ] Mi megy automatikusan (küldés előtt Ön nem lát rá)
+- [ ] Mi kerül Ön elé jóváhagyásra (küldés előtt Ön okézza)
 - [ ] Mi marad kizárólag emberi feladat (az agent nem érinti)
 
 ### 5. Átadás
-- [ ] 5 napos tesztelés: minden outputot átnézel, visszajelzed
-- [ ] Kalibrálás után: teljesen automatikus futás, napi summary neked
+- [ ] 5 napos tesztelés: minden outputot átnézi, visszajelzi
+- [ ] Kalibrálás után: teljesen automatikus futás, napi summary Önnek
 
 ---
 
-## Következo lepes
-"Ha be akarod állítani a cégedben: vinczetamas.hu/audit"
+## Következő lépés
+"Ha be akarja állítani a cégében: vinczetamas.hu/audit"
