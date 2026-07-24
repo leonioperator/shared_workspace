@@ -3773,3 +3773,109 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-07-24
+
+**Forrás:** Blindspot Signals Report 2026-07-24 (60 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.2 – 0
+**Assessment Date:** 2026-07-24
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Launch HN: Screenpipe (YC S26) – Record how you work and turn that into agents** (0.2)
+   - **Forrás:** n/a 2026-07-23T16:48:38+00:00 — https://news.ycombinator.com/item?id=49024620
+   - **Thesis:** Hi Hacker News, I&#x27;m Louis. I built Screenpipe (<a href="https:&#x2F;&#x2F;screenpipe.com">https:&#x2F;&#x2F;screenpipe.com</a>), an app that records your screen and audio locally (only!), and gives AI agents a searchable memory of what you&#x27;ve seen, said, and heard. This makes it easier to automate your repetitive tasks, turn them into SOPs (Standard Operating Procedure) and so on.<p>I made a HN-style demo video at <a href="https:&#x2F;&#x2F;www.tella.tv&#x2F;video&#x2F;build-your-ai-second-brain-with-scre…
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **AI governance gap leaves firms unable to prove decisions - IT Brief UK** (0.2)
+   - **Forrás:** n/a 2026-07-23T08:04:00+00:00 — https://news.google.com/rss/articles/CBMijAFBVV95cUxNenZvRFREbG9sb1Y4QklKdG9aYzdaQzJ1ZjVmS0RwV3MzWlFjYXNGMDhzU1plSlg5WjkxQjFRbFEwQ2lHUDdVdVQ3S0FNbnBWcklZYkx2Z0o3THpWSTZVR2xYSGc2bG56RndKZTRFN3pLZ0xNdmJnMUxSSkdSTkg4eXl3LXRZb1FYa1VYNA?oc=5
+   - **Thesis:** AI governance gap leaves firms unable to prove decisions&nbsp;&nbsp;IT Brief UK
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **AMD debuts next-generation AI infrastructure for frontier models, agentic workloads and autonomous robots - SiliconANGLE** (0.1)
+   - **Forrás:** n/a 2026-07-23T18:30:19+00:00 — https://news.google.com/rss/articles/CBMizgFBVV95cUxQazdFTFh0WU00d0lUUGw3S3N5ODFxdW5fSDhPc0k2VzlMMGtTcVByVm9VNzE1V2RtU0xsdXluRE9jUm9aS2ZudG5KbDBrY0RmcWRYcUU3OGhzaUlaX3RCMk1NYllJaEV4eWQzaDh2WllTdEI4Z2dRdi1nT0RMX2lIX29kX0ZubENLU1oxMjdpSll3QU1qTFBzUkppci1RemdiUXBybHk5M2hVUUN2MkltN1NUUl9tbnZnaUtqaGc0a2NuU3NqX1BYQXpnRkdkQQ?oc=5
+   - **Thesis:** AMD debuts next-generation AI infrastructure for frontier models, agentic workloads and autonomous robots&nbsp;&nbsp;SiliconANGLE
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents** (0.1)
+   - **Forrás:** n/a 2026-07-23T15:42:40+00:00 — https://github.com/onecli/onecli
+   - **Thesis:** hey HN, Jonathan and Guy here, creators of OneCLI (<a href="https:&#x2F;&#x2F;onecli.sh&#x2F;">https:&#x2F;&#x2F;onecli.sh&#x2F;</a>). OneCLI is an open source vault for AI Agents.<p>Traditional vaults are used to store your secrets and, on demand, provide them to you all in a secure way, trusting the person to keep them safe. We figured that in the agent&#x27;s world, this is not the case, as you don&#x27;t know what happens with the secret after it&#x27;s delivered to the agent, or where it was saved. Or maybe so…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers** (0.1)
+   - **Forrás:** n/a 2026-07-23T00:00:00+00:00 — https://huggingface.co/papers/2607.21594
+   - **Thesis:** Multi-agent interactive world models should not only generate consistent observations, but also maintain world states that persist across agents and evolve across views. Existing autoregressive video diffusion pipelines carry forward observation history as conditioning context, which makes shared state difficult to maintain in multi-agent and multi-view settings. We present WorldWeaver (W^2), a streaming multi-agent video diffusion model that augments rollout with cross-agent world state registers: learnable tokens…
+   - **Hypothesis-ek:** H104 (Meta-Agent Decomposition)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **Single-cell foundation models predict durable CAR T response despite imperfect cell annotation** (0.1)
+   - **Forrás:** n/a 2026-07-23T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.07.22.740224
+   - **Thesis:** CD19 targeted chimeric antigen receptor (CAR) T cell therapy achieves high initial response rates in B cell acute lymphoblastic leukemia (B ALL), yet half of patients relapse within one year. Pre-infusion product composition decoded by single-cell RNA sequencing (scRNA-seq) carries information predictive of long term CAR T persistence, but extracting this information from individual patients typically requires highly sophisticated bioinformatics expert annotation, limiting clinical translation. Here, we evaluate wh…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **alibaba / open code review** (0)
+   - **Forrás:** n/a 2026-07-24T02:01:50.796240+00:00 — https://github.com/alibaba/open-code-review
+   - **Thesis:** Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.
+   - **Hypothesis-ek:** H104 (Meta-Agent Decomposition)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **citrolabs / ego lite** (0)
+   - **Forrás:** n/a 2026-07-24T02:01:50.795980+00:00 — https://github.com/citrolabs/ego-lite
+   - **Thesis:** The best browser for both you and your AI agents work in parallel.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing** (0)
+   - **Forrás:** n/a 2026-07-23T18:38:34+00:00 — https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/
+   - **Thesis:** AegisAI co-founders developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn’t catch.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Show HN: I made YAFL – a E2EE file handoff for AI agents** (0)
+   - **Forrás:** n/a 2026-07-23T14:17:45+00:00 — https://yafl.dev
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H104** (Meta-Agent Decomposition): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-07-24 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
