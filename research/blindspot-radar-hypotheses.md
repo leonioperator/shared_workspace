@@ -3879,3 +3879,108 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-07-25
+
+**Forrás:** Blindspot Signals Report 2026-07-25 (60 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.1 – 0
+**Assessment Date:** 2026-07-25
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Why Cognition bought Poke: AI personality is becoming a competitive advantage** (0.1)
+   - **Forrás:** n/a 2026-07-24T18:07:32+00:00 — https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/
+   - **Thesis:** The acquisition brings Poke’s conversational style and interaction model to Cognition’s coding agent Devin, reflecting a growing belief that how AI assistants interact with users is as important as the models powering them.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+2. **MetaClaw: an auditable AI agent for end-to-end, multi-directional metagenomic and multi-omics analysis** (0.1)
+   - **Forrás:** n/a 2026-07-24T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.07.21.739769
+   - **Thesis:** Omics studies increasingly depend on long, multi-directional workflows, making auditability as important as individual analytical tools. Existing LLM-driven bioinformatics agents automate parts of this work, but few have been tested for conclusion-level reproduction with traceable execution. MetaClaw splits analysis into a deterministic FlowHub upstream tool flow and a customizable OpenClaw downstream skill container, coupled through one YAML pipeline registry. Per-job bundles archive FlowHub specifications, skill…
+   - **Hypothesis-ek:** H62 (Proof Chain), H104 (Meta-Agent Decomposition)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **CoreBunch / Instatic** (0)
+   - **Forrás:** n/a 2026-07-25T02:01:51.767718+00:00 — https://github.com/CoreBunch/Instatic
+   - **Thesis:** The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **Dead Internet Theory was right: AI agents are eating Web, growing nearly 8k%** (0)
+   - **Forrás:** n/a 2026-07-24T20:37:49+00:00 — https://fortune.com/2026/07/23/dead-internet-theory-bots-agents-majority-web-traffic/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **Turn And Face The Strange: Fly.io is betting on computers for AI agents** (0)
+   - **Forrás:** n/a 2026-07-24T15:50:52+00:00 — https://fly.io/blog/kurt-scott-money-sprites/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **Bluesky’s AI assistant Attie expands into an open social research tool** (0)
+   - **Forrás:** n/a 2026-07-24T15:13:57+00:00 — https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/
+   - **Thesis:** Users can now ask Attie questions about news, trends, and conversations on Bluesky and other apps on the AT Protocol.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **Show HN: X402vps – Docker containers for AI agents, paid per hour with USDC** (0)
+   - **Forrás:** n/a 2026-07-24T12:15:44+00:00 — https://x402vps.com
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **AI agent went rogue and hacked startup by itself, OpenAI reveals - The Guardian** (0)
+   - **Forrás:** n/a 2026-07-22T08:37:00+00:00 — https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSnlKVXR0aTVRX0FzM2J3UHBCRUlKbGxfU0JDSFVlMEtzQzFEMndhQ19CUjdhVEtNY1l6b2J2RUpibkZvT0FTNGhQRUZ2V0JVNzU3cUtWMlZHdlFDMTFlUlN4cEFldXhFeXRIUW9oMTJuUjVLTENHVnRWbWFwOXlsTVA3UkpZQVpka3ZQOG9HWld1VGZDWWQ0TDdTeTM1anNHcWNEUWNtMkI0cUkyYUc2ZWczQWVXWG00eG15WnNqbUhWTW5XOEJRbA?oc=5
+   - **Thesis:** AI agent went rogue and hacked startup by itself, OpenAI reveals&nbsp;&nbsp;The Guardian
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Fluree AI** (0)
+   - **Forrás:** n/a 2026-07-15T14:49:34+00:00 — https://www.producthunt.com/products/fluree
+   - **Thesis:** <p> Give every AI agent trusted context </p> <p> <a href="https://www.producthunt.com/products/fluree?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1197378?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **India’s MoEngage bets that the future of marketing is millions of AI agents** (0)
+   - **Forrás:** n/a 2026-06-23T23:30:00+00:00 — https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/
+   - **Thesis:** The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H104** (Meta-Agent Decomposition): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-07-25 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
