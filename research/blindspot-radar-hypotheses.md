@@ -3984,3 +3984,109 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-07-26
+
+**Forrás:** Blindspot Signals Report 2026-07-26 (60 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0 – 0
+**Assessment Date:** 2026-07-26
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Pyshackle: A hard pre-execution gate for AI agent tool calls (open source)** (0)
+   - **Forrás:** n/a 2026-07-25T18:04:11+00:00 — https://pypi.org/project/pyshackle/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+2. **ADE** (0)
+   - **Forrás:** n/a 2026-07-24T08:28:41+00:00 — https://www.producthunt.com/products/ade-agentic-development-environment
+   - **Thesis:** <p> All your coding agents, synced everywhere, free forever </p> <p> <a href="https://www.producthunt.com/products/ade-agentic-development-environment?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1205327?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+3. **Velane** (0)
+   - **Forrás:** n/a 2026-07-23T20:34:12+00:00 — https://www.producthunt.com/products/velane
+   - **Thesis:** <p> Cloud for your AI Agent's tools and functions </p> <p> <a href="https://www.producthunt.com/products/velane?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1204964?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **Show HN: Yorishiro – a macOS terminal where AI agents live** (0)
+   - **Forrás:** n/a 2026-07-22T15:33:16+00:00 — https://github.com/sktkkoo/Yorishiro
+   - **Thesis:** Yorishiro is an open source project that gives Claude Code &#x2F; Codex a body-like anime character. The name “Yorishiro” in Japanese means an object inhabited by spirit.<p>My first idea started comunicating with AI agent long time by terminal is very tired. Because AI agent is no face, no expression, no body, and I don’t see they think. So I provided a 3D body and inhabited environment to AI agent. I call it “Presence Harness”.<p>I devise many idea, for example, reflex function. &quot;Aura&quot; is white light mov…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **MentionDrop MCP** (0)
+   - **Forrás:** n/a 2026-06-19T07:54:26+00:00 — https://www.producthunt.com/products/mentiondrop
+   - **Thesis:** <p> Give your AI agent live market signals </p> <p> <a href="https://www.producthunt.com/products/mentiondrop?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1175845?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **Google DeepMind prepares for rogue AI agents - Axios** (0)
+   - **Forrás:** n/a 2026-06-19T02:22:57+00:00 — https://news.google.com/rss/articles/CBMigwFBVV95cUxOLWtvMHpGVUpqcmMtalRVSTZldjRyNkNQM1kwSXQ3T0JjNDVDazQ4R1NicTBHSHBhcTJiYXFEcjBmOXJZN0ZRR1dPNjBZWmlNNmZtZmpaUjhmQUFnLWlkelc0RUw1bTFyR01lbTNreTFyTEtDSnMxX25CX3NhT2VXcUQ5NA?oc=5
+   - **Thesis:** Google DeepMind prepares for rogue AI agents&nbsp;&nbsp;Axios
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **Kilo Org / kilocode** (0)
+   - **Forrás:** n/a 2026-06-19T02:01:49.187097+00:00 — https://github.com/Kilo-Org/kilocode
+   - **Thesis:** Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **zai org / GLM 5** (0)
+   - **Forrás:** n/a 2026-06-19T02:01:49.186773+00:00 — https://github.com/zai-org/GLM-5
+   - **Thesis:** GLM-5: From Vibe Coding to Agentic Engineering
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Grok by SpaceXAI for Word** (0)
+   - **Forrás:** n/a 2026-06-18T20:55:25+00:00 — https://www.producthunt.com/products/grok-by-spacexai-for-word
+   - **Thesis:** <p> Draft, restructure & tighten wording from panel inside Word </p> <p> <a href="https://www.producthunt.com/products/grok-by-spacexai-for-word?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1175569?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **OpenAI is bringing on some big guns in the lead-up to its IPO** (0)
+   - **Forrás:** n/a 2026-06-18T19:59:22+00:00 — https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/
+   - **Thesis:** OpenAI is bulking up before its IPO, landing Transformer co-inventor Noam Shazeer from Google DeepMind and former Trump AI policy official Dean Ball in the same week.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-07-26 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
