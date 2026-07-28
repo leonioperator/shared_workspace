@@ -1,3 +1,14 @@
+---
+id: 2026-07-
+title: Az email nem inbox, hanem döntési sor. Ezt kell automatizálni. — short-form
+  revenue video script
+site: vinczetamas
+content_type: article
+created_at: '2026-07-28'
+status: draft
+updated_at: '2026-07-28T07:30:01.942606+00:00'
+---
+
 # Az email nem inbox, hanem döntési sor. Ezt kell automatizálni. — short-form revenue video script
 
 Source task: `ms48xxju7jso`

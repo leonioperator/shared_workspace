@@ -1,3 +1,13 @@
+---
+id: 2026-07-
+title: Offer asset — Az email nem inbox, hanem döntési sor. Ezt kell automatizálni.
+site: vinczetamas
+content_type: article
+created_at: '2026-07-28'
+status: draft
+updated_at: '2026-07-28T07:30:01.941633+00:00'
+---
+
 # Offer asset — Az email nem inbox, hanem döntési sor. Ezt kell automatizálni.
 
 Source task: `ms48xxju7jso`
