@@ -4310,3 +4310,112 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-07-29
+
+**Forrás:** Blindspot Signals Report 2026-07-29 (50 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.1 – 0
+**Assessment Date:** 2026-07-29
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **The best AI governance tools and platforms in 2026 - TechTarget** (0.1)
+   - **Forrás:** n/a 2026-07-28T20:14:54+00:00 — https://news.google.com/rss/articles/CBMilwFBVV95cUxNNzZXNkVINDFENXdXaHpSRndwSjh5emlvOXBiamNzeTRUcUkzWVUxdEV6ZzZYa1gwLUNWb3NUN2g4amotYk4xcXNFVWFtT3Z4N3I0amtlUjUwd005dmhYVXItWElaSzdmZE8ybUp4V1RHU1NXbFpjOURISFFEa3FFeFNoWHp5QXRFVE5UT0VZc0ROUER3MDNF?oc=5
+   - **Thesis:** The best AI governance tools and platforms in 2026&nbsp;&nbsp;TechTarget
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Unconstrained Plasticity Disrupts Memory Consolidation in a Mouse Model of Rett Syndrome** (0.1)
+   - **Forrás:** n/a 2026-07-28T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.01.29.702595
+   - **Thesis:** Memory impairment is a hallmark cognitive deficit in Rett syndrome (RTT). Yet, long-term memory deficits in RTT animal models remain poorly understood, largely due to the technical challenges inherent in tracking neural activity over extended periods. Here, we used longitudinal two-photon calcium imaging to follow the same population of hippocampal CA1 neurons as female RTT mice and their littermate controls formed cognitive maps of their environment during a spatial learning task. Neural representations in RTT mic…
+   - **Hypothesis-ek:** H66 (Oversight Incentive / Delay Risk), H101 (Misinformation / Ensemble Resilience)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Astrocytes instructively regulate neuronal translation** (0.1)
+   - **Forrás:** n/a 2026-07-28T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.07.27.741020
+   - **Thesis:** Neuronal protein synthesis is essential for synaptic plasticity and long-term memory, yet whether its regulation is shaped by other cell types remains poorly understood. Here, we show that astrocyte-secreted proteins regulate global neuronal translation depending on astrocytic state. Astrocyte-conditioned medium (ACM) increased neuronal translation under basal conditions, an effect enhanced by astrocyte stimulation with the activity-dependent factor BDNF, whereas ACM from neurotoxic reactive astrocytes, a state lin…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **Brief disruption of activity in a subset of dopaminergic neurons during consolidation impairs long-term memory by fragmenting sleep** (0.1)
+   - **Forrás:** n/a 2026-07-28T00:00:00+00:00 — https://www.biorxiv.org/content/10.1101/2023.10.23.563499
+   - **Thesis:** Sleep disturbances are associated with poor long-term memory (LTM) formation, yet the underlying cell types and neural circuits involved have not been fully decoded. Dopamine neurons (DANs) are involved in memory processing at multiple stages. Here, using both male and female flies, Drosophila melanogaster, we show that, during the first few hours of memory consolidation, disruption of basal activity of a small subset of protocerebral anterior medial DANs (PAM-DANs), by either brief activation or inhibition of the…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **Hackers used autonomous AI agent to spy on Thailand's finance ministry - The Record from Recorded Future News** (0.1)
+   - **Forrás:** n/a 2026-07-27T12:12:33+00:00 — https://news.google.com/rss/articles/CBMibEFVX3lxTFBnekszUjVPVEswaHlVVDJOcEVKNEx2dmViUmctUW54d2hGbkxnVXA2TnBDMFZlQWM3MFNyR1FYM0JScGJ6T3dBSUo0bkxKbjl1X2w5ZE1rU0xDYVVwb0ctRUlVYTMwanNCSkRvZg?oc=5
+   - **Thesis:** Hackers used autonomous AI agent to spy on Thailand's finance ministry&nbsp;&nbsp;The Record from Recorded Future News
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **UditAkhourii / adhd** (0)
+   - **Forrás:** n/a 2026-07-29T02:01:54.646423+00:00 — https://github.com/UditAkhourii/adhd
+   - **Thesis:** ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude & Codex Agent SDK. Fans out parallel divergent thoughts under different cognitive frames, scores, prunes traps, deepens the survivors. The no-brainer skill for creative and interdisciplinary work.
+   - **Hypothesis-ek:** H103 (Policy Tree Audit)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+7. **Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents** (0)
+   - **Forrás:** n/a 2026-07-29T00:09:05+00:00 — https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/
+   - **Thesis:** The deal is Cyera's third acquisition this year.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Show HN: Manim (3Blue1Brown's animation engine) in the browser via WebGPU** (0)
+   - **Forrás:** n/a 2026-07-29T00:07:43+00:00 — https://studio.academa.ai/
+   - **Thesis:** Grant Sanderson (3Blue1Brown) created Manim, the Python library he uses to make the math animations in his videos.<p>We reimplemented Manim with the same Python API, but the implementation underneath is Rust, connected to Python through PyO3. The Rust code uses wgpu, so rendering happens on the GPU.<p>To run it in the browser, we compiled the Rust parts to WebAssembly so the PyO3 extension loads in Pyodide. In the browser, wgpu targets the WebGPU API, so animations render in real time on your GPU through the browse…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **These App Store hidden gems prove there’s still room for great software in the AI era** (0)
+   - **Forrás:** n/a 2026-07-28T18:16:39+00:00 — https://techcrunch.com/2026/07/28/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/
+   - **Thesis:** Despite predictions that AI agents could make traditional apps obsolete, developers are shipping new software faster than ever. From smarter bookmarking tools and neighborhood marketplaces to digital pen pals and nature journals, here are the latest App Store finds worth adding to your Home Screen.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Scientific computing in the age of agentic AI** (0)
+   - **Forrás:** n/a 2026-07-28T17:13:15+00:00 — https://openai.com/index/scientific-computing-agentic-ai/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+- **H101** (Misinformation / Ensemble Resilience): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H103** (Policy Tree Audit): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-07-29 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
