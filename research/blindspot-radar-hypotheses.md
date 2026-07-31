@@ -4524,3 +4524,111 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-07-31
+
+**Forrás:** Blindspot Signals Report 2026-07-31 (41 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.3 – 0
+**Assessment Date:** 2026-07-31
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **MemHarness: Memory Is Reconstructed, Not Replayed** (0.3)
+   - **Forrás:** n/a 2026-07-30T00:00:00+00:00 — https://huggingface.co/papers/2607.28272
+   - **Thesis:** Retrieving past experiences has become a common strategy to enhance large language model agents. However, most existing memory-augmented agents treat retrieved experiences as static records to be replayed verbatim, injecting them into the context regardless of whether they align with the agent's current situation. This ``replay'' paradigm ignores the gap between the abstract, general nature of stored experience and the concrete, ever-changing states encountered at decision time, frequently causing negative transfer…
+   - **Hypothesis-ek:** H100 (Latent Communication Security)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Manifold Agentic Reasoning: Extending Agentic POMDPs and Post-Training Reasoning to Riemannian State and Reasoning Spaces** (0.3)
+   - **Forrás:** n/a 2026-07-29T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.07.26.740848
+   - **Thesis:** Agentic reasoning systems increasingly interact with environments whose states are only partially observed, dynamically evolving, and constrained by physical, biological, or logical structure. Existing agentic reasoning frameworks often model internal reasoning, tool use, and post-training adaptation using flat latent representations and struggle in curved manifold space environments. However, many scientific and embodied domains naturally lie on curved state spaces, including tissue geometry, developmental traject…
+   - **Hypothesis-ek:** H62 (Proof Chain), H72 (High-Stakes Integrity), H100 (Latent Communication Security), H101 (Misinformation / Ensemble Resilience)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Israeli cyber startup raises $113m to secure and control autonomous AI agents - The Times of Israel** (0.1)
+   - **Forrás:** n/a 2026-07-30T18:02:00+00:00 — https://news.google.com/rss/articles/CBMiqwFBVV95cUxON1Bxd1JOODd0LTFRTnotS0hPbHFiZkszZ2UyeUk3Y3lPbkNFbUc2M1RxbWZrbEhScEJ5NDk4b0JnZVlxNTAwLVprVC03MmdOM2xWSTFpeHdTbWpKZUpTMVhLempkdmNNVklhNXNUb3NRc0x4X25EODBwR2xqX21vOUVlSEQ0WFdUSXd3T0hwN0NxNVlOc1FJb1FCMnRjYy11d2xNbUJOcUllQmvSAbABQVVfeXFMTmdQQzV0cDdRLWtleURUMWhRTUNGaFJrM29qb2d0Y0pSOG44bXFJMjFsWWNPeHB0ckpVY01neXhMM3oxZjY0TDR6aTBuMk9tVDhMZzA4NXd4LUtEdEc2Wloya3BPdEQ0Y0NBVDg3RGVZODBCOG45Ykt3OXZMRU9JVExIZzhxbTBua0p6ZGVidXJvMTBsRFVQaWloSkplVDhrUEYzQWpfX1pEUFRKZmdBWVo?oc=5
+   - **Thesis:** Israeli cyber startup raises $113m to secure and control autonomous AI agents&nbsp;&nbsp;The Times of Israel
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **Hush Security says the AI security problem has shifted from protecting models to governing identities as autonomous agents spread** (0.1)
+   - **Forrás:** n/a 2026-07-30T16:29:00+00:00 — https://news.google.com/rss/articles/CBMi9AFBVV95cUxQMFVla0ZDSDAyTElJRnpxSUJKRWJjbzdYb3ZPb0NtRnhqa3dKN0F5ZlZzUER0aHpxYzIwWmJldEdRMmJrcXJIUF9FVmg3c3hVS0pCejQzMWtMQWl6SlAtR3VnVTNzQ196Q1BfSV80UlpoYjNMbXBkck1lVjNXUVhxdmREY3RFaDBSNmJiRlpfcDJ2QlB2YURnQkpCUjlJQkwxb0ZyUGVoOU1TZTFyR0dOTDd5a2NOY01QaWxRWDRHMmlrbk1iSUNkRWlIc3B2Rzc3WXdUcDRhRGFqVXE2NEJ3SGJ1dG9COVhBZmhYWm5DZDZBMjZz?oc=5
+   - **Thesis:** Hush Security says the AI security problem has shifted from protecting models to governing identities as autonomous agents spread&nbsp;&nbsp;Venturebeat
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **The AI Shift: How autonomous are AI agents? - Financial Times** (0.1)
+   - **Forrás:** n/a 2026-07-30T11:30:08+00:00 — https://news.google.com/rss/articles/CBMihAFBVV95cUxPajd0aERTcDg1MnN2eGlXNlEtc1l5N1pfYVhrdmU3UmVKTkdDRFFILWk1S21iNzRsNmp2amMwaE02U2Jac296M195dGFtT0dqdDBfb29hXzdSUHQ0NjFSaTBhQlpyQXVmTFhnX0VxaG5RVUJHamI1TUNnU3R5amc5UHBHd2g?oc=5
+   - **Thesis:** The AI Shift: How autonomous are AI agents?&nbsp;&nbsp;Financial Times
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **Duoying Digital Intelligence AI Decision-Making Agent Solves High-Security Implementation Pain Points, Officially Launches Series A Financing Round - 36 Kr** (0.1)
+   - **Forrás:** n/a 2026-07-30T06:42:55+00:00 — https://news.google.com/rss/articles/CBMiU0FVX3lxTE9XUVRINjdzYk5CaG9ZYS0xbFVGV2gzN1lSeEo2NlRXX2RVc29WUFR5Z0V2S3VLR0FZU2tqOXBCLW1nS2NpNVQzOHVlY3JiREk2OVhn?oc=5
+   - **Thesis:** Duoying Digital Intelligence AI Decision-Making Agent Solves High-Security Implementation Pain Points, Officially Launches Series A Financing Round&nbsp;&nbsp;36 Kr
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **Generate Autonomous Business Insights with AI Agent and MCP Servers | Artificial Intelligence - Amazon Web Services (AWS)** (0.1)
+   - **Forrás:** n/a 2026-07-29T15:34:18+00:00 — https://news.google.com/rss/articles/CBMitAFBVV95cUxPTm5GZUZxbE5uOVBDZmxFbktMZExYRk1jNVNVVXVJa2IwNmloaE1kRDlTQnE3cnFGSU01TzRZMnVTU0ota1l4MS1ZSnZXQVJDb3ZQM0E1Ym1ORDEyLUc5VTdIRkwxZFIwdnJNTjVBN0lJZGtSOGdtV2JJM21aeFJXdUR6cndpcUw3V0puSlBaREZSZVI4dVM4anNSNUJVbDZ4ZnRTVHBySHBrT29YVG9ua0tqNnQ?oc=5
+   - **Thesis:** Generate Autonomous Business Insights with AI Agent and MCP Servers | Artificial Intelligence&nbsp;&nbsp;Amazon Web Services (AWS)
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **Show HN: Noisegate – a differential-privacy gateway for untrusted AI agents** (0)
+   - **Forrás:** n/a 2026-07-30T18:08:48+00:00 — https://github.com/yashmahajan10/llm-differential-privacy-gateway
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **AI Agent Authentication and Authorization (IETF Internet-Draft)** (0)
+   - **Forrás:** n/a 2026-07-30T17:35:06+00:00 — https://datatracker.ietf.org/doc/html/draft-klrc-aiagent-auth
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Can AI agents conduct open-ended AI research?** (0)
+   - **Forrás:** n/a 2026-07-30T17:35:04+00:00 — https://arxiv.org/abs/2607.27191
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H100** (Latent Communication Security): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H101** (Misinformation / Ensemble Resilience): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-07-31 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
