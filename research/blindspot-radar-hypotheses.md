@@ -4632,3 +4632,113 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-08-01
+
+**Forrás:** Blindspot Signals Report 2026-08-01 (34 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.1 – 0.3
+**Assessment Date:** 2026-08-01
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Memory encoding reprograms neuronal transcriptional responses via durable chromatin remodeling** (0.1)
+   - **Forrás:** n/a 2026-07-31T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.07.29.741555
+   - **Thesis:** The mammalian brain's long-term memory circuits integrate information from prior and new experiences. The medial prefrontal cortex (mPFC) has a crucial role in this process and can reliably store information for weeks to months in rodents and over years in humans. To maintain information over these extended timescales, the neural encoding of remote memories involves persistent synaptic, transcriptional, and epigenetic changes that outlast the more transient forms of molecular activation that occur in the initial mi…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+2. **Show HN: How to build and self-host a code review agent** (0)
+   - **Forrás:** n/a 2026-07-31T20:27:28+00:00 — https://www.trytilde.ai/blog/how-to-build-code-review-agent
+   - **Thesis:** Hey HN,<p>I&#x27;ve had a side-project that I&#x27;ve slowly ticked away at over the last year called Tilde. Tilde is a harness SDK platform - I&#x27;ve tried to take the best things of OpenClaw, Hermes &amp; other harnesses and decompose them and make them available as cloud API building blocks.<p>You can use Tilde to create AI agents for your use case, fast and self-host the agent&#x27;s yourself.<p>The documentation (and attached blog post) leave a lot to be desired in terms of technical documentation but hopefu…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+3. **SpaceX won’t remove all of xAI’s unpermitted turbines for another year** (0)
+   - **Forrás:** n/a 2026-07-31T15:16:17+00:00 — https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/
+   - **Thesis:** SpaceX is building a new power plant for xAI's Colossus data centers, but it won't remove existing, unpermitted turbines for many more months.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **Show HN: What should the GUI for AI agents look like?** (0)
+   - **Forrás:** n/a 2026-07-31T05:17:29+00:00 — https://marbleos.com/demo
+   - **Thesis:** Hi HN! We’re Akilan and Miguel, the creators of MarbleOS.<p>The inspiration for Marble comes from the GUI work at Xerox PARC, the 1984 Macintosh, and later NeXTSTEP, which became the foundation for Mac OS X. Before GUIs, interacting with a computer was limited to strange terminal commands:<p>C:\&gt; DIR<p>C:\&gt; COPY FILE.TXT A:<p>You had to remember the command, syntax, paths, and parameters.<p>The GUI made those capabilities visible. Instead of remembering commands, you could point at files, drag them, click but…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **Reward-Driven LLM Agent Workflows: Synthesizing POMDP Routing and Self-Correction for Autonomous Decision-Making** (0.5)
+   - **Forrás:** n/a 2026-07-19T02:51:41+00:00 — https://arxiv.org/abs/2607.17038
+   - **Thesis:** This paper addresses key technical challenges in current large language model (LLM) agent applications, including long-horizon planning, sparse reward attribution, and dynamic environmental interaction, by designing and optimizing an intelligent agent workflow. The proposed architecture is based on the synthesis of core AI paradigms: Visual, Language, Generative, Graph, Multimodal, Reinforcement, and Agent Intelligence. Unlike conventional baseline models that rely on static prompting and lack robust perception-act…
+   - **Hypothesis-ek:** H62 (Proof Chain), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **Deep Research in Physical Sciences: A Multi-Agent Framework and Comprehensive Benchmark** (0.5)
+   - **Forrás:** n/a 2026-06-17T00:00:00+00:00 — https://huggingface.co/papers/2606.18648
+   - **Thesis:** Deep research agents are Large Language Model (LLM)-based systems designed for autonomous, multi-step scientific reasoning, and they hold immense potential for accelerating research in the physical sciences. However, comprehensive and in-depth evaluations of their capabilities within this domain remain lacking. To address this gap, we introduce PhySciBench, a benchmark highly relevant to physical science research, comprising 200 expert-curated questions, balanced between physics and chemistry, across six task categ…
+   - **Hypothesis-ek:** H62 (Proof Chain), H72 (High-Stakes Integrity), H90 (Multi-Agent Debate / Research Agents), H102 (Semantic Drift)
+   - **Megerősítés:** A deep-research agenteknél az auditálhatóság, self-verification és domain-grounded reasoning már architektúra-követelmény; H62/H72/H90 erős validáció.
+
+7. **Multi-Agent System-driven Digital Twins for predictive maintenance: architectures, technologies and open research challenges** (0.4)
+   - **Forrás:** n/a 2026-07-24T00:09:53+00:00 — https://arxiv.org/abs/2607.21873
+   - **Thesis:** Digital twins have emerged as a foundational technology within the context of Industry 4.0, offering a paradigm for the real-time virtual representation of physical systems. However, managing their growing complexity, particularly in distributed industrial environments, requires intelligent architectures capable of autonomous decision-making, dynamic adaptability, and inter-agent coordination. This systematic review explores the intersection between Multi-Agent Systems and Digital Twins, with a particular focus on…
+   - **Hypothesis-ek:** H105 (Decentralized Governance), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **A Closed-Loop Multi-Agent Framework for Robust Multi-Robot Manipulation** (0.4)
+   - **Forrás:** n/a 2026-07-08T04:23:41+00:00 — https://arxiv.org/abs/2607.06990
+   - **Thesis:** Multi-robot systems provide the parallelism and redundancy necessary for long-horizon tasks, while Large Language Models (LLMs) offer the reasoning capabilities to decompose these objectives into actionable plans. However, effectively grounding this high-level reasoning in physical multi-robot execution remains an open challenge. Existing LLM-based approaches fall mainly into two categories: Single-robot methods achieve robust contact-rich manipulation but lack the coordination mechanisms required for tasks spannin…
+   - **Hypothesis-ek:** H62 (Proof Chain), H90 (Multi-Agent Debate / Research Agents), H102 (Semantic Drift), H105 (Decentralized Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+9. **Autonomous AI Agents and the 2026 Hugging Face Attack - quasa.io** (0.1)
+   - **Forrás:** n/a 2026-07-25T19:54:00+00:00 — https://news.google.com/rss/articles/CBMijAFBVV95cUxPcUsxQy1yNnk2QWtmdFZ0QTRQWHNQRE5xdGxKSzc1ZUxYQ0RnNmpuYmxwck9WTUZOZElMcldQMks4aVdwaW1GZzdvdUV2VVVXaHBYdWozMllwN1dSaDRrSnpJdVpZMjc2NlltbFpyODlDY0FSOEFjbDZTQVJ2UEUwM1ZBYzR3c09MbnItaw?oc=5
+   - **Thesis:** Autonomous AI Agents and the 2026 Hugging Face Attack&nbsp;&nbsp;quasa.io
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+10. **Light-Omni: Reflex over Reasoning in Agentic Video Understanding with Long-Term Memory** (0.3)
+   - **Forrás:** n/a 2026-07-06T00:00:00+00:00 — https://huggingface.co/papers/2607.05511
+   - **Thesis:** Agentic video understanding equips models with long-term memory to autonomously process and respond to continuous, long-horizon multimodal streams. However, advanced video agents often rely on ``detective-style'' iterative reasoning for action control (e.g., search) and evidence aggregation, incurring prohibitive costs and latency. We argue that such heavy reasoning primarily compensates for the lack of global context and semantic misalignment in retrieval. This paper introduces Light-Omni, a multimodal agent frame…
+   - **Hypothesis-ek:** H62 (Proof Chain), H100 (Latent Communication Security), H102 (Semantic Drift), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H90** (Multi-Agent Debate / Research Agents): mai signalok által megerősítve
+- **H102** (Semantic Drift): mai signalok által megerősítve
+- **H105** (Decentralized Governance): mai signalok által megerősítve
+- **H100** (Latent Communication Security): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-08-01 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
