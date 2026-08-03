@@ -1,0 +1,11 @@
+---
+id: draft-lo
+title: draft-log-2026-08
+site: vinczetamas
+content_type: article
+created_at: '2026-08-03'
+status: draft
+updated_at: '2026-08-03T07:45:00+02:00'
+---
+
+- 2026-08-03 | vinczetamas | vinczetamas-2026-08-03-ai-agent-nem-modell.md (Quality: 5/5)
