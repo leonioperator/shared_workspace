@@ -9,3 +9,4 @@ updated_at: '2026-08-03T07:45:00+02:00'
 ---
 
 - 2026-08-03 | vinczetamas | vinczetamas-2026-08-03-ai-agent-nem-modell.md (Quality: 5/5)
+- 2026-08-02 | elkezdodott | elkezdodott-2026-08-02-ai-agent-deterministicus-vegrehajtas.md
