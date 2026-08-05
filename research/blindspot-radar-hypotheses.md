@@ -5068,3 +5068,110 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-08-05
+
+**Forrás:** Blindspot Signals Report 2026-08-05 (42 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.2 – 0
+**Assessment Date:** 2026-08-05
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **BigID Defines the Missing Governance Layer for Autonomous AI Agents - PR Newswire** (0.2)
+   - **Forrás:** n/a 2026-08-04T19:03:00+00:00 — https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcEpwV3Z1VDh6bTcyUGd5U2I5VENyM1BfRDdSU3N0ZVYwaGdFNXY4VlFoZmJDMUpoNzJxMGZzVlJsV25RRHJMczFGVk8yZHRUZG43Zmxrb1BWLTZBQVZQNkR6RDRTTzdoOG4xaUxfMVpJSlpEQmpIcXlucXlrRy1jR2JpT1R3MFo2VVg2d0FMb3pBVDdlSzNuZlNCUUJZY2Mzalh6ZlhFOHVxQ3R0V2daMEp4OUZCZEt1UUwwcEFOWlU?oc=5
+   - **Thesis:** BigID Defines the Missing Governance Layer for Autonomous AI Agents&nbsp;&nbsp;PR Newswire
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Strategies for Cyber Resilience, AI Governance & Smarter Municipal Decision Making - National League of Cities** (0.2)
+   - **Forrás:** n/a 2026-08-04T04:40:28+00:00 — https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaVg1VXpfSVpqM2NIMUd2TFdDbHBGOUJOVWRqOXR4Nm90T0lnRDRIQ0VGWHpQcWt2WFVBSVRCRUp3b1dRSWpGOGFoejVQUGNQV2YxQ3duNndVQ1YzaGJRMUowZ2c0di13M0FSWWNXR0V2dHhvUWRBTGtaOWJjWWxsMWRtUVhPNHpETDRndXNHUW53ajV4Q0pFX2xjMzd1bW9sbUFKeS1Tb29EdVU?oc=5
+   - **Thesis:** Strategies for Cyber Resilience, AI Governance & Smarter Municipal Decision Making&nbsp;&nbsp;National League of Cities
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Behavioural and neural mechanisms for stochastic choices in mixed strategy games** (0.2)
+   - **Forrás:** n/a 2026-08-04T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.07.29.741515
+   - **Thesis:** Real-life decisions are rarely made in isolation; outcomes depend not only on an individual's choices but also on the actions of others. In competitive settings, optimal decision-making often requires unpredictability: for example, a penalty taker in football randomises their kicks to avoid being predicted by the goalkeeper. Such stochastic strategies prevent opponents from exploiting predictable patterns. To probe the neural mechanisms underlying these game-theoretic behaviours, we trained head-fixed mice in a zer…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **Scientific computing in the age of agentic AI: an exploratory field report** (0.1)
+   - **Forrás:** n/a 2026-08-04T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.07.29.741496
+   - **Thesis:** Scientific computing has become a central component of modern scientific discovery. Yet many computational tools are developed by small, specialized teams under incentives that encourage the release of rapidly prototyped tooling without commensurate attention to engineering concerns, including performance and maintainability. These gaps are particularly visible in the life sciences, where the advent of high-throughput sequencing and molecular profiling has made the production and processing of datasets routine at s…
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **ESET introduces new AI capabilities for autonomous agent security** (0.1)
+   - **Forrás:** n/a 2026-08-04T10:05:52+00:00 — https://news.google.com/rss/articles/CBMirgFBVV95cUxOVF85aXRVSGgwR0xqTjRkZjhtSEswRHBMcmFGckhWVk1oaGt4cVVSMW81MTVqZ2xfUTlpdnBaVmI4TTVXUlowTS1EemRVVnVBMFJJaWFfWl9VTWQ0V2tBaG53LXNySXhuWUN6b0VxZG04ZjFDX3FvOHh4S3B4Rk9GN2lZZFY4bHpWNEozLUxxamdXYnBuRE8wY3kzXzBYQ1dac3FYYVhabXhnUVVSMmc?oc=5
+   - **Thesis:** ESET introduces new AI capabilities for autonomous agent security&nbsp;&nbsp;Help Net Security
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **uber / ADR** (0)
+   - **Forrás:** n/a 2026-08-05T02:01:54.604429+00:00 — https://github.com/uber/ADR
+   - **Thesis:** ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.
+   - **Hypothesis-ek:** H62 (Proof Chain)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+7. **Cloudflare Wallets: the programmable wallet for the agentic Internet** (0)
+   - **Forrás:** n/a 2026-08-04T21:31:02+00:00 — https://blog.cloudflare.com/wallets/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress** (0)
+   - **Forrás:** n/a 2026-08-04T19:28:49+00:00 — https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/
+   - **Thesis:** The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **The Knowledge Chipper: An Agentic Coding Story** (0)
+   - **Forrás:** n/a 2026-08-04T16:43:37+00:00 — https://jg.gg/2026/08/04/the-knowledge-chipper/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Show HN: Simple self-hosted LLM assistant with user-steered compounding context** (0)
+   - **Forrás:** n/a 2026-08-04T14:48:35+00:00 — https://github.com/kol3x/pawmc
+   - **Thesis:** I built a personal LLM assistant on Cloudflare Workers + Durable Objects. You specify a category and topic when starting a new conversation, so the backend maintains a summary for each category&#x2F;topic - building up as more conversations happen under the same one.<p>There is no complicated RAG, embeddings, or agentic magic, but the category&#x2F;topic summaries system just works, and I&#x27;ve genuinely found it super handy and have been using it daily for my life and work.<p>I started it to get familiar with Du…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-08-05 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
