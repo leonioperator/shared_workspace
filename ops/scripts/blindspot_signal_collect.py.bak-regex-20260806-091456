@@ -264,7 +264,7 @@ checks = [
     ("\n## New Signals Since Previous Reports\n" in written, "hiányzik New Signals blokk"),
     ("\n## Top Signals By Weighted Score (including already-seen)\n" in written, "hiányzik Top Signals blokk"),
     (len(re.findall(r"^### [0-9]+\. ", written, flags=re.M)) >= 5, "kevesebb mint 5 valós signal cím"),
-    (not re.search(r"Signal [0-9]+ cím|\bplaceholder\b|\bTODO\b", written, flags=re.I), "placeholder/TODO maradt a fájlban"),
+    (not re.search(r"Signal [0-9]+ cím|placeholder|TODO", written, flags=re.I), "placeholder/TODO maradt a fájlban"),
 ]
 for ok, msg in checks:
     if not ok:

@@ -1,3 +1,14 @@
+---
+id: 2026-08-
+title: Offer asset — Egy belső workflow akkor jó, ha nem kell minden reggel újra kézzel
+  indítani.
+site: vinczetamas
+content_type: article
+created_at: '2026-08-06'
+status: draft
+updated_at: '2026-08-06T06:03:01.812491+00:00'
+---
+
 # Offer asset — Egy belső workflow akkor jó, ha nem kell minden reggel újra kézzel indítani.
 
 Source task: `msh3wljlkwl2`

@@ -1,21 +1,11 @@
 ---
-title: Mikor engedheted meg egy AI agentnek, hogy pénzt költsön?
-date: 2026-08-06
-site: elkezdodott.hu
-description: Az agentek pénzköltése nem technológiai trükk, hanem vezetői kontrollkérdés:
-  limit, engedélyezett szolgáltató, tranzakciós plafon és naplózás kell hozzá.
-tags:
-- ai-agent
-- kkv
-- automatizalas
-- governance
-- koltsegkontroll
-slug: ai-agent-penzkoltesi-korlatai
-id: elkezdodott-ai-agent-penzkoltesi-korlatai
+id: elkezdod
+title: elkezdodott-2026-08-06-ai-agent-penzkoltesi-korlatai
+site: elkezdodott
 content_type: article
 created_at: '2026-08-06'
 status: draft
-updated_at: '2026-08-06T07:45:00+02:00'
+updated_at: '2026-08-06T06:00:01.438796+00:00'
 ---
 
 Egy AI agent akkor kaphat költési jogot, ha a pénzügyi keretek nem a promptban, hanem külön szabályrétegben élnek. KKV-ként ez minimum előre beállított budgetet, engedélyezett kereskedőlistát, tranzakciós plafont, naplózást és kivételes esetekben emberi jóváhagyást jelent. A cél nem bizalom, hanem mérhető, visszavonható felhatalmazás.

@@ -1,3 +1,14 @@
+---
+id: 2026-08-
+title: Egy belső workflow akkor jó, ha nem kell minden reggel újra kézzel indítani.
+  — short-form revenue video script
+site: vinczetamas
+content_type: article
+created_at: '2026-08-06'
+status: draft
+updated_at: '2026-08-06T06:03:01.813633+00:00'
+---
+
 # Egy belső workflow akkor jó, ha nem kell minden reggel újra kézzel indítani. — short-form revenue video script
 
 Source task: `msh3wljlkwl2`
