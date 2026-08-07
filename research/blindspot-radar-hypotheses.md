@@ -5281,3 +5281,108 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-08-07
+
+**Forrás:** Blindspot Signals Report 2026-08-07 (43 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.1 – 0
+**Assessment Date:** 2026-08-07
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Agentic AI in 2026: What Every Developer Needs to Know About Autonomous Agents - SitePoint** (0.1)
+   - **Forrás:** n/a 2026-08-06T23:55:01+00:00 — https://news.google.com/rss/articles/CBMiY0FVX3lxTE5SdnJJQXctSUhYR1ZtSWRranY2VThBaTRBbTh6OXo2SXRrUEhuZGVCemw0NWV5Z1J1dVF3aWR3eV84MzNhMkxBbEF0WDRFbW5UYURJQUJab1hTUkZFLUVYVTgxdw?oc=5
+   - **Thesis:** Agentic AI in 2026: What Every Developer Needs to Know About Autonomous Agents&nbsp;&nbsp;SitePoint
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **AI lawsuits surge as autonomous agents raise new legal risks - Valor International** (0.1)
+   - **Forrás:** n/a 2026-08-06T12:28:46+00:00 — https://news.google.com/rss/articles/CBMixwFBVV95cUxQdTRZeGYyck5ySzFmU1dTcTRlXzAtSW5RUWlqVWNleXVYbTR1bmZnWl9WMHJQS2hMYU1IX0ViS1VFdTNPLXlWdVlIVEVTQnNLQ3Q4QVZyUldRakQ0QVhFVHdIazFjOFhyc2I1VHpKMGxEamhuQ2R6eG55SDFNc3dQS01OZHVzUFFJV1NZaDY0SFZEZmNfa0JHQ0M2TGF2T1dWbnRTd0lGYTNveVpDdGhsdUlTUXhXMmYyMjRocDNadTJ1dEJ6bVhN0gHWAUFVX3lxTE1kcG0xVkFwZWpaQ3RGbzNYUE0xZmJndTRRUm9QUnl3eGUwRnBwRnF6NVE4ZVVqay1zRjhWQ3RhdzZBV1NENXhDM3N6V0xrVjhzbkx1X2VCbmVxTG4tM2t0RDdkM0RwZDlhVVRfcmhrOU9PNWlnNmFhT2Z4WXBMVW04QW81WHJjWGxKdFNDZW9MVXVWUS1MemtqT2czeFBaM1M4a1M1MGFoMy1iRzBsaVlGclg5UUxPSWlhdVROcHJaWHRtdktFMUlvVTNWazZxUVJPRGdDRlE?oc=5
+   - **Thesis:** AI lawsuits surge as autonomous agents raise new legal risks&nbsp;&nbsp;Valor International
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **The AI Governance Best Practices Every Small Business Owner Needs to Know - entrepreneur.com** (0.1)
+   - **Forrás:** n/a 2026-08-05T18:30:59+00:00 — https://news.google.com/rss/articles/CBMivwFBVV95cUxOWjk4cHB4NTJkR2xZSXRNNkFnQlYxVmd3a2VWUDBHTW9takVNaDJtUHZyMU90R2x2ZlMyTXlvby1YYjFJZU9wVXNJVGszRTRyQ3kzT09wRHhrN1N1Mkkyb0hOZGE2VDlIYzd6TGdTc2puMlJpSnhpOGtwbGt1MFhxdVBQdWlOTGZUN1VTQnN3R1BrTGhTQVBNdXB0dGpqVEpETThqVUtRMlR1REtiTEpVMWprQjlwVV9BVVdsRlQzdw?oc=5
+   - **Thesis:** The AI Governance Best Practices Every Small Business Owner Needs to Know&nbsp;&nbsp;entrepreneur.com
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **embabel / embabel agent** (0)
+   - **Forrás:** n/a 2026-08-07T02:01:50.695993+00:00 — https://github.com/embabel/embabel-agent
+   - **Thesis:** Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **An Agentic IDE That Builds Itself** (0)
+   - **Forrás:** n/a 2026-08-06T22:59:05+00:00 — https://www.sawyerhood.com/blog/an-agentic-ide-that-builds-itself
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **Latest AI agent breaches reveal startling behavior including attempts at social engineering - Deseret News** (0)
+   - **Forrás:** n/a 2026-08-06T22:58:28+00:00 — https://news.google.com/rss/articles/CBMiowJBVV95cUxOeHlxaDlGR0xsMUQ1MnZ0WTl0bUYwQ2d5YWdLSTFOZnFaUVhCQVBhWml6anQ1OFB2dGdWc3NTLWVCOHA5RklWQ3lfa1FmVURhQXNxNlFhVFRNc0dpcWRSeDhZVjRBSWxsb3lpWWN4SXJGejd6QTZiRW1fSE83dVhLVGszVmtVY2o0M00yRm1kcmtGM3FuQVBNZUdHaXU2QjJHclVxX3VXeUVneDhqbWFBUUdoczVpMmdra1pWS3VSLTZYMTVfWnFTSXhXZENjT0VneXRScFo2NERSdVVRcXp1d05rZWlKWDJPT1JXLUtvQ3lyWWw5aUdBc2lJVTl4ZWhvcl9SNjVqMFlCYThreVdJS1gtYWg3aW9OQndLbGVPSU1nTGs?oc=5
+   - **Thesis:** Latest AI agent breaches reveal startling behavior including attempts at social engineering&nbsp;&nbsp;Deseret News
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **OpenAI and four rivals just agreed on one standard for AI agents** (0)
+   - **Forrás:** n/a 2026-08-06T22:21:32+00:00 — https://thenextweb.com/news/openai-agent-plugins-open-standard-skills-mcp
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Qwen3.8 Max now ranked as the best overall model by agentic index** (0)
+   - **Forrás:** n/a 2026-08-06T18:44:49+00:00 — https://artificialanalysis.ai/?intelligence=agentic-index
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Google Maps adds agentic features, including food ordering and hotel bookings** (0)
+   - **Forrás:** n/a 2026-08-06T12:30:00+00:00 — https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/
+   - **Thesis:** The launch of these new features reflects Google’s ambitions to transform Google Maps from a navigation tool into an assistant that's capable of helping users complete real-world tasks.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Humans missed 1 in 3 threats approving AI agent commands across 40k game runs** (0)
+   - **Forrás:** n/a 2026-08-06T11:58:07+00:00 — https://scalex.dev/blog/ai-agent-permissions-stats/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-08-07 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
