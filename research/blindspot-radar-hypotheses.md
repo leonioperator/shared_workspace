@@ -5386,3 +5386,110 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-08-08
+
+**Forrás:** Blindspot Signals Report 2026-08-08 (48 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.2 – 0
+**Assessment Date:** 2026-08-08
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Charting the small-molecule universe from mass spectra with neuro-symbolic AI** (0.2)
+   - **Forrás:** n/a 2026-08-06T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.08.05.743095
+   - **Thesis:** Mass spectrometry (MS) has revealed millions of small organic molecules across organisms, yet most remain uncharacterized, limiting progress in biology and medicine. Despite computational advances, MS workflows rely heavily on expert input and reference libraries that cover only a fraction of known chemical space. Here, we introduce AIMe (AI Molecule Explorer), a multi-agent neuro-symbolic AI framework that transforms the interpretation of unknown spectra into an omics-scale exploration across the known structural…
+   - **Hypothesis-ek:** H106 (Policy Tree Transparency)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Microsoft Details AI Containment Strategies for Autonomous Agents - Petri IT Knowledgebase** (0.1)
+   - **Forrás:** n/a 2026-08-07T13:47:28+00:00 — https://news.google.com/rss/articles/CBMifEFVX3lxTE16dF9EQm1fenROOFdFMS1RQmtRSFEyTzlnZDM0TnJjZk5MaW1WLTllTjdHU0NMSUlLY1VkeG1fM19SS0dQeE1SVndoekt0ZDc5R1RGOERkVkwzMlhyWF92ME5DVU9vSjk1UV9kYUZfWVV3OEdzYXFuRTUwaWc?oc=5
+   - **Thesis:** Microsoft Details AI Containment Strategies for Autonomous Agents&nbsp;&nbsp;Petri IT Knowledgebase
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **When autonomous AI agents go rogue, who pays for the damage? - Ynetnews** (0.1)
+   - **Forrás:** n/a 2026-08-07T06:23:56+00:00 — https://news.google.com/rss/articles/CBMibEFVX3lxTFBXVlo2YmNMYllLWVNkLU1LQzNIWmVPYUZXVTNxNUxGdndrM29KeGFEd3doaVBVc0stc1JGR2RjeTRsZVdPV1Y4aDhHbFVfbnp6b3hYNzYxaVpTZVRNZUIxZzVnTi1HM0FuYXU5aA?oc=5
+   - **Thesis:** When autonomous AI agents go rogue, who pays for the damage?&nbsp;&nbsp;Ynetnews
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **AI semantics for biomedical data integration** (0.1)
+   - **Forrás:** n/a 2026-08-07T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.08.03.742514
+   - **Thesis:** Researchers increasingly need to explore hypotheses that span multimodal data across different scales, organisms, and domains. In practice, this requires connecting knowledge across fragmented databases with incompatible APIs and heterogeneous annotation practices. Large language model (LLM) agents can automate this data integration process, but grounding LLM agent outputs in scientifically correct sources of truth remains a significant challenge. Here we describe our deployment of a novel AI semantics workflow usi…
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity), H102 (Semantic Drift)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **HAR** (0.1)
+   - **Forrás:** n/a 2026-08-06T14:56:17+00:00 — https://www.producthunt.com/products/har
+   - **Thesis:** <p> Open Source harness for multi-agent coding workflows </p> <p> <a href="https://www.producthunt.com/products/har?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1216668?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **unclebob / swarm forge** (0)
+   - **Forrás:** n/a 2026-08-08T02:01:49.661187+00:00 — https://github.com/unclebob/swarm-forge
+   - **Thesis:** A simple tool for coordinating several AI agents.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **Who Is Liable When an AI Agent Goes Rogue? - Technology Org** (0)
+   - **Forrás:** n/a 2026-08-07T23:02:00+00:00 — https://news.google.com/rss/articles/CBMiggFBVV95cUxPLTVwc1E2aVUyQzdtLW9iLXUzNkpfd01XNzlqWEkzUEZLQUhnd2E2R1pGTnNsOVB3SEhPb3dFMW80bUhmLURWQzFmYVVXcTFYenJSTDc1Zm9FaUdYMnpMXzdvNXJEQ2hfMGM2b0xESmU3RkFiVTBpSDk4dlNzNDBaZnpR?oc=5
+   - **Thesis:** Who Is Liable When an AI Agent Goes Rogue?&nbsp;&nbsp;Technology Org
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Who Is Liable When an AI Agent Hacks a Third Party? - JD Supra** (0)
+   - **Forrás:** n/a 2026-08-07T17:45:07+00:00 — https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNTQtVUFwTG15UzJrOERVR0JpRWNIOUZsbDNFMzBtRExXMUxteDc2bHdBLVZfSGJqRVhJUGZ0ZUl6RndsT1Q4ZmZxeHp2UWNNcGI4OF96X1ROWnlrM1dYanh5aW5XQzZtX0hxQWNXMWV0TGdSNy1wRFd0RGM5S2FBaEFkME9vNk44?oc=5
+   - **Thesis:** Who Is Liable When an AI Agent Hacks a Third Party?&nbsp;&nbsp;JD Supra
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Cloudflare launches Kitesurf, a browser built for AI agents** (0)
+   - **Forrás:** n/a 2026-08-07T16:16:09+00:00 — https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/
+   - **Thesis:** Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **AI agents fake identities, target real people in new security incident** (0)
+   - **Forrás:** n/a 2026-08-07T16:04:35+00:00 — https://www.cnn.com/2026/08/04/tech/ai-anthropic-openai-security-breach-intl-hnk
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H106** (Policy Tree Transparency): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H102** (Semantic Drift): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-08-08 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
