@@ -1,23 +1,25 @@
 ---
-title: "Mikor van kész egy AI agent munkája?"
-slug: "ai-agent-kesz-van"
-site: "vinczetamas"
-content_type: "article"
-status: "draft"
-created_at: "2026-08-10T07:45:00+02:00"
-updated_at: "2026-08-10T07:45:00+02:00"
-author: "Vincze Tamás"
-meta_description: "KKV vezetőknek az AI agent akkor hasznos, ha pontos kész állapota, ellenőrzése és átadási szabálya van."
-og_image: "vinczetamas-2026-08-10-ai-agent-kesz-van.png"
-category: "AI operáció"
+title: Mikor van kész egy AI agent munkája?
+slug: ai-agent-kesz-van
+site: vinczetamas
+content_type: article
+status: draft
+created_at: '2026-08-10T07:45:00+02:00'
+updated_at: '2026-08-10T06:00:01.644097+00:00'
+author: Vincze Tamás
+meta_description: KKV vezetőknek az AI agent akkor hasznos, ha pontos kész állapota,
+  ellenőrzése és átadási szabálya van.
+og_image: vinczetamas-2026-08-10-ai-agent-kesz-van.png
+category: AI operáció
 tags:
-  - "AI agent"
-  - "KKV automatizálás"
-  - "operációs kontroll"
+- AI agent
+- KKV automatizálás
+- operációs kontroll
 quality_score: 5
 sources:
-  - "TLDR AI, 2026-08-08 hírlevél, agent loop konvergencia téma"
-  - "Ben's Bites, 2026-08-08 hírlevél, hosszú agent futások és stop condition példa"
+- TLDR AI, 2026-08-08 hírlevél, agent loop konvergencia téma
+- Ben's Bites, 2026-08-08 hírlevél, hosszú agent futások és stop condition példa
+id: vinczeta
 ---
 
 # Mikor van kész egy AI agent munkája?
