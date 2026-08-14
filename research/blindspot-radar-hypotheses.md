@@ -6030,3 +6030,110 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-08-14
+
+**Forrás:** Blindspot Signals Report 2026-08-14 (45 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.3 – 0
+**Assessment Date:** 2026-08-14
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **OmniScientist: An Omni-Modal Omni-Discipline AI Scientist** (0.3)
+   - **Forrás:** n/a 2026-08-13T00:00:00+00:00 — https://huggingface.co/papers/2608.13558
+   - **Thesis:** Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, labels, or precomputed summaries, leaving scientifically decisive spatial, temporal, cross-channel, and procedural relations unavailable to the agent. We introduce Om…
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity), H104 (Meta-Agent Decomposition), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Human-supervised Agentic AI for Hypothesis Generation and Experimental Assistance in Drug Repurposing** (0.3)
+   - **Forrás:** n/a 2026-08-13T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.04.20.719538
+   - **Thesis:** Computational drug repurposing has largely been focused on rapid hypothesis generation, yet real-world applications span a far broader lifecycle, from drug candidate suggestion to designing experiments, analyzing assay data, and iteratively refining candidates. Here, we demonstrate that agentic AI can operate throughout this lifecycle. To this end, we developed RepurAgent, a hierarchical multi-agent AI system comprising a supervisor agent and a planning agent that coordinate four specialized sub-agents (research, p…
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Hackers used autonomous AI agents to attack Taiwan. Is this the future of cyberwarfare? - CNN** (0.1)
+   - **Forrás:** n/a 2026-08-13T08:05:44+00:00 — https://news.google.com/rss/articles/CBMihAFBVV95cUxPNDhRS25pYTdjXzNLbHMtdTRHLUVOLWlFRnhrR3I5azU4OVQ4aGZubHpQa2hqRTRsYWRUOE9IWG9JaHM4Q2ZuMlNwZGJDc1VfNnN3YmVLckVmS0I4MG4taDFaaTFzTTV1WEhsMlZtRHV2ckxBTHhSdmdkQVFLYjRfczNkbms?oc=5
+   - **Thesis:** Hackers used autonomous AI agents to attack Taiwan. Is this the future of cyberwarfare?&nbsp;&nbsp;CNN
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **holaboss ai / holaOS** (0.1)
+   - **Forrás:** n/a 2026-08-14T02:01:55.685397+00:00 — https://github.com/holaboss-ai/holaOS
+   - **Thesis:** Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **Anthropic set AI agents loose on the same task. They started a turf war.** (0.1)
+   - **Forrás:** n/a 2026-08-13T18:28:14+00:00 — https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/
+   - **Thesis:** Anthropic researchers found AI agents can clash, collude, and coordinate in unexpected ways, raising new questions about whether today’s safety tests capture the risks of multi-agent systems.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **Show HN: MCP Memory – Fast Agent Memory Using Google's OKF and SQLite FTS5** (0.1)
+   - **Forrás:** n/a 2026-08-13T13:57:47+00:00 — https://github.com/fellowgeek/mcp-memory
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **AI agents wage near-autonomous cyberattack on Asian government networks - csoonline.com** (0.1)
+   - **Forrás:** n/a 2026-08-13T07:32:54+00:00 — https://news.google.com/rss/articles/CBMiugFBVV95cUxONW9zdzFaV0JCa29NckpiXzRSVmdKRVhrV09taE02WVdocXVZOE5xWUdqTzB2bk9wYmpXdEF6UnFVSmRtN1AtbjR1N3RtMFVaZDlhbHJ2QWgzUXp0WWlkUTdvZ1FabWhJOVdxQnlKV3l3bzFNSXBKNDZhb1Bqb3ltNFA0bThNLUxFTXoteC1tX19QOWh0TGVDSXVucE9OU0FvVUNmeUhQRmRISW1PTklKVlB0MDluLWdxNnc?oc=5
+   - **Thesis:** AI agents wage near-autonomous cyberattack on Asian government networks&nbsp;&nbsp;csoonline.com
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **Ask HN: How much money do you spend monthly on subscriptions for AI models?** (0)
+   - **Forrás:** n/a 2026-08-13T19:21:36+00:00 — https://news.ycombinator.com/item?id=49290713
+   - **Thesis:** Monthly total for all AI model subscriptions for personal use, with a breakdown of which models you use and for what purpose (coding side projects, AI assistants, etc.).<p>You can also mention how much you spend monthly on AI tools for professional work that your company pays for.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Microsoft kills off unsuccessful AI features while merging its separate Copilot apps** (0)
+   - **Forrás:** n/a 2026-08-13T15:30:52+00:00 — https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/
+   - **Thesis:** Microsoft is simplifying Copilot by combining its consumer and business apps, and dropping AI-generated podcasts, Group Chats, Deep Research, and its Mico character.
+   - **Hypothesis-ek:** H90 (Multi-Agent Debate / Research Agents)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+10. **AI agents lie, cheat and steal. That is putting off users** (0)
+   - **Forrás:** n/a 2026-08-13T13:28:45+00:00 — https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H104** (Meta-Agent Decomposition): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H90** (Multi-Agent Debate / Research Agents): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-08-14 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
