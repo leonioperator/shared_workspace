@@ -6244,3 +6244,116 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-08-16
+
+**Forrás:** Blindspot Signals Report 2026-08-16 (31 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0 – 0.3
+**Assessment Date:** 2026-08-16
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Yadda 3.0.0: BDD in the Age of AI Agents** (0)
+   - **Forrás:** n/a 2026-08-15T13:43:46+00:00 — http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+2. **Reward-Driven LLM Agent Workflows: Synthesizing POMDP Routing and Self-Correction for Autonomous Decision-Making** (0.5)
+   - **Forrás:** n/a 2026-07-19T02:51:41+00:00 — https://arxiv.org/abs/2607.17038
+   - **Thesis:** This paper addresses key technical challenges in current large language model (LLM) agent applications, including long-horizon planning, sparse reward attribution, and dynamic environmental interaction, by designing and optimizing an intelligent agent workflow. The proposed architecture is based on the synthesis of core AI paradigms: Visual, Language, Generative, Graph, Multimodal, Reinforcement, and Agent Intelligence. Unlike conventional baseline models that rely on static prompting and lack robust perception-act…
+   - **Hypothesis-ek:** H62 (Proof Chain), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Multi-Agent System-driven Digital Twins for predictive maintenance: architectures, technologies and open research challenges** (0.4)
+   - **Forrás:** n/a 2026-07-24T00:09:53+00:00 — https://arxiv.org/abs/2607.21873
+   - **Thesis:** Digital twins have emerged as a foundational technology within the context of Industry 4.0, offering a paradigm for the real-time virtual representation of physical systems. However, managing their growing complexity, particularly in distributed industrial environments, requires intelligent architectures capable of autonomous decision-making, dynamic adaptability, and inter-agent coordination. This systematic review explores the intersection between Multi-Agent Systems and Digital Twins, with a particular focus on…
+   - **Hypothesis-ek:** H105 (Decentralized Governance), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **A Closed-Loop Multi-Agent Framework for Robust Multi-Robot Manipulation** (0.4)
+   - **Forrás:** n/a 2026-07-08T04:23:41+00:00 — https://arxiv.org/abs/2607.06990
+   - **Thesis:** Multi-robot systems provide the parallelism and redundancy necessary for long-horizon tasks, while Large Language Models (LLMs) offer the reasoning capabilities to decompose these objectives into actionable plans. However, effectively grounding this high-level reasoning in physical multi-robot execution remains an open challenge. Existing LLM-based approaches fall mainly into two categories: Single-robot methods achieve robust contact-rich manipulation but lack the coordination mechanisms required for tasks spannin…
+   - **Hypothesis-ek:** H62 (Proof Chain), H90 (Multi-Agent Debate / Research Agents), H102 (Semantic Drift), H105 (Decentralized Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **Autonomous AI Agents and the 2026 Hugging Face Attack - quasa.io** (0.1)
+   - **Forrás:** n/a 2026-07-25T19:54:00+00:00 — https://news.google.com/rss/articles/CBMijAFBVV95cUxPcUsxQy1yNnk2QWtmdFZ0QTRQWHNQRE5xdGxKSzc1ZUxYQ0RnNmpuYmxwck9WTUZOZElMcldQMks4aVdwaW1GZzdvdUV2VVVXaHBYdWozMllwN1dSaDRrSnpJdVpZMjc2NlltbFpyODlDY0FSOEFjbDZTQVJ2UEUwM1ZBYzR3c09MbnItaw?oc=5
+   - **Thesis:** Autonomous AI Agents and the 2026 Hugging Face Attack&nbsp;&nbsp;quasa.io
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **OmniScientist: An Omni-Modal Omni-Discipline AI Scientist** (0.3)
+   - **Forrás:** n/a 2026-08-13T00:00:00+00:00 — https://huggingface.co/papers/2608.13558
+   - **Thesis:** Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, labels, or precomputed summaries, leaving scientifically decisive spatial, temporal, cross-channel, and procedural relations unavailable to the agent. We introduce Om…
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity), H104 (Meta-Agent Decomposition), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+7. **Human-supervised Agentic AI for Hypothesis Generation and Experimental Assistance in Drug Repurposing** (0.3)
+   - **Forrás:** n/a 2026-08-13T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.04.20.719538
+   - **Thesis:** Computational drug repurposing has largely been focused on rapid hypothesis generation, yet real-world applications span a far broader lifecycle, from drug candidate suggestion to designing experiments, analyzing assay data, and iteratively refining candidates. Here, we demonstrate that agentic AI can operate throughout this lifecycle. To this end, we developed RepurAgent, a hierarchical multi-agent AI system comprising a supervisor agent and a planning agent that coordinate four specialized sub-agents (research, p…
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **MemHarness: Memory Is Reconstructed, Not Replayed** (0.3)
+   - **Forrás:** n/a 2026-07-30T00:00:00+00:00 — https://huggingface.co/papers/2607.28272
+   - **Thesis:** Retrieving past experiences has become a common strategy to enhance large language model agents. However, most existing memory-augmented agents treat retrieved experiences as static records to be replayed verbatim, injecting them into the context regardless of whether they align with the agent's current situation. This ``replay'' paradigm ignores the gap between the abstract, general nature of stored experience and the concrete, ever-changing states encountered at decision time, frequently causing negative transfer…
+   - **Hypothesis-ek:** H100 (Latent Communication Security)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+9. **Manifold Agentic Reasoning: Extending Agentic POMDPs and Post-Training Reasoning to Riemannian State and Reasoning Spaces** (0.3)
+   - **Forrás:** n/a 2026-07-29T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.07.26.740848
+   - **Thesis:** Agentic reasoning systems increasingly interact with environments whose states are only partially observed, dynamically evolving, and constrained by physical, biological, or logical structure. Existing agentic reasoning frameworks often model internal reasoning, tool use, and post-training adaptation using flat latent representations and struggle in curved manifold space environments. However, many scientific and embodied domains naturally lie on curved state spaces, including tissue geometry, developmental traject…
+   - **Hypothesis-ek:** H62 (Proof Chain), H72 (High-Stakes Integrity), H100 (Latent Communication Security), H101 (Misinformation / Ensemble Resilience)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+10. **Show HN: Ami – A local, open-source agent that does your busywork across apps** (0.3)
+   - **Forrás:** n/a 2026-07-27T22:55:33+00:00 — https://github.com/NanoNets/ami
+   - **Thesis:** Hey everybody, sharing Ami on HN today.<p>Ami is an open source, local-first agent harness that acts as your shadow worker and copilot chat. It ships with a graph memory.<p>Here&#x27;s what Ami does on its own -<p>- connects to apps, data, repositories, tools with your personal tokens<p>- Learns how you do tasks (execution style, decisions, anti-patterns)<p>- Learns how you communicate (external and internal)<p>- maintains a universal to-do list<p>Here&#x27;s how you use Ami -<p>1. You can execute busywork. It fetc…
+   - **Hypothesis-ek:** H66 (Oversight Incentive / Delay Risk), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H105** (Decentralized Governance): mai signalok által megerősítve
+- **H90** (Multi-Agent Debate / Research Agents): mai signalok által megerősítve
+- **H102** (Semantic Drift): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H104** (Meta-Agent Decomposition): mai signalok által megerősítve
+- **H100** (Latent Communication Security): mai signalok által megerősítve
+- **H101** (Misinformation / Ensemble Resilience): mai signalok által megerősítve
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-08-16 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
