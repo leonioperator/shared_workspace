@@ -6468,3 +6468,111 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-08-18
+
+**Forrás:** Blindspot Signals Report 2026-08-18 (39 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.1 – 0.5
+**Assessment Date:** 2026-08-18
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **SpaceXAI Launches Grok Bot for Autonomous AI Agents - infoq.com** (0.1)
+   - **Forrás:** n/a 2026-08-17T18:03:18+00:00 — https://news.google.com/rss/articles/CBMiX0FVX3lxTE9OSmkycG5QcmNOdHlOZTVYaElTTzBEUHlscmw0azdOdHdobmRNVUcwTnRCU0p2SkF4VE43NVZHdmZoSHdESFhlRmhfeThPTE5pRW5iOWZ2YmZnWnhPLXpF?oc=5
+   - **Thesis:** SpaceXAI Launches Grok Bot for Autonomous AI Agents&nbsp;&nbsp;infoq.com
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Learning a shared vocabulary between episodic and semantic memory enhances recall and compositional consolidation** (0.1)
+   - **Forrás:** n/a 2026-08-17T00:00:00+00:00 — https://www.biorxiv.org/content/10.1101/2025.10.03.680209
+   - **Thesis:** Semantic knowledge is thought to emerge through the consolidation of episodic experience, yet the biological mechanisms by which reusable semantic representations are extracted from complex episodes remain unclear. Conversely, semantic representations can themselves be found within the medial temporal lobe, raising the questions of how they arise there and why structured semantic overlap should benefit an episodic memory system. We propose that replay establishes a shared semantic vocabulary between MTL and CTX thr…
+   - **Hypothesis-ek:** H102 (Semantic Drift)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Dissecting the molecular triggers of early and late long-term potentiation** (0.1)
+   - **Forrás:** n/a 2026-08-17T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.04.09.717511
+   - **Thesis:** The brain stores information by changing the strength of its synapses, a process that has at least two phases: Late long-term potentiation (L-LTP) is thought to result from the consolidation of early LTP (E-LTP), just as long-term memory requires the prior establishment of short-term memory. Recently, inhibitory avoidance experiments under CaMKII inhibition have challenged this notion, demonstrating long-term fear memory without measurable short-term memory. Here we use optogenetic activation and inhibition of CaMK…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **Learning protein function through autonomous experimental interaction** (0.1)
+   - **Forrás:** n/a 2026-08-17T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.08.14.744985
+   - **Thesis:** Biological AI learns primarily from existing observations, but many questions cannot be answered from available data alone. Here we show that AI can instead acquire knowledge by acting directly on biological systems and learning from the consequences. We developed a closed-loop framework in which autonomous agents design protein variants, construct and characterize them in a robotic laboratory, learn from the resulting experimental feedback, and decide what experiments to perform next. We then allowed the system to…
+   - **Hypothesis-ek:** H66 (Oversight Incentive / Delay Risk), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **College Students Using Autonomous AI Agents to Finish Entire Online Courses - Mjengo Hub** (0.1)
+   - **Forrás:** n/a 2026-08-16T15:45:53+00:00 — https://news.google.com/rss/articles/CBMitwFBVV95cUxNc0t0NlZLMDcxZUFDdkFLUXgzTk9Za2lNckJlWDJ3aWVFTUttbk5NdXRPXy1sT0EwMVhnT2ZLM25qSDY3T1lmdmNrek9sTEI3TjhUUDlLdGFGa3h0aXBGc2xySFhlNW56cEZrTFl5cUJ4SEpuQW9mWUw0YURET1F6SXJ4YTFzTG1MUVMwRi1xQjJxZjJqYXc4cWpQUFhORURKZzNKS2cxbVkyVmRsMVZmUTBNbUJ1VEk?oc=5
+   - **Thesis:** College Students Using Autonomous AI Agents to Finish Entire Online Courses&nbsp;&nbsp;Mjengo Hub
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **How to Get an AI Governance Job - Coursera** (0.1)
+   - **Forrás:** n/a 2026-08-14T19:22:00+00:00 — https://news.google.com/rss/articles/CBMiYEFVX3lxTE4tRG9DWlpzTlRjZGt2ZkIzTmdVZHpaUGZnNEl1MXZqS0JLYVNLOHpKeU1Jb2FtZVNEcUpQZVpZOTFNdHlpRnl4R2JnaFBEVUQtdXR5SkNzYUFLSGhxZE5xdA?oc=5
+   - **Thesis:** How to Get an AI Governance Job&nbsp;&nbsp;Coursera
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+7. **TinyFish** (0)
+   - **Forrás:** n/a 2026-08-17T03:42:32+00:00 — https://www.producthunt.com/products/tinyfish-2
+   - **Thesis:** <p> The web operating layer for AI agents </p> <p> <a href="https://www.producthunt.com/products/tinyfish-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1224641?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Omni by xpander** (0)
+   - **Forrás:** n/a 2026-08-14T18:14:45+00:00 — https://www.producthunt.com/products/omni-by-xpander
+   - **Thesis:** <p> Stop babysitting your AI agents </p> <p> <a href="https://www.producthunt.com/products/omni-by-xpander?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1223058?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Clears** (0)
+   - **Forrás:** n/a 2026-08-03T22:37:58+00:00 — https://www.producthunt.com/products/clears
+   - **Thesis:** <p> Move beyond AI coding to Agentic Software Delivery </p> <p> <a href="https://www.producthunt.com/products/clears?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1214248?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Reward-Driven LLM Agent Workflows: Synthesizing POMDP Routing and Self-Correction for Autonomous Decision-Making** (0.5)
+   - **Forrás:** n/a 2026-07-19T02:51:41+00:00 — https://arxiv.org/abs/2607.17038
+   - **Thesis:** This paper addresses key technical challenges in current large language model (LLM) agent applications, including long-horizon planning, sparse reward attribution, and dynamic environmental interaction, by designing and optimizing an intelligent agent workflow. The proposed architecture is based on the synthesis of core AI paradigms: Visual, Language, Generative, Graph, Multimodal, Reinforcement, and Agent Intelligence. Unlike conventional baseline models that rely on static prompting and lack robust perception-act…
+   - **Hypothesis-ek:** H62 (Proof Chain), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H102** (Semantic Drift): mai signalok által megerősítve
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-08-18 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
