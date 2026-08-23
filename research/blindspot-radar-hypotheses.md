@@ -7009,3 +7009,111 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-08-23
+
+**Forrás:** Blindspot Signals Report 2026-08-23 (38 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.1 – 0.4
+**Assessment Date:** 2026-08-23
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Six identity capabilities for securing autonomous AI agents - The New Stack** (0.1)
+   - **Forrás:** n/a 2026-08-22T14:04:34+00:00 — https://news.google.com/rss/articles/CBMiY0FVX3lxTE96Zk5GRkM2ODhLNFJSRGMtS2lxNm1FbW02TDBUWFpBQmVTdlhQVU5fT3hlRUpxdEstX1FnZ21OZzJRb0pqSVdQLV9Nb2RwQXNIMWJzQWR3M3RIRHp0SDVHQnluVQ?oc=5
+   - **Thesis:** Six identity capabilities for securing autonomous AI agents&nbsp;&nbsp;The New Stack
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **PerturbTrace: Evaluating Feedback Use by AI Co-Scientist Agents in Perturbation Discovery** (0.1)
+   - **Forrás:** n/a 2026-08-20T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.08.18.745260
+   - **Thesis:** Recent advances in AI co-scientists have brought LLM agents into closed-loop experimental design. However, whether these agents use feedback from earlier rounds to revise subsequent experimental decisions remains unclear. We address this question with PerturbTrace, which evaluates each round-to-round transition through Feedback-to-State, State-to-Action, and Action-to-Outcome. These stages assess whether feedback is reflected in the agent's rationale and perturbation-selection strategy, whether the stated strategy…
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research** (0)
+   - **Forrás:** n/a 2026-08-22T19:00:00+00:00 — https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/
+   - **Thesis:** Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **Crypto’s next billion users might be AI agents, and they’re paying with stablecoins - CoinDesk** (0)
+   - **Forrás:** n/a 2026-08-22T13:06:35+00:00 — https://news.google.com/rss/articles/CBMixgFBVV95cUxOcVBtNjFGWFFHU2xKeGZYTTRGSmhYUXQzbmlQa2hGTkp0eE1BMEIxUWl4S2NqTGdQbG51NTFEY3poZDBzbGNGSzNLc2tWYVp2Y2N0QTUxYkFsdGh4VnBMQTJXcU5JTGllSlhvNlc0TzRlQThycGpZVkJyTzBNUFdWb3pmbEQ4MWNreklZQi1fcEtkTTlLWGZkUnVoM1lveHhfNW5SUDVoNmNSQU5jWFl1X3RJUkw2QVFGUmd6UElTYk1NRlFEQWc?oc=5
+   - **Thesis:** Crypto’s next billion users might be AI agents, and they’re paying with stablecoins&nbsp;&nbsp;CoinDesk
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **Show HN: AgentSight – eBPF observability for AI agents, no code changes** (0)
+   - **Forrás:** n/a 2026-08-21T15:21:10+00:00 — https://github.com/alibaba/anolisa/blob/main/docs/user-guide/en/agent-observability/agentsight.md
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **Coding Agents killed my identity. How do you feel?** (0)
+   - **Forrás:** n/a 2026-08-21T15:15:14+00:00 — https://news.ycombinator.com/item?id=49389408
+   - **Thesis:** I always was a nerdy, deeply technical programmer. Contributing-to-open-source-and-reading-papers-in-my-spare-time type of programmer.<p>Programming is like a game of chess for me: winning (i.e. delivering a product) is important, but only if I played this game myself. I don&#x27;t enjoy winning if my opponent disconnected. I don&#x27;t enjoy beating people who don&#x27;t know how to move pieces. I don&#x27;t enjoy winning with an engine, and coding agents are basically &quot;winning with a chess engine&quot;.<p>I…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **EnSEMBLE: a framework for enhancer-anchored pathway analysis that locks in enhancer-corroborated pathways from transcriptome sequencing data for biological validation** (0)
+   - **Forrás:** n/a 2026-08-21T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.08.17.745283
+   - **Thesis:** Background Pathway discovery methods for transcriptome sequencing return tens to hundreds of redundant gene sets, and biologists often subjectively select the pathways fitting biological expectations. What is missing is not another statistical method, but a way to corroborate each candidate pathway against an independent, mechanistic line of evidence. Results We introduce EnSEMBLE (Enhancer-Set Enrichment & Mechanism-Based Linked Evidence), a tool that corroborates gene-level pathway enrichment with an orthogonal e…
+   - **Hypothesis-ek:** H62 (Proof Chain), H101 (Misinformation / Ensemble Resilience)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **Zero** (0)
+   - **Forrás:** n/a 2026-08-20T09:01:53+00:00 — https://www.producthunt.com/products/zero-15
+   - **Thesis:** <p> Vercel's programming language built for AI agents </p> <p> <a href="https://www.producthunt.com/products/zero-15?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1227502?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Reward-Driven LLM Agent Workflows: Synthesizing POMDP Routing and Self-Correction for Autonomous Decision-Making** (0.5)
+   - **Forrás:** n/a 2026-07-19T02:51:41+00:00 — https://arxiv.org/abs/2607.17038
+   - **Thesis:** This paper addresses key technical challenges in current large language model (LLM) agent applications, including long-horizon planning, sparse reward attribution, and dynamic environmental interaction, by designing and optimizing an intelligent agent workflow. The proposed architecture is based on the synthesis of core AI paradigms: Visual, Language, Generative, Graph, Multimodal, Reinforcement, and Agent Intelligence. Unlike conventional baseline models that rely on static prompting and lack robust perception-act…
+   - **Hypothesis-ek:** H62 (Proof Chain), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+10. **Multi-Agent System-driven Digital Twins for predictive maintenance: architectures, technologies and open research challenges** (0.4)
+   - **Forrás:** n/a 2026-07-24T00:09:53+00:00 — https://arxiv.org/abs/2607.21873
+   - **Thesis:** Digital twins have emerged as a foundational technology within the context of Industry 4.0, offering a paradigm for the real-time virtual representation of physical systems. However, managing their growing complexity, particularly in distributed industrial environments, requires intelligent architectures capable of autonomous decision-making, dynamic adaptability, and inter-agent coordination. This systematic review explores the intersection between Multi-Agent Systems and Digital Twins, with a particular focus on…
+   - **Hypothesis-ek:** H105 (Decentralized Governance), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H101** (Misinformation / Ensemble Resilience): mai signalok által megerősítve
+- **H105** (Decentralized Governance): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-08-23 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
