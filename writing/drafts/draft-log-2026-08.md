@@ -15,3 +15,4 @@ updated_at: '2026-08-03T07:45:00+02:00'
 - 2026-08-13 | elkezdodott | elkezdodott-2026-08-13-ai-agent-modell-routing.md (Quality: 4/5)
 - 2026-08-17 | vinczetamas | vinczetamas-2026-08-17-ai-agentek-kozos-munkaterben.md (Quality: 4/5)
 - 2026-08-20 | elkezdodott | elkezdodott-2026-08-20-agent-pluginok-kkv-workflow.md (Quality: 4/5)
+- 2026-08-24 | vinczetamas | vinczetamas-2026-08-24-megbeszelesbol-agent-feladat.md (Quality: 4/5)
