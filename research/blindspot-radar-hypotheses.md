@@ -7446,3 +7446,109 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-08-27
+
+**Forrás:** Blindspot Signals Report 2026-08-27 (40 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0 – 0
+**Assessment Date:** 2026-08-27
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Why AI Agents Need Persistent Browser Identities** (0)
+   - **Forrás:** n/a 2026-08-26T19:46:59+00:00 — https://github.com/Radek-B3/browser3/blob/main/WHY_AI_AGENTS_NEED_PERSISTENT_BROWSER_IDENTITIES.md
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+2. **Serve Markdown to AI Agents with Accept Headers** (0)
+   - **Forrás:** n/a 2026-08-26T19:45:59+00:00 — https://acceptmarkdown.com/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+3. **Radar makes podcasts searchable — and usable by AI agents** (0)
+   - **Forrás:** n/a 2026-08-26T15:47:28+00:00 — https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/
+   - **Thesis:** Particle’s new podcast intelligence platform transcribes and analyzes more than 130,000 podcasts, making their conversations searchable on the web and accessible to AI agents through an API and MCP.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **WebMCP: Teaching Your Website to Talk to AI Agents** (0)
+   - **Forrás:** n/a 2026-08-26T15:02:15+00:00 — https://sreenathmenon.com/blog/2026-08-04-webmcp-teaching-websites-to-talk-to-ai-agents/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **Bill Gates wants to see a robot tax and ‘Human Reserved’ jobs to mitigate harms from AI** (0)
+   - **Forrás:** n/a 2026-08-26T14:37:01+00:00 — https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/
+   - **Thesis:** Gates is mostly in the Responsible AI camp, but there are a few ideas in here we hadn't heard before.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **AllianceBernstein – AI Ethics and Regulation: How Investors Can Navigate the Maze - CSRwire** (0)
+   - **Forrás:** n/a 2026-08-26T14:04:31+00:00 — https://news.google.com/rss/articles/CBMirgFBVV95cUxNRE1sdjd0TUt2MlRrdG5UdllyOENBZWZwVHY4V3JuRk5YSEZZVF9Ka0lmUmluRlFxOTZyeW1rMFFobi1YVTBJSWhLVDczMEVlVFFwX29CODN6RFpYNGk5VHBhOHNOVmlpdzdUMzZfTVA3Smo1aWRCY3haSXhiLWwzLWJOUGUtLVJFQm9kTXVmYURYWmN1UkpZRGVNTUh3d0FuSE9PbE9TbXdxOWlWRlE?oc=5
+   - **Thesis:** AllianceBernstein – AI Ethics and Regulation: How Investors Can Navigate the Maze&nbsp;&nbsp;CSRwire
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **Arga Labs is building a better way to train enterprise AI agents** (0)
+   - **Forrás:** n/a 2026-08-26T12:55:28+00:00 — https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/
+   - **Thesis:** Arga has raised $10 million in a seed funding round that was led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Runable hits $21M to bet AI agents can go from building businesses to growing them** (0)
+   - **Forrás:** n/a 2026-08-26T11:00:00+00:00 — https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/
+   - **Thesis:** Runable says 60% to 70% of its 1 trillion-plus token usage in the last 90 days came from paying customers.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **macadress** (0)
+   - **Forrás:** n/a 2026-08-25T13:20:51+00:00 — https://www.producthunt.com/products/macadress
+   - **Thesis:** <p> MAC address intelligence for apps, networks and AI agents </p> <p> <a href="https://www.producthunt.com/products/macadress?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1231951?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Screenify Studio** (0)
+   - **Forrás:** n/a 2026-07-21T05:40:35+00:00 — https://www.producthunt.com/products/screenify-studio
+   - **Thesis:** <p> Polished product demos on Mac recorded by an AI agent </p> <p> <a href="https://www.producthunt.com/products/screenify-studio?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1202067?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-08-27 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
