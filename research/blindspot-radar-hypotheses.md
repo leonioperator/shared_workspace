@@ -7552,3 +7552,117 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-08-28
+
+**Forrás:** Blindspot Signals Report 2026-08-28 (60 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.4 – 0.2
+**Assessment Date:** 2026-08-28
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **MemGuard: Persisting Verifier Signals for LLM-Agent Memory Governance** (0.4)
+   - **Forrás:** n/a 2026-08-22T09:25:23+00:00 — https://arxiv.org/abs/2608.21867
+   - **Thesis:** LLM agents are moving from single-prompt use to long task streams in which reusable memory becomes a core capability for terminal, software-engineering, and web tasks. Such memory is useful only when stored experience remains reliable across hundreds of interactions, but two failure modes break that assumption in practice. The first is unreliable admission: failed trajectories,accidental successes, and misleading observations enter memory because they appear relevant, then mislead later decisions. The second is mem…
+   - **Hypothesis-ek:** H62 (Proof Chain), H63 (Legal Entity / Human-Centered Governance), H71 (Rubric-Guided Policy), H102 (Semantic Drift)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Candidate supply and answer selection shape the value of LLM judging in multi-agent systems** (0.3)
+   - **Forrás:** n/a 2026-08-26T15:52:20+00:00 — https://arxiv.org/abs/2608.25937
+   - **Thesis:** Multi-agent systems (MAS) sometimes already have the potential to answer correctly, but still report a wrong answer. Explaining this outcome is difficult because generation, communication and final answer-selection rules usually change simultaneously. We conceptualize multi-agent reasoning as an evolutionary pipeline of candidate generation, peer communication and terminal selection, wherein consensus without quality control can exhibit patterns of memetic drift. We study two questions: (1) when an LLM judge provid…
+   - **Hypothesis-ek:** H62 (Proof Chain), H102 (Semantic Drift), H104 (Meta-Agent Decomposition)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Counter with Evidence! A Multi-Agent Memory Efficient Reasoning Framework for Hate Category Informed Counterspeech Generation** (0.3)
+   - **Forrás:** n/a 2026-08-24T11:55:45+00:00 — https://arxiv.org/abs/2608.23152
+   - **Thesis:** Counterspeech effectively neutralizes the impact of online hate. Although prior work explores automated counterspeech generation, it largely emphasizes stylistic control while treating hate speech as homogeneous, overlooking that distinct forms of abuse require fundamentally different counterspeech strategies. To address this gap, we introduce FIRE (Factuality Informed Multi-Agent Reasoning Framework) that first decomposes hate speech into one of the five distinct categories (misinformation, stereotype, conspiracy,…
+   - **Hypothesis-ek:** H101 (Misinformation / Ensemble Resilience)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **AUDITA: certified auditing and causal attribution of adverse outcomes in autonomous multi-agent systems** (0.3)
+   - **Forrás:** n/a 2026-08-23T01:22:09+00:00 — https://arxiv.org/abs/2608.22160
+   - **Thesis:** Physical automation is scaling toward fleets of embodied machines commanded by an AI brain. Early deployments already run factories and warehouses at production rates beyond any human line, and their adoption is accelerating. But when their joint decisions cause harm, everyone involved has reason to blame everyone else, the machine vendor, the algorithm provider, the factory operator, the insurer, and the regulator, and no method can divide the responsibility between them. Existing methods read logs whose origin th…
+   - **Hypothesis-ek:** H62 (Proof Chain), H104 (Meta-Agent Decomposition), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **Ludi${}_{\scriptscriptstyle 0.1}$: An Agentic System for Socially Intelligent Robots** (0.3)
+   - **Forrás:** n/a 2026-08-22T16:38:59+00:00 — https://arxiv.org/abs/2608.22035
+   - **Thesis:** Robot foundation models have substantially advanced perception and control, but natural human-robot collaboration requires more than executing isolated commands. A robot must recognize ambiguity, maintain context across turns, communicate its intentions, and revise ongoing behavior as the user's intent changes. We present $\scriptstyle\mathsf{Ludi}_{\scriptscriptstyle 0.1}$, an agentic system for socially intelligent robots that integrates interactive speech, multimodal reasoning, memory, navigation, and learned ma…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **Risks and Controls for Multi-Agent Systems: an analytical framework for deployment of AI agents across organisational boundaries** (0.2)
+   - **Forrás:** n/a 2026-08-27T05:28:06+00:00 — https://arxiv.org/abs/2608.26626
+   - **Thesis:** This report presents a framework to help organisations, policymakers and researchers reason about the risks that emerge when AI agents interact with each other, how those risks change as interactions cross organisational boundaries, and the controls that may help address them. As organisations deploy AI agents, those agents will increasingly interact with each other: inside the organisation, with the agents of partners, customers and suppliers, and with unknown counterparties on the open internet. Failures can emer…
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+7. **When Stale Constraints Go Unchecked: Budgeted Verification Failures in Inherited Agent Memory** (0.2)
+   - **Forrás:** n/a 2026-08-26T09:04:21+00:00 — https://arxiv.org/abs/2608.25553
+   - **Thesis:** An agent that inherits a consolidated memory may inherit a constraint that was true when written and has since been withdrawn by a newer authoritative record. Under a scarce verification budget, does the agent recover the withdrawal, and if not, is the resulting stale-consistent decision avoidable without spending more? We model supersession explicitly -- provenance is immutable; what changes is which record is current -- and assign by design the memory's form, the world's state and the verification policy at a fix…
+   - **Hypothesis-ek:** H62 (Proof Chain), H66 (Oversight Incentive / Delay Risk), H72 (High-Stakes Integrity)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **Learning What to Share and What to Personalize: Hierarchical Strategy Co-Evolution for Agent Memory** (0.2)
+   - **Forrás:** n/a 2026-08-26T03:24:52+00:00 — https://arxiv.org/abs/2608.25329
+   - **Thesis:** Memory-augmented agents maintain compact user profiles throughout extended conversations, enabling personalized and consistent responses without the need to process the entire dialogue history. The quality of these user profiles relies on the underlying memory management strategy: at each step, the agent must determine what to retain, compress, or discard. However, existing methods typically employ a static, one-size-fits-all strategy established before training. In practice, the optimal memory decision is inherent…
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+9. **Dual-Grained Agent Memory and Shapley Context Attribution for Multimodal Agentic Learner** (0.2)
+   - **Forrás:** n/a 2026-08-24T13:56:01+00:00 — https://arxiv.org/abs/2608.23268
+   - **Thesis:** Frontier multimodal large language models (MLLMs) deliver impressive perception yet still falter on scientific and mathematical reasoning. Parameter-level adaptation is unavailable for closed-weight or on-device backbones, and stateless prompting forfeits any compounding benefit from problems already solved. We propose \textbf{DG-Mem}, a dual-grained agentic memory framework that augments a frozen MLLM with a non-parametric, externally stored memory built once from training-time rollouts and consulted read-only at…
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity), H104 (Meta-Agent Decomposition)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+10. **Physical Agentic AI: An Architecture for Orchestrating a Robot Crew with LLMs** (0.2)
+   - **Forrás:** n/a 2026-08-23T23:35:31+00:00 — https://arxiv.org/abs/2608.22657
+   - **Thesis:** Agentic AI frameworks interpret open-ended task goals and decompose them into multi-step plans. Richer information about embodiment-specific capabilities, physical preconditions, and cross-robot coordination improves grounding, but does not eliminate infeasible, mistimed, or unsafe physical actions. Physical robot crews therefore require an explicit architectural interface between semantic planning and execution, where every planned action is verified against robot capabilities, system state, and workflow constrain…
+   - **Hypothesis-ek:** H102 (Semantic Drift), H103 (Policy Tree Audit), H105 (Decentralized Governance), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H71** (Rubric-Guided Policy): mai signalok által megerősítve
+- **H102** (Semantic Drift): mai signalok által megerősítve
+- **H104** (Meta-Agent Decomposition): mai signalok által megerősítve
+- **H101** (Misinformation / Ensemble Resilience): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H103** (Policy Tree Audit): mai signalok által megerősítve
+- **H105** (Decentralized Governance): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-08-28 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
