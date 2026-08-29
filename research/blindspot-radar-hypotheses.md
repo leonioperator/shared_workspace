@@ -7666,3 +7666,109 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-08-29
+
+**Forrás:** Blindspot Signals Report 2026-08-29 (48 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.2 – 0
+**Assessment Date:** 2026-08-29
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment** (0.2)
+   - **Forrás:** n/a 2026-08-28T17:01:12+00:00 — https://arxiv.org/abs/2608.23691
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **The three layers of agentic AI security: A defense-in-depth architecture for autonomous agents** (0.1)
+   - **Forrás:** n/a 2026-08-28T17:52:50+00:00 — https://news.google.com/rss/articles/CBMixAFBVV95cUxQR0RYS2dqbGk1cU5uOVk0eE56SWg5ZFZnbEtjSzduV1BYWk9wWU9XRGUwVzFqQkhQUWthTlBZS1h5Z0lqWXQ5Q2x3SlVUdktTbWxpVEJhSlNJTlpIekNIcENxajFTNDNoVFVjbGdFLTA4YTZBWlR6Vy1iZXFRY3VEcUlldHJvLVF2RjB1dm5YLWMzcEhzMklvSGtOMEVfTmVnaGR5VFNIeUg5bXpILTJBeE1BVVFqQWk0QjIwSnhQVExVNnZm?oc=5
+   - **Thesis:** The three layers of agentic AI security: A defense-in-depth architecture for autonomous agents&nbsp;&nbsp;VentureBeat
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **KHMS – a file-based long-term memory an LLM agent installs into itself** (0.1)
+   - **Forrás:** n/a 2026-08-28T13:28:24+00:00 — https://github.com/kostey/khms-memory
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **Xelix: Preventing Payment Fraud with Autonomous AI Agents - FinTech Magazine** (0.1)
+   - **Forrás:** n/a 2026-08-28T11:12:56+00:00 — https://news.google.com/rss/articles/CBMikwFBVV95cUxNVTRmVW1QeFNsVTdhd1E2U0xJU2MyNGFsRU93THptamR1cWdCTkFIVXA4Ymk4SzdadU4zYXFCSU5lRDV6ak5QY0pmTVJNc2Z4bmVrY292ZThSRkJNV1dFX1NjUTR2bUdnb0JyRzB5YkN4MlN5NUxabXhkaHVXVWx0VE82eFBJVlVXdzNua3pMUTJscWM?oc=5
+   - **Thesis:** Xelix: Preventing Payment Fraud with Autonomous AI Agents&nbsp;&nbsp;FinTech Magazine
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **Autonomous Service: Are AI Agents Ready to Field IT Help Desk Calls? - BizTech Magazine** (0.1)
+   - **Forrás:** n/a 2026-08-26T20:24:43+00:00 — https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWi1wcHVuWDFieW1Cc2poWWx1MFZubmR0em9MbkxDNkVOdzJYMm5BZU1lMjVhYjh2WGJkLTY5RzlESHNZTVBkaFh6WG9WZ21aSzZya1hFMzZnbFZoM1lSRmRqT3hndnB5MFlsenNkUTZxQl9lOFpuTjNuYlRjc0t6ZnUwdzU1a1VPRkVkRDdKbHpyOVhZS0h1dGpXNldvQm8wSTdXU2Utelh5QlU?oc=5
+   - **Thesis:** Autonomous Service: Are AI Agents Ready to Field IT Help Desk Calls?&nbsp;&nbsp;BizTech Magazine
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **I built a headless browser for AI agents in Rust. no Chromium, no V8** (0)
+   - **Forrás:** n/a 2026-08-29T00:12:55+00:00 — https://www.reddit.com/r/codex/comments/1w0trw7/i_built_a_headless_browser_for_ai_agents_entirely/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **AI Agent Has Root** (0)
+   - **Forrás:** n/a 2026-08-28T12:03:09+00:00 — https://infernalcode.com/posts/your-ai-agent-has-root/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **An explainable AI latent space of brain dynamics reveals a cerebello-prefrontal signature of schizophrenia symptoms** (0)
+   - **Forrás:** n/a 2026-08-28T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.08.25.746991
+   - **Thesis:** Schizophrenia presents with several partially independent symptom dimensions, including positive symptoms, negative symptoms, and cognitive impairment; yet no neuroimaging framework has provided individual-level markers of symptom severity that remain anatomically interpretable. Here, we present an interpretable AI-based framework that addresses this gap by mapping high-dimensional resting-state rs-fMRI dynamics onto a low-dimensional latent manifold using self-supervised contrastive learning with a new attribution…
+   - **Hypothesis-ek:** H100 (Latent Communication Security), H106 (Policy Tree Transparency)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+9. **Focus: As AI agents go rogue, cyber insurers are adapting their policies - Reuters** (0)
+   - **Forrás:** n/a 2026-08-27T16:45:56+00:00 — https://news.google.com/rss/articles/CBMitAFBVV95cUxNdVRUeXAzYi1DWkw1Uno1dXNGdUo2NXlWVmt1Wk1Ob1lQNVNucTJVZ21TNEZQNU9qcmZweGJlV2xnTUFJWTFvbENkWlpyV3V4ekZRRzdfc1p4bnppXzRhd3hfdkQ4blp3eG1sNl9aajROWjA1SmxHVXJkZEFvMFkzNzk5ZXVWWWJ3Zi13bjdBV2t6ZVp6LXRfY0ZtX19ZdE1RUW9JNHFfWmVydkZ3c09WRl9MM0U?oc=5
+   - **Thesis:** Focus: As AI agents go rogue, cyber insurers are adapting their policies&nbsp;&nbsp;Reuters
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Jailbox: Network-Restricted, Hardened Linux VMs for AI Agents and Untrusted Code** (0)
+   - **Forrás:** n/a 2026-08-27T14:16:21+00:00 — https://karamatli.com/posts/network-isolated-kvm-sandbox-ai-agents/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H100** (Latent Communication Security): mai signalok által megerősítve
+- **H106** (Policy Tree Transparency): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-08-29 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
