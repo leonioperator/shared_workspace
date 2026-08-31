@@ -17,3 +17,4 @@ updated_at: '2026-08-03T07:45:00+02:00'
 - 2026-08-20 | elkezdodott | elkezdodott-2026-08-20-agent-pluginok-kkv-workflow.md (Quality: 4/5)
 - 2026-08-24 | vinczetamas | vinczetamas-2026-08-24-megbeszelesbol-agent-feladat.md (Quality: 4/5)
 - 2026-08-27 | elkezdodott | elkezdodott-2026-08-27-rovid-eletu-tokenek-ai-agenteknek.md (Quality: 4/5)
+- 2026-08-31 | vinczetamas | vinczetamas-2026-08-31-scope-fek-ai-agent-projektekben.md (Quality: 4/5)
