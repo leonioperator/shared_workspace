@@ -1,19 +1,22 @@
 ---
-title: "Miért kell scope-fék az AI agent projektekbe?"
+title: Miért kell scope-fék az AI agent projektekbe?
 slug: scope-fek-ai-agent-projektekben
 site: vinczetamas
 content_type: article
 status: draft
-created_at: "2026-08-31T07:45:00+02:00"
-source: "Ben's Bites, How I built this, 2026-08-28"
+created_at: '2026-08-31T07:45:00+02:00'
+source: Ben's Bites, How I built this, 2026-08-28
 quality_score: 4
-meta_description: "Az AI agent gyorsan épít, de a KKV-nak scope-fék kell: cél, első használható verzió, döntési pont és tudatos későbbi lista."
-og_image: "vinczetamas-2026-08-31-scope-fek-ai-agent-projektekben.png"
+meta_description: 'Az AI agent gyorsan épít, de a KKV-nak scope-fék kell: cél, első
+  használható verzió, döntési pont és tudatos későbbi lista.'
+og_image: vinczetamas-2026-08-31-scope-fek-ai-agent-projektekben.png
 tags:
-  - AI agent
-  - KKV
-  - workflow
-  - governance
+- AI agent
+- KKV
+- workflow
+- governance
+id: vinczeta
+updated_at: '2026-08-31T06:00:02.104733+00:00'
 ---
 
 # Miért kell scope-fék az AI agent projektekbe?
