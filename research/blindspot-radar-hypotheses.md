@@ -8321,3 +8321,108 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-09-04
+
+**Forrás:** Blindspot Signals Report 2026-09-04 (43 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.2 – 0
+**Assessment Date:** 2026-09-04
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **AI-adaptable security platforms are critical for autonomous decision-making - CyberScoop** (0.2)
+   - **Forrás:** n/a 2026-09-03T21:25:59+00:00 — https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVFpnZ01LSnptMklXeG9KM3RNQmJBY3hCRTEyMk9WQ1dZRWhMZ1dDUHJLT3NLcVFvQ0dQVHZnZWwwWTdmNVlsQVl0M0xfaGJfNkFZOXh4R2pPNzg0NlZQdVBvZkF0Z19LQVlSYktIOGMyY2dWcThRNWZXY0NVRVlPVU9sYmJaZk54MzBpSTZTVTk2RHJWUlBXbTBqUUpsWVM3MHN6Sm5Obk4?oc=5
+   - **Thesis:** AI-adaptable security platforms are critical for autonomous decision-making&nbsp;&nbsp;CyberScoop
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Policy Silence as Governance: AI Decision-Making, Responsibility, and Risk in K–12 Education - Sage Journals** (0.2)
+   - **Forrás:** n/a 2026-08-18T12:55:34+00:00 — https://news.google.com/rss/articles/CBMiakFVX3lxTE1KcWZRQWpUNGFwM1pBOWZvcGtHbHNQRVFPc3hLMlY3QjlFNVNwa2VmUm9YXzlRS05wMXFJMnhaX1gxa0E0ajIzTnJSSkxBbnJCeVIzQmliOTlWeUU3eW8zc05JUTk1dmpBZGc?oc=5
+   - **Thesis:** Policy Silence as Governance: AI Decision-Making, Responsibility, and Risk in K–12 Education&nbsp;&nbsp;Sage Journals
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Launch HN: Mireye (YC S26) – Infrastructure for Physical World AI Agents** (0.1)
+   - **Forrás:** n/a 2026-09-03T16:24:13+00:00 — https://news.ycombinator.com/item?id=49552616
+   - **Thesis:** Hi HN, I&#x27;m Ansh, founder of Mireye (<a href="https:&#x2F;&#x2F;www.mireye.com">https:&#x2F;&#x2F;www.mireye.com</a>). I&#x27;m building the infrastructure AI agents use to make decisions about physical places: data, enrichment, tools, and signals for any US location, behind one API and MCP server.<p>Here&#x27;s a demo video: <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=haqO6UbUqU0" rel="nofollow">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=haqO6UbUqU0</a><p>To try it, paste <a href="https:&#x2F;&…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **Smarter Factories, Bigger Risks: Why AI Governance Is Becoming Industrial Policy - Devdiscourse** (0.1)
+   - **Forrás:** n/a 2026-09-03T09:43:04+00:00 — https://news.google.com/rss/articles/CBMizwFBVV95cUxQMmZmTnhhdE9tbFJ2RVdHT29BSGRkS3ZyalBLRDBFR1YxSjh1TF8zZzZTV3RIZmVyWXJCOE96d3NtSVdGMUtUbzM0SnE0QndhTy10ZGdvUm9ZQVZ5MXNGSmU4Sjc2UGwwWEJwMnljeWtoQ3ZBeVV5ektKNFlGZ1lCVXQ1Rm1OWUJBTnk1bmNUQkhnZlZhUmdZWkxvWVBKWHJSTHlzSV9FVDF4VWZNSkFxWWs1dEh5NVFiSkVndF8yLVlpSVFWYUpTZnVNMTJzVW_SAdQBQVVfeXFMTUpJU2J4dTU4b09SbWpOV1JwWENKLXNpbnJkeHllbFdqcVl0UHljcV9WaVZiUWlBbzh5bEdfNGhxZEtuTDFfcG1NQU1aTkJuTUk1d1JRNm9FYVNaOXh2bHVyTmdIYTNnV1hsSlRRUUpEWllqY245MXJFVGNCNjJuc2lEYk9Fd1ZkYlFJYTN4czNyc1FrSmN6LVV0NjVEaTJjeTFaUWV6NmlmbjdiUHF6X2M2SWMzaFgybkhnRjVkYXpwZUs3MmRnQUFrZ3JJOVIyNXU3TlM?oc=5
+   - **Thesis:** Smarter Factories, Bigger Risks: Why AI Governance Is Becoming Industrial Policy&nbsp;&nbsp;Devdiscourse
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **3 Architecture Mistakes When Building Autonomous AI Agents (And How to Fix Them) - HackerNoon** (0.1)
+   - **Forrás:** n/a 2026-09-03T06:16:35+00:00 — https://news.google.com/rss/articles/CBMiowFBVV95cUxQZWJ1RldxeUZJVkR1Zl9HSTVxdExXLTdWMlhZQlVJV3IteEF6QXduSy1wOEpYbkwxVUZfS2YtRDNWcU9aM2pkRXhMYUFabTljQ0lyeEVjQjFnc1ZHdGlkNW5IckRWeDU3Q1VjSVJ4RURKcTFsdmdoN0syOFNDMlFHTGQ5LVl0Q0xtWTRpY09VaHM1TkNpN3RzYV9QSlNFbE1obUJV?oc=5
+   - **Thesis:** 3 Architecture Mistakes When Building Autonomous AI Agents (And How to Fix Them)&nbsp;&nbsp;HackerNoon
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **A COJEC-chemotherapy resistant model of Th-ALK(F1174L)/MYCN neuroblastoma offers insights into tumour immune evasion and development of the bone marrow metastatic niche** (0.1)
+   - **Forrás:** n/a 2026-09-02T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.09.01.743331
+   - **Thesis:** Multi-agent COJEC chemotherapy is the main-stay of induction treatment for patients diagnosed with high-risk neuroblastoma. However, at least 10% of patients will be primary refractory to chemotherapy and only 50% achieve 5-year overall survival. The bone marrow is the most frequent site of metastasis in these patients. Novel approaches are required to improve response rates but the inter- and intra- patient tumour heterogeneity and dynamics of the neuroblastoma immune microenvironment makes anticipation of resista…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **xai org / x algorithm** (0)
+   - **Forrás:** n/a 2026-09-04T02:02:00.132703+00:00 — https://github.com/xai-org/x-algorithm
+   - **Thesis:** Algorithm powering the For You feed on X
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Ollie is betting its focus on privacy can help it win the AI assistant race** (0)
+   - **Forrás:** n/a 2026-09-03T16:09:01+00:00 — https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/
+   - **Thesis:** The family-focused AI assistant wants access to the details of your everyday life, but says it won’t use that data to train AI models or share it with others.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **BulkPublish Opens Its Entire Publishing Stack to AI Agents Using Social Media API - markets.businessinsider.com** (0)
+   - **Forrás:** n/a 2026-09-03T15:38:53+00:00 — https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQVZfVm52RERyOHNsRkhEY3dqTlQyU1F0anJjZ3ZnS004VjJBRWtXbnoxdURSOGcxb0JmbDIyNmZqTTZ5X2FoUVhOZGN1a2lGeGZBR0tlNkR6aDhJNHU4RHQwVHZMTE5jS24zSlRMV3VHbDBTUm9yQWxGNGZ2ZEN3aVFSb1h5OUV5RUt1R09sa1BoWmZxcHM0cnZWMUtTQmJrbmZrU2kwUE9QLV9iSEs4Q3hjbVJvVGllcHZMMm85MzBJbmdmajJ1eXVKTWNhTVltUHlEUGhTdw?oc=5
+   - **Thesis:** BulkPublish Opens Its Entire Publishing Stack to AI Agents Using Social Media API&nbsp;&nbsp;markets.businessinsider.com
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **The $100M Signal: Why AI Agent Security is Becoming Its Own Category - forkast.news** (0)
+   - **Forrás:** n/a 2026-09-03T13:32:21+00:00 — https://news.google.com/rss/articles/CBMikgFBVV95cUxQeVBUZDVjRldQS3UtSWZYX3NaYnV0dTBZV3lKeGRYZkJIdFU2WGg5dDRpZktyd1VsbnJDWnRLX2x2aXg3V0lFVHB2YUhXTnp6Y1RmTVpvcWVRMUl4cGpJUldpcGFhYmRJa3cyMmZFOE1XZW9OVjBHSFN3ckhQNG5KRWp4bXg5QlFrbzd3d2tpb3AzQQ?oc=5
+   - **Thesis:** The $100M Signal: Why AI Agent Security is Becoming Its Own Category&nbsp;&nbsp;forkast.news
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-09-04 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
