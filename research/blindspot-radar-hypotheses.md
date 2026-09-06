@@ -8533,3 +8533,109 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-09-06
+
+**Forrás:** Blindspot Signals Report 2026-09-06 (40 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.3 – 0
+**Assessment Date:** 2026-09-06
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Turning Domain Expertise into Multi-Dimensional Evaluation of Biomedical AI with Karenina** (0.3)
+   - **Forrás:** n/a 2026-09-04T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.09.01.748513
+   - **Thesis:** Language models and agents are increasingly used in biomedicine, but current benchmarks reward correct answers even when the underlying reasoning is flawed. Here we introduce Karenina, an open-source framework that turns expert knowledge into multi-dimensional evaluations of questions, conversations and autonomous agents. Illustrated in Question-Answer pairs, multi-turn conversations and autonomous data-analysis, these dimensions together moves evaluation beyond scoring, enabling trustworthy decision-making with AI…
+   - **Hypothesis-ek:** H62 (Proof Chain), H72 (High-Stakes Integrity), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **OKF Agent Memory – Git-native persistent memory for AI coding agents** (0.1)
+   - **Forrás:** n/a 2026-09-05T22:15:52+00:00 — https://github.com/okf-memory/okf-agent-memory
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+3. **When AI Agents Go Rogue: The Emerging Danger Of Autonomous Digital Actors - NDTV** (0.1)
+   - **Forrás:** n/a 2026-09-05T14:10:45+00:00 — https://news.google.com/rss/articles/CBMirwFBVV95cUxOVk5pMkJRRmVWdUhxd3RQTTcxRkdzMEpUZzlYcUtWZXFwWjlJSU12UXlmajl6SHpMbk9sWWRwS1hnRlhxOWJGNnhtOFNPWm1RWDdPTEp0NUphWEhfZl85UVVWd2xRMXd6TjFyYUM5b3U4ZF9vTy1XMUtkWlp1R1ZLRVJIclR5Znpoc05GdE5keWlzbXlmVU1jWDJlVmNPVEJtdVRnTmZvUk5JaFhXRU9n0gG3AUFVX3lxTE1Tc2gyakRjMDBDekN5YVJGMXJRNnIyc1NoMk5KX2Y5OTdpQ3hTWmFDZVhxZlFmb1dxRy0xOTdQaXlEcUM1a3Vvdkw4eTNsRDVVb2lldzIxWW1hSy03MWExSDdVMG1jaWJTNmlocW44SU5UeDF4OWNackNEY2VVUjdZLUFhdGJ1RUZ2d3dBYjVmOTJxN202T1JnNVJXMHN0VWlmbnRPanpoRHYzQUg4U2lHa0tEb2pCbw?oc=5
+   - **Thesis:** When AI Agents Go Rogue: The Emerging Danger Of Autonomous Digital Actors&nbsp;&nbsp;NDTV
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki - the-decoder.com** (0.1)
+   - **Forrás:** n/a 2026-09-05T12:42:22+00:00 — https://news.google.com/rss/articles/CBMivwFBVV95cUxPVVBYRU9QSWszWHltSXpjQlNQb0FNMUE1cjZib1p2T3RBeGdfcGN3MXJUdzdVQ1VpcmZzNzFDWDBsQXcyQk1uUUdKcG1JRTlxR0dsRWI2bzRXNEdJS2VUV0RhZGpqdWJON0Q4UFdTbTdSRm5FWld5S1NpZDZLOG1hbG9Nb3hJVnJfdnpuZkpybUttaUo4LWZRd3YwTmtpQnppdF9tVV90ck1jWGVfNm5TTTl1cEluZ0lUcFVFdUQwRQ?oc=5
+   - **Thesis:** OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki&nbsp;&nbsp;the-decoder.com
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **EXCLUSIVE: OpenAI agents hijacked German website in previously undisclosed AI breakout this spring - Reuters** (0)
+   - **Forrás:** n/a 2026-09-04T10:30:57+00:00 — https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure** (0)
+   - **Forrás:** n/a 2026-09-05T18:05:27+00:00 — https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/
+   - **Thesis:** OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **AI Agents in Clinical Trials Require Human Review Before Data Commits - The Clinical Trial Vanguard** (0)
+   - **Forrás:** n/a 2026-09-05T06:51:03+00:00 — https://news.google.com/rss/articles/CBMiswFBVV95cUxNdXJiR1pJZUJLS0pHUXdMd0VVV3hUVmVTcDRmcFNROG05NkZ5cjFJZDhsMmd4dC1ESFVLYVAxMmQzWm5vbkJraERDQ0I4OXBwQ2Q5VTdsRm9Zc0U2eXU1Q01uSzZqM0JELXF0M0RWSWRjc1k3aGpqTXFLem9feVZ6NzlQSzFnaUpJd3BOQWc1MlRDNmVWRHhSbVhEWnZ6UlpaUHIyYXFNUnVZdTdqaFdncGJhcw?oc=5
+   - **Thesis:** AI Agents in Clinical Trials Require Human Review Before Data Commits&nbsp;&nbsp;The Clinical Trial Vanguard
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **More AI agents can mean more work for humans - calcalistech.com** (0)
+   - **Forrás:** n/a 2026-09-05T05:41:00+00:00 — https://news.google.com/rss/articles/CBMiakFVX3lxTE1ORE5nY0NzcFFLcFNCSWVmX1JKTUgtbmdVbzRTREtqLVlBZVNGcm94OGxhTkhqdGRFTkR4WC1zN05ta3JWNDRFdEFaVjB3dVlJYW9ScFMwenZmc2I2QmFfazNPT2djUG5NSUE?oc=5
+   - **Thesis:** More AI agents can mean more work for humans&nbsp;&nbsp;calcalistech.com
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Reflexio** (0)
+   - **Forrás:** n/a 2026-09-01T08:22:47+00:00 — https://www.producthunt.com/products/reflexio-2
+   - **Thesis:** <p> Behavioral learning that makes AI agents better over time </p> <p> <a href="https://www.producthunt.com/products/reflexio-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1238273?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Hyperprobe** (0)
+   - **Forrás:** n/a 2026-08-31T03:39:25+00:00 — https://www.producthunt.com/products/hyperprobe
+   - **Thesis:** <p> Lets your AI agents debug production without redeploying </p> <p> <a href="https://www.producthunt.com/products/hyperprobe?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1237032?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-09-06 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
