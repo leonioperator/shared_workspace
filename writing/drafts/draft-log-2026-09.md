@@ -18,3 +18,13 @@ updated_at: '2026-09-03T06:00:01.216601+00:00'
   status: draft
   quality_score: 4
   source_signal: /writing/research/candidates-2026-09-03.md
+
+## 2026-09-07
+
+- site: vinczetamas
+  slug: hol-fusson-az-ai-agent
+  file: /writing/drafts/vinczetamas-2026-09-07-hol-fusson-az-ai-agent.md
+  status: draft
+  quality_score: 4
+  source_signal: /writing/research/candidates-2026-09-04.md
+  source: https://cursor.com/blog/self-hosted-machines
