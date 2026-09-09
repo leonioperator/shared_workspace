@@ -8858,3 +8858,111 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-09-09
+
+**Forrás:** Blindspot Signals Report 2026-09-09 (43 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.2 – 0
+**Assessment Date:** 2026-09-09
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **KPMG flags risks of autonomous AI agents without strong governance - MSSP Alert** (0.2)
+   - **Forrás:** n/a 2026-09-08T12:51:48+00:00 — https://news.google.com/rss/articles/CBMipgFBVV95cUxQTzZEYXJGdmFaeTJLWm0zaVduR2VNMmRGWFJnb3lYTHIxczhUTDBVcVprakhwQVpBNmVfY0R3emlWVzlzT0NxRFdyNkVLV3FYMTBMdjdHS1hOMG5NN3ppTnVQQkh5T3NpUGpsNl9zX1l3WEotVFhTelBFSExFUEFtSnBidTJOMk5aWFFuYnpHbm1Pb2tEa1ZmYUJlNjdiZnV6RG9pbjFR?oc=5
+   - **Thesis:** KPMG flags risks of autonomous AI agents without strong governance&nbsp;&nbsp;MSSP Alert
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours** (0.1)
+   - **Forrás:** n/a 2026-09-08T13:48:00+00:00 — https://news.google.com/rss/articles/CBMiekFVX3lxTFB4T21ja096NmpiY3d0UHVja3dDRUlaajZiRWZ4LVd4eVlhYm9jbFBpeHZ4UC1sYzRvMjZCdlNsZlAzRy1ZemdhaGF0OFZfMDhlaDBuRXNCcG1ROWJrMDBsUDRDWHdVNjdTTjhJamR5UXFQRW9aUVM3UHpB?oc=5
+   - **Thesis:** Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours&nbsp;&nbsp;The Hacker News
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Lightsage gets $4M in funding to help software makers sell directly to autonomous AI agents - SiliconANGLE** (0.1)
+   - **Forrás:** n/a 2026-09-08T12:00:00+00:00 — https://news.google.com/rss/articles/CBMixgFBVV95cUxQQUNldDktQ1A5MHlwUnJKa1RwUjRSM3A4QUtNOVo0bF9FTzlOcXMxeGtFc3VMd2pWRktEdjJ2alFwckYwVWdJNXMxU2JGR0d2NU9NTWU4NXVJQ3ZLc21vb3RsU095NVNJcUgzS3FnX3p6YnFldmFvZVE1bTA2UHNXdTBSRWdwWTJNNGJxN21uS0VZbVZQLXlXLW1KR1lvbTJaWWd1UEtBNTJHUXVPZ2w5ckZKQzlqTDJvSlVQTjYwR2VBdEg4emc?oc=5
+   - **Thesis:** Lightsage gets $4M in funding to help software makers sell directly to autonomous AI agents&nbsp;&nbsp;SiliconANGLE
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **Hippocampal CA1 neurons are crucial for sleep-associated memory formation in humans: The role of theta power during NREM sleep** (0.1)
+   - **Forrás:** n/a 2026-09-08T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.09.02.748785
+   - **Thesis:** The formation of long-term memory during sleep depends on the reactivation and redistribution of recently acquired mnemonic information during non-rapid eye movement (NREM) sleep. Animal studies suggest that hippocampal memory replay during slow-wave sleep is coordinated through the interaction of sharp-wave ripples, thalamocortical sleep spindles, and neocortical slow oscillations (SOs). However, direct evidence for the contribution of hippocampal network dynamics to sleep-dependent memory consolidation in humans…
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity), H101 (Misinformation / Ensemble Resilience)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **BioSecBench-Function: A Verifiable Benchmark for Reasoning about Biological Function from Experimental Data** (0.1)
+   - **Forrás:** n/a 2026-09-08T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.09.03.749010
+   - **Thesis:** Inferring biological function from experimental data is central to understanding emerging pathogens and developing effective countermeasures, yet interpreting these data remains slow and expert-intensive. AI agents could help accelerate this process by reasoning across sequence, structural, and biophysical evidence. We present BioSecBench-Function, a verifiable benchmark for recovering biosecurity-relevant function from real biological data. The benchmark comprises 111 evaluations built from published datasets and…
+   - **Hypothesis-ek:** H62 (Proof Chain)
+   - **Megerősítés:** A benchmark-konstrukció maga is verifikálható multi-agent pipeline lesz; H104 és H62 közvetlenül erősödik.
+
+6. **OpenMarket** (0.1)
+   - **Forrás:** n/a 2026-08-31T23:28:17+00:00 — https://www.producthunt.com/products/openmarket
+   - **Thesis:** <p> Multi-agent marketplace where proof decides who wins </p> <p> <a href="https://www.producthunt.com/products/openmarket?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1237958?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62 (Proof Chain)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+7. **Muse – Meta’s personal AI agent** (0)
+   - **Forrás:** n/a 2026-09-08T19:25:00+00:00 — https://ai.meta.com/muse/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **EXCLUSIVE: OpenAI agents hijacked German website in previously undisclosed AI breakout this spring - Reuters** (0)
+   - **Forrás:** n/a 2026-09-04T10:30:57+00:00 — https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Harnessing unleashed AI agents - cio.com** (0)
+   - **Forrás:** n/a 2026-09-08T11:08:08+00:00 — https://news.google.com/rss/articles/CBMie0FVX3lxTE1icUEwTFZGWC1KN040eGhuRGh4a0t2MUtZdi1nUzRWVjdnMjM3bFRjNGlUUmxLY2lFRDk5V054djFOUlV5VnZDT3FTeUdOa1lpNWxHOVJJNk1UYnRDNGhqclpBY0FyTkw3Z0xYVkdhWERaek5OMzIxWUEtTQ?oc=5
+   - **Thesis:** Harnessing unleashed AI agents&nbsp;&nbsp;cio.com
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Responsible AI Means Knowing the Limits of Agent Autonomy - MIT Sloan Management Review** (0)
+   - **Forrás:** n/a 2026-09-08T11:00:36+00:00 — https://news.google.com/rss/articles/CBMimgFBVV95cUxOd3RMdjlMLUFDWldEM205ak85SnBfc09CdXlyNlFCSlY3Q2xkSThxenFfWUhZYzEwMEdVZUJ1NnRSbkpHZTh3c3RMR3lVSVRhRjNMaFZNVmJQS3p2bFpiT1lYeTFhTV9JV1FNakRianNsUm5YUnI3cFZZbnVyMEo1UTJ3Q0pnaXVXbmNlTE5kSDdiZk5QX3JCc1ZR?oc=5
+   - **Thesis:** Responsible AI Means Knowing the Limits of Agent Autonomy&nbsp;&nbsp;MIT Sloan Management Review
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H101** (Misinformation / Ensemble Resilience): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-09-09 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
