@@ -28,3 +28,13 @@ updated_at: '2026-09-03T06:00:01.216601+00:00'
   quality_score: 4
   source_signal: /writing/research/candidates-2026-09-04.md
   source: https://cursor.com/blog/self-hosted-machines
+
+## 2026-09-10
+
+- site: elkezdodott
+  slug: agent-release-gate-kkv
+  file: /writing/drafts/elkezdodott-2026-09-10-agent-release-gate-kkv.md
+  status: draft
+  quality_score: 4
+  source_signal: /writing/research/signals-2026-09-10.md
+  source: https://wandb.ai/onlineinference/genai-research/reports/LLM-evaluation-Metrics-frameworks-and-best-practices--VmlldzoxMTMxNjQ4NA
