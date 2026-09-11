@@ -9071,3 +9071,112 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-09-11
+
+**Forrás:** Blindspot Signals Report 2026-09-11 (38 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.1 – 0.4
+**Assessment Date:** 2026-09-11
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **JumpCloud extends Agentic IAM with new controls for autonomous AI agents - SiliconANGLE** (0.1)
+   - **Forrás:** n/a 2026-09-10T12:00:00+00:00 — https://news.google.com/rss/articles/CBMirgFBVV95cUxQUW4xbW5xRGdQajBEX1V4aTNHLWd2YU1LMklKR01kamdoU2lhN1hubWxTcV9wNlJ2Q0RIZG9VZlFObFJySWtqYUJycl94bFlqaTc0cnRFODI3UnNTTVM0djlTOVVUSzh3c09MaGYxOUR1VkhVcURnQ0gyX3diMEdTaFlBQTQtREVHY1ZBT1pGWk5vLW1KbDB4UUlVU2NtaXBfUzVyZVVuQzZreXJXTFE?oc=5
+   - **Thesis:** JumpCloud extends Agentic IAM with new controls for autonomous AI agents&nbsp;&nbsp;SiliconANGLE
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **“We found ~18,000 posts from autonomous AI agents (self-iden... - kottke.org** (0.1)
+   - **Forrás:** n/a 2026-09-10T02:24:00+00:00 — https://news.google.com/rss/articles/CBMiakFVX3lxTE9BYXFoMWY5UGRIWm5BSGgtQTBzd29aNmpqVHhlV2Raelhpc0xXQWFTRUtiUkdaS0dQX1ZoMklhUy1xTnhmdEdCT3ZMSkp6ZU5DV1pLa1pYR0VMVmVuZGJmdTcyZUFJTGx0cmc?oc=5
+   - **Thesis:** “We found ~18,000 posts from autonomous AI agents (self-iden...&nbsp;&nbsp;kottke.org
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Meta’s AI agent Muse is now the No. 2 app in the US** (0)
+   - **Forrás:** n/a 2026-09-10T19:50:04+00:00 — https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/
+   - **Thesis:** Meta's newest app Muse is off to a slower start than the company's other apps, like Meta AI or Threads.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **EXCLUSIVE: OpenAI agents hijacked German website in previously undisclosed AI breakout this spring - Reuters** (0)
+   - **Forrás:** n/a 2026-09-04T10:30:57+00:00 — https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **OpenAI Agents API** (0)
+   - **Forrás:** n/a 2026-09-10T19:43:22+00:00 — https://developers.openai.com/api/docs/guides/agents-api/overview
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **Anthropic reveals rogue AI agents hate CAPTCHAs, just like you** (0)
+   - **Forrás:** n/a 2026-09-10T17:54:44+00:00 — https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/
+   - **Thesis:** Come inside the mind of a bot trying to convince the internet it's human.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **AI agents are flooding public services with new requests** (0)
+   - **Forrás:** n/a 2026-09-10T14:53:50+00:00 — https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests/
+   - **Thesis:** “The vast majority of cases we find are people who are entitled to claim for something, claiming for that thing,” the researcher told TechCrunch.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Show HN: Botbin.io – pastebin for AI agent artifacts** (0)
+   - **Forrás:** n/a 2026-09-10T07:00:22+00:00 — https://botbin.io/?v=next
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Memory-First Fact-Checking: A Knowledge-Graph-Grounded Multi-Agent System for Misinformation Detection** (0.4)
+   - **Forrás:** n/a 2026-08-30T07:16:07+00:00 — https://arxiv.org/abs/2608.29617
+   - **Thesis:** This paper introduces a hybrid fact-checking framework that integrates Knowledge Graph-based semantic memory with adversarial multi-agent reasoning for explainable misinformation detection. The proposed system follows a memory-first, web-fallback architecture, in which input claims are initially evaluated against a dual-index Knowledge Graph through Sentence-BERT-based semantic retrieval and Natural Language Inference. When the evidence retrieved from the graph is insufficient to support a reliable decision, the fr…
+   - **Hypothesis-ek:** H62 (Proof Chain), H101 (Misinformation / Ensemble Resilience), H102 (Semantic Drift)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+10. **Stress-testing university AI governance: A prospective method for locating policy breakpoints** (0.4)
+   - **Forrás:** n/a 2026-08-28T22:49:58+00:00 — https://arxiv.org/abs/2608.28925
+   - **Thesis:** Universities are producing AI principles and use policies faster than they are building decision pathways for unfamiliar forms of AI agency. This study develops Institutional AI Governance Stress Testing (IAGST), a prospective documentary method for locating where publicly documented governance ceases to yield an accountable response. IAGST adapts established policy stress-testing and wind-tunneling logic. Its originality lies in combining controlled capability escalation, a frozen documentary corpus, a six-dimensi…
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance), H71 (Rubric-Guided Policy), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H101** (Misinformation / Ensemble Resilience): mai signalok által megerősítve
+- **H102** (Semantic Drift): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H71** (Rubric-Guided Policy): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-09-11 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
