@@ -38,3 +38,13 @@ updated_at: '2026-09-03T06:00:01.216601+00:00'
   quality_score: 4
   source_signal: /writing/research/signals-2026-09-10.md
   source: https://wandb.ai/onlineinference/genai-research/reports/LLM-evaluation-Metrics-frameworks-and-best-practices--VmlldzoxMTMxNjQ4NA
+
+## 2026-09-14
+
+- site: vinczetamas
+  slug: agentet-epito-agentek
+  file: /writing/drafts/vinczetamas-2026-09-14-agentet-epito-agentek.md
+  status: draft
+  quality_score: 4
+  source_signal: /writing/research/candidates-2026-09-11.md
+  source: https://sierra.ai/blog/hyper-t-bench-evaluating-agents-that-build-agents
