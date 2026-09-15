@@ -9510,3 +9510,109 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-09-15
+
+**Forrás:** Blindspot Signals Report 2026-09-15 (41 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.2 – 0
+**Assessment Date:** 2026-09-15
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **JourneyTrack Introduces Scout, a Family of AI Agents for Journey Governance and Decision-Making - EIN News** (0.2)
+   - **Forrás:** n/a 2026-09-14T10:00:00+00:00 — https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRGFxWGp1VFRRSFB1TlNPSmd4U2Z3RHotN3JBZHBiYjIwN3JtOE5uVXRDcGtsZlM0ZHl6ZEVBZkk3RHBUN25GeFJCRVJaVm9QTk85d0djWXQ4Q24wZGQ1OVNVTHlSRWxpTUNvSWRBckRtbkdhQ1laOEhUTWNjUElVNDBiVzZZMWdXeVhZNWlxa050UldMdnVacTV6c3AtN1RRdjBYOHB5Rkx3RS1RclZGR2p5SGQtTF8xVnJGQjRncGUxTXo2bFl1QVlmUXdwUkhCUWc?oc=5
+   - **Thesis:** JourneyTrack Introduces Scout, a Family of AI Agents for Journey Governance and Decision-Making&nbsp;&nbsp;EIN News
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Cognitive Nexus (CGX) Pioneers Decentralized AI Agent Decision Network for the Autonomous Intelligence Era - EIN Presswire** (0.2)
+   - **Forrás:** n/a 2026-09-13T13:54:00+00:00 — https://news.google.com/rss/articles/CBMi5gFBVV95cUxQY3hhR3dKSXVPejNLak13ZjcxV3pTTFgwbmZhMTlBWlBrRkRsMEZieWk5bVh2bXM2VkVyVXlaNmZRdWUtZVBXWHd3YzFHOEZsZ0FBVUd5aTd3eDV0NXhUU1FLLWNJUnZaekVJOUM3UDI4ckhKS21EeHQxU20wZU5zWk00eWYyS2pyOXp1S3F0bmV0NjhFZlgwZW9jbTlCVzB6NTVJY24zNWdNNGlSbTlfS2ZiWHZmOGVQcXJQY3dfdXdzTlRqdlF4a3kweDBiRFVaVzBDbGNYU3JnZnhBdTdtemRodHFVZw?oc=5
+   - **Thesis:** Cognitive Nexus (CGX) Pioneers Decentralized AI Agent Decision Network for the Autonomous Intelligence Era&nbsp;&nbsp;EIN Presswire
+   - **Hypothesis-ek:** H105 (Decentralized Governance), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **rlaope / oh my hermes** (0.1)
+   - **Forrás:** n/a 2026-09-15T02:02:00.731358+00:00 — https://github.com/rlaope/oh-my-hermes
+   - **Thesis:** All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **EXCLUSIVE: OpenAI agents hijacked German website in previously undisclosed AI breakout this spring - Reuters** (0)
+   - **Forrás:** n/a 2026-09-04T10:30:57+00:00 — https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **ProGantt: Gantt charts your AI agent can read and write via MCP** (0)
+   - **Forrás:** n/a 2026-09-14T15:48:32+00:00 — https://progantt.com
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **Transitions.dev: UI transitions for AI agents** (0)
+   - **Forrás:** n/a 2026-09-14T15:18:58+00:00 — https://transitions.dev/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **Andon Labs Puts AI Agents in Charge of Real Businesses** (0)
+   - **Forrás:** n/a 2026-09-14T15:08:02+00:00 — https://spectrum.ieee.org/andon-labs-agentic-ai-businesses
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work** (0)
+   - **Forrás:** n/a 2026-09-14T14:45:44+00:00 — https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/
+   - **Thesis:** The notetaker offers a generous free plan, and that has resulted in over 400,000 monthly active users. The company said that over 1 million people have recorded meetings until now.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Show HN: I built Otis, a minimal AI agent that runs local models out of the box** (0)
+   - **Forrás:** n/a 2026-09-14T12:58:32+00:00 — https://triangllabs.ai/otis
+   - **Thesis:** Hi everyone,<p>Been working on Otis, an open-source ai agent that gives you one minimal experience across local and hosted open-weight models, privacy-focused by design.<p>On setup it recommends a local model based on the hardware Otis is running on, downloads it and runs it through llama.cpp for you. Ollama, LM Studio and Nvidia PAIR are supported too.<p>Excited for everyone to try it and all feedback is welcome!
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Agentic-AI-ready genome-wide poxvirus-host interaction screen refined by a protein language model** (0)
+   - **Forrás:** n/a 2026-09-13T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.09.10.750412
+   - **Thesis:** Recent mpox outbreaks highlight the necessity to understand the interactions between poxviruses and the human host. These can be discovered systematically through screening for host genes involved in infection at the single-cell level using RNA interference. However, off-target effects and assay noise obscure true gene-phenotype relationships, hampering the discovery of therapeutically relevant targets. Here, we show that integrating protein-protein interaction information derived from a protein language model boos…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H105** (Decentralized Governance): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-09-15 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
