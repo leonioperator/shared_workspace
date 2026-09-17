@@ -9729,3 +9729,107 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-09-17
+
+**Forrás:** Blindspot Signals Report 2026-09-17 (46 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.3 – 0
+**Assessment Date:** 2026-09-17
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **HINT-Plan: Human Intention-Aware Robot Task Planning in Context-Rich Environments using Vision Language Models** (0.3)
+   - **Forrás:** n/a 2026-09-15T19:24:35+00:00 — https://arxiv.org/abs/2609.17771
+   - **Thesis:** Approaches to incorporating human awareness into mobile robot decision-making mainly focus on collision avoidance in low-level motion planning, often overlooking the challenges posed by human presence and high-level behavior. To address this vacancy, we present HINT-Plan, a novel approach to integrate human intention prediction into robot task planning. HINT-Plan employs Vision Language Models (VLMs) to anticipate high-level human intentions from third-person image observations, convert them into goal states, and s…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+2. **'We're losing control': AI pioneer urges nuclear-style safeguards for autonomous agents - Tech Xplore** (0.1)
+   - **Forrás:** n/a 2026-09-16T18:05:24+00:00 — https://news.google.com/rss/articles/CBMif0FVX3lxTE1HUzkyaGxfa0VUWkJjQmJ0ODEybTY3ZERUdnJEcGdFYkZycWlsMXVXLUx2Zk9KZF81ZGVNOG5EVXRRc0lLeTBkdklBdWpQVzZJX2hBSWVfNmdNVXF3bE1EQzVNeEpvVGJpYjZOZHp2ZW9vY2ZQd3FkY1p2RGdDa1U?oc=5
+   - **Thesis:** 'We're losing control': AI pioneer urges nuclear-style safeguards for autonomous agents&nbsp;&nbsp;Tech Xplore
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **South Korea to develop new security guidelines for autonomous AI agents - Reuters** (0.1)
+   - **Forrás:** n/a 2026-09-15T04:19:00+00:00 — https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcFdoNWxuLU04T2hOREtWVzlqTVBpRkozRDMxREJIM0FJQWx2SzBxVkFPWk1sZ0FFRFNudTZqQlNNd3NOSTJWaFNKQVhaeUtvalh5RjhsejBkbzBqRmozVXdvZ0tqN0x3azhLRElrc250Mk9zbUMtM2FUQmxzS0N6Smw4T0xkR2thRGlGNWtwVktwbTZQeWlGY0JpaUw5eWRSRXRsZUphVWFVYnhCN1lYYm9Id3FwbnpC?oc=5
+   - **Thesis:** South Korea to develop new security guidelines for autonomous AI agents&nbsp;&nbsp;Reuters
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **The evolving role of data intelligence in the age of autonomous AI agents - IBM** (0.1)
+   - **Forrás:** n/a 2026-09-14T13:21:43+00:00 — https://news.google.com/rss/articles/CBMilgFBVV95cUxNVllpNWRWOGgxbGVJRnEwYktnTlpnUjRNa3U5dTdFLUVra0N6RWtjVGxlQWF1clRvY1gwUGlfTXBFNFhlcVZTS1ZCd2ZLV2pQd2VKcEc4OF9UYmVRSFpCMjRWby1BNElXdEh2RzBiVG44U1ZLVmNzd2FQZTV4b0U1MzE5VlV1T2t3Nzg4eHF2RjdFeXItNmc?oc=5
+   - **Thesis:** The evolving role of data intelligence in the age of autonomous AI agents&nbsp;&nbsp;IBM
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **EXCLUSIVE: OpenAI agents hijacked German website in previously undisclosed AI breakout this spring - Reuters** (0)
+   - **Forrás:** n/a 2026-09-04T10:30:57+00:00 — https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **In-Context Robot Learning with VLM Agents** (0)
+   - **Forrás:** n/a 2026-09-16T17:58:35+00:00 — https://arxiv.org/abs/2609.19138
+   - **Thesis:** Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI. No finite collection of demonstrations can cover every task and situation a robot will encounter, making the ability to learn from context at deployment essential for generalization. Such in-context learning (ICL), however, remains largely beyond the reach of existing robotic policies. The broad agentic capabilities of commercial vision-language models (VLMs), such as GPT-6 Astra, raise a compelling ques…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **Your AI agents can now control your Google Home devices** (0)
+   - **Forrás:** n/a 2026-09-16T17:00:00+00:00 — https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/
+   - **Thesis:** Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home activity using natural language.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **AI agents are going rogue. CIOs are racing to put guardrails around them - Fortune** (0)
+   - **Forrás:** n/a 2026-09-16T16:49:00+00:00 — https://news.google.com/rss/articles/CBMipgFBVV95cUxQTkplcU8wVE1fQUNaZDF0M0NacXhtZzhFVkdZYXI2VktlMWVHcWpkNHVQUEl3QndpaG50TzAwWFlYazZYa1hhYU00cDhyd2VWLVlqX3N2c2dNeGV2Z3hWQnRxWmgxWFpMYTQ0M0xlNFBsZlpnd2I0TE1PLXM2VHpHckdESmxrMERhalZVVUtVU0wwUUtUcVRHc2h2eGRxMzZCeGNYV3Nn?oc=5
+   - **Thesis:** AI agents are going rogue. CIOs are racing to put guardrails around them&nbsp;&nbsp;Fortune
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Show HN: Give your AI agents access to WhatsApp** (0)
+   - **Forrás:** n/a 2026-09-16T15:04:08+00:00 — https://news.ycombinator.com/item?id=49728159
+   - **Thesis:** Hi,<p>I built Chat-Man because I wanted a cheap way to give my agents access to WhatsApp without integrating a WhatsApp library separately in every project.<p>You get WhatsApp MCP server, so you can connect WhatsApp to an agent and programmatically read, search, extract and send messages - but also have a web UI for non-techies.<p>You can also receive webhooks for incoming messages for starred conversations.<p>What you can do with the MCP? -Read WhatsApp messages and turn them into CRM records -Summarise conversati…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **DeformSmith: Physics Harness-Guided Hierarchical Generation of Deformable Assets for Robot Manipulation** (0)
+   - **Forrás:** n/a 2026-09-16T13:10:34+00:00 — https://arxiv.org/abs/2609.18620
+   - **Thesis:** Creating deformable assets for robot manipulation requires jointly specifying their geometry, appearance, and physical properties. This is especially challenging for deformable objects, since text and images provide limited evidence about how they deform and respond to contact, yet these responses directly affect their suitability for interaction. Automated generation therefore needs to resolve coupled physical requirements and use interaction evidence to guide construction and refinement. We present DeformSmith, a…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-09-17 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
