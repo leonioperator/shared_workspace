@@ -48,3 +48,13 @@ updated_at: '2026-09-03T06:00:01.216601+00:00'
   quality_score: 4
   source_signal: /writing/research/candidates-2026-09-11.md
   source: https://sierra.ai/blog/hyper-t-bench-evaluating-agents-that-build-agents
+
+## 2026-09-17
+
+- site: elkezdodott
+  slug: android-automatizalas-valos-telefonokon
+  file: /writing/drafts/elkezdodott-2026-09-17-android-automatizalas-valos-telefonokon.md
+  status: draft
+  quality_score: 4
+  source_signal: /writing/research/candidates-2026-09-17.md
+  source: https://github.com/google/artemis
