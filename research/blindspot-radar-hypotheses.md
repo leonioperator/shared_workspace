@@ -10277,3 +10277,114 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-09-22
+
+**Forrás:** Blindspot Signals Report 2026-09-22 (53 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.4 – 0.1
+**Assessment Date:** 2026-09-22
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents** (0.4)
+   - **Forrás:** n/a 2026-09-21T01:43:12+00:00 — https://arxiv.org/abs/2609.23986
+   - **Thesis:** Agentic memory is becoming essential for long-horizon AI agents, yet many existing systems rely on autoregressive LLMs to control how memories are organized, retrieved, and used, placing expensive generation on the critical path of memory operations. We introduce \textbf{\method}, a new agentic memory architecture inspired by System-One/System-Two cognition. System One captures fast, lightweight decision-making, whereas System Two performs slower, deliberative reasoning. Jev-Mem brings this division of labor to age…
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Mixed-integer flow formulations for motion planning and decision-making of networked multi-agent systems** (0.3)
+   - **Forrás:** n/a 2026-09-21T12:15:28+00:00 — https://arxiv.org/abs/2609.24474
+   - **Thesis:** This work investigates the use of flow-based connectivity maintenance constraints in mixed-integer linear programming (MILP) trajectory planning and decision-making models for networked multi-agent systems (MAS). We integrate flow-based encodings for standard and k-hop connectivity into MILP multi-vehicle maneuvering models that are widely used alongside receding horizon planning strategies. Their necessity and sufficiency is demonstrated, guaranteeing full coverage of potential network topologies. The flow formula…
+   - **Hypothesis-ek:** H103 (Policy Tree Audit)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Ghaia Investment Holding and Chicago Global lead discussion on AI governance and investment decision-making at Money20/20 Middle East - Zawya** (0.2)
+   - **Forrás:** n/a 2026-09-21T07:55:00+00:00 — https://news.google.com/rss/articles/CBMinwJBVV95cUxOSW9hME1mOENxM3YwRm42MlpWdnhNanlrUFlCRXE4U2JCcnJZcURYWGVBUnJyUllYQWlRc3NSYmVPUjdyazc0ZlRmTnZNUTJyM1NEeDJZOVBrU2VpSUp5d3EwTVBjckpiYWRSWUFkVktXd3FfVlk4TlgwTXFocW9jcW8yVzdqeE5NamNNZUZEaTZ3ZHpzSUY5X2dOR2E4bkFvbkFBXzd6MUp0YUpuYllNUnJ5TWdlbDJvN0RVWllnaGplZjJsUmFocDA0cF9YQVRkZ0h1bEp3NEwxaFdMRGF2bkRENmJ0ck9vUzNmdnd6U3pHbGtCOTA0cjFCSkN3WFgtMndzaW5QeTBwMjJud3MtR3ZfQjcwR1doUXFTWmNlaw?oc=5
+   - **Thesis:** Ghaia Investment Holding and Chicago Global lead discussion on AI governance and investment decision-making at Money20/20 Middle East&nbsp;&nbsp;Zawya
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **AR-WAM: A Visual-Conditioned Agent-Ready World Action Model for Robotic Manipulation** (0.2)
+   - **Forrás:** n/a 2026-09-20T11:55:26+00:00 — https://arxiv.org/abs/2609.23578
+   - **Thesis:** As AI agents become increasingly capable, agent-driven robotic control is emerging as a compelling paradigm. However, prevailing vision-language-action (VLA) models and world action models (WAMs) still rely on natural-language instructions to specify manipulation tasks, an ill-suited interface for agent-driven control: referentially ambiguous, spatially imprecise, redundant with the agent's inherent language understanding, and entangling intent with execution. We present AR-WAM, a visual-conditioned, agent-ready wo…
+   - **Hypothesis-ek:** H100 (Latent Communication Security), H101 (Misinformation / Ensemble Resilience)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **Latent Telepathy: Multi-Robot Communication with Self-Supervised Perceptual Latents** (0.2)
+   - **Forrás:** n/a 2026-09-20T01:01:39+00:00 — https://arxiv.org/abs/2609.23269
+   - **Thesis:** In a decentralized multi-robot team under partial observability, the fact that decides a robot's next action is often visible only to a teammate. Existing decentralized methods communicate kinematic information, such as position or planned trajectory, which cannot convey what the teammate perceives. Learned communication in multi-agent reinforcement learning (MARL) can carry perceptual content, but the resulting messages are task-coupled and opaque. We propose Latent Telepathy. Each robot broadcasts the perceptual…
+   - **Hypothesis-ek:** H100 (Latent Communication Security), H105 (Decentralized Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **Proactive Incentive Regulation in Multi-Agent Systems with Environmental Feedback** (0.1)
+   - **Forrás:** n/a 2026-09-21T12:45:49+00:00 — https://arxiv.org/abs/2609.24506
+   - **Thesis:** In environmental feedback systems, self-interested behaviors of rational agents often undermine cooperation and environmental sustainability. Although punitive incentive mechanisms are widely recognized as effective in addressing such social dilemmas, the timing of their implementation under different environmental conditions remains insufficiently understood. In this paper, we develop a multi-agent environmental feedback game framework with coupled incentive intensities across resource states. We investigate how s…
+   - **Hypothesis-ek:** H66 (Oversight Incentive / Delay Risk)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+7. **Jev** (0.1)
+   - **Forrás:** n/a 2026-09-21T02:19:43+00:00 — https://www.producthunt.com/products/jev-2
+   - **Thesis:** <p> Fast, structured AI decisions for software automation </p> <p> <a href="https://www.producthunt.com/products/jev-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1256682?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Improving Data Quality, Model Transparency and Performance in Lung Histopathology with Explainable AI** (0.1)
+   - **Forrás:** n/a 2026-09-21T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.09.14.751577
+   - **Thesis:** Convolutional neural networks (CNNs) have shown strong capabilities for image analysis. However, deploying these models in medical settings is complicated by their limited transparency. Over recent years, many approaches have been developed to overcome the so-called "black box" problem of deep neural networks. Here, we show how such explainable AI (XAI) approaches can be applied to not only improve transparency but also training data quality and model performance, with classification of lung damage in histopatholog…
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance), H106 (Policy Tree Transparency)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+9. **Google Cloud Expands Autonomous Network Framework for CSPs With New AI Agents - The Fast Mode** (0.1)
+   - **Forrás:** n/a 2026-09-20T23:50:34+00:00 — https://news.google.com/rss/articles/CBMizAFBVV95cUxQNWJ4UkJLWWxVYmF2cmFPMlpxc3E5NzdIeFdXbFlDS1pndnhCNWgwejdxV2lwdXFkMUh4OU9ma1VTQWkxMHAwM0JFWXRJWF9xbHpCVE93VmdBVEFLektHZllGSFNWU0ludzhlVTN1ZnlpMENmWFVTZmRlb2lyaS1hSFp6VElGNTNzSzBQSUZaRW1jamFfSzlSOHhfdDN5WVVRRUhJbWNaeVhrdUxzMHBNYVRuQ091Z0xLTl8yaDJuUnJPeWRzY2dlbVV0eUY?oc=5
+   - **Thesis:** Google Cloud Expands Autonomous Network Framework for CSPs With New AI Agents&nbsp;&nbsp;The Fast Mode
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+10. **Milliseconds.ai** (0.1)
+   - **Forrás:** n/a 2026-09-20T20:14:25+00:00 — https://www.producthunt.com/products/milliseconds-ai
+   - **Thesis:** <p> Fast AI decisions on text and images, via one API </p> <p> <a href="https://www.producthunt.com/products/milliseconds-ai?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1256534?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H103** (Policy Tree Audit): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H100** (Latent Communication Security): mai signalok által megerősítve
+- **H101** (Misinformation / Ensemble Resilience): mai signalok által megerősítve
+- **H105** (Decentralized Governance): mai signalok által megerősítve
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+- **H106** (Policy Tree Transparency): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-09-22 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
