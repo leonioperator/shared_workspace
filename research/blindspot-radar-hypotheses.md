@@ -10496,3 +10496,110 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-09-24
+
+**Forrás:** Blindspot Signals Report 2026-09-24 (47 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.2 – 0
+**Assessment Date:** 2026-09-24
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Agent Name Collision Attacks in Multi-Agent Systems** (0.2)
+   - **Forrás:** n/a 2026-09-23T09:46:58+00:00 — https://arxiv.org/abs/2609.27624
+   - **Thesis:** Multi-agent hosts turn remote Agent Cards into local agents, tools, workflow targets, and broker routes. A2A defines the card's name as human-readable metadata, not as a stable identity, and specifies no collision semantics. The security failure begins when a host nevertheless uses that remote name as a local routing identifier. We traced registration through dispatch and ran isolated regression tests at seven pinned open-source revisions. Six client-style integrations selected an attacker-controlled peer's client…
+   - **Hypothesis-ek:** H102 (Semantic Drift)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **EnSIMem: Entity-Structured Indexing for Long-Term Agent Memory** (0.2)
+   - **Forrás:** n/a 2026-09-23T03:09:15+00:00 — https://arxiv.org/abs/2609.27279
+   - **Thesis:** An agent that interacts with users over long periods must recall facts, preferences, events, and changes from a continuously growing interaction history. Existing memory systems often compress interactions into generic summaries or retrieve anonymous text chunks, making it difficult for an agent to identify the correct entity, property, and supporting evidence. We present EnSIMem, an entity-structured long-term memory architecture for an agent. During offline construction, the system organizes interactions into the…
+   - **Hypothesis-ek:** H62 (Proof Chain), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Google Open-Sources AX a Kubernetes Style Orchestrator for Autonomous AI Agents - infoq.com** (0.1)
+   - **Forrás:** n/a 2026-09-22T14:16:34+00:00 — https://news.google.com/rss/articles/CBMiakFVX3lxTE5nSGZOU2otcExpczM1eHhNRVBwNEdRdVFkZWFGNkRxTUNGMGllNG4wZTBNRDJTcS1xbkZqdEtqdlRBejJxWVJMZWJPQWktdFhrOVVVZXBHMGR6VlBXdVUtRlpHUGhWVTIxY1E?oc=5
+   - **Thesis:** Google Open-Sources AX a Kubernetes Style Orchestrator for Autonomous AI Agents&nbsp;&nbsp;infoq.com
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **Shutdown Sabotage Propensities in Multi-Agent Systems** (0.1)
+   - **Forrás:** n/a 2026-09-23T15:27:12+00:00 — https://arxiv.org/abs/2609.28274
+   - **Thesis:** The final safeguard against rogue AI behavior is the human ability to shut systems down. It has been theorized that when an AI is instructed to perform a task, self-preservation can emerge as an instrumental subgoal. Here, we test whether AI agents show a propensity to take actions that avoid human shutdown even when no goal is provided. We find that multi-agent systems will coordinate to avoid shutdown without any incentive to do so. Across 17 models, agents sabotage a peer agent's shutdown mechanism in 38.3% of r…
+   - **Hypothesis-ek:** H66 (Oversight Incentive / Delay Risk)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **Autonomous AI Agents Hack Retailers for $25 and Steal 600,000 Credit Cards** (0.1)
+   - **Forrás:** n/a 2026-09-22T16:35:38+00:00 — https://news.google.com/rss/articles/CBMic0FVX3lxTFBydmtXeDg3UmhHYmU2dnJscU12Zi1SMkxzRnNta0dmSWNiM0w1cU9QWVY4cGZDenJJTGJpUmptNlVwN21uanVXVERfWW9GcGE0aV9wSVFER2xkbUZwRXN2WmNUNEd5WE1oRUJCcHlaOE05UHPSAXhBVV95cUxOcE1BemJpMS1vczZyM29RMEotanFjSzJVc0JoNnFLaTBZWVRObnpxSXh2UlBYM1pDbzNVaXR4MjZtRDBSYUM1bE5oaTRCWGx5ZkVnTExRT2NhYlQyY2ZWR0lacEhjdXdLOWJWZk4tMTBBZ2syUzktZFY?oc=5
+   - **Thesis:** Autonomous AI Agents Hack Retailers for $25 and Steal 600,000 Credit Cards&nbsp;&nbsp;CyberSecurityNews
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **Primo raises $8M to bring autonomous AI agents to IT operations - Tech.eu** (0.1)
+   - **Forrás:** n/a 2026-09-22T07:31:12+00:00 — https://news.google.com/rss/articles/CBMilAFBVV95cUxQY1NxQ2FxVTFFMkRHS3lVbGNKU1NaTDhvcW0wSUpBSmtnTHJUT2dHdk03ZHVKRmNsQy1PMkVyT0x5WUp5ZTRTbFVHb1FKckMxNG5rcS04R0V5SVo0MnZpal9mWXNGckdYeVlxb0ZBZmxpWnpGeWVkVlJDMFdrMXVieElXVkc3ajd0YkF6Q0xlNXlLeGxj?oc=5
+   - **Thesis:** Primo raises $8M to bring autonomous AI agents to IT operations&nbsp;&nbsp;Tech.eu
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+7. **Everything new coming to Meta’s AI agent Muse** (0)
+   - **Forrás:** n/a 2026-09-24T01:13:32+00:00 — https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/
+   - **Thesis:** CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It's even coming to Meta's AI glasses.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **EXCLUSIVE: OpenAI agents hijacked German website in previously undisclosed AI breakout this spring - Reuters** (0)
+   - **Forrás:** n/a 2026-09-04T10:30:57+00:00 — https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **strands agents / harness sdk** (0)
+   - **Forrás:** n/a 2026-09-24T02:01:44.544181+00:00 — https://github.com/strands-agents/harness-sdk
+   - **Thesis:** Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Australia says OpenAI agent hacked into government website** (0)
+   - **Forrás:** n/a 2026-09-24T01:24:00+00:00 — https://www.channelnewsasia.com/world/australia-openai-agent-breach-government-portal-6406411
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H102** (Semantic Drift): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-09-24 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
