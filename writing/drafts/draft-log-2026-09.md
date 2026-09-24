@@ -68,3 +68,13 @@ updated_at: '2026-09-03T06:00:01.216601+00:00'
   quality_score: 4
   source_signal: /writing/research/candidates-2026-09-18.md
   source: https://cloud.google.com/blog/products/containers-kubernetes/agent-substrate-available-on-gke
+
+## 2026-09-24
+
+- site: elkezdodott
+  slug: agent-onjavitas-release-gate
+  file: /writing/drafts/elkezdodott-2026-09-24-agent-onjavitas-release-gate.md
+  status: draft
+  quality_score: 4
+  source_signal: /writing/research/candidates-2026-09-24.md
+  source: https://arxiv.org/abs/2609.24972
