@@ -10603,3 +10603,114 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-09-25
+
+**Forrás:** Blindspot Signals Report 2026-09-25 (52 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.4 – 0.1
+**Assessment Date:** 2026-09-25
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal** (0.4)
+   - **Forrás:** n/a 2026-09-24T15:19:39+00:00 — https://arxiv.org/abs/2609.29964
+   - **Thesis:** General-purpose vision-language models (VLMs) bring broad knowledge and spatial reasoning to robot manipulation, yet existing systems either use them indirectly, to predict constraints or write programs, or give them a view of the scene rather than a world in which to act. We present World Action Agent (WAA), a multi-agent harness through which VLMs pilot robots with basic tools, making every decision within a visual action workspace. The workspace has three properties. Contact views, selected automatically from th…
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **RACaP: Agentic Reasoning, Acting, and Coding as Policies for Evolvable Robot Learning** (0.4)
+   - **Forrás:** n/a 2026-09-24T11:22:45+00:00 — https://arxiv.org/abs/2609.29394
+   - **Thesis:** General-purpose robot agents must learn from experience, transfer to new tasks, and act efficiently. Code as Policies (CaP) methods generate and repair programs at runtime, incurring latency and entangling reusable mechanisms with task-specific decisions. We introduce RACaP, an agentic framework that moves coding to evolution and uses a Reasoning-and-Acting (ReAct) loop to call frozen, typed Policy APIs at deployment. A two-phase strategy combines capability curriculum learning with autonomous self-evolution to imp…
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Agent Memory with Episodic Retrieval for Financial Decision-Making** (0.4)
+   - **Forrás:** n/a 2026-09-23T20:32:54+00:00 — https://arxiv.org/abs/2609.28771
+   - **Thesis:** Large language models (LLMs) have demonstrated strong capabilities in financial analysis and reasoning, inspiring recent advances in agent-based trading frameworks. While these systems show promise, prior approaches either emphasize long-horizon forecasting or operate as stateless analyzers, limiting their applicability to the demands of trading in complicated settings. To address these gaps, we introduce META (Memory Enhanced Trading Agent), the first RAG-like episodic-memory-augmented multi-agent framework for fi…
+   - **Hypothesis-ek:** H90 (Multi-Agent Debate / Research Agents), H106 (Policy Tree Transparency), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **Scope Before You Persist: Preventing Cross-Family Interference in Agent Memory** (0.2)
+   - **Forrás:** n/a 2026-09-24T07:22:10+00:00 — https://arxiv.org/abs/2609.29144
+   - **Thesis:** Persistent memory lets language-model agents improve prompts and skills without updating model weights. We show that matching retrieval scope to certification scope enables these edits to support reliable repeated adaptation across recurring task families. We study frozen-model agents on ProcStream-RSI, a 12-round code-repair stream, using Orthogonal Regression Control (ORC), an execution-grounded gate for persistent skill edits. In an intervention that holds proposals and gate decisions fixed, retrieving each acce…
+   - **Hypothesis-ek:** H66 (Oversight Incentive / Delay Risk)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **Agent-Editing World Model: Rethinking World Modeling for LLM Agents** (0.2)
+   - **Forrás:** n/a 2026-09-23T00:00:00+00:00 — https://huggingface.co/papers/2609.28416
+   - **Thesis:** Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environment observations, yet reconstructing high-entropy, execution-dependent tool responses offers limited value when real feedback is available. Meanwhile, agents suffer from task-state contamination, where unsupported assumptions and outdated plans persist in history and distort subsequent decisions. W…
+   - **Hypothesis-ek:** H62 (Proof Chain), H72 (High-Stakes Integrity)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **Show HN: Critic – Review code with the agent that wrote it** (0.1)
+   - **Forrás:** n/a 2026-09-24T17:35:28+00:00 — https://www.critic.run/
+   - **Thesis:** Hey HN, I&#x27;m Shreyash from Feyn. We help companies build custom models from their data. Today we&#x27;re releasing Critic, a change review platform that lets you engage directly with the AI that wrote the code.<p>Agents write most of our code. While that has made us more productive, understanding a change and its consequences has become incredibly difficult. As our company adopted more agentic tools, we found it harder to loop people in on the impact of a PR and the state of a project. We built Critic to fix th…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **How does Adversarial Influence Scale in Multi-Agent Systems?** (0.1)
+   - **Forrás:** n/a 2026-09-24T16:02:40+00:00 — https://arxiv.org/abs/2609.30028
+   - **Thesis:** Multi-agent deliberation can improve performance, but what happens when some agents do not act in good faith? In practice, an agent may be deceptive and work to subvert the group, whether through its own objectives or external instruction. We study how susceptibility to deception scales as groups increase in size and deceivers become more prevalent. It is not the number of agents in the group that matters, but the proportion of deceivers. We observe that the defection rate, how often initially correct agents switch…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Temperament Engineering: Designing Strategic Behavioural Diversity in Robot Swarms** (0.1)
+   - **Forrás:** n/a 2026-09-24T11:45:17+00:00 — https://arxiv.org/abs/2609.29423
+   - **Thesis:** No two robots are truly identical: calibration, battery state, sensor drift and wear give every swarm a distribution of behaviour rather than a single point, usually treated as an imperfection to be minimised. In animal collectives the reverse holds: consistent individual differences in behaviour ('temperament') are shaped by natural selection and often decisive for group performance. This perspective proposes 'temperament engineering', a bio-inspired framework that treats the swarm's distribution of temperaments,…
+   - **Hypothesis-ek:** H71 (Rubric-Guided Policy), H102 (Semantic Drift)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+9. **OpenAI agents attack the 'first' government hack by autonomous AI, researchers say - abc.net.au** (0.1)
+   - **Forrás:** n/a 2026-09-24T00:42:50+00:00 — https://news.google.com/rss/articles/CBMipwFBVV95cUxPZE9MeXh6UXNMWFNoRkVZMzd0UGQ2Q3RDSWI2bFpkQ3l6cE1ha21RdzNaamRMRmdWRnJJU2E2TTNwTV82Mkl6em93TWF5eHBUdTVRQW9FczdqYkZGcm13ckxzTTEyY1dWLVhsLUVOS1pvUXQ5VTJVME16RjgzWGxfb3dGRDQtMUxCd1dINUE1SHQxUWVwVE9JM3p6QnBIcFRhdkp6bm83bw?oc=5
+   - **Thesis:** OpenAI agents attack the 'first' government hack by autonomous AI, researchers say&nbsp;&nbsp;abc.net.au
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+10. **Autonomous AI Agents Discover Reverse Transcriptases with Tandem Repeat Arrays - alphaXiv** (0.1)
+   - **Forrás:** n/a 2026-09-23T19:49:39+00:00 — https://news.google.com/rss/articles/CBMigAFBVV95cUxQazd4YmdmaEV2OUJHTG85X0l4WjRXN09oZnREa3gtc2VnQXFSaF93MGJ1Nmh4UFZ5YjFoTU90RXpYOUdwMmY5dFNGU3pnTTBkQ1dubHBzM2VJMWNNbnpTbjdjM1pPWF9ORXR1UVZPa2Uza2NudmlqYTZ0LW41bHVhVw?oc=5
+   - **Thesis:** Autonomous AI Agents Discover Reverse Transcriptases with Tandem Repeat Arrays&nbsp;&nbsp;alphaXiv
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H90** (Multi-Agent Debate / Research Agents): mai signalok által megerősítve
+- **H106** (Policy Tree Transparency): mai signalok által megerősítve
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H71** (Rubric-Guided Policy): mai signalok által megerősítve
+- **H102** (Semantic Drift): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-09-25 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
