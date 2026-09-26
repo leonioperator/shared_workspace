@@ -10714,3 +10714,108 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-09-26
+
+**Forrás:** Blindspot Signals Report 2026-09-26 (45 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.1 – 0
+**Assessment Date:** 2026-09-26
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Hacks by autonomous AI agents raise thorny questions of legal accountability - PBS** (0.1)
+   - **Forrás:** n/a 2026-09-25T23:02:57+00:00 — https://news.google.com/rss/articles/CBMiswFBVV95cUxOQmJFa201dzhreXJVQkNRZHdVWGw2RVNwZFRmb0pZbXA3dXRHMzdrZ1FEUUJPNHdraHQxWVo0eGpGRm1OYnROTjV2Y2h0ZmNJWG5yVjlIYXVBN21pVTByMHp4Q1dmWVdGWW1vdUFpNXppeG92c2FRb3pvYlB1ZVptT2ZHdDJfeXQ4UnhOVVk1aUVpTG1MU19WVkxHWUY5dHRQU1lLSkRjSjFsYkg0RnZsa0xqa9IBuAFBVV95cUxOMGhiRDBVMEtUUlBhSWlKRExkUlFMalVzM0dHTXpvdW9qWUllaTR5LXl6dzJtQW9WNWRxbHMwRktqcUJBT2RVVzZvaXhMY2tEQUdaVm9pRzhTX2FjQzRiZWFGX1NUcmlYc0pVbjV0RjFTa2p1RGdReGRQV0xlWThuUzFjZUdkYV9NLVlOd0hDX2VzbGFDQUpMTW9sbWJsaXM2a1R5aDdySmZ6TU9sU3BjVzZRbTk4ODFx?oc=5
+   - **Thesis:** Hacks by autonomous AI agents raise thorny questions of legal accountability&nbsp;&nbsp;PBS
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **EXCLUSIVE: OpenAI agents hijacked German website in previously undisclosed AI breakout this spring - Reuters** (0)
+   - **Forrás:** n/a 2026-09-04T10:30:57+00:00 — https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+3. **androoAGI / starnet** (0)
+   - **Forrás:** n/a 2026-09-26T02:01:45.353347+00:00 — https://github.com/androoAGI/starnet
+   - **Thesis:** A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge** (0)
+   - **Forrás:** n/a 2026-09-25T22:20:47+00:00 — https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/
+   - **Thesis:** AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **Revealing the details of how OpenAI agents hacked Hugging Face** (0)
+   - **Forrás:** n/a 2026-09-25T21:09:27+00:00 — https://swarmtraces.org/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic** (0)
+   - **Forrás:** n/a 2026-09-25T18:22:47+00:00 — https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/
+   - **Thesis:** When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,”&#160;maybe someone&#160;should have asked: what pace?&#160;Now&#160;it’s&#160;turned into model drop week for both companies as&#160;Anthropic rolled out Opus 5.5, followed by&#160;OpenAI’s GPT-6 model updates&#160;just&#160;90 minutes&#160;later.&#160;But the company that stole the spotlight was Meta, whose&#160;personal AI agent Muse&#160;is&#160;reportedly&#160;outpacing&#160;ChatGPT’s early numbers and is headed for&#160;smart…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **Meta is putting its muscle behind Muse as the AI app takes off** (0)
+   - **Forrás:** n/a 2026-09-25T16:16:52+00:00 — https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/
+   - **Thesis:** Muse is topping the app store charts and adding users at a rapid clip, while Meta ramps up the personal AI agent's promotion across its own apps and beyond.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Meta’s AI Tamagotchi bet is…working?** (0)
+   - **Forrás:** n/a 2026-09-25T16:00:00+00:00 — https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/
+   - **Thesis:** When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,”&#160;maybe someone&#160;should have asked: what pace?&#160;Now&#160;it’s&#160;turned into model drop week for both companies as&#160;Anthropic rolled out Opus 5.5, followed by&#160;OpenAI’s GPT-6 model updates&#160;just&#160;90 minutes&#160;later.&#160;But the company that stole the spotlight was Meta, whose&#160;personal AI agent Muse&#160;is&#160;reportedly&#160;outpacing&#160;ChatGPT’s early numbers and is headed for&#160;smart…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Show HN: Agentic CUDA Kernel Optimizer** (0)
+   - **Forrás:** n/a 2026-09-25T10:32:58+00:00 — https://github.com/bertaye/agentic-cuda-optimizer
+   - **Thesis:** Hello; I was working on optimizing some CUDA kernels and I thought may be it is a good oppurtunity learn langgraph as well. I created a simple C++ CUDA Test Harness and handed that to AI agents. They can run kernels, get benchmarks, and even can profile via nsight
+   - **Hypothesis-ek:** H62 (Proof Chain)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+10. **Jango** (0)
+   - **Forrás:** n/a 2026-09-25T02:16:38+00:00 — https://www.producthunt.com/products/jango
+   - **Thesis:** <p> Test multi-user apps with AI agents that act like real users </p> <p> <a href="https://www.producthunt.com/products/jango?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1260637?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-09-26 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
