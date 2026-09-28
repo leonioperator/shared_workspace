@@ -78,3 +78,13 @@ updated_at: '2026-09-03T06:00:01.216601+00:00'
   quality_score: 4
   source_signal: /writing/research/candidates-2026-09-24.md
   source: https://arxiv.org/abs/2609.24972
+
+## 2026-09-28
+
+- site: vinczetamas
+  slug: vallalati-ai-memoria-fegyelme
+  file: /writing/drafts/vinczetamas-2026-09-28-vallalati-ai-memoria-fegyelme.md
+  status: draft
+  quality_score: 4
+  source_signal: /writing/research/signals-2026-09-25.md
+  source: https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/
