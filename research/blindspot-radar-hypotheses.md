@@ -11038,3 +11038,111 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-09-29
+
+**Forrás:** Blindspot Signals Report 2026-09-29 (45 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.1 – 0
+**Assessment Date:** 2026-09-29
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **NVIDIA Launches Open Platform to Secure Autonomous AI Agents - Infosecurity Magazine** (0.1)
+   - **Forrás:** n/a 2026-09-28T13:30:00+00:00 — https://news.google.com/rss/articles/CBMie0FVX3lxTE1KYm9EeFBjczgycFhVeUtxandZc2lYMDdzUm5HZzc0Zi01bWYxSzlHZ2dXMjFGa1pmRHdwN3F4bUJ6djhaay03dFJycTBGeXlGU2c2WEliZkJlZC16YzlTNXFnWE81b01JZG8wb3BLY0dTelV4cDVFSDY1dw?oc=5
+   - **Thesis:** NVIDIA Launches Open Platform to Secure Autonomous AI Agents&nbsp;&nbsp;Infosecurity Magazine
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **GEMOT: Towards Mechanistic World Models for Biology** (0.1)
+   - **Forrás:** n/a 2026-09-28T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.09.26.754619
+   - **Thesis:** Scientific discovery seeks mechanisms that explain observations and predict beyond the measurements that produced them. Whereas large language models (LLMs) encode knowledge implicitly, mechanistic world models organise it as a parsimonious set of explicit, modular, reusable mechanisms whose predictions can be scored against data. In biology, where measurements are sparse and noisy, mechanistic world modelling must discover latent states and governing equations jointly, yet the prior knowledge that could constrain…
+   - **Hypothesis-ek:** H62 (Proof Chain), H66 (Oversight Incentive / Delay Risk), H72 (High-Stakes Integrity), H100 (Latent Communication Security)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Biologically grounded cell profiling across microscopy modalities** (0.1)
+   - **Forrás:** n/a 2026-09-28T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.09.23.753678
+   - **Thesis:** Microscopy-based cell profiling has broad applications in biological discovery, disease characterization, and phenotypic drug screening. Modern microscopy continues to push the limits of resolution, speed, depth and throughput, but better imaging does not automatically lead to better biomedical discovery and translation. A key bottleneck is feature representation: existing features are either handcrafted or learned as black-box embeddings and often lack explicit biological meaning. Here we propose biological ground…
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **EmbodiedMemory-Bench: Benchmarking Embodied Memory for Long-Horizon Embodied Tasks** (0.1)
+   - **Forrás:** n/a 2026-09-23T00:00:00+00:00 — https://huggingface.co/papers/2609.28236
+   - **Thesis:** Long-horizon embodied interaction requires agents to retain and continually update information about the environment as they observe, act, and encounter change. Yet current agents struggle to maintain such memory reliably. Our analysis traces this limitation to four key deficiencies: weak fine-grained visual memory, unreliable dynamic world-state tracking, failing to record world state revealed by interaction outcomes, and limited generalization from prior experience. However, existing benchmarks do not directly as…
+   - **Hypothesis-ek:** H62 (Proof Chain)
+   - **Megerősítés:** A benchmark-konstrukció maga is verifikálható multi-agent pipeline lesz; H104 és H62 közvetlenül erősödik.
+
+5. **EXCLUSIVE: OpenAI agents hijacked German website in previously undisclosed AI breakout this spring - Reuters** (0)
+   - **Forrás:** n/a 2026-09-04T10:30:57+00:00 — https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **Who should be held accountable when an AI Agent (accidentally) acts maliciously?** (0)
+   - **Forrás:** n/a 2026-09-28T22:05:46+00:00 — https://blog.greenpants.net/ai-accountability/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **Shopify opens checkout to browser-based AI agents** (0)
+   - **Forrás:** n/a 2026-09-28T19:33:57+00:00 — https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/
+   - **Thesis:** Shopify is expanding WebMCP support to checkout, allowing browser-based AI agents to update order details and complete purchases with a buyer’s authorization.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Google is killing off Gemini’s Gems in favor of ‘skills’** (0)
+   - **Forrás:** n/a 2026-09-28T17:29:50+00:00 — https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/
+   - **Thesis:** As all-in-one AI agents like Meta's Muse and Instinct take off, Google is opting to end a feature that built task-specific agents.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Nvidia wants to put a watchdog chip next to every AI agent** (0)
+   - **Forrás:** n/a 2026-09-28T15:46:36+00:00 — https://www.cnbc.com/2026/09/28/nvidia-releases.html
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Cf: The Agentic CLI for the Cloudflare API** (0)
+   - **Forrás:** n/a 2026-09-28T15:28:13+00:00 — https://blog.cloudflare.com/cloudflare-cf-cli-launch/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H100** (Latent Communication Security): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-09-29 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
