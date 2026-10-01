@@ -1,3 +1,13 @@
+---
+id: draft-lo
+title: Draft log 2026-10
+site: vinczetamas
+content_type: article
+created_at: '2026-10-01'
+status: draft
+updated_at: '2026-10-01T06:00:01.967125+00:00'
+---
+
 # Draft log 2026-10
 
 ## 2026-10-01
