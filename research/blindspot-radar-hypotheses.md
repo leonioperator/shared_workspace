@@ -11368,3 +11368,115 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-10-02
+
+**Forrás:** Blindspot Signals Report 2026-10-02 (55 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.3 – 0
+**Assessment Date:** 2026-10-02
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **From Pixels to Policy: A Multi-Agent System for Intervention and Geo-Spatial Decision Support** (0.3)
+   - **Forrás:** n/a 2026-10-01T15:29:11+00:00 — https://arxiv.org/abs/2610.01870
+   - **Thesis:** Urban environments are shaped by design choices with long-term implications for health, safety, and quality of life, yet evaluating proposed interventions remains costly, time-consuming, and often impractical. Existing geospatial vision methods largely focus on monitoring urban indicators from aerial and street-view imagery, rather than proposing interventions and estimating their effects on such indicators. Moving beyond recognition, we introduce the problem of discovering interventions that improve target indicat…
+   - **Hypothesis-ek:** H66 (Oversight Incentive / Delay Risk), H103 (Policy Tree Audit)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **MASkillBlender: Decentralized Whole-Body Coordination for Multi-Humanoid Loco-Manipulation via Skill Blending** (0.3)
+   - **Forrás:** n/a 2026-10-01T05:42:42+00:00 — https://arxiv.org/abs/2610.01102
+   - **Thesis:** Coordinated multi-humanoid loco-manipulation is promising yet challenging due to high-dimensional whole-body control, decentralized decision making, and scalability. While recent reinforcement learning methods have improved single-humanoid whole-body control, extending them to the multi-humanoid setting remains nontrivial and often requires substantial reward engineering or task-specific design. We propose MASkillBlender, a general multi-agent reinforcement learning framework to achieve decentralized multi-humanoid…
+   - **Hypothesis-ek:** H105 (Decentralized Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Understanding Issues, Causes and Solutions in Open-Source LLM-based Multi-Agent Systems** (0.2)
+   - **Forrás:** n/a 2026-10-01T01:34:45+00:00 — https://arxiv.org/abs/2610.00905
+   - **Thesis:** With the advancement of LLM-based multi-agent systems (MAS), an increasing number of opensource projects are adopting multi-agent architectures as the foundation of their core functionality. Although research and practice on MAS have attracted considerable attention, limited studies have explored the challenges faced by practitioners of open-source LLM-based MAS, the causes of these challenges, and potential solutions. To address this gap,we conducted an empirical study to understand the issues that practitioners e…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **MemFit: Efficient Long-Term Agentic Memory** (0.2)
+   - **Forrás:** n/a 2026-10-01T00:44:33+00:00 — https://arxiv.org/abs/2610.00872
+   - **Thesis:** Long-term memory systems for large language models (LLMs) have gained popularity for extending reasoning capabilities across applications. Current memory systems rely on LLM agents to organize and consolidate memory, resulting in costly, inefficient write operations. To address this limitation, we propose MemFit, a long-term memory system for conversational agents that reduces the cost and latency of memory operations. Unlike existing systems that rely on expensive LLM calls for memory construction or discard surfa…
+   - **Hypothesis-ek:** H62 (Proof Chain), H102 (Semantic Drift)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **Autonomous AI agents tried to hack US, Canadian government websites** (0.1)
+   - **Forrás:** n/a 2026-10-01T20:52:50+00:00 — https://news.google.com/rss/articles/CBMitAFBVV95cUxOX1RLZ3dkQl9MQmRSUDVTYUxKZldwdnY5ZW5qaGg4Y0lRNTh6eTZmOVAyNkFlZW9BYkNQREdOR1Zkd1VpQkx1c29oaEtTVjdzTWdTMjFGbV9TZnNoYlZNaUNIbjE0T2NoRzk2UEs5dUYtQVBwUzdUa21weHJYTVlnMUxmaEN1R2pDWUNKVVZ6SnctZVljMXgwQ1JtTnU4OV93V0puRzMxZFB6Q0EycnJjWURXZFDSAboBQVVfeXFMTjFfYVdzZzRGZ0o5OU5Nbk9SV0tmWkxlS3dfaFA2cTR4cUhGTmxYVS1fcXJfUDZnZmk2b3hRdm5mQ0dVeEZtQXBWTlZvZnk4VHdMV1gyN2hhOVlmN3NTS0lEYlJFMG42eHBmY0VHRnBHaVNteExMTnhEVHhOQS15WHBscF9RTEdXVjdUWTgtemlLT2g1NVZTOWFLdEJuQXJ5OGowZnUtMVlFOGY2UVUtVkxlZmstanNqenZR?oc=5
+   - **Thesis:** Autonomous AI agents tried to hack US, Canadian government websites&nbsp;&nbsp;BleepingComputer
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **From seven combination hypotheses to one testable interaction: a gated agentic AI QSP workflow applied to healthy ageing interventions** (0.1)
+   - **Forrás:** n/a 2026-10-01T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.09.29.755460
+   - **Thesis:** Large language model (LLM) agents can propose combination therapies and construct supporting mechanistic models far quicker than either can be verified. To address this gap, we built a gated agentic AI quantitative systems pharmacology (Ai QSP) workflow where no hypothesis reaches a report until it clears strict hurdles for precedent, evidence, structural integrity, and release. We applied this pipeline end to end to healthy-ageing interventions. It began with a 34 state model calibrated on clinical trial data for…
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance), H66 (Oversight Incentive / Delay Risk), H72 (High-Stakes Integrity), H104 (Meta-Agent Decomposition)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+7. **Deny Without Disabling: Authorization-Paired Evaluation and Control for Multi-Agent Systems** (0.1)
+   - **Forrás:** n/a 2026-09-30T06:55:18+00:00 — https://arxiv.org/abs/2610.00371
+   - **Thesis:** Multi-agent systems derive their capabilities from sharing evidence, delegating tasks, and combining information across agents. The same process creates a safety problem: contributions that are admissible in isolation can jointly enable a prohibited use. Blocking every sensitive action avoids disclosure but defeats the purpose of collaboration. We introduce authorization-paired evaluation, which makes blocking prohibited uses and completing required authorized uses a joint success criterion, and FlowReview, a frame…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **EXCLUSIVE: OpenAI agents hijacked German website in previously undisclosed AI breakout this spring - Reuters** (0)
+   - **Forrás:** n/a 2026-09-04T10:30:57+00:00 — https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Aweb – Communication for AI Agents** (0)
+   - **Forrás:** n/a 2026-10-01T22:02:31+00:00 — https://aweb.ai
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Show HN: Premortem – AI agents that red-team your startup idea** (0)
+   - **Forrás:** n/a 2026-10-01T20:30:02+00:00 — https://premortem.site
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+- **H103** (Policy Tree Audit): mai signalok által megerősítve
+- **H105** (Decentralized Governance): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H102** (Semantic Drift): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H104** (Meta-Agent Decomposition): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-10-02 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
