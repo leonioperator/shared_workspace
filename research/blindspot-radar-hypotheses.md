@@ -11480,3 +11480,110 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-10-03
+
+**Forrás:** Blindspot Signals Report 2026-10-03 (42 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.2 – 0
+**Assessment Date:** 2026-10-03
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **An AI-powered cloud biofoundry for autonomous biological research** (0.2)
+   - **Forrás:** n/a 2026-10-01T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.09.30.750244
+   - **Thesis:** Autonomous experimentation, where an automated system designs, performs, analyzes, and iteratively improves experiments with minimal human intervention represents a transformative scientific research paradigm. However, it remains hampered by the disconnect between computational design and experimental execution. Here we present iCloudBiofoundry, a cloud-accessible, scalable, and self-evolving platform that bridges this divide. A scientific multi-agent system, iBioGenie, plans research workflows by converting natura…
+   - **Hypothesis-ek:** H66 (Oversight Incentive / Delay Risk), H72 (High-Stakes Integrity), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Show HN: Bise – a multi-agent harness, made for humans** (0.1)
+   - **Forrás:** n/a 2026-10-02T14:17:39+00:00 — https://bise.dev/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+3. **Synergistic Combination of Bioengineered MicroRNA and Chemotherapy Across High-Risk Neuroblastoma Subtypes** (0.1)
+   - **Forrás:** n/a 2026-10-02T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.09.30.755443
+   - **Thesis:** Despite intensive treatment, high-risk neuroblastoma (HRNB) remains a leading cause of cancer-related mortality in children. Current treatment paradigms include multimodal systemic treatments and multi-agent chemotherapy, which is limited by substantial acute and long-term toxicities. Platinum-based chemotherapy is a cornerstone of this treatment but is fraught with side effects and stands to benefit from dose reduction strategies. MicroRNA (miR)-based therapeutics represent an attractive strategy to simultaneously…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **EXCLUSIVE: OpenAI agents hijacked German website in previously undisclosed AI breakout this spring - Reuters** (0)
+   - **Forrás:** n/a 2026-09-04T10:30:57+00:00 — https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **Three AI agents, two countries, and one uneven world wide web** (0)
+   - **Forrás:** n/a 2026-10-02T20:39:05+00:00 — https://royapakzad.substack.com/p/multilingual-ai-agents
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **Apple will limit Mac disk access as AI agents 'substantially' increase risk** (0)
+   - **Forrás:** n/a 2026-10-02T20:33:32+00:00 — https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **Apple is tightening macOS 'Full Disk Access' due to new risks from AI agents** (0)
+   - **Forrás:** n/a 2026-10-02T19:03:03+00:00 — https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **The Four Horsemen of Agentic Coding** (0)
+   - **Forrás:** n/a 2026-10-02T15:19:56+00:00 — https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Ask HN: Is anybody producing good code with coding agents?** (0)
+   - **Forrás:** n/a 2026-10-02T14:38:35+00:00 — https://news.ycombinator.com/item?id=49934037
+   - **Thesis:** This is a genuine problem that I hear from senior engineers. I&#x27;m looking for a solution.<p>--<p>The quality of ai-generated code is &lt;censored&gt; (claude, agy, copilot, codex a little better).<p>It&#x27;s exhausting to read.<p>I used to love learning from my experienced colleagues and taking pride in what we made. We spent time on elegance and craftsmanship.<p>Now I spend nearly the whole workday slogging through convoluted code riddled with footguns. I ride on hopes and dreams I might understand a changese…
+   - **Hypothesis-ek:** H102 (Semantic Drift)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+10. **Finbar** (0)
+   - **Forrás:** n/a 2026-10-01T16:40:49+00:00 — https://www.producthunt.com/products/finbar-2
+   - **Thesis:** <p> Agentic investment research </p> <p> <a href="https://www.producthunt.com/products/finbar-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1266839?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H102** (Semantic Drift): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-10-03 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
