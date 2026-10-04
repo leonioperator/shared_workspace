@@ -11587,3 +11587,109 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-10-04
+
+**Forrás:** Blindspot Signals Report 2026-10-04 (43 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.2 – 0
+**Assessment Date:** 2026-10-04
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Remembering touch: Somatosensory cortex supports long-term memory for dynamic vibrotactile patterns.** (0.2)
+   - **Forrás:** n/a 2026-10-02T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.09.27.754826
+   - **Thesis:** The neural substrates of tactile long-term memory (LTM) in humans remain poorly understood, as relatively few neuroimaging studies have addressed this question. Here, we asked whether retrieval of tactile stimulation engages modality-specific representations in the primary and secondary somatosensory cortices (S1 and S2), alongside domain-general retrieval networks. Participants learned 16 tactile trajectories, each presented for 1.2 s on the left thumb through sequential activation of 10 vibrating dots on a Braill…
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Former Anthropic security leader warns AI agents are becoming too autonomous for humans to keep them in check - Fox News** (0.1)
+   - **Forrás:** n/a 2026-10-03T17:26:10+00:00 — https://news.google.com/rss/articles/CBMiuwFBVV95cUxPemJIM1RfS0l6SDBQY29CRUNuNWNVaE9JTEdDdXVueWc4dXo3eUZ4UzA0QVdpcWFydFB1U1BRYVd0V1gxQWhZZU1LTERTMmt3a3FzTm1QbWFTYWY3R0lNc0VLbFFRMnNMU2FKWVloclBLQWR4bDZmRS1GeTE0S2w4a1dvaklkWXhkeVlOUzRfc1cyTFZTVVlMQnhXZTkteUp2M25KSUI0UG54a2tvQkxXT3hkc1ptdXNrcmF30gHAAUFVX3lxTE4wcmtnRFY5cF9KMnFwLTdacndfMi1tVTFyYXotTHdsOGxoYnRpX0NwWnQ4dlRlcjRJd2RMOEtIWTNLRWplcHNLZHU2QUlWQWc0cWhwUkVOUUFYRWxwT3BwTGQ2TW5xTWFvaGtuS01yS0tEQzFjNDVtVkJVd2JyOGRPU1Q2bUhRLVFXcVlrM21nc2xXTjgxSDI2dkFsa19GUEJwYXVYR19uV09qemtxZVktMlk4MjVsMVloRlE1SFVseg?oc=5
+   - **Thesis:** Former Anthropic security leader warns AI agents are becoming too autonomous for humans to keep them in check&nbsp;&nbsp;Fox News
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **EXCLUSIVE: OpenAI agents hijacked German website in previously undisclosed AI breakout this spring - Reuters** (0)
+   - **Forrás:** n/a 2026-09-04T10:30:57+00:00 — https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **All the AI agents that can live in your text messages** (0)
+   - **Forrás:** n/a 2026-10-03T14:00:00+00:00 — https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/
+   - **Thesis:** We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **An AI agent emailed researchers for help. It told us why** (0)
+   - **Forrás:** n/a 2026-10-03T10:07:08+00:00 — https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server** (0)
+   - **Forrás:** n/a 2026-10-02T19:10:38+00:00 — https://pipod.dev/
+   - **Thesis:** pi pod runs sessions of the pi coding agent in isolated sandboxes (&quot;pods&quot;) on a server you run, in composable environments.<p>----<p>Since moving my company towards AI-native work, I have been really frustrated by the state of &quot;agentic engineering&quot; environments. Products by the labs (claude code, codex) lock you into a single provider for your tokens. Agnostic solutions (factory, devin, arguably cursor) make you pay per-token costs. None of these products allow you to fully customize the harness…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **GroundAnnot: a closed-vocabulary contract for grounding LLM gene-set annotation in live enrichment backends** (0)
+   - **Forrás:** n/a 2026-10-02T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.09.27.754741
+   - **Thesis:** Motivation: LLM agents increasingly draft functional interpretations of gene lists, but can cite Gene Ontology (GO) terms that no current enrichment backend returned for that list, and can pair real GO accessions with fabricated labels. Results: We present GroundAnnot, a client for PANTHER, Enrichr, and g:Profiler that returns a closed vocabulary of GO term IDs and their backend labels, and enforces two contracts: Contract A (no ID or label outside the backend payload) and Contract B (no enrichment claim outside th…
+   - **Hypothesis-ek:** H103 (Policy Tree Audit)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **bmux** (0)
+   - **Forrás:** n/a 2026-10-01T11:34:50+00:00 — https://www.producthunt.com/products/bmux
+   - **Thesis:** <p> Browser multiplexer for the agentic era </p> <p> <a href="https://www.producthunt.com/products/bmux?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1266609?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Agent Activity** (0)
+   - **Forrás:** n/a 2026-09-30T16:56:38+00:00 — https://www.producthunt.com/products/agent-activity
+   - **Thesis:** <p> See what your AI agents do behind </p> <p> <a href="https://www.producthunt.com/products/agent-activity?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1265885?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Cubicle** (0)
+   - **Forrás:** n/a 2026-09-29T19:41:10+00:00 — https://www.producthunt.com/products/cubicle-2
+   - **Thesis:** <p> A live office for your AI agents, read-only by design </p> <p> <a href="https://www.producthunt.com/products/cubicle-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1264987?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H103** (Policy Tree Audit): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-10-04 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
