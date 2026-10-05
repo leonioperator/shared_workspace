@@ -11693,3 +11693,111 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-10-05
+
+**Forrás:** Blindspot Signals Report 2026-10-05 (41 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.3 – 0
+**Assessment Date:** 2026-10-05
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **EdgeAgent: Orchestrating On-Device LLM inference for End-User Multi-Agent Systems on CPU-GPU Unified Memory Architectures** (0.3)
+   - **Forrás:** n/a 2026-10-02T14:43:42+00:00 — https://arxiv.org/abs/2610.03394
+   - **Thesis:** Emerging multi-agent LLMs demand privacy-preserving edge deployment, yet current inference systems struggle with these collaborative workflows. Specifically, the memory-bound decode phase causes severe bus contention on unified memory architectures (UMA), paralyzing naive CPU-GPU co-execution. Furthermore, speculative decoding in multi-agent workloads faces extreme variance in drafting difficulty, alternating between complex reasoning and predictable structured generation. Compounded by frequent tool-induced stalls…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+2. **Dynamic Expert Pruning for Multi-Agent Systems** (0.2)
+   - **Forrás:** n/a 2026-10-02T07:45:30+00:00 — https://arxiv.org/abs/2610.02951
+   - **Thesis:** Mixture-of-Experts (MoE) architectures scale language models efficiently by activating only a few experts per token, but the saving is confined to computation: every expert must stay resident on the accelerator, so memory bounds where these models can be deployed. Expert pruning reduces this footprint, yet existing methods are static --- a single mask, calibrated offline, is applied to the model for every subsequent request. This assumption can fail when the workload is heterogeneous, most prominently in multi-agen…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+3. **MEA: A Reward-Driven Multi-Agent System for Faithful Model Explanations** (0.2)
+   - **Forrás:** n/a 2026-10-01T20:57:29+00:00 — https://arxiv.org/abs/2610.02480
+   - **Thesis:** Recent years have seen the employment of a plethora of machine learning (ML) models in high-stakes domains, but they remain largely opaque to the practitioners who act on their predictions. While post-hoc explanation methods offer a lens into this model behavior, wielding them effectively demands expertise most domain experts lack: navigating high-dimensional outputs, selecting the best explanations, and synthesizing evidence across disparate tools. To this end, we present MEA, a multi-agent framework that removes…
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity), H90 (Multi-Agent Debate / Research Agents), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **Autonomous mobile robot operations logistics: a dataset of jobs, dispatch events and robot states** (0.2)
+   - **Forrás:** n/a 2026-10-01T19:50:02+00:00 — https://arxiv.org/abs/2610.02428
+   - **Thesis:** Autonomous mobile robots (AMRs) increasingly perform material transport in production logistics, where their operation is governed by job generation, dispatching and robot control. We present MoRoOp, a dataset of AMR operations recorded in a laboratory kit preparation and supply scenario over nine eight-hour shifts. During each shift, an AMR executed stochastically generated kit supply, empty-box refill and charging jobs. The dataset links job specifications, the operations constituting each job, dispatch events do…
+   - **Hypothesis-ek:** H66 (Oversight Incentive / Delay Risk), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **Apple has notified developers that, as AI agents become more advanced & autonomous, full-disk access to all data on a Mac poses an increasing risk - newsshooter.com** (0.1)
+   - **Forrás:** n/a 2026-10-03T06:55:01+00:00 — https://news.google.com/rss/articles/CBMijwJBVV95cUxNNmpPa1J3amh3RWJNR1NOR2ZuVDV0ZTJ1eVpwU1NlYjlQLWR2SjJISnY3OUpvVFZaVnQtOHBsSnFyOXZqWXkxSUJsOEdBNXdrNFp2YW82X2U5ekRWeDh1X2UzdndMVjBzYmQ5SXhnUGlBVDBiSWVKY1JabDdMTENSM2hXM1ZtN01iSTNJc20xdkYyaVBaUHk2QW8xRG1KVTBfcFBqUXowQmFSbTdrTDUwOUZZbi1HVUdabzlkbjNJYzZLMnFQVi1rMnpmdGRVb212R2xLcHhhVjJWTWpaSzVfVWNjamtKU3hpUURwVjRSS1NMZk5FdTRrdHczSVpYU3JibE00TUJGaXZVQVZPUzFJ?oc=5
+   - **Thesis:** Apple has notified developers that, as AI agents become more advanced & autonomous, full-disk access to all data on a Mac poses an increasing risk&nbsp;&nbsp;newsshooter.com
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **Interpreting at Write Time: A Policy Ablation for Multi-Goal Agent Memory** (0.1)
+   - **Forrás:** n/a 2026-10-02T06:44:39+00:00 — https://arxiv.org/abs/2610.02897
+   - **Thesis:** A long-running assistant cannot keep everything it has seen, so it summarises. Summarising is not neutral: what is kept is chosen against some notion of what the record is for, and that choice is made once, before anyone knows which of the user's standing goals will ask. Goals rarely disagree about what happened. They disagree about which parts of it were worth the space. Once the history is too long to re-read, the summary replaces the stream, and whatever it left out is gone. We ask what a memory should summarise…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **Skill2Real: Agentic Skill Learning for Zero-Shot Sim-to-Real Robot Manipulation** (0.1)
+   - **Forrás:** n/a 2026-10-02T04:25:12+00:00 — https://arxiv.org/abs/2610.02788
+   - **Thesis:** Transferring robotic skills from simulation to reality requires task knowledge that remains usable across differences in perception, dynamics, and embodiment. We introduce Skill2Real, an agentic policy framework that learns executable skills through a shared application programming interface (API). A Proposer-Verifier-Governor (PVG) loop uses privileged simulation evidence to diagnose outcomes and validate updates, while keeping learned skills grounded in public observations and API semantics. The Cerebellum first…
+   - **Hypothesis-ek:** H102 (Semantic Drift)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **Data-Driven Static Output-Feedback Control for Multi-Agent Systems** (0.1)
+   - **Forrás:** n/a 2026-10-02T00:28:43+00:00 — https://arxiv.org/abs/2610.02623
+   - **Thesis:** This work proposes a data-driven framework that synthesizes output-feedback control for linear time-invariant multi-agent systems (MAS). We first develop two algorithms that use offline data samples of state and input trajectories to determine a Nash equilibrium (NE) for MAS. Next, we formulate a semidefinite program that, given the NE solution, computes the static output-feedback controllers for the agents in MAS. Compared to prior work, virtues of our framework include weaker controllability assumptions, the abse…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **EXCLUSIVE: OpenAI agents hijacked German website in previously undisclosed AI breakout this spring - Reuters** (0)
+   - **Forrás:** n/a 2026-09-04T10:30:57+00:00 — https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Sellio** (0)
+   - **Forrás:** n/a 2026-10-03T23:54:19+00:00 — https://www.producthunt.com/products/sellio-2
+   - **Thesis:** <p> AI customer support in one shared inbox powered by AI agents </p> <p> <a href="https://www.producthunt.com/products/sellio-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1268954?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H90** (Multi-Agent Debate / Research Agents): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+- **H102** (Semantic Drift): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-10-05 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
