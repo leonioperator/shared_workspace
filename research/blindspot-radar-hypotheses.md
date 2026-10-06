@@ -11801,3 +11801,111 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-10-06
+
+**Forrás:** Blindspot Signals Report 2026-10-06 (39 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.2 – 0.5
+**Assessment Date:** 2026-10-06
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Verification Debt in Automated Biological Research Workflows: A Proof-of-Concept** (0.2)
+   - **Forrás:** n/a 2026-10-05T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.09.29.755250
+   - **Thesis:** Recent biological research has shown significant interest and progress towards adoption of agentic AI systems. Domain specific agentic platforms with access to large collections of biological tools with code generation and/or querying capabilities, such as Biomni (illustrative case in point), are representative of the capability to orchestrate automated research workflows. Such platforms enable collaborative AI workspace for drug discovery, genomics, bioinformatics, literature research, and experimental planning fo…
+   - **Hypothesis-ek:** H62 (Proof Chain), H72 (High-Stakes Integrity)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Instinct brings its AI agent to group chats, even for friends without an account** (0.1)
+   - **Forrás:** n/a 2026-10-05T18:54:30+00:00 — https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/
+   - **Thesis:** Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events. The company says personal accounts remain separate, with permission required before personal agents share information or take action.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+3. **AI governance in financial services: why it's now essential - Wolters Kluwer** (0.1)
+   - **Forrás:** n/a 2026-09-18T07:00:00+00:00 — https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdktUdkZ2M2Y1ZHktZVZ2eWRKWDh1RU9iMUhwUUVSRGhzeUp6YXNMelpYYjVrS3lrYzhmV3ZVc0xBTTI4d09aU3dlVVl4dFVwaThmYTN5NVprYy1vOE1QaUpsWGxYRmNBb0JMWWtuaDlFaUdQSWlRQnE1TGgxRlRidG1iaFQ4UjdZWTdYSmJqSDBwRl9nVkdIaGxwUW15OUFQNlYtS0ZnSUoydw?oc=5
+   - **Thesis:** AI governance in financial services: why it's now essential&nbsp;&nbsp;Wolters Kluwer
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **EXCLUSIVE: OpenAI agents hijacked German website in previously undisclosed AI breakout this spring - Reuters** (0)
+   - **Forrás:** n/a 2026-09-04T10:30:57+00:00 — https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **TikTok rolls out an AI shopping assistant and one-click checkout** (0)
+   - **Forrás:** n/a 2026-10-05T18:29:00+00:00 — https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/
+   - **Thesis:** TikTok describes its new Shopping Assistant as a conversational AI agent designed to help users discover and purchase products.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI** (0)
+   - **Forrás:** n/a 2026-10-05T18:07:07+00:00 — https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/
+   - **Thesis:** Ghost's first product is Core, a personal computer designed specifically for AI agents that can take actions on a person's behalf.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **Agentic campaign control for high-throughput de novo binder design** (0)
+   - **Forrás:** n/a 2026-10-05T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.09.22.753604
+   - **Thesis:** Progress in artificial intelligence has produced a rapidly growing ecosystem of methods for de novo protein design. With access to many specialized and often complementary tools, how does one use them effectively, especially with a finite compute budget? Here, we introduce Target adaptive Rescue-Explore-eXploit (T-REX), an agentic protein binder design framework that orchestrates multiple state-of-the-art protein generative models and structure evaluators. Over the course of a design campaign, T-REX leverages large…
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **SpeechShield** (0)
+   - **Forrás:** n/a 2026-10-04T15:59:56+00:00 — https://www.producthunt.com/products/speechshield
+   - **Thesis:** <p> Live interview & meeting copilot for Mac, from your resume </p> <p> <a href="https://www.producthunt.com/products/speechshield?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="http://www.producthunt.com/r/p/1269546?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Opengeni** (0)
+   - **Forrás:** n/a 2026-09-15T04:52:53+00:00 — https://www.producthunt.com/products/opengeni
+   - **Thesis:** <p> Ship AI agents within minutes. Infrastructure for Agents </p> <p> <a href="https://www.producthunt.com/products/opengeni?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="http://www.producthunt.com/r/p/1250920?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **TRACEDD: A Tool-grounded Reasoning and Agentic Coordination for Explainable Drug Design** (0.5)
+   - **Forrás:** n/a 2026-09-18T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.09.12.751167
+   - **Thesis:** Drug discovery depends on coordinated decisions across target validation, structure analysis, molecular design, developability assessment and synthetic feasibility, but current computational methods often operate as disconnected tools. Here, we introduce TRACEDD (Tool-grounded Reasoning and Agentic Coordination for Explainable Drug Design), a framework that makes three primary contributions: (1) It establishes a 'tool-first' multi agentic architecture where LLMs orchestrate validated computational tools rather than…
+   - **Hypothesis-ek:** H62 (Proof Chain), H72 (High-Stakes Integrity), H105 (Decentralized Governance), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H105** (Decentralized Governance): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-10-06 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
