@@ -12459,3 +12459,108 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-10-12
+
+**Forrás:** Blindspot Signals Report 2026-10-12 (45 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.3 – 0
+**Assessment Date:** 2026-10-12
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Gamma: Grounded Multi-Agent Memory with Mechanical Audit for Memory-Intensive Manipulation** (0.3)
+   - **Forrás:** n/a 2026-10-08T23:00:01+00:00 — https://arxiv.org/abs/2610.12793
+   - **Thesis:** Pretrained vision-language-action (VLA) policies fail on memory tasks, behaviour that depends on events observed long before the current frame, because their training data is overwhelmingly Markov and mapping episodic memory directly to action chunks is hard. Yet the same policy, finetuned once to follow a privileged oracle's grounded-subgoal text, nearly solves these tasks: the difficulty lies entirely in mapping memory to a grounded symbolic subgoal. Existing work entrusts this stage to a single VLM that selects…
+   - **Hypothesis-ek:** H62 (Proof Chain)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Autonomous AI agents discover reverse transcriptases with tandem repeat arrays** (0.1)
+   - **Forrás:** n/a 2026-10-11T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.10.05.755809
+   - **Thesis:** Metagenomic databases hold vast quantities of unexplored genetic material that can seed tools for biotechnology and medicine, but discovery is limited by our ability to examine sequence data at scale. Here, we show that large language models (LLMs) in an autonomous harness can alleviate this bottleneck and surface novel molecular systems. We deployed Claude Code instances to survey reverse transcriptase (RT) loci across 1.9 billion protein clusters. Among the top candidates were array-associated RTs (ART), a novel…
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Multi-agent harnesses need separate message channels** (0.1)
+   - **Forrás:** n/a 2026-10-11T20:34:32+00:00 — https://harshalgajjar.com/blog/multi-agent-harnesses-need-separate-message-channels
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **AI agents overstate their results and remain far from autonomous research, study finds - The Decoder** (0.1)
+   - **Forrás:** n/a 2026-10-11T13:49:19+00:00 — https://news.google.com/rss/articles/CBMirwFBVV95cUxPOXZaTnhCLWhocExIOHpxSElKbHJUUk55WFRqQ3ZqdG5iMUdHVzFxRlk5VWdPaU9iY1dWZ3dFR1RtbW1mdHVuZGVNREJBMXBuU1FjNkticGNSNG44cmlvZ0hfNG91OHBWVUk0c1FHZ3RsLXVLQzVuNEpBUGY1anBkZUF5YXFFTTlWUjVzS013ckt6b2FNNk8xeWVRMEswbUc4d3F3aF9SUHEyeEhFdUxR?oc=5
+   - **Thesis:** AI agents overstate their results and remain far from autonomous research, study finds&nbsp;&nbsp;The Decoder
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **UK AI safety law to stop ‘loss of control’ over autonomous agents - The Times** (0.1)
+   - **Forrás:** n/a 2026-10-09T17:51:24+00:00 — https://news.google.com/rss/articles/CBMimgFBVV95cUxOeHF6c0M3Qi1ENE9RenFEV1dzZ2JfWEl1RjRYUWJpOGZucUQ5NG1xZ0x6aGZJZ1Q3NUdkd2RLd2JuWmxWd3hzU3U0ZWZjWjhEYUplUFRRcmowdV9ubndMR3BUOGE5TElGN2hkRFY5T3Vzb2o0bkhobndyekxBeHdKLXBBYTFHaUt1MlA5WjBoQWJCdWY3R1dsVG9B?oc=5
+   - **Thesis:** UK AI safety law to stop ‘loss of control’ over autonomous agents&nbsp;&nbsp;The Times
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **The value of information and the emergence of communication in evolved e-puck robots** (0.1)
+   - **Forrás:** n/a 2026-10-09T07:12:50+00:00 — https://arxiv.org/abs/2610.13118
+   - **Thesis:** We study when communication emerges between autonomous agents and what role an innate action selection architecture plays. Two e-puck robots, reconstructed in PyBullet from their Webots model and validated against it, must find a feeding zone that can only be detected when a robot passes over it. Each robot can emit a one-bit signal whose direction is detected by the receiver. Control is provided by a GRU recurrent network with a residual path, either operating alone or as a channel within an Embedded Action Select…
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+7. **Distributed Harmonic-Covariance Feedback for Hole Closure in Planar Robot Swarms** (0.1)
+   - **Forrás:** n/a 2026-10-08T18:59:52+00:00 — https://arxiv.org/abs/2610.12637
+   - **Thesis:** We consider hole closure in a planar multi-agent system whose sensing disks form a time-varying Čech complex. We propose a harmonic-covariance feedback that uses harmonic edge signals to locate holes and converts those signals into agent forces. For distributed evaluation, we use a fixed-degree polynomial of the regularized Hodge Laplacian. This polynomial is evaluated through local operator applications. The closed loop has a unique global trajectory from every safe initial state. The model data and initial state…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **EXCLUSIVE: OpenAI agents hijacked German website in previously undisclosed AI breakout this spring - Reuters** (0)
+   - **Forrás:** n/a 2026-09-04T10:30:57+00:00 — https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Show HN: Plimsoll, a self-hosted sandbox for code your AI agent writes** (0)
+   - **Forrás:** n/a 2026-10-11T23:47:59+00:00 — https://github.com/plimsollmark/plimsoll
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **AI agents in a stand-up call** (0)
+   - **Forrás:** n/a 2026-10-11T03:42:47+00:00 — https://atoll92.github.io/agent-standup/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-10-12 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
