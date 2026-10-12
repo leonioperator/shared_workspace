@@ -19,3 +19,5 @@ updated_at: '2026-10-01T06:00:01.967125+00:00'
   quality_score: 4
   source_signal: /writing/research/candidates-2026-09-25.md
   source: https://forecastingresearch.substack.com/p/improving-accuracy-ai-progress-forecasts
+- 2026-10-11 | vinczetamas | vinczetamas-2026-10-11-kontrollalt-ai-operator-kkv.md
+- 2026-10-11 | elkezdodott | elkezdodott-2026-10-11-ai-agent-deterministicus-vegrehajtas.md
