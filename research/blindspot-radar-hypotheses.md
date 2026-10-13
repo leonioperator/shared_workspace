@@ -12564,3 +12564,112 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-10-13
+
+**Forrás:** Blindspot Signals Report 2026-10-13 (43 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.4 – 0
+**Assessment Date:** 2026-10-13
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Systematic Multi-Agent Vision-and-Language Navigation: Formulation, Benchmark, and Method** (0.4)
+   - **Forrás:** n/a 2026-10-07T00:00:00+00:00 — https://huggingface.co/papers/2609.35965
+   - **Thesis:** Vision-and-Language Navigation (VLN) has largely focused on a single agent following a single instruction, yet many real-world applications require teams of robots to tackle tasks beyond the capabilities of any individual agent. We present Systematic Multi-Agent Vision-and-Language Navigation, providing, to our knowledge, the first systematic formalization of multi-agent VLN as a constrained coordination problem: each mission consists of subtasks carrying dependency and resource constraints (presence locks and hold…
+   - **Hypothesis-ek:** H62 (Proof Chain), H104 (Meta-Agent Decomposition), H105 (Decentralized Governance)
+   - **Megerősítés:** A benchmark-konstrukció maga is verifikálható multi-agent pipeline lesz; H104 és H62 közvetlenül erősödik.
+
+2. **AI Agent Governance: How to Secure Autonomous Agents - Appinventiv** (0.2)
+   - **Forrás:** n/a 2026-10-12T12:09:35+00:00 — https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tSl9PeEtHSFRESjhZYTFWUUZ0bG80X1pCV3I3SnRRelNDRkplc1BDSkNHMDQyTjA4VUN5bWpDYkpGay1IUmJSQ0VIWFk5UEktbFRRcV9veUtiV2hfT1E?oc=5
+   - **Thesis:** AI Agent Governance: How to Secure Autonomous Agents&nbsp;&nbsp;Appinventiv
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **AUSA News: Army Sprinting to Field AI Agents to Counter Autonomous Cyberattacks - National Defense Magazine** (0.1)
+   - **Forrás:** n/a 2026-10-12T20:18:46+00:00 — https://news.google.com/rss/articles/CBMixwFBVV95cUxNenRYLWdEMERsa1NKdVNyRDdPODJhRlRaSjZmYjZaMlc4aWxqMUl0UFZaOEpGLTFtbHJkTERPZVRxa0o3WUZMQlRCUWgtTzQwWmlwZUZpODh1NWVtSHdTWExHWnBTdm1SdTlaZzJpZ1FaRmNra0gtRG85VXdxS0JWTmhpb29ITE9ZaFlkOFhjSlZXV1JJODJTd0Z1V05fYm4tSlVMM2pRNHA4bk5xN0ZjeWs1cXpaTXQ2bDFBS2xHTk9RMGt0elg0?oc=5
+   - **Thesis:** AUSA News: Army Sprinting to Field AI Agents to Counter Autonomous Cyberattacks&nbsp;&nbsp;National Defense Magazine
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **How MOps teams are restructuring for autonomous AI agents - MarTech** (0.1)
+   - **Forrás:** n/a 2026-10-12T13:00:34+00:00 — https://news.google.com/rss/articles/CBMihAFBVV95cUxPeExpVjVFTUhtRV9laHNEU3NUdjcxcXV5cV95RTZtbGJJdzc4ek5iVGVEc3VLTDNKYWR3WjRYYmY5TElHaEg2QktTYzN5eGZicURnSHlKcGdkRmJrdTNRaHJmdlpnZndoZGJCMjVwSG1hQzltNUlQUks5UTVKYlFaQlA5NHk?oc=5
+   - **Thesis:** How MOps teams are restructuring for autonomous AI agents&nbsp;&nbsp;MarTech
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **Individual behavioral signatures shape processing of context-dependent social fear** (0.1)
+   - **Forrás:** n/a 2026-10-12T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.10.05.754998
+   - **Thesis:** Context processing is an essential function in the cognitive repertoire of numerous species, including humans and mice, allowing them to learn from their environment and adapt their future behavior. Impairments or alterations in context processing are hypothesized to represent one of the core etiological mechanisms underlying trauma- and stressor-related disorders such as post-traumatic stress disorder (PTSD). Individual behavioral traits are key determinants of post-stress responses; however, how they influence di…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **guilds.run** (0.1)
+   - **Forrás:** n/a 2026-10-09T09:50:52+00:00 — https://www.producthunt.com/products/guilds-run
+   - **Thesis:** <p> Create multi-agent workflows that you can trust </p> <p> <a href="https://www.producthunt.com/products/guilds-run?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1274741?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **EXCLUSIVE: OpenAI agents hijacked German website in previously undisclosed AI breakout this spring - Reuters** (0)
+   - **Forrás:** n/a 2026-09-04T10:30:57+00:00 — https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **OpenKylin: The AI Agent Linux Desktop** (0)
+   - **Forrás:** n/a 2026-10-12T22:42:42+00:00 — https://techstrong.ai/articles/openkylin-the-ai-agent-linux-desktop/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents** (0)
+   - **Forrás:** n/a 2026-10-12T16:46:34+00:00 — https://news.ycombinator.com/item?id=50059096
+   - **Thesis:** Hey HN, I’m Vishnu from Agent37 (<a href="https:&#x2F;&#x2F;agent37.com">https:&#x2F;&#x2F;agent37.com</a>). We build sandboxes for running AI agents at under 10% of the cost of most sandbox providers. Our customers spend an average of $0.37&#x2F;month per sandbox.<p>You can view a video walkthrough of the product here: <a href="https:&#x2F;&#x2F;youtu.be&#x2F;DK5ISR2tbNo" rel="nofollow">https:&#x2F;&#x2F;youtu.be&#x2F;DK5ISR2tbNo</a><p>We started as one of those OpenClaw wrapper companies back in February (yup.. j…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Microsoft president says UK is best placed to drive AI regulation** (0)
+   - **Forrás:** n/a 2026-10-12T15:31:19+00:00 — https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/
+   - **Thesis:** Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.
+   - **Hypothesis-ek:** H66 (Oversight Incentive / Delay Risk)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H104** (Meta-Agent Decomposition): mai signalok által megerősítve
+- **H105** (Decentralized Governance): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-10-13 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
