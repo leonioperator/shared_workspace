@@ -12673,3 +12673,112 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-10-14
+
+**Forrás:** Blindspot Signals Report 2026-10-14 (41 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.5 – 0
+**Assessment Date:** 2026-10-14
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **PANINI-DR: Controlled Deep Research through Generative Semantic Workspaces** (0.5)
+   - **Forrás:** n/a 2026-10-10T00:00:00+00:00 — https://huggingface.co/papers/2610.15208
+   - **Thesis:** Deep research requires connecting multiple steps of search, reasoning, and computation, with intermediate findings guiding what to investigate next. As investigations grow, agents must maintain research state across model calls and check findings before errors propagate into subsequent work. We introduce PANINI-DR, a multi-agent harness that separates coordination of the overall investigation from the research and verification of individual subquestions. A shared workspace, built on the Generative Semantic Workspac…
+   - **Hypothesis-ek:** H62 (Proof Chain), H90 (Multi-Agent Debate / Research Agents), H102 (Semantic Drift), H105 (Decentralized Governance)
+   - **Megerősítés:** A deep-research agenteknél az auditálhatóság, self-verification és domain-grounded reasoning már architektúra-követelmény; H62/H72/H90 erős validáció.
+
+2. **CLARA: Compound Library Active Learning with Reasoning Agents** (0.3)
+   - **Forrás:** n/a 2026-10-12T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.10.05.756921
+   - **Thesis:** Batch active learning for ligand discovery requires a recurring decision about whether to exploit high predicted affinity, reduce model uncertainty, or broaden chemical coverage. We test whether a language model can make this strategy-level decision while candidate ranking and label revelation remain controlled by a deterministic Gaussian-process environment. Across four protein targets, ten paired seeds, and a 360-compound assay budget, a GPT-5.6 Sol agent outperformed random sampling in all 40 matched campaigns.…
+   - **Hypothesis-ek:** H62 (Proof Chain)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **AI governance challenges emerge as enterprises deploy autonomous agents - SC Media** (0.2)
+   - **Forrás:** n/a 2026-10-13T17:01:08+00:00 — https://news.google.com/rss/articles/CBMiowFBVV95cUxOcENxallUUjNNMkx4TjJMd0ctMmxGSUY3bnNBRVZzS0ZuRXYtUi1qZURiMWJEeUVLLUl3d1ZuNUxKLW8xZTdzQXV0NUpLbXpVRzJJQ2NLNmM0NzdVVW9IMFJLVkFiQUhzS3haeUctNFYyNGV6OWZtTkpKbE0weXFJX1NsTjdJZFlJVFdUdHNLMDk4VTU3aU5Sb0lseTV2QWlnV19R?oc=5
+   - **Thesis:** AI governance challenges emerge as enterprises deploy autonomous agents&nbsp;&nbsp;SC Media
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **OpenAI’s autonomous agents behind hacks of US government sites - The Ticker** (0.1)
+   - **Forrás:** n/a 2026-10-13T16:27:36+00:00 — https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ1l1TUdkc1JkcDVxMXc4ZWw3ZkRSaFpQSEVEd3JTVGlKVFEtMGh2QTBQdjgwOE5RYXM3MTNKaW1MbzZuZ3psR01XLVJUQTUtWlRzV1BnT3NNZTlTSnBrNHV6M3l3M2hNaHMzVEtCcHlqYWRVeU9pYlJ5czNiUU9vTEFRVkp1bmJpeGRmNkl4Y2RBcUNZRllNOVZoV2stUGlT?oc=5
+   - **Thesis:** OpenAI’s autonomous agents behind hacks of US government sites&nbsp;&nbsp;The Ticker
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **Show HN: MemorySync – Memory for AI Agents** (0.1)
+   - **Forrás:** n/a 2026-10-13T12:35:42+00:00 — https://memorysync.io/try
+   - **Thesis:** I created MemorySync because I kept running into the problem of AI agents not being able to remember useful things about users between conversations. I wanted an easy way to give the agents memory in my application without having to build the whole thing myself. MemorySync is an API for giving AI agents memory. The application sends MemorySync information provided by the user, MemorySync saves useful memories for that user, and they can be retrieved later when needed. Give it a try without creating an account: <a h…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home** (0)
+   - **Forrás:** n/a 2026-10-13T23:05:34+00:00 — https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/
+   - **Thesis:** Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **Laplace Intelligence red-teams robots and self-driving cars before they hit the real world** (0)
+   - **Forrás:** n/a 2026-10-13T17:30:00+00:00 — https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/
+   - **Thesis:** University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Amex introduces a framework to prevent AI agents from making unauthorized purchases** (0)
+   - **Forrás:** n/a 2026-10-13T13:00:00+00:00 — https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/
+   - **Thesis:** American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping grows.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **The Drive AI** (0)
+   - **Forrás:** n/a 2026-10-13T05:39:15+00:00 — https://www.producthunt.com/products/the-drive-ai-2
+   - **Thesis:** <p> The AI agent that does the work on your files </p> <p> <a href="https://www.producthunt.com/products/the-drive-ai-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1278551?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **CLI Manager** (0)
+   - **Forrás:** n/a 2026-10-10T07:57:49+00:00 — https://www.producthunt.com/products/cli-manager
+   - **Thesis:** <p> Let one AI agent open and drive your other CLI agents </p> <p> <a href="https://www.producthunt.com/products/cli-manager?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1275664?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H90** (Multi-Agent Debate / Research Agents): mai signalok által megerősítve
+- **H102** (Semantic Drift): mai signalok által megerősítve
+- **H105** (Decentralized Governance): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-10-14 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
