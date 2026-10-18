@@ -886,3 +886,21 @@ fatal: adding files failed
 [2026-10-15T21:00:01+02:00] Local workspace changes detected; committing + pushing
 [2026-10-15T21:00:03+02:00] PUSHED: Daily auto-sync 2026-10-15
 [2026-10-15T21:00:03+02:00] DONE
+[2026-10-17T21:00:01+02:00] START workspace_backup
+[2026-10-17T21:00:01+02:00] Local workspace changes detected; committing + pushing
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+remote: error: Trace: 0191fde7f336694f067d5c7baa6fa954506f1e15e78158eb1daa7981f19019c0        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File artifacts/hungary-gps-art-20261017/hungary-latest.osm.pbf is 312.07 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To github.com:leonioperator/workspace.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'github.com:leonioperator/workspace.git'
+remote: error: Trace: 77f8690cd48744d504a90f9c31bb14449c2be5b2181318bc938747b23ccf379b        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File artifacts/hungary-gps-art-20261017/hungary-latest.osm.pbf is 312.07 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To github.com:leonioperator/workspace.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'github.com:leonioperator/workspace.git'
