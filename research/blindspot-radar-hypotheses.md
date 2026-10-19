@@ -13107,3 +13107,113 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-10-19
+
+**Forrás:** Blindspot Signals Report 2026-10-19 (38 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.1 – 0.5
+**Assessment Date:** 2026-10-19
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Hybrid Reasoning Agents: LLM agents that think in latent space, act through text** (0.1)
+   - **Forrás:** n/a 2026-10-18T20:48:14+00:00 — https://arxiv.org/abs/2610.18861
+   - **Thesis:** <a href="https:&#x2F;&#x2F;x.com&#x2F;Jiaru_Zou&#x2F;status&#x2F;2110400256647340476" rel="nofollow">https:&#x2F;&#x2F;x.com&#x2F;Jiaru_Zou&#x2F;status&#x2F;2110400256647340476</a><p><a href="https:&#x2F;&#x2F;github.com&#x2F;togethercomputer&#x2F;HybridAgent" rel="nofollow">https:&#x2F;&#x2F;github.com&#x2F;togethercomputer&#x2F;HybridAgent</a><p><a href="https:&#x2F;&#x2F;huggingface.co&#x2F;collections&#x2F;togethercomputer&#x2F;hybridagent" rel="nofollow">https:&#x2F;&#x2F;huggingface.co&#x2F;collections&#x2F;t…
+   - **Hypothesis-ek:** H100 (Latent Communication Security)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Websites are closing their doors to AI agents** (0)
+   - **Forrás:** n/a 2026-10-18T14:58:10+00:00 — https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+3. **Managing AI Agents: Asia's Next Corporate Challenge - News and Statistics - IndexBox** (0)
+   - **Forrás:** n/a 2026-10-18T14:20:19+00:00 — https://news.google.com/rss/articles/CBMimAFBVV95cUxNTjFEcjRndjFqZ1ByakhWSVpZbG90OGl1dGNJMjZ4XzRlemdCZGN2eXc0OUYzQXUxVWhYOE5HWkZ4WUdoZkRNUzdOYnkxWTlBQUV6N0RxaVJVaGI3R1R3d3Nqekt4NUM0V1laQ1VLdjlPUEhTbjJkaTNFUHViQVlIRlFWNGFmU1U0c2lET1o1UWFSMnRVbmtnag?oc=5
+   - **Thesis:** Managing AI Agents: Asia's Next Corporate Challenge - News and Statistics&nbsp;&nbsp;IndexBox
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **AI agents promise to shop for you, but Amazon, eBay and banks are shutting them out - Ynetnews** (0)
+   - **Forrás:** n/a 2026-10-18T10:45:22+00:00 — https://news.google.com/rss/articles/CBMibEFVX3lxTFBmU3NVUnRqazJKNW93b3BlOC1ZN0l4TmE2U1A0aHo2MlQ1T1JQbkdZemRFNm4wTmZVMUF5Q2taMVhyQTI4UlNFMHdPNnJScHR5UkZjelZ3WXY4NS1YS0MwS0Y5NTlOd2hLd2o3Mw?oc=5
+   - **Thesis:** AI agents promise to shop for you, but Amazon, eBay and banks are shutting them out&nbsp;&nbsp;Ynetnews
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **Anthropic turns to lawyers to help AI agents strike deals - Financial Times** (0)
+   - **Forrás:** n/a 2026-10-18T04:01:06+00:00 — https://news.google.com/rss/articles/CBMihAFBVV95cUxOVmFlM0p6TV9oV3pMdGVaZ3ZVWkpDaU1oZV9JMEVGdkk4dXZoSVhiX2dERjhYRUJjQ252bW9VeVliam5Kemd5YzZjQXVqMlVsRlc2RkM2QUZELWdPTFJSTjk3MkxvUWg1STdiSkVIQWd2ZFU0ZXhhdWI4RGNLTm4yYzVER2c?oc=5
+   - **Thesis:** Anthropic turns to lawyers to help AI agents strike deals&nbsp;&nbsp;Financial Times
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **We ran 53 open-source AI agents through behavioral tests and filed 37 bugs** (0)
+   - **Forrás:** n/a 2026-10-18T00:36:34+00:00 — https://defuzex.ai/blog/we-ran-53-open-source-ai-agents-through-behavioral-tests-and-filed-37-bugs
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **Gravity Notes** (0)
+   - **Forrás:** n/a 2026-10-10T18:10:51+00:00 — https://www.producthunt.com/products/gravity-notes-for-mac
+   - **Thesis:** <p> One list of notes, for you and your AI agents </p> <p> <a href="https://www.producthunt.com/products/gravity-notes-for-mac?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1276094?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Popcraft** (0)
+   - **Forrás:** n/a 2026-09-29T08:31:33+00:00 — https://www.producthunt.com/products/popcraft
+   - **Thesis:** <p> Generate video, images & audio from any AI agent </p> <p> <a href="https://www.producthunt.com/products/popcraft?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1264339?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **AECG: Asymmetric Experience Consolidation and Governance In Multi-Agent Systems** (0.6)
+   - **Forrás:** n/a 2026-10-04T12:38:03+00:00 — https://arxiv.org/abs/2610.05176
+   - **Thesis:** Large language model (LLM)-based multi-agent systems increasingly rely on memory to transform execution trajectories into reusable procedural knowledge. Yet repeated retrieval also makes memory errors persistent: memory pollution arises when outdated, weakly supported, or spuriously successful procedures become recurring components of future reasoning. Multi-agent execution introduces an additional structural risk. Scope collapse occurs when procedural knowledge escapes the coordination scope in which it was shown…
+   - **Hypothesis-ek:** H62 (Proof Chain), H63 (Legal Entity / Human-Centered Governance), H66 (Oversight Incentive / Delay Risk), H90 (Multi-Agent Debate / Research Agents)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+10. **PANINI-DR: Controlled Deep Research through Generative Semantic Workspaces** (0.5)
+   - **Forrás:** n/a 2026-10-10T00:00:00+00:00 — https://huggingface.co/papers/2610.15208
+   - **Thesis:** Deep research requires connecting multiple steps of search, reasoning, and computation, with intermediate findings guiding what to investigate next. As investigations grow, agents must maintain research state across model calls and check findings before errors propagate into subsequent work. We introduce PANINI-DR, a multi-agent harness that separates coordination of the overall investigation from the research and verification of individual subquestions. A shared workspace, built on the Generative Semantic Workspac…
+   - **Hypothesis-ek:** H62 (Proof Chain), H90 (Multi-Agent Debate / Research Agents), H102 (Semantic Drift), H105 (Decentralized Governance)
+   - **Megerősítés:** A deep-research agenteknél az auditálhatóság, self-verification és domain-grounded reasoning már architektúra-követelmény; H62/H72/H90 erős validáció.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H100** (Latent Communication Security): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+- **H90** (Multi-Agent Debate / Research Agents): mai signalok által megerősítve
+- **H102** (Semantic Drift): mai signalok által megerősítve
+- **H105** (Decentralized Governance): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-10-19 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
