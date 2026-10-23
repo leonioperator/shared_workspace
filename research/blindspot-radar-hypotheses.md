@@ -13541,3 +13541,113 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-10-23
+
+**Forrás:** Blindspot Signals Report 2026-10-23 (43 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.1 – 0
+**Assessment Date:** 2026-10-23
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Show HN: CATT 0.2.1: Test agents/services against a Muse/Instinct-alike, in CI** (0.1)
+   - **Forrás:** n/a 2026-10-22T22:18:40+00:00 — https://github.com/Coverage-Cat/consumer-agent-testing-tool
+   - **Thesis:** Hey HN, we recently open sourced our Consumer Agent Testing Tool to help teams iterate against proprietary assistants like Muse and Instinct. We built this to reduce our own frustrations with building an MCP&#x2F;API for these agents to consume.<p>The problem: testing against these tools is hard! Agent memory + account statefulness make reproducibility, in the ways required for repeatable&#x2F;reliable outcomes, between agents and the APIs&#x2F;MCPs they interact with very challenging.<p>The solution: CATT lets dev…
+   - **Hypothesis-ek:** H66 (Oversight Incentive / Delay Risk)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **AEREDIUM Introduces AI Guardrails to Keep Autonomous Agents in Check When Handling Payments and Code - HackerNoon** (0.1)
+   - **Forrás:** n/a 2026-10-22T13:16:34+00:00 — https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZm9IY0hTclo0dGtzWUU2OVBXQUVJNlBWQTlQYWV4S250dlZ5S05OZ2Vfa0gyWEZ2eHFjeEpLaHVCRERKSktJRHFrSHp1SS04aVNKZzZVWHlOM1J0NlVJVWQzRkNFanNEemlmOWRrZjY4bkMtTW9ZNk5wQTVZTzA0N05MVWhYNFg1WElyVm1weF9DTzVHTGdLdzdCY1FVb1ZyTF9kMElEdVd3emF1X0ZCT2k0T0N4YVpFSXZEODlyMkU?oc=5
+   - **Thesis:** AEREDIUM Introduces AI Guardrails to Keep Autonomous Agents in Check When Handling Payments and Code&nbsp;&nbsp;HackerNoon
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Systematic mapping of the prokaryotic noncoding sequence space with a genomic language model** (0.1)
+   - **Forrás:** n/a 2026-10-22T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.10.21.760802
+   - **Thesis:** Prokaryotic genomes encode a vast repertoire of noncoding elements such as ribozymes, riboswitches, and CRISPR RNAs. The sequence-level diversity of these intergenic elements precludes alignment-based clustering that would enable annotation and discovery of novel noncoding RNA families. Here, we show that a genomic language model fine-tuned on prokaryotic intergenic sequences learns representations of noncoding elements from DNA sequence. We used these embeddings to organize 376 million intergenic regions from 1.3…
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance), H71 (Rubric-Guided Policy)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **Open-source, cross-harness memory for AI agents** (0.1)
+   - **Forrás:** n/a 2026-10-21T15:42:38+00:00 — https://news.ycombinator.com/item?id=50182883
+   - **Thesis:** Earlier this year, my co-founder and I found ourselves frequently switching between different coding agents (Claude Code, Codex, Cursor) anytime we ran out of shaky usage limits or a newer, better model came out.<p>We became increasingly frustrated with having to re-explain our tasks, workflows, common mistake patterns, etc. anytime we switched agents. We found no good free alternatives out there, so we built our own and fully open-sourced it!<p>Beacon hooks into 20+ different agent harnesses, captures session tele…
+   - **Hypothesis-ek:** H66 (Oversight Incentive / Delay Risk)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **Locally deployed AI agents for CRISPR guide discovery from outbreak reports** (0.1)
+   - **Forrás:** n/a 2026-10-21T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.10.20.760479
+   - **Thesis:** Translating outbreak reports into computational work supporting diagnostic development requires biological interpretation, literature review, data retrieval, and specialized analysis. We developed a domain-specific agent harness to coordinate a CRISPR guide-discovery pipeline using locally hosted open-weight models. The agent interprets requests, reviews literature, assembles inputs, and initiates analysis; the pipeline assesses candidate guides for researcher inspection. Evaluation with Gemma 4 31B, Nemotron 3.5 S…
+   - **Hypothesis-ek:** H71 (Rubric-Guided Policy), H72 (High-Stakes Integrity), H104 (Meta-Agent Decomposition), H105 (Decentralized Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **Left alone with nothing to do, AI agents started playing** (0)
+   - **Forrás:** n/a 2026-10-23T00:45:37+00:00 — https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/
+   - **Thesis:** MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **US banks are blocking third-party AI agents access to customer accounts** (0)
+   - **Forrás:** n/a 2026-10-22T21:43:46+00:00 — https://www.reuters.com/legal/government/us-banks-detect-unauthorized-ai-agents-customer-accounts-axios-reports-2026-10-22/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **1Password launches a way for AI agents to log in on your behalf without seeing your password** (0)
+   - **Forrás:** n/a 2026-10-22T19:07:09+00:00 — https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/
+   - **Thesis:** The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise** (0)
+   - **Forrás:** n/a 2026-10-22T16:47:17+00:00 — https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/
+   - **Thesis:** Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Spotify’s current AI bet is about being the music service that agents choose** (0)
+   - **Forrás:** n/a 2026-10-22T15:03:58+00:00 — https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/
+   - **Thesis:** Spotify co-CEO Gustav Söderström explains why the rise of AI agents could be good news for the music service.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H71** (Rubric-Guided Policy): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H104** (Meta-Agent Decomposition): mai signalok által megerősítve
+- **H105** (Decentralized Governance): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-10-23 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
