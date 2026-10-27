@@ -13980,3 +13980,108 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-10-27
+
+**Forrás:** Blindspot Signals Report 2026-10-27 (42 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.2 – 0
+**Assessment Date:** 2026-10-27
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Encoding activity predicts distinct recognition signals during working and long-term memory in the human hippocampus** (0.2)
+   - **Forrás:** n/a 2026-10-26T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.10.21.759719
+   - **Thesis:** Neurocomputational models predict that episodic memories are represented by sparse, pattern-separated hippocampal codes. Recognition within working memory capacity may instead rely on overlapping cortical codes. We analyzed human intracranial microwire recordings during a continuous recognition task to test whether retrieval demand and spiking activity at encoding determine which neural signal is expressed. We show that relative increases in firing from pre-stimulus to post-stimulus onset at encoding predicted an i…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+2. **Cyber hackers use autonomous AI agents to breach over 100 company websites - Beinsure** (0.1)
+   - **Forrás:** n/a 2026-10-26T19:51:55+00:00 — https://news.google.com/rss/articles/CBMijAFBVV95cUxQUndvUXhGVVF6WUhuNUNWblhwMUVkOW91Mkh6aUJDRGkta1Y1VGY2eVVfSVJnTzVPZHRobHUtYU1kZEJ0X0VKVWRsdUJyLWQ3UXhoeGxuSTM5NWU3eVdDYmFESUF0eG4wSklFeVlxT1lrU3BTZV9Ua3NtcnVfR05WZXpWLXB0ajNfVm0xVw?oc=5
+   - **Thesis:** Cyber hackers use autonomous AI agents to breach over 100 company websites&nbsp;&nbsp;Beinsure
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Experts: Nigerian firms must own AI decisions - The Sun Nigeria** (0.1)
+   - **Forrás:** n/a 2026-10-26T23:50:33+00:00 — https://news.google.com/rss/articles/CBMicEFVX3lxTE1VR2FzWHhVU2cydkJNVUExUDMxa1lHblZaYm0zeEp3RmhKRnFiMVJqMmtCcFdRNnlkTGJ5YUJncWNqVk1ScU9vbnJEUnNnX3lCNjhtTTBxa0xBSTR0bmJWVEtwUVdSUjVMUF81NnJxdUw?oc=5
+   - **Thesis:** Experts: Nigerian firms must own AI decisions&nbsp;&nbsp;The Sun Nigeria
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **Ritual Launches AI-Native Layer 1 for Autonomous Agents - The Daily Hodl** (0.1)
+   - **Forrás:** n/a 2026-10-26T18:24:55+00:00 — https://news.google.com/rss/articles/CBMikwFBVV95cUxQazJIZEEyS1NQMERLYUZuejFqVV9fUlR5NV9hWEVNMkFYcExRcDRPa2E4M3pkVi1aNm5ydGRueXA4OE41UEtMV0I3U0pkSWs1SExGbHAtMWhSbDBrN3NHUmtoSnB2OFF5YTk2aEJENnpBc3JUMFJ2Y2JoaXFmeXQ0N0JSSnNnazRLRWNINUY2SEg0amvSAZgBQVVfeXFMTXdTVVYybGhjY0twV1BZdUg2UThWVkx0Q25DSXJrZkI1VTRBSmVnUDk0TWlXTVYtVFd0bGtkVnQ3c0dqSUNLY2FTa0tIRVdkcllTd3VoRGY5blkxaU1VNEN6c21iWWgtSnE4bm5adVNXVkxnSkpvVnlTQU44amU3bzR2VDVWMDYwc3Axb2ZDYlJPMDRtamUyNkY?oc=5
+   - **Thesis:** Ritual Launches AI-Native Layer 1 for Autonomous Agents&nbsp;&nbsp;The Daily Hodl
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **Postsynaptic TAK1-GluN2B axis supports hippocampal synaptic integrity and cognitive function during aging** (0.1)
+   - **Forrás:** n/a 2026-10-26T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.10.25.761716
+   - **Thesis:** Transforming growth factor {beta}-activated kinase 1 (TAK1) is a serine/threonine kinase best known for its roles in immune and stress-response signaling, yet its physiological function in mature neurons remains poorly understood. Here we identify neuronal TAK1 as a regulator of excitatory synaptic integrity, hippocampal plasticity and memory. Conditional reduction of TAK1 in forebrain excitatory neurons impaired short- and long-term memory and was accompanied by attenuated long-term potentiation in the hippocampus…
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **gitroomhq / postiz app** (0)
+   - **Forrás:** n/a 2026-10-27T02:01:44.420726+00:00 — https://github.com/gitroomhq/postiz-app
+   - **Thesis:** 📨 The ultimate agentic social media scheduling tool 🤖
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **How OpenAI turned its coding tools into dots, an always-on personal assistant** (0)
+   - **Forrás:** n/a 2026-10-27T02:00:00+00:00 — https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/
+   - **Thesis:** Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Argus – Open-Source Agentic Security Platform – MIT** (0)
+   - **Forrás:** n/a 2026-10-26T20:17:41+00:00 — https://argusone.online
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Michigan prof creates Python-like Jac language for AI agents** (0)
+   - **Forrás:** n/a 2026-10-26T18:31:10+00:00 — https://www.theregister.com/devops/2026/10/23/michigan-prof-creates-python-like-jac-language-for-ai-agents/5305110
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Jobmate AI** (0)
+   - **Forrás:** n/a 2026-10-25T22:59:42+00:00 — https://www.producthunt.com/products/jobmate-ai-3
+   - **Thesis:** <p> The humanized AI Copilot for your entire Job search </p> <p> <a href="https://www.producthunt.com/products/jobmate-ai-3?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="http://www.producthunt.com/r/p/1292687?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-10-27 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
