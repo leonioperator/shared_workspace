@@ -14405,3 +14405,111 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-10-31
+
+**Forrás:** Blindspot Signals Report 2026-10-31 (52 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.4 – 0.1
+**Assessment Date:** 2026-10-31
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Locating and Closing Information Gaps in Multi-Agent Systems** (0.4)
+   - **Forrás:** n/a 2026-10-29T14:45:43+00:00 — https://arxiv.org/abs/2610.40186
+   - **Thesis:** Multi-step Web tasks often require several LLM agents to gather and combine evidence. The communication graph of a fixed workflow restricts which agents can read each other's outputs: evidence retrieved by one agent may never reach the agent that needs it, leaving an information gap and an incomplete or incorrect answer. Adding a connection can deliver the missing evidence, but can also lead the receiver to adopt an incorrect upstream conclusion that displaces a correct answer; the final output alone does not separ…
+   - **Hypothesis-ek:** H62 (Proof Chain)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Auditable Belief Updates as a Missing Safety Layer for LLM-Powered Multi-Agent Systems** (0.3)
+   - **Forrás:** n/a 2026-10-28T20:40:33+00:00 — https://arxiv.org/abs/2610.38869
+   - **Thesis:** Large Language Models (LLMs) are increasingly being used as cognitive interfaces that shape how users interpret evidence, communicate, and make decisions. As deployed systems become more multimodal, tool-using, and multi-agent, safety failures no longer arise only from isolated harmful outputs, but also from how agents update, store, and propagate epistemic commitments across retrieval, memory, tools, and peer communication. In this paper, we define belief as an engineering abstraction for evidence-based commitment…
+   - **Hypothesis-ek:** H62 (Proof Chain), H101 (Misinformation / Ensemble Resilience), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Disparity Laundering: Consensus Without Fairness in Clinical Multi-Agent Systems** (0.2)
+   - **Forrás:** n/a 2026-10-28T03:10:28+00:00 — https://arxiv.org/abs/2610.38215
+   - **Thesis:** Clinical large language models are increasingly fielded as multi-agent teams, on the assumption that deliberation averages out individual error. It does not average out bias. Across a full factorial of five model families and four aggregation topologies on 120 real MIMIC-IV emergency cases under counterfactual demographic swaps, no configuration neutralizes the disparity: all 20 cells commit the direction of their agents' independent answers, giving Black patients more acute triage. Every model has a topology that…
+   - **Hypothesis-ek:** H66 (Oversight Incentive / Delay Risk), H101 (Misinformation / Ensemble Resilience)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **Is it my preference? Role Grounding Attack against Agent's Memory via Social Interaction** (0.2)
+   - **Forrás:** n/a 2026-10-28T03:03:29+00:00 — https://arxiv.org/abs/2610.38209
+   - **Thesis:** LLM-based agents now share experiences on social platforms and remember new preferences to enhance their performance. However, existing memory systems contain a vulnerability in role-to-principal attribution that attackers can exploit. We identify Role Grounding Misattribution, in which an attacker-designed interaction causes the victim agent to incorrectly record a preference from the attacker as a preference of the victim's user. Specifically, we are the first to formalize Role Grounding Attack (RGA), an attack m…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks** (0.1)
+   - **Forrás:** n/a 2026-10-29T13:30:16+00:00 — https://arxiv.org/abs/2610.40016
+   - **Thesis:** Agentic robots must turn a high-level goal into actions while keeping the physical conditions needed for future steps valid. A completed action does not ensure that its effects will persist: a later disturbance can invalidate support that the remaining plan still assumes. We present LOGIV, a graph engineering framework for agentic robot execution that uses an explicit task graph to connect symbolic planning, observation-based verification, and embodied action. LOGIV compiles a validated plan into condition-support…
+   - **Hypothesis-ek:** H62 (Proof Chain), H101 (Misinformation / Ensemble Resilience)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **Long-Term Agent Memory through Complementary Curation and Consolidation** (0.1)
+   - **Forrás:** n/a 2026-10-29T10:40:18+00:00 — https://arxiv.org/abs/2610.39790
+   - **Thesis:** Long-horizon dialogue agents require effective memory systems to recall facts, events, and relationships from interaction histories. In this work, we propose a hybrid-memory architecture comprising episodic memories and structured relational memories and a consolidation mechanism which preserves efficiency. We conduct an empirical study across two benchmarks: LoCoMo and LongMemEval-S. Our experiments demonstrate that the two memory types are consistently complementary, combining both outperform state-of-the-art mem…
+   - **Hypothesis-ek:** H62 (Proof Chain)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+7. **MemSteer: Turning User Histories into Supervision for Agent Memory Optimization** (0.1)
+   - **Forrás:** n/a 2026-10-29T03:28:49+00:00 — https://arxiv.org/abs/2610.39276
+   - **Thesis:** An effective agent memory system should adapt to a user's history and task requirements. Human-annotated supervision can guide this adaptation by providing feedback for evaluating and improving memory designs. Yet suitable labels are rarely available for new user histories, and manually constructing QA pairs and supporting evidence is costly. We introduce MemSteer, which turns unlabeled user histories into question-answer (QA) supervision with supporting evidence for memory-design optimization. MemSteer constructs…
+   - **Hypothesis-ek:** H101 (Misinformation / Ensemble Resilience)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **Agentic Discovery Transfer Enables Cross-Cancer Discovery at Scale** (0.1)
+   - **Forrás:** n/a 2026-10-29T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.10.28.762506
+   - **Thesis:** Cancer research generates tens of thousands of studies each year, yet whether a published finding holds in another cancer type or patient population is rarely tested, because doing so is labor-intensive and difficult to scale. We define this task as discovery transfer and present SMART, a multi-agent large language model framework for discovery transfer in single-cell RNA-sequencing (scRNA-seq) studies. Given a source manuscript and a target scRNA-seq dataset, SMART extracts major clinical and mechanistic findings,…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Refactored intracellular domains enhance CAR expression and function** (0.1)
+   - **Forrás:** n/a 2026-10-29T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.10.28.762481
+   - **Thesis:** Chimeric antigen receptor (CAR) intracellular domains (ICDs) couple antigen recognition to T-cell activation. Here we worked with AI agents to refactor CAR ICDs, proposing designs and refining them as measurements accumulated over three rounds. This approach yielded KRGR-{zeta}1-40, a 45-amino-acid ICD less than a third the length of the clinical 4-1BB-CD3{zeta} (BB{zeta}) ICD. Compared with BB{zeta}, KRGR-{zeta}1-40 increased CAR surface expression and antigen-driven IFN-{gamma} release, without detectable antigen…
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+10. **Agentic AI Reasoning and Learned Sampling for Task-Aware Projection Selection in Sparse-View CT: Predicting Hemodynamics** (0.1)
+   - **Forrás:** n/a 2026-10-28T22:30:30+00:00 — https://arxiv.org/abs/2610.39003
+   - **Thesis:** Sparse-view computed tomography (CT) reduces the number of acquired projections, but conventional sampling strategies are designed primarily for image reconstruction rather than for downstream physical inference. Here, we investigate optimal task-aware projection selection for directly predicting hemodynamics from sparse CT angiography (CTA) measurements. Using computational fluid dynamics simulations of intracranial aneurysms, we generate synthetic fan-beam CTA projections and train a Fourier neural operator (FNO)…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H101** (Misinformation / Ensemble Resilience): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-10-31 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
