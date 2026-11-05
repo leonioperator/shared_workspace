@@ -14951,3 +14951,113 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-11-05
+
+**Forrás:** Blindspot Signals Report 2026-11-05 (60 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.3 – 0.1
+**Assessment Date:** 2026-11-05
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **ATC: Agent Trajectory Control for Role-Contract Enforcement in Black-Box Multi-Agent Systems** (0.3)
+   - **Forrás:** n/a 2026-11-03T04:57:47+00:00 — https://arxiv.org/abs/2611.04321
+   - **Thesis:** Multi-agent LLM systems assign different responsibilities to different agents: one plans, another retrieves evidence, another verifies, another executes. This division of labor is only meaningful if each agent stays within the functions it is authorized to perform. Over many turns, however, an agent can produce a locally reasonable message that exercises authority belonging to another role: a verifier that begins planning, a retriever that asserts unsupported conclusions, an executor that changes state no one appro…
+   - **Hypothesis-ek:** H102 (Semantic Drift)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Brain Decoding from a Deep Neural Network of Visual Memory Reveals the Maturation Trajectory of Memory Systems across Ages 3-7** (0.2)
+   - **Forrás:** n/a 2026-11-04T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.11.03.763814
+   - **Thesis:** Memories from the first four years of life are largely inaccessible by adulthood, yet these early experiences profoundly shape cognition throughout development. Understanding this phenomenon of infantile amnesia is critical for revealing the mechanisms of early memory development. Here, we developed a new content-based behavioral measure of memory that quantifies how closely children's memory patterns resemble those of adults, which we term the memory maturation score. Using a movie-watching fMRI dataset spanning a…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+3. **Haptic Shared Control for Multi-Robot Systems** (0.2)
+   - **Forrás:** n/a 2026-11-03T15:03:48+00:00 — https://arxiv.org/abs/2611.05027
+   - **Thesis:** Multi-agent systems offer significant advantages in terms of flexibility and redundancy, enabling the efficient distribution of complex tasks among multiple robots. However, their deployment requires advanced control strategies to ensure optimal cooperation between autonomous agents and human operators. We propose a modification of the global connectivity maintenance algorithm to incorporate measurements taken in agent's local frame, using sensors with limited fields of view. This algorithm, responsible for the aut…
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **Inter-Agent Influence: Evaluating Persuasion, Deception, and Coercion in Multi-Agent Systems** (0.2)
+   - **Forrás:** n/a 2026-11-03T09:23:12+00:00 — https://arxiv.org/abs/2611.04556
+   - **Thesis:** The deployment of AI agents in multi-agent settings enables inter-agent influence, whereby agents can strategically steer each other's behaviour towards an intended outcome. Such capabilities pose novel risks, as malicious agents could direct others towards harmful actions. In this work we investigate three such capabilities - persuasion, deception, and coercion - across five realistic evaluation environments and a variety of agents instantiated with frontier language models. We observed significant inter-agent inf…
+   - **Hypothesis-ek:** H66 (Oversight Incentive / Delay Risk)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **The Reasoning Paradox in Scientific Sandboxes: Why Extended Reasoning Fails in Autonomous Bioinformatics and How to Fix It.** (0.2)
+   - **Forrás:** n/a 2026-11-03T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.10.30.763189
+   - **Thesis:** Frontier large language models (LLMs) trained with extended reasoning, such as DeepSeek-R1 and OpenAI o1, have established state-of-the-art benchmarks in formal logic, competitive programming, and mathematics. In interactive, empirical scientific sandboxes, however, their efficacy remains counter-intuitive. In the Bioinformatics Benchmark (BixBench), extended reasoning models paradoxically degraded in multi-turn environments, leading benchmark authors to exclude them from primary agentic evaluations. In this paper,…
+   - **Hypothesis-ek:** H62 (Proof Chain), H63 (Legal Entity / Human-Centered Governance), H72 (High-Stakes Integrity), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **Beyond Division of Labor: How Roles Shape Feedback and Recovery in Multi-Agent Systems** (0.2)
+   - **Forrás:** n/a 2026-11-02T20:35:24+00:00 — https://arxiv.org/abs/2611.03931
+   - **Thesis:** Roles in multi-agent large language model (LLM) systems allocate decisions as well as work. In a Planner--Executor--Reviewer team, the Reviewer's approval can determine when the team submits an answer and receives corrective feedback. We study both functions by varying role instructions while holding agents, topology, call budget, and ground-truth evaluator constant, using three open-weight models on Omni-MATH and two on SciBench. Removing roles largely eliminates functional specialization without lowering first-pa…
+   - **Hypothesis-ek:** H62 (Proof Chain), H66 (Oversight Incentive / Delay Risk), H101 (Misinformation / Ensemble Resilience)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+7. **NVIDIA / auto ontology** (0.1)
+   - **Forrás:** n/a 2026-11-05T02:01:43.381493+00:00 — https://github.com/NVIDIA/auto-ontology
+   - **Thesis:** Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.
+   - **Hypothesis-ek:** H102 (Semantic Drift)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **OCC Unveils New Framework For Bank Use Of AI, Warns Of Risks From Autonomous Agents - CU Today** (0.1)
+   - **Forrás:** n/a 2026-11-04T22:20:53+00:00 — https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWGROdlczNFRCY1pCVE0zWExhX3c4LTNoTVQxN01WMGZyUmZpX1JnZkFCc0tZaDFtdnFhZzVFaW5SUFZMUW1TUnVFbkpicHZ2aG5oNldWVXFoYW9MWEtRWHQ1T0MtYnhmbFBiNGJoV0lZUjJ0dlBrbk9tRUhVM241T3FkQ19OQ0VBdFNmWmRWaU9MT1dKVFUzMnJoV3BzY2lfcENlc3NIMXRkbm8tTW9WLWhaZ0JwTDBfXzc0?oc=5
+   - **Thesis:** OCC Unveils New Framework For Bank Use Of AI, Warns Of Risks From Autonomous Agents&nbsp;&nbsp;CU Today
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+9. **Exclusive | AI Security Startup Sentra Raises $150 Million to Police Autonomous Agents - WSJ** (0.1)
+   - **Forrás:** n/a 2026-11-04T14:08:37+00:00 — https://news.google.com/rss/articles/CBMivAFBVV95cUxPYXoxT3FYWjJHMDlHckQ0b0d4Z2ZYUnpRUjhzcFFLalFuYXdaV0hwLWJYOWh3U0FTTVJkNXFOcWpNSkRfc1lkT0preHVMN2JkdEJVUDJoaVhVV1lGdUNjdkNqY2xGeHBob1dCXzl2azhKX2U4UmtxejVuZTl1aUhGaHRYTTh1bGFaWVRPWTNZckdiTXhfSUVSb3hxWXhoaVBGdjRGT1hjTEprZUZPbmUxUmFZMlFHX3IzQmIyVg?oc=5
+   - **Thesis:** Exclusive | AI Security Startup Sentra Raises $150 Million to Police Autonomous Agents&nbsp;&nbsp;WSJ
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+10. **Google fine-tunes its Agentic Data Cloud to support highly scalable autonomous AI workers - SiliconANGLE** (0.1)
+   - **Forrás:** n/a 2026-11-04T14:00:00+00:00 — https://news.google.com/rss/articles/CBMixAFBVV95cUxNb3FNSjJEZlRiUEpwMjAwQS05amlaR01iMzZPSG9EY0lETWVqNFhPU3FGZDRHY2d3Sk14Vy0yQzJ4aDJkMnBVaW5HMHM1ai1DQjBxWmI5dzllbmpKRXo2WjVaZDM5dmoyczl6UjhqMWl0b19kcUxpUk12S1RmRVBMZ0U2QlR5OFYxX0ZCYW16WlpYaUhvMDdIdXB0XzJCMl95aGRJT0h0ajM5SFNPWWNjVi1TUGVyMXRtLTJiYmxHQVVxUlk2?oc=5
+   - **Thesis:** Google fine-tunes its Agentic Data Cloud to support highly scalable autonomous AI workers&nbsp;&nbsp;SiliconANGLE
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H102** (Semantic Drift): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H101** (Misinformation / Ensemble Resilience): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-11-05 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
