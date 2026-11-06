@@ -15061,3 +15061,111 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-11-06
+
+**Forrás:** Blindspot Signals Report 2026-11-06 (52 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.3 – 0
+**Assessment Date:** 2026-11-06
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **H^2MARL: Hierarchical Heterogeneous Multi-agent Reinforcement Learning for Humanoid Robot Control** (0.3)
+   - **Forrás:** n/a 2026-11-04T13:48:34+00:00 — https://arxiv.org/abs/2611.06523
+   - **Thesis:** Coordinated whole-body control of humanoid robots remains challenging due to high-dimensional coupled dynamics and substantial physical heterogeneity across joint degrees of freedom (JDoFs). Existing multi-agent reinforcement learning methods either employ coarse agent partitions or directly apply generic heterogeneous-agent algorithms, while hierarchical controllers commonly optimize high-level planning and low-level execution independently, leading to uncoordinated motion. In this paper, we propose H^2MARL, a hie…
+   - **Hypothesis-ek:** H105 (Decentralized Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **ADAPT for Science: A Multi-Agent System for Self-Evolving Scientific Optimization** (0.2)
+   - **Forrás:** n/a 2026-10-22T07:28:46+00:00 — https://arxiv.org/abs/2610.30851
+   - **Thesis:** Scientific discovery often requires identifying a small number of high-performing designs in vast, constrained search spaces. This is difficult when evaluations are costly, feasible solutions are sparse, parameters are strongly coupled, and physical constraints are strict. Recent AI for AI methods can automatically improve algorithms and optimization procedures. However, general purpose approaches are not designed around scientific priors, physical constraints, and limited evaluation budgets. We introduce ADAPT for…
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity), H90 (Multi-Agent Debate / Research Agents)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3** (0.1)
+   - **Forrás:** n/a 2026-11-05T17:17:42+00:00 — https://github.com/rivet-dev/rivet
+   - **Thesis:** Hey HN, this is Nathan and Nicholas from Rivet (<a href="https:&#x2F;&#x2F;rivet.dev">https:&#x2F;&#x2F;rivet.dev</a>) – a fast, high-density, and scalable orchestrator for agentic workloads using the actor model. Rather than running a heavyweight sandbox per agent, each agent gets a lightweight actor backed by S3.<p>Actors provide a long-lived process for long agent turns, in-memory state for context, a WebSocket server for multiplayer, durable SQLite storage backed by S3, and hibernation when idle.<p>It&#x27;s a…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **Building a Multi-Agent System from Scratch: Architecture Patterns** (0.1)
+   - **Forrás:** n/a 2026-11-05T15:51:57+00:00 — https://kadhar.dev/blog/multi-agent-systems-from-scratch
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **Safeguarding Your Business in the Era of Autonomous AI Agents - BankInfoSecurity** (0.1)
+   - **Forrás:** n/a 2026-11-05T12:08:58+00:00 — https://news.google.com/rss/articles/CBMimwFBVV95cUxNQU5YWENmekIyUk9iai1IQjZMWTVaVUU5ZE9PTVBQS2lYWUY5MERqTWhnU0dPTEpHRFMxOWpBNGNhQTR4NWNYZ3kwb241SnNsUlZFTUFaUWtucGM0MUM2bm12bWNZMVlHaFdxaWlHY0FGZFBXQVQtYjRMT01jZ0dndGREYkxyZGtfZ3ZMOXhZT01XYWMzUldNYlZPZw?oc=5
+   - **Thesis:** Safeguarding Your Business in the Era of Autonomous AI Agents&nbsp;&nbsp;BankInfoSecurity
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **SUMONE: A Simple and Efficient Summarizer for Plug-and-Play Agent Memory** (0.1)
+   - **Forrás:** n/a 2026-11-04T12:49:07+00:00 — https://arxiv.org/abs/2611.06445
+   - **Thesis:** Long-horizon language-model agents accumulate increasingly large interaction histories, making context compaction essential for efficient execution. Existing learned compaction methods often rely on downstream task outcomes or solver behavior, coupling training to specific tasks or agents. We introduce SumOne, a standalone summarizer trained to preserve information in agent histories through masked reconstruction. Given a summary of the expired history, a frozen reconstructor recovers randomly masked portions of th…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **FlyHash for LLM Agent Memory: An Empirical Validation and a New Application** (0.1)
+   - **Forrás:** n/a 2026-11-04T00:57:24+00:00 — https://arxiv.org/abs/2611.05791
+   - **Thesis:** Large language model (LLM) agents increasingly rely on external memory stores to retain information across conversations, typically via dense vector embeddings searched with approximate nearest-neighbor methods. The fruit fly's olfactory circuit computes a locality-sensitive hash of sensory input using a strikingly different mechanism - sparse random projection followed by winner-take-all competition - and prior work (Dasgupta et al., 2017) showed this scheme, dubbed FlyHash, preserves neighbor structure better per…
+   - **Hypothesis-ek:** H62 (Proof Chain)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **Living Brain** (0.1)
+   - **Forrás:** n/a 2026-11-02T15:07:36+00:00 — https://www.producthunt.com/products/chatandbuild
+   - **Thesis:** <p> Interoperable, efficient memory layer for agentic AI </p> <p> <a href="https://www.producthunt.com/products/chatandbuild?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1301788?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **vercel labs / agent browser** (0)
+   - **Forrás:** n/a 2026-11-06T02:01:42.797290+00:00 — https://github.com/vercel-labs/agent-browser
+   - **Thesis:** Browser automation CLI for AI agents
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Airbnb says it’s launching an AI travel agent in the first half of 2027** (0)
+   - **Forrás:** n/a 2026-11-05T22:40:55+00:00 — https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/
+   - **Thesis:** Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H105** (Decentralized Governance): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H90** (Multi-Agent Debate / Research Agents): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-11-06 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
