@@ -15169,3 +15169,112 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-11-07
+
+**Forrás:** Blindspot Signals Report 2026-11-07 (48 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.2 – 0
+**Assessment Date:** 2026-11-07
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **RoboARCade: Benchmarking Agentic Robot Control** (0.2)
+   - **Forrás:** n/a 2026-11-05T16:00:16+00:00 — https://arxiv.org/abs/2611.08209
+   - **Thesis:** Improvements in multi-modal capabilities have enabled agents to act directly as robot policies, a setting we refer to as agentic robot control (ARC). We introduce RoboARCade, a benchmark of long-horizon manipulation tasks across three embodiments designed to test in-context adaptation, memory, and reasoning for precise control. The tasks build on existing open-source benchmarks, which we make harder by widening the range of initial conditions. RoboARCade is easy to use and extend: all tasks run on a single simulati…
+   - **Hypothesis-ek:** H62 (Proof Chain)
+   - **Megerősítés:** A benchmark-konstrukció maga is verifikálható multi-agent pipeline lesz; H104 és H62 közvetlenül erősödik.
+
+2. **OpenAN Takes Aim at the Next Frontier of Autonomous Networks: Getting AI Agents to Work Together - Fierce Network** (0.1)
+   - **Forrás:** n/a 2026-11-06T18:15:00+00:00 — https://news.google.com/rss/articles/CBMiwAFBVV95cUxOc3FPeks3cHFUdFhUdmZ6aTNEY2p0SldxOXd3LUVfU2tLNEZtamJxVlptNWRDS0UzWVV5Qy1sUGhhNW1IeFBtVXNqb1lTMTViRTZJY3FjdF9lQkVxbldRVk9xYVQ0WTZyaUpWZ0tTdDV5RjR4bVBkU0ZzSWtYbTlBM3FvVnA1NmQyQmtQXzVSYl9BeHpwREpPSER1UlJtTEhOZzdYNEtNZlNObHl1RmtUWTNqaTlGNkdURnVXSDhSby0?oc=5
+   - **Thesis:** OpenAN Takes Aim at the Next Frontier of Autonomous Networks: Getting AI Agents to Work Together&nbsp;&nbsp;Fierce Network
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Taming Autonomous AI Agents with Rootless Docker - HackerNoon** (0.1)
+   - **Forrás:** n/a 2026-11-06T16:20:34+00:00 — https://news.google.com/rss/articles/CBMie0FVX3lxTE93SnYxWnFkaEZNQy1hUWtlSUh5eUtuTEN0b0JndWRTbVB6UXV3MjlXMTRpbUxoNDMxS09GVWxucjZuc3JFV0R4eTc5WXp0dzNPN2FDcWtCS3A1S2NYRFF6UGNmRFdKTE5GNDF5ellBQXpsY1d3d1otMEhwQQ?oc=5
+   - **Thesis:** Taming Autonomous AI Agents with Rootless Docker&nbsp;&nbsp;HackerNoon
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **Show HN: Agentic Identity Broker, OAuth Delegation for AI Agents** (0.1)
+   - **Forrás:** n/a 2026-11-06T15:07:47+00:00 — https://github.com/zalando-incubator/agentic-identity-broker
+   - **Thesis:** Hi HN, I’m Jan. I am co-author of the Agentic Identity Broker (AIB), an MIT-licensed OAuth2 broker in the Zalando Incubator, that lets a user give an AI agent scoped, revocable access to MCP services.<p>The broker solves three major challenges that are especially relevant in corporate environments: (A) Enable users to delegate workloads to agents without providing the agents all the user’s tokens. (B) Connect fragmented identity and authorization systems. (C) Centralize tool approvals and audit logging.<p>We built…
+   - **Hypothesis-ek:** H66 (Oversight Incentive / Delay Risk)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **Automahout: an autonomous image analysis system for cell tracking** (0.1)
+   - **Forrás:** n/a 2026-11-06T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.11.04.764293
+   - **Thesis:** Cell tracking in time-lapse images is complex image analysis that involves detection, linking and proofreading, often requiring the algorithm to be tuned for every new dataset. We present Automahout, an autonomous agent for the Mastodon/ELEPHANT platform that carries out these operations. It looks at the data and tries existing models; where none fits, it annotates reference cells, trains a detector from those sparse annotations, reviews its output against them and feeds the corrections back until its own stopping…
+   - **Hypothesis-ek:** H62 (Proof Chain), H63 (Legal Entity / Human-Centered Governance), H71 (Rubric-Guided Policy), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **Enhancing Local and Global Structure in Compressed AI Agent Memory** (0.1)
+   - **Forrás:** n/a 2026-11-05T17:27:08+00:00 — https://arxiv.org/abs/2611.08341
+   - **Thesis:** AI agents store text as embedding vectors and compress them at scale. A compression is accepted when each item's nearest neighbors survive, but agents also consolidate, delete, and compare memories, tasks that depend on which items lie far apart. We evaluate both ends with two label-free fidelities from our prior work: the local fidelity $L$ at 10 neighbors and the global fidelity $G$ at 30 to 50 percent of the memory. At 96 bytes per passage, rescored binary codes reach an $L$ of 0.97 yet move 10.1 percent of pass…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **Show HN: Agents infer Lego mechanisms from sources, then animate them** (0)
+   - **Forrás:** n/a 2026-11-06T19:41:20+00:00 — https://github.com/anteloc/ldraw-mecha/tree/v0.5.0
+   - **Thesis:** Hi there :)<p>Around a month ago, I released LDraw Nova, an agentic toolset for assembling LEGO CAD models by generating LDraw source code files.<p>For more details, here&#x27;s the Show HN post:<p><a href="https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49937916">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49937916</a><p>From the comments, I got the impression that there was quite an interest in seeing not only AI-generated LEGO models, but also AI-animated LEGO ones.<p>I took a look at results from pa…
+   - **Hypothesis-ek:** H62 (Proof Chain), H103 (Policy Tree Audit)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **Perplexity launches AI agents for work** (0)
+   - **Forrás:** n/a 2026-11-06T17:59:41+00:00 — https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Show HN: AegisKernel – Zero-trust POSIX runtime for AI agents in <0.016ms** (0)
+   - **Forrás:** n/a 2026-11-06T17:00:23+00:00 — https://adikshatriyag-crypto.github.io/aegis-kernel/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+10. **Enterprises must take blame for their AI agents’ mistakes, say regulators - Computerworld** (0)
+   - **Forrás:** n/a 2026-11-06T14:25:54+00:00 — https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQmVRUXdMU282aHlyNzlQaFpzcE1EVGUxVWpiZ0MzclRFTjhYcUNDV2w4YWFPaDZidGVuQzBzQW1hQ1RZelJiUklXeXhRVnZzSUFkaUpPTjgzU1phUlpaMV9BS1dINHZxcWNzcjQyQi0zV1FlSW44NFNaTlUyaFRXQlBRNFlURlhCeUwyelFFU2pkN2x2a2g2MDFFbjhsSzBTeXE4NXgtMFBIWHVDbmk3dUotUlZvSldPU3BabllqaGptZw?oc=5
+   - **Thesis:** Enterprises must take blame for their AI agents’ mistakes, say regulators&nbsp;&nbsp;Computerworld
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H71** (Rubric-Guided Policy): mai signalok által megerősítve
+- **H103** (Policy Tree Audit): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-11-07 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
