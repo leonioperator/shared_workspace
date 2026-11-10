@@ -15499,3 +15499,112 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-11-10
+
+**Forrás:** Blindspot Signals Report 2026-11-10 (43 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.3 – 0
+**Assessment Date:** 2026-11-10
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **HomeLoop: A Simulation Framework and Benchmark for Robot-IoT Coordination in Everyday Domestic Assistance and Safety** (0.3)
+   - **Forrás:** n/a 2026-11-06T02:54:11+00:00 — https://arxiv.org/abs/2611.08914
+   - **Thesis:** Recent progress in embodied robotics is bringing robots closer to deployment in homes, as vision-language models (VLMs) are demonstrating significant advances in reasoning, making VLM-driven robots promising home assistant agents. These agents will often be introduced into homes that already have cameras, Internet of Things (IoT) devices, and residents with wearables. To fulfill their potential, they need to integrate with existing smart infrastructure and reason through ambiguous scenarios: a smoke alarm may come…
+   - **Hypothesis-ek:** H62 (Proof Chain), H66 (Oversight Incentive / Delay Risk), H105 (Decentralized Governance), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A benchmark-konstrukció maga is verifikálható multi-agent pipeline lesz; H104 és H62 közvetlenül erősödik.
+
+2. **'This represents an important evolution in AI governance': Infosys lays out how your business can thrive with the new generation of autonomous AI agents - TechRadar** (0.2)
+   - **Forrás:** n/a 2026-11-09T12:25:00+00:00 — https://news.google.com/rss/articles/CBMiiwJBVV95cUxQbWdCQTdfLWNMVlpncTY3SE9falFDTzh2Y1FXY1dpMmtxb25rNDBNWjVhd3FYMWw2SWpwblc0RjB5cXBhM1NKYlR4TmRobllDYzBuazk2NUhNY1drY2l5YjZmZDc2blR2eFpWX1lWNmRzeUtienNtSXNyTW90OTB1NUx0bUdfWFdobXRWbGdmeEZCbk5IbVpnaTVnY0VWS0pxRGZra3R5aHNKNFpwdHRuZGkxYUg5a2ZXYzFMZTNWTnc0MDM0NEl4bUVHRmNFLVVGYVBZTVB3Sm1fSWxJbWw2bWUxNXVoeWdENGxmWmFTQk1sTTdLUm8xX3NfdFU5elBwU3FUSkRDMDhFRTQ?oc=5
+   - **Thesis:** 'This represents an important evolution in AI governance': Infosys lays out how your business can thrive with the new generation of autonomous AI agents&nbsp;&nbsp;TechRadar
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Ask HN: How do you manage your AI agents' context across clients and projects?** (0.2)
+   - **Forrás:** n/a 2026-11-07T10:01:48+00:00 — https://news.ycombinator.com/item?id=50403153
+   - **Thesis:** Hi Guys, like many of you I work with AI agents every day and across several clients. The major time cost for me is to re-explaining context and past decisions, client rules, that we already do. To finish every tools as its own memory.<p>So I’m curious how you actually handle this:<p>1. When you start a new session, how do you give context to the agent (context came from chat, mail, ticket ...) ?<p>2. Do you use more than one agent type (claude, codex ...) ? And if yes, how do you carry context between agents ?<p>3…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **From Emergence to Reversibility: Toward Reversible Multi-Agent Systems** (0.2)
+   - **Forrás:** n/a 2026-11-06T06:29:41+00:00 — https://arxiv.org/abs/2611.09054
+   - **Thesis:** Multi-agent systems become capable through institutional mechanisms, such as rules that route information to agents that act on it. These mechanisms are also natural places to restrict the system. Yet as agents learn, share memory, delegate, and repair failures, the collective can find other paths to the same effects: a restriction on the original mechanism still operates but no longer stops them, while routine performance and compliance checks pass. We propose \textbf{Reversible Multi-agent Systems} as a research…
+   - **Hypothesis-ek:** H66 (Oversight Incentive / Delay Risk)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **Australian law expert calls for AI governance overhaul - IT Brief Australia** (0.1)
+   - **Forrás:** n/a 2026-11-09T21:00:00+00:00 — https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTXlPT3lNbEtDNlpaTFV2b0N0R2hCc1hVMDFRUVZ6NnJuclc1V0h1dTI0NEt4WnJibUxUREtLazNvdzRVWHhWekVxU0s4allWUXVhOUdmLXhwZEFMVXlfaU9wdFk0eTBPLWttTk1kbFdlX2pyYmFGVXVIT0pER2I3c3Rnak5RT0dMdmpj?oc=5
+   - **Thesis:** Australian law expert calls for AI governance overhaul&nbsp;&nbsp;IT Brief Australia
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **How Space and Time Enterprise is Forcing Autonomous AI Agents to Prove Their Math - TechBullion** (0.1)
+   - **Forrás:** n/a 2026-11-09T17:12:09+00:00 — https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNmYxS3VqOW1wN2J3U1RmZUNycms3WjEtWXNpbS16bU05UjdFQy1kNFFmdU5VNEMzM1d1WHcyd2FXWXlYNmJ5Z1RQSGdJWE5XaXJHcXA0WThmOFp3cS1iZ0ZpZUVrcjVTWVVqMWhXZ1RQcV9jY3VaLWhtVnNhbDBlZ1BsRl93Yk1mUEFUdndTd0FwcmhDRURNeVQyZldLV0tYOFE4NWJ2V1hmUQ?oc=5
+   - **Thesis:** How Space and Time Enterprise is Forcing Autonomous AI Agents to Prove Their Math&nbsp;&nbsp;TechBullion
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+7. **MemoryDojo: Benchmarking Poisoning Through LLM Agent Memory** (0.1)
+   - **Forrás:** n/a 2026-11-06T17:00:09+00:00 — https://arxiv.org/abs/2611.09721
+   - **Thesis:** LLM agents benefit from using memory systems to improve performance on long-horizon, multi-session tasks. However, memory introduces a critical attack surface. Malicious instructions encountered in one session may be stored and propagated through memory before being retrieved and acted upon in later sessions. Because memory systems differ in how they process and retrieve information, the downstream effects of poisoning can vary significantly across systems. To quantify the effects of poisoning across different memo…
+   - **Hypothesis-ek:** H62 (Proof Chain), H72 (High-Stakes Integrity)
+   - **Megerősítés:** A benchmark-konstrukció maga is verifikálható multi-agent pipeline lesz; H104 és H62 közvetlenül erősödik.
+
+8. **Safe Circumnavigation on Heterogeneous Orbits: A Range-Only HOCBF-QP Framework for Nonholonomic Multi-Agent Systems** (0.1)
+   - **Forrás:** n/a 2026-11-06T07:46:43+00:00 — https://arxiv.org/abs/2611.09112
+   - **Thesis:** Circumnavigating a stationary target with a team of robots requires each robot to hold its own standoff distance, to stay evenly spaced from its neighbours, and to avoid collisions with the target and with each other at every instant. The task becomes arduous when the robots are assigned different orbital radii, as their sensors or roles may demand. This paper presents a safety-critical control framework for this problem. Each robot commands both its acceleration and its turn-rate, measures only its distance to the…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **homeassistant ai / ha mcp** (0)
+   - **Forrás:** n/a 2026-11-10T02:01:43.350094+00:00 — https://github.com/homeassistant-ai/ha-mcp
+   - **Thesis:** Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **The realities of scaling AI agents: ‘You don't have an AI problem, you have a content problem’ - Sifted** (0)
+   - **Forrás:** n/a 2026-11-09T11:21:08+00:00 — https://news.google.com/rss/articles/CBMidEFVX3lxTFBJTHdyTklreWs2NVlERml6ak16XzJjaWhOVUUtamhkbElWYldkOE5pamtrVmxGRHRva05jcDNhRjlRenhSMVFnWm9sM052aDY0VW1JR0tCMk13WHY1eS00R0dzUkd6R3FadUFmUjBwR21FbW9Q?oc=5
+   - **Thesis:** The realities of scaling AI agents: ‘You don't have an AI problem, you have a content problem’&nbsp;&nbsp;Sifted
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+- **H105** (Decentralized Governance): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-11-10 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
