@@ -15723,3 +15723,108 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-11-12
+
+**Forrás:** Blindspot Signals Report 2026-11-12 (46 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.1 – 0
+**Assessment Date:** 2026-11-12
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Former Nexar AI researchers raise $13 million Seed to bring autonomous-driving simulations to AI agents - CTech** (0.1)
+   - **Forrás:** n/a 2026-11-11T14:40:00+00:00 — https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DODFCeldaMENjRFFKaE8tR3BCTk02Z1FHc1M1WldvODM1MkFQS1BSVjJBa0lvQk5mQWEzYnlzdGdNVW5YcGk3am40VXVDYmJHaFBZMDVTSHFPeFI1ZUh1dnVlZ0FTbkdx?oc=5
+   - **Thesis:** Former Nexar AI researchers raise $13 million Seed to bring autonomous-driving simulations to AI agents&nbsp;&nbsp;CTech
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Bay Emerges From Stealth With $50M After Fortune 100 Companies Used Its Platform to Triple Autonomous AI Agent Use - Business Wire** (0.1)
+   - **Forrás:** n/a 2026-11-10T13:00:00+00:00 — https://news.google.com/rss/articles/CBMigwJBVV95cUxOX1RiVVhQVGVFTENMeUdpNmdBeElfMnBHSFdOTjd2aUQzZkVNZ1dzWVlqYURuLTM4Smp5R2g4QlVlRmZDeXlXTEpMWnRuM09rVWFtWWdYVDREWmVHbWp2RnpRc2NKcU9feV9pb0czSGw5QlQ0d09lY0QwSGZGYW1jSGp4X2xWUjJnSy1rYllVeGYzRFZKdjNCNmRBSkRHcDlPQ1dQZWVNUFZ6UkpXZ1FDbkNVVmozOVV3dGlURjJlNkJzc3VtOVJZNEdUc3Atb25qdVhyN2VCOE0xX2M2MkNmMXg4eU5yRkF4QjVkZzFsT2VUanc3TUpLMF91elhFc1lMZ1Zn?oc=5
+   - **Thesis:** Bay Emerges From Stealth With $50M After Fortune 100 Companies Used Its Platform to Triple Autonomous AI Agent Use&nbsp;&nbsp;Business Wire
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **United Airlines bans AI agents from booking flights on behalf of travelers** (0)
+   - **Forrás:** n/a 2026-11-11T21:24:35+00:00 — https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **Reprogramming Dormant Neurons to Backdoor AI Agents** (0)
+   - **Forrás:** n/a 2026-11-11T21:06:05+00:00 — https://x.com/dimitrispapail/status/2120245027804705121?a=yp1VXtQi8Dep0GmUnxo
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **Show HN: Klad, a paint app your coding agent can drive (source-available)** (0)
+   - **Forrás:** n/a 2026-11-11T16:00:50+00:00 — https://github.com/klad-app/klad
+   - **Thesis:** I&#x27;ve been developing applications for a long time and have turned to game development as well lately. One of the things that frustrated me the most was that using AI agents for game development is very annoying in the art department. Your only options right now are to either use an image genAI model and roll the dice every time you want to make an edit, or have your agent draw with something like vectors.<p>I was looking for an application that would allow me to ask an agent to make a first draft of whatever a…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **Siri co-founder backs Helix for its voice ID tech** (0)
+   - **Forrás:** n/a 2026-11-11T15:02:47+00:00 — https://techcrunch.com/2026/11/11/siri-co-founder-backs-helix-for-its-voice-id-tech/
+   - **Thesis:** With the rise of AI agents like Instinct and Muse, the industry needs to rethink human identity on the internet and rely on biometric signals like voice, which is where Helix comes in.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth** (0)
+   - **Forrás:** n/a 2026-11-11T15:00:00+00:00 — https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/
+   - **Thesis:** With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads** (0)
+   - **Forrás:** n/a 2026-11-11T14:00:00+00:00 — https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/
+   - **Thesis:** Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **My AI agents found an unmapped Maya site?** (0)
+   - **Forrás:** n/a 2026-11-11T12:05:22+00:00 — https://pietromiotti.com/latest/maya-site
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **An auditable harness for biomolecular dynamics simulations by AI agents** (0)
+   - **Forrás:** n/a 2026-11-11T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.11.09.765490
+   - **Thesis:** AI agents now generate biological hypotheses faster than they can be tested. Hypotheses stated at the atomic level can be examined with molecular dynamics (MD) simulations. For new questions without a reference, trust in an agent-run simulation rests on a tool-written process record, not the agent's account. Existing MD agents leave this record to the language model. Here we present MDClaw, a harness whose validating tools and directed acyclic graph (DAG) check stages before execution and record every simulation st…
+   - **Hypothesis-ek:** H62 (Proof Chain)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-11-12 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
