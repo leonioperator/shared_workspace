@@ -15942,3 +15942,110 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-11-14
+
+**Forrás:** Blindspot Signals Report 2026-11-14 (41 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.2 – 0
+**Assessment Date:** 2026-11-14
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Large language models complement established workflows for mechanistic model construction and refinement in systems biology** (0.2)
+   - **Forrás:** n/a 2026-11-13T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.11.11.766014
+   - **Thesis:** Mechanistic models provide a framework for describing, understanding, and predicting biological processes, but their development requires an interdisciplinary team with expertise in biology, mathematics, and computation. Here we present Octomod, a multi-agent workflow based on large language models (LLMs) that integrates biological knowledge retrieval, model construction, parameter estimation, and hypothesis testing. Built on established software tools, including AMICI and pyPESTO, and community standards, includin…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+2. **Between Niti and Nyaya: A Society-Centered Framework for AI Governance** (0.2)
+   - **Forrás:** n/a 2026-11-12T02:02:00+00:00 — https://arxiv.org/abs/2611.16173
+   - **Thesis:** Governments are making decisions about AI before they can measure its public effects, and those decisions determine whether a person can learn that AI influenced an outcome, challenge it, and see it corrected. Research has documented what AI governance produces: principles, strategies, registers, and audits. However, we lack shared language for understanding AI policy while it is still being made. We introduce the Society-Centered AI Governance Framework, which gives policymakers, researchers, and the public a way…
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **DISCERN: Preserve at Write, Resolve at Read for Persistent LLM-Agent Memory** (0.2)
+   - **Forrás:** n/a 2026-11-11T17:06:07+00:00 — https://arxiv.org/abs/2611.15729
+   - **Thesis:** Enterprise agents accumulate memory across dozens of sessions in which facts contradict, get superseded, and blur as similarly named entities collide in embedding space. The field treats this as a retrieval problem; we show it is not. On ENT-310, a synthetic enterprise sales-agent memory benchmark of 310 queries (210 answerable, 100 unanswerable), a vanilla Retrieval-Augmented Generation (RAG) reader over a memory store already matches strong memory systems on the recall pillars. Retention and currency are near-sat…
+   - **Hypothesis-ek:** H62 (Proof Chain), H63 (Legal Entity / Human-Centered Governance), H104 (Meta-Agent Decomposition)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **Autonomous (YC F25) is hiring MTS to build AI agents that manage your wealth** (0.1)
+   - **Forrás:** n/a 2026-11-13T21:01:11+00:00 — https://atg.science/careers
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **Discovering Effective Agent Memory Designs through Program Evolution** (0.1)
+   - **Forrás:** n/a 2026-11-12T16:42:04+00:00 — https://arxiv.org/abs/2611.17068
+   - **Thesis:** Program evolution provides a promising approach to discover agent memory designs and study the choices underlying their effectiveness. We introduce MAPE, a framework that evolves whole memory programs from minimal seeds through a standardized lifecycle interface and an iterative diagnosis-proposal loop. Experiments on LoCoMo and LongMemEval yield an absolute accuracy gain of up to 12% over manually designed baselines at 35% of the serving cost, with further evaluations supporting transfer across serving backbones a…
+   - **Hypothesis-ek:** H62 (Proof Chain)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **Inverse-Optimal Fixed-Time Integral Reinforcement Learning for Unknown Nonlinear Leader-Follower Multi-Agent Systems** (0.1)
+   - **Forrás:** n/a 2026-11-11T02:32:25+00:00 — https://arxiv.org/abs/2611.14927
+   - **Thesis:** This paper develops a distributed inverse-optimal fixed-time integral reinforcement learning framework for unknown nonlinear leader-follower multi-agent systems. The proposed method first reconstructs the unknown agent dynamics from finite integral data. Based on the identified dynamics, a distributed inverse-optimal formulation is constructed by prescribing a desired fixed-time value function and recovering a compatible running cost. A critic-only integral reinforcement learning architecture is then developed usin…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **AI agent startup LangChain hits $3B valuation** (0)
+   - **Forrás:** n/a 2026-11-13T19:37:57+00:00 — https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/
+   - **Thesis:** LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **ChatGPT’s new Wallet lets AI agents shop and check out for you** (0)
+   - **Forrás:** n/a 2026-11-13T16:00:12+00:00 — https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/
+   - **Thesis:** ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **An AI agent pitched a story to CBC Quebec. We replied to see what would happen - CBC** (0)
+   - **Forrás:** n/a 2026-11-13T09:00:00+00:00 — https://news.google.com/rss/articles/CBMiugFBVV95cUxQRnRzamxhMnNwOWJyY05Sa1hYZzNCMDYwSWNHRENTVW5EQTFPa21La2F3RHUtM0sxa0Vta0FJSGx5WHR1ZkxyTzhIaFBUZ1kzSHNoMndIYzRMcTVQR21lZXMzUGpidmZ0NG8tUEdNLVZUR0otemFPNUxHMDItREUwZGtwZHUwMTR0UjMzd1g2ZVM5LTlrU1ZmS3VwRTVEMjVrRDZaTkdqOWZ6ODBZV3lHcFY0cmRaMHAzd2c?oc=5
+   - **Thesis:** An AI agent pitched a story to CBC Quebec. We replied to see what would happen&nbsp;&nbsp;CBC
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Brave Search API now accepts agentic payments via the x402 protocol** (0)
+   - **Forrás:** n/a 2026-11-13T03:08:08+00:00 — https://brave.com/blog/search-api-agentic-payments/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H104** (Meta-Agent Decomposition): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-11-14 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
