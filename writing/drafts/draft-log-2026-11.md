@@ -13,3 +13,5 @@ updated_at: '2026-11-02T07:00:01.484666+00:00'
 - 2026-11-01 | elkezdodott | elkezdodott-2026-11-01-ai-agent-deterministicus-vegrehajtas.md
 - 2026-11-08 | vinczetamas | vinczetamas-2026-11-08-kontrollalt-ai-operator-kkv.md
 - 2026-11-08 | elkezdodott | elkezdodott-2026-11-08-ai-agent-deterministicus-vegrehajtas.md
+- 2026-11-15 | vinczetamas | vinczetamas-2026-11-15-kontrollalt-ai-operator-kkv.md
+- 2026-11-15 | elkezdodott | elkezdodott-2026-11-15-ai-agent-deterministicus-vegrehajtas.md
