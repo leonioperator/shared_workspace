@@ -16389,3 +16389,112 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-11-18
+
+**Forrás:** Blindspot Signals Report 2026-11-18 (47 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.2 – 0
+**Assessment Date:** 2026-11-18
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Attenuated, Not Absent. Trusting Autonomous Systems Tracks Reliability More Closely, With Less Neural Engagement, Than Trusting Humans** (0.2)
+   - **Forrás:** n/a 2026-11-17T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.11.14.766654
+   - **Thesis:** Users of autonomous systems and AI assistants decide whether to accept a system's output, yet whether such active trust decisions engage the same evaluative architecture as trust between people remains unknown. Forty-four participants made trial-by-trial decisions to trust or distrust a human or autonomous system partner during fMRI, with identical prescripted accuracy for both partners across five difficulty levels. Despite equivalent performance, trust in humans exceeded their reliability. At the highest difficul…
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Cato Networks Launches AgentSense to Secure Autonomous AI Agents - The Fast Mode** (0.1)
+   - **Forrás:** n/a 2026-11-17T23:32:49+00:00 — https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZGxmMFB0aWFqS04wc0EzLTJ5YkVadk55aU5sc1FZckJSZ2hrRk50Y3ZBcnJNLUFBVXI4YkFpWHU2ZVZwczF1amhwZFdETTIxQ3JpT3ZqZzdHS0ZVYmR5WU5xdXktX0V2R014TWxPbThaUkZZWXlmdUhGQWliRkhhMFlmNHVDclJrRjJyODUzbEZBeEtrNTUtLXVPYzBlUFZwXzJBX2NjYnZ4UjZ2UUFHVHpwMHBvV004YVBnX09HdXBMUQ?oc=5
+   - **Thesis:** Cato Networks Launches AgentSense to Secure Autonomous AI Agents&nbsp;&nbsp;The Fast Mode
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Autonomous orchestration helps Kubernetes keep up with AI agents - SiliconANGLE** (0.1)
+   - **Forrás:** n/a 2026-11-17T20:35:00+00:00 — https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ0g3NE5JOXR6U2VKTnVBZkVUMk41OGk2UnZEdUFZRzNQVV80VHVRc2JvRE5FRlZUR2VoYTI5Mkg2OTg5UmJqWUw5dHFBWVBYQW1hTy1kdkVUTWlvN0FkVG5Ga1lHdnpQM1NZSXN0ZExVVzRQTWRSNFpncV9iOEwwV1JMSVZHbnliOTg4MjlrY2R1VVZVby1wX3FkaGF6TWZoVWpxQmcxUFlWUQ?oc=5
+   - **Thesis:** Autonomous orchestration helps Kubernetes keep up with AI agents&nbsp;&nbsp;SiliconANGLE
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **Autonomous security: who’s watching your AI agents? - Gadget Flow** (0.1)
+   - **Forrás:** n/a 2026-11-17T19:14:23+00:00 — https://news.google.com/rss/articles/CBMihwFBVV95cUxOOTZoN2t1QUw5eVd3ejVvZWRQbzlLZXlJTUFhdjVveVNieXV4Qm5RNi1BekZqd09FNmtjYmRoaGpvUXk2b3NuQ3lXazNnYmEtUmlGYVhhRGZ3ZXdWM0tSZkNqeGFIS1BiX0gzY0dMdE1HRXkzWTE4MC1YYzBpSW1ZWkpwbEJpU2c?oc=5
+   - **Thesis:** Autonomous security: who’s watching your AI agents?&nbsp;&nbsp;Gadget Flow
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium** (0.1)
+   - **Forrás:** n/a 2026-11-17T16:01:04+00:00 — https://github.com/RunanywhereAI/trnrt
+   - **Thesis:** Hi HN, Sanchit here from RunAnywhere (YC W26). We just open-sourced TrnRT: Trainium RunTime, our inference engine for AWS Trainium. We started 3 weeks back, and currently we’re able to serve and run GLM 5.3 flash (FP8) on AWS trn2.48xlarge, and will bring more models support soon. It’s open to contributions :)<p>What it does today:<p>- Serves 2 instances of GLM-5.3 flash on a single box, 8 trn2 with a cache aware router.<p>- Can process 3.57M TPM (tokens per minute) on SemiAnalysis&#x27;s AgentX benchmarks.<p>- Run…
+   - **Hypothesis-ek:** H62 (Proof Chain), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **Building trust into every autonomous AI agent action - TM Forum Inform** (0.1)
+   - **Forrás:** n/a 2026-11-17T14:34:53+00:00 — https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdk5IWnByemtCNXJNQnZSbEZ4TTcyRGVxYUFQUThPLTVlUlZObERiaGpQVXFvVTB3M0dSWHFONWFFWFhXMlhyX0F4Zm1IdmxpOUJWejlFUlpRV1ZRQmFwVXJtQ2FwLUliOEY1SlZUS3hkMGNvelZQVk85TTNCdnA2ME9SSnFwNmc1bC1kTUNibmhhMlozMG5PUTEzM1MtLWp6ZzZRWFo2Rm44NFpXTmJwMmpTWE9HOWFqMHRZ?oc=5
+   - **Thesis:** Building trust into every autonomous AI agent action&nbsp;&nbsp;TM Forum Inform
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+7. **Process as Assurance: AI Governance in the UK and Canada - Stephenson Harwood** (0.1)
+   - **Forrás:** n/a 2026-11-17T02:07:04+00:00 — https://news.google.com/rss/articles/CBMipgFBVV95cUxQNWpYV0JRVlVGdmY2THpKWmtxY3BBUV9wZFZLQ0xnOE5MVWtBbkt3R0RiZ2luYmx2YnFGTTVYQkRsYTRoQkZNODBkc1l3cHM1dWNCUnF6Z0U1c3JTQVhZUFdPQmhKYk1Mc0wwOEZzSFQ1WUZaSzE2UnUwVWFfbmFUbkl4OTVnUVpsV0xPRjBrcGRfYWZsTjI5NGgwNmNUYlJvLVNKV2VR?oc=5
+   - **Thesis:** Process as Assurance: AI Governance in the UK and Canada&nbsp;&nbsp;Stephenson Harwood
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **Pharmacolibrary: Interoperable executable models for PK, PD and PGx derived from published evidence** (0.1)
+   - **Forrás:** n/a 2026-11-17T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.11.16.766960
+   - **Thesis:** Published pharmacological knowledge is distributed across heterogeneous scientific literature, databases, and computational models, making systematic reuse, comparison, and reproducibility difficult. We present Pharmacolibrary v26.11, a source-traceable resource that connects pharmacokinetic (PK), pharmacodynamic (PD), and pharmacogenomic (PGx) knowledge with executable models, simulations, and interactive visualizations. A multi-agent workflow combines LLM-assisted literature retrieval and extraction with determin…
+   - **Hypothesis-ek:** H62 (Proof Chain), H72 (High-Stakes Integrity), H101 (Misinformation / Ensemble Resilience)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+9. **statLens enables accurate and interpretable statistical intelligence** (0.1)
+   - **Forrás:** n/a 2026-11-17T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.11.16.767003
+   - **Thesis:** Diverse existing approaches and analyses of large-scale biomedical omics datasets along with the complexity of the corresponding statistical analytical workflows pose challenges to the direct application of large language models (LLMs) to data analysis tasks. We present statLens, a model-agnostic AI-driven statistical intelligence framework that integrates LLMs, code and human review. We demonstrate statLens using differential expression analysis across heterogeneous biomedical data as a use case. On 102 benchmark…
+   - **Hypothesis-ek:** H62 (Proof Chain), H72 (High-Stakes Integrity), H106 (Policy Tree Transparency), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+10. **JPMorgan is working on AI agent transactions that don’t involve humans - CNBC** (0)
+   - **Forrás:** n/a 2026-11-17T23:30:13+00:00 — https://news.google.com/rss/articles/CBMigwFBVV95cUxONVh4eHlLNlRjTEtRMFZKMF8wUHk1WFFNdHJhVXJVaGhIVFAweG9CUkttNG1Yakl4TExFektkSFNtcGxkazZjMGQ2ZUw1dm5meW9TME90YUlWamE4eEl3MjVianBhaVZpRFh2R1Y0Rko4bi1IWDZWRkRaeXQwazF4S1Zic9IBiAFBVV95cUxQMFZmbVZHeVo3X21XallydUV2Z1FoVGJMYWFfYVk4bXYwUFFwMEdnSG00RlNySHFqcUg1SzUwUFp4QWZPeHNzczItNHFpdUtYU2JKTXU5RWZ3TTNtaVI3dlFXVTViNHJsSGFyRWJCNGQzTmJCUU1JVnpyUUtkdkFsMTdUWTB6UzNj?oc=5
+   - **Thesis:** JPMorgan is working on AI agent transactions that don’t involve humans&nbsp;&nbsp;CNBC
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H101** (Misinformation / Ensemble Resilience): mai signalok által megerősítve
+- **H106** (Policy Tree Transparency): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-11-18 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
