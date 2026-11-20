@@ -16609,3 +16609,112 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-11-20
+
+**Forrás:** Blindspot Signals Report 2026-11-20 (55 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.2 – 0
+**Assessment Date:** 2026-11-20
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Accurate and interpretable protein complex stoichiometry prediction through agentic AI with StoiAgent** (0.2)
+   - **Forrás:** n/a 2026-11-18T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.11.17.767325
+   - **Thesis:** Accurate protein complex structure modeling requires knowledge of complex stoichiometry, yet the copy numbers of individual subunits are often unknown. Consequently, predicting protein complex stoichiometry has emerged as a major challenge in recent years. Here, we present StoiAgent, a large language model (LLM)-powered AI agent that automates the retrieval and integration of sequence, structural, and literature evidence to predict stoichiometry while preserving interpretable reasoning traces (chain of thoughts) of…
+   - **Hypothesis-ek:** H106 (Policy Tree Transparency)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **SPIDER: Contextualizing Biomedical Knowledge for Evidence-Grounded Scientific Reasoning** (0.2)
+   - **Forrás:** n/a 2026-11-18T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.11.11.765839
+   - **Thesis:** Aggregated relations in biomedical knowledge graphs can obscure evidence and study conditions, complicating the distinction between scientific disagreement and contextual differences. Here we introduce SPIDER, a multi-agent framework grounding biomedical relations in literature evidence and extracting study conditions for interpretation. Applied to a graph integrating 48 databases and ontologies, SPIDER analyzed 1.95 million PubMed abstracts, adding 2.31 million previously unrepresented, literature-supported entity…
+   - **Hypothesis-ek:** H62 (Proof Chain), H72 (High-Stakes Integrity), H90 (Multi-Agent Debate / Research Agents)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Report: Apple job listings detail plans for autonomous AI agents - 9to5Mac** (0.1)
+   - **Forrás:** n/a 2026-11-19T22:21:00+00:00 — https://news.google.com/rss/articles/CBMimwFBVV95cUxNNWJ3VnhPQ0NGd0w0SUxVbGhZT0VGMkFua1A4SnF1TEZwT21TMW1KTUkydWpzODRUdkM1cTgwTTZhaFhqYW93eWpOeWFMZmZMdDhWYUdOUkdGNDRCQ3V4RmxMVkcyWWxDMXhOREpvV19oMUFBbzRwd1gxUWt6c1poYTQwQWxZOXV0SGlUQlhDWEpqbWJBMWFMQkFHYw?oc=5
+   - **Thesis:** Report: Apple job listings detail plans for autonomous AI agents&nbsp;&nbsp;9to5Mac
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **From dialogue to delivery: making AI governance work in Southeast Asia - OECD AI Policy Observatory** (0.1)
+   - **Forrás:** n/a 2026-11-19T14:24:10+00:00 — https://news.google.com/rss/articles/CBMimAFBVV95cUxNVjBDSU9VUWFxTUt5YkVyZm9pSkFMWkFoWnpOTTFFcndTbTZ2Tmo5eWhOTzdYRTlLTklESnNuSTdNejhyNHlxM0ZCRFlJNlJjR2VEX3dtMDVYZVV2SWIyd01zZWc4Wmo0MzlLX2p4X1ZIUy1hQjk4OW5lU0NvbGV5S0hWZHM0VjVISUVTUGFTaHJQbjU2aE5SQQ?oc=5
+   - **Thesis:** From dialogue to delivery: making AI governance work in Southeast Asia&nbsp;&nbsp;OECD AI Policy Observatory
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **UK insurers lag on AI governance, Sapiens study finds - IT Brief UK** (0.1)
+   - **Forrás:** n/a 2026-11-19T09:30:00+00:00 — https://news.google.com/rss/articles/CBMihwFBVV95cUxPb2VPZTlsTi1WM2Y0Z04tR2pTOUMzVnUyUlEtMi1yWktGUFlicWFJdzVSWE00N2xiZkRhY2J5ZW5xcHBCMF91WTh6VHRlVHNuSEk3Z2JJMnktSVQtUUZqTkZCclNTeUxmOEFiTkd2X18tUFkxWnlfLWJZRTlCcUw5clUtNkxhWkU?oc=5
+   - **Thesis:** UK insurers lag on AI governance, Sapiens study finds&nbsp;&nbsp;IT Brief UK
+   - **Hypothesis-ek:** H63 (Legal Entity / Human-Centered Governance)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **Apple may be developing its own AI agent that runs your Mac** (0)
+   - **Forrás:** n/a 2026-11-20T00:56:01+00:00 — https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/
+   - **Thesis:** The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **These tech outages are giving Y2K, AI agent style** (0)
+   - **Forrás:** n/a 2026-11-19T21:42:31+00:00 — https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/
+   - **Thesis:** Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Google gives Gemini the ability to use your Mac for you** (0)
+   - **Forrás:** n/a 2026-11-19T18:09:11+00:00 — https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/
+   - **Thesis:** Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says** (0)
+   - **Forrás:** n/a 2026-11-19T17:38:40+00:00 — https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/
+   - **Thesis:** In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belong to them.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Show HN: AgentMall – Let your AI agent buy groceries** (0)
+   - **Forrás:** n/a 2026-11-19T16:46:14+00:00 — https://getagentmall.com
+   - **Thesis:** Hey HN, we’re Nel and Kosi.<p>We noticed personal agents like Instinct, Muse were terrible at buying stuff. Most of the time the checkout would fail.<p>So we built reliable automations for agents to checkout at 9 leading grocery merchants.<p>We grapple with anti bot, logins, OTP codes, and changing checkout structures.<p>Loved revisiting this stuff given our backgrounds sneaker-botting and building computer use models. Honestly full circle haha.<p>It currently works on these sites with ~70% checkout success rate:<p…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H106** (Policy Tree Transparency): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H90** (Multi-Agent Debate / Research Agents): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H63** (Legal Entity / Human-Centered Governance): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-11-20 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
