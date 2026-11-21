@@ -16718,3 +16718,109 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-11-21
+
+**Forrás:** Blindspot Signals Report 2026-11-21 (41 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.3 – 0
+**Assessment Date:** 2026-11-21
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **NeuroImgAgent: a multi-agent platform for cross-species fMRI analysis with evidence-gated quality control** (0.3)
+   - **Forrás:** n/a 2026-11-19T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.11.19.767770
+   - **Thesis:** Cross-species functional MRI analysis requires coordinating specialized workflows and assessing intermediate outputs. We present NeuroImgAgent, a multi-agent platform driven by large language models that translates natural-language requests into workflows for humans, macaques, rats and mice. Quantitative checks and vision-language model assessments determine whether processing continues, enters bounded recovery or stops. Across 268 paired cases, preprocessing metrics were broadly comparable to those of fMRIPrep, AF…
+   - **Hypothesis-ek:** H62 (Proof Chain), H101 (Misinformation / Ensemble Resilience)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Neural correlates of neonicotinoid-induced impairment of olfactory long-term memory** (0.1)
+   - **Forrás:** n/a 2026-11-20T00:00:00+00:00 — https://www.biorxiv.org/content/10.1101/2022.05.04.489639
+   - **Thesis:** Reports of olfactory learning and memory deficits in honey bees exposed to neonicotinoid pesticides have been accumulating over the past decades. As agonists of the nicotinic receptors to acetylcholine, neonicotinoids target most of the projection neurons conveying olfactory information to the mushroom bodies, the brain centres involved in learning and memory. However, the neural mechanisms by which neonicotinoids interfere with memory formation are poorly understood. Here, we investigated the consequences of chron…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+3. **UndoGuard** (0.1)
+   - **Forrás:** n/a 2026-11-19T19:15:42+00:00 — https://www.producthunt.com/products/undoguard
+   - **Thesis:** <p> The Ctrl+Z button for autonomous AI agents </p> <p> <a href="https://www.producthunt.com/products/undoguard?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1323379?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **Apple is building an AI agent** (0)
+   - **Forrás:** n/a 2026-11-20T11:22:27+00:00 — https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **Restricting AI agents in mobile operating systems platforms from capturing data** (0)
+   - **Forrás:** n/a 2026-11-20T09:42:16+00:00 — https://signal.org/blog/protecting-your-privacy/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **Mailpipe** (0)
+   - **Forrás:** n/a 2026-11-20T04:13:55+00:00 — https://www.producthunt.com/products/mailpipe-2
+   - **Thesis:** <p> Draft Apple Mail replies with your local AI agent CLI </p> <p> <a href="https://www.producthunt.com/products/mailpipe-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1323758?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **Docker** (0)
+   - **Forrás:** n/a 2026-11-19T23:04:30+00:00 — https://www.producthunt.com/products/docker
+   - **Thesis:** <p> Built to run on trust, for the agentic era </p> <p> <a href="https://www.producthunt.com/products/docker?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1323572?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Apple Working on Own AI Agent to Rival OpenAI and Anthropic - Bloomberg.com** (0)
+   - **Forrás:** n/a 2026-11-19T21:44:56+00:00 — https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQzRPX3FrZlMybjdvY2FJVWhVOHU5M2lTTGNPazZYUW0zVlA3ZkVRcWxERk9XM2FvXzgzVDVUaTYwTzVzOXg0TGQtN25fOE9aeTRtUXhqTGE2Q01zQ21iTUg1dmFTNGZQRV9hTDVBV3BjWW4tUzYxXzBVTzA1UzkyOEtySVhfbWZlbmRXSFd1bVZLZElzSThUMmlQVnAyOHJIWUs0YTBNVTBIM29HV2ZieUtzQ1d0SDVIVTA2VTRTYk4?oc=5
+   - **Thesis:** Apple Working on Own AI Agent to Rival OpenAI and Anthropic&nbsp;&nbsp;Bloomberg.com
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **InteraOne** (0)
+   - **Forrás:** n/a 2026-11-19T06:13:43+00:00 — https://www.producthunt.com/products/interaone
+   - **Thesis:** <p> Open-source Intercom & Zendesk alternative with AI agents </p> <p> <a href="https://www.producthunt.com/products/interaone?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1322508?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **Tripmojo** (0)
+   - **Forrás:** n/a 2026-11-16T05:30:58+00:00 — https://www.producthunt.com/products/tripmojo
+   - **Thesis:** <p> Agentic travel app that helps plan, book and run your trip </p> <p> <a href="https://www.producthunt.com/products/tripmojo?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1318366?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H101** (Misinformation / Ensemble Resilience): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-11-21 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
