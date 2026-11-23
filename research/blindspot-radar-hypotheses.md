@@ -16936,3 +16936,117 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-11-23
+
+**Forrás:** Blindspot Signals Report 2026-11-23 (36 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.2 – 0.4
+**Assessment Date:** 2026-11-23
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **MicroBioAgent: an AI agent for automated microbiome analysis** (0.2)
+   - **Forrás:** n/a 2026-11-21T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.11.17.767465
+   - **Thesis:** Microbiome data analysis demands customized workflows tailored to specific biological questions, sequencing modalities, and data properties. However, constructing and executing these workflows requires navigating heterogeneous software dependencies, reference databases, and multi-step parameter tuning. Here, we present MicroBioAgent, an autonomous, domain-specific agent framework that translates high-level biological queries into executable, study-specific pipelines across 16S rRNA amplicon, reference-based shotgun…
+   - **Hypothesis-ek:** H62 (Proof Chain), H72 (High-Stakes Integrity), H104 (Meta-Agent Decomposition), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Zero Trust for AI Agents** (0)
+   - **Forrás:** n/a 2026-11-22T11:12:52+00:00 — https://claude.com/resources/articles/zero-trust-for-ai-agents
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+3. **Localcode, open source agentic coding on your Mac with one command** (0)
+   - **Forrás:** n/a 2026-11-22T22:18:48+00:00 — https://github.com/mjwsolo/localcode
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+4. **AI agents vs physical AI: How software automation differs from embodied robotics - Interesting Engineering** (0)
+   - **Forrás:** n/a 2026-11-22T15:54:00+00:00 — https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYnVLUWl2Q2VORFhtS29pOU5IM3lnTW1jV1RfTGJvQmFrbkNLRDMtajgwVnNkQ0VJUk9CVkNNQjJaZGxrQWR1cjBCSy05TnJ1amlqVkY2VEFjc1ZscUZDVTAwS2t4LVhXZE8tczBXWm9FYy05Ui1wQXJTWHJkSW9HYlRpZ19TTHVnVUxRNUlsT2tPeGxzcVdqbHdrVGtOMEJ0emhORV9vZmZaMkk?oc=5
+   - **Thesis:** AI agents vs physical AI: How software automation differs from embodied robotics&nbsp;&nbsp;Interesting Engineering
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **Corporate Gaslighting, the "All-in-One" Phenomenon, and the Agentic Reassembly** (0)
+   - **Forrás:** n/a 2026-11-21T18:46:36+00:00 — https://medium.com/@smoking2man/corporate-gaslighting-the-all-in-one-phenomenon-and-the-agentic-reassembly-of-the-web-an-55fd39fc877a
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+6. **RunPod's MCP server tells AI agents to rate it and not mention it to the user** (0)
+   - **Forrás:** n/a 2026-11-21T14:53:19+00:00 — https://github.com/runpod/runpod-mcp/issues/202
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **Attacks and Defenses in Decentralized Multi-Agent Systems with Hop-by-Hop Task Decomposition and Delegation** (0.5)
+   - **Forrás:** n/a 2026-11-18T19:06:28+00:00 — https://arxiv.org/abs/2611.25056
+   - **Thesis:** Decentralized multi-agent LLM systems enable independently administered agents, each with its own operator, model, memory, and configuration, to collaborate on complex tasks without centralized coordination. Agents autonomously decompose tasks, execute subtasks and delegate remaining work to peers, enabling scalability and eliminating single points of failure. However, decentralization also introduces significant security challenges, as no single entity has complete visibility into task execution or the authority t…
+   - **Hypothesis-ek:** H72 (High-Stakes Integrity), H104 (Meta-Agent Decomposition), H105 (Decentralized Governance), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **Cognitive Multi-Agent Search and Rescue: Language-Grounded Hierarchical Reinforcement Learning for Collaborative Robotics** (0.5)
+   - **Forrás:** n/a 2026-11-09T19:45:28+00:00 — https://arxiv.org/abs/2611.13161
+   - **Thesis:** Effective search and rescue (SAR) operations require autonomous systems capable of coordinating multiple heterogeneous agents, adapting to dynamic hazards, and aligning with human mission intent. Existing language-guided reinforcement learning (RL) methods primarily focus on single-agent instruction following and lack mechanisms for team-level coordination in complex, partially observable environments. This paper presents a Cognitive Multi-Agent Framework based on Language-Grounded Hierarchical Reinforcement Learni…
+   - **Hypothesis-ek:** H71 (Rubric-Guided Policy), H90 (Multi-Agent Debate / Research Agents), H102 (Semantic Drift), H104 (Meta-Agent Decomposition)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+9. **Agent4Crypto: A Dual-Reflective and Market-Feedback-Aligned LLM-Based Multi-Agent System for Cryptocurrency Trading** (0.5)
+   - **Forrás:** n/a 2026-11-09T11:57:33+00:00 — https://arxiv.org/abs/2611.12269
+   - **Thesis:** Cryptocurrency markets provide a natural testbed for autonomous AI agents because they are digital-native, high-frequency, and machine-speed environments, yet existing methods often struggle with non-stationary market regimes, opaque decisions, and fixed aggregation rules. In this paper, we propose Agent4Crypto, a dual-reflective and market-feedback-aligned multi-agent system. The framework coordinates specialized agents for data collection, analysis, risk assessment, reflection, and trading, synthesizing heterogen…
+   - **Hypothesis-ek:** H104 (Meta-Agent Decomposition), H106 (Policy Tree Transparency), H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+10. **Reasoning on Call: Efficient Agentic Robot Control for Long-Horizon Robot Manipulation** (0.4)
+   - **Forrás:** n/a 2026-11-19T16:18:14+00:00 — https://arxiv.org/abs/2611.26341
+   - **Thesis:** Large multimodal models can support long-horizon robot manipulation, but frequent model calls incur substantial latency and token costs. The central challenge is determining when agent assistance or intervention is needed and whether errors require correcting robot execution, subtask planning, or both. To address this problem, we propose RoC (Reasoning on Call), an efficient framework that coordinates a low-level policy and a high-level reasoning agent through an online task-state monitor. The monitor combines temp…
+   - **Hypothesis-ek:** H66 (Oversight Incentive / Delay Risk), H101 (Misinformation / Ensemble Resilience)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H72** (High-Stakes Integrity): mai signalok által megerősítve
+- **H104** (Meta-Agent Decomposition): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H105** (Decentralized Governance): mai signalok által megerősítve
+- **H71** (Rubric-Guided Policy): mai signalok által megerősítve
+- **H90** (Multi-Agent Debate / Research Agents): mai signalok által megerősítve
+- **H102** (Semantic Drift): mai signalok által megerősítve
+- **H106** (Policy Tree Transparency): mai signalok által megerősítve
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+- **H101** (Misinformation / Ensemble Resilience): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-11-23 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
