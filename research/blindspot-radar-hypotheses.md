@@ -17050,3 +17050,111 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-11-24
+
+**Forrás:** Blindspot Signals Report 2026-11-24 (41 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.3 – 0
+**Assessment Date:** 2026-11-24
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Digital Twins for Multi-Agent Systems: When to Trust, What to Change** (0.3)
+   - **Forrás:** n/a 2026-11-21T03:09:42+00:00 — https://arxiv.org/abs/2611.28517
+   - **Thesis:** Digital twins of agent networks need to flag unreliable forecasts and help users choose interventions. Both decisions depend on what happens over several steps: an error can spread through the network, and an edit whose trajectory is easy to predict may still yield a poor collective outcome. We ask when information about error propagation improves failure detection and whether a learned twin can select effective network edits despite imperfect forecasts. We propose Propagation-Aware Validation for Networked Digital…
+   - **Hypothesis-ek:** H66 (Oversight Incentive / Delay Risk), H101 (Misinformation / Ensemble Resilience)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **Embodied-Harness: Towards Recursive Self-Improvement for Robotic Manipulation** (0.3)
+   - **Forrás:** n/a 2026-11-20T14:55:07+00:00 — https://arxiv.org/abs/2611.27689
+   - **Thesis:** Vision-language model (VLM)-based agents offer a promising approach to robotic manipulation, yet remain limited by inadequate memory organization, uncertain failure attribution, and limited reuse of execution experience. We propose Embodied-Harness, a dual-agent framework that improves manipulation by refining the execution harness without updating model parameters. The Actor interacts with the environment through a robot-control interface, while the Reflector converts execution evidence into reusable operational g…
+   - **Hypothesis-ek:** H62 (Proof Chain)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+3. **Apple Builds Autonomous AI Agent To Take On OpenAI And Anthropic - Dataconomy** (0.1)
+   - **Forrás:** n/a 2026-11-23T07:45:29+00:00 — https://news.google.com/rss/articles/CBMikwFBVV95cUxNOUtUU1N5MUppQTY5Y2J4amVqSXRPQXQ4QjUwMzF5MTdnelM5RFhVdU1maVAyUUJQNEYxdXh0bEhveDhVM0pFaXZ6MThQOVhzZ1RHNmdnS1VzMkZ6NXV4TWJCWnpmQ0xvdHpXUUNXMUtLYkxidjlhN0hqT3piNEkzT0xZd1EtaUk2NmJHTEFBMWJzSFk?oc=5
+   - **Thesis:** Apple Builds Autonomous AI Agent To Take On OpenAI And Anthropic&nbsp;&nbsp;Dataconomy
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **Autonomous AI Agents Found a Zero-Day, Amazon Warns - The Cyber Express** (0.1)
+   - **Forrás:** n/a 2026-11-23T06:00:00+00:00 — https://news.google.com/rss/articles/CBMidkFVX3lxTE1fUkpvaHpNckJtOGFyb2xnSjBuN21zcFlmekVFZm1XRUZfcTNLVHdhMUlyRmxLNWRJMTExaU12WmhwUEczQUNSTUJlX3RrREpIdXJYeWYxcC1yUzVJNGVHNF9UWmxjYzltbU5OWmFfclpTM0NsY0HSAXtBVV95cUxQcVgxb1cyQjB3VVdsTVhaeW1YR1ZOTWJUZnlPb2ZDN0ZJeHdzUTg4M0VOV3ZoUndNeTFOcXVQQzRZQU5QT2VmaGhCN2JqWlQ5anpyRURXa1lzMjlvdlFvRVNYOTkxZnh0ZFJiMEpyd1ZWQVBKM29kSnByVFU?oc=5
+   - **Thesis:** Autonomous AI Agents Found a Zero-Day, Amazon Warns&nbsp;&nbsp;The Cyber Express
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+5. **Selective and Hybrid-State Communication for Latent Multi-Agent Systems** (0.1)
+   - **Forrás:** n/a 2026-10-27T18:02:10+00:00 — https://arxiv.org/abs/2610.37779
+   - **Thesis:** Efficient communication remains a major bottleneck in large language model multiagent systems. Latent communication reduces repeated natural-language exchange by transferring internal model states between agents, but these transfers remain costly and are typically designed around conventional KV-cache representations. We address this problem from two complementary perspectives. We introduce SelectKV, a boundary-aware method that selectively communicates KV states while protecting inherited context, and HyLaMAS, whi…
+   - **Hypothesis-ek:** H62 (Proof Chain), H100 (Latent Communication Security)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **Show HN: Lightweight Agentic CMS on Cloudflare – API, MCP, CLI, Web** (0)
+   - **Forrás:** n/a 2026-11-24T01:03:42+00:00 — https://docs.microfeed.org/
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+7. **Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes** (0)
+   - **Forrás:** n/a 2026-11-23T22:05:50+00:00 — https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/
+   - **Thesis:** As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.
+   - **Hypothesis-ek:** H66 (Oversight Incentive / Delay Risk)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+8. **Supertake raises $20M to let AI agents turn your market predictions into stock portfolios** (0)
+   - **Forrás:** n/a 2026-11-23T22:02:05+00:00 — https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/
+   - **Thesis:** Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+9. **The State of Agentic Engineering in 2026** (0)
+   - **Forrás:** n/a 2026-11-23T21:14:37+00:00 — https://www.superconductor.com/state-of-agentic-engineering-2026
+   - **Thesis:** No summary.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **CrowdStrike to acquire Zscaler for $44 billion** (0)
+   - **Forrás:** n/a 2026-11-23T16:20:11+00:00 — https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/
+   - **Thesis:** The cybersecurity giant said that the deal to buy Zscaler, which provides zero-trust products to large enterprises, will better equip their customers to use AI agents.
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H66** (Oversight Incentive / Delay Risk): mai signalok által megerősítve
+- **H101** (Misinformation / Ensemble Resilience): mai signalok által megerősítve
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H100** (Latent Communication Security): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-11-24 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
