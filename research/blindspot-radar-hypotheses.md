@@ -17269,3 +17269,111 @@ A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot ny
 - **Nincs új hypothesis:** consolidated pool validáció folytatódik
 - **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
 - **Next radar checkpoint:** következő napi signal report után
+
+
+## Daily Radar Delta - 2026-11-26
+
+**Forrás:** Blindspot Signals Report 2026-11-26 (48 megjelenített signal, AI agents / AI decision delegation fókusz)
+**Top Deep Score Range:** 0.2 – 0.1
+**Assessment Date:** 2026-11-26
+
+### Összefoglaló: Human-centered governance + deep research auditability + ensemble stability
+
+A mai signal report a meglévő agent-governance hypothesis poolt erősíti. Új önálló blindspot nem indokolt: a legerősebb jelek ugyanarra a konvergenciára mutatnak, mint az előző radar delta: human-centered governance, deep-research agent auditability, selective oversight, ensemble trust és verifikálható multi-agent pipeline.
+
+### Key Signals
+
+1. **Leto: Utility-Centric Agent Memory** (0.2)
+   - **Forrás:** n/a 2026-11-24T17:30:06+00:00 — https://arxiv.org/abs/2611.33005
+   - **Thesis:** Large language model (LLM) agents rely on external memory to retain and reuse information across interactions. Existing memory systems treat memory as a record of the past and evaluate it by fidelity to the conversation. However, the value of memory lies in whether it improves the agent's response. A memory system decides what to memorize and what to serve before that response exists, and fidelity checks neither decision against it. Faithful memory can therefore fail to improve the response. We instead view memory…
+   - **Hypothesis-ek:** H62 (Proof Chain)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+2. **RoboProbe: Benchmarking Physical Plausibility of Robot World Models** (0.2)
+   - **Forrás:** n/a 2026-11-24T08:06:52+00:00 — https://arxiv.org/abs/2611.32152
+   - **Thesis:** Evaluating the physical plausibility of generated videos is critical for reliable robotic planning with world models. These videos inform action proposal and assessment before real-world execution, so undetected physical violations can lead to erroneous assessments of action feasibility and safety. Yet current video generators often produce physically implausible interactions. Detecting such violations directly with vision-language models (VLMs) remains challenging as physical verification requires evidence-grounde…
+   - **Hypothesis-ek:** H62 (Proof Chain), H102 (Semantic Drift)
+   - **Megerősítés:** A benchmark-konstrukció maga is verifikálható multi-agent pipeline lesz; H104 és H62 közvetlenül erősödik.
+
+3. **RoboHarness-RL: Agentic Reinforcement Learning for VLM-Based Robot Manipulation** (0.2)
+   - **Forrás:** n/a 2026-11-24T05:59:50+00:00 — https://arxiv.org/abs/2611.32016
+   - **Thesis:** Agentic harnesses enable frontier vision-language models (VLMs) to manipulate robots through perception, planning, and control tools, yet achieving comparable performance with compact open-weight VLMs remains challenging. We present RoboHarness-RL, an agentic reinforcement learning framework for improving VLM-based robot manipulation through tool calls. Starting from supervised fine-tuning on successful teacher demonstrations, the VLM further improves through multi-turn reinforcement learning with task-outcome rewa…
+   - **Hypothesis-ek:** H101 (Misinformation / Ensemble Resilience)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+4. **Valence-Based Memory Prioritization in Neural Networks** (0.2)
+   - **Forrás:** n/a 2026-11-24T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.05.05.723022
+   - **Thesis:** Improving long-term memory in neural networks remains an open challenge. Existing memory prioritization approaches tend to rely on unsigned importance signals that determine how strongly information should be remembered without representing whether its significance is positive or negative. Inspired by emotional valence in biological memory, we introduce a computational framework that integrates both the magnitude and sign of importance into neural network learning and attention. Our framework combines three mechani…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+5. **Autonomous AI agents are giving everyday hackers ‘nation-state’ firepower, cyber expert reveals - Fox News** (0.1)
+   - **Forrás:** n/a 2026-11-25T18:43:29+00:00 — https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ180aXFlaEdQTE9FcGZkbTlWX25PSUFZTEVUS1FldkdiSmQ3RTVucU1iaU1WZS1DNlRfQmFZeC1fRzdLMXZjLXU5MWh0cVFFbktWYnZ6azYwejI3U0loODRzakpOTWlCaHdIelFCc0drS1BTRTFvQi1MYTdQWWdiNXV2LUQwS0JXb0lDclRudkNIR2xWS1JtU2s2S1FJSExjaDlHdlgxWVJkcU1va2RMR3JrXzJ0UdIBuwFBVV95cUxOYUVfbkM2UVhXLXpMdkF3OTlTcV9uSDRtUUl6Y1EyVm5rZnNJLWhzUTlNUjNnSGhtajZhamtuOFFud2xkVEhwZFVSdWFwZF8wek5FZUtKb00tVDdLeFRtblBvNUczSXdWNnFtcHdUOEd2T1pYUG9fR1FCZ2l5anRZRHNxbjktRndyNk5DRld0SG1NcWkxQ1FlRGMwSk1QdHU4WDlBQlFpcVdJSWZvYTZiaFZoT0hYZHpnM1NR?oc=5
+   - **Thesis:** Autonomous AI agents are giving everyday hackers ‘nation-state’ firepower, cyber expert reveals&nbsp;&nbsp;Fox News
+   - **Hypothesis-ek:** H107 (Runtime Autonomy Control)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+6. **An Open, Evolving Brain and Cognitive Aging Simulator Enabled by Agentic Artificial Intelligence** (0.1)
+   - **Forrás:** n/a 2026-11-25T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.11.24.769018
+   - **Thesis:** An agentic AI simulator was built to advance our understanding about how the human brain and cognition change with age. The simulator generates worlds based on hypothesized age-linked cascades and then simulates studies across varied experimental designs and selection criteria. Each simulated world begins with 120,000 individual lives initiated by baseline parameters (e.g., genetic risk, birth year) and then changed by age-dependent cascades (e.g., amyloid-dependent, cardiovascular). Examples illustrate how the sim…
+   - **Hypothesis-ek:** H71 (Rubric-Guided Policy)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+7. **MemoryWorks** (0.1)
+   - **Forrás:** n/a 2026-11-24T20:30:45+00:00 — https://www.producthunt.com/products/memoryworks
+   - **Thesis:** <p> Company memory for people and AI agents </p> <p> <a href="https://www.producthunt.com/products/memoryworks?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed">Discussion</a> | <a href="https://www.producthunt.com/r/p/1329703?app_id=339">Link</a> </p>
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+8. **Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies** (0.1)
+   - **Forrás:** n/a 2026-11-24T17:32:00+00:00 — https://arxiv.org/abs/2611.33010
+   - **Thesis:** Can a simple mirror expose the limitations of today's robotic manipulation policies? Inspired by the mirror self-recognition test in animal cognition, we investigate whether robot policies can reliably manipulate physical objects in scenes containing their reflections. We introduce RoboDojo-Mirror, a benchmark built on RoboDojo that preserves task objectives, success criteria, and policy checkpoints while comparing a mirror-free baseline with single-mirror, dual-mirror, and mirrored-tabletop conditions. Across five…
+   - **Hypothesis-ek:** H62 (Proof Chain), H71 (Rubric-Guided Policy)
+   - **Megerősítés:** A signal meglévő governance hypothesis-t erősít, új önálló hypothesis nélkül.
+
+9. **OVOK: A Recursive Self-Improving Agentic Framework for Video-Based Articulated Robot State Estimation** (0.1)
+   - **Forrás:** n/a 2026-11-24T08:35:58+00:00 — https://arxiv.org/abs/2611.32185
+   - **Thesis:** Recovering articulated robot state from video supports metric spatial sensing for manipulation, scene reconstruction, and action planning. Yet the problem is ill-posed: different intrinsics, camera-to-robot poses, and joint angles can explain similar observations. Prior task-specific regressors typically assume known intrinsics, fit one robot through laborious data collection and robot-specific training, and still transfer poorly across scenes. Foundation models apply to any robot zero-shot, but their estimates hav…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+10. **From hands to tools: evidence for evolutionary precursors of tool processing in macaque cortex.** (0.1)
+   - **Forrás:** n/a 2026-11-24T00:00:00+00:00 — https://www.biorxiv.org/content/10.64898/2026.11.24.768489
+   - **Thesis:** In humans, hands are animate effectors and tools are visually dissimilar inanimate objects, yet the brain represents them in closely related cortical systems. Whether this coupling depends uniquely on human tool knowledge or reflects a conserved property of primate cortex is unknown. Using whole brain fMRI (0.22 cubic mm voxels) in macaques viewing images of hands, tools, and other objects, we found that inferotemporal cortex largely followed the animate/inanimate division, with only a few small hand-tool preferrin…
+   - **Hypothesis-ek:** H62/H72 általános auditability validation
+   - **Megerősítés:** Általános agent-platform relevancia, de önálló új hypothesis nincs.
+
+### Nincs Új Hypothesis (Mai Signal Kontextus)
+
+A mai jelek a meglévő hypothesis poolt validálják. Nem kell új H-számot nyitni; a piac/technológia ugyanazokat a vevői problémákat teszi konkrétabbá: audit proof chain, human-centered mandate, selective oversight, ensemble trust, semantic/representation integrity.
+
+**Megerősített Hypothesis Pool:**
+- **H62** (Proof Chain): mai signalok által megerősítve
+- **H102** (Semantic Drift): mai signalok által megerősítve
+- **H101** (Misinformation / Ensemble Resilience): mai signalok által megerősítve
+- **H107** (Runtime Autonomy Control): mai signalok által megerősítve
+- **H71** (Rubric-Guided Policy): mai signalok által megerősítve
+
+### Top 3 Opportunity
+
+**1. Human-Centered Agent Governance Evidence Pack (H63 + H72 + H62)**
+- **Szövegkörnyezet:** Human cognition/culture/values + auditable deep-research workflows + domain verification.
+- **Opportunity:** governance evidence pack: mandate, value/rubric snapshot, decision transcript, source proof chain, domain self-check.
+- **Kísérlet:** Navibase/Leoni high-risk run proof receipt: input hash, tool trace, policy/rubric snapshot, human approval point.
+
+**2. Selective Oversight & Delay-Stability Monitor (H66 + H107)**
+- **Szövegkörnyezet:** Delay-induced instability + runtime adaptation/resource constraints.
+- **Opportunity:** approval-point optimizer: high-leverage gate detection, delay budget, routine auto-approve, regression alert.
+- **Kísérlet:** mérni approval latency-t és override rate-et Leoni cron/agent workflowkon; jelölni a késleltetésre érzékeny döntési pontokat.
+
+**3. Ensemble Trust / Research-Agent Audit Service (H87 + H101 + H104)**
+- **Szövegkörnyezet:** agent-agent trust mérhetőség + benchmark construction + deep research multi-agent audit.
+- **Opportunity:** ensemble trust profile és DRA audit template: pairwise verification cost, trust recovery SLA, planning DAG proof.
+- **Kísérlet:** 3-4 agent decision DAG stress-test: hamis jel injektálás, verification-cost mérés, recovery idő.
+
+### Conclusion
+
+**2026-11-26 radar delta:**
+- **Nincs új hypothesis:** consolidated pool validáció folytatódik
+- **Kritikus konvergencia:** human-centered governance + auditable deep-research + ensemble trust + delay-aware oversight
+- **Next radar checkpoint:** következő napi signal report után
